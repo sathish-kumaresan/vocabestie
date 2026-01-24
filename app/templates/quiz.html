@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz - Vocabestie{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Vocabulary Quiz</h1>
+
+    <div id="stats-bar" class="bg-white rounded-lg shadow-md p-4 mb-6 flex justify-around text-center">
+        <div>
+            <span class="text-2xl font-bold text-indigo-600" id="score">0</span>
+            <p class="text-gray-600">Score</p>
+        </div>
+        <div>
+            <span class="text-2xl font-bold text-gray-600" id="question-num">0</span>
+            <p class="text-gray-600">Questions</p>
+        </div>
+        <div>
+            <span class="text-2xl font-bold text-green-600" id="accuracy">0%</span>
+            <p class="text-gray-600">Accuracy</p>
+        </div>
+    </div>
+
+    {% if total_words < 4 %}
+    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+        <div class="text-4xl mb-4">📝</div>
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Not enough words</h2>
+        <p class="text-gray-600 mb-4">You need at least 4 words to take a quiz.</p>
+        <a href="/" class="text-indigo-600 hover:underline">Add more words</a>
+    </div>
+    {% else %}
+    <div id="quiz-container">
+        <div id="question-card" class="bg-white rounded-lg shadow-md p-8">
+            <p class="text-sm text-gray-500 mb-2">What is the definition of:</p>
+            <h2 id="quiz-term" class="text-3xl font-bold text-gray-800 mb-8 text-center"></h2>
+
+            <div id="options" class="space-y-3">
+                <!-- Options will be inserted here -->
+            </div>
+        </div>
+
+        <div id="result-card" class="bg-white rounded-lg shadow-md p-8 hidden">
+            <div id="result-icon" class="text-6xl text-center mb-4"></div>
+            <h2 id="result-text" class="text-2xl font-semibold text-center mb-4"></h2>
+            <div id="correct-answer" class="bg-gray-50 rounded-lg p-4 mb-6">
+                <p class="text-sm text-gray-500">Correct answer:</p>
+                <p id="correct-definition" class="text-lg text-gray-800"></p>
+            </div>
+            <button onclick="nextQuestion()" class="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                Next Question
+            </button>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let currentQuestion = null;
+    let score = 0;
+    let totalQuestions = 0;
+
+    async function loadQuestion() {
+        const questionCard = document.getElementById('question-card');
+        const resultCard = document.getElementById('result-card');
+
+        questionCard.classList.remove('hidden');
+        resultCard.classList.add('hidden');
+
+        try {
+            const response = await fetch('/quiz/api/question');
+            if (!response.ok) throw new Error('Failed to load question');
+
+            currentQuestion = await response.json();
+            document.getElementById('quiz-term').textContent = currentQuestion.term;
+
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = currentQuestion.options.map((option, index) => `
+                <button onclick="selectAnswer('${option.replace(/'/g, "\\'")}')"
+                        class="w-full text-left p-4 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:bg-indigo-50 transition-colors">
+                    ${option}
+                </button>
+            `).join('');
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
+    async function selectAnswer(answer) {
+        if (!currentQuestion) return;
+
+        const response = await fetch('/quiz/api/answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                word_id: currentQuestion.word_id,
+                selected_answer: answer,
+                quiz_type: 'multiple_choice'
+            })
+        });
+
+        const result = await response.json();
+        totalQuestions++;
+
+        if (result.correct) {
+            score++;
+            document.getElementById('result-icon').textContent = '✅';
+            document.getElementById('result-text').textContent = 'Correct!';
+            document.getElementById('result-text').className = 'text-2xl font-semibold text-center mb-4 text-green-600';
+        } else {
+            document.getElementById('result-icon').textContent = '❌';
+            document.getElementById('result-text').textContent = 'Incorrect';
+            document.getElementById('result-text').className = 'text-2xl font-semibold text-center mb-4 text-red-600';
+        }
+
+        document.getElementById('correct-definition').textContent = result.correct_answer;
+        document.getElementById('score').textContent = score;
+        document.getElementById('question-num').textContent = totalQuestions;
+        document.getElementById('accuracy').textContent = Math.round((score / totalQuestions) * 100) + '%';
+
+        document.getElementById('question-card').classList.add('hidden');
+        document.getElementById('result-card').classList.remove('hidden');
+    }
+
+    function nextQuestion() {
+        loadQuestion();
+    }
+
+    // Initialize
+    {% if total_words >= 4 %}
+    loadQuestion();
+    {% endif %}
+</script>
+{% endblock %}

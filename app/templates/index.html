@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}Vocabestie - Vocabulary Learning App{% endblock %}
+
+{% block content %}
+<div class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Vocabestie</h1>
+    <p class="text-xl text-gray-600">Master vocabulary with flashcards, quizzes, and spaced repetition</p>
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+    <a href="/flashcards" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+        <div class="text-4xl mb-4">📚</div>
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Flashcards</h2>
+        <p class="text-gray-600">Review vocabulary with interactive flashcards using spaced repetition</p>
+    </a>
+
+    <a href="/quiz" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+        <div class="text-4xl mb-4">🎯</div>
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Quiz</h2>
+        <p class="text-gray-600">Test your knowledge with multiple choice quizzes</p>
+    </a>
+
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="text-4xl mb-4">📊</div>
+        <h2 class="text-xl font-semibold text-gray-800 mb-2">Statistics</h2>
+        <div id="stats" hx-get="/flashcards/api/stats" hx-trigger="load" hx-swap="innerHTML">
+            <p class="text-gray-600">Loading stats...</p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-6">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Add New Word</h2>
+    <form id="add-word-form" class="space-y-4">
+        <div>
+            <label for="term" class="block text-sm font-medium text-gray-700">Term</label>
+            <input type="text" id="term" name="term" required
+                   class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border">
+        </div>
+        <div>
+            <label for="definition" class="block text-sm font-medium text-gray-700">Definition</label>
+            <textarea id="definition" name="definition" rows="2" required
+                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border"></textarea>
+        </div>
+        <div>
+            <label for="example" class="block text-sm font-medium text-gray-700">Example (optional)</label>
+            <textarea id="example" name="example" rows="2"
+                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border"></textarea>
+        </div>
+        <button type="submit"
+                class="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">
+            Add Word
+        </button>
+    </form>
+    <div id="add-result" class="mt-4"></div>
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-6 mt-6">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Your Words</h2>
+    <div id="word-list" hx-get="/api/words" hx-trigger="load" hx-swap="innerHTML">
+        <p class="text-gray-600">Loading words...</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Handle stats response
+    document.body.addEventListener('htmx:afterSwap', function(event) {
+        if (event.detail.target.id === 'stats') {
+            const data = JSON.parse(event.detail.xhr.responseText);
+            event.detail.target.innerHTML = `
+                <p class="text-gray-600">Total words: <span class="font-semibold">${data.total_words}</span></p>
+                <p class="text-gray-600">Due today: <span class="font-semibold">${data.due_today}</span></p>
+            `;
+        }
+        if (event.detail.target.id === 'word-list') {
+            const words = JSON.parse(event.detail.xhr.responseText);
+            if (words.length === 0) {
+                event.detail.target.innerHTML = '<p class="text-gray-500">No words yet. Add some words above!</p>';
+            } else {
+                event.detail.target.innerHTML = words.map(word => `
+                    <div class="border-b py-3 flex justify-between items-start">
+                        <div>
+                            <span class="font-semibold text-gray-800">${word.term}</span>
+                            <p class="text-gray-600">${word.definition}</p>
+                            ${word.example ? `<p class="text-gray-500 text-sm italic">"${word.example}"</p>` : ''}
+                        </div>
+                        <button onclick="deleteWord(${word.id})" class="text-red-500 hover:text-red-700">
+                            Delete
+                        </button>
+                    </div>
+                `).join('');
+            }
+        }
+    });
+
+    // Add word form
+    document.getElementById('add-word-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const formData = {
+            term: document.getElementById('term').value,
+            definition: document.getElementById('definition').value,
+            example: document.getElementById('example').value || null
+        };
+
+        try {
+            const response = await fetch('/api/words', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                document.getElementById('add-result').innerHTML =
+                    '<p class="text-green-600">Word added successfully!</p>';
+                this.reset();
+                htmx.trigger('#word-list', 'load');
+                htmx.trigger('#stats', 'load');
+            } else {
+                throw new Error('Failed to add word');
+            }
+        } catch (error) {
+            document.getElementById('add-result').innerHTML =
+                '<p class="text-red-600">Error adding word. Please try again.</p>';
+        }
+    });
+
+    // Delete word
+    async function deleteWord(id) {
+        if (!confirm('Are you sure you want to delete this word?')) return;
+
+        try {
+            const response = await fetch(`/api/words/${id}`, { method: 'DELETE' });
+            if (response.ok) {
+                htmx.trigger('#word-list', 'load');
+                htmx.trigger('#stats', 'load');
+            }
+        } catch (error) {
+            alert('Error deleting word');
+        }
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}Flashcards - Vocabestie{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Flashcard Review</h1>
+
+    <div id="stats-bar" class="bg-white rounded-lg shadow-md p-4 mb-6 flex justify-around text-center">
+        <div>
+            <span class="text-2xl font-bold text-indigo-600" id="due-count">-</span>
+            <p class="text-gray-600">Due</p>
+        </div>
+        <div>
+            <span class="text-2xl font-bold text-green-600" id="reviewed-count">0</span>
+            <p class="text-gray-600">Reviewed</p>
+        </div>
+    </div>
+
+    <div id="flashcard-container">
+        <div id="no-cards" class="bg-white rounded-lg shadow-md p-12 text-center hidden">
+            <div class="text-6xl mb-4">🎉</div>
+            <h2 class="text-2xl font-semibold text-gray-800 mb-2">All caught up!</h2>
+            <p class="text-gray-600 mb-4">No cards due for review right now.</p>
+            <a href="/" class="text-indigo-600 hover:underline">Add more words</a>
+        </div>
+
+        <div id="flashcard" class="flip-card hidden" onclick="flipCard()">
+            <div class="flip-card-inner bg-white rounded-lg shadow-lg cursor-pointer" style="min-height: 300px;">
+                <div class="flip-card-front absolute inset-0 flex flex-col items-center justify-center p-8">
+                    <p class="text-sm text-gray-500 mb-2">Click to reveal</p>
+                    <h2 id="card-term" class="text-3xl font-bold text-gray-800 text-center"></h2>
+                </div>
+                <div class="flip-card-back absolute inset-0 flex flex-col items-center justify-center p-8 bg-indigo-50 rounded-lg">
+                    <p id="card-definition" class="text-xl text-gray-700 text-center mb-4"></p>
+                    <p id="card-example" class="text-gray-500 italic text-center"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="rating-buttons" class="flex justify-center gap-4 mt-6 hidden">
+            <button onclick="rateCard(1)" class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-colors">
+                Again
+            </button>
+            <button onclick="rateCard(3)" class="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors">
+                Hard
+            </button>
+            <button onclick="rateCard(4)" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors">
+                Good
+            </button>
+            <button onclick="rateCard(5)" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors">
+                Easy
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let currentCard = null;
+    let reviewedCount = 0;
+
+    async function loadStats() {
+        const response = await fetch('/flashcards/api/stats');
+        const data = await response.json();
+        document.getElementById('due-count').textContent = data.due_today;
+    }
+
+    async function loadNextCard() {
+        const flashcard = document.getElementById('flashcard');
+        const noCards = document.getElementById('no-cards');
+        const ratingButtons = document.getElementById('rating-buttons');
+
+        // Reset flip state
+        flashcard.classList.remove('flipped');
+        ratingButtons.classList.add('hidden');
+
+        const response = await fetch('/flashcards/api/next');
+        if (response.ok) {
+            const data = await response.json();
+            if (data) {
+                currentCard = data;
+                document.getElementById('card-term').textContent = data.term;
+                document.getElementById('card-definition').textContent = data.definition;
+                document.getElementById('card-example').textContent = data.example ? `"${data.example}"` : '';
+
+                flashcard.classList.remove('hidden');
+                noCards.classList.add('hidden');
+            } else {
+                flashcard.classList.add('hidden');
+                noCards.classList.remove('hidden');
+            }
+        } else {
+            flashcard.classList.add('hidden');
+            noCards.classList.remove('hidden');
+        }
+    }
+
+    function flipCard() {
+        const flashcard = document.getElementById('flashcard');
+        const ratingButtons = document.getElementById('rating-buttons');
+
+        if (!flashcard.classList.contains('flipped')) {
+            flashcard.classList.add('flipped');
+            ratingButtons.classList.remove('hidden');
+        }
+    }
+
+    async function rateCard(quality) {
+        if (!currentCard) return;
+
+        await fetch(`/flashcards/api/${currentCard.id}/review`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ quality })
+        });
+
+        reviewedCount++;
+        document.getElementById('reviewed-count').textContent = reviewedCount;
+
+        await loadStats();
+        await loadNextCard();
+    }
+
+    // Initialize
+    loadStats();
+    loadNextCard();
+</script>
+{% endblock %}
