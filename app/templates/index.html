@@ -3,61 +3,66 @@
 {% block title %}Vocabestie - Vocabulary Learning App{% endblock %}
 
 {% block content %}
-<div class="text-center mb-12">
-    <h1 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Vocabestie</h1>
-    <p class="text-xl text-gray-600">Master vocabulary with flashcards, quizzes, and spaced repetition</p>
+<div class="text-center mb-8 md:mb-12">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2 md:mb-4">Welcome to Vocabestie</h1>
+    <p class="text-lg md:text-xl text-gray-600">Master vocabulary with flashcards, quizzes, and spaced repetition</p>
 </div>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-    <a href="/flashcards" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-        <div class="text-4xl mb-4">📚</div>
-        <h2 class="text-xl font-semibold text-gray-800 mb-2">Flashcards</h2>
-        <p class="text-gray-600">Review vocabulary with interactive flashcards using spaced repetition</p>
+<div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
+    <a href="/flashcards" class="bg-white rounded-xl shadow-md p-4 md:p-6 hover:shadow-lg transition-all active:scale-95 touch-card">
+        <div class="text-3xl md:text-4xl mb-2 md:mb-4">📚</div>
+        <h2 class="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Flashcards</h2>
+        <p class="text-sm md:text-base text-gray-600 hidden md:block">Review vocabulary with interactive flashcards</p>
     </a>
 
-    <a href="/quiz" class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-        <div class="text-4xl mb-4">🎯</div>
-        <h2 class="text-xl font-semibold text-gray-800 mb-2">Quiz</h2>
-        <p class="text-gray-600">Test your knowledge with multiple choice quizzes</p>
+    <a href="/quiz" class="bg-white rounded-xl shadow-md p-4 md:p-6 hover:shadow-lg transition-all active:scale-95 touch-card">
+        <div class="text-3xl md:text-4xl mb-2 md:mb-4">🎯</div>
+        <h2 class="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Quiz</h2>
+        <p class="text-sm md:text-base text-gray-600 hidden md:block">Test your knowledge with quizzes</p>
     </a>
 
-    <div class="bg-white rounded-lg shadow-md p-6">
-        <div class="text-4xl mb-4">📊</div>
-        <h2 class="text-xl font-semibold text-gray-800 mb-2">Statistics</h2>
+    <div class="bg-white rounded-xl shadow-md p-4 md:p-6 col-span-2 lg:col-span-1">
+        <div class="text-3xl md:text-4xl mb-2 md:mb-4">📊</div>
+        <h2 class="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Statistics</h2>
         <div id="stats" hx-get="/flashcards/api/stats" hx-trigger="load" hx-swap="innerHTML">
             <p class="text-gray-600">Loading stats...</p>
         </div>
     </div>
 </div>
 
-<div class="bg-white rounded-lg shadow-md p-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Add New Word</h2>
+<div class="bg-white rounded-xl shadow-md p-4 md:p-6">
+    <h2 class="text-xl md:text-2xl font-semibold text-gray-800 mb-4">Add New Word</h2>
     <form id="add-word-form" class="space-y-4">
         <div>
             <label for="term" class="block text-sm font-medium text-gray-700">Term</label>
             <input type="text" id="term" name="term" required
-                   class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border">
+                   class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-3 border text-base">
         </div>
         <div>
             <label for="definition" class="block text-sm font-medium text-gray-700">Definition</label>
             <textarea id="definition" name="definition" rows="2" required
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border"></textarea>
+                      class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-3 border text-base"></textarea>
         </div>
         <div>
             <label for="example" class="block text-sm font-medium text-gray-700">Example (optional)</label>
             <textarea id="example" name="example" rows="2"
-                      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-2 border"></textarea>
+                      class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 p-3 border text-base"></textarea>
         </div>
         <button type="submit"
-                class="bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition-colors">
+                class="w-full md:w-auto bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors text-base font-medium">
             Add Word
         </button>
     </form>
     <div id="add-result" class="mt-4"></div>
 </div>
 
-<div class="bg-white rounded-lg shadow-md p-6 mt-6">
-    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Your Words</h2>
+<div class="bg-white rounded-xl shadow-md p-4 md:p-6 mt-6">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl md:text-2xl font-semibold text-gray-800">Your Words</h2>
+        <div id="pull-indicator" class="pull-indicator">
+            <span>Pull to refresh</span>
+        </div>
+    </div>
     <div id="word-list" hx-get="/api/words" hx-trigger="load" hx-swap="innerHTML">
         <p class="text-gray-600">Loading words...</p>
     </div>
@@ -66,6 +71,11 @@
 
 {% block scripts %}
 <script>
+    // Speaker icon SVG
+    const speakerIcon = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+    </svg>`;
+
     // Handle stats response
     document.body.addEventListener('htmx:afterSwap', function(event) {
         if (event.detail.target.id === 'stats') {
@@ -78,23 +88,42 @@
         if (event.detail.target.id === 'word-list') {
             const words = JSON.parse(event.detail.xhr.responseText);
             if (words.length === 0) {
-                event.detail.target.innerHTML = '<p class="text-gray-500">No words yet. Add some words above!</p>';
+                event.detail.target.innerHTML = '<p class="text-gray-500 text-center py-8">No words yet. Add some words above!</p>';
             } else {
                 event.detail.target.innerHTML = words.map(word => `
-                    <div class="border-b py-3 flex justify-between items-start">
-                        <div>
-                            <span class="font-semibold text-gray-800">${word.term}</span>
-                            <p class="text-gray-600">${word.definition}</p>
-                            ${word.example ? `<p class="text-gray-500 text-sm italic">"${word.example}"</p>` : ''}
+                    <div class="border-b last:border-b-0 py-4 flex items-start gap-3 touch-card">
+                        <button onclick="speakWordAndExample('${escapeJs(word.term)}', ${word.example ? `'${escapeJs(word.example)}'` : 'null'}, this)"
+                                class="audio-btn flex-shrink-0" title="Listen to pronunciation">
+                            ${speakerIcon}
+                        </button>
+                        <div class="flex-grow min-w-0">
+                            <div class="flex items-center gap-2">
+                                <span class="font-semibold text-gray-800 text-lg">${escapeHtml(word.term)}</span>
+                            </div>
+                            <p class="text-gray-600 mt-1">${escapeHtml(word.definition)}</p>
+                            ${word.example ? `<p class="text-gray-500 text-sm italic mt-1">"${escapeHtml(word.example)}"</p>` : ''}
                         </div>
-                        <button onclick="deleteWord(${word.id})" class="text-red-500 hover:text-red-700">
-                            Delete
+                        <button onclick="deleteWord(${word.id})" class="text-red-500 hover:text-red-700 p-2 flex-shrink-0" title="Delete word">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                            </svg>
                         </button>
                     </div>
                 `).join('');
             }
         }
     });
+
+    // Escape functions for safety
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function escapeJs(text) {
+        return text.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\n/g, '\\n');
+    }
 
     // Add word form
     document.getElementById('add-word-form').addEventListener('submit', async function(e) {
@@ -118,6 +147,9 @@
                 this.reset();
                 htmx.trigger('#word-list', 'load');
                 htmx.trigger('#stats', 'load');
+                setTimeout(() => {
+                    document.getElementById('add-result').innerHTML = '';
+                }, 3000);
             } else {
                 throw new Error('Failed to add word');
             }
@@ -141,5 +173,29 @@
             alert('Error deleting word');
         }
     }
+
+    // Pull to refresh for word list (mobile)
+    let pullStartY = 0;
+    const wordList = document.getElementById('word-list');
+    const pullIndicator = document.getElementById('pull-indicator');
+
+    wordList.addEventListener('touchstart', (e) => {
+        pullStartY = e.touches[0].clientY;
+    });
+
+    wordList.addEventListener('touchmove', (e) => {
+        const pullDistance = e.touches[0].clientY - pullStartY;
+        if (pullDistance > 50 && window.scrollY === 0) {
+            pullIndicator.classList.add('visible');
+        }
+    });
+
+    wordList.addEventListener('touchend', (e) => {
+        if (pullIndicator.classList.contains('visible')) {
+            htmx.trigger('#word-list', 'load');
+            htmx.trigger('#stats', 'load');
+            pullIndicator.classList.remove('visible');
+        }
+    });
 </script>
 {% endblock %}

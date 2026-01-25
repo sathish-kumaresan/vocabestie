@@ -9,6 +9,8 @@ from app.database import Base
 class QuizType(enum.Enum):
     multiple_choice = "multiple_choice"
     fill_blank = "fill_blank"
+    listening = "listening"
+    spelling = "spelling"
 
 
 class Word(Base):

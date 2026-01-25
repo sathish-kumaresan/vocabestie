@@ -4,51 +4,82 @@
 
 {% block content %}
 <div class="max-w-2xl mx-auto">
-    <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Flashcard Review</h1>
+    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6 text-center">Flashcard Review</h1>
 
-    <div id="stats-bar" class="bg-white rounded-lg shadow-md p-4 mb-6 flex justify-around text-center">
+    <div id="stats-bar" class="bg-white rounded-xl shadow-md p-4 mb-4 md:mb-6 flex justify-around text-center">
         <div>
-            <span class="text-2xl font-bold text-indigo-600" id="due-count">-</span>
-            <p class="text-gray-600">Due</p>
+            <span class="text-xl md:text-2xl font-bold text-indigo-600" id="due-count">-</span>
+            <p class="text-sm text-gray-600">Due</p>
         </div>
         <div>
-            <span class="text-2xl font-bold text-green-600" id="reviewed-count">0</span>
-            <p class="text-gray-600">Reviewed</p>
+            <span class="text-xl md:text-2xl font-bold text-green-600" id="reviewed-count">0</span>
+            <p class="text-sm text-gray-600">Reviewed</p>
         </div>
     </div>
 
-    <div id="flashcard-container">
-        <div id="no-cards" class="bg-white rounded-lg shadow-md p-12 text-center hidden">
-            <div class="text-6xl mb-4">🎉</div>
-            <h2 class="text-2xl font-semibold text-gray-800 mb-2">All caught up!</h2>
+    <!-- Swipe instructions (mobile only) -->
+    <div class="md:hidden text-center text-sm text-gray-500 mb-4">
+        <span class="inline-flex items-center gap-2">
+            <span class="text-red-500">← Swipe left: Again</span>
+            <span class="mx-2">|</span>
+            <span class="text-green-500">Swipe right: Good →</span>
+        </span>
+    </div>
+
+    <div id="flashcard-container" class="relative">
+        <div id="no-cards" class="bg-white rounded-xl shadow-md p-8 md:p-12 text-center hidden">
+            <div class="text-5xl md:text-6xl mb-4">🎉</div>
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-800 mb-2">All caught up!</h2>
             <p class="text-gray-600 mb-4">No cards due for review right now.</p>
             <a href="/" class="text-indigo-600 hover:underline">Add more words</a>
         </div>
 
-        <div id="flashcard" class="flip-card hidden" onclick="flipCard()">
-            <div class="flip-card-inner bg-white rounded-lg shadow-lg cursor-pointer" style="min-height: 300px;">
-                <div class="flip-card-front absolute inset-0 flex flex-col items-center justify-center p-8">
-                    <p class="text-sm text-gray-500 mb-2">Click to reveal</p>
-                    <h2 id="card-term" class="text-3xl font-bold text-gray-800 text-center"></h2>
+        <div id="flashcard" class="swipe-card hidden relative" style="min-height: 280px;">
+            <!-- Swipe indicators -->
+            <div class="swipe-indicator left" id="swipe-left-indicator">❌</div>
+            <div class="swipe-indicator right" id="swipe-right-indicator">✅</div>
+
+            <div class="flip-card-inner bg-white rounded-xl shadow-lg cursor-pointer" style="min-height: 280px;" onclick="flipCard(event)">
+                <!-- Front of card -->
+                <div class="flip-card-front absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8">
+                    <p class="text-sm text-gray-500 mb-2">Tap to reveal definition</p>
+                    <div class="flex items-center gap-3 mb-4">
+                        <h2 id="card-term" class="text-2xl md:text-3xl font-bold text-gray-800 text-center"></h2>
+                        <button id="front-audio-btn" onclick="event.stopPropagation(); speakCurrentWord(this)" class="audio-btn">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <div class="flip-card-back absolute inset-0 flex flex-col items-center justify-center p-8 bg-indigo-50 rounded-lg">
-                    <p id="card-definition" class="text-xl text-gray-700 text-center mb-4"></p>
-                    <p id="card-example" class="text-gray-500 italic text-center"></p>
+                <!-- Back of card -->
+                <div class="flip-card-back absolute inset-0 flex flex-col items-center justify-center p-6 md:p-8 bg-indigo-50 rounded-xl">
+                    <div class="flex items-center gap-3 mb-4">
+                        <h3 id="card-term-back" class="text-xl md:text-2xl font-bold text-gray-800"></h3>
+                        <button onclick="event.stopPropagation(); speakCurrentWordAndExample(this)" class="audio-btn">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p id="card-definition" class="text-lg md:text-xl text-gray-700 text-center mb-4"></p>
+                    <p id="card-example" class="text-gray-500 italic text-center text-sm md:text-base"></p>
                 </div>
             </div>
         </div>
 
-        <div id="rating-buttons" class="flex justify-center gap-4 mt-6 hidden">
-            <button onclick="rateCard(1)" class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-colors">
+        <!-- Rating buttons (desktop primarily) -->
+        <div id="rating-buttons" class="flex flex-wrap justify-center gap-2 md:gap-4 mt-4 md:mt-6 hidden">
+            <button onclick="rateCard(1)" class="flex-1 md:flex-none bg-red-500 text-white px-4 md:px-6 py-3 rounded-lg hover:bg-red-600 transition-colors font-medium">
                 Again
             </button>
-            <button onclick="rateCard(3)" class="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors">
+            <button onclick="rateCard(3)" class="flex-1 md:flex-none bg-yellow-500 text-white px-4 md:px-6 py-3 rounded-lg hover:bg-yellow-600 transition-colors font-medium">
                 Hard
             </button>
-            <button onclick="rateCard(4)" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors">
+            <button onclick="rateCard(4)" class="flex-1 md:flex-none bg-blue-500 text-white px-4 md:px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors font-medium">
                 Good
             </button>
-            <button onclick="rateCard(5)" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors">
+            <button onclick="rateCard(5)" class="flex-1 md:flex-none bg-green-500 text-white px-4 md:px-6 py-3 rounded-lg hover:bg-green-600 transition-colors font-medium">
                 Easy
             </button>
         </div>
@@ -60,6 +91,7 @@
 <script>
     let currentCard = null;
     let reviewedCount = 0;
+    let isFlipped = false;
 
     async function loadStats() {
         const response = await fetch('/flashcards/api/stats');
@@ -72,9 +104,11 @@
         const noCards = document.getElementById('no-cards');
         const ratingButtons = document.getElementById('rating-buttons');
 
-        // Reset flip state
-        flashcard.classList.remove('flipped');
+        // Reset states
+        flashcard.classList.remove('flipped', 'swipe-left', 'swipe-right', 'swiping');
+        flashcard.style.transform = '';
         ratingButtons.classList.add('hidden');
+        isFlipped = false;
 
         const response = await fetch('/flashcards/api/next');
         if (response.ok) {
@@ -82,6 +116,7 @@
             if (data) {
                 currentCard = data;
                 document.getElementById('card-term').textContent = data.term;
+                document.getElementById('card-term-back').textContent = data.term;
                 document.getElementById('card-definition').textContent = data.definition;
                 document.getElementById('card-example').textContent = data.example ? `"${data.example}"` : '';
 
@@ -97,13 +132,16 @@
         }
     }
 
-    function flipCard() {
+    function flipCard(event) {
+        if (event && event.target.closest('.audio-btn')) return;
+
         const flashcard = document.getElementById('flashcard');
         const ratingButtons = document.getElementById('rating-buttons');
 
-        if (!flashcard.classList.contains('flipped')) {
+        if (!isFlipped) {
             flashcard.classList.add('flipped');
             ratingButtons.classList.remove('hidden');
+            isFlipped = true;
         }
     }
 
@@ -123,8 +161,86 @@
         await loadNextCard();
     }
 
+    // TTS functions
+    function speakCurrentWord(button) {
+        if (currentCard) {
+            speakText(currentCard.term, button);
+        }
+    }
+
+    function speakCurrentWordAndExample(button) {
+        if (currentCard) {
+            speakWordAndExample(currentCard.term, currentCard.example, button);
+        }
+    }
+
+    // Swipe gesture handling with Hammer.js
+    function initSwipeGestures() {
+        const flashcard = document.getElementById('flashcard');
+        const leftIndicator = document.getElementById('swipe-left-indicator');
+        const rightIndicator = document.getElementById('swipe-right-indicator');
+
+        const hammer = new Hammer(flashcard);
+        hammer.get('pan').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+
+        let startX = 0;
+
+        hammer.on('panstart', function(e) {
+            flashcard.classList.add('swiping');
+            startX = 0;
+        });
+
+        hammer.on('panmove', function(e) {
+            if (!isFlipped) return; // Only allow swipe after flip
+
+            const deltaX = e.deltaX;
+            flashcard.style.transform = `translateX(${deltaX}px) rotate(${deltaX * 0.05}deg)`;
+
+            // Show indicators based on direction
+            if (deltaX < -50) {
+                leftIndicator.style.opacity = Math.min(1, Math.abs(deltaX) / 150);
+                rightIndicator.style.opacity = 0;
+            } else if (deltaX > 50) {
+                rightIndicator.style.opacity = Math.min(1, deltaX / 150);
+                leftIndicator.style.opacity = 0;
+            } else {
+                leftIndicator.style.opacity = 0;
+                rightIndicator.style.opacity = 0;
+            }
+        });
+
+        hammer.on('panend', function(e) {
+            flashcard.classList.remove('swiping');
+            leftIndicator.style.opacity = 0;
+            rightIndicator.style.opacity = 0;
+
+            if (!isFlipped) {
+                flashcard.style.transform = '';
+                return;
+            }
+
+            const deltaX = e.deltaX;
+            const velocity = Math.abs(e.velocityX);
+
+            // Swipe threshold
+            if (deltaX < -100 || (deltaX < -50 && velocity > 0.5)) {
+                // Swipe left - Again (quality 1)
+                flashcard.classList.add('swipe-left');
+                setTimeout(() => rateCard(1), 300);
+            } else if (deltaX > 100 || (deltaX > 50 && velocity > 0.5)) {
+                // Swipe right - Good (quality 4)
+                flashcard.classList.add('swipe-right');
+                setTimeout(() => rateCard(4), 300);
+            } else {
+                // Return to center
+                flashcard.style.transform = '';
+            }
+        });
+    }
+
     // Initialize
     loadStats();
     loadNextCard();
+    initSwipeGestures();
 </script>
 {% endblock %}
