@@ -508,31 +508,31 @@ vocabestie/
 
 ## 🗺 Development Phases
 
-### Phase 1: Foundation & Data (Week 1)
-- [ ] Set up new database schema (scenarios, words, mastery tables)
-- [ ] Create Alembic migrations
-- [ ] Build vocabulary data import script
-- [ ] Import ~500 words across 10 core scenarios
-- [ ] Basic API endpoints for scenarios and words
+### Phase 1: Foundation & Data (Week 1) ✅ COMPLETE
+- [x] Set up new database schema (scenarios, words, mastery tables)
+- [x] Create Alembic migrations
+- [x] Build vocabulary data import script
+- [x] Import ~500 words across 10 core scenarios
+- [x] Basic API endpoints for scenarios and words
 
-### Phase 2: Core UI Shell (Week 2)
-- [ ] Dark theme base template with Swedish colors
-- [ ] Bottom navigation (4 tabs)
-- [ ] Home tab with placeholder content
-- [ ] Scenarios tab with list view
-- [ ] Scenario detail page with word list
-- [ ] Vocabulary tab with search and filters
+### Phase 2: Core UI Shell (Week 2) ✅ COMPLETE
+- [x] Dark theme base template with Swedish colors
+- [x] Bottom navigation (4 tabs)
+- [x] Home tab with placeholder content
+- [x] Scenarios tab with list view
+- [x] Scenario detail page with word list
+- [x] Vocabulary tab with search and filters
 
-### Phase 3: Learning Engine (Week 3)
-- [ ] Mastery calculation service
-- [ ] Adaptive session word selection
-- [ ] Exercise components:
-  - [ ] Read exercise (Swedish → English)
-  - [ ] Listen exercise (Audio → English)
-  - [ ] Speak exercise (pronunciation with Web Speech API)
-  - [ ] Write exercise (jumbled letters)
-- [ ] Session flow controller
-- [ ] Session completion summary
+### Phase 3: Learning Engine (Week 3) ✅ COMPLETE
+- [x] Mastery calculation service
+- [x] Adaptive session word selection
+- [x] Exercise components:
+  - [x] Read exercise (Swedish → English)
+  - [x] Listen exercise (Audio → English)
+  - [x] Speak exercise (pronunciation with Web Speech API)
+  - [x] Write exercise (jumbled letters)
+- [x] Session flow controller
+- [x] Session completion summary
 
 ### Phase 4: Progress & Stats (Week 4)
 - [ ] Streak tracking logic

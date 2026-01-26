@@ -1,3 +1,4 @@
+<!-- SPEAK Exercise: Say the Swedish word -->
 <div class="exercise-content">
     <!-- Skill badge -->
     <div class="flex justify-center mb-4">
@@ -11,7 +12,7 @@
         <p class="text-gray-400 mb-2">Say this word</p>
         <div class="flex items-center justify-center gap-3 mb-4">
             <h2 class="text-4xl font-bold text-white">{{ exercise.swedish }}</h2>
-            <button onclick="TTS.speak('{{ exercise.swedish }}', {lang: 'sv-SE'})" class="text-gray-400 hover:text-swedish-yellow p-2">
+            <button onclick="speakSwedishWord()" class="text-gray-400 hover:text-swedish-yellow p-2">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
                 </svg>
@@ -40,78 +41,6 @@
 
     <input type="hidden" id="word-id" value="{{ exercise.word_id }}">
     <input type="hidden" id="skill-type" value="{{ exercise.skill_type }}">
+    <input type="hidden" id="swedish-word" value="{{ exercise.swedish }}">
     <input type="hidden" id="expected-word" value="{{ exercise.swedish }}">
 </div>
-
-<script>
-let recognition = null;
-let isRecording = false;
-
-function startRecording() {
-    if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
-        alert('Speech recognition is not supported in this browser. Try Chrome or Edge.');
-        return;
-    }
-
-    if (isRecording) {
-        stopRecording();
-        return;
-    }
-
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    recognition = new SpeechRecognition();
-    recognition.lang = 'sv-SE';
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 1;
-
-    recognition.onstart = function() {
-        isRecording = true;
-        document.getElementById('mic-btn').classList.add('bg-red-500', 'animate-pulse');
-        document.getElementById('mic-btn').classList.remove('bg-swedish-blue');
-        document.getElementById('mic-status').textContent = 'Listening...';
-    };
-
-    recognition.onresult = function(event) {
-        const transcript = event.results[0][0].transcript;
-        document.getElementById('transcript').textContent = '"' + transcript + '"';
-        document.getElementById('transcript').classList.remove('hidden');
-
-        // Submit answer
-        const wordId = document.getElementById('word-id').value;
-        const skillType = document.getElementById('skill-type').value;
-        submitAnswer(parseInt(wordId), skillType, transcript);
-    };
-
-    recognition.onerror = function(event) {
-        console.error('Speech recognition error:', event.error);
-        document.getElementById('mic-status').textContent = 'Error: ' + event.error + '. Tap to try again.';
-        resetMicButton();
-    };
-
-    recognition.onend = function() {
-        resetMicButton();
-    };
-
-    recognition.start();
-}
-
-function stopRecording() {
-    if (recognition) {
-        recognition.stop();
-    }
-}
-
-function resetMicButton() {
-    isRecording = false;
-    document.getElementById('mic-btn').classList.remove('bg-red-500', 'animate-pulse');
-    document.getElementById('mic-btn').classList.add('bg-swedish-blue');
-    document.getElementById('mic-status').textContent = 'Tap to speak';
-}
-
-function skipExercise() {
-    // Mark as incorrect and continue
-    const wordId = document.getElementById('word-id').value;
-    const skillType = document.getElementById('skill-type').value;
-    submitAnswer(parseInt(wordId), skillType, '');
-}
-</script>

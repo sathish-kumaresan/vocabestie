@@ -30,23 +30,64 @@
 
     <!-- Exercise container -->
     <div id="exercise-container">
-        {% include "learning/exercise_" + skill_type + ".html" %}
+        <!-- Initial exercise will be rendered here -->
     </div>
 </div>
 
 <script>
+// Session data
 const sessionData = {
     wordIds: document.getElementById('session-container').dataset.wordIds.split(',').map(Number),
     currentIndex: parseInt(document.getElementById('session-container').dataset.currentIndex),
     totalWords: parseInt(document.getElementById('session-container').dataset.totalWords),
     scenarioId: parseInt(document.getElementById('session-container').dataset.scenarioId),
     correctCount: 0,
+    currentExercise: null,
 };
+
+// Load initial exercise
+document.addEventListener('DOMContentLoaded', function() {
+    loadExercise(sessionData.wordIds[0]);
+});
 
 function updateProgress() {
     const percent = ((sessionData.currentIndex + 1) / sessionData.totalWords) * 100;
     document.getElementById('progress-bar').style.width = percent + '%';
     document.getElementById('progress-text').textContent = (sessionData.currentIndex + 1) + ' / ' + sessionData.totalWords;
+}
+
+function loadExercise(wordId) {
+    fetch('/learn/exercise/' + wordId + '?word_ids=' + sessionData.wordIds.join(',') + '&current_index=' + sessionData.currentIndex)
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('exercise-container').innerHTML = html;
+
+            // Extract and store exercise data from hidden fields
+            const wordIdEl = document.getElementById('word-id');
+            const skillTypeEl = document.getElementById('skill-type');
+
+            if (wordIdEl && skillTypeEl) {
+                sessionData.currentExercise = {
+                    wordId: parseInt(wordIdEl.value),
+                    skillType: skillTypeEl.value,
+                };
+
+                // Initialize exercise based on type
+                initializeExercise(skillTypeEl.value);
+            }
+        });
+}
+
+function initializeExercise(skillType) {
+    if (skillType === 'listen') {
+        // Auto-play audio after a short delay
+        setTimeout(function() {
+            playAudio();
+        }, 500);
+    } else if (skillType === 'write') {
+        // Initialize letter tiles
+        initWriteExercise();
+    }
 }
 
 function nextExercise() {
@@ -61,20 +102,7 @@ function nextExercise() {
     }
 
     updateProgress();
-
-    // Load next exercise
-    const wordId = sessionData.wordIds[sessionData.currentIndex];
-    fetch('/learn/exercise/' + wordId + '?word_ids=' + sessionData.wordIds.join(',') + '&current_index=' + sessionData.currentIndex)
-        .then(response => response.text())
-        .then(html => {
-            // Extract just the exercise content
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            const exerciseContent = doc.querySelector('.exercise-content');
-            if (exerciseContent) {
-                document.getElementById('exercise-container').innerHTML = exerciseContent.outerHTML;
-            }
-        });
+    loadExercise(sessionData.wordIds[sessionData.currentIndex]);
 }
 
 function submitAnswer(wordId, skillType, answer) {
@@ -99,7 +127,7 @@ function submitAnswer(wordId, skillType, answer) {
 function showFeedback(correct, message, correctAnswer) {
     const container = document.getElementById('exercise-container');
     const feedbackHtml = `
-        <div class="exercise-content text-center py-8">
+        <div class="text-center py-8">
             <div class="text-6xl mb-4">${correct ? '✓' : '✗'}</div>
             <p class="text-2xl font-bold ${correct ? 'text-green-500' : 'text-red-500'} mb-2">${correct ? 'Correct!' : 'Incorrect'}</p>
             ${!correct ? '<p class="text-gray-400 mb-4">Correct answer: <span class="text-white font-medium">' + correctAnswer + '</span></p>' : ''}
@@ -109,6 +137,163 @@ function showFeedback(correct, message, correctAnswer) {
         </div>
     `;
     container.innerHTML = feedbackHtml;
+}
+
+// ============ READ & LISTEN EXERCISE FUNCTIONS ============
+function selectOption(button, answer) {
+    // Disable all options
+    document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.disabled = true;
+        btn.classList.remove('hover:bg-gray-800', 'hover:border-swedish-blue');
+    });
+
+    // Highlight selected
+    button.classList.add('border-swedish-yellow', 'bg-gray-800');
+
+    // Submit answer
+    submitAnswer(sessionData.currentExercise.wordId, sessionData.currentExercise.skillType, answer);
+}
+
+// ============ LISTEN EXERCISE FUNCTIONS ============
+function playAudio() {
+    speakSwedishWord();
+}
+
+// Generic function to speak the Swedish word (used by read, listen, speak exercises)
+function speakSwedishWord() {
+    const swedishWord = document.getElementById('swedish-word');
+    if (swedishWord && typeof TTS !== 'undefined') {
+        TTS.speak(swedishWord.value, {lang: 'sv-SE'});
+    }
+}
+
+// ============ SPEAK EXERCISE FUNCTIONS ============
+let recognition = null;
+let isRecording = false;
+
+function startRecording() {
+    if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+        alert('Speech recognition is not supported in this browser. Try Chrome or Edge.');
+        return;
+    }
+
+    if (isRecording) {
+        stopRecording();
+        return;
+    }
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    recognition = new SpeechRecognition();
+    recognition.lang = 'sv-SE';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    recognition.onstart = function() {
+        isRecording = true;
+        const micBtn = document.getElementById('mic-btn');
+        if (micBtn) {
+            micBtn.classList.add('bg-red-500', 'animate-pulse');
+            micBtn.classList.remove('bg-swedish-blue');
+        }
+        const micStatus = document.getElementById('mic-status');
+        if (micStatus) micStatus.textContent = 'Listening...';
+    };
+
+    recognition.onresult = function(event) {
+        const transcript = event.results[0][0].transcript;
+        const transcriptEl = document.getElementById('transcript');
+        if (transcriptEl) {
+            transcriptEl.textContent = '"' + transcript + '"';
+            transcriptEl.classList.remove('hidden');
+        }
+
+        // Submit answer
+        submitAnswer(sessionData.currentExercise.wordId, sessionData.currentExercise.skillType, transcript);
+    };
+
+    recognition.onerror = function(event) {
+        console.error('Speech recognition error:', event.error);
+        const micStatus = document.getElementById('mic-status');
+        if (micStatus) micStatus.textContent = 'Error: ' + event.error + '. Tap to try again.';
+        resetMicButton();
+    };
+
+    recognition.onend = function() {
+        resetMicButton();
+    };
+
+    recognition.start();
+}
+
+function stopRecording() {
+    if (recognition) {
+        recognition.stop();
+    }
+}
+
+function resetMicButton() {
+    isRecording = false;
+    const micBtn = document.getElementById('mic-btn');
+    if (micBtn) {
+        micBtn.classList.remove('bg-red-500', 'animate-pulse');
+        micBtn.classList.add('bg-swedish-blue');
+    }
+    const micStatus = document.getElementById('mic-status');
+    if (micStatus) micStatus.textContent = 'Tap to speak';
+}
+
+function skipExercise() {
+    submitAnswer(sessionData.currentExercise.wordId, sessionData.currentExercise.skillType, '');
+}
+
+// ============ WRITE EXERCISE FUNCTIONS ============
+let selectedLetters = [];
+
+function initWriteExercise() {
+    selectedLetters = [];
+    updateAnswerDisplay();
+}
+
+function selectLetter(button, letter) {
+    if (button.classList.contains('opacity-30')) return;
+
+    selectedLetters.push(letter);
+    button.classList.add('opacity-30');
+    button.disabled = true;
+
+    updateAnswerDisplay();
+}
+
+function updateAnswerDisplay() {
+    const display = document.getElementById('current-answer');
+    if (display) {
+        display.textContent = selectedLetters.join('');
+    }
+}
+
+function clearAnswer() {
+    selectedLetters = [];
+    document.querySelectorAll('.letter-tile').forEach(tile => {
+        tile.classList.remove('opacity-30');
+        tile.disabled = false;
+    });
+    updateAnswerDisplay();
+}
+
+function checkWriteAnswer() {
+    const answer = selectedLetters.join('');
+    const submitBtn = document.getElementById('submit-btn');
+    if (submitBtn) submitBtn.disabled = true;
+
+    submitAnswer(sessionData.currentExercise.wordId, sessionData.currentExercise.skillType, answer);
+}
+
+function showHint() {
+    const correctAnswer = document.getElementById('correct-answer');
+    if (correctAnswer) {
+        const firstTwo = correctAnswer.value.substring(0, 2);
+        alert('Hint: The word starts with "' + firstTwo + '..."');
+    }
 }
 </script>
 {% endblock %}

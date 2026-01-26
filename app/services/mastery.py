@@ -130,6 +130,7 @@ def get_weakest_skill(
     db: Session,
     user_id: int,
     word_id: int,
+    testing_mode: bool = True,  # Set to False for production
 ) -> str:
     """
     Get the skill with lowest mastery for a word.
@@ -137,6 +138,13 @@ def get_weakest_skill(
 
     Returns: 'read', 'listen', 'speak', or 'write'
     """
+    import random
+
+    # TESTING MODE: Randomly pick a skill to allow testing all exercise types
+    if testing_mode:
+        return random.choice(SKILL_TYPES)
+
+    # PRODUCTION MODE: Adaptive skill selection based on mastery
     skills = get_word_mastery(db, user_id, word_id)
 
     # Find minimum score

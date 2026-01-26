@@ -36,6 +36,7 @@
   - [x] Get word mastery (all 4 skills)
   - [x] Derive word status (not_started, in_progress, mastered)
   - [x] Get weakest skill for adaptive learning
+  - [x] Testing mode flag (randomizes skill selection for testing all 4 types)
 - [x] Session service (`app/services/session.py`)
   - [x] Adaptive word selection (prioritize low mastery + new words)
   - [x] Generate exercise data per skill type
@@ -51,6 +52,7 @@
   - [x] Speak exercise (Speech recognition)
   - [x] Write exercise (Jumbled letters)
 - [x] Session flow (progress bar, feedback, completion)
+- [x] TTS with native Swedish voice selection (`app/static/js/tts.js`)
 
 ### Phase 4: Progress & Stats (TODO)
 - [ ] Streak tracking logic
@@ -119,6 +121,7 @@ uvicorn app.main:app --reload
 | Jan 26, 2026 | Phase 1: Database schema, migrations, seed data, API |
 | Jan 26, 2026 | Phase 2: Dark theme UI, navigation, all pages |
 | Jan 26, 2026 | Phase 3: Learning engine with 4-skill exercises |
+| Jan 26, 2026 | Phase 3 fixes: TTS native Swedish voice selection, exercise template improvements, testing mode for skill randomization |
 
 ---
 
