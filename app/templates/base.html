@@ -5,232 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Vocabestie{% endblock %}</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'swedish-blue': '#006AA7',
+                        'swedish-yellow': '#FECC00',
+                        'dark-bg': '#000000',
+                        'dark-card': '#1a1a1a',
+                        'dark-border': '#333333',
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        /* Flip card animation */
-        .flip-card {
-            perspective: 1000px;
+        body {
+            background-color: #000000;
+            color: #ffffff;
         }
-        .flip-card-inner {
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
+        .nav-item.active {
+            color: #FECC00;
         }
-        .flip-card.flipped .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        .flip-card-front, .flip-card-back {
-            backface-visibility: hidden;
-        }
-        .flip-card-back {
-            transform: rotateY(180deg);
-        }
-
-        /* Audio button styles */
-        .audio-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 9999px;
-            background-color: #e0e7ff;
-            color: #4f46e5;
-            transition: all 0.2s;
-            cursor: pointer;
-            border: none;
-        }
-        .audio-btn:hover {
-            background-color: #c7d2fe;
-            transform: scale(1.1);
-        }
-        .audio-btn:active {
-            transform: scale(0.95);
-        }
-        .audio-btn.speaking {
-            animation: pulse 1s infinite;
-            background-color: #4f46e5;
-            color: white;
-        }
-        .audio-btn-sm {
-            width: 2rem;
-            height: 2rem;
-        }
-        .audio-btn-lg {
-            width: 3.5rem;
-            height: 3.5rem;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.6; }
-        }
-
-        /* Swipe card animation */
-        .swipe-card {
-            transition: transform 0.3s ease-out;
-            touch-action: pan-y;
-        }
-        .swipe-card.swiping {
-            transition: none;
-        }
-        .swipe-card.swipe-right {
-            transform: translateX(100vw) rotate(20deg);
-            opacity: 0;
-        }
-        .swipe-card.swipe-left {
-            transform: translateX(-100vw) rotate(-20deg);
-            opacity: 0;
-        }
-
-        /* Swipe indicators */
-        .swipe-indicator {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 3rem;
-            opacity: 0;
-            transition: opacity 0.2s;
-            pointer-events: none;
-        }
-        .swipe-indicator.left {
-            left: 1rem;
-            color: #ef4444;
-        }
-        .swipe-indicator.right {
-            right: 1rem;
-            color: #22c55e;
-        }
-
-        /* Mobile bottom nav */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: white;
-            border-top: 1px solid #e5e7eb;
-            padding: 0.5rem 0;
-            padding-bottom: env(safe-area-inset-bottom, 0.5rem);
-            z-index: 50;
-        }
-        .bottom-nav a {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0.5rem;
-            color: #6b7280;
-            font-size: 0.75rem;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        .bottom-nav a.active, .bottom-nav a:hover {
-            color: #4f46e5;
-        }
-        .bottom-nav svg {
-            width: 1.5rem;
-            height: 1.5rem;
-            margin-bottom: 0.25rem;
-        }
-
-        /* Add padding to main content on mobile to account for bottom nav */
-        @media (max-width: 767px) {
-            main {
-                padding-bottom: 5rem !important;
-            }
-            .desktop-nav {
-                display: none;
-            }
-        }
-        @media (min-width: 768px) {
-            .bottom-nav {
-                display: none;
-            }
-        }
-
-        /* Card touch targets */
-        .touch-card {
-            min-height: 3.5rem;
-            padding: 1rem;
-        }
-
-        /* Pull to refresh indicator */
-        .pull-indicator {
-            text-align: center;
-            padding: 1rem;
-            color: #6b7280;
-            display: none;
-        }
-        .pull-indicator.visible {
-            display: block;
+        .nav-item.active svg {
+            color: #FECC00;
         }
     </style>
+    {% block extra_head %}{% endblock %}
 </head>
-<body class="bg-gray-100 min-h-screen">
-    <!-- Desktop Navigation -->
-    <nav class="bg-indigo-600 text-white shadow-lg desktop-nav">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="/" class="text-2xl font-bold">Vocabestie</a>
-                <div class="flex space-x-6">
-                    <a href="/" class="hover:text-indigo-200">Home</a>
-                    <a href="/flashcards" class="hover:text-indigo-200">Flashcards</a>
-                    <a href="/quiz" class="hover:text-indigo-200">Quiz</a>
-                    <a href="/stats" class="hover:text-indigo-200">Stats</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Mobile Header -->
-    <header class="bg-indigo-600 text-white py-3 px-4 md:hidden">
-        <h1 class="text-xl font-bold text-center">Vocabestie</h1>
-    </header>
-
-    <main class="max-w-6xl mx-auto px-4 py-6">
+<body class="min-h-screen flex flex-col">
+    <!-- Main Content -->
+    <main class="flex-1 pb-20">
         {% block content %}{% endblock %}
     </main>
 
-    <!-- Mobile Bottom Navigation -->
-    <nav class="bottom-nav">
-        <div class="flex justify-around">
-            <a href="/" class="{% if request.url.path == '/' %}active{% endif %}">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <!-- Bottom Navigation -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-dark-card border-t border-dark-border">
+        <div class="flex justify-around items-center h-16 max-w-md mx-auto">
+            <a href="/" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'home' %}active{% endif %}">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
                 </svg>
-                Home
+                <span class="text-xs mt-1">Home</span>
             </a>
-            <a href="/flashcards" class="{% if '/flashcards' in request.url.path %}active{% endif %}">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            <a href="/scenarios" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'scenarios' %}active{% endif %}">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
                 </svg>
-                Cards
+                <span class="text-xs mt-1">Scenarios</span>
             </a>
-            <a href="/quiz" class="{% if '/quiz' in request.url.path %}active{% endif %}">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+            <a href="/vocabulary" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'vocabulary' %}active{% endif %}">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
                 </svg>
-                Quiz
+                <span class="text-xs mt-1">Vocabulary</span>
             </a>
-            <a href="/stats" class="{% if '/stats' in request.url.path %}active{% endif %}">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            <a href="/settings" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'settings' %}active{% endif %}">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
-                Stats
+                <span class="text-xs mt-1">Settings</span>
             </a>
         </div>
     </nav>
 
-    <!-- Footer (hidden on mobile) -->
-    <footer class="bg-gray-800 text-gray-400 py-4 mt-auto hidden md:block">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <p>Vocabestie - Learn vocabulary with spaced repetition</p>
-        </div>
-    </footer>
-
-    <!-- TTS Script -->
     <script src="/static/js/tts.js"></script>
-
-    {% block scripts %}{% endblock %}
+    {% block extra_js %}{% endblock %}
 </body>
 </html>

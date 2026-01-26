@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Vocabestie - Learn Swedish{% endblock %}
+
+{% block content %}
+<div class="p-4 max-w-md mx-auto">
+    <!-- Header -->
+    <div class="text-center py-6">
+        <h1 class="text-3xl font-bold">
+            <span class="text-swedish-blue">Voca</span><span class="text-swedish-yellow">bestie</span>
+        </h1>
+        <p class="text-gray-400 mt-2">Learn Swedish vocabulary your way</p>
+    </div>
+
+    <!-- Streak Card -->
+    <div class="bg-dark-card rounded-2xl p-4 mb-4">
+        <div class="flex items-center justify-between">
+            <div>
+                <p class="text-gray-400 text-sm">Current Streak</p>
+                <p class="text-2xl font-bold text-swedish-yellow">0 days</p>
+            </div>
+            <div class="text-4xl">🔥</div>
+        </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="grid grid-cols-2 gap-4 mb-6">
+        <div class="bg-dark-card rounded-2xl p-4 text-center">
+            <p class="text-3xl font-bold text-white">0</p>
+            <p class="text-gray-400 text-sm">Words Mastered</p>
+        </div>
+        <div class="bg-dark-card rounded-2xl p-4 text-center">
+            <p class="text-3xl font-bold text-white">0</p>
+            <p class="text-gray-400 text-sm">Words Learning</p>
+        </div>
+    </div>
+
+    <!-- Continue Learning Button -->
+    <a href="/scenarios" class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-2xl text-center mb-6 transition-colors">
+        Start Learning
+    </a>
+
+    <!-- Overall Progress -->
+    <div class="bg-dark-card rounded-2xl p-4">
+        <div class="flex justify-between items-center mb-2">
+            <p class="text-gray-400 text-sm">Overall Progress</p>
+            <p class="text-swedish-yellow font-bold">0%</p>
+        </div>
+        <div class="w-full bg-dark-border rounded-full h-2">
+            <div class="bg-swedish-yellow h-2 rounded-full" style="width: 0%"></div>
+        </div>
+        <p class="text-gray-500 text-xs mt-2">0 of {{ total_words }} words mastered</p>
+    </div>
+
+    <!-- Info Card -->
+    <div class="bg-dark-card rounded-2xl p-4 mt-4 border border-dark-border">
+        <h3 class="font-bold text-swedish-yellow mb-2">4-Skill Mastery System</h3>
+        <div class="grid grid-cols-2 gap-2 text-sm text-gray-400">
+            <div class="flex items-center gap-2">
+                <span class="text-lg">👁️</span> Read
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="text-lg">👂</span> Listen
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="text-lg">🗣️</span> Speak
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="text-lg">✍️</span> Write
+            </div>
+        </div>
+        <p class="text-gray-500 text-xs mt-3">Master all 4 skills to fully learn each word</p>
+    </div>
+</div>
+{% endblock %}

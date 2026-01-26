@@ -1,21 +1,10 @@
-from app.schemas.word import (
-    WordCreate,
-    WordUpdate,
-    WordResponse,
-    ReviewCardResponse,
-    ReviewRequest,
-    QuizQuestion,
-    QuizAnswer,
-    QuizResult,
-)
+from app.schemas.scenario import ScenarioResponse, ScenarioListResponse
+from app.schemas.word import WordResponse, WordListResponse, WordDetailResponse
 
 __all__ = [
-    "WordCreate",
-    "WordUpdate",
+    "ScenarioResponse",
+    "ScenarioListResponse",
     "WordResponse",
-    "ReviewCardResponse",
-    "ReviewRequest",
-    "QuizQuestion",
-    "QuizAnswer",
-    "QuizResult",
+    "WordListResponse",
+    "WordDetailResponse",
 ]

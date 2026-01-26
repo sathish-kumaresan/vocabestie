@@ -1,3 +1,1 @@
-from app.services.spaced_repetition import SpacedRepetitionService
-
-__all__ = ["SpacedRepetitionService"]
+# Services will be added as we build business logic
