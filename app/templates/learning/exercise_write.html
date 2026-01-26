@@ -1,0 +1,105 @@
+<div class="exercise-content">
+    <!-- Skill badge -->
+    <div class="flex justify-center mb-4">
+        <span class="px-3 py-1 bg-dark-card rounded-full text-sm text-gray-400">
+            ✍️ Write
+        </span>
+    </div>
+
+    <!-- Question -->
+    <div class="text-center mb-6">
+        <p class="text-gray-400 mb-2">Spell this word in Swedish</p>
+        <h2 class="text-3xl font-bold text-white">{{ exercise.english }}</h2>
+    </div>
+
+    <!-- Answer display -->
+    <div class="bg-dark-card rounded-xl p-4 mb-4 min-h-16 flex items-center justify-center" id="answer-display">
+        <span class="text-2xl text-white tracking-wider" id="current-answer"></span>
+    </div>
+
+    <!-- Letter tiles -->
+    <div class="flex flex-wrap justify-center gap-2 mb-6" id="letter-tiles">
+        {% for letter in exercise.jumbled %}
+        <button onclick="selectLetter(this, '{{ letter }}')"
+                class="letter-tile w-12 h-12 bg-dark-card hover:bg-gray-800 border-2 border-dark-border hover:border-swedish-blue text-white font-bold text-xl rounded-lg transition-all flex items-center justify-center">
+            {{ letter }}
+        </button>
+        {% endfor %}
+    </div>
+
+    <!-- Controls -->
+    <div class="flex justify-center gap-4">
+        <button onclick="clearAnswer()" class="px-6 py-3 bg-dark-card hover:bg-gray-800 text-gray-400 rounded-xl transition-colors">
+            Clear
+        </button>
+        <button onclick="checkWriteAnswer()" id="submit-btn" class="px-8 py-3 bg-swedish-blue hover:bg-blue-700 text-white font-bold rounded-xl transition-colors">
+            Check
+        </button>
+    </div>
+
+    <!-- Hint -->
+    <div class="text-center mt-4">
+        <button onclick="showHint()" class="text-gray-500 hover:text-gray-400 text-sm">
+            Need a hint? 💡
+        </button>
+    </div>
+
+    <input type="hidden" id="word-id" value="{{ exercise.word_id }}">
+    <input type="hidden" id="skill-type" value="{{ exercise.skill_type }}">
+    <input type="hidden" id="correct-answer" value="{{ exercise.correct_answer }}">
+</div>
+
+<script>
+let selectedLetters = [];
+let availableLetters = [];
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize available letters
+    document.querySelectorAll('.letter-tile').forEach(tile => {
+        availableLetters.push({
+            element: tile,
+            letter: tile.textContent.trim()
+        });
+    });
+});
+
+function selectLetter(button, letter) {
+    if (button.classList.contains('opacity-30')) return;
+
+    selectedLetters.push(letter);
+    button.classList.add('opacity-30');
+    button.disabled = true;
+
+    updateAnswerDisplay();
+}
+
+function updateAnswerDisplay() {
+    document.getElementById('current-answer').textContent = selectedLetters.join('');
+}
+
+function clearAnswer() {
+    selectedLetters = [];
+    document.querySelectorAll('.letter-tile').forEach(tile => {
+        tile.classList.remove('opacity-30');
+        tile.disabled = false;
+    });
+    updateAnswerDisplay();
+}
+
+function checkWriteAnswer() {
+    const answer = selectedLetters.join('');
+    const wordId = document.getElementById('word-id').value;
+    const skillType = document.getElementById('skill-type').value;
+
+    // Disable submit button
+    document.getElementById('submit-btn').disabled = true;
+
+    submitAnswer(parseInt(wordId), skillType, answer);
+}
+
+function showHint() {
+    const correctAnswer = document.getElementById('correct-answer').value;
+    const firstTwo = correctAnswer.substring(0, 2);
+    alert('Hint: The word starts with "' + firstTwo + '..."');
+}
+</script>

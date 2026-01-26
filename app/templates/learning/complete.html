@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Session Complete - Vocabestie{% endblock %}
+
+{% block content %}
+<div class="p-4 max-w-md mx-auto text-center">
+    <!-- Success animation -->
+    <div class="py-8">
+        <div class="text-8xl mb-4">🎉</div>
+        <h1 class="text-3xl font-bold text-white mb-2">Great Job!</h1>
+        <p class="text-gray-400">You completed a learning session</p>
+    </div>
+
+    <!-- Stats -->
+    <div class="bg-dark-card rounded-2xl p-6 mb-6">
+        <div class="grid grid-cols-2 gap-6">
+            <div>
+                <p class="text-4xl font-bold text-swedish-yellow">{{ words_practiced }}</p>
+                <p class="text-gray-400 text-sm">Words Practiced</p>
+            </div>
+            <div>
+                <p class="text-4xl font-bold text-green-500">{{ accuracy }}%</p>
+                <p class="text-gray-400 text-sm">Accuracy</p>
+            </div>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-dark-border">
+            <div class="flex justify-between text-sm">
+                <span class="text-gray-400">Correct answers</span>
+                <span class="text-white">{{ correct_count }} / {{ words_practiced }}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Encouragement message -->
+    <div class="bg-dark-card rounded-2xl p-4 mb-6">
+        {% if accuracy >= 80 %}
+        <p class="text-green-400">🌟 Excellent! You're making great progress!</p>
+        {% elif accuracy >= 60 %}
+        <p class="text-swedish-yellow">👍 Good job! Keep practicing to improve!</p>
+        {% else %}
+        <p class="text-gray-400">💪 Don't give up! Practice makes perfect!</p>
+        {% endif %}
+    </div>
+
+    <!-- Actions -->
+    <div class="space-y-3">
+        {% if scenario %}
+        <a href="/learn/scenario/{{ scenario.id }}" class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl transition-colors">
+            Practice Again
+        </a>
+        <a href="/scenarios/{{ scenario.id }}" class="block w-full bg-dark-card hover:bg-gray-800 text-white py-4 px-6 rounded-xl transition-colors">
+            Back to {{ scenario.name }}
+        </a>
+        {% endif %}
+        <a href="/scenarios" class="block w-full text-gray-400 hover:text-white py-3 transition-colors">
+            Choose Another Scenario
+        </a>
+    </div>
+</div>
+{% endblock %}

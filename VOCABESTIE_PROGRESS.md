@@ -9,210 +9,120 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 1: Foundation & Data ✅ COMPLETE |
+| **Current Phase** | Phase 3: Learning Engine ✅ COMPLETE |
 | **Last Session** | January 26, 2026 |
-| **Next Task** | Phase 2: Build learning engine exercises |
+| **Next Task** | Phase 4: Progress tracking, streaks, statistics |
 | **Blockers** | None |
 
 ---
 
-## 📋 Phase 1 Checklist: Foundation & Data ✅ COMPLETE
+## 📋 Phase Checklist
 
-### Database Setup
-- [x] Delete old Phase 1 code (keep docker-compose.yml, requirements.txt as reference)
-- [x] Create new database schema (see VOCABESTIE_PLAN.md for SQL)
-- [x] Create Alembic migrations for:
-  - [x] `users` table
-  - [x] `scenarios` table
-  - [x] `words` table
-  - [x] `word_skill_mastery` table
-  - [x] `user_word_status` table
-  - [x] `user_stats` table
-  - [x] `daily_practice_log` table
-- [x] Test migrations (up and down)
+### Phase 1: Foundation & Data ✅ COMPLETE
+- [x] Database schema (7 tables)
+- [x] Alembic migrations
+- [x] Vocabulary data (10 scenarios, 198 words)
+- [x] API endpoints for scenarios and words
 
-### Vocabulary Data
-- [x] Create data import script structure
-- [x] Define JSON format for vocabulary data
-- [x] Import first 10 scenarios (198 words):
-  - [x] 🏠 At Home (25 words)
-  - [x] 🏢 At the Office (20 words)
-  - [x] 🛒 Shopping (20 words)
-  - [x] 🍽️ Restaurant & Café (20 words)
-  - [x] 🏥 At the Doctor (20 words)
-  - [x] ✈️ At the Airport (20 words)
-  - [x] 👤 Pronouns (20 words)
-  - [x] 🔢 Numbers (23 words)
-  - [x] 🎨 Colors (15 words)
-  - [x] ❓ Question Words (15 words)
-
-### API Endpoints
-- [x] `GET /api/scenarios` — List all scenarios with progress
-- [x] `GET /api/scenarios/{id}` — Scenario detail
-- [x] `GET /api/scenarios/{id}/words` — Words in scenario
-- [x] `GET /api/words` — List/search words with filters
-- [x] `GET /api/words/{id}` — Word detail with skill mastery
-
-### Bonus: Basic UI (Dark Theme)
-- [x] Dark theme base template with Swedish colors (#006AA7 blue, #FECC00 yellow)
+### Phase 2: Core UI Shell ✅ COMPLETE
+- [x] Dark theme with Swedish colors
 - [x] Bottom navigation (4 tabs)
-- [x] Home page with stats
-- [x] Scenarios list page
-- [x] Scenario detail page with word list
-- [x] Vocabulary page with search
-- [x] Settings page
-- [x] TTS pronunciation (click speaker icon)
+- [x] Home, Scenarios, Vocabulary, Settings pages
+- [x] TTS pronunciation
+
+### Phase 3: Learning Engine ✅ COMPLETE
+- [x] Mastery calculation service (`app/services/mastery.py`)
+  - [x] Update mastery after exercise
+  - [x] Get word mastery (all 4 skills)
+  - [x] Derive word status (not_started, in_progress, mastered)
+  - [x] Get weakest skill for adaptive learning
+- [x] Session service (`app/services/session.py`)
+  - [x] Adaptive word selection (prioritize low mastery + new words)
+  - [x] Generate exercise data per skill type
+  - [x] Answer checking
+- [x] Learning router (`app/routers/learning.py`)
+  - [x] `GET /learn/scenario/{id}` - Start learning session
+  - [x] `GET /learn/exercise/{word_id}` - Get exercise
+  - [x] `POST /learn/answer` - Submit answer
+  - [x] `GET /learn/complete` - Session summary
+- [x] Exercise templates (4 skill types)
+  - [x] Read exercise (Swedish → pick English)
+  - [x] Listen exercise (Audio → pick English)
+  - [x] Speak exercise (Speech recognition)
+  - [x] Write exercise (Jumbled letters)
+- [x] Session flow (progress bar, feedback, completion)
+
+### Phase 4: Progress & Stats (TODO)
+- [ ] Streak tracking logic
+- [ ] Time tracking per session
+- [ ] Statistics page with real data
+- [ ] Word status computation in UI
+- [ ] Progress percentages per scenario
+- [ ] "Already known" marking feature
+
+### Phase 5-7: Future
+- [ ] Authentication (Google, Apple, Email)
+- [ ] Polish & Content (2000+ words)
+- [ ] Launch Prep
 
 ---
 
-## 🔜 Upcoming Phases Summary
+## 📁 Current Codebase Structure
 
-| Phase | Focus | Status |
-|-------|-------|--------|
-| Phase 1 | Foundation & Data | ✅ Complete |
-| Phase 2 | Core UI Shell | 🔄 Next |
-| Phase 3 | Learning Engine | ⏳ Waiting |
-| Phase 4 | Progress & Stats | ⏳ Waiting |
-| Phase 5 | Authentication | ⏳ Waiting |
-| Phase 6 | Polish & Content | ⏳ Waiting |
-| Phase 7 | Launch Prep | ⏳ Waiting |
-
----
-
-## 📁 Current Codebase Status
-
-### Completed Structure
 ```
 vocabestie/
-├── alembic/
-│   ├── env.py
-│   └── versions/
-│       └── a4313ef044f5_create_new_schema_v2.py
 ├── app/
-│   ├── __init__.py
+│   ├── main.py
 │   ├── config.py
 │   ├── database.py
-│   ├── main.py
 │   ├── models/
-│   │   ├── __init__.py
-│   │   ├── user.py
-│   │   ├── scenario.py
-│   │   ├── word.py
-│   │   └── mastery.py
+│   │   ├── user.py, scenario.py, word.py, mastery.py
 │   ├── schemas/
-│   │   ├── __init__.py
-│   │   ├── scenario.py
-│   │   └── word.py
+│   │   ├── scenario.py, word.py
 │   ├── routers/
-│   │   ├── __init__.py
-│   │   ├── scenarios.py
-│   │   └── words.py
+│   │   ├── scenarios.py, words.py, learning.py
 │   ├── services/
-│   │   └── __init__.py
+│   │   ├── mastery.py, session.py
 │   ├── templates/
-│   │   ├── base.html
-│   │   ├── home.html
-│   │   ├── scenarios.html
-│   │   ├── scenario_detail.html
-│   │   ├── vocabulary.html
-│   │   └── settings.html
-│   └── static/js/
-│       └── tts.js
-├── scripts/
-│   └── seed_data.py
-├── data/
-│   └── vocabulary.json (10 scenarios, 198 words)
-├── docker-compose.yml
-├── alembic.ini
-├── requirements.txt
-├── README.md
-├── VOCABESTIE_PLAN.md
-└── VOCABESTIE_PROGRESS.md
+│   │   ├── base.html, home.html, scenarios.html
+│   │   ├── scenario_detail.html, vocabulary.html, settings.html
+│   │   └── learning/
+│   │       ├── session.html, complete.html, no_words.html
+│   │       ├── exercise_read.html, exercise_listen.html
+│   │       ├── exercise_speak.html, exercise_write.html
+│   └── static/js/tts.js
+├── scripts/seed_data.py
+├── data/vocabulary.json
+├── alembic/
+└── docker-compose.yml
 ```
 
 ---
 
-## 🔧 Environment Notes
-
-- **PostgreSQL**: Running via Docker on port **5433** (not 5432)
-- **Python venv**: `/home/sathish/venv/`
-- **Project path**: `~/projects/vocabestie/`
-- **GitHub repo**: `sathish-kumaresan/vocabestie`
-- **App URL**: http://127.0.0.1:8000
-
-### Quick Commands
+## 🔧 Quick Commands
 
 ```bash
-# Navigate to project
 cd ~/projects/vocabestie
-
-# Start database
 docker compose up -d
-
-# Activate venv
 source ~/venv/bin/activate
-
-# Run migrations
 alembic upgrade head
-
-# Seed database
 python scripts/seed_data.py
-
-# Start dev server
 uvicorn app.main:app --reload
-
-# Check database
-docker compose ps
 ```
 
 ---
 
 ## 📊 Session Log
 
-| Date | Duration | What Was Done | Commits |
-|------|----------|---------------|---------|
-| Jan 26, 2026 | Planning | Complete product redesign based on WRD analysis | Plan v2.0 |
-| Jan 26, 2026 | Development | Database schema, migrations, seed data, API, UI | Phase 1 complete |
-
----
-
-## 💡 Decisions Made
-
-| Decision | Choice | Rationale |
-|----------|--------|-----------|
-| Keep backend framework | FastAPI + PostgreSQL | Solid foundation, no need to change |
-| Rebuild frontend | Complete redesign | WRD-style dark theme, new tab structure |
-| New data model | Scenario → Word → 4 Skills | Better pedagogy than old flashcard model |
-| No user-added words v1 | Excluded | Focus on quality curated content first |
-| Swedish colors | Blue #006AA7 + Yellow #FECC00 | Unique identity, not WRD clone |
-| 4 tabs | Home, Scenarios, Vocabulary, Settings | Clean navigation matching app structure |
-| Adaptive learning | Fully adaptive | System picks skill based on mastery + time |
-
----
-
-## 🐛 Known Issues
-
-*None yet — fresh start!*
-
----
-
-## 💭 Ideas & Parking Lot
-
-*Features for future versions (post-v1)*
-
-- User-added custom words
-- Reverse direction testing (English → Swedish)
-- Images for words (AI-generated)
-- Offline mode with sync
-- Social features (share progress)
-- Multiple language support
-- Spaced repetition visualization
+| Date | What Was Done |
+|------|---------------|
+| Jan 26, 2026 | Phase 1: Database schema, migrations, seed data, API |
+| Jan 26, 2026 | Phase 2: Dark theme UI, navigation, all pages |
+| Jan 26, 2026 | Phase 3: Learning engine with 4-skill exercises |
 
 ---
 
 ## 📎 Claude Code Session Starter
-
-Copy and paste this when starting a new Claude Code session:
 
 ```
 Read VOCABESTIE_PLAN.md and VOCABESTIE_PROGRESS.md to understand the project.
@@ -222,12 +132,9 @@ This is Vocabestie, a Swedish vocabulary learning app with:
 - 4-skill mastery system (Read, Listen, Speak, Write)
 - Adaptive learning that picks exercises based on user weakness
 - Dark theme with Swedish flag colors (blue/yellow)
-- No gamification gimmicks (no gems, no forced daily plans)
 
-Current status: Phase 1 complete, ready for Phase 2
-Next task: Build the learning engine with 4-skill exercises
-
-Let's continue from where we left off.
+Current status: Phase 3 complete (Learning Engine)
+Next task: Phase 4 - Progress tracking, streaks, statistics
 ```
 
 ---

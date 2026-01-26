@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models import Scenario, Word
-from app.routers import scenarios_router, words_router
+from app.routers import scenarios_router, words_router, learning_router
 
 app = FastAPI(
     title="Vocabestie",
@@ -20,6 +20,7 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 # Include API routers
 app.include_router(scenarios_router)
 app.include_router(words_router)
+app.include_router(learning_router)
 
 # Templates
 templates = Jinja2Templates(directory="app/templates")
