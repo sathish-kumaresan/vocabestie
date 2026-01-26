@@ -534,13 +534,13 @@ vocabestie/
 - [x] Session flow controller
 - [x] Session completion summary
 
-### Phase 4: Progress & Stats (Week 4)
-- [ ] Streak tracking logic
-- [ ] Time tracking per session
-- [ ] Statistics page
-- [ ] Word status computation
-- [ ] Progress percentages per scenario
-- [ ] "Already known" marking feature
+### Phase 4: Progress & Stats (Week 4) ✅ COMPLETE
+- [x] Streak tracking logic
+- [x] Time tracking per session
+- [x] Statistics page
+- [x] Word status computation
+- [x] Progress percentages per scenario
+- [x] "Already known" marking feature
 
 ### Phase 5: Authentication (Week 5)
 - [ ] User model and auth tables

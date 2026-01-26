@@ -23,32 +23,57 @@
 
     <!-- Filter tabs -->
     <div class="flex gap-2 mb-4 overflow-x-auto pb-2">
-        <button class="px-4 py-2 bg-swedish-blue text-white rounded-full text-sm whitespace-nowrap">All</button>
-        <button class="px-4 py-2 bg-dark-card text-gray-400 rounded-full text-sm whitespace-nowrap hover:bg-gray-800">Not Started</button>
-        <button class="px-4 py-2 bg-dark-card text-gray-400 rounded-full text-sm whitespace-nowrap hover:bg-gray-800">In Progress</button>
-        <button class="px-4 py-2 bg-dark-card text-gray-400 rounded-full text-sm whitespace-nowrap hover:bg-gray-800">Mastered</button>
+        <a href="/vocabulary?filter=all" class="px-4 py-2 {% if current_filter == 'all' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            All ({{ counts.all }})
+        </a>
+        <a href="/vocabulary?filter=not_started" class="px-4 py-2 {% if current_filter == 'not_started' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            Not Started ({{ counts.not_started }})
+        </a>
+        <a href="/vocabulary?filter=in_progress" class="px-4 py-2 {% if current_filter == 'in_progress' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            In Progress ({{ counts.in_progress }})
+        </a>
+        <a href="/vocabulary?filter=mastered" class="px-4 py-2 {% if current_filter == 'mastered' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            Mastered ({{ counts.mastered }})
+        </a>
+        <a href="/vocabulary?filter=already_known" class="px-4 py-2 {% if current_filter == 'already_known' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            Known ({{ counts.already_known }})
+        </a>
     </div>
 
     <!-- Words List -->
     <div class="space-y-2" id="wordsList">
-        {% for word in words %}
+        {% for item in words %}
         <div class="word-item bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors"
-             data-swedish="{{ word.swedish|lower }}" data-english="{{ word.english|lower }}">
+             data-swedish="{{ item.word.swedish|lower }}" data-english="{{ item.word.english|lower }}">
             <div class="flex items-center justify-between">
                 <div class="flex-1">
                     <div class="flex items-center gap-2">
-                        <span class="text-white font-medium">{{ word.swedish }}</span>
-                        <button onclick="TTS.speak('{{ word.swedish }}', {lang: 'sv-SE'})" class="text-gray-400 hover:text-swedish-yellow p-1">
+                        <span class="text-white font-medium">{{ item.word.swedish }}</span>
+                        <button onclick="speakWord('{{ item.word.swedish }}')" class="text-gray-400 hover:text-swedish-yellow p-1">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
                             </svg>
                         </button>
                     </div>
-                    <p class="text-gray-400 text-sm">{{ word.english }}</p>
+                    <p class="text-gray-400 text-sm">{{ item.word.english }}</p>
                 </div>
                 <div class="flex items-center gap-2">
-                    {% if word.grammar_hint %}
-                    <span class="px-2 py-1 bg-dark-border rounded text-xs text-gray-500">{{ word.grammar_hint }}</span>
+                    {% if item.word.grammar_hint %}
+                    <span class="px-2 py-1 bg-dark-border rounded text-xs text-gray-500">{{ item.word.grammar_hint }}</span>
+                    {% endif %}
+
+                    {% if item.status.status == 'mastered' %}
+                    <span class="px-2 py-1 bg-green-500/20 rounded-lg text-xs text-green-400">Mastered</span>
+                    {% elif item.status.status == 'in_progress' %}
+                    <span class="px-2 py-1 bg-swedish-yellow/20 rounded-lg text-xs text-swedish-yellow">{{ item.status.overall_progress }}%</span>
+                    {% elif item.status.status == 'already_known' %}
+                    <button onclick="toggleKnown({{ item.word.id }}, false)" class="px-2 py-1 bg-gray-500/20 hover:bg-gray-500/30 rounded-lg text-xs text-gray-400 transition-colors" title="Click to unmark">
+                        ✓ Known
+                    </button>
+                    {% else %}
+                    <button onclick="toggleKnown({{ item.word.id }}, true)" class="px-2 py-1 bg-dark-border hover:bg-gray-700 rounded-lg text-xs text-gray-500 transition-colors" title="I already know this word">
+                        Mark known
+                    </button>
                     {% endif %}
                 </div>
             </div>
@@ -58,7 +83,7 @@
 
     {% if not words %}
     <div class="text-center py-12">
-        <p class="text-gray-400">No words available yet.</p>
+        <p class="text-gray-400">No words in this category.</p>
     </div>
     {% endif %}
 </div>
@@ -77,5 +102,28 @@ document.getElementById('searchInput').addEventListener('input', function(e) {
         }
     });
 });
+
+function speakWord(word) {
+    if (typeof TTS !== 'undefined') {
+        TTS.speak(word, {lang: 'sv-SE'});
+    }
+}
+
+function toggleKnown(wordId, markAsKnown) {
+    fetch('/api/words/' + wordId + '/known', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({known: markAsKnown})
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            window.location.reload();
+        }
+    })
+    .catch(error => {
+        console.error('Error toggling known status:', error);
+    });
+}
 </script>
 {% endblock %}

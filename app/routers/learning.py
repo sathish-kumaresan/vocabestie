@@ -2,6 +2,7 @@
 Learning router for exercise flow and session management.
 """
 
+import time
 from fastapi import APIRouter, Depends, HTTPException, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -18,6 +19,7 @@ from app.services.session import (
     GUEST_USER_ID,
 )
 from app.services.mastery import update_mastery, get_word_mastery
+from app.services.stats import record_session_completion, get_scenario_progress
 
 router = APIRouter(prefix="/learn", tags=["learning"])
 templates = Jinja2Templates(directory="app/templates")
@@ -159,6 +161,7 @@ def session_complete(
     scenario_id: int,
     words_practiced: int = 0,
     correct_count: int = 0,
+    time_seconds: int = 0,
     db: Session = Depends(get_db),
 ):
     """Show session completion summary."""
@@ -166,10 +169,25 @@ def session_complete(
 
     accuracy = (correct_count / words_practiced * 100) if words_practiced > 0 else 0
 
+    # Record session completion in stats
+    session_stats = record_session_completion(
+        db=db,
+        user_id=GUEST_USER_ID,
+        words_practiced=words_practiced,
+        exercises_completed=words_practiced,  # One exercise per word
+        time_seconds=time_seconds,
+    )
+
+    # Get updated scenario progress
+    scenario_progress = get_scenario_progress(db, scenario_id, GUEST_USER_ID)
+
     return templates.TemplateResponse("learning/complete.html", {
         "request": request,
         "scenario": scenario,
         "words_practiced": words_practiced,
         "correct_count": correct_count,
         "accuracy": round(accuracy),
+        "time_seconds": time_seconds,
+        "current_streak": session_stats["current_streak"],
+        "scenario_progress": scenario_progress["progress_percent"],
     })

@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 3: Learning Engine ✅ COMPLETE |
+| **Current Phase** | Phase 4: Progress & Stats ✅ COMPLETE |
 | **Last Session** | January 26, 2026 |
-| **Next Task** | Phase 4: Progress tracking, streaks, statistics |
+| **Next Task** | Phase 5: Authentication (Google, Apple, Email) |
 | **Blockers** | None |
 
 ---
@@ -54,13 +54,33 @@
 - [x] Session flow (progress bar, feedback, completion)
 - [x] TTS with native Swedish voice selection (`app/static/js/tts.js`)
 
-### Phase 4: Progress & Stats (TODO)
-- [ ] Streak tracking logic
-- [ ] Time tracking per session
-- [ ] Statistics page with real data
-- [ ] Word status computation in UI
-- [ ] Progress percentages per scenario
-- [ ] "Already known" marking feature
+### Phase 4: Progress & Stats ✅ COMPLETE
+- [x] Streak tracking logic (`app/services/stats.py`)
+  - [x] Update streak after practice
+  - [x] Track longest streak
+  - [x] Daily practice log
+- [x] Time tracking per session
+  - [x] Track session duration in JavaScript
+  - [x] Store in daily_practice_log
+  - [x] Display on completion screen
+- [x] Statistics page with real data (`/settings`)
+  - [x] Words mastered count
+  - [x] Current/longest streak
+  - [x] Total practice time
+  - [x] Exercises completed
+  - [x] Overall progress bar
+- [x] Word status computation in UI
+  - [x] Show status badges (Not started, In Progress, Mastered, Known)
+  - [x] Show progress percentage per word
+- [x] Progress percentages per scenario
+  - [x] Scenarios list with progress bars
+  - [x] Scenario detail with breakdown (mastered/in progress/not started)
+  - [x] Home page overall progress
+- [x] "Already known" marking feature
+  - [x] API endpoint `POST /api/words/{id}/known`
+  - [x] Toggle buttons on scenario detail page
+  - [x] Toggle buttons on vocabulary page
+  - [x] Filter by status on vocabulary page
 
 ### Phase 5-7: Future
 - [ ] Authentication (Google, Apple, Email)
@@ -84,7 +104,7 @@ vocabestie/
 │   ├── routers/
 │   │   ├── scenarios.py, words.py, learning.py
 │   ├── services/
-│   │   ├── mastery.py, session.py
+│   │   ├── mastery.py, session.py, stats.py
 │   ├── templates/
 │   │   ├── base.html, home.html, scenarios.html
 │   │   ├── scenario_detail.html, vocabulary.html, settings.html
@@ -122,6 +142,7 @@ uvicorn app.main:app --reload
 | Jan 26, 2026 | Phase 2: Dark theme UI, navigation, all pages |
 | Jan 26, 2026 | Phase 3: Learning engine with 4-skill exercises |
 | Jan 26, 2026 | Phase 3 fixes: TTS native Swedish voice selection, exercise template improvements, testing mode for skill randomization |
+| Jan 26, 2026 | Phase 4: Streak tracking, time tracking, statistics page, word status UI, scenario progress, "already known" feature |
 
 ---
 
@@ -136,8 +157,8 @@ This is Vocabestie, a Swedish vocabulary learning app with:
 - Adaptive learning that picks exercises based on user weakness
 - Dark theme with Swedish flag colors (blue/yellow)
 
-Current status: Phase 3 complete (Learning Engine)
-Next task: Phase 4 - Progress tracking, streaks, statistics
+Current status: Phase 4 complete (Progress & Stats)
+Next task: Phase 5 - Authentication (Google, Apple, Email)
 ```
 
 ---

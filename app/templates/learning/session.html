@@ -35,7 +35,7 @@
 </div>
 
 <script>
-// Session data
+// Session data - tracks learning session state and timing
 const sessionData = {
     wordIds: document.getElementById('session-container').dataset.wordIds.split(',').map(Number),
     currentIndex: parseInt(document.getElementById('session-container').dataset.currentIndex),
@@ -43,6 +43,7 @@ const sessionData = {
     scenarioId: parseInt(document.getElementById('session-container').dataset.scenarioId),
     correctCount: 0,
     currentExercise: null,
+    startTime: Date.now(),
 };
 
 // Load initial exercise
@@ -94,10 +95,12 @@ function nextExercise() {
     sessionData.currentIndex++;
 
     if (sessionData.currentIndex >= sessionData.totalWords) {
-        // Session complete
+        // Session complete - calculate elapsed time in seconds
+        const elapsedSeconds = Math.round((Date.now() - sessionData.startTime) / 1000);
         window.location.href = '/learn/complete?scenario_id=' + sessionData.scenarioId +
             '&words_practiced=' + sessionData.totalWords +
-            '&correct_count=' + sessionData.correctCount;
+            '&correct_count=' + sessionData.correctCount +
+            '&time_seconds=' + elapsedSeconds;
         return;
     }
 
