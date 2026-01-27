@@ -3,7 +3,7 @@ Learning router for exercise flow and session management.
 """
 
 import time
-from fastapi import APIRouter, Depends, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException, Request, Query
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
@@ -75,6 +75,130 @@ def start_learning_session(
         "word_ids": word_ids,
         "current_index": 0,
         "total_words": len(words),
+        **auth,
+    })
+
+
+@router.get("/custom", response_class=HTMLResponse)
+def start_custom_session(
+    request: Request,
+    search: Optional[str] = Query(None),
+    filter: str = Query("all"),
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
+):
+    """Start a custom learning session based on vocabulary filters."""
+    # 1. Base Query (Search) - Fetch IDs ONLY for performance
+    query = db.query(Word.id)
+    if search:
+        search_term = f"%{search}%"
+        query = query.filter(
+            (Word.swedish.ilike(search_term)) | (Word.english.ilike(search_term))
+        )
+    
+    # Get all candidate IDs (lightweight)
+    all_candidate_ids = [r[0] for r in query.all()]
+    
+    # 2. Filter by Status (Python-side using IDs)
+    filtered_ids = []
+    
+    if filter == "all":
+        filtered_ids = all_candidate_ids
+    else:
+        # Fetch statuses efficiently
+        from app.models import UserWordStatus, WordSkillMastery
+        from app.services.mastery import PASS_THRESHOLD
+        
+        # Known overrides
+        known_ids = {x[0] for x in db.query(UserWordStatus.word_id).filter(
+            UserWordStatus.user_id == user_id, 
+            UserWordStatus.status == 'already_known'
+        ).all()}
+        
+        # Mastery scores
+        masteries = db.query(WordSkillMastery).filter(WordSkillMastery.user_id == user_id).all()
+        w_map = {}
+        for m in masteries:
+            if m.word_id not in w_map: w_map[m.word_id] = {}
+            w_map[m.word_id][m.skill_type] = m.mastery_score
+            
+        for wid in all_candidate_ids:
+            status = "not_started"
+            if wid in known_ids:
+                status = "already_known"
+            elif wid in w_map:
+                skills = w_map[wid]
+                scores = [skills.get(s, 0.0) for s in ['read', 'listen', 'speak', 'write']]
+                if all(s >= PASS_THRESHOLD for s in scores):
+                    status = "mastered"
+                elif all(s == 0 for s in scores):
+                    status = "not_started"
+                else:
+                    status = "in_progress"
+            
+            if status == filter:
+                filtered_ids.append(wid)
+
+    if not filtered_ids:
+        return templates.TemplateResponse("learning/no_words.html", {
+            "request": request,
+            "scenario": None, 
+            "message": "No words match your current filters.",
+            **auth,
+        })
+        
+    # 3. Select Session Words (Top 10)
+    import random
+    # Shuffle IDs in memory (fast)
+    random.shuffle(filtered_ids)
+    selected_ids = filtered_ids[:10]
+    
+    # 4. Fetch full Word objects for the 10 selected IDs
+    selected_words = db.query(Word).filter(Word.id.in_(selected_ids)).all()
+    # Shuffle again because DB return order is undefined/by ID
+    random.shuffle(selected_words)
+    
+    # 5. Start Session
+    skill_type, exercise_data = get_exercise_for_word(db, selected_words[0], user_id)
+    word_ids = [w.id for w in selected_words]
+    
+    return templates.TemplateResponse("learning/session.html", {
+        "request": request,
+        "scenario": {"name": "Custom Practice", "icon": "🎯", "id": 0},
+        "exercise": exercise_data,
+        "skill_type": skill_type,
+        "word_ids": word_ids,
+        "current_index": 0,
+        "total_words": len(selected_words),
+        **auth,
+    })
+
+
+@router.get("/word/{word_id}", response_class=HTMLResponse)
+def start_single_word_session(
+    word_id: int,
+    request: Request,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
+):
+    """Start a learning session for a specific single word."""
+    word = db.query(Word).filter(Word.id == word_id).first()
+    if not word:
+        raise HTTPException(status_code=404, detail="Word not found")
+
+    # Get exercise
+    skill_type, exercise_data = get_exercise_for_word(db, word, user_id)
+    
+    return templates.TemplateResponse("learning/session.html", {
+        "request": request,
+        "scenario": {"name": f"Word: {word.swedish}", "icon": "📖", "id": 0},
+        "exercise": exercise_data,
+        "skill_type": skill_type,
+        "word_ids": [word.id],
+        "current_index": 0,
+        "total_words": 1,
         **auth,
     })
 

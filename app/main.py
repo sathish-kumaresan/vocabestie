@@ -304,7 +304,24 @@ def vocabulary_page(
     filtered_word_ids = []
     
     # Helper to get all IDs matching search
-    candidates = matching_words_query.with_entities(Word.id).order_by(Word.swedish).all()
+    # We fetch (id, swedish, difficulty_level) to sort in Python
+    candidates = matching_words_query.with_entities(Word.id, Word.swedish, Word.difficulty_level).all()
+    
+    def swedish_sort_key(pair):
+        # pair is (id, swedish_word, difficulty_level)
+        w = pair[1].lower().strip()
+        # Map å->{, ä->|, ö->} to fix Ä coming before Å in unicode
+        tr = w.translate(str.maketrans({
+            'å': '{',
+            'ä': '|',
+            'ö': '}'
+        }))
+        return tr
+
+    # Sort candidates in Python: Length first, then Level, then Swedish Alpha
+    # Tuple sort: (length, difficulty_level, swedish_normalized_string)
+    # Note: difficulty_level (A1, A2...) sorts correctly alphabetically
+    candidates.sort(key=lambda x: (len(x[1]), x[2] or "", swedish_sort_key(x)))
     candidate_ids = [c[0] for c in candidates]
     
     if filter == "all":

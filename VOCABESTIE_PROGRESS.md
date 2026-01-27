@@ -219,6 +219,10 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | **Pagination**: Implemented server-side pagination for level word lists to handle large datasets. Added word limit selector (25/50/100) and page navigation controls. |
 | Jan 27, 2026 | **Git Push**: Pushed all recent changes (Flattening + Pagination) to the remote repository. |
 | Jan 27, 2026 | **Global Sorting**: Implemented a global sort for all CEFR levels based on word length + Swedish alphabetical order (i.e. shortest words first). Replaced previous frequency/category logic. Updated `reorder_vocab.py` with custom Swedish sort key (`åäö` > `z`). Verified DB: A1 starts with `i, å, ö...`. |
+| Jan 27, 2026 | **Vocabulary Page**: Updated `/vocabulary` view to sort by **Length → Level → Alphabetical**. Added visual Level badges (e.g., A1, B2). |
+| Jan 27, 2026 | **Practice Feature**: Added "Practice Words" floating action button to Vocabulary page. initiates a learning session with a subset of the currently filtered/searched words. Optimized for performance (fixed hang). |
+| Jan 27, 2026 | **Single Word Mode**: Made vocabulary cards clickable to practice individual words. Added `/learn/word/{id}` route to support this focused learning mode. |
+| Jan 27, 2026 | **Git Push**: Committing and pushing all Vocabulary Page enhancements (Sorting, Badges, Practice Mode, Single Word Mode). |
 
 ---
 
