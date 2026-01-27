@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6: Vocabulary Import & PWA ✅ COMPLETE |
+| **Current Phase** | Phase 6.5: Vocabulary Corrections & Reordering (IN PROGRESS) |
 | **Last Session** | January 27, 2026 |
-| **Next Task** | Phase 7: Launch Prep (landing page, privacy policy, deployment) |
+| **Next Task** | Finish moving 295 words to correct CEFR levels, reorder all levels by frequency, re-seed DB |
 | **Blockers** | None |
 
 ---
@@ -215,6 +215,10 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | Performance Optimization: Fixed slow "Vocabulary" page by implementing server-side pagination, search, and bulk status fetching. Reduced N+1 queries. |
 | Jan 27, 2026 | Levels Refactor: Grouped 331 levels into 6 CEFR categories (A1-C2) to fix "Levels" page performance. Added aggregated progress stats and drill-down pages. |
 | Jan 27, 2026 | Route Update: Changed main route from `/scenarios` to `/levels` to reflect the new hierarchy. Updated all template links and navigation. |
+| Jan 27, 2026 | **Major Refactor**: Flattened vocabulary structure. Removed sub-scenarios entirely. merged all words into single "Level A1", "Level A2", etc. lists (~1300 words each). |
+| Jan 27, 2026 | **Pagination**: Implemented server-side pagination for level word lists to handle large datasets. Added word limit selector (25/50/100) and page navigation controls. |
+| Jan 27, 2026 | **Git Push**: Pushed all recent changes (Flattening + Pagination) to the remote repository. |
+| Jan 27, 2026 | **Vocabulary Reorder**: Reordered words based on custom frequency list. Updated `reorder_vocab.py` to prioritize exact matches. Reseeded DB. Verified A1 order: *och, vara, i, ha...* |
 
 ---
 
