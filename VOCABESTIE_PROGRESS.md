@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6: Vocabulary Import & PWA (IN PROGRESS) |
+| **Current Phase** | Phase 6: Vocabulary Import & PWA ✅ COMPLETE |
 | **Last Session** | January 27, 2026 |
-| **Next Task** | Re-seed database with 8,204 words (`python scripts/seed_data.py`), then verify UI |
+| **Next Task** | Phase 7: Launch Prep (landing page, privacy policy, deployment) |
 | **Blockers** | None |
 
 ---
@@ -21,7 +21,7 @@
 ### Phase 1: Foundation & Data ✅ COMPLETE
 - [x] Database schema (7 tables)
 - [x] Alembic migrations
-- [x] Vocabulary data (42 scenarios, 8,204 words)
+- [x] Vocabulary data (331 CEFR levels, 8,204 words)
 - [x] API endpoints for scenarios and words
 
 ### Phase 2: Core UI Shell ✅ COMPLETE
@@ -104,7 +104,7 @@
   - [x] OAuth credentials loaded from `oauth.json`
   - [x] Session middleware added
 
-### Phase 6: Vocabulary Import & PWA (IN PROGRESS)
+### Phase 6: Vocabulary Import & PWA ✅ COMPLETE
 - [x] Import script structure (`scripts/import_vocabulary/`)
   - [x] `fetch_words.py` - Download and filter source words
   - [x] `generate_data.py` - AI batch processing with Claude
@@ -121,7 +121,17 @@
   - [x] Generated vocabulary for 42 scenarios, 8,204 total words
   - [x] Merged into `data/vocabulary.json`
 - [x] Updated `scripts/seed_data.py` to clear mastery/status data on re-seed
-- [ ] Re-seed database with new vocabulary (run `python scripts/seed_data.py`)
+- [x] Re-seed database with new vocabulary (`python scripts/seed_data.py --clear`)
+- [x] Redistribute vocabulary into CEFR levels
+  - [x] `scripts/redistribute_vocabulary.py` — pools all words, groups by A1-C2, splits into ~25-word chunks
+  - [x] 331 level groups: A1 (56), A2 (55), B1 (57), B2 (54), C1 (55), C2 (54)
+  - [x] Re-seeded database with 331 levels, 8,204 words
+- [x] Rename UI from "Scenarios" to "Levels"
+  - [x] `base.html` — nav label and meta description
+  - [x] `scenarios.html` — page title, heading, subtitle, empty state
+  - [x] `scenario_detail.html` — "Words in this level"
+  - [x] `learning/complete.html` — "Level progress", "Choose Another Level"
+  - [x] `learning/no_words.html` — level references
 - [x] Basic PWA setup
   - [x] `app/static/manifest.json` — app name, display standalone, Swedish colors
   - [x] `app/static/icons/` — PNG icons (192, 512) + screenshots (wide, narrow)
@@ -166,7 +176,8 @@ vocabestie/
 │       └── icons/                   # PWA icons & screenshots
 ├── scripts/
 │   ├── seed_data.py
-│   └── import_vocabulary/       # NEW: Vocabulary import scripts
+│   ├── redistribute_vocabulary.py  # CEFR level redistribution
+│   └── import_vocabulary/       # Vocabulary import scripts
 │       ├── fetch_words.py
 │       ├── generate_data.py
 │       ├── merge_data.py
@@ -209,6 +220,7 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | Phase 5: Google OAuth authentication, server-side sessions, guest data migration, auth UI |
 | Jan 27, 2026 | Phase 6 started: Vocabulary import scripts, 42 scenarios defined, 9,806 words fetched and filtered |
 | Jan 27, 2026 | AI vocabulary generation: 161 batches via Claude API, 8,204 words across 42 scenarios. Updated seed script, fetch_words, generate_data scripts. Basic PWA setup: manifest.json, PNG icons (192/512), screenshots (wide/narrow), service worker (cache-first static, network-first HTML/API), base.html meta tags and SW registration |
+| Jan 27, 2026 | Redistributed vocabulary into CEFR levels (A1-C2) with ~25 words per group (331 levels total). Created `scripts/redistribute_vocabulary.py`. Re-seeded database. Renamed all UI references from "Scenarios" to "Levels" across 5 templates. Phase 6 complete. |
 
 ---
 
@@ -218,17 +230,14 @@ uvicorn app.main:app --reload
 Read VOCABESTIE_PLAN.md and VOCABESTIE_PROGRESS.md to understand the project.
 
 This is Vocabestie, a Swedish vocabulary learning app with:
-- Scenario-based organization (Vocabulary → Scenarios → Words)
+- CEFR level-based organization (Levels → Words, grouped A1-C2)
 - 4-skill mastery system (Read, Listen, Speak, Write)
 - Adaptive learning that picks exercises based on user weakness
 - Dark theme with Swedish flag colors (blue/yellow)
 - Google OAuth authentication with server-side sessions
 
-Current status: Phase 6 nearly complete (Vocabulary Import & PWA done)
-Next task: Re-seed database with 8,204 words and verify UI
-  - Run: python scripts/seed_data.py
-  - Verify scenarios and words display correctly
-  - PWA is set up and working (manifest, service worker, icons)
+Current status: Phase 6 complete (Vocabulary Import, CEFR Levels, PWA)
+Next task: Phase 7 — Launch Prep (landing page, privacy policy, deployment)
 ```
 
 ---
