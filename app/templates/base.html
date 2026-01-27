@@ -35,6 +35,23 @@
     {% block extra_head %}{% endblock %}
 </head>
 <body class="min-h-screen flex flex-col">
+    <!-- Top Header with Auth Status -->
+    <header class="bg-dark-card border-b border-dark-border px-4 py-2 flex justify-between items-center">
+        <span class="text-swedish-yellow font-bold text-lg">Vocabestie</span>
+        {% if is_authenticated %}
+        <a href="/settings" class="flex items-center gap-2 text-gray-400 hover:text-white text-sm">
+            <span>{{ user_name }}</span>
+            <div class="w-7 h-7 bg-swedish-blue rounded-full flex items-center justify-center">
+                <span class="text-xs text-white">{{ user_name[0] | upper if user_name else 'U' }}</span>
+            </div>
+        </a>
+        {% else %}
+        <a href="/auth/login/google" class="text-sm text-swedish-yellow hover:text-yellow-300">
+            Sign in
+        </a>
+        {% endif %}
+    </header>
+
     <!-- Main Content -->
     <main class="flex-1 pb-20">
         {% block content %}{% endblock %}

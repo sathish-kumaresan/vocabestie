@@ -1,5 +1,6 @@
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.orm import relationship
 from app.database import Base
 
 
@@ -15,3 +16,5 @@ class User(Base):
     auth_provider_id = Column(String(255), nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     last_login = Column(DateTime, nullable=True)
+
+    sessions = relationship("Session", back_populates="user", cascade="all, delete-orphan")

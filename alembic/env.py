@@ -11,6 +11,7 @@ from app.models import (
     User,
     Scenario,
     Word,
+    Session,
     WordSkillMastery,
     UserWordStatus,
     UserStats,

@@ -16,10 +16,10 @@ from app.services.session import (
     select_session_words,
     get_exercise_for_word,
     check_answer,
-    GUEST_USER_ID,
 )
 from app.services.mastery import update_mastery, get_word_mastery
 from app.services.stats import record_session_completion, get_scenario_progress
+from app.dependencies import get_user_id, get_auth_context
 
 router = APIRouter(prefix="/learn", tags=["learning"])
 templates = Jinja2Templates(directory="app/templates")
@@ -43,6 +43,8 @@ def start_learning_session(
     scenario_id: int,
     request: Request,
     db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
 ):
     """Start a learning session for a scenario."""
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
@@ -50,16 +52,17 @@ def start_learning_session(
         raise HTTPException(status_code=404, detail="Scenario not found")
 
     # Select words for session
-    words = select_session_words(db, scenario_id, GUEST_USER_ID)
+    words = select_session_words(db, scenario_id, user_id)
 
     if not words:
         return templates.TemplateResponse("learning/no_words.html", {
             "request": request,
             "scenario": scenario,
+            **auth,
         })
 
     # Get first exercise
-    skill_type, exercise_data = get_exercise_for_word(db, words[0], GUEST_USER_ID)
+    skill_type, exercise_data = get_exercise_for_word(db, words[0], user_id)
 
     # Store session data (word IDs) in template
     word_ids = [w.id for w in words]
@@ -72,6 +75,7 @@ def start_learning_session(
         "word_ids": word_ids,
         "current_index": 0,
         "total_words": len(words),
+        **auth,
     })
 
 
@@ -82,13 +86,15 @@ def get_exercise(
     db: Session = Depends(get_db),
     word_ids: str = "",  # Comma-separated list of word IDs
     current_index: int = 0,
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
 ):
     """Get exercise for a specific word."""
     word = db.query(Word).filter(Word.id == word_id).first()
     if not word:
         raise HTTPException(status_code=404, detail="Word not found")
 
-    skill_type, exercise_data = get_exercise_for_word(db, word, GUEST_USER_ID)
+    skill_type, exercise_data = get_exercise_for_word(db, word, user_id)
 
     # Parse word_ids
     word_id_list = [int(x) for x in word_ids.split(",") if x] if word_ids else [word_id]
@@ -104,6 +110,7 @@ def get_exercise(
         "word_ids": word_ids,
         "current_index": current_index,
         "total_words": total_words,
+        **auth,
     })
 
 
@@ -111,6 +118,7 @@ def get_exercise(
 def submit_answer(
     answer_req: AnswerRequest,
     db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
 ):
     """Submit an answer and get feedback."""
     word = db.query(Word).filter(Word.id == answer_req.word_id).first()
@@ -133,7 +141,7 @@ def submit_answer(
     # Update mastery
     new_mastery = update_mastery(
         db,
-        GUEST_USER_ID,
+        user_id,
         word.id,
         answer_req.skill_type,
         is_correct,
@@ -163,6 +171,8 @@ def session_complete(
     correct_count: int = 0,
     time_seconds: int = 0,
     db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
 ):
     """Show session completion summary."""
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
@@ -172,14 +182,14 @@ def session_complete(
     # Record session completion in stats
     session_stats = record_session_completion(
         db=db,
-        user_id=GUEST_USER_ID,
+        user_id=user_id,
         words_practiced=words_practiced,
         exercises_completed=words_practiced,  # One exercise per word
         time_seconds=time_seconds,
     )
 
     # Get updated scenario progress
-    scenario_progress = get_scenario_progress(db, scenario_id, GUEST_USER_ID)
+    scenario_progress = get_scenario_progress(db, scenario_id, user_id)
 
     return templates.TemplateResponse("learning/complete.html", {
         "request": request,
@@ -190,4 +200,5 @@ def session_complete(
         "time_seconds": time_seconds,
         "current_streak": session_stats["current_streak"],
         "scenario_progress": scenario_progress["progress_percent"],
+        **auth,
     })

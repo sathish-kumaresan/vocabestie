@@ -542,13 +542,13 @@ vocabestie/
 - [x] Progress percentages per scenario
 - [x] "Already known" marking feature
 
-### Phase 5: Authentication (Week 5)
-- [ ] User model and auth tables
-- [ ] Google OAuth integration
-- [ ] Apple Sign-In integration
-- [ ] Email/password auth
-- [ ] Session management
-- [ ] User data persistence
+### Phase 5: Authentication (Week 5) ✅ COMPLETE
+- [x] User model and auth tables
+- [x] Google OAuth integration
+- [ ] Apple Sign-In integration (deferred)
+- [ ] Email/password auth (deferred)
+- [x] Session management
+- [x] User data persistence
 
 ### Phase 6: Polish & Content (Week 6)
 - [ ] Import remaining vocabulary (2000+ words)

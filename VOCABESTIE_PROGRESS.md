@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 4: Progress & Stats ✅ COMPLETE |
-| **Last Session** | January 26, 2026 |
-| **Next Task** | Phase 5: Authentication (Google, Apple, Email) |
+| **Current Phase** | Phase 5: Authentication ✅ COMPLETE |
+| **Last Session** | January 27, 2026 |
+| **Next Task** | Phase 6: Polish & Content (2000+ words) |
 | **Blockers** | None |
 
 ---
@@ -82,8 +82,29 @@
   - [x] Toggle buttons on vocabulary page
   - [x] Filter by status on vocabulary page
 
-### Phase 5-7: Future
-- [ ] Authentication (Google, Apple, Email)
+### Phase 5: Authentication ✅ COMPLETE
+- [x] Google OAuth integration (`app/routers/auth.py`)
+  - [x] Login flow (`GET /auth/login/google`)
+  - [x] OAuth callback (`GET /auth/callback/google`)
+  - [x] Logout (`POST /auth/logout`)
+- [x] Server-side sessions (`app/models/session.py`, `app/services/auth.py`)
+  - [x] 30-day session duration
+  - [x] Secure HttpOnly cookies
+  - [x] Session table with Alembic migration
+- [x] User identification (`app/dependencies.py`)
+  - [x] `get_current_user()` dependency
+  - [x] `get_user_id()` dependency
+  - [x] `get_auth_context()` for templates
+- [x] Guest data migration on first login
+  - [x] Transfer all progress data from guest (user_id=1) to new user
+- [x] UI updates
+  - [x] Header with auth status (`base.html`)
+  - [x] Profile section with sign in/out (`settings.html`)
+- [x] Config updates (`app/config.py`)
+  - [x] OAuth credentials loaded from `oauth.json`
+  - [x] Session middleware added
+
+### Phase 6-7: Future
 - [ ] Polish & Content (2000+ words)
 - [ ] Launch Prep
 
@@ -97,14 +118,15 @@ vocabestie/
 │   ├── main.py
 │   ├── config.py
 │   ├── database.py
+│   ├── dependencies.py          # Auth dependencies (get_user_id, get_current_user)
 │   ├── models/
-│   │   ├── user.py, scenario.py, word.py, mastery.py
+│   │   ├── user.py, scenario.py, word.py, mastery.py, session.py
 │   ├── schemas/
 │   │   ├── scenario.py, word.py
 │   ├── routers/
-│   │   ├── scenarios.py, words.py, learning.py
+│   │   ├── scenarios.py, words.py, learning.py, auth.py
 │   ├── services/
-│   │   ├── mastery.py, session.py, stats.py
+│   │   ├── mastery.py, session.py, stats.py, auth.py
 │   ├── templates/
 │   │   ├── base.html, home.html, scenarios.html
 │   │   ├── scenario_detail.html, vocabulary.html, settings.html
@@ -115,6 +137,7 @@ vocabestie/
 │   └── static/js/tts.js
 ├── scripts/seed_data.py
 ├── data/vocabulary.json
+├── oauth.json                   # Google OAuth credentials (not in git)
 ├── alembic/
 └── docker-compose.yml
 ```
@@ -143,6 +166,7 @@ uvicorn app.main:app --reload
 | Jan 26, 2026 | Phase 3: Learning engine with 4-skill exercises |
 | Jan 26, 2026 | Phase 3 fixes: TTS native Swedish voice selection, exercise template improvements, testing mode for skill randomization |
 | Jan 26, 2026 | Phase 4: Streak tracking, time tracking, statistics page, word status UI, scenario progress, "already known" feature |
+| Jan 27, 2026 | Phase 5: Google OAuth authentication, server-side sessions, guest data migration, auth UI |
 
 ---
 
@@ -156,9 +180,10 @@ This is Vocabestie, a Swedish vocabulary learning app with:
 - 4-skill mastery system (Read, Listen, Speak, Write)
 - Adaptive learning that picks exercises based on user weakness
 - Dark theme with Swedish flag colors (blue/yellow)
+- Google OAuth authentication with server-side sessions
 
-Current status: Phase 4 complete (Progress & Stats)
-Next task: Phase 5 - Authentication (Google, Apple, Email)
+Current status: Phase 5 complete (Authentication)
+Next task: Phase 6 - Polish & Content (2000+ words)
 ```
 
 ---

@@ -7,7 +7,8 @@ from pydantic import BaseModel
 from app.database import get_db
 from app.models import Scenario, Word
 from app.schemas.word import WordResponse, WordListResponse, WordDetailResponse
-from app.services.stats import mark_word_as_known, unmark_word_as_known, GUEST_USER_ID
+from app.services.stats import mark_word_as_known, unmark_word_as_known
+from app.dependencies import get_user_id
 
 router = APIRouter(prefix="/api/words", tags=["words"])
 
@@ -21,6 +22,7 @@ def toggle_word_known(
     word_id: int,
     request: MarkKnownRequest,
     db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
 ):
     """Mark or unmark a word as already known."""
     word = db.query(Word).filter(Word.id == word_id).first()
@@ -28,10 +30,10 @@ def toggle_word_known(
         raise HTTPException(status_code=404, detail="Word not found")
 
     if request.known:
-        mark_word_as_known(db, word_id, GUEST_USER_ID)
+        mark_word_as_known(db, word_id, user_id)
         return {"success": True, "status": "already_known", "message": "Word marked as known"}
     else:
-        unmark_word_as_known(db, word_id, GUEST_USER_ID)
+        unmark_word_as_known(db, word_id, user_id)
         return {"success": True, "status": "active", "message": "Word unmarked"}
 
 
