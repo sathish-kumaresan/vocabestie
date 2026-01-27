@@ -98,49 +98,72 @@ def levels_page(
     })
 
 
-@app.get("/levels/{difficulty}", response_class=HTMLResponse)
+@app.get("/levels/{level_id}", response_class=HTMLResponse)
 def level_detail_page(
-    difficulty: str,
+    level_id: str,
     request: Request,
+    page: int = Query(1, ge=1),
+    limit: int = Query(25, ge=1, le=100),
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),
 ):
-    """Drill-down page for a specific CEFR level (listing scenarios)."""
-    from app.services.stats import get_scenarios_progress_bulk
+    """Level detail page showing all words directly (flattened structure) with pagination."""
+    from app.services.stats import get_word_status_for_display, get_scenario_progress
+    import math
     
-    # Validate difficulty
-    if difficulty not in ["A1", "A2", "B1", "B2", "C1", "C2"]:
+    # Flattened structure: 1 scenario per level
+    scenario = db.query(Scenario).filter(Scenario.difficulty_level == level_id).first()
+    
+    if not scenario:
         return templates.TemplateResponse("404.html", {
             "request": request,
-            "message": "Level not found",
+            "message": f"Level {level_id} not found",
             **auth,
         }, status_code=404)
-        
-    # Fetch scenarios for this level
-    scenarios = db.query(Scenario).filter(
-        Scenario.difficulty_level == difficulty
-    ).order_by(Scenario.display_order).all()
+
+    # Pagination Logic
+    offset = (page - 1) * limit
+    total_words = db.query(Word).filter(Word.scenario_id == scenario.id).count()
+    total_pages = math.ceil(total_words / limit)
+
+    # Fetch words for this level (paginated)
+    words = (
+        db.query(Word)
+        .filter(Word.scenario_id == scenario.id)
+        .order_by(Word.display_order)
+        .offset(offset)
+        .limit(limit)
+        .all()
+    )
+
+    # Get progress (for the whole level, not just the page)
+    progress = get_scenario_progress(db, scenario.id, user_id)
     
-    # Bulk fetch progress
-    if scenarios:
-        scenario_ids = [s.id for s in scenarios]
-        progress_map = get_scenarios_progress_bulk(db, scenario_ids, user_id)
-    else:
-        progress_map = {}
-        
-    scenarios_data = []
-    for s in scenarios:
-        scenarios_data.append({
-            "scenario": s,
-            "progress": progress_map.get(s.id, {"progress_percent": 0})
+    words_with_status = []
+    for word in words:
+        status = get_word_status_for_display(db, word.id, user_id)
+        words_with_status.append({
+            "word": word,
+            "status": status,
         })
-        
-    return templates.TemplateResponse("level_detail.html", {
+
+    return templates.TemplateResponse("scenario_detail.html", {
         "request": request,
         "active_tab": "levels",
-        "difficulty": difficulty,
-        "scenarios": scenarios_data,
+        "scenario": scenario,
+        "words": words_with_status,
+        "progress": progress,
+        "pagination": {
+            "page": page,
+            "limit": limit,
+            "total_pages": total_pages,
+            "total_words": total_words,
+            "has_next": page < total_pages,
+            "has_prev": page > 1,
+            "next_page": page + 1,
+            "prev_page": page - 1
+        },
         **auth,
     })
 

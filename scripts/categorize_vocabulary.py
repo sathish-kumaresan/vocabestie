@@ -34,6 +34,25 @@ BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
 VOCAB_FILE = DATA_DIR / "vocabulary.json"
 
+# --- Helper Functions ---
+
+def make_slug(name: str) -> str:
+    name = unicodedata.normalize("NFKD", name)
+    name = name.encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return slug
+
+def load_vocabulary() -> dict:
+    with open(VOCAB_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def backup_vocabulary():
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_path = DATA_DIR / f"vocabulary_backup_{timestamp}.json"
+    import shutil
+    shutil.copy2(VOCAB_FILE, backup_path)
+    print(f"Backed up to {backup_path}")
+
 # --- Configuration ---
 
 # Categories and Topics from VOCABESTIE_PLAN.md
@@ -92,7 +111,9 @@ CATEGORIES = {
         ("Days & Months", "Monday, January, week, year, calendar", "📅"),
         ("Colors", "red, blue, light, dark, shades", "🎨"),
         ("Question Words", "who, what, where, when, why, how", "❓"),
-        ("Common Verbs", "be, have, do, say, go, get, make", "🔗"),
+        ("Common Verbs", "be, have, do, say, go, get, make, can, will", "🔗"),
+        ("Common Adjectives", "good, bad, big, small, effective, happy, sad", "✨"),
+        ("Common Adverbs", "now, then, here, there, always, never, very", "⚡"),
     ],
     "Swedish Culture": [
         ("Traditions", "customs, history, typical swedish things", "🇸🇪"),
@@ -102,8 +123,14 @@ CATEGORIES = {
 }
 
 # Add a "General" catch-all topic for each category to handle misc words
+# We will distinctively mark these so we can use them as fallbacks
+GENERAL_TOPICS = {}
 for cat in CATEGORIES:
-    CATEGORIES[cat].append((f"General {cat}", f"general vocabulary related to {cat.lower()}", "📌"))
+    slug_cat = make_slug(cat)
+    # Create a generic topic for this category
+    gen_topic = (f"General {cat}", f"general, miscellaneous, other words related to {cat.lower()}", "📌")
+    CATEGORIES[cat].append(gen_topic)
+    GENERAL_TOPICS[cat] = gen_topic[0] # Map category name to its general topic name
 
 # Flatten topics for embedding
 # List of objects: { "category": cat, "name": name, "desc": desc, "icon": icon, "text": "name: desc" }
@@ -118,24 +145,9 @@ for cat, topics in CATEGORIES.items():
             "embed_text": f"{t_name}: {t_desc}"
         })
 
-# --- Helper Functions ---
 
-def load_vocabulary() -> dict:
-    with open(VOCAB_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
 
-def backup_vocabulary():
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_path = DATA_DIR / f"vocabulary_backup_{timestamp}.json"
-    import shutil
-    shutil.copy2(VOCAB_FILE, backup_path)
-    print(f"Backed up to {backup_path}")
 
-def make_slug(name: str) -> str:
-    name = unicodedata.normalize("NFKD", name)
-    name = name.encode("ascii", "ignore").decode("ascii")
-    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-    return slug
 
 def main():
     print("Loading model (all-MiniLM-L6-v2)...")
@@ -167,7 +179,7 @@ def main():
         words_by_level[lvl].append(word)
 
     new_scenarios = []
-    display_order = 1
+    display_order_global = 1
 
     # 4. Process each level
     for level, words in sorted(words_by_level.items()):
@@ -179,21 +191,43 @@ def main():
         word_embeddings = model.encode(word_texts, convert_to_tensor=True)
 
         # Compute cosine similarity
-        # hits = util.semantic_search(word_embeddings, topic_embeddings, top_k=1)
-        # semantic_search returns a list of lists of results
         hits = util.semantic_search(word_embeddings, topic_embeddings, top_k=1)
 
         # Assign words to topics
         topic_assignments = defaultdict(list)
         
+        # Threshold for semantic similarity
+        # If score is lower than this, we put it in the "General" topic of its matched category
+        SIMILARITY_THRESHOLD = 0.28 
+
         for idx, hit in enumerate(hits):
             best_topic_idx = hit[0]['corpus_id']
             score = hit[0]['score']
-            topic = TOPIC_LIST[best_topic_idx]
+            original_topic = TOPIC_LIST[best_topic_idx]
             
-            # Optional: Threshold check. If score is too low, maybe put in "General"?
-            # For now, we force assignment to best match.
-            topic_assignments[best_topic_idx].append(words[idx])
+            english_word = words[idx]['english'].lower()
+            if "efficient" in english_word:  # Debug log for 'effektiv'
+                print(f"DEBUG: '{english_word}' matched to '{original_topic['name']}' with score {score:.4f}")
+
+            final_topic_idx = best_topic_idx
+            
+            # If score is low, fallback to General topic of that category
+            if score < SIMILARITY_THRESHOLD:
+                # Find the 'General X' topic for this category
+                cat_name = original_topic['category']
+                general_topic_name = GENERAL_TOPICS.get(cat_name)
+                
+                # Find index of this general topic
+                # (Inefficient search but fine for script size)
+                for t_idx, t in enumerate(TOPIC_LIST):
+                    if t['name'] == general_topic_name:
+                        final_topic_idx = t_idx
+                        break
+                
+                if "efficient" in english_word:
+                    print(f"DEBUG: '{english_word}' fell back to General topic '{TOPIC_LIST[final_topic_idx]['name']}'")
+
+            topic_assignments[final_topic_idx].append(words[idx])
 
         # Create scenarios from assignments
         level_scenarios = []
@@ -201,39 +235,47 @@ def main():
         for topic_idx, assigned_words in topic_assignments.items():
             topic = TOPIC_LIST[topic_idx]
             
-            # Post-processing: If a "topic" has too few words (e.g., < 5), 
-            # we might want to move them to the "General" topic of that category.
-            # (Skipping this complexity for v1, let's just create the groups)
-            
             if not assigned_words:
                 continue
 
             # Sort alphabetically
             assigned_words.sort(key=lambda w: w["swedish"].lower())
 
-            # Create Scenario Object
-            # Name: "A1: Food & Cooking"
-            scenario_name = f"{level}: {topic['name']}"
+            # Split large groups logic
+            MAX_WORDS_PER_SCENARIO = 30
             
-            scenario = {
-                "name": scenario_name,
-                "slug": make_slug(f"{level}-{topic['name']}"),
-                "icon": topic["icon"],
-                "description": topic["description"],
-                "category": f"{level} - {topic['category']}", 
-                "difficulty_level": level,
-                "display_order": 0, # set later
-                "word_count": len(assigned_words),
-                "words": assigned_words
-            }
-            level_scenarios.append(scenario)
+            # If group is too big, split it
+            chunks = [assigned_words[i:i + MAX_WORDS_PER_SCENARIO] for i in range(0, len(assigned_words), MAX_WORDS_PER_SCENARIO)]
+            
+            for chunk_idx, chunk in enumerate(chunks):
+                suffix = f" {chunk_idx + 1}" if len(chunks) > 1 else ""
+                
+                # Name: "A1: Food & Cooking" or "A1: Food & Cooking 2"
+                scenario_name = f"{level}: {topic['name']}{suffix}"
+                
+                # Slug must be unique
+                slug_base = make_slug(f"{level}-{topic['name']}{suffix}")
+                
+                scenario = {
+                    "name": scenario_name,
+                    "slug": slug_base,
+                    "icon": topic["icon"],
+                    "description": topic["description"],
+                    "category": f"{level} - {topic['category']}", 
+                    "difficulty_level": level,
+                    "display_order": 0, # set later
+                    "word_count": len(chunk),
+                    "words": chunk
+                }
+                level_scenarios.append(scenario)
 
         # Sort scenarios within level
-        # 1. By Category order (Daily Life first, etc)
+        # 1. By Category order
         # 2. By Topic name
+        # 3. By suffix number (implicit in name)
         cat_order = list(CATEGORIES.keys())
         def sort_key(s):
-            cat_name = s["category"].split(" - ")[1] # "A1 - Daily Life" -> "Daily Life"
+            cat_name = s["category"].split(" - ")[1]
             try:
                 cat_idx = cat_order.index(cat_name)
             except ValueError:
@@ -244,9 +286,9 @@ def main():
         
         # Add to main list with display order
         for s in level_scenarios:
-            s["display_order"] = display_order
+            s["display_order"] = display_order_global
             new_scenarios.append(s)
-            display_order += 1
+            display_order_global += 1
             print(f"  - Created '{s['name']}' with {s['word_count']} words")
 
     # 5. Save
