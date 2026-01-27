@@ -33,7 +33,7 @@
             <p class="text-gray-400 text-sm">Words Mastered</p>
         </div>
         <div class="bg-dark-card rounded-2xl p-4 text-center">
-            <p class="text-3xl font-bold text-swedish-yellow">{{ stats.words_started - stats.words_mastered }}</p>
+            <p class="text-3xl font-bold text-swedish-yellow">{{ stats.words_in_progress }}</p>
             <p class="text-gray-400 text-sm">Words Learning</p>
         </div>
     </div>
@@ -45,7 +45,7 @@
     </a>
 
     <!-- Overall Progress -->
-    {% set progress_percent = ((stats.words_mastered + stats.words_already_known) / stats.total_words * 100) | int if
+    {% set progress_percent = ((stats.words_mastered) / stats.total_words * 100) | int if
     stats.total_words > 0 else 0 %}
     <div class="bg-dark-card rounded-2xl p-4">
         <div class="flex justify-between items-center mb-2">
@@ -57,7 +57,7 @@
             <div class="{% if progress_percent == 100 %}bg-green-500{% else %}bg-swedish-yellow{% endif %} h-2 rounded-full transition-all"
                 style="width: {{ progress_percent }}%"></div>
         </div>
-        <p class="text-gray-500 text-xs mt-2">{{ stats.words_mastered + stats.words_already_known }} of {{
+        <p class="text-gray-500 text-xs mt-2">{{ stats.words_mastered }} of {{
             stats.total_words }} words mastered</p>
     </div>
 

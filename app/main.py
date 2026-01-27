@@ -116,11 +116,7 @@ def level_detail_page(
     scenario = db.query(Scenario).filter(Scenario.difficulty_level == level_id).first()
     
     if not scenario:
-        return templates.TemplateResponse("404.html", {
-            "request": request,
-            "message": f"Level {level_id} not found",
-            **auth,
-        }, status_code=404)
+        raise HTTPException(status_code=404, detail=f"Level {level_id} not found")
 
     # Pagination Logic
     offset = (page - 1) * limit
@@ -181,11 +177,7 @@ def scenario_detail_page(
 
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
     if not scenario:
-        return templates.TemplateResponse("404.html", {
-            "request": request,
-            "message": "Scenario not found",
-            **auth,
-        }, status_code=404)
+        raise HTTPException(status_code=404, detail="Scenario not found")
 
     words = (
         db.query(Word)
@@ -210,6 +202,32 @@ def scenario_detail_page(
         "scenario": scenario,
         "words": words_with_status,
         "progress": progress,
+        **auth,
+    })
+
+
+@app.get("/vocabulary/{word_id}", response_class=HTMLResponse)
+def word_details_page(
+    word_id: int,
+    request: Request,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
+):
+    """Detailed view for a single vocabulary word."""
+    from app.services.stats import get_word_status_for_display
+    
+    word = db.query(Word).filter(Word.id == word_id).first()
+    if not word:
+        raise HTTPException(status_code=404, detail="Word not found")
+        
+    status = get_word_status_for_display(db, word.id, user_id)
+    
+    return templates.TemplateResponse("word_details.html", {
+        "request": request,
+        "active_tab": "vocabulary",
+        "word": word,
+        "status": status,
         **auth,
     })
 

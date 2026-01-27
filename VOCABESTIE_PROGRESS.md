@@ -222,6 +222,11 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | **Vocabulary Page**: Updated `/vocabulary` view to sort by **Length → Level → Alphabetical**. Added visual Level badges (e.g., A1, B2). |
 | Jan 27, 2026 | **Practice Feature**: Added "Practice Words" floating action button to Vocabulary page. initiates a learning session with a subset of the currently filtered/searched words. Optimized for performance (fixed hang). |
 | Jan 27, 2026 | **Single Word Mode**: Made vocabulary cards clickable to practice individual words. Added `/learn/word/{id}` route to support this focused learning mode. |
+| Jan 27, 2026 | **Word Details**: Created a dedicated details page for each word (`/vocabulary/{id}`) showing example sentences and grammar hints. Clicking a word in the list now goes here first. Practice is available via a button on this page. |
+| Jan 27, 2026 | **Levels Page**: Updated Level/Scenario detail pages (`/levels/A1`) to also link to the new Word Details page, ensuring a consistent experience across the app. |
+| Jan 27, 2026 | **Progress Fix**: Fixed a bug where words manually marked as "Known" were not showing up in the "Mastered" count. They now correctly contribute to both the mastery count and the progress percentage. |
+| Jan 28, 2026 | **Home Stats Fix**: Updated the Home and Settings "Statistics" cards to correctly include "Known" words in the "Words Mastered" count. |
+| Jan 28, 2026 | **Bug Fix**: Fixed negative "Words in progress" count by correctly calculating it in the backend instead of using template subtraction which was affected by the Known/Mastered merge. |
 | Jan 27, 2026 | **Git Push**: Committing and pushing all Vocabulary Page enhancements (Sorting, Badges, Practice Mode, Single Word Mode). |
 
 ---

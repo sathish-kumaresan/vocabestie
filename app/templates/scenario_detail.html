@@ -74,12 +74,13 @@
 
     <div class="space-y-2">
         {% for item in words %}
-        <div class="bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors">
+        <div class="bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors cursor-pointer"
+            onclick="window.location.href='/vocabulary/{{ item.word.id }}'">
             <div class="flex items-center justify-between">
                 <div class="flex-1">
                     <div class="flex items-center gap-2">
                         <span class="text-white font-medium text-lg">{{ item.word.swedish }}</span>
-                        <button onclick="speakWord('{{ item.word.swedish }}')"
+                        <button onclick="event.stopPropagation(); speakWord('{{ item.word.swedish }}')"
                             class="text-gray-400 hover:text-swedish-yellow p-1">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -100,13 +101,13 @@
                     <span class="px-2 py-1 bg-swedish-yellow/20 rounded-lg text-xs text-swedish-yellow">{{
                         item.status.overall_progress }}%</span>
                     {% elif item.status.status == 'already_known' %}
-                    <button onclick="toggleKnown({{ item.word.id }}, false, this)"
+                    <button onclick="event.stopPropagation(); toggleKnown({{ item.word.id }}, false, this)"
                         class="px-2 py-1 bg-gray-500/20 hover:bg-gray-500/30 rounded-lg text-xs text-gray-400 transition-colors"
                         title="Click to unmark">
                         ✓ Known
                     </button>
                     {% else %}
-                    <button onclick="toggleKnown({{ item.word.id }}, true, this)"
+                    <button onclick="event.stopPropagation(); toggleKnown({{ item.word.id }}, true, this)"
                         class="px-2 py-1 bg-dark-border hover:bg-gray-700 rounded-lg text-xs text-gray-500 transition-colors"
                         title="I already know this word">
                         Mark known

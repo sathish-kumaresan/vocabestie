@@ -189,7 +189,8 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
         "longest_streak": stats.longest_streak,
         "total_words": total_words,
         "words_started": words_started,
-        "words_mastered": mastered_words,
+        "words_mastered": mastered_words + already_known,  # Include known in mastered display
+        "words_in_progress": max(0, words_started - mastered_words), # Only subtract practiced mastered words
         "words_already_known": already_known,
         "words_not_started": total_words - words_started - already_known,
         "total_practice_time": time_str,
@@ -256,7 +257,7 @@ def get_scenario_progress(
 
     return {
         "total_words": total_words,
-        "mastered": mastered,
+        "mastered": mastered + already_known,  # Include known in mastered
         "in_progress": in_progress,
         "not_started": not_started,
         "already_known": already_known,
@@ -614,6 +615,7 @@ def get_cefr_progress(
         
         if wid in known_set:
             stats["already_known"] += 1
+            stats["mastered"] += 1  # Include known in mastered
             stats["total_score_sum"] += 1.0
             continue
             
