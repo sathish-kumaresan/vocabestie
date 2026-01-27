@@ -218,7 +218,7 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | **Major Refactor**: Flattened vocabulary structure. Removed sub-scenarios entirely. merged all words into single "Level A1", "Level A2", etc. lists (~1300 words each). |
 | Jan 27, 2026 | **Pagination**: Implemented server-side pagination for level word lists to handle large datasets. Added word limit selector (25/50/100) and page navigation controls. |
 | Jan 27, 2026 | **Git Push**: Pushed all recent changes (Flattening + Pagination) to the remote repository. |
-| Jan 27, 2026 | **Vocabulary Reorder**: Reordered words based on custom frequency list. Updated `reorder_vocab.py` to prioritize exact matches. Reseeded DB. Verified A1 order: *och, vara, i, ha...* |
+| Jan 27, 2026 | **Global Sorting**: Implemented a global sort for all CEFR levels based on word length + Swedish alphabetical order (i.e. shortest words first). Replaced previous frequency/category logic. Updated `reorder_vocab.py` with custom Swedish sort key (`åäö` > `z`). Verified DB: A1 starts with `i, å, ö...`. |
 
 ---
 
