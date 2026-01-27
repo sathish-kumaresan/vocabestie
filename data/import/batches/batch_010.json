@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "grund",
+    "english": "basis, reason",
+    "example_sv": "Det finns ingen grund för dina misstankar mot mig.",
+    "example_en": "There is no basis for your suspicions against me.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 518
+  },
+  {
+    "swedish": "runt",
+    "english": "around",
+    "example_sv": "Vi promenerade runt sjön i eftermiddags.",
+    "example_en": "We walked around the lake this afternoon.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "preposition",
+    "rank": 519
+  },
+  {
+    "swedish": "framtid",
+    "english": "future",
+    "example_sv": "Jag tänker mycket på min framtid och mina val.",
+    "example_en": "I think a lot about my future and my choices.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 520
+  },
+  {
+    "swedish": "köra",
+    "english": "drive",
+    "example_sv": "Jag ska köra barnen till skolan imorgon bitti.",
+    "example_en": "I will drive the children to school tomorrow morning.",
+    "scenario": "Driving",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 521
+  },
+  {
+    "swedish": "etikett",
+    "english": "label",
+    "example_sv": "Läs etiketten noga innan du tvättar kläderna.",
+    "example_en": "Read the label carefully before you wash the clothes.",
+    "scenario": "Clothing",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 522
+  },
+  {
+    "swedish": "fri",
+    "english": "free",
+    "example_sv": "Efter jobbet är jag fri att göra vad jag vill.",
+    "example_en": "After work, I am free to do what I want.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 523
+  },
+  {
+    "swedish": "behov",
+    "english": "need",
+    "example_sv": "Det finns ett stort behov av fler sjuksköterskor.",
+    "example_en": "There is a great need for more nurses.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 524
+  },
+  {
+    "swedish": "timme (el. timma)",
+    "english": "hour",
+    "example_sv": "Mötet kommer att ta ungefär en timme.",
+    "example_en": "The meeting will take about an hour.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 525
+  },
+  {
+    "swedish": "september",
+    "english": "September",
+    "example_sv": "Jag börjar min nya kurs i september.",
+    "example_en": "I start my new course in September.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 526
+  },
+  {
+    "swedish": "hoppas",
+    "english": "hope",
+    "example_sv": "Jag hoppas att du får en trevlig dag.",
+    "example_en": "I hope you have a nice day.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 527
+  },
+  {
+    "swedish": "ensam",
+    "english": "alone",
+    "example_sv": "Jag känner mig ensam när ingen är hemma.",
+    "example_en": "I feel alone when nobody is home.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 528
+  },
+  {
+    "swedish": "snart",
+    "english": "soon",
+    "example_sv": "Bussen kommer snart, så var redo.",
+    "example_en": "The bus will arrive soon, so be ready.",
+    "scenario": "Public Transport",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 529
+  },
+  {
+    "swedish": "förklara",
+    "english": "explain",
+    "example_sv": "Kan du förklara hur den här maskinen fungerar?",
+    "example_en": "Can you explain how this machine works?",
+    "scenario": "Technology",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 531
+  },
+  {
+    "swedish": "ledning",
+    "english": "management",
+    "example_sv": "Den nya ledningen har infört många förändringar.",
+    "example_en": "The new management has introduced many changes.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 532
+  },
+  {
+    "swedish": "intresse",
+    "english": "interest",
+    "example_sv": "Jag har ett stort intresse för historia och kultur.",
+    "example_en": "I have a great interest in history and culture.",
+    "scenario": "Hobbies",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 533
+  },
+  {
+    "swedish": "tvinga",
+    "english": "force",
+    "example_sv": "Du kan inte tvinga mig att göra det.",
+    "example_en": "You cannot force me to do it.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 534
+  },
+  {
+    "swedish": "påverka",
+    "english": "influence",
+    "example_sv": "Media kan påverka folks åsikter mycket.",
+    "example_en": "The media can influence people's opinions a lot.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 535
+  },
+  {
+    "swedish": "anledning",
+    "english": "reason",
+    "example_sv": "Jag har en god anledning att vara sen.",
+    "example_en": "I have a good reason to be late.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 536
+  },
+  {
+    "swedish": "titta",
+    "english": "look",
+    "example_sv": "Titta på den vackra solnedgången över havet.",
+    "example_en": "Look at the beautiful sunset over the sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 537
+  },
+  {
+    "swedish": "minska",
+    "english": "decrease",
+    "example_sv": "Vi måste minska vår energiförbrukning i hemmet.",
+    "example_en": "We need to decrease our energy consumption at home.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 538
+  },
+  {
+    "swedish": "i alla fall (el. iallafall; förk. iaf)",
+    "english": "anyway",
+    "example_sv": "Jag försökte i alla fall, även om jag misslyckades.",
+    "example_en": "I tried anyway, even if I failed.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 539
+  },
+  {
+    "swedish": "däremot",
+    "english": "however",
+    "example_sv": "Jag gillar te, däremot dricker jag sällan kaffe.",
+    "example_en": "I like tea, however I rarely drink coffee.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 540
+  },
+  {
+    "swedish": "direkt",
+    "english": "directly",
+    "example_sv": "Jag ska åka direkt hem efter jobbet idag.",
+    "example_en": "I'm going directly home after work today.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 541
+  },
+  {
+    "swedish": "ekonomi",
+    "english": "economy",
+    "example_sv": "Landets ekonomi har förbättrats under de senaste åren.",
+    "example_en": "The country's economy has improved in recent years.",
+    "scenario": "Banking",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 542
+  },
+  {
+    "swedish": "bestämma",
+    "english": "decide",
+    "example_sv": "Vi måste bestämma oss för vart vi ska resa.",
+    "example_en": "We need to decide where we're going to travel.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 543
+  },
+  {
+    "swedish": "skicka",
+    "english": "send",
+    "example_sv": "Jag måste skicka ett paket till min bror.",
+    "example_en": "I need to send a package to my brother.",
+    "scenario": "Post Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 544
+  },
+  {
+    "swedish": "trots",
+    "english": "despite",
+    "example_sv": "Trots regnet gick vi ut och promenerade.",
+    "example_en": "Despite the rain, we went out for a walk.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "preposition",
+    "rank": 545
+  },
+  {
+    "swedish": "åsikt",
+    "english": "opinion",
+    "example_sv": "Alla har rätt att ha sin egen åsikt.",
+    "example_en": "Everyone has the right to have their own opinion.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 546
+  },
+  {
+    "swedish": "diskussion",
+    "english": "discussion",
+    "example_sv": "Vi hade en lång diskussion om framtiden.",
+    "example_en": "We had a long discussion about the future.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 547
+  },
+  {
+    "swedish": "rad",
+    "english": "row, line",
+    "example_sv": "Det sitter många personer på första raden.",
+    "example_en": "There are many people sitting in the first row.",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 548
+  },
+  {
+    "swedish": "faktum",
+    "english": "fact",
+    "example_sv": "Faktum är att jag redan har köpt biljetterna.",
+    "example_en": "The fact is that I have already bought the tickets.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 549
+  },
+  {
+    "swedish": "tidning",
+    "english": "newspaper",
+    "example_sv": "Jag läser tidningen varje morgon till frukost.",
+    "example_en": "I read the newspaper every morning with breakfast.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 550
+  },
+  {
+    "swedish": "mening",
+    "english": "sentence, meaning",
+    "example_sv": "Jag förstår inte meningen med den här uppgiften.",
+    "example_en": "I don't understand the meaning of this task.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 551
+  },
+  {
+    "swedish": "utanför",
+    "english": "outside",
+    "example_sv": "Barnen leker utanför huset i trädgården.",
+    "example_en": "The children are playing outside the house in the garden.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "preposition",
+    "rank": 552
+  },
+  {
+    "swedish": "gemensam",
+    "english": "common",
+    "example_sv": "Vi har många gemensamma intressen, som musik och film.",
+    "example_en": "We have many common interests, such as music and film.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 554
+  },
+  {
+    "swedish": "klar",
+    "english": "clear, ready",
+    "example_sv": "Är du klar med läxorna än?",
+    "example_en": "Are you finished with your homework yet?",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 555
+  },
+  {
+    "swedish": "juni",
+    "english": "June",
+    "example_sv": "Vi ska åka på semester i juni.",
+    "example_en": "We are going on vacation in June.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 556
+  },
+  {
+    "swedish": "is",
+    "english": "ice",
+    "example_sv": "Var försiktig, det är is på vägen.",
+    "example_en": "Be careful, there is ice on the road.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 557
+  },
+  {
+    "swedish": "bil",
+    "english": "car",
+    "example_sv": "Jag behöver tvätta min bil i helgen.",
+    "example_en": "I need to wash my car this weekend.",
+    "scenario": "Driving",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 558
+  },
+  {
+    "swedish": "myndighet",
+    "english": "authority",
+    "example_sv": "Man måste följa myndigheternas regler och bestämmelser.",
+    "example_en": "You must follow the authorities' rules and regulations.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 559
+  },
+  {
+    "swedish": "nummer (förk. nr)",
+    "english": "number",
+    "example_sv": "Vad är ditt telefonnummer, tack?",
+    "example_en": "What is your phone number, please?",
+    "scenario": "Phone & Internet",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 560
+  },
+  {
+    "swedish": "allmän",
+    "english": "public, general",
+    "example_sv": "Det är viktigt att ha en allmän kunskap om samhället.",
+    "example_en": "It is important to have a general knowledge of society.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 561
+  },
+  {
+    "swedish": "musik",
+    "english": "music",
+    "example_sv": "Jag älskar att lyssna på musik när jag jobbar.",
+    "example_en": "I love listening to music when I work.",
+    "scenario": "Hobbies",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 562
+  },
+  {
+    "swedish": "ändra",
+    "english": "change",
+    "example_sv": "Vi måste ändra våra planer på grund av vädret.",
+    "example_en": "We have to change our plans because of the weather.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 563
+  },
+  {
+    "swedish": "träffa",
+    "english": "meet",
+    "example_sv": "Jag ska träffa mina vänner på fredag kväll.",
+    "example_en": "I'm going to meet my friends on Friday evening.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 564
+  },
+  {
+    "swedish": "ihop",
+    "english": "together",
+    "example_sv": "Vi ska flytta ihop nästa månad.",
+    "example_en": "We are moving in together next month.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 565
+  },
+  {
+    "swedish": "diskutera",
+    "english": "discuss",
+    "example_sv": "Vi måste diskutera problemen på jobbet.",
+    "example_en": "We need to discuss the problems at work.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 566
+  },
+  {
+    "swedish": "driva",
+    "english": "run, operate",
+    "example_sv": "De vill driva ett litet café i stan.",
+    "example_en": "They want to run a small café in town.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 567
+  },
+  {
+    "swedish": "sakna",
+    "english": "miss",
+    "example_sv": "Jag saknar min familj väldigt mycket.",
+    "example_en": "I miss my family very much.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 569
+  },
+  {
+    "swedish": "program",
+    "english": "program",
+    "example_sv": "Jag tittar på ett intressant program på TV ikväll.",
+    "example_en": "I'm watching an interesting program on TV tonight.",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 570
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "simmare",
+    "english": "swimmer",
+    "example_sv": "Den erfarne simmaren kände sig trygg i det djupa vattnet.",
+    "example_en": "The experienced swimmer felt safe in the deep water.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8131
+  },
+  {
+    "swedish": "inkvartering",
+    "english": "accommodation",
+    "example_sv": "Studenterna ordnade egen inkvartering under den internationella konferensen i Stockholm.",
+    "example_en": "The students arranged their own accommodation during the international conference in Stockholm.",
+    "scenario": "Hotel",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8132
+  },
+  {
+    "swedish": "majs",
+    "english": "corn",
+    "example_sv": "Vi odlar majs på vår gård för att mata djuren.",
+    "example_en": "We grow corn on our farm to feed the animals.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8133
+  },
+  {
+    "swedish": "visare",
+    "english": "pointer",
+    "example_sv": "Läraren använde en visare för att peka på kartan.",
+    "example_en": "The teacher used a pointer to point at the map.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8134
+  },
+  {
+    "swedish": "oupphörlig",
+    "english": "incessant",
+    "example_sv": "Det oupphörliga regnet gjorde vägarna hala och farliga.",
+    "example_en": "The incessant rain made the roads slippery and dangerous.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8135
+  },
+  {
+    "swedish": "bönfalla",
+    "english": "implore",
+    "example_sv": "Hon bönföll honom att inte lämna henne ensam.",
+    "example_en": "She implored him not to leave her alone.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8136
+  },
+  {
+    "swedish": "dosering",
+    "english": "dosage",
+    "example_sv": "Det är viktigt att följa läkarens dosering av medicinen.",
+    "example_en": "It is important to follow the doctor's dosage of the medicine.",
+    "scenario": "Pharmacy",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8137
+  },
+  {
+    "swedish": "studiekamrat",
+    "english": "study buddy",
+    "example_sv": "Min studiekamrat och jag brukar plugga tillsammans inför tentorna.",
+    "example_en": "My study buddy and I usually study together before the exams.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8138
+  },
+  {
+    "swedish": "tryne",
+    "english": "snout",
+    "example_sv": "Grisen använde sitt tryne för att böka i jorden.",
+    "example_en": "The pig used its snout to root in the ground.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8139
+  },
+  {
+    "swedish": "ånger",
+    "english": "remorse",
+    "example_sv": "Han kände djup ånger över sina handlingar.",
+    "example_en": "He felt deep remorse over his actions.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8140
+  },
+  {
+    "swedish": "kvarlåtenskap",
+    "english": "estate",
+    "example_sv": "Kvarlåtenskapen efter hennes far delades upp mellan barnen.",
+    "example_en": "The estate after her father was divided among the children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8141
+  },
+  {
+    "swedish": "körsbär",
+    "english": "cherry",
+    "example_sv": "Mormor bakar en utsökt paj med färska körsbär från trädgården.",
+    "example_en": "Grandma bakes a delicious pie with fresh cherries from the garden.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8142
+  },
+  {
+    "swedish": "rakning",
+    "english": "shaving",
+    "example_sv": "Han avbröt sin rakning när telefonen ringde oväntat.",
+    "example_en": "He interrupted his shaving when the phone rang unexpectedly.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8143
+  },
+  {
+    "swedish": "integral",
+    "english": "integral",
+    "example_sv": "För att lösa problemet måste man beräkna en komplicerad integral.",
+    "example_en": "To solve the problem, you need to calculate a complex integral.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8144
+  },
+  {
+    "swedish": "klibba",
+    "english": "stick",
+    "example_sv": "Etiketten kommer att klibba fast om du trycker ordentligt.",
+    "example_en": "The label will stick if you press firmly.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8145
+  },
+  {
+    "swedish": "sparsamhet",
+    "english": "thrift",
+    "example_sv": "Hennes sparsamhet tillät henne att spara pengar varje månad.",
+    "example_en": "Her thrift allowed her to save money every month.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8146
+  },
+  {
+    "swedish": "tunnland",
+    "english": "acre",
+    "example_sv": "Gården sträckte sig över flera tunnland med bördig jord.",
+    "example_en": "The farm stretched over several acres of fertile land.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8147
+  },
+  {
+    "swedish": "formge",
+    "english": "design",
+    "example_sv": "Hon har fått i uppdrag att formge den nya logotypen.",
+    "example_en": "She has been commissioned to design the new logo.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8148
+  },
+  {
+    "swedish": "moderlig",
+    "english": "maternal",
+    "example_sv": "Hon visade en stark och moderlig omsorg om sina barn.",
+    "example_en": "She showed a strong and maternal care for her children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8149
+  },
+  {
+    "swedish": "undervärdera",
+    "english": "underestimate",
+    "example_sv": "Du borde inte undervärdera vikten av god kommunikation.",
+    "example_en": "You should not underestimate the importance of good communication.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8151
+  },
+  {
+    "swedish": "jetplan",
+    "english": "jet plane",
+    "example_sv": "Jetplanet startade från flygplatsen med destination New York.",
+    "example_en": "The jet plane took off from the airport, bound for New York.",
+    "scenario": "At the Airport",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8152
+  },
+  {
+    "swedish": "auktorisera",
+    "english": "authorize",
+    "example_sv": "Endast chefen kan auktorisera den här typen av transaktioner.",
+    "example_en": "Only the manager can authorize this type of transactions.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8153
+  },
+  {
+    "swedish": "korporation",
+    "english": "corporation",
+    "example_sv": "Den stora korporationen har sitt huvudkontor i Stockholm.",
+    "example_en": "The large corporation has its headquarters in Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8154
+  },
+  {
+    "swedish": "saliv",
+    "english": "saliva",
+    "example_sv": "Hunden dreglade och saliv rann ned från dess mungipor.",
+    "example_en": "The dog drooled and saliva ran down from the corners of its mouth.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8155
+  },
+  {
+    "swedish": "strömbrytare",
+    "english": "switch",
+    "example_sv": "Tryck på strömbrytare för att tända lampan i rummet.",
+    "example_en": "Press the switch to turn on the light in the room.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8156
+  },
+  {
+    "swedish": "kurera",
+    "english": "cure",
+    "example_sv": "Läkaren försökte kurera patienten från den ovanliga sjukdomen.",
+    "example_en": "The doctor tried to cure the patient from the rare disease.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8157
+  },
+  {
+    "swedish": "legering",
+    "english": "alloy",
+    "example_sv": "Stålet i konstruktionen var en stark legering av järn och kol.",
+    "example_en": "The steel in the construction was a strong alloy of iron and carbon.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8158
+  },
+  {
+    "swedish": "smaklig",
+    "english": "delicious",
+    "example_sv": "Maten var mycket smaklig och vi njöt av varje tugga.",
+    "example_en": "The food was very delicious and we enjoyed every bite.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8159
+  },
+  {
+    "swedish": "terroristisk",
+    "english": "terrorist",
+    "example_sv": "Polisen utredde händelsen som en potentiell terroristisk handling.",
+    "example_en": "The police investigated the incident as a potential terrorist act.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8160
+  },
+  {
+    "swedish": "hemgift",
+    "english": "dowry",
+    "example_sv": "I vissa kulturer är hemgift fortfarande en vanlig sed.",
+    "example_en": "In some cultures, dowry is still a common custom.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8161
+  },
+  {
+    "swedish": "avvara",
+    "english": "spare",
+    "example_sv": "Jag kan tyvärr inte avvara den boken just nu.",
+    "example_en": "Unfortunately, I cannot spare that book right now.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8162
+  },
+  {
+    "swedish": "förhandsvisning",
+    "english": "preview",
+    "example_sv": "Vi fick en exklusiv förhandsvisning av den nya filmen.",
+    "example_en": "We got an exclusive preview of the new movie.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8163
+  },
+  {
+    "swedish": "marmelad",
+    "english": "marmalade",
+    "example_sv": "Till frukost åt jag en smörgås med apelsinmarmelad.",
+    "example_en": "For breakfast I ate a sandwich with orange marmalade.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8164
+  },
+  {
+    "swedish": "trafikpolis",
+    "english": "traffic police",
+    "example_sv": "Trafikpolisen stoppade bilen för fortkörning på motorvägen.",
+    "example_en": "The traffic police stopped the car for speeding on the highway.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8165
+  },
+  {
+    "swedish": "kittel",
+    "english": "cauldron",
+    "example_sv": "Häxan rörde om i den bubblande kitteln över elden.",
+    "example_en": "The witch stirred in the bubbling cauldron over the fire.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8166
+  },
+  {
+    "swedish": "reseledare",
+    "english": "tour guide",
+    "example_sv": "Reseledaren berättade spännande historier om stadens sevärdheter.",
+    "example_en": "The tour guide told exciting stories about the city's sights.",
+    "scenario": "Directions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8169
+  },
+  {
+    "swedish": "akustik",
+    "english": "acoustics",
+    "example_sv": "Konserthuset är känt för sin utmärkta akustik.",
+    "example_en": "The concert hall is known for its excellent acoustics.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8170
+  },
+  {
+    "swedish": "forcerad",
+    "english": "forced",
+    "example_sv": "Hans leende kändes forcerat och inte äkta.",
+    "example_en": "His smile felt forced and not genuine.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8172
+  },
+  {
+    "swedish": "tidsschema",
+    "english": "schedule",
+    "example_sv": "Vi måste skapa ett detaljerat tidsschema för projektet.",
+    "example_en": "We need to create a detailed schedule for the project.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8173
+  },
+  {
+    "swedish": "årtusende",
+    "english": "millennium",
+    "example_sv": "Det nya årtusendet har medfört stora tekniska framsteg.",
+    "example_en": "The new millennium has brought great technological advances.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8174
+  },
+  {
+    "swedish": "anträffa",
+    "english": "encounter",
+    "example_sv": "Polisen anträffade mannen sovande i parken mitt i natten.",
+    "example_en": "The police encountered the man sleeping in the park in the middle of the night.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8175
+  },
+  {
+    "swedish": "rutnät",
+    "english": "grid",
+    "example_sv": "Staden var byggd enligt ett strikt rutnät med raka gator.",
+    "example_en": "The city was built according to a strict grid with straight streets.",
+    "scenario": "Directions",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8176
+  },
+  {
+    "swedish": "försakelse",
+    "english": "renunciation",
+    "example_sv": "Hans andliga resa krävde stor försakelse av världsliga njutningar.",
+    "example_en": "His spiritual journey required great renunciation of worldly pleasures.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8177
+  },
+  {
+    "swedish": "pluton",
+    "english": "platoon",
+    "example_sv": "En pluton soldater marscherade genom staden under paraden.",
+    "example_en": "A platoon of soldiers marched through the city during the parade.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8178
+  },
+  {
+    "swedish": "ägarinna",
+    "english": "owner",
+    "example_sv": "Ägarinnan till den lilla butiken var mycket vänlig och hjälpsam.",
+    "example_en": "The owner of the small shop was very friendly and helpful.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8179
+  },
+  {
+    "swedish": "överräcka",
+    "english": "hand over",
+    "example_sv": "Priset kommer att överräckas av borgmästaren under ceremonin.",
+    "example_en": "The prize will be handed over by the mayor during the ceremony.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8180
+  },
+  {
+    "swedish": "jordgubbe",
+    "english": "strawberry",
+    "example_sv": "Vi plockade färska jordgubbar på fältet i somras.",
+    "example_en": "We picked fresh strawberries in the field this summer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8181
+  },
+  {
+    "swedish": "sesam",
+    "english": "sesame",
+    "example_sv": "Bageln var toppad med rostade sesamfrön för extra smak.",
+    "example_en": "The bagel was topped with roasted sesame seeds for extra flavor.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8182
+  },
+  {
+    "swedish": "artikulera",
+    "english": "articulate",
+    "example_sv": "Det är viktigt att artikulera tydligt när man håller ett tal.",
+    "example_en": "It is important to articulate clearly when giving a speech.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8183
+  },
+  {
+    "swedish": "aprikos",
+    "english": "apricot",
+    "example_sv": "Jag älskar smaken av mogna aprikoser på sommaren.",
+    "example_en": "I love the taste of ripe apricots in the summer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8184
+  }
+]

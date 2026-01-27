@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "handväska",
+    "english": "handbag, purse",
+    "example_sv": "Hon letade efter sina nycklar längst ner i sin handväska.",
+    "example_en": "She was looking for her keys at the bottom of her handbag.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7144
+  },
+  {
+    "swedish": "häkta",
+    "english": "detain, arrest",
+    "example_sv": "Polisen beslutade att häkta mannen misstänkt för inbrottet.",
+    "example_en": "The police decided to detain the man suspected of the burglary.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7145
+  },
+  {
+    "swedish": "rådjur",
+    "english": "deer, roe deer",
+    "example_sv": "Vi såg ett rådjur beta i kanten av skogen.",
+    "example_en": "We saw a deer grazing at the edge of the forest.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7146
+  },
+  {
+    "swedish": "specialisering",
+    "english": "specialization",
+    "example_sv": "Hennes specialisering inom medicin är pediatrisk onkologi.",
+    "example_en": "Her specialization within medicine is pediatric oncology.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7147
+  },
+  {
+    "swedish": "överfall",
+    "english": "assault, attack",
+    "example_sv": "Rånaren dömdes för grovt överfall och misshandel.",
+    "example_en": "The robber was convicted of aggravated assault and battery.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7148
+  },
+  {
+    "swedish": "frimärke",
+    "english": "stamp",
+    "example_sv": "Jag behöver ett frimärke för att kunna skicka det här brevet.",
+    "example_en": "I need a stamp to be able to send this letter.",
+    "scenario": "Post Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7149
+  },
+  {
+    "swedish": "lakan",
+    "english": "sheet",
+    "example_sv": "Jag bytte lakan på sängen innan gästerna kom.",
+    "example_en": "I changed the sheets on the bed before the guests arrived.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7150
+  },
+  {
+    "swedish": "gurka",
+    "english": "cucumber",
+    "example_sv": "Jag brukar skiva gurka i tunna skivor till salladen.",
+    "example_en": "I usually slice cucumber into thin slices for the salad.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7151
+  },
+  {
+    "swedish": "kanna",
+    "english": "pitcher, jug",
+    "example_sv": "Hon fyllde kannan med vatten och satte den på bordet.",
+    "example_en": "She filled the pitcher with water and put it on the table.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7152
+  },
+  {
+    "swedish": "midja",
+    "english": "waist",
+    "example_sv": "Klänningen var figursydd och markerade hennes smala midja.",
+    "example_en": "The dress was fitted and emphasized her slender waist.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7153
+  },
+  {
+    "swedish": "omringa",
+    "english": "surround, encircle",
+    "example_sv": "Polisen försökte omringa byggnaden för att fånga rånarna.",
+    "example_en": "The police tried to surround the building to catch the robbers.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7154
+  },
+  {
+    "swedish": "styrelseordförande",
+    "english": "chairman, chairwoman",
+    "example_sv": "Styrelseordförande ledde mötet med fast hand och tydliga instruktioner.",
+    "example_en": "The chairman led the meeting with a firm hand and clear instructions.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7155
+  },
+  {
+    "swedish": "ödelägga",
+    "english": "devastate, destroy",
+    "example_sv": "Orkanen ödelägga stora delar av staden längs kusten.",
+    "example_en": "The hurricane devastated large parts of the city along the coast.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7156
+  },
+  {
+    "swedish": "slang",
+    "english": "hose, slang",
+    "example_sv": "Jag använder en slang för att vattna blommorna i trädgården.",
+    "example_en": "I use a hose to water the flowers in the garden.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7157
+  },
+  {
+    "swedish": "överhuvud",
+    "english": "head, chief",
+    "example_sv": "Företagets överhuvud presenterade de nya målen för året.",
+    "example_en": "The head of the company presented the new goals for the year.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7158
+  },
+  {
+    "swedish": "handelsman",
+    "english": "merchant, trader",
+    "example_sv": "Den gamle handelsmannen hade rest över hela världen.",
+    "example_en": "The old merchant had traveled all over the world.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7159
+  },
+  {
+    "swedish": "linjär",
+    "english": "linear",
+    "example_sv": "Det finns ett linjärt samband mellan investering och avkastning.",
+    "example_en": "There is a linear relationship between investment and return.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7160
+  },
+  {
+    "swedish": "telekommunikation",
+    "english": "telecommunication",
+    "example_sv": "Telekommunikation har revolutionerat sättet vi kommunicerar på globalt.",
+    "example_en": "Telecommunication has revolutionized the way we communicate globally.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7161
+  },
+  {
+    "swedish": "karakteristisk",
+    "english": "characteristic",
+    "example_sv": "Den karakteristiska lukten av gran fyllde luften under julen.",
+    "example_en": "The characteristic smell of spruce filled the air during Christmas.",
+    "scenario": "Holidays",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7162
+  },
+  {
+    "swedish": "åklagarmyndighet",
+    "english": "prosecution authority",
+    "example_sv": "Åklagarmyndigheten beslutade att inte väcka åtal i fallet.",
+    "example_en": "The prosecution authority decided not to prosecute in the case.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7163
+  },
+  {
+    "swedish": "årsdag",
+    "english": "anniversary",
+    "example_sv": "Vi firade vår tioåriga bröllopsdag med en romantisk middag.",
+    "example_en": "We celebrated our tenth wedding anniversary with a romantic dinner.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7164
+  },
+  {
+    "swedish": "repetition",
+    "english": "repetition",
+    "example_sv": "Repetition är nyckeln till att komma ihåg ny information.",
+    "example_en": "Repetition is the key to remembering new information.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7165
+  },
+  {
+    "swedish": "underskrift",
+    "english": "signature",
+    "example_sv": "Kontraktet kräver din underskrift för att bli giltigt.",
+    "example_en": "The contract requires your signature to be valid.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7166
+  },
+  {
+    "swedish": "förgrund",
+    "english": "foreground",
+    "example_sv": "Konstnären placerade den röda blomman i förgrunden av målningen.",
+    "example_en": "The artist placed the red flower in the foreground of the painting.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7167
+  },
+  {
+    "swedish": "grönska",
+    "english": "greenery",
+    "example_sv": "Efter regnet var grönskan frodig och intensiv i parken.",
+    "example_en": "After the rain, the greenery was lush and intense in the park.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7168
+  },
+  {
+    "swedish": "kungörelse",
+    "english": "announcement, notice",
+    "example_sv": "Det fanns en kungörelse på anslagstavlan om den inställda föreläsningen.",
+    "example_en": "There was an announcement on the bulletin board about the cancelled lecture.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7169
+  },
+  {
+    "swedish": "besvära",
+    "english": "bother, trouble",
+    "example_sv": "Jag vill inte besvära dig med mina problem just nu.",
+    "example_en": "I don't want to bother you with my problems right now.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7170
+  },
+  {
+    "swedish": "reflex",
+    "english": "reflex",
+    "example_sv": "Använd reflex när du går i mörkret för din säkerhet.",
+    "example_en": "Use reflectors when walking in the dark for your safety.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7171
+  },
+  {
+    "swedish": "inspektör",
+    "english": "inspector",
+    "example_sv": "Inspektören granskade noggrant alla dokument innan han godkände dem.",
+    "example_en": "The inspector carefully reviewed all the documents before approving them.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7172
+  },
+  {
+    "swedish": "stum",
+    "english": "mute, speechless",
+    "example_sv": "Hon blev stum av förvåning när hon hörde nyheten.",
+    "example_en": "She was speechless with surprise when she heard the news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7173
+  },
+  {
+    "swedish": "uppdra",
+    "english": "assign, entrust",
+    "example_sv": "Chefen uppdrog åt mig att leda projektet från början till slut.",
+    "example_en": "The boss assigned me to lead the project from start to finish.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7174
+  },
+  {
+    "swedish": "gunga",
+    "english": "swing, rock",
+    "example_sv": "Barnen älskar att gunga högt i parkens gungor.",
+    "example_en": "The children love to swing high in the park's swings.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7175
+  },
+  {
+    "swedish": "legitimation",
+    "english": "identification",
+    "example_sv": "Du måste visa legitimation för att kunna hämta ut paketet.",
+    "example_en": "You must show identification to pick up the package.",
+    "scenario": "Post Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7177
+  },
+  {
+    "swedish": "patriotisk",
+    "english": "patriotic",
+    "example_sv": "Han var en stolt och patriotisk medborgare i sitt land.",
+    "example_en": "He was a proud and patriotic citizen of his country.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7178
+  },
+  {
+    "swedish": "aptit",
+    "english": "appetite",
+    "example_sv": "Jag har ingen aptit idag, jag känner mig lite krasslig.",
+    "example_en": "I have no appetite today, I feel a bit unwell.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7179
+  },
+  {
+    "swedish": "artig",
+    "english": "polite, courteous",
+    "example_sv": "Han var alltid artig och respektfull mot sina medmänniskor.",
+    "example_en": "He was always polite and respectful towards his fellow human beings.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7180
+  },
+  {
+    "swedish": "beskyddare",
+    "english": "protector, patron",
+    "example_sv": "Hon såg honom som en beskyddare, alltid redo att hjälpa henne.",
+    "example_en": "She saw him as a protector, always ready to help her.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7181
+  },
+  {
+    "swedish": "samstämmighet",
+    "english": "agreement, consistency",
+    "example_sv": "Det måste finnas samstämmighet mellan våra handlingar och våra värderingar.",
+    "example_en": "There must be consistency between our actions and our values.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7182
+  },
+  {
+    "swedish": "uppehälle",
+    "english": "livelihood, sustenance",
+    "example_sv": "Fiske var länge deras huvudsakliga uppehälle i byn.",
+    "example_en": "Fishing was long their main livelihood in the village.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7183
+  },
+  {
+    "swedish": "segment",
+    "english": "segment",
+    "example_sv": "Marknadsundersökningen delade in kunderna i olika segment.",
+    "example_en": "The market research divided customers into different segments.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7184
+  },
+  {
+    "swedish": "stege",
+    "english": "ladder",
+    "example_sv": "Han klättrade upp för stegen för att måla huset.",
+    "example_en": "He climbed up the ladder to paint the house.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7185
+  },
+  {
+    "swedish": "oliv",
+    "english": "olive",
+    "example_sv": "Vi åt oliver och ost som tilltugg innan middagen.",
+    "example_en": "We ate olives and cheese as appetizers before dinner.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7187
+  },
+  {
+    "swedish": "syra",
+    "english": "acid",
+    "example_sv": "Citron innehåller en hög koncentration av citronsyra.",
+    "example_en": "Lemon contains a high concentration of citric acid.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7188
+  },
+  {
+    "swedish": "vattna",
+    "english": "water",
+    "example_sv": "Jag måste vattna blommorna innan jag åker på semester.",
+    "example_en": "I need to water the flowers before I go on vacation.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7189
+  },
+  {
+    "swedish": "besätta",
+    "english": "occupy, man",
+    "example_sv": "Rebellerna försökte besätta regeringsbyggnaden under kuppen.",
+    "example_en": "The rebels tried to occupy the government building during the coup.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7190
+  },
+  {
+    "swedish": "dispyt",
+    "english": "dispute, argument",
+    "example_sv": "Det uppstod en dispyt mellan grannarna om tomtgränsen.",
+    "example_en": "There was a dispute between the neighbors about the property line.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7191
+  },
+  {
+    "swedish": "kräfta",
+    "english": "crayfish",
+    "example_sv": "Vi hade kräftskiva med vänner och familj i augusti.",
+    "example_en": "We had a crayfish party with friends and family in August.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7192
+  },
+  {
+    "swedish": "läcker",
+    "english": "delicious, tasty",
+    "example_sv": "Den här tårtan är verkligen läcker, vad är receptet?",
+    "example_en": "This cake is really delicious, what's the recipe?",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7193
+  },
+  {
+    "swedish": "vaktmästare",
+    "english": "janitor, caretaker",
+    "example_sv": "Vaktmästaren såg till att skolan var ren och välskött.",
+    "example_en": "The janitor made sure the school was clean and well-maintained.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7194
+  },
+  {
+    "swedish": "byggnation",
+    "english": "construction",
+    "example_sv": "Byggnationen av den nya motorvägen kommer att ta flera år.",
+    "example_en": "The construction of the new highway will take several years.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7195
+  }
+]

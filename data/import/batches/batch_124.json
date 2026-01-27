@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "visum",
+    "english": "visa",
+    "example_sv": "Jag behövde ansöka om ett visum för att resa dit.",
+    "example_en": "I needed to apply for a visa to travel there.",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6478
+  },
+  {
+    "swedish": "analytisk",
+    "english": "analytical",
+    "example_sv": "Hon har en analytisk förmåga som är mycket värdefull.",
+    "example_en": "She has an analytical ability that is very valuable.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6479
+  },
+  {
+    "swedish": "intrig",
+    "english": "intrigue",
+    "example_sv": "Boken handlar om en politisk intrig i huvudstaden.",
+    "example_en": "The book is about a political intrigue in the capital.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6480
+  },
+  {
+    "swedish": "förkorta",
+    "english": "shorten",
+    "example_sv": "Vi kan förkorta presentationen för att spara tid.",
+    "example_en": "We can shorten the presentation to save time.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6481
+  },
+  {
+    "swedish": "påträffa",
+    "english": "encounter, find",
+    "example_sv": "Polisen hoppas påträffa fler bevis i fallet snart.",
+    "example_en": "The police hope to find more evidence in the case soon.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6482
+  },
+  {
+    "swedish": "skådespel",
+    "english": "spectacle, play",
+    "example_sv": "Det var ett fantastiskt skådespel med ljus och musik.",
+    "example_en": "It was a fantastic spectacle with light and music.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6483
+  },
+  {
+    "swedish": "avtryck",
+    "english": "impression, print",
+    "example_sv": "Han lämnade ett starkt avtryck på företaget med sitt arbete.",
+    "example_en": "He left a strong impression on the company with his work.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6484
+  },
+  {
+    "swedish": "disponera",
+    "english": "manage, allocate",
+    "example_sv": "Vi måste disponera våra resurser effektivt under projektet.",
+    "example_en": "We must manage our resources effectively during the project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6485
+  },
+  {
+    "swedish": "knuffa",
+    "english": "push, shove",
+    "example_sv": "Någon försökte knuffa mig på tåget imorse.",
+    "example_en": "Someone tried to push me on the train this morning.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6486
+  },
+  {
+    "swedish": "vägran",
+    "english": "refusal",
+    "example_sv": "Hans vägran att samarbeta försvårade utredningen avsevärt.",
+    "example_en": "His refusal to cooperate greatly hampered the investigation.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6487
+  },
+  {
+    "swedish": "charm",
+    "english": "charm",
+    "example_sv": "Hon vann oss över med sin naturliga charm och humor.",
+    "example_en": "She won us over with her natural charm and humor.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6488
+  },
+  {
+    "swedish": "uthärda",
+    "english": "endure, withstand",
+    "example_sv": "Jag vet inte hur jag ska uthärda denna smärta längre.",
+    "example_en": "I don't know how I will endure this pain any longer.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6489
+  },
+  {
+    "swedish": "högtidlig",
+    "english": "solemn, ceremonial",
+    "example_sv": "Det var en högtidlig stund när vinnarna tillkännagavs.",
+    "example_en": "It was a solemn moment when the winners were announced.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6490
+  },
+  {
+    "swedish": "komplikation",
+    "english": "complication",
+    "example_sv": "Det uppstod en komplikation under operationen och den tog längre tid.",
+    "example_en": "A complication arose during the operation, and it took longer.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6491
+  },
+  {
+    "swedish": "delegat",
+    "english": "delegate",
+    "example_sv": "Varje land skickar en delegat till den internationella konferensen.",
+    "example_en": "Each country sends a delegate to the international conference.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6492
+  },
+  {
+    "swedish": "socialförsäkring",
+    "english": "social security",
+    "example_sv": "I Sverige har vi ett väl utbyggt system för socialförsäkring.",
+    "example_en": "In Sweden, we have a well-developed social security system.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6493
+  },
+  {
+    "swedish": "öm",
+    "english": "tender, sore",
+    "example_sv": "Mitt ben är väldigt ömt efter träningen igår.",
+    "example_en": "My leg is very sore after yesterday's workout.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6494
+  },
+  {
+    "swedish": "bälte",
+    "english": "belt",
+    "example_sv": "Du måste alltid spänna fast säkerhetsbältet i bilen.",
+    "example_en": "You must always fasten your seatbelt in the car.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6495
+  },
+  {
+    "swedish": "privatisera",
+    "english": "privatize",
+    "example_sv": "Regeringen bestämde sig för att privatisera sjukhuset.",
+    "example_en": "The government decided to privatize the hospital.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6496
+  },
+  {
+    "swedish": "lillebror",
+    "english": "little brother",
+    "example_sv": "Min lillebror älskar att spela datorspel hela dagarna.",
+    "example_en": "My little brother loves to play computer games all day.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6497
+  },
+  {
+    "swedish": "smuts",
+    "english": "dirt, filth",
+    "example_sv": "Det var mycket smuts på golvet efter festen.",
+    "example_en": "There was a lot of dirt on the floor after the party.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6498
+  },
+  {
+    "swedish": "kudde",
+    "english": "pillow",
+    "example_sv": "Jag behöver en mjuk kudde för att kunna sova gott.",
+    "example_en": "I need a soft pillow to sleep well.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6499
+  },
+  {
+    "swedish": "slätt",
+    "english": "plain, flat",
+    "example_sv": "Vi vandrade över en stor slätt med högt gräs.",
+    "example_en": "We hiked across a large plain with tall grass.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6500
+  },
+  {
+    "swedish": "kondom",
+    "english": "condom",
+    "example_sv": "Det är viktigt att använda kondom för att skydda sig.",
+    "example_en": "It is important to use a condom to protect yourself.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6501
+  },
+  {
+    "swedish": "tank",
+    "english": "tank",
+    "example_sv": "Den stora tanken fylldes med vatten från floden.",
+    "example_en": "The large tank was filled with water from the river.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6502
+  },
+  {
+    "swedish": "bråkdel",
+    "english": "fraction",
+    "example_sv": "Endast en bråkdel av befolkningen har råd med det.",
+    "example_en": "Only a fraction of the population can afford it.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6503
+  },
+  {
+    "swedish": "ögonbryn",
+    "english": "eyebrow",
+    "example_sv": "Hon ryckte på ögonbrynen när hon hörde nyheten.",
+    "example_en": "She raised her eyebrows when she heard the news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6504
+  },
+  {
+    "swedish": "undkomma",
+    "english": "escape",
+    "example_sv": "Fången lyckades undkomma från fängelset under natten.",
+    "example_en": "The prisoner managed to escape from the prison during the night.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6505
+  },
+  {
+    "swedish": "hejdå",
+    "english": "goodbye",
+    "example_sv": "Okej, jag måste gå nu, hejdå och vi ses snart!",
+    "example_en": "Okay, I have to go now, goodbye and see you soon!",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "spannmål",
+    "english": "grain",
+    "example_sv": "Vi odlar vete och annan spannmål på vår gård.",
+    "example_en": "We grow wheat and other grain on our farm.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6507
+  },
+  {
+    "swedish": "uttal",
+    "english": "pronunciation",
+    "example_sv": "Jag behöver öva på mitt uttal av det här ordet.",
+    "example_en": "I need to practice my pronunciation of this word.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6508
+  },
+  {
+    "swedish": "kompositör",
+    "english": "composer",
+    "example_sv": "Mozart var en mycket berömd och begåvad kompositör.",
+    "example_en": "Mozart was a very famous and talented composer.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6509
+  },
+  {
+    "swedish": "korn",
+    "english": "grain, barley",
+    "example_sv": "Vi använder korn för att göra öl och whisky.",
+    "example_en": "We use barley to make beer and whisky.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6510
+  },
+  {
+    "swedish": "täckning",
+    "english": "coverage, reception",
+    "example_sv": "Det är dålig mobiltäckning här ute på landet tyvärr.",
+    "example_en": "There is poor mobile coverage out here in the countryside, unfortunately.",
+    "scenario": "Phone & Internet",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6511
+  },
+  {
+    "swedish": "anstalt",
+    "english": "institution",
+    "example_sv": "Han hamnade på en sluten anstalt efter brottet.",
+    "example_en": "He ended up in a closed institution after the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6512
+  },
+  {
+    "swedish": "förmedling",
+    "english": "mediation, agency",
+    "example_sv": "Vi anlitade en förmedling för att hitta en ny lägenhet.",
+    "example_en": "We hired an agency to find a new apartment.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6513
+  },
+  {
+    "swedish": "deprimerad",
+    "english": "depressed",
+    "example_sv": "Hon kände sig deprimerad efter att hon förlorat jobbet.",
+    "example_en": "She felt depressed after she lost her job.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6514
+  },
+  {
+    "swedish": "sammankomst",
+    "english": "gathering",
+    "example_sv": "Det kommer att vara en stor sammankomst för alla anställda.",
+    "example_en": "There will be a large gathering for all employees.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6515
+  },
+  {
+    "swedish": "vänligen",
+    "english": "kindly, please",
+    "example_sv": "Vänligen fyll i formuläret och skicka tillbaka det till oss.",
+    "example_en": "Please fill out the form and send it back to us.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6516
+  },
+  {
+    "swedish": "grymhet",
+    "english": "cruelty",
+    "example_sv": "Människor måste visa mer medkänsla istället för grymhet.",
+    "example_en": "People must show more compassion instead of cruelty.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6517
+  },
+  {
+    "swedish": "nykter",
+    "english": "sober",
+    "example_sv": "Det är viktigt att vara nykter när man kör bil.",
+    "example_en": "It's important to be sober when driving a car.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6518
+  },
+  {
+    "swedish": "solid",
+    "english": "solid",
+    "example_sv": "Huset är byggt av solida material och kommer hålla länge.",
+    "example_en": "The house is built of solid materials and will last a long time.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6519
+  },
+  {
+    "swedish": "idealisk",
+    "english": "ideal",
+    "example_sv": "Det här är en idealisk plats för att bygga ett hus.",
+    "example_en": "This is an ideal place to build a house.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6520
+  },
+  {
+    "swedish": "pyramid",
+    "english": "pyramid",
+    "example_sv": "De stora pyramiderna i Egypten är fantastiska monument.",
+    "example_en": "The great pyramids of Egypt are amazing monuments.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6521
+  },
+  {
+    "swedish": "stövel",
+    "english": "boot",
+    "example_sv": "Jag behövde köpa ett par nya stövlar inför vintern.",
+    "example_en": "I needed to buy a new pair of boots for the winter.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6522
+  },
+  {
+    "swedish": "gråt",
+    "english": "crying",
+    "example_sv": "Hennes gråt gjorde ont att höra efter beskedet.",
+    "example_en": "Her crying was painful to hear after the news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6523
+  },
+  {
+    "swedish": "täcke",
+    "english": "duvet, blanket",
+    "example_sv": "Det är skönt att krypa under ett varmt täcke när det är kallt.",
+    "example_en": "It's nice to crawl under a warm duvet when it's cold.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6524
+  },
+  {
+    "swedish": "blinka",
+    "english": "blink",
+    "example_sv": "Hon blinkade åt mig som ett tecken på att hon förstod.",
+    "example_en": "She blinked at me as a sign that she understood.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6525
+  },
+  {
+    "swedish": "gränd",
+    "english": "alley",
+    "example_sv": "Vi gick genom en smal gränd i den gamla staden.",
+    "example_en": "We walked through a narrow alley in the old town.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6526
+  },
+  {
+    "swedish": "otillåten",
+    "english": "unauthorized, illegal",
+    "example_sv": "Det är otillåten parkering på den här platsen.",
+    "example_en": "Parking is unauthorized in this location.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6527
+  }
+]

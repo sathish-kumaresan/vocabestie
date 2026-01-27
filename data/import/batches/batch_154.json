@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "strykning",
+    "english": "ironing",
+    "example_sv": "Jag hatar strykning, men jag måste göra det ibland.",
+    "example_en": "I hate ironing, but I have to do it sometimes.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8020
+  },
+  {
+    "swedish": "kalcium",
+    "english": "calcium",
+    "example_sv": "Mjölk är en viktig källa till kalcium för benstommen.",
+    "example_en": "Milk is an important source of calcium for the skeleton.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "noun",
+    "rank": 8021
+  },
+  {
+    "swedish": "tillfälligtvis",
+    "english": "temporarily",
+    "example_sv": "Han bor tillfälligtvis hos sina föräldrar medan han letar lägenhet.",
+    "example_en": "He is temporarily living with his parents while he looks for an apartment.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "adverb",
+    "rank": 8023
+  },
+  {
+    "swedish": "hänförelse",
+    "english": "rapture",
+    "example_sv": "Hon lyssnade på musiken med total hänförelse och glömde allt annat.",
+    "example_en": "She listened to the music with complete rapture, forgetting everything else.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8025
+  },
+  {
+    "swedish": "spårning",
+    "english": "tracking",
+    "example_sv": "Polisen använder spårning för att hitta försvunna personer.",
+    "example_en": "The police use tracking to find missing persons.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8026
+  },
+  {
+    "swedish": "systerson",
+    "english": "nephew",
+    "example_sv": "Min systerson älskar att spela fotboll i trädgården.",
+    "example_en": "My nephew loves playing football in the garden.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8027
+  },
+  {
+    "swedish": "ohyra",
+    "english": "vermin",
+    "example_sv": "Bondgårdar kan drabbas av ohyra som förstör skörden.",
+    "example_en": "Farms can be affected by vermin that destroy the harvest.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8029
+  },
+  {
+    "swedish": "opublicerad",
+    "english": "unpublished",
+    "example_sv": "Författaren behöll sitt opublicerade manuskript i många år.",
+    "example_en": "The author kept his unpublished manuscript for many years.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8030
+  },
+  {
+    "swedish": "idrottsplats",
+    "english": "sports ground",
+    "example_sv": "Eleverna sprang runt idrottsplatsen under gymnastiklektionen.",
+    "example_en": "The students ran around the sports ground during the gym class.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8031
+  },
+  {
+    "swedish": "elastisk",
+    "english": "elastic",
+    "example_sv": "Gummibandet var väldigt elastiskt och gick inte sönder lätt.",
+    "example_en": "The rubber band was very elastic and did not break easily.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8032
+  },
+  {
+    "swedish": "arrest",
+    "english": "arrest",
+    "example_sv": "Mannen sattes i arrest efter att ha brutit mot lagen.",
+    "example_en": "The man was put under arrest after breaking the law.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8033
+  },
+  {
+    "swedish": "dill",
+    "english": "dill",
+    "example_sv": "Vi odlar egen dill i trädgården till midsommar.",
+    "example_en": "We grow our own dill in the garden for Midsummer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8034
+  },
+  {
+    "swedish": "vax",
+    "english": "wax",
+    "example_sv": "Hon använder vax för att göra rent golvet blankt.",
+    "example_en": "She uses wax to make the clean floor shiny.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8035
+  },
+  {
+    "swedish": "pose",
+    "english": "pose",
+    "example_sv": "Modellen intog en elegant pose framför kameran.",
+    "example_en": "The model struck an elegant pose in front of the camera.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8036
+  },
+  {
+    "swedish": "bullrig",
+    "english": "noisy",
+    "example_sv": "Det är väldigt bullrig trafik utanför mitt fönster.",
+    "example_en": "The traffic outside my window is very noisy.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8037
+  },
+  {
+    "swedish": "spröd",
+    "english": "brittle",
+    "example_sv": "Isen på sjön var spröd och farlig att gå på.",
+    "example_en": "The ice on the lake was brittle and dangerous to walk on.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8038
+  },
+  {
+    "swedish": "tidsskrift",
+    "english": "journal",
+    "example_sv": "Han publicerade sin forskning i en vetenskaplig tidsskrift.",
+    "example_en": "He published his research in a scientific journal.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8039
+  },
+  {
+    "swedish": "handfat",
+    "english": "sink",
+    "example_sv": "Det nya handfatet i badrummet är väldigt praktiskt.",
+    "example_en": "The new sink in the bathroom is very practical.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8040
+  },
+  {
+    "swedish": "kork",
+    "english": "cork",
+    "example_sv": "Vi öppnade vinflaskan genom att dra ur korken.",
+    "example_en": "We opened the wine bottle by pulling out the cork.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8041
+  },
+  {
+    "swedish": "immun",
+    "english": "immune",
+    "example_sv": "Efter vaccinationen är hon immun mot sjukdomen.",
+    "example_en": "After the vaccination, she is immune to the disease.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8042
+  },
+  {
+    "swedish": "inlämna",
+    "english": "submit",
+    "example_sv": "Du måste inlämna din uppgift senast på fredag.",
+    "example_en": "You must submit your assignment by Friday at the latest.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8043
+  },
+  {
+    "swedish": "projektering",
+    "english": "planning",
+    "example_sv": "Projekteringen av den nya bron är i full gång.",
+    "example_en": "The planning of the new bridge is in full swing.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8044
+  },
+  {
+    "swedish": "regelbundenhet",
+    "english": "regularity",
+    "example_sv": "Regelbundenhet i träningen är viktigt för resultatet.",
+    "example_en": "Regularity in training is important for the result.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8045
+  },
+  {
+    "swedish": "karavan",
+    "english": "caravan",
+    "example_sv": "En karavan av kameler passerade genom öknen långsamt.",
+    "example_en": "A caravan of camels passed slowly through the desert.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8046
+  },
+  {
+    "swedish": "krabba",
+    "english": "crab",
+    "example_sv": "Vi åt färska krabbor på restaurangen vid havet.",
+    "example_en": "We ate fresh crabs at the restaurant by the sea.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8047
+  },
+  {
+    "swedish": "membran",
+    "english": "membrane",
+    "example_sv": "Cellen är omgiven av ett tunt membran.",
+    "example_en": "The cell is surrounded by a thin membrane.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8048
+  },
+  {
+    "swedish": "antikvitet",
+    "english": "antique",
+    "example_sv": "Butiken sålde vackra antikviteter från 1700-talet.",
+    "example_en": "The shop sold beautiful antiques from the 18th century.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8049
+  },
+  {
+    "swedish": "genomträngande",
+    "english": "penetrating",
+    "example_sv": "Ljudet av sirenen var genomträngande och obehagligt.",
+    "example_en": "The sound of the siren was penetrating and unpleasant.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8051
+  },
+  {
+    "swedish": "kemikalie",
+    "english": "chemical",
+    "example_sv": "Laboratoriet hanterade farliga kemikalier med stor försiktighet.",
+    "example_en": "The laboratory handled dangerous chemicals with great care.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8052
+  },
+  {
+    "swedish": "kultiverad",
+    "english": "cultured",
+    "example_sv": "Han är en kultiverad man med ett brett intresseområde.",
+    "example_en": "He is a cultured man with a broad range of interests.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8053
+  },
+  {
+    "swedish": "rumslig",
+    "english": "spatial",
+    "example_sv": "Arkitekten har en god rumslig förståelse för byggnadens form.",
+    "example_en": "The architect has a good spatial understanding of the building's form.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8054
+  },
+  {
+    "swedish": "tråkighet",
+    "english": "boredom",
+    "example_sv": "Hon kände en stor tråkighet under den långa föreläsningen.",
+    "example_en": "She felt great boredom during the long lecture.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8055
+  },
+  {
+    "swedish": "namnteckning",
+    "english": "signature",
+    "example_sv": "Glöm inte att skriva din namnteckning på kontraktet.",
+    "example_en": "Don't forget to write your signature on the contract.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8056
+  },
+  {
+    "swedish": "personell",
+    "english": "personnel",
+    "example_sv": "Företaget genomförde en genomgång av den personella situationen.",
+    "example_en": "The company conducted a review of the personnel situation.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8057
+  },
+  {
+    "swedish": "ungkarl",
+    "english": "bachelor",
+    "example_sv": "Han har levt som ungkarl hela sitt liv.",
+    "example_en": "He has lived as a bachelor his whole life.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8058
+  },
+  {
+    "swedish": "rättfärdigande",
+    "english": "justification",
+    "example_sv": "Det finns inget rättfärdigande för hans våldsamma beteende.",
+    "example_en": "There is no justification for his violent behaviour.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8059
+  },
+  {
+    "swedish": "sammankoppla",
+    "english": "connect",
+    "example_sv": "Kan du sammankoppla datorn med projektorn?",
+    "example_en": "Can you connect the computer to the projector?",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8060
+  },
+  {
+    "swedish": "aktivering",
+    "english": "activation",
+    "example_sv": "Aktiveringen av det nya systemet kommer ske nästa vecka.",
+    "example_en": "The activation of the new system will take place next week.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8061
+  },
+  {
+    "swedish": "mellantid",
+    "english": "interval",
+    "example_sv": "Det är bra att ta en mellantid och vila lite.",
+    "example_en": "It is good to take an interval and rest a little.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8062
+  },
+  {
+    "swedish": "motorbåt",
+    "english": "motorboat",
+    "example_sv": "Vi åkte motorbåt ut till en liten ö i skärgården.",
+    "example_en": "We took a motorboat out to a small island in the archipelago.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8063
+  },
+  {
+    "swedish": "reglemente",
+    "english": "regulation",
+    "example_sv": "Enligt reglementet måste alla deltagare bära hjälm.",
+    "example_en": "According to the regulation, all participants must wear helmets.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8064
+  },
+  {
+    "swedish": "decimal",
+    "english": "decimal",
+    "example_sv": "Använd bara en decimal när du anger temperaturen.",
+    "example_en": "Use only one decimal place when specifying the temperature.",
+    "scenario": "Numbers",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8065
+  },
+  {
+    "swedish": "mosa",
+    "english": "mash",
+    "example_sv": "Det är lätt att mosa potatisen med en gaffel.",
+    "example_en": "It's easy to mash the potatoes with a fork.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8066
+  },
+  {
+    "swedish": "olivträd",
+    "english": "olive tree",
+    "example_sv": "Vi planterade ett litet olivträd i trädgården förra året.",
+    "example_en": "We planted a small olive tree in the garden last year.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8067
+  },
+  {
+    "swedish": "anskaffning",
+    "english": "procurement",
+    "example_sv": "Anskaffningen av den nya utrustningen tog lång tid.",
+    "example_en": "The procurement of the new equipment took a long time.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8068
+  },
+  {
+    "swedish": "gradera",
+    "english": "grade",
+    "example_sv": "Läraren måste gradera alla prov inom en vecka.",
+    "example_en": "The teacher must grade all the exams within a week.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8069
+  },
+  {
+    "swedish": "huva",
+    "english": "hood",
+    "example_sv": "Jackan har en praktisk huva som skyddar mot regnet.",
+    "example_en": "The jacket has a practical hood that protects against the rain.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8070
+  },
+  {
+    "swedish": "lodrät",
+    "english": "vertical",
+    "example_sv": "Linjen på kartan var lodrät från norr till söder.",
+    "example_en": "The line on the map was vertical from north to south.",
+    "scenario": "Directions",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8071
+  },
+  {
+    "swedish": "brodera",
+    "english": "embroider",
+    "example_sv": "Hon älskar att brodera vackra mönster på sina kläder.",
+    "example_en": "She loves to embroider beautiful patterns on her clothes.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8072
+  },
+  {
+    "swedish": "socka",
+    "english": "sock",
+    "example_sv": "Jag har ett hål i min favoritsocka.",
+    "example_en": "I have a hole in my favourite sock.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8073
+  }
+]

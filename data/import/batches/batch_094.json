@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "efternamn",
+    "english": "surname, last name",
+    "example_sv": "Mitt efternamn är Andersson, men jag använder ett annat namn.",
+    "example_en": "My last name is Andersson, but I use a different name.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4931
+  },
+  {
+    "swedish": "hämnd",
+    "english": "revenge, vengeance",
+    "example_sv": "Han planerade sin hämnd efter att ha blivit orättvist behandlad.",
+    "example_en": "He planned his revenge after being treated unfairly.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4932
+  },
+  {
+    "swedish": "puls",
+    "english": "pulse",
+    "example_sv": "Doktorn kände på min puls för att kontrollera hjärtrytmen.",
+    "example_en": "The doctor felt my pulse to check my heart rate.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4933
+  },
+  {
+    "swedish": "tidsperiod",
+    "english": "time period",
+    "example_sv": "Under denna tidsperiod skedde stora förändringar i samhället.",
+    "example_en": "During this time period, great changes occurred in society.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4934
+  },
+  {
+    "swedish": "medelålder",
+    "english": "middle age",
+    "example_sv": "Vid medelåldern börjar många människor tänka på sin hälsa.",
+    "example_en": "In middle age, many people start thinking about their health.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4935
+  },
+  {
+    "swedish": "nyfikenhet",
+    "english": "curiosity",
+    "example_sv": "Hennes nyfikenhet ledde henne till att utforska okända platser.",
+    "example_en": "Her curiosity led her to explore unknown places.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4936
+  },
+  {
+    "swedish": "barnomsorg",
+    "english": "childcare",
+    "example_sv": "Det är viktigt med bra barnomsorg för arbetande föräldrar.",
+    "example_en": "Good childcare is important for working parents.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4937
+  },
+  {
+    "swedish": "ggr",
+    "english": "times",
+    "example_sv": "Jag har varit där flera ggr under de senaste åren.",
+    "example_en": "I've been there several times in the past few years.",
+    "scenario": "Numbers",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "framstående",
+    "english": "prominent, distinguished",
+    "example_sv": "Hon är en framstående forskare inom sitt område.",
+    "example_en": "She is a prominent researcher in her field.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4939
+  },
+  {
+    "swedish": "innehavare",
+    "english": "holder, owner",
+    "example_sv": "Han är innehavare av ett värdefullt konstverk.",
+    "example_en": "He is the owner of a valuable work of art.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4940
+  },
+  {
+    "swedish": "funktionshindrad",
+    "english": "disabled",
+    "example_sv": "Det är viktigt att samhället är tillgängligt för funktionshindrade.",
+    "example_en": "It is important that society is accessible to disabled people.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4941
+  },
+  {
+    "swedish": "isolering",
+    "english": "isolation",
+    "example_sv": "Social isolering kan vara skadligt för den psykiska hälsan.",
+    "example_en": "Social isolation can be harmful to mental health.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4942
+  },
+  {
+    "swedish": "kreditkort",
+    "english": "credit card",
+    "example_sv": "Kan jag betala med kreditkort eller tar ni bara kontanter?",
+    "example_en": "Can I pay with credit card or do you only take cash?",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4943
+  },
+  {
+    "swedish": "otillräcklig",
+    "english": "inadequate, insufficient",
+    "example_sv": "Deras resurser var otillräckliga för att klara av uppgiften.",
+    "example_en": "Their resources were inadequate to cope with the task.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4944
+  },
+  {
+    "swedish": "arbetsmiljö",
+    "english": "work environment",
+    "example_sv": "En bra arbetsmiljö är viktig för att trivas på jobbet.",
+    "example_en": "A good work environment is important for enjoying your job.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4945
+  },
+  {
+    "swedish": "fusk",
+    "english": "cheating",
+    "example_sv": "Läraren upptäckte fusk på provet och underkände studenten.",
+    "example_en": "The teacher detected cheating on the test and failed the student.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4946
+  },
+  {
+    "swedish": "nationalitet",
+    "english": "nationality",
+    "example_sv": "Vilken nationalitet har du? Jag är svensk och japansk.",
+    "example_en": "What nationality do you have? I'm Swedish and Japanese.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4948
+  },
+  {
+    "swedish": "smör",
+    "english": "butter",
+    "example_sv": "Jag breder smör på min smörgås varje morgon.",
+    "example_en": "I spread butter on my sandwich every morning.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4949
+  },
+  {
+    "swedish": "tillträda",
+    "english": "accede, take office",
+    "example_sv": "Hon kommer att tillträda sin nya tjänst i september.",
+    "example_en": "She will take office in her new position in September.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4950
+  },
+  {
+    "swedish": "bänk",
+    "english": "bench",
+    "example_sv": "Vi satte oss på bänken i parken och pratade.",
+    "example_en": "We sat on the bench in the park and talked.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4951
+  },
+  {
+    "swedish": "korthet",
+    "english": "brevity, shortness",
+    "example_sv": "I korthet handlar boken om kärlek och förlust.",
+    "example_en": "In short, the book is about love and loss.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 4952
+  },
+  {
+    "swedish": "kungarike",
+    "english": "kingdom",
+    "example_sv": "Sverige är ett kungarike med en lång historia.",
+    "example_en": "Sweden is a kingdom with a long history.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4953
+  },
+  {
+    "swedish": "målvakt",
+    "english": "goalkeeper",
+    "example_sv": "Målvakten gjorde en fantastisk räddning i sista minuten.",
+    "example_en": "The goalkeeper made a fantastic save in the last minute.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4954
+  },
+  {
+    "swedish": "svans",
+    "english": "tail",
+    "example_sv": "Hunden viftade på svansen när den såg sin ägare.",
+    "example_en": "The dog wagged its tail when it saw its owner.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4955
+  },
+  {
+    "swedish": "utvisa",
+    "english": "deport",
+    "example_sv": "Personen riskerar att utvisas om han begår ett brott.",
+    "example_en": "The person risks being deported if he commits a crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4956
+  },
+  {
+    "swedish": "lite grann",
+    "english": "a little",
+    "example_sv": "Jag förstår lite grann spanska, men inte så bra.",
+    "example_en": "I understand a little bit of Spanish, but not very well.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4957
+  },
+  {
+    "swedish": "efterträdare",
+    "english": "successor",
+    "example_sv": "Hon utsågs till hans efterträdare på posten.",
+    "example_en": "She was appointed as his successor to the position.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4958
+  },
+  {
+    "swedish": "närstående",
+    "english": "close, related",
+    "example_sv": "Hon var omgiven av sina närstående under sjukhusvistelsen.",
+    "example_en": "She was surrounded by her loved ones during her hospital stay.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4960
+  },
+  {
+    "swedish": "plötslig",
+    "english": "sudden",
+    "example_sv": "Det skedde en plötslig förändring i vädret.",
+    "example_en": "There was a sudden change in the weather.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4962
+  },
+  {
+    "swedish": "rök",
+    "english": "smoke",
+    "example_sv": "Det kom rök från skorstenen på det gamla huset.",
+    "example_en": "Smoke was coming from the chimney of the old house.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4963
+  },
+  {
+    "swedish": "skälla",
+    "english": "scold",
+    "example_sv": "Mamma skällde på mig för att jag kom för sent.",
+    "example_en": "Mom scolded me for being late.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4964
+  },
+  {
+    "swedish": "valp",
+    "english": "puppy",
+    "example_sv": "Barnen lekte med den söta lilla valpen i trädgården.",
+    "example_en": "The children were playing with the cute little puppy in the garden.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4965
+  },
+  {
+    "swedish": "fruktan",
+    "english": "fear, dread",
+    "example_sv": "Han kände fruktan inför att tala inför publik.",
+    "example_en": "He felt fear about speaking in public.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4966
+  },
+  {
+    "swedish": "rekrytering",
+    "english": "recruitment",
+    "example_sv": "Företaget har startat en rekrytering av nya medarbetare.",
+    "example_en": "The company has started a recruitment of new employees.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4967
+  },
+  {
+    "swedish": "förövare",
+    "english": "perpetrator, offender",
+    "example_sv": "Polisen letar efter förövaren till brottet.",
+    "example_en": "The police are looking for the perpetrator of the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4968
+  },
+  {
+    "swedish": "popularitet",
+    "english": "popularity",
+    "example_sv": "Filmstjärnans popularitet ökade efter hennes senaste film.",
+    "example_en": "The film star's popularity increased after her latest movie.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4969
+  },
+  {
+    "swedish": "symbolisera",
+    "english": "symbolize",
+    "example_sv": "Den vita duvan symboliserar fred och hopp.",
+    "example_en": "The white dove symbolizes peace and hope.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4970
+  },
+  {
+    "swedish": "kollaps",
+    "english": "collapse",
+    "example_sv": "Börsen riskerar en kollaps om ekonomin försvagas.",
+    "example_en": "The stock market risks a collapse if the economy weakens.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4971
+  },
+  {
+    "swedish": "kändis",
+    "english": "celebrity",
+    "example_sv": "Kändisen skrev autografer till sina fans efter konserten.",
+    "example_en": "The celebrity signed autographs for her fans after the concert.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4972
+  },
+  {
+    "swedish": "termin",
+    "english": "term, semester",
+    "example_sv": "Den nya terminen börjar i slutet av augusti.",
+    "example_en": "The new term starts at the end of August.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4974
+  },
+  {
+    "swedish": "tills vidare",
+    "english": "until further notice",
+    "example_sv": "Mötet är inställt tills vidare på grund av sjukdom.",
+    "example_en": "The meeting is cancelled until further notice due to illness.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4975
+  },
+  {
+    "swedish": "dilemma",
+    "english": "dilemma",
+    "example_sv": "Hon stod inför ett svårt dilemma och visste inte vad hon skulle göra.",
+    "example_en": "She faced a difficult dilemma and didn't know what to do.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4976
+  },
+  {
+    "swedish": "smärtsam",
+    "english": "painful",
+    "example_sv": "Det var en smärtsam upplevelse att förlora sin vän.",
+    "example_en": "It was a painful experience to lose her friend.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4977
+  },
+  {
+    "swedish": "holländsk",
+    "english": "Dutch",
+    "example_sv": "Vi provade holländsk ost på marknaden idag.",
+    "example_en": "We tried Dutch cheese at the market today.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4978
+  },
+  {
+    "swedish": "klämma",
+    "english": "squeeze, pinch",
+    "example_sv": "Akta dig så att du inte klämmer fingrarna i dörren.",
+    "example_en": "Be careful not to pinch your fingers in the door.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4979
+  },
+  {
+    "swedish": "ateist",
+    "english": "atheist",
+    "example_sv": "Han är ateist och tror inte på någon gud.",
+    "example_en": "He is an atheist and does not believe in any god.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4980
+  },
+  {
+    "swedish": "fotnot",
+    "english": "footnote",
+    "example_sv": "Det finns en fotnot längst ner på sidan som förklarar termen.",
+    "example_en": "There is a footnote at the bottom of the page that explains the term.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4981
+  },
+  {
+    "swedish": "samverka",
+    "english": "cooperate, collaborate",
+    "example_sv": "De olika avdelningarna måste samverka för att nå målen.",
+    "example_en": "The different departments must cooperate to achieve the goals.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4982
+  },
+  {
+    "swedish": "antik",
+    "english": "antique",
+    "example_sv": "Hon samlar på antika möbler och föremål.",
+    "example_en": "She collects antique furniture and objects.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4983
+  },
+  {
+    "swedish": "krånglig",
+    "english": "complicated, troublesome",
+    "example_sv": "Det var en krånglig process att få alla tillstånd.",
+    "example_en": "It was a complicated process to get all the permits.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4984
+  }
+]

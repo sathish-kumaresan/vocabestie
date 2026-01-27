@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "förflytta",
+    "english": "move",
+    "example_sv": "Vi måste förflytta bordet till ett annat rum genast.",
+    "example_en": "We have to move the table to another room immediately.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4158
+  },
+  {
+    "swedish": "sekreterare",
+    "english": "secretary",
+    "example_sv": "Sekreteraren skickade ut kallelsen till alla mötesdeltagare i tid.",
+    "example_en": "The secretary sent out the invitation to all meeting participants on time.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4159
+  },
+  {
+    "swedish": "missnöjd",
+    "english": "dissatisfied",
+    "example_sv": "Jag är väldigt missnöjd med servicen på den restaurangen.",
+    "example_en": "I am very dissatisfied with the service at that restaurant.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4160
+  },
+  {
+    "swedish": "värdelös",
+    "english": "worthless",
+    "example_sv": "Den gamla bilen är nästan värdelös efter alla skadorna.",
+    "example_en": "The old car is almost worthless after all the damage.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4161
+  },
+  {
+    "swedish": "doft",
+    "english": "scent",
+    "example_sv": "Jag älskar doften av nybakat bröd på morgonen.",
+    "example_en": "I love the scent of freshly baked bread in the morning.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4162
+  },
+  {
+    "swedish": "passiv",
+    "english": "passive",
+    "example_sv": "Han var väldigt passiv under hela mötet, tyvärr.",
+    "example_en": "He was very passive during the whole meeting, unfortunately.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4163
+  },
+  {
+    "swedish": "uppfinning",
+    "english": "invention",
+    "example_sv": "Glödlampan är en av historiens viktigaste uppfinningar.",
+    "example_en": "The light bulb is one of history's most important inventions.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4164
+  },
+  {
+    "swedish": "språklig",
+    "english": "linguistic",
+    "example_sv": "Det är viktigt att ha språklig kompetens i det jobbet.",
+    "example_en": "It's important to have linguistic competence in that job.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4165
+  },
+  {
+    "swedish": "härska",
+    "english": "reign",
+    "example_sv": "Hon lät kärleken härska över allting som hände.",
+    "example_en": "She let love reign over everything that happened.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4166
+  },
+  {
+    "swedish": "kast",
+    "english": "throw",
+    "example_sv": "Han gjorde ett perfekt kast med bollen över planen.",
+    "example_en": "He made a perfect throw with the ball across the field.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4167
+  },
+  {
+    "swedish": "sympati",
+    "english": "sympathy",
+    "example_sv": "Jag känner stor sympati för henne i den svåra situationen.",
+    "example_en": "I feel great sympathy for her in that difficult situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4168
+  },
+  {
+    "swedish": "behörighet",
+    "english": "authorization",
+    "example_sv": "Du måste ha behörighet för att komma åt det dokumentet.",
+    "example_en": "You need to have authorization to access that document.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4169
+  },
+  {
+    "swedish": "förknippa",
+    "english": "associate",
+    "example_sv": "Jag förknippar alltid julen med doften av pepparkakor.",
+    "example_en": "I always associate Christmas with the smell of gingerbread.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4170
+  },
+  {
+    "swedish": "insändare",
+    "english": "letter to editor",
+    "example_sv": "Jag skrev en insändare till tidningen om trafikproblemen.",
+    "example_en": "I wrote a letter to the editor about the traffic problems.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4171
+  },
+  {
+    "swedish": "judendom",
+    "english": "Judaism",
+    "example_sv": "Hon studerar judendom och dess historia på universitetet.",
+    "example_en": "She is studying Judaism and its history at the university.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4172
+  },
+  {
+    "swedish": "sjuksköterska",
+    "english": "nurse",
+    "example_sv": "Sjuksköterskan var väldigt snäll och hjälpsam mot patienterna.",
+    "example_en": "The nurse was very kind and helpful to the patients.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4173
+  },
+  {
+    "swedish": "tält",
+    "english": "tent",
+    "example_sv": "Vi satte upp tältet vid sjön innan det blev mörkt.",
+    "example_en": "We put up the tent by the lake before it got dark.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4174
+  },
+  {
+    "swedish": "uppgång",
+    "english": "rise",
+    "example_sv": "Vi ser en tydlig uppgång i intresset för miljövänliga produkter.",
+    "example_en": "We see a clear rise in interest for environmentally friendly products.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4175
+  },
+  {
+    "swedish": "inskränka",
+    "english": "restrict",
+    "example_sv": "Vi måste inskränka våra utgifter den här månaden.",
+    "example_en": "We have to restrict our spending this month.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4176
+  },
+  {
+    "swedish": "prestera",
+    "english": "perform",
+    "example_sv": "Han måste prestera bättre på nästa prov för att klara kursen.",
+    "example_en": "He needs to perform better on the next test to pass the course.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4177
+  },
+  {
+    "swedish": "udda",
+    "english": "odd",
+    "example_sv": "Det är ett väldigt udda nummer på den här gatan.",
+    "example_en": "It's a very odd number on this street.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4178
+  },
+  {
+    "swedish": "journal",
+    "english": "journal",
+    "example_sv": "Läkaren förde noggranna anteckningar i patientens journal.",
+    "example_en": "The doctor kept careful notes in the patient's journal.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4179
+  },
+  {
+    "swedish": "diplomatisk",
+    "english": "diplomatic",
+    "example_sv": "Hon var mycket diplomatisk i sitt svar på den svåra frågan.",
+    "example_en": "She was very diplomatic in her answer to the difficult question.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4180
+  },
+  {
+    "swedish": "tillfredsställande",
+    "english": "satisfactory",
+    "example_sv": "Resultatet av undersökningen var tillfredsställande för alla parter.",
+    "example_en": "The result of the investigation was satisfactory for all parties.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4181
+  },
+  {
+    "swedish": "förakt",
+    "english": "contempt",
+    "example_sv": "Han visade tydligt sitt förakt för de rika och mäktiga.",
+    "example_en": "He clearly showed his contempt for the rich and powerful.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4182
+  },
+  {
+    "swedish": "regera",
+    "english": "govern",
+    "example_sv": "Det är svårt att regera ett land i oroliga tider.",
+    "example_en": "It is difficult to govern a country in turbulent times.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4183
+  },
+  {
+    "swedish": "gyllene",
+    "english": "golden",
+    "example_sv": "Solnedgången gav landskapet ett gyllene skimmer.",
+    "example_en": "The sunset gave the landscape a golden shimmer.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4185
+  },
+  {
+    "swedish": "söderut",
+    "english": "southward",
+    "example_sv": "Vi körde söderut längs kusten under semestern.",
+    "example_en": "We drove southward along the coast during the vacation.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4186
+  },
+  {
+    "swedish": "kapitalist",
+    "english": "capitalist",
+    "example_sv": "Vissa kritiserar kapitalister för att de fokuserar på vinst.",
+    "example_en": "Some criticize capitalists for focusing on profit.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4187
+  },
+  {
+    "swedish": "genomslag",
+    "english": "impact",
+    "example_sv": "Kampanjen fick stort genomslag i sociala medier.",
+    "example_en": "The campaign had a big impact on social media.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4188
+  },
+  {
+    "swedish": "teologisk",
+    "english": "theological",
+    "example_sv": "Han har ett stort intresse för teologiska frågor.",
+    "example_en": "He has a great interest in theological questions.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4189
+  },
+  {
+    "swedish": "medelklass",
+    "english": "middle class",
+    "example_sv": "Många politiker säger sig representera medelklassen intressen.",
+    "example_en": "Many politicians claim to represent the interests of the middle class.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4191
+  },
+  {
+    "swedish": "målgrupp",
+    "english": "target group",
+    "example_sv": "Den här produkten riktar sig till en yngre målgrupp.",
+    "example_en": "This product is aimed at a younger target group.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4192
+  },
+  {
+    "swedish": "sortera",
+    "english": "sort",
+    "example_sv": "Jag måste sortera tvätten innan jag startar maskinen.",
+    "example_en": "I need to sort the laundry before I start the machine.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4193
+  },
+  {
+    "swedish": "säkerhetspolitik",
+    "english": "security policy",
+    "example_sv": "Säkerhetspolitik är ett viktigt ämne i dagens värld.",
+    "example_en": "Security policy is an important topic in today's world.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4194
+  },
+  {
+    "swedish": "födelsedag",
+    "english": "birthday",
+    "example_sv": "Vi firade min dotters födelsedag med tårta och presenter.",
+    "example_en": "We celebrated my daughter's birthday with cake and presents.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4195
+  },
+  {
+    "swedish": "misshandla",
+    "english": "assault",
+    "example_sv": "Mannen blev anklagad för att ha misshandlat sin fru.",
+    "example_en": "The man was accused of assaulting his wife.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4196
+  },
+  {
+    "swedish": "mynt",
+    "english": "coin",
+    "example_sv": "Jag har några gamla mynt i min spargris.",
+    "example_en": "I have some old coins in my piggy bank.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4197
+  },
+  {
+    "swedish": "rörlig",
+    "english": "mobile",
+    "example_sv": "Det är viktigt att vara rörlig på arbetsmarknaden idag.",
+    "example_en": "It is important to be mobile in the labor market today.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4198
+  },
+  {
+    "swedish": "gods",
+    "english": "goods",
+    "example_sv": "Lastbilen transporterade godset till lagerlokalen snabbt.",
+    "example_en": "The truck transported the goods to the warehouse quickly.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4199
+  },
+  {
+    "swedish": "beredning",
+    "english": "preparation",
+    "example_sv": "Beredningen av maten tar lite längre tid än planerat.",
+    "example_en": "The preparation of the food is taking a bit longer than planned.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4200
+  },
+  {
+    "swedish": "traditionellt",
+    "english": "traditionally",
+    "example_sv": "Vi firar midsommar traditionellt med dans runt midsommarstången.",
+    "example_en": "We traditionally celebrate Midsummer with dancing around the maypole.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4201
+  },
+  {
+    "swedish": "bliva",
+    "english": "become",
+    "example_sv": "Det börjar bliva kallt ute, jag tar på mig jackan.",
+    "example_en": "It's starting to get cold outside, I'll put on my jacket.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4202
+  },
+  {
+    "swedish": "agent",
+    "english": "agent",
+    "example_sv": "Hon jobbar som agent för flera kända artister.",
+    "example_en": "She works as an agent for several famous artists.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4203
+  },
+  {
+    "swedish": "exklusiv",
+    "english": "exclusive",
+    "example_sv": "Den här restaurangen är väldigt exklusiv och dyr.",
+    "example_en": "This restaurant is very exclusive and expensive.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4204
+  },
+  {
+    "swedish": "handlande",
+    "english": "merchant",
+    "example_sv": "Den handlande mannen sålde sina varor på torget.",
+    "example_en": "The merchant sold his goods in the market square.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4205
+  },
+  {
+    "swedish": "socker",
+    "english": "sugar",
+    "example_sv": "Jag brukar inte ha socker i mitt kaffe längre.",
+    "example_en": "I don't usually have sugar in my coffee anymore.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4206
+  },
+  {
+    "swedish": "upplopp",
+    "english": "riot",
+    "example_sv": "Det utbröt upplopp i staden efter demonstrationen.",
+    "example_en": "Riots broke out in the city after the demonstration.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4207
+  },
+  {
+    "swedish": "kaka",
+    "english": "cake",
+    "example_sv": "Vi bakade en chokladkaka till hennes födelsedagsfest.",
+    "example_en": "We baked a chocolate cake for her birthday party.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4208
+  },
+  {
+    "swedish": "kollektivtrafik",
+    "english": "public transport",
+    "example_sv": "Jag åker kollektivtrafik till jobbet varje dag.",
+    "example_en": "I take public transport to work every day.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4209
+  }
+]

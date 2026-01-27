@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "slakta",
+    "english": "slaughter, butcher",
+    "example_sv": "Bonden måste slakta grisen innan vintern kommer på allvar.",
+    "example_en": "The farmer must slaughter the pig before winter really arrives.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5713
+  },
+  {
+    "swedish": "uppröra",
+    "english": "upset, disturb",
+    "example_sv": "Nyheten om nedläggningen kommer säkert att uppröra många.",
+    "example_en": "The news about the closure will surely upset many people.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5714
+  },
+  {
+    "swedish": "besittning",
+    "english": "possession, property",
+    "example_sv": "Han förlorade alla sina besittningar i den ekonomiska krisen.",
+    "example_en": "He lost all his possessions in the economic crisis.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5715
+  },
+  {
+    "swedish": "fasa",
+    "english": "horror, dread",
+    "example_sv": "Hon kände en fasa inför tanken på att flyga.",
+    "example_en": "She felt a horror at the thought of flying.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5716
+  },
+  {
+    "swedish": "konfrontation",
+    "english": "confrontation",
+    "example_sv": "Polisen försökte undvika en våldsam konfrontation med demonstranterna.",
+    "example_en": "The police tried to avoid a violent confrontation with the protesters.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5717
+  },
+  {
+    "swedish": "trådlös",
+    "english": "wireless",
+    "example_sv": "Jag föredrar att använda trådlös mus till min dator.",
+    "example_en": "I prefer to use a wireless mouse for my computer.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5718
+  },
+  {
+    "swedish": "pub",
+    "english": "pub",
+    "example_sv": "Vi gick till en pub efter jobbet för att ta en öl.",
+    "example_en": "We went to a pub after work to have a beer.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5719
+  },
+  {
+    "swedish": "biverkning",
+    "english": "side effect",
+    "example_sv": "En vanlig biverkning av medicinen är trötthet och illamående.",
+    "example_en": "A common side effect of the medicine is fatigue and nausea.",
+    "scenario": "Pharmacy",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5720
+  },
+  {
+    "swedish": "dragning",
+    "english": "lottery, draw",
+    "example_sv": "Det är dragning i lotteriet på fredag, så håll tummarna!",
+    "example_en": "The lottery draw is on Friday, so keep your fingers crossed!",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5721
+  },
+  {
+    "swedish": "logiskt",
+    "english": "logically",
+    "example_sv": "Det är logiskt att stänga fönstret om det regnar.",
+    "example_en": "It is logical to close the window if it is raining.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5722
+  },
+  {
+    "swedish": "österut",
+    "english": "eastward, east",
+    "example_sv": "Vi åkte österut för att besöka min mormor i Småland.",
+    "example_en": "We went eastward to visit my grandmother in Småland.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5723
+  },
+  {
+    "swedish": "deckare",
+    "english": "detective novel",
+    "example_sv": "Jag gillar att läsa deckare med intrikata mordgåtor.",
+    "example_en": "I like to read detective novels with intricate murder mysteries.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5724
+  },
+  {
+    "swedish": "dåtid",
+    "english": "past, former times",
+    "example_sv": "I dåtidens samhälle var kvinnans roll mycket begränsad.",
+    "example_en": "In the society of former times, the woman's role was very limited.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5725
+  },
+  {
+    "swedish": "cynisk",
+    "english": "cynical",
+    "example_sv": "Han har en cynisk syn på politiker efter alla skandaler.",
+    "example_en": "He has a cynical view of politicians after all the scandals.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5726
+  },
+  {
+    "swedish": "poetisk",
+    "english": "poetic",
+    "example_sv": "Hennes språk är mycket poetisk och full av metaforer.",
+    "example_en": "Her language is very poetic and full of metaphors.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5727
+  },
+  {
+    "swedish": "kostsam",
+    "english": "expensive, costly",
+    "example_sv": "Renoveringen av huset visade sig vara mycket kostsam.",
+    "example_en": "The renovation of the house turned out to be very costly.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5728
+  },
+  {
+    "swedish": "misslyckad",
+    "english": "failed, unsuccessful",
+    "example_sv": "Experimentet var misslyckad, så vi måste börja om.",
+    "example_en": "The experiment was unsuccessful, so we have to start over.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5729
+  },
+  {
+    "swedish": "prioritet",
+    "english": "priority",
+    "example_sv": "Min första prioritet är att avsluta det här projektet.",
+    "example_en": "My first priority is to finish this project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5730
+  },
+  {
+    "swedish": "fascist",
+    "english": "fascist",
+    "example_sv": "Han anklagades för att vara en fascist på grund av sina åsikter.",
+    "example_en": "He was accused of being a fascist because of his views.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5731
+  },
+  {
+    "swedish": "frestelse",
+    "english": "temptation",
+    "example_sv": "Jag kunde inte motstå frestelsen att äta en bit choklad.",
+    "example_en": "I couldn't resist the temptation to eat a piece of chocolate.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5732
+  },
+  {
+    "swedish": "trösta",
+    "english": "comfort, console",
+    "example_sv": "Jag försökte trösta henne efter att hon hade fått dåliga nyheter.",
+    "example_en": "I tried to comfort her after she received bad news.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5733
+  },
+  {
+    "swedish": "uppriktigt",
+    "english": "sincerely, frankly",
+    "example_sv": "Jag är uppriktigt ledsen för det som har hänt.",
+    "example_en": "I am sincerely sorry for what happened.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5734
+  },
+  {
+    "swedish": "världsekonomi",
+    "english": "global economy",
+    "example_sv": "Den globala finanskrisen påverkade världsekonomin kraftigt.",
+    "example_en": "The global financial crisis heavily affected the global economy.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5735
+  },
+  {
+    "swedish": "summera",
+    "english": "summarize",
+    "example_sv": "Kan du summera de viktigaste punkterna från mötet?",
+    "example_en": "Can you summarize the most important points from the meeting?",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5736
+  },
+  {
+    "swedish": "fängelsestraff",
+    "english": "prison sentence",
+    "example_sv": "Han dömdes till ett långt fängelsestraff för brottet.",
+    "example_en": "He was sentenced to a long prison sentence for the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5737
+  },
+  {
+    "swedish": "invigning",
+    "english": "inauguration, opening",
+    "example_sv": "Det kommer att vara en stor invigning av den nya bron.",
+    "example_en": "There will be a grand opening of the new bridge.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5738
+  },
+  {
+    "swedish": "revisor",
+    "english": "auditor",
+    "example_sv": "Vi behöver en revisor för att granska våra räkenskaper.",
+    "example_en": "We need an auditor to review our accounts.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5739
+  },
+  {
+    "swedish": "samisk",
+    "english": "Sami, Lappish",
+    "example_sv": "Samisk kultur är rik och har en lång historia.",
+    "example_en": "Sami culture is rich and has a long history.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5740
+  },
+  {
+    "swedish": "så snart som",
+    "english": "as soon as",
+    "example_sv": "Jag kommer att ringa dig så snart som jag har tid.",
+    "example_en": "I will call you as soon as I have time.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5741
+  },
+  {
+    "swedish": "underminera",
+    "english": "undermine",
+    "example_sv": "Hans handlingar riskerar att underminera hela projektet.",
+    "example_en": "His actions risk undermining the entire project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5742
+  },
+  {
+    "swedish": "medgivande",
+    "english": "consent, permission",
+    "example_sv": "Du behöver deras medgivande innan du kan använda deras bilder.",
+    "example_en": "You need their consent before you can use their images.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5743
+  },
+  {
+    "swedish": "tvätt",
+    "english": "laundry, washing",
+    "example_sv": "Jag måste sortera tvätten innan jag startar tvättmaskinen.",
+    "example_en": "I need to sort the laundry before I start the washing machine.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5744
+  },
+  {
+    "swedish": "guvernör",
+    "english": "governor",
+    "example_sv": "Guvernören höll ett tal om den ekonomiska situationen.",
+    "example_en": "The governor gave a speech about the economic situation.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5745
+  },
+  {
+    "swedish": "adekvat",
+    "english": "adequate, sufficient",
+    "example_sv": "Vi behöver adekvat information innan vi kan fatta ett beslut.",
+    "example_en": "We need adequate information before we can make a decision.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5746
+  },
+  {
+    "swedish": "brottas",
+    "english": "wrestle, struggle",
+    "example_sv": "Han brottas med frågan om han ska byta jobb.",
+    "example_en": "He is wrestling with the question of whether to change jobs.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5747
+  },
+  {
+    "swedish": "hantverk",
+    "english": "craft, handicraft",
+    "example_sv": "Hon älskar att skapa vackra saker genom traditionellt hantverk.",
+    "example_en": "She loves to create beautiful things through traditional crafts.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5748
+  },
+  {
+    "swedish": "minus",
+    "english": "minus",
+    "example_sv": "Temperaturen i natt kommer att vara minus tio grader.",
+    "example_en": "The temperature tonight will be minus ten degrees.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5749
+  },
+  {
+    "swedish": "fullborda",
+    "english": "complete, accomplish",
+    "example_sv": "Det är viktigt att fullborda projektet inom tidsramen.",
+    "example_en": "It is important to complete the project within the timeframe.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5750
+  },
+  {
+    "swedish": "latinsk",
+    "english": "Latin",
+    "example_sv": "Jag studerar latin eftersom jag är intresserad av historia.",
+    "example_en": "I am studying Latin because I am interested in history.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5751
+  },
+  {
+    "swedish": "stabilisera",
+    "english": "stabilize",
+    "example_sv": "Regeringen försöker att stabilisera ekonomin efter krisen.",
+    "example_en": "The government is trying to stabilize the economy after the crisis.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5752
+  },
+  {
+    "swedish": "kvantitet",
+    "english": "quantity",
+    "example_sv": "Vi behöver öka kvantiteten av varor vi producerar.",
+    "example_en": "We need to increase the quantity of goods we produce.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5753
+  },
+  {
+    "swedish": "huvudroll",
+    "english": "lead role",
+    "example_sv": "Hon fick huvudrollen i den nya teaterproduktionen.",
+    "example_en": "She got the lead role in the new theater production.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5754
+  },
+  {
+    "swedish": "knepig",
+    "english": "tricky, awkward",
+    "example_sv": "Det är en knepig situation som kräver en försiktig strategi.",
+    "example_en": "It's a tricky situation that requires a careful approach.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5756
+  },
+  {
+    "swedish": "överblick",
+    "english": "overview, survey",
+    "example_sv": "Vi behöver en tydlig överblick över projektets framsteg.",
+    "example_en": "We need a clear overview of the project's progress.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5757
+  },
+  {
+    "swedish": "berömma",
+    "english": "praise, commend",
+    "example_sv": "Chefen berömde henne för hennes utmärkta arbete.",
+    "example_en": "The boss praised her for her excellent work.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5758
+  },
+  {
+    "swedish": "räckvidd",
+    "english": "range, reach",
+    "example_sv": "Den trådlösa routern har en begränsad räckvidd.",
+    "example_en": "The wireless router has a limited range.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5759
+  },
+  {
+    "swedish": "västlig",
+    "english": "western",
+    "example_sv": "Han fascineras av västlig kultur och historia.",
+    "example_en": "He is fascinated by Western culture and history.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5761
+  },
+  {
+    "swedish": "skicklighet",
+    "english": "skill, proficiency",
+    "example_sv": "Hennes skicklighet i att spela piano är imponerande.",
+    "example_en": "Her skill in playing the piano is impressive.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5762
+  },
+  {
+    "swedish": "bestraffa",
+    "english": "punish",
+    "example_sv": "Man måste bestraffa brottslingar för att upprätthålla lagen.",
+    "example_en": "One must punish criminals to uphold the law.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5763
+  },
+  {
+    "swedish": "spik",
+    "english": "nail",
+    "example_sv": "Jag behöver en spik och en hammare för att fixa tavlan.",
+    "example_en": "I need a nail and a hammer to fix the picture.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5764
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "liknelse",
+    "english": "simile, comparison",
+    "example_sv": "Hans tal var fullt av liknelser för att förtydliga budskapet.",
+    "example_en": "His speech was full of similes to clarify the message.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4570
+  },
+  {
+    "swedish": "beväpnad",
+    "english": "armed",
+    "example_sv": "Polisen grep en beväpnad man utanför banken igår.",
+    "example_en": "The police arrested an armed man outside the bank yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4571
+  },
+  {
+    "swedish": "härligt",
+    "english": "wonderfully, lovely",
+    "example_sv": "Det är härligt att se dig igen efter så lång tid.",
+    "example_en": "It's wonderful to see you again after so long.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4572
+  },
+  {
+    "swedish": "ingripande",
+    "english": "intervention",
+    "example_sv": "Läkarens ingripande räddade patientens liv i sista stund.",
+    "example_en": "The doctor's intervention saved the patient's life at the last minute.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4573
+  },
+  {
+    "swedish": "pigg",
+    "english": "alert, spry",
+    "example_sv": "Trots sin ålder är han fortfarande väldigt pigg och aktiv.",
+    "example_en": "Despite his age, he is still very alert and active.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4574
+  },
+  {
+    "swedish": "bebyggelse",
+    "english": "settlement, housing",
+    "example_sv": "Den nya bebyggelsen förändrade landskapet runt sjön totalt.",
+    "example_en": "The new settlement completely changed the landscape around the lake.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4575
+  },
+  {
+    "swedish": "fysiskt",
+    "english": "physically",
+    "example_sv": "Hon mår bra psykiskt, men fysiskt är hon fortfarande svag.",
+    "example_en": "She is doing well mentally, but physically she is still weak.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4576
+  },
+  {
+    "swedish": "romantisk",
+    "english": "romantic",
+    "example_sv": "De hade en väldigt romantisk middag på en fin restaurang.",
+    "example_en": "They had a very romantic dinner at a fancy restaurant.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4577
+  },
+  {
+    "swedish": "ingående",
+    "english": "detailed, thorough",
+    "example_sv": "Vi behöver en ingående analys av marknaden innan vi investerar.",
+    "example_en": "We need a detailed analysis of the market before we invest.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4578
+  },
+  {
+    "swedish": "märkning",
+    "english": "labeling, marking",
+    "example_sv": "All mat måste ha tydlig märkning om allergener.",
+    "example_en": "All food must have clear labeling about allergens.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4579
+  },
+  {
+    "swedish": "lojalitet",
+    "english": "loyalty",
+    "example_sv": "Företaget värdesätter lojalitet högt bland sina anställda.",
+    "example_en": "The company highly values loyalty among its employees.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4580
+  },
+  {
+    "swedish": "får",
+    "english": "sheep",
+    "example_sv": "Bondgården hade en stor flock får som betade på ängen.",
+    "example_en": "The farm had a large flock of sheep grazing in the meadow.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4582
+  },
+  {
+    "swedish": "illustration",
+    "english": "illustration",
+    "example_sv": "Boken hade vackra illustrationer som passade bra till texten.",
+    "example_en": "The book had beautiful illustrations that went well with the text.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4583
+  },
+  {
+    "swedish": "rock",
+    "english": "coat",
+    "example_sv": "Jag behöver en varm rock inför den kommande vintern.",
+    "example_en": "I need a warm coat for the coming winter.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4584
+  },
+  {
+    "swedish": "innehav",
+    "english": "possession, holding",
+    "example_sv": "Han dömdes för innehav av narkotika och vapen.",
+    "example_en": "He was convicted of possession of drugs and weapons.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4585
+  },
+  {
+    "swedish": "tilltro",
+    "english": "trust, confidence",
+    "example_sv": "Jag har stor tilltro till att han kommer klara det.",
+    "example_en": "I have great confidence that he will manage it.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4586
+  },
+  {
+    "swedish": "dvd",
+    "english": "DVD",
+    "example_sv": "Vi tittade på en gammal dvd-film igår kväll.",
+    "example_en": "We watched an old DVD movie last night.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4587
+  },
+  {
+    "swedish": "bensin",
+    "english": "gasoline, petrol",
+    "example_sv": "Jag måste tanka bilen med bensin innan vi åker.",
+    "example_en": "I need to fill the car with gasoline before we leave.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4588
+  },
+  {
+    "swedish": "bromsa",
+    "english": "brake",
+    "example_sv": "Du måste bromsa i god tid innan korsningen.",
+    "example_en": "You must brake well in advance of the intersection.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4589
+  },
+  {
+    "swedish": "bråka",
+    "english": "argue, fight",
+    "example_sv": "Sluta bråka med varandra, det blir ingen bättre av det.",
+    "example_en": "Stop arguing with each other, no one benefits from it.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4590
+  },
+  {
+    "swedish": "kula",
+    "english": "ball, bullet",
+    "example_sv": "Hon dekorerade julgranen med glittrande kulor och glitter.",
+    "example_en": "She decorated the Christmas tree with glittering balls and tinsel.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4591
+  },
+  {
+    "swedish": "svält",
+    "english": "famine, starvation",
+    "example_sv": "Svält är ett allvarligt problem i många delar av världen.",
+    "example_en": "Famine is a serious problem in many parts of the world.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4592
+  },
+  {
+    "swedish": "klo",
+    "english": "claw",
+    "example_sv": "Katten vässade sin klo på klätterträdet i vardagsrummet.",
+    "example_en": "The cat sharpened its claw on the climbing tree in the living room.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4593
+  },
+  {
+    "swedish": "sektion",
+    "english": "section",
+    "example_sv": "Jag jobbar på marknadsföringssektionen inom företaget.",
+    "example_en": "I work in the marketing section within the company.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4594
+  },
+  {
+    "swedish": "avskaffande",
+    "english": "abolition",
+    "example_sv": "Avskaffandet av slaveriet var en viktig milstolpe i historien.",
+    "example_en": "The abolition of slavery was an important milestone in history.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4595
+  },
+  {
+    "swedish": "examen",
+    "english": "exam, degree",
+    "example_sv": "Hon tog sin examen i medicin förra året.",
+    "example_en": "She got her degree in medicine last year.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4596
+  },
+  {
+    "swedish": "religionsfrihet",
+    "english": "freedom of religion",
+    "example_sv": "Religionsfrihet är en grundläggande mänsklig rättighet.",
+    "example_en": "Freedom of religion is a fundamental human right.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4597
+  },
+  {
+    "swedish": "utåt",
+    "english": "outwardly, externally",
+    "example_sv": "Företaget vill framstå som mer miljövänligt utåt.",
+    "example_en": "The company wants to appear more environmentally friendly outwardly.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4598
+  },
+  {
+    "swedish": "balansera",
+    "english": "balance",
+    "example_sv": "Det är svårt att balansera ett fullt glas på huvudet.",
+    "example_en": "It's hard to balance a full glass on your head.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4599
+  },
+  {
+    "swedish": "heltid",
+    "english": "full-time",
+    "example_sv": "Jag söker ett jobb på heltid med bra villkor.",
+    "example_en": "I am looking for a full-time job with good conditions.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4600
+  },
+  {
+    "swedish": "hemifrån",
+    "english": "from home",
+    "example_sv": "Jag brukar jobba hemifrån ett par dagar i veckan.",
+    "example_en": "I usually work from home a couple of days a week.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4601
+  },
+  {
+    "swedish": "stifta",
+    "english": "establish, enact",
+    "example_sv": "De planerar att stifta en ny lag om dataskydd.",
+    "example_en": "They are planning to enact a new law on data protection.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4602
+  },
+  {
+    "swedish": "verkställande",
+    "english": "executive",
+    "example_sv": "Han är verkställande direktör för ett stort företag.",
+    "example_en": "He is the executive director of a large company.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4603
+  },
+  {
+    "swedish": "asyl",
+    "english": "asylum",
+    "example_sv": "Många människor söker asyl i Sverige varje år.",
+    "example_en": "Many people seek asylum in Sweden every year.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 4604
+  },
+  {
+    "swedish": "graviditet",
+    "english": "pregnancy",
+    "example_sv": "Hon firade sin graviditet med en stor babyshower.",
+    "example_en": "She celebrated her pregnancy with a big baby shower.",
+    "scenario": "At Home, Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4605
+  },
+  {
+    "swedish": "korsa",
+    "english": "cross",
+    "example_sv": "Var försiktig när du ska korsa den här gatan.",
+    "example_en": "Be careful when you cross this street.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4606
+  },
+  {
+    "swedish": "avlägsna",
+    "english": "remove, depart",
+    "example_sv": "Du måste avlägsna alla hinder innan du börjar.",
+    "example_en": "You must remove all obstacles before you start.",
+    "scenario": "Common Verbs",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4607
+  },
+  {
+    "swedish": "beställning",
+    "english": "order",
+    "example_sv": "Vi har en beställning på tio tårtor till imorgon.",
+    "example_en": "We have an order for ten cakes for tomorrow.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4608
+  },
+  {
+    "swedish": "fasad",
+    "english": "facade",
+    "example_sv": "Byggnadens fasad var vackert dekorerad med blommor.",
+    "example_en": "The building's facade was beautifully decorated with flowers.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4609
+  },
+  {
+    "swedish": "infinna sig",
+    "english": "appear, report",
+    "example_sv": "Alla anställda måste infinna sig på mötet klockan nio.",
+    "example_en": "All employees must report to the meeting at nine o'clock.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4610
+  },
+  {
+    "swedish": "hyfsat",
+    "english": "decently, fairly",
+    "example_sv": "Jag talar hyfsat bra svenska, men behöver öva mer.",
+    "example_en": "I speak fairly good Swedish, but I need to practice more.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4611
+  },
+  {
+    "swedish": "julafton",
+    "english": "Christmas Eve",
+    "example_sv": "Vi firar alltid julafton med hela familjen hemma.",
+    "example_en": "We always celebrate Christmas Eve with the whole family at home.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4612
+  },
+  {
+    "swedish": "organisk",
+    "english": "organic",
+    "example_sv": "Hon föredrar att äta ekologiska, eller organiska, grönsaker.",
+    "example_en": "She prefers to eat ecological, or organic, vegetables.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4613
+  },
+  {
+    "swedish": "åtnjuta",
+    "english": "enjoy",
+    "example_sv": "Vi åtnjuter en fantastisk utsikt från balkongen.",
+    "example_en": "We enjoy a fantastic view from the balcony.",
+    "scenario": "Hotel",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4614
+  },
+  {
+    "swedish": "för alltid",
+    "english": "forever",
+    "example_sv": "Jag kommer att älska dig för alltid och alltid.",
+    "example_en": "I will love you forever and always.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4615
+  },
+  {
+    "swedish": "hemmaplan",
+    "english": "home ground",
+    "example_sv": "De vann matchen på hemmaplan med stor marginal.",
+    "example_en": "They won the match at home ground by a large margin.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4616
+  },
+  {
+    "swedish": "kloster",
+    "english": "monastery",
+    "example_sv": "De besökte ett gammalt kloster högt uppe i bergen.",
+    "example_en": "They visited an old monastery high up in the mountains.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4617
+  },
+  {
+    "swedish": "förlita sig",
+    "english": "rely on",
+    "example_sv": "Du kan alltid förlita dig på mig i svåra stunder.",
+    "example_en": "You can always rely on me in difficult times.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4618
+  },
+  {
+    "swedish": "förlägga",
+    "english": "place, publish",
+    "example_sv": "Var har jag förlagt mina glasögon någonstans?",
+    "example_en": "Where have I placed my glasses somewhere?",
+    "scenario": "At Home, Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4619
+  },
+  {
+    "swedish": "spontan",
+    "english": "spontaneous",
+    "example_sv": "Vi tog en spontan resa till Köpenhamn över helgen.",
+    "example_en": "We took a spontaneous trip to Copenhagen over the weekend.",
+    "scenario": "Holidays",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4620
+  }
+]

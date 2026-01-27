@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "revidering",
+    "english": "revision, review",
+    "example_sv": "En noggrann revidering av budgeten är nödvändig inför nästa kvartal.",
+    "example_en": "A thorough revision of the budget is necessary for the next quarter.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7400
+  },
+  {
+    "swedish": "ålderdom",
+    "english": "old age",
+    "example_sv": "Många drömmer om en trygg och aktiv ålderdom med sina nära.",
+    "example_en": "Many dream of a safe and active old age with their loved ones.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7402
+  },
+  {
+    "swedish": "kommando",
+    "english": "command",
+    "example_sv": "Hunden svarade direkt på mitt kommando att sitta still.",
+    "example_en": "The dog responded immediately to my command to sit still.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7403
+  },
+  {
+    "swedish": "utmattning",
+    "english": "exhaustion, fatigue",
+    "example_sv": "Efter flera månader av hårt arbete kände hon en djup utmattning.",
+    "example_en": "After several months of hard work, she felt a deep exhaustion.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7404
+  },
+  {
+    "swedish": "keramik",
+    "english": "ceramics, pottery",
+    "example_sv": "Hon älskar att skapa vackra skålar och vaser i keramik.",
+    "example_en": "She loves to create beautiful bowls and vases in ceramics.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "noun",
+    "rank": 7405
+  },
+  {
+    "swedish": "mustasch",
+    "english": "moustache",
+    "example_sv": "Hans eleganta mustasch var välvårdad och gav honom karaktär.",
+    "example_en": "His elegant moustache was well-groomed and gave him character.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7406
+  },
+  {
+    "swedish": "baron",
+    "english": "baron",
+    "example_sv": "Den lokale baronen bjöd in byborna till en stor fest på slottet.",
+    "example_en": "The local baron invited the villagers to a big party at the castle.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7407
+  },
+  {
+    "swedish": "boss",
+    "english": "boss",
+    "example_sv": "Den nya bossen införde en mer avslappnad stämning på kontoret.",
+    "example_en": "The new boss introduced a more relaxed atmosphere in the office.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7408
+  },
+  {
+    "swedish": "läder",
+    "english": "leather",
+    "example_sv": "Den gamla fåtöljen var klädd i mjukt och slitet läder.",
+    "example_en": "The old armchair was covered in soft and worn leather.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7409
+  },
+  {
+    "swedish": "rengöring",
+    "english": "cleaning",
+    "example_sv": "Regelbunden rengöring av ugnen förlänger dess livslängd avsevärt.",
+    "example_en": "Regular cleaning of the oven significantly extends its lifespan.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7410
+  },
+  {
+    "swedish": "avfärd",
+    "english": "departure",
+    "example_sv": "Den plötsliga avfärden lämnade många frågor obesvarade bland personalen.",
+    "example_en": "The sudden departure left many questions unanswered among the staff.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7411
+  },
+  {
+    "swedish": "hink",
+    "english": "bucket",
+    "example_sv": "Jag fyllde hinken med vatten för att tvätta bilen ordentligt.",
+    "example_en": "I filled the bucket with water to wash the car properly.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7412
+  },
+  {
+    "swedish": "matematiker",
+    "english": "mathematician",
+    "example_sv": "Den berömda matematikern presenterade sin senaste teori under konferensen.",
+    "example_en": "The famous mathematician presented his latest theory at the conference.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7413
+  },
+  {
+    "swedish": "passning",
+    "english": "pass, attention",
+    "example_sv": "Servitören gav oss mycket bra passning under hela middagen.",
+    "example_en": "The waiter gave us very good attention throughout the dinner.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7414
+  },
+  {
+    "swedish": "tillsättning",
+    "english": "appointment, addition",
+    "example_sv": "Tillsättningen av den nya chefen kommer att ske nästa vecka.",
+    "example_en": "The appointment of the new manager will take place next week.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7415
+  },
+  {
+    "swedish": "hemort",
+    "english": "hometown",
+    "example_sv": "Trots framgångarna i storstan längtade hon tillbaka till sin hemort.",
+    "example_en": "Despite her success in the big city, she longed back to her hometown.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7416
+  },
+  {
+    "swedish": "instruera",
+    "english": "instruct",
+    "example_sv": "Chefen behövde instruera teamet om de nya säkerhetsföreskrifterna noggrant.",
+    "example_en": "The manager needed to instruct the team carefully about the new safety regulations.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7417
+  },
+  {
+    "swedish": "rengöra",
+    "english": "clean",
+    "example_sv": "Det är viktigt att rengöra såren ordentligt för att undvika infektion.",
+    "example_en": "It is important to clean the wounds thoroughly to avoid infection.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7418
+  },
+  {
+    "swedish": "dekoration",
+    "english": "decoration",
+    "example_sv": "Julgransdekorationen var vacker med sina glittrande kulor och girlanger.",
+    "example_en": "The Christmas tree decoration was beautiful with its sparkling baubles and garlands.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7419
+  },
+  {
+    "swedish": "månatlig",
+    "english": "monthly",
+    "example_sv": "Den månatliga rapporten visar en tydlig ökning av försäljningen.",
+    "example_en": "The monthly report shows a clear increase in sales.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7420
+  },
+  {
+    "swedish": "patriotism",
+    "english": "patriotism",
+    "example_sv": "Under nationaldagen visade många människor sin patriotism med flaggor.",
+    "example_en": "During the national day, many people showed their patriotism with flags.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7421
+  },
+  {
+    "swedish": "tillmötesgå",
+    "english": "accommodate, oblige",
+    "example_sv": "Vi försöker alltid tillmötesgå våra kunders önskemål så gott vi kan.",
+    "example_en": "We always try to accommodate our customers' wishes as best we can.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7422
+  },
+  {
+    "swedish": "gås",
+    "english": "goose",
+    "example_sv": "En flock gäss flög över sjön i en perfekt V-formation.",
+    "example_en": "A flock of geese flew over the lake in a perfect V-formation.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7423
+  },
+  {
+    "swedish": "programmering",
+    "english": "programming",
+    "example_sv": "Han tillbringade timmar med programmering för att lösa det komplicerade problemet.",
+    "example_en": "He spent hours programming to solve the complex problem.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7424
+  },
+  {
+    "swedish": "vicepresident",
+    "english": "vice president",
+    "example_sv": "Företagets vicepresident höll ett inspirerande tal under konferensen.",
+    "example_en": "The company's vice president gave an inspiring speech at the conference.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7425
+  },
+  {
+    "swedish": "avla",
+    "english": "breed, procreate",
+    "example_sv": "Bondgården avlar kor av hög kvalitet för mjölkproduktion och kött.",
+    "example_en": "The farm breeds high-quality cows for milk production and meat.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7426
+  },
+  {
+    "swedish": "brigad",
+    "english": "brigade",
+    "example_sv": "Brandmännen från brigaden kämpade tappert mot den stora skogsbranden.",
+    "example_en": "The firefighters from the brigade fought bravely against the large forest fire.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7427
+  },
+  {
+    "swedish": "allsidig",
+    "english": "versatile, all-round",
+    "example_sv": "Hon är en allsidig idrottskvinna som tävlar i flera olika grenar.",
+    "example_en": "She is a versatile sportswoman who competes in several different disciplines.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7428
+  },
+  {
+    "swedish": "komfort",
+    "english": "comfort",
+    "example_sv": "Hotellet erbjöd hög komfort och förstklassig service till alla gäster.",
+    "example_en": "The hotel offered high comfort and first-class service to all guests.",
+    "scenario": "Hotel",
+    "difficulty": "C2",
+    "grammar_hint": "noun",
+    "rank": 7429
+  },
+  {
+    "swedish": "listig",
+    "english": "cunning, sly",
+    "example_sv": "Den listiga räven lurade jägarna och sprang snabbt in i skogen.",
+    "example_en": "The cunning fox tricked the hunters and ran quickly into the forest.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7430
+  },
+  {
+    "swedish": "simulering",
+    "english": "simulation",
+    "example_sv": "Piloten tränade landning i en flygsimulator genom en avancerad simulering.",
+    "example_en": "The pilot practiced landing in a flight simulator through an advanced simulation.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7431
+  },
+  {
+    "swedish": "återbetala",
+    "english": "repay, reimburse",
+    "example_sv": "Banken lovade att återbetala pengarna inom några bankdagar.",
+    "example_en": "The bank promised to repay the money within a few banking days.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7432
+  },
+  {
+    "swedish": "sned",
+    "english": "slanted, crooked",
+    "example_sv": "Tavlan hängde sned på väggen och det irriterade mig.",
+    "example_en": "The picture hung crooked on the wall and it irritated me.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7433
+  },
+  {
+    "swedish": "bassäng",
+    "english": "pool",
+    "example_sv": "Barnen älskade att leka och simma i bassängen hela dagen.",
+    "example_en": "The children loved to play and swim in the pool all day.",
+    "scenario": "Hotel",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7434
+  },
+  {
+    "swedish": "närbelägen",
+    "english": "nearby, adjacent",
+    "example_sv": "Det finns en närbelägen mataffär där du kan köpa mat.",
+    "example_en": "There is a nearby grocery store where you can buy food.",
+    "scenario": "Directions",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7435
+  },
+  {
+    "swedish": "pensel",
+    "english": "brush",
+    "example_sv": "Konstnären använde en fin pensel för att måla detaljerna noggrant.",
+    "example_en": "The artist used a fine brush to paint the details carefully.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7436
+  },
+  {
+    "swedish": "luftfart",
+    "english": "aviation",
+    "example_sv": "Hans stora intresse för luftfart ledde honom till en karriär som pilot.",
+    "example_en": "His great interest in aviation led him to a career as a pilot.",
+    "scenario": "At the Airport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7437
+  },
+  {
+    "swedish": "patrull",
+    "english": "patrol",
+    "example_sv": "Polispatrullen körde sakta genom staden under natten och observerade.",
+    "example_en": "The police patrol drove slowly through the city during the night and observed.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7438
+  },
+  {
+    "swedish": "arbetsrum",
+    "english": "study, office",
+    "example_sv": "Han satt i sitt arbetsrum och skrev på sin nya bok hela dagen.",
+    "example_en": "He sat in his study and wrote on his new book all day.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7439
+  },
+  {
+    "swedish": "implementering",
+    "english": "implementation",
+    "example_sv": "Implementeringen av det nya systemet gick smidigt tack vare god planering.",
+    "example_en": "The implementation of the new system went smoothly thanks to good planning.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7440
+  },
+  {
+    "swedish": "hydda",
+    "english": "hut, cabin",
+    "example_sv": "De sökte skydd från regnet i en liten hydda i skogen.",
+    "example_en": "They sought shelter from the rain in a small hut in the forest.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7441
+  },
+  {
+    "swedish": "oerfaren",
+    "english": "inexperienced",
+    "example_sv": "Även om hon var oerfaren, visade hon stor potential på jobbet.",
+    "example_en": "Although she was inexperienced, she showed great potential at work.",
+    "scenario": "Job Interview",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7442
+  },
+  {
+    "swedish": "bokstavlig",
+    "english": "literal",
+    "example_sv": "Man ska inte ta allt han säger bokstavligt, han överdriver ofta.",
+    "example_en": "You shouldn't take everything he says literally, he often exaggerates.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7443
+  },
+  {
+    "swedish": "elektromagnetisk",
+    "english": "electromagnetic",
+    "example_sv": "Jorden har ett elektromagnetiskt fält som skyddar oss från solens strålning.",
+    "example_en": "The Earth has an electromagnetic field that protects us from the sun's radiation.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7444
+  },
+  {
+    "swedish": "rymlig",
+    "english": "spacious",
+    "example_sv": "Lägenheten var mycket rymlig och passade perfekt för en stor familj.",
+    "example_en": "The apartment was very spacious and perfect for a large family.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7445
+  },
+  {
+    "swedish": "världsåskådning",
+    "english": "worldview",
+    "example_sv": "Hans världsåskådning präglades av en stark tro på mänskligheten.",
+    "example_en": "His worldview was characterized by a strong belief in humanity.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7446
+  },
+  {
+    "swedish": "ansiktsuttryck",
+    "english": "facial expression",
+    "example_sv": "Hennes ansiktsuttryck avslöjade att hon var både förvånad och glad.",
+    "example_en": "Her facial expression revealed that she was both surprised and happy.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7447
+  },
+  {
+    "swedish": "frigivning",
+    "english": "release",
+    "example_sv": "Efter många år i fängelse såg han fram emot sin frigivning.",
+    "example_en": "After many years in prison, he looked forward to his release.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7448
+  },
+  {
+    "swedish": "pristagare",
+    "english": "award winner",
+    "example_sv": "Årets Nobelpristagare höll ett rörande tal om sin forskning.",
+    "example_en": "This year's Nobel laureate gave a moving speech about his research.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7449
+  },
+  {
+    "swedish": "självsäker",
+    "english": "confident, self-assured",
+    "example_sv": "Hon gick in i rummet självsäker och hälsade på alla med ett leende.",
+    "example_en": "She walked into the room confidently and greeted everyone with a smile.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7450
+  }
+]

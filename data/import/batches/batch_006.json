@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "samhälle",
+    "english": "society, community",
+    "example_sv": "Vi måste hjälpa de svaga i vårt samhälle.",
+    "example_en": "We must help the weak in our society.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 303
+  },
+  {
+    "swedish": "alltså",
+    "english": "therefore, so",
+    "example_sv": "Det regnar, alltså stannar jag hemma idag.",
+    "example_en": "It's raining, so I'm staying home today.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 304
+  },
+  {
+    "swedish": "stat",
+    "english": "state",
+    "example_sv": "Sverige är en självständig stat i norra Europa.",
+    "example_en": "Sweden is an independent state in northern Europe.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 305
+  },
+  {
+    "swedish": "stad",
+    "english": "city",
+    "example_sv": "Jag bor i en liten stad nära kusten.",
+    "example_en": "I live in a small city near the coast.",
+    "scenario": "Directions",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 306
+  },
+  {
+    "swedish": "höra",
+    "english": "hear",
+    "example_sv": "Kan du höra mig? Jag pratar ganska tyst.",
+    "example_en": "Can you hear me? I'm speaking quite quietly.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 307
+  },
+  {
+    "swedish": "innebära",
+    "english": "imply, mean",
+    "example_sv": "Det nya jobbet kommer att innebära mycket ansvar.",
+    "example_en": "The new job will imply a lot of responsibility.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 308
+  },
+  {
+    "swedish": "genom att",
+    "english": "by (doing)",
+    "example_sv": "Du kan lära dig svenska genom att titta på filmer.",
+    "example_en": "You can learn Swedish by watching movies.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "conjunction",
+    "rank": 309
+  },
+  {
+    "swedish": "företag",
+    "english": "company, business",
+    "example_sv": "Jag jobbar på ett stort företag i Stockholm.",
+    "example_en": "I work at a large company in Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 310
+  },
+  {
+    "swedish": "möjlighet",
+    "english": "opportunity",
+    "example_sv": "Det här är en bra möjlighet att lära sig något nytt.",
+    "example_en": "This is a good opportunity to learn something new.",
+    "scenario": "Job Interview",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 311
+  },
+  {
+    "swedish": "ord",
+    "english": "word",
+    "example_sv": "Jag kan inte komma på rätt ord just nu.",
+    "example_en": "I can't think of the right word right now.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 312
+  },
+  {
+    "swedish": "politisk",
+    "english": "political",
+    "example_sv": "Det här är en känslig politisk fråga just nu.",
+    "example_en": "This is a sensitive political question right now.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 313
+  },
+  {
+    "swedish": "välja",
+    "english": "choose, select",
+    "example_sv": "Du kan välja vilken maträtt du vill ha.",
+    "example_en": "You can choose which dish you want.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 314
+  },
+  {
+    "swedish": "förstå",
+    "english": "understand",
+    "example_sv": "Jag förstår inte vad du menar med det.",
+    "example_en": "I don't understand what you mean by that.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 316
+  },
+  {
+    "swedish": "inlägg",
+    "english": "post, entry",
+    "example_sv": "Jag har skrivit ett nytt inlägg på min blogg.",
+    "example_en": "I have written a new post on my blog.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 317
+  },
+  {
+    "swedish": "ägg",
+    "english": "egg",
+    "example_sv": "Jag vill ha två ägg till frukost, tack.",
+    "example_en": "I want two eggs for breakfast, please.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 318
+  },
+  {
+    "swedish": "spela",
+    "english": "play",
+    "example_sv": "Vill du spela ett spel med mig ikväll?",
+    "example_en": "Do you want to play a game with me tonight?",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 320
+  },
+  {
+    "swedish": "så att",
+    "english": "so that",
+    "example_sv": "Jag studerar hårt så att jag kan klara provet.",
+    "example_en": "I study hard so that I can pass the exam.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "conjunction",
+    "rank": 321
+  },
+  {
+    "swedish": "lika",
+    "english": "equal, as",
+    "example_sv": "Vi är lika inför lagen i det här landet.",
+    "example_en": "We are equal before the law in this country.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 322
+  },
+  {
+    "swedish": "hitta",
+    "english": "find",
+    "example_sv": "Jag kan inte hitta mina nycklar någonstans.",
+    "example_en": "I can't find my keys anywhere.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 323
+  },
+  {
+    "swedish": "tag",
+    "english": "grip, hold",
+    "example_sv": "Ta ett tag om repet så faller du inte.",
+    "example_en": "Take hold of the rope so you don't fall.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 324
+  },
+  {
+    "swedish": "dra",
+    "english": "pull, draw",
+    "example_sv": "Kan du dra upp persiennerna, tack?",
+    "example_en": "Can you pull up the blinds, please?",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 325
+  },
+  {
+    "swedish": "leda",
+    "english": "lead",
+    "example_sv": "Hon kommer att leda projektet från början till slut.",
+    "example_en": "She will lead the project from start to finish.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 326
+  },
+  {
+    "swedish": "gärna",
+    "english": "gladly, willingly",
+    "example_sv": "Jag hjälper dig gärna med din läxa imorgon.",
+    "example_en": "I'll gladly help you with your homework tomorrow.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 327
+  },
+  {
+    "swedish": "ändå",
+    "english": "anyway, still",
+    "example_sv": "Jag är trött, men jag måste ändå gå ut.",
+    "example_en": "I'm tired, but I still have to go out.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 328
+  },
+  {
+    "swedish": "förslag",
+    "english": "suggestion, proposal",
+    "example_sv": "Har du några förslag på vad vi kan göra?",
+    "example_en": "Do you have any suggestions on what we can do?",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 329
+  },
+  {
+    "swedish": "lyckas",
+    "english": "succeed",
+    "example_sv": "Jag hoppas att jag ska lyckas med mitt prov.",
+    "example_en": "I hope that I will succeed with my exam.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 330
+  },
+  {
+    "swedish": "dessutom",
+    "english": "furthermore, besides",
+    "example_sv": "Det är billigt och dessutom väldigt gott.",
+    "example_en": "It's cheap and furthermore very tasty.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 331
+  },
+  {
+    "swedish": "område",
+    "english": "area, region",
+    "example_sv": "Det här är ett lugnt område att bo i.",
+    "example_en": "This is a quiet area to live in.",
+    "scenario": "Directions",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 332
+  },
+  {
+    "swedish": "svår",
+    "english": "difficult, hard",
+    "example_sv": "Det är en svår fråga att svara på.",
+    "example_en": "It's a difficult question to answer.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 334
+  },
+  {
+    "swedish": "lära",
+    "english": "learn, teach",
+    "example_sv": "Jag vill lära mig att spela gitarr.",
+    "example_en": "I want to learn to play the guitar.",
+    "scenario": "Hobbies",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 335
+  },
+  {
+    "swedish": "sätta",
+    "english": "put, place",
+    "example_sv": "Kan du sätta kaffet på bordet, tack.",
+    "example_en": "Can you put the coffee on the table, please.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 336
+  },
+  {
+    "swedish": "plats",
+    "english": "place",
+    "example_sv": "Finns det någon ledig plats här?",
+    "example_en": "Is there any free place here?",
+    "scenario": "Public Transport",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 337
+  },
+  {
+    "swedish": "lång",
+    "english": "long",
+    "example_sv": "Det är en lång väg att gå till skolan.",
+    "example_en": "It's a long way to walk to school.",
+    "scenario": "Directions",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 338
+  },
+  {
+    "swedish": "lämna",
+    "english": "leave, hand in",
+    "example_sv": "Du måste lämna in din ansökan i morgon.",
+    "example_en": "You have to hand in your application tomorrow.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 339
+  },
+  {
+    "swedish": "bygga",
+    "english": "build",
+    "example_sv": "De ska bygga ett nytt hus här snart.",
+    "example_en": "They will build a new house here soon.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 340
+  },
+  {
+    "swedish": "politik",
+    "english": "politics",
+    "example_sv": "Jag är inte så intresserad av politik.",
+    "example_en": "I'm not so interested in politics.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 341
+  },
+  {
+    "swedish": "tidigare",
+    "english": "earlier, previously",
+    "example_sv": "Jag har bott här tidigare, men inte nu längre.",
+    "example_en": "I have lived here previously, but not anymore.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 342
+  },
+  {
+    "swedish": "kalla",
+    "english": "call",
+    "example_sv": "Vad ska vi kalla den nya katten?",
+    "example_en": "What should we call the new cat?",
+    "scenario": "Animals",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 343
+  },
+  {
+    "swedish": "peng",
+    "english": "money",
+    "example_sv": "Jag behöver mer peng för att köpa mat.",
+    "example_en": "I need more money to buy food.",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 344
+  },
+  {
+    "swedish": "väldigt",
+    "english": "very, really",
+    "example_sv": "Det är väldigt kallt ute idag, ta på dig jackan.",
+    "example_en": "It's very cold outside today, put on your jacket.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 345
+  },
+  {
+    "swedish": "leva",
+    "english": "live",
+    "example_sv": "Jag vill leva ett långt och lyckligt liv.",
+    "example_en": "I want to live a long and happy life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 346
+  },
+  {
+    "swedish": "ställa",
+    "english": "put, place",
+    "example_sv": "Kan du ställa tillbaka stolen, tack?",
+    "example_en": "Can you put the chair back, please?",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 347
+  },
+  {
+    "swedish": "följa",
+    "english": "follow",
+    "example_sv": "Du måste följa instruktionerna noga.",
+    "example_en": "You have to follow the instructions carefully.",
+    "scenario": "Driving",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 348
+  },
+  {
+    "swedish": "vecka",
+    "english": "week",
+    "example_sv": "Jag ska resa bort nästa vecka.",
+    "example_en": "I'm going away next week.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 349
+  },
+  {
+    "swedish": "ja",
+    "english": "yes",
+    "example_sv": "Ja, jag förstår vad du menar.",
+    "example_en": "Yes, I understand what you mean.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "interjection",
+    "rank": 350
+  },
+  {
+    "swedish": "ske",
+    "english": "happen, occur",
+    "example_sv": "Vad kommer att ske imorgon på mötet?",
+    "example_en": "What will happen tomorrow at the meeting?",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 351
+  },
+  {
+    "swedish": "parti",
+    "english": "party",
+    "example_sv": "Vilket politiskt parti stödjer du?",
+    "example_en": "Which political party do you support?",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 352
+  },
+  {
+    "swedish": "kräva",
+    "english": "require, demand",
+    "example_sv": "Det kräver mycket tid att lära sig ett nytt språk.",
+    "example_en": "It requires a lot of time to learn a new language.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 353
+  },
+  {
+    "swedish": "utveckling",
+    "english": "development",
+    "example_sv": "Det är en snabb utveckling inom teknologin.",
+    "example_en": "It's a rapid development in technology.",
+    "scenario": "Technology",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 354
+  },
+  {
+    "swedish": "faktiskt",
+    "english": "actually, in fact",
+    "example_sv": "Jag är faktiskt inte trött, trots att jag är sen.",
+    "example_en": "I'm actually not tired, even though it's late.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 355
+  }
+]

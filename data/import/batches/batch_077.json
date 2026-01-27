@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "vaken",
+    "english": "awake",
+    "example_sv": "Jag är alltid vaken tidigt på morgonen, runt klockan sex.",
+    "example_en": "I am always awake early in the morning, around six o'clock.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4055
+  },
+  {
+    "swedish": "kunnig",
+    "english": "knowledgeable",
+    "example_sv": "Hon är väldigt kunnig inom sitt område, speciellt medicin.",
+    "example_en": "She is very knowledgeable in her field, especially medicine.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4056
+  },
+  {
+    "swedish": "scenario",
+    "english": "scenario",
+    "example_sv": "Det värsta scenariot är att vi inte får några pengar.",
+    "example_en": "The worst-case scenario is that we won't get any money.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4057
+  },
+  {
+    "swedish": "leverans",
+    "english": "delivery",
+    "example_sv": "Vi väntar på en viktig leverans av material imorgon bitti.",
+    "example_en": "We are waiting for an important delivery of materials tomorrow morning.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4058
+  },
+  {
+    "swedish": "medelstor",
+    "english": "medium-sized",
+    "example_sv": "Vi bor i en medelstor stad nära kusten och havet.",
+    "example_en": "We live in a medium-sized town near the coast and the sea.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4059
+  },
+  {
+    "swedish": "salt",
+    "english": "salt",
+    "example_sv": "Kan du vara snäll och ge mig lite salt till maten?",
+    "example_en": "Could you please pass me some salt for the food?",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4060
+  },
+  {
+    "swedish": "sannolik",
+    "english": "likely",
+    "example_sv": "Det är sannolikt att det kommer regna imorgon eftermiddag.",
+    "example_en": "It is likely that it will rain tomorrow afternoon.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4061
+  },
+  {
+    "swedish": "vänskap",
+    "english": "friendship",
+    "example_sv": "Vänskap är väldigt viktigt för mig och ger mig glädje.",
+    "example_en": "Friendship is very important to me and gives me joy.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4062
+  },
+  {
+    "swedish": "farmor",
+    "english": "grandmother",
+    "example_sv": "Min farmor bakar alltid de bästa kakorna till jul.",
+    "example_en": "My grandmother always bakes the best cookies for Christmas.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4063
+  },
+  {
+    "swedish": "tiotusentals",
+    "english": "tens of thousands",
+    "example_sv": "Tiotusentals människor demonstrerade mot de nya lagarna igår.",
+    "example_en": "Tens of thousands of people demonstrated against the new laws yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4064
+  },
+  {
+    "swedish": "lokalt",
+    "english": "locally",
+    "example_sv": "Vi försöker att handla lokalt för att stödja regionen.",
+    "example_en": "We try to shop locally to support the region.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4065
+  },
+  {
+    "swedish": "frigöra",
+    "english": "release",
+    "example_sv": "Vi behöver frigöra mer tid för våra personliga intressen.",
+    "example_en": "We need to release more time for our personal interests.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4066
+  },
+  {
+    "swedish": "prestation",
+    "english": "achievement",
+    "example_sv": "Hans akademiska prestation var imponerande, speciellt i matte.",
+    "example_en": "His academic achievement was impressive, especially in math.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4067
+  },
+  {
+    "swedish": "olämplig",
+    "english": "inappropriate",
+    "example_sv": "Det är olämpligt att prata om politik under en jobbintervju.",
+    "example_en": "It's inappropriate to talk about politics during a job interview.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4068
+  },
+  {
+    "swedish": "belöning",
+    "english": "reward",
+    "example_sv": "Vi fick en fin belöning för vårt hårda arbete under projektet.",
+    "example_en": "We received a nice reward for our hard work during the project.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4069
+  },
+  {
+    "swedish": "styrning",
+    "english": "governance",
+    "example_sv": "God styrning är viktigt för att organisationen ska fungera.",
+    "example_en": "Good governance is important for the organization to function.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4070
+  },
+  {
+    "swedish": "säte",
+    "english": "seat",
+    "example_sv": "Jag hittade ett ledigt säte på bussen precis innan den startade.",
+    "example_en": "I found a free seat on the bus just before it started.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4071
+  },
+  {
+    "swedish": "sjukförsäkring",
+    "english": "health insurance",
+    "example_sv": "Har du en bra sjukförsäkring som täcker alla dina behov?",
+    "example_en": "Do you have good health insurance that covers all your needs?",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4072
+  },
+  {
+    "swedish": "upplysa",
+    "english": "inform",
+    "example_sv": "Jag vill upplysa dig om de senaste förändringarna i projektet.",
+    "example_en": "I want to inform you about the latest changes in the project.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4073
+  },
+  {
+    "swedish": "halvtimme",
+    "english": "half hour",
+    "example_sv": "Jag kommer vara där om en halvtimme, så vänta inte.",
+    "example_en": "I will be there in half an hour, so don't wait.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4074
+  },
+  {
+    "swedish": "uppsättning",
+    "english": "set",
+    "example_sv": "Vi behöver en ny uppsättning däck till bilen innan vintern.",
+    "example_en": "We need a new set of tires for the car before winter.",
+    "scenario": "Driving",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4075
+  },
+  {
+    "swedish": "sms",
+    "english": "text message",
+    "example_sv": "Jag skickade ett sms till henne för att fråga om middag.",
+    "example_en": "I sent her a text message to ask about dinner.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4076
+  },
+  {
+    "swedish": "elektrisk",
+    "english": "electric",
+    "example_sv": "Vi har en elektrisk bil som vi laddar hemma varje natt.",
+    "example_en": "We have an electric car that we charge at home every night.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4077
+  },
+  {
+    "swedish": "folkbildning",
+    "english": "adult education",
+    "example_sv": "Folkbildning är viktigt för samhället och dess utveckling.",
+    "example_en": "Adult education is important for society and its development.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4078
+  },
+  {
+    "swedish": "kriminalitet",
+    "english": "crime",
+    "example_sv": "Kriminalitet är ett stort problem i många storstäder idag.",
+    "example_en": "Crime is a big problem in many major cities today.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4079
+  },
+  {
+    "swedish": "födelse",
+    "english": "birth",
+    "example_sv": "Vi firade barnets födelse med en stor fest i parken.",
+    "example_en": "We celebrated the child's birth with a big party in the park.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4080
+  },
+  {
+    "swedish": "registrering",
+    "english": "registration",
+    "example_sv": "Registrering till kursen stänger nästa vecka, så skynda dig.",
+    "example_en": "Registration for the course closes next week, so hurry up.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4081
+  },
+  {
+    "swedish": "nord",
+    "english": "north",
+    "example_sv": "Vi åker norr ut för att vandra i fjällen under sommaren.",
+    "example_en": "We are going north to hike in the mountains during the summer.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 4082
+  },
+  {
+    "swedish": "färdas",
+    "english": "travel",
+    "example_sv": "Vi ska färdas med tåg genom Europa under semestern.",
+    "example_en": "We are going to travel by train through Europe during the holidays.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4083
+  },
+  {
+    "swedish": "världsbild",
+    "english": "worldview",
+    "example_sv": "Hans världsbild förändrades efter att han rest jorden runt.",
+    "example_en": "His worldview changed after he traveled around the world.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4084
+  },
+  {
+    "swedish": "brista",
+    "english": "break",
+    "example_sv": "Till slut brista hennes tålamod och hon skrek högt.",
+    "example_en": "Finally, her patience broke and she screamed loudly.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4085
+  },
+  {
+    "swedish": "prinsessa",
+    "english": "princess",
+    "example_sv": "Hon drömde om att vara en prinsessa och bo i ett slott.",
+    "example_en": "She dreamed of being a princess and living in a castle.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4086
+  },
+  {
+    "swedish": "överlåta",
+    "english": "transfer",
+    "example_sv": "Vi måste överlåta ansvaret till någon annan i teamet.",
+    "example_en": "We need to transfer the responsibility to someone else on the team.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4087
+  },
+  {
+    "swedish": "konsumera",
+    "english": "consume",
+    "example_sv": "Vi måste minska vår konsumera för att skydda miljön.",
+    "example_en": "We must reduce our consumption to protect the environment.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4088
+  },
+  {
+    "swedish": "vardaglig",
+    "english": "everyday",
+    "example_sv": "Det var en helt vardaglig dag utan några speciella händelser.",
+    "example_en": "It was a completely everyday day without any special events.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4089
+  },
+  {
+    "swedish": "besättning",
+    "english": "crew",
+    "example_sv": "Hela besättningen var väldigt professionell och hjälpsam under flygningen.",
+    "example_en": "The whole crew was very professional and helpful during the flight.",
+    "scenario": "At the Airport",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4090
+  },
+  {
+    "swedish": "manus",
+    "english": "script",
+    "example_sv": "Jag behöver läsa igenom manuset innan vi börjar repetera.",
+    "example_en": "I need to read through the script before we start rehearsing.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4091
+  },
+  {
+    "swedish": "mestadels",
+    "english": "mostly",
+    "example_sv": "Mestadels av tiden spenderar jag hemma med min familj.",
+    "example_en": "I mostly spend my time at home with my family.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4092
+  },
+  {
+    "swedish": "glädjande",
+    "english": "gratifying",
+    "example_sv": "Det var glädjande att se hur mycket folk hjälpte till.",
+    "example_en": "It was gratifying to see how much people helped out.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4093
+  },
+  {
+    "swedish": "imperialism",
+    "english": "imperialism",
+    "example_sv": "Imperialism har haft en stor inverkan på världshistorien.",
+    "example_en": "Imperialism has had a major impact on world history.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4094
+  },
+  {
+    "swedish": "departement",
+    "english": "department",
+    "example_sv": "Jag arbetar på utbildningsdepartementet och är involverad i flera projekt.",
+    "example_en": "I work at the education department and am involved in several projects.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4095
+  },
+  {
+    "swedish": "förfölja",
+    "english": "persecute",
+    "example_sv": "Många människor har förföljts på grund av deras religion.",
+    "example_en": "Many people have been persecuted because of their religion.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4096
+  },
+  {
+    "swedish": "operativ",
+    "english": "operational",
+    "example_sv": "Vi måste se till att systemet är operativt före deadline.",
+    "example_en": "We need to make sure the system is operational before the deadline.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4097
+  },
+  {
+    "swedish": "fullmäktige",
+    "english": "council",
+    "example_sv": "De folkvalda fullmäktige fattar viktiga beslut för kommunen.",
+    "example_en": "The elected council makes important decisions for the municipality.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 4098
+  },
+  {
+    "swedish": "kommunfullmäktige",
+    "english": "municipal council",
+    "example_sv": "Kommunfullmäktige diskuterade budgeten under gårdagens möte.",
+    "example_en": "The municipal council discussed the budget during yesterday's meeting.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 4099
+  },
+  {
+    "swedish": "nyliberal",
+    "english": "neoliberal",
+    "example_sv": "Den nyliberala politiken har förändrat samhället mycket.",
+    "example_en": "Neoliberal policies have changed society a lot.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4100
+  },
+  {
+    "swedish": "sparande",
+    "english": "saving",
+    "example_sv": "Jag har ett sparande för att kunna köpa en lägenhet en dag.",
+    "example_en": "I have savings so I can buy an apartment one day.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4101
+  },
+  {
+    "swedish": "interpellation",
+    "english": "interpellation",
+    "example_sv": "Oppositionsledaren lämnade in en interpellation om skolpolitiken.",
+    "example_en": "The opposition leader submitted an interpellation about school policy.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4102
+  },
+  {
+    "swedish": "marxism",
+    "english": "marxism",
+    "example_sv": "Marxism är en politisk ideologi som påverkat många rörelser.",
+    "example_en": "Marxism is a political ideology that has influenced many movements.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4103
+  },
+  {
+    "swedish": "trång",
+    "english": "narrow",
+    "example_sv": "Vi bor i en trång lägenhet, men det är centralt och mysigt.",
+    "example_en": "We live in a narrow apartment, but it's central and cozy.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4104
+  }
+]

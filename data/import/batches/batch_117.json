@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "tangentbord",
+    "english": "keyboard",
+    "example_sv": "Jag behöver ett nytt tangentbord, mitt gamla är trasigt.",
+    "example_en": "I need a new keyboard, my old one is broken.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6124
+  },
+  {
+    "swedish": "migration",
+    "english": "migration",
+    "example_sv": "Klimatförändringarna kan leda till ökad migration globalt.",
+    "example_en": "Climate change could lead to increased migration globally.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6125
+  },
+  {
+    "swedish": "säck",
+    "english": "sack, bag",
+    "example_sv": "Vi bar hem potatisen i en stor säck.",
+    "example_en": "We carried the potatoes home in a big sack.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6126
+  },
+  {
+    "swedish": "körning",
+    "english": "driving, running",
+    "example_sv": "Den långa körningen tröttade ut oss alla.",
+    "example_en": "The long drive tired us all out.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6127
+  },
+  {
+    "swedish": "blond",
+    "english": "blonde",
+    "example_sv": "Hon har långt, blont hår och blå ögon.",
+    "example_en": "She has long, blonde hair and blue eyes.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6128
+  },
+  {
+    "swedish": "dygd",
+    "english": "virtue",
+    "example_sv": "Tålamod är en dygd, särskilt i dessa tider.",
+    "example_en": "Patience is a virtue, especially in these times.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6129
+  },
+  {
+    "swedish": "förorening",
+    "english": "pollution",
+    "example_sv": "Förorening från fabriker skadar miljön allvarligt.",
+    "example_en": "Pollution from factories seriously damages the environment.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6130
+  },
+  {
+    "swedish": "svenskspråkig",
+    "english": "Swedish-speaking",
+    "example_sv": "Jag söker en svenskspråkig guide för turen.",
+    "example_en": "I am looking for a Swedish-speaking guide for the tour.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6131
+  },
+  {
+    "swedish": "lera",
+    "english": "clay",
+    "example_sv": "Barnen älskar att leka med lera i trädgården.",
+    "example_en": "The children love to play with clay in the garden.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6132
+  },
+  {
+    "swedish": "befattning",
+    "english": "position, post",
+    "example_sv": "Han sökte en högre befattning inom företaget.",
+    "example_en": "He applied for a higher position within the company.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6133
+  },
+  {
+    "swedish": "föredöme",
+    "english": "example",
+    "example_sv": "Hon är ett stort föredöme för unga idrottare.",
+    "example_en": "She is a great example for young athletes.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6134
+  },
+  {
+    "swedish": "genetiskt",
+    "english": "genetically",
+    "example_sv": "Sjukdomen är genetiskt betingad, säger läkaren.",
+    "example_en": "The doctor says the disease is genetically determined.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6135
+  },
+  {
+    "swedish": "sucka",
+    "english": "sigh",
+    "example_sv": "Hon kunde inte låta bli att sucka djupt.",
+    "example_en": "She couldn't help but sigh deeply.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6136
+  },
+  {
+    "swedish": "framhäva",
+    "english": "highlight, emphasize",
+    "example_sv": "Rapporten vill framhäva vikten av utbildning.",
+    "example_en": "The report wants to emphasize the importance of education.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6137
+  },
+  {
+    "swedish": "laboratorium",
+    "english": "laboratory",
+    "example_sv": "Forskarna utförde experiment i laboratoriet.",
+    "example_en": "The researchers performed experiments in the laboratory.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6138
+  },
+  {
+    "swedish": "strypa",
+    "english": "strangle",
+    "example_sv": "Ekonomiska svårigheter riskerar att strypa tillväxten.",
+    "example_en": "Economic difficulties risk strangling growth.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6139
+  },
+  {
+    "swedish": "kroppslig",
+    "english": "physical, bodily",
+    "example_sv": "Hon upplevde både psykisk och kroppslig smärta.",
+    "example_en": "She experienced both mental and physical pain.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6140
+  },
+  {
+    "swedish": "pool",
+    "english": "pool",
+    "example_sv": "Vi tillbringade eftermiddagen vid poolen.",
+    "example_en": "We spent the afternoon by the pool.",
+    "scenario": "Hotel",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6141
+  },
+  {
+    "swedish": "sionism",
+    "english": "Zionism",
+    "example_sv": "Debatten om sionismens inverkan fortsätter.",
+    "example_en": "The debate about the impact of Zionism continues.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6142
+  },
+  {
+    "swedish": "uttag",
+    "english": "withdrawal, outlet",
+    "example_sv": "Jag gjorde ett uttag från bankomaten idag.",
+    "example_en": "I made a withdrawal from the ATM today.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6143
+  },
+  {
+    "swedish": "begynnelse",
+    "english": "beginning",
+    "example_sv": "I begynnelsen var ordet, står det i Bibeln.",
+    "example_en": "In the beginning was the Word, it says in the Bible.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6144
+  },
+  {
+    "swedish": "likartad",
+    "english": "similar",
+    "example_sv": "De har likartad smak när det gäller musik.",
+    "example_en": "They have similar taste when it comes to music.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6145
+  },
+  {
+    "swedish": "slakt",
+    "english": "slaughter",
+    "example_sv": "Processen vid slakt måste vara human.",
+    "example_en": "The slaughter process must be humane.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6146
+  },
+  {
+    "swedish": "naturvetenskap",
+    "english": "science",
+    "example_sv": "Hon studerar naturvetenskap på universitetet.",
+    "example_en": "She is studying science at the university.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6147
+  },
+  {
+    "swedish": "premie",
+    "english": "bonus, prize",
+    "example_sv": "Han fick en fin premie för sitt arbete.",
+    "example_en": "He received a nice bonus for his work.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6148
+  },
+  {
+    "swedish": "snus",
+    "english": "snus",
+    "example_sv": "Han tog en prilla snus efter maten.",
+    "example_en": "He took a pinch of snus after the meal.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6149
+  },
+  {
+    "swedish": "tillgå",
+    "english": "proceed, happen",
+    "example_sv": "Hur kommer förhandlingarna att tillgå?",
+    "example_en": "How will the negotiations proceed?",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6150
+  },
+  {
+    "swedish": "vadå",
+    "english": "what",
+    "example_sv": "Vadå, ska du inte med oss?",
+    "example_en": "What, aren't you coming with us?",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "interjection",
+    "rank": 6151
+  },
+  {
+    "swedish": "valresultat",
+    "english": "election result",
+    "example_sv": "Valresultatet blev en stor överraskning för många.",
+    "example_en": "The election result was a big surprise for many.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6152
+  },
+  {
+    "swedish": "västerut",
+    "english": "westward",
+    "example_sv": "De reste västerut mot solnedgången.",
+    "example_en": "They traveled westward towards the sunset.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6153
+  },
+  {
+    "swedish": "diamant",
+    "english": "diamond",
+    "example_sv": "Hon fick en vacker diamantring i present.",
+    "example_en": "She received a beautiful diamond ring as a gift.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6154
+  },
+  {
+    "swedish": "kulle",
+    "english": "hill",
+    "example_sv": "Vi gick uppför kullen för att se utsikten.",
+    "example_en": "We walked up the hill to see the view.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6155
+  },
+  {
+    "swedish": "avlyssna",
+    "english": "eavesdrop, bug",
+    "example_sv": "Polisen misstänks ha avlyssnat hans telefon.",
+    "example_en": "The police are suspected of having bugged his phone.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6156
+  },
+  {
+    "swedish": "bärbar",
+    "english": "portable",
+    "example_sv": "Jag har en bärbar dator som jag använder på resan.",
+    "example_en": "I have a portable computer that I use when traveling.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6157
+  },
+  {
+    "swedish": "piano",
+    "english": "piano",
+    "example_sv": "Hon spelar piano väldigt bra, hon är duktig.",
+    "example_en": "She plays the piano very well, she is talented.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6159
+  },
+  {
+    "swedish": "signalera",
+    "english": "signal",
+    "example_sv": "Lokföraren började signalera när tåget närmade sig.",
+    "example_en": "The train driver started to signal as the train approached.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6161
+  },
+  {
+    "swedish": "snubbe",
+    "english": "guy, bloke",
+    "example_sv": "Vilken trevlig snubbe, han hjälpte mig med väskan.",
+    "example_en": "What a nice guy, he helped me with my bag.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6162
+  },
+  {
+    "swedish": "eftergift",
+    "english": "concession, remission",
+    "example_sv": "De fick inga eftergifter under förhandlingarna.",
+    "example_en": "They received no concessions during the negotiations.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6163
+  },
+  {
+    "swedish": "major",
+    "english": "major",
+    "example_sv": "Majoren gav oss tydliga instruktioner för uppdraget.",
+    "example_en": "The major gave us clear instructions for the mission.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6164
+  },
+  {
+    "swedish": "veterinär",
+    "english": "veterinarian",
+    "example_sv": "Vi tog katten till veterinären för en undersökning.",
+    "example_en": "We took the cat to the veterinarian for an examination.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6165
+  },
+  {
+    "swedish": "utopi",
+    "english": "utopia",
+    "example_sv": "En värld utan krig är en utopi för många.",
+    "example_en": "A world without war is a utopia for many.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6166
+  },
+  {
+    "swedish": "författa",
+    "english": "write, author",
+    "example_sv": "Hon planerar att författa en bok om sina resor.",
+    "example_en": "She plans to write a book about her travels.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6167
+  },
+  {
+    "swedish": "gräsmatta",
+    "english": "lawn",
+    "example_sv": "Han klippte gräsmattan varje lördag förmiddag.",
+    "example_en": "He mowed the lawn every Saturday morning.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6168
+  },
+  {
+    "swedish": "bifoga",
+    "english": "attach",
+    "example_sv": "Jag kommer att bifoga filen i mailet.",
+    "example_en": "I will attach the file in the email.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6169
+  },
+  {
+    "swedish": "parkera",
+    "english": "park",
+    "example_sv": "Man får inte parkera här, det är förbjudet.",
+    "example_en": "You are not allowed to park here, it is forbidden.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6170
+  },
+  {
+    "swedish": "fastland",
+    "english": "mainland",
+    "example_sv": "De flyttade från ön till fastlandet.",
+    "example_en": "They moved from the island to the mainland.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6171
+  },
+  {
+    "swedish": "mentalitet",
+    "english": "mentality",
+    "example_sv": "Deras mentalitet är väldigt annorlunda än vår.",
+    "example_en": "Their mentality is very different from ours.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6172
+  },
+  {
+    "swedish": "slagfält",
+    "english": "battlefield",
+    "example_sv": "Historien om slaget utspelades på slagfältet.",
+    "example_en": "The story of the battle unfolded on the battlefield.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6173
+  },
+  {
+    "swedish": "stimulans",
+    "english": "stimulus",
+    "example_sv": "Regeringen hoppas på en ekonomisk stimulans.",
+    "example_en": "The government hopes for an economic stimulus.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6174
+  },
+  {
+    "swedish": "proffs",
+    "english": "pro, professional",
+    "example_sv": "Han är ett riktigt proffs på det han gör.",
+    "example_en": "He is a real pro at what he does.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6175
+  }
+]

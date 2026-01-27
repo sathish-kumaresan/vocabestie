@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "fartyg",
+    "english": "ship, vessel",
+    "example_sv": "Ett stort fartyg seglade långsamt ut från hamnen i går.",
+    "example_en": "A large ship sailed slowly out of the harbor yesterday.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1745
+  },
+  {
+    "swedish": "flyga",
+    "english": "to fly",
+    "example_sv": "Jag vill flyga till Italien nästa sommar och sola.",
+    "example_en": "I want to fly to Italy next summer and sunbathe.",
+    "scenario": "At the Airport",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1746
+  },
+  {
+    "swedish": "gifta",
+    "english": "to marry",
+    "example_sv": "De planerar att gifta sig i kyrkan i juni.",
+    "example_en": "They are planning to get married in the church in June.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1747
+  },
+  {
+    "swedish": "snäll",
+    "english": "kind, nice",
+    "example_sv": "Min granne är en väldigt snäll och hjälpsam person.",
+    "example_en": "My neighbor is a very kind and helpful person.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1748
+  },
+  {
+    "swedish": "ränta",
+    "english": "interest",
+    "example_sv": "Vi betalar låg ränta på vårt bolån just nu.",
+    "example_en": "We are paying low interest on our mortgage right now.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1749
+  },
+  {
+    "swedish": "proposition",
+    "english": "proposal",
+    "example_sv": "Regeringen lade fram en proposition om sänkt skatt.",
+    "example_en": "The government presented a proposal for a tax cut.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1750
+  },
+  {
+    "swedish": "svårighet",
+    "english": "difficulty",
+    "example_sv": "Hon hade stora svårigheter att lära sig svenska språket.",
+    "example_en": "She had great difficulty learning the Swedish language.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1751
+  },
+  {
+    "swedish": "fart",
+    "english": "speed",
+    "example_sv": "Polisen stoppade honom för att han körde för hög fart.",
+    "example_en": "The police stopped him because he was driving too fast.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1752
+  },
+  {
+    "swedish": "tant",
+    "english": "aunt, old lady",
+    "example_sv": "En äldre tant satt på bussen och läste en bok.",
+    "example_en": "An older lady sat on the bus reading a book.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1753
+  },
+  {
+    "swedish": "berörd",
+    "english": "affected, touched",
+    "example_sv": "Hon blev mycket berörd av den sorgliga filmen.",
+    "example_en": "She was very touched by the sad movie.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1754
+  },
+  {
+    "swedish": "avsikt",
+    "english": "intention",
+    "example_sv": "Jag hade ingen avsikt att såra dina känslor.",
+    "example_en": "I had no intention of hurting your feelings.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1755
+  },
+  {
+    "swedish": "opposition",
+    "english": "opposition",
+    "example_sv": "Oppositionen kritiserade regeringens nya ekonomiska politik.",
+    "example_en": "The opposition criticized the government's new economic policy.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1757
+  },
+  {
+    "swedish": "härlig",
+    "english": "lovely, wonderful",
+    "example_sv": "Det är en härlig dag att gå på en promenad.",
+    "example_en": "It is a lovely day to go for a walk.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1758
+  },
+  {
+    "swedish": "intryck",
+    "english": "impression",
+    "example_sv": "Han gjorde ett gott intryck på intervjun igår.",
+    "example_en": "He made a good impression at the interview yesterday.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1759
+  },
+  {
+    "swedish": "duktig",
+    "english": "skilled, good",
+    "example_sv": "Hon är en duktig musiker och spelar piano mycket bra.",
+    "example_en": "She is a skilled musician and plays the piano very well.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1761
+  },
+  {
+    "swedish": "ideologi",
+    "english": "ideology",
+    "example_sv": "Partiets ideologi baseras på social rättvisa och jämlikhet.",
+    "example_en": "The party's ideology is based on social justice and equality.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1762
+  },
+  {
+    "swedish": "representant",
+    "english": "representative",
+    "example_sv": "Hon är representant för studenterna i skolstyrelsen.",
+    "example_en": "She is a representative for the students in the school board.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1763
+  },
+  {
+    "swedish": "engagemang",
+    "english": "engagement, commitment",
+    "example_sv": "Hennes engagemang för miljön är verkligen inspirerande.",
+    "example_en": "Her commitment to the environment is truly inspiring.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1765
+  },
+  {
+    "swedish": "finsk",
+    "english": "Finnish",
+    "example_sv": "Jag har en finsk vän som bor i Helsingfors.",
+    "example_en": "I have a Finnish friend who lives in Helsinki.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1766
+  },
+  {
+    "swedish": "bekant",
+    "english": "familiar, acquaintance",
+    "example_sv": "Han är en bekant till mig från jobbet.",
+    "example_en": "He is an acquaintance of mine from work.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1767
+  },
+  {
+    "swedish": "överallt",
+    "english": "everywhere",
+    "example_sv": "Jag letade efter mina nycklar överallt i huset.",
+    "example_en": "I looked for my keys everywhere in the house.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1768
+  },
+  {
+    "swedish": "gäng",
+    "english": "gang, group",
+    "example_sv": "Ett gäng ungdomar satt och pratade i parken.",
+    "example_en": "A group of young people were sitting and talking in the park.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1769
+  },
+  {
+    "swedish": "träda",
+    "english": "to step, enter",
+    "example_sv": "Han fick träda fram och ta emot priset.",
+    "example_en": "He had to step forward and receive the prize.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1770
+  },
+  {
+    "swedish": "sjunka",
+    "english": "to sink",
+    "example_sv": "Båten började sjunka efter att den träffat en sten.",
+    "example_en": "The boat started to sink after it hit a rock.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1771
+  },
+  {
+    "swedish": "föremål",
+    "english": "object",
+    "example_sv": "Polisen hittade ett misstänkt föremål på gatan.",
+    "example_en": "The police found a suspicious object on the street.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1772
+  },
+  {
+    "swedish": "attack",
+    "english": "attack",
+    "example_sv": "Hon överlevde attacken, men är fortfarande traumatiserad.",
+    "example_en": "She survived the attack but is still traumatized.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1774
+  },
+  {
+    "swedish": "falsk",
+    "english": "false, fake",
+    "example_sv": "Han gav mig ett falskt leende, jag litade inte på honom.",
+    "example_en": "He gave me a fake smile, I didn't trust him.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1775
+  },
+  {
+    "swedish": "representera",
+    "english": "represent",
+    "example_sv": "Denna staty representerar friheten och oberoendet.",
+    "example_en": "This statue represents freedom and independence.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1776
+  },
+  {
+    "swedish": "miljöparti",
+    "english": "Green Party",
+    "example_sv": "Miljöpartiet vill satsa mer på hållbar utveckling.",
+    "example_en": "The Green Party wants to invest more in sustainable development.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1777
+  },
+  {
+    "swedish": "avgift",
+    "english": "fee, charge",
+    "example_sv": "Det är en avgift för att använda motorvägen här.",
+    "example_en": "There is a fee to use the highway here.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1778
+  },
+  {
+    "swedish": "normalt",
+    "english": "normally",
+    "example_sv": "Normalt sett brukar jag gå och lägga mig tidigt.",
+    "example_en": "Normally I usually go to bed early.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1779
+  },
+  {
+    "swedish": "motsvara",
+    "english": "correspond to",
+    "example_sv": "Dina kvalifikationer motsvarar inte kraven för tjänsten.",
+    "example_en": "Your qualifications do not correspond to the requirements for the position.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1780
+  },
+  {
+    "swedish": "i allmänhet",
+    "english": "in general",
+    "example_sv": "I allmänhet är folk väldigt vänliga i Sverige.",
+    "example_en": "In general, people are very friendly in Sweden.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1781
+  },
+  {
+    "swedish": "översättning",
+    "english": "translation",
+    "example_sv": "Jag behövde en översättning av ett viktigt dokument.",
+    "example_en": "I needed a translation of an important document.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1782
+  },
+  {
+    "swedish": "seriös",
+    "english": "serious",
+    "example_sv": "Han verkar vara en seriös och pålitlig person.",
+    "example_en": "He seems to be a serious and reliable person.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1783
+  },
+  {
+    "swedish": "omedelbart",
+    "english": "immediately",
+    "example_sv": "Du måste komma hit omedelbart, det är en nödsituation!",
+    "example_en": "You must come here immediately, it's an emergency!",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1784
+  },
+  {
+    "swedish": "kraftig",
+    "english": "strong, powerful",
+    "example_sv": "Det var en kraftig storm med mycket regn och åska.",
+    "example_en": "It was a strong storm with a lot of rain and thunder.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1785
+  },
+  {
+    "swedish": "uppskatta",
+    "english": "appreciate",
+    "example_sv": "Jag uppskattar verkligen din hjälp med flytten.",
+    "example_en": "I really appreciate your help with the move.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1786
+  },
+  {
+    "swedish": "kommitté",
+    "english": "committee",
+    "example_sv": "En kommitté har bildats för att undersöka frågan.",
+    "example_en": "A committee has been formed to investigate the issue.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1787
+  },
+  {
+    "swedish": "blanda",
+    "english": "mix, blend",
+    "example_sv": "Du måste blanda mjölet och vattnet ordentligt.",
+    "example_en": "You have to mix the flour and water thoroughly.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1788
+  },
+  {
+    "swedish": "blod",
+    "english": "blood",
+    "example_sv": "Han tappade mycket blod efter olyckan igår.",
+    "example_en": "He lost a lot of blood after the accident yesterday.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1789
+  },
+  {
+    "swedish": "högskola",
+    "english": "university college",
+    "example_sv": "Hon studerar medicin vid högskolan i Stockholm.",
+    "example_en": "She is studying medicine at the university college in Stockholm.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1790
+  },
+  {
+    "swedish": "fritt",
+    "english": "freely",
+    "example_sv": "Barnen lekte fritt på stranden hela dagen.",
+    "example_en": "The children played freely on the beach all day.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1791
+  },
+  {
+    "swedish": "integritet",
+    "english": "integrity, privacy",
+    "example_sv": "Det är viktigt att skydda sin personliga integritet online.",
+    "example_en": "It is important to protect your personal privacy online.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1792
+  },
+  {
+    "swedish": "hår",
+    "english": "hair",
+    "example_sv": "Jag behöver klippa mitt hår snart, det är för långt.",
+    "example_en": "I need to cut my hair soon, it's too long.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1793
+  },
+  {
+    "swedish": "organ",
+    "english": "organ",
+    "example_sv": "Hjärtat är ett viktigt organ i kroppen.",
+    "example_en": "The heart is an important organ in the body.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1794
+  },
+  {
+    "swedish": "lycklig",
+    "english": "happy",
+    "example_sv": "Jag är så lycklig att vara tillsammans med dig.",
+    "example_en": "I am so happy to be with you.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1795
+  },
+  {
+    "swedish": "misstag",
+    "english": "mistake",
+    "example_sv": "Jag gjorde ett misstag, jag är väldigt ledsen.",
+    "example_en": "I made a mistake, I am very sorry.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1796
+  },
+  {
+    "swedish": "träd",
+    "english": "tree",
+    "example_sv": "Det stora trädet gav oss skugga i solen.",
+    "example_en": "The big tree gave us shade in the sun.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1798
+  },
+  {
+    "swedish": "straff",
+    "english": "punishment",
+    "example_sv": "Han fick ett straff för att han körde för fort.",
+    "example_en": "He received a punishment for speeding.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1800
+  }
+]

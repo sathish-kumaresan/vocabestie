@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "anvisning",
+    "english": "instruction, direction",
+    "example_sv": "Följ noga anvisningarna för att undvika fel vid monteringen.",
+    "example_en": "Carefully follow the instructions to avoid errors during assembly.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4416
+  },
+  {
+    "swedish": "hatt",
+    "english": "hat",
+    "example_sv": "Hon köpte en ny hatt för att skydda sig mot solen.",
+    "example_en": "She bought a new hat to protect herself from the sun.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4417
+  },
+  {
+    "swedish": "tokig",
+    "english": "crazy, silly",
+    "example_sv": "Jag känner mig lite tokig idag, jag vet inte varför.",
+    "example_en": "I feel a bit crazy today, I don't know why.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4418
+  },
+  {
+    "swedish": "förvärv",
+    "english": "acquisition, purchase",
+    "example_sv": "Företagets förvärv av konkurrenten skapade stora rubriker i pressen.",
+    "example_en": "The company's acquisition of its competitor made big headlines in the press.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4419
+  },
+  {
+    "swedish": "med flera (förk. m.fl., m fl)",
+    "english": "and others",
+    "example_sv": "Vi bjöd in Anna, Peter, Lisa med flera till festen.",
+    "example_en": "We invited Anna, Peter, Lisa and others to the party.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4420
+  },
+  {
+    "swedish": "omgående",
+    "english": "immediately, promptly",
+    "example_sv": "Du måste kontakta oss omgående om du upptäcker något fel.",
+    "example_en": "You must contact us immediately if you notice any errors.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4421
+  },
+  {
+    "swedish": "bedrägeri",
+    "english": "fraud, scam",
+    "example_sv": "Polisen utreder ett omfattande bedrägeri mot äldre personer.",
+    "example_en": "The police are investigating a widespread fraud against elderly people.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4422
+  },
+  {
+    "swedish": "mobilisera",
+    "english": "mobilize",
+    "example_sv": "Vi måste mobilisera alla resurser för att klara krisen.",
+    "example_en": "We need to mobilize all resources to get through the crisis.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4423
+  },
+  {
+    "swedish": "signatur",
+    "english": "signature",
+    "example_sv": "Din signatur krävs på alla sidor av avtalet.",
+    "example_en": "Your signature is required on all pages of the agreement.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4424
+  },
+  {
+    "swedish": "skälig",
+    "english": "reasonable, fair",
+    "example_sv": "Vi erbjöd honom en skälig ersättning för hans arbete.",
+    "example_en": "We offered him reasonable compensation for his work.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4425
+  },
+  {
+    "swedish": "expandera",
+    "english": "expand",
+    "example_sv": "Företaget planerar att expandera sin verksamhet till nya marknader.",
+    "example_en": "The company plans to expand its operations to new markets.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4426
+  },
+  {
+    "swedish": "förkunna",
+    "english": "proclaim, announce",
+    "example_sv": "Prästen förkunnade evangeliet för församlingen varje söndag.",
+    "example_en": "The priest proclaimed the Gospel to the congregation every Sunday.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4427
+  },
+  {
+    "swedish": "böja",
+    "english": "bend",
+    "example_sv": "Grenen gick av när jag försökte böja den för mycket.",
+    "example_en": "The branch broke when I tried to bend it too much.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4428
+  },
+  {
+    "swedish": "förenkla",
+    "english": "simplify",
+    "example_sv": "Vi måste förenkla processen för att göra det lättare för kunderna.",
+    "example_en": "We need to simplify the process to make it easier for customers.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4429
+  },
+  {
+    "swedish": "viga",
+    "english": "marry, consecrate",
+    "example_sv": "Prästen ska viga paret i kyrkan nästa lördag.",
+    "example_en": "The priest will marry the couple in the church next Saturday.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4430
+  },
+  {
+    "swedish": "justitieminister",
+    "english": "Minister of Justice",
+    "example_sv": "Justitieministern presenterade regeringens nya lagförslag idag.",
+    "example_en": "The Minister of Justice presented the government's new bill today.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4431
+  },
+  {
+    "swedish": "fjärdedel",
+    "english": "quarter, fourth",
+    "example_sv": "En fjärdedel av befolkningen bor i storstadsområdena.",
+    "example_en": "A quarter of the population lives in metropolitan areas.",
+    "scenario": "Numbers",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4432
+  },
+  {
+    "swedish": "substans",
+    "english": "substance",
+    "example_sv": "Alkohol är en beroendeframkallande substans som påverkar hjärnan.",
+    "example_en": "Alcohol is an addictive substance that affects the brain.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4433
+  },
+  {
+    "swedish": "tömma",
+    "english": "empty",
+    "example_sv": "Snart är det dags att tömma brevlådan igen.",
+    "example_en": "Soon it will be time to empty the mailbox again.",
+    "scenario": "Post Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4434
+  },
+  {
+    "swedish": "utmärka",
+    "english": "distinguish, excel",
+    "example_sv": "Hon utmärkte sig i skolan med sina exceptionella resultat.",
+    "example_en": "She distinguished herself in school with her exceptional results.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4435
+  },
+  {
+    "swedish": "ende",
+    "english": "only",
+    "example_sv": "Han är den ende som kan lösa det här problemet.",
+    "example_en": "He is the only one who can solve this problem.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4436
+  },
+  {
+    "swedish": "förnyelse",
+    "english": "renewal",
+    "example_sv": "Det behövs en förnyelse av samhället för att skapa framtidshopp.",
+    "example_en": "Society needs a renewal to create hope for the future.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4437
+  },
+  {
+    "swedish": "subjektiv",
+    "english": "subjective",
+    "example_sv": "Smak är en subjektiv upplevelse och varierar från person till person.",
+    "example_en": "Taste is a subjective experience and varies from person to person.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4438
+  },
+  {
+    "swedish": "burk",
+    "english": "jar, can",
+    "example_sv": "Jag öppnade en burk sylt till frukosten imorse.",
+    "example_en": "I opened a jar of jam for breakfast this morning.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4439
+  },
+  {
+    "swedish": "human",
+    "english": "human",
+    "example_sv": "Vi måste behandla alla människor på ett humant sätt.",
+    "example_en": "We must treat all people in a humane way.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4440
+  },
+  {
+    "swedish": "mista",
+    "english": "lose",
+    "example_sv": "Jag vill inte mista dig, du är viktig för mig.",
+    "example_en": "I don't want to lose you, you are important to me.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4441
+  },
+  {
+    "swedish": "sanktion",
+    "english": "sanction",
+    "example_sv": "Landet drabbades av ekonomiska sanktioner efter konflikten.",
+    "example_en": "The country was hit by economic sanctions after the conflict.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4442
+  },
+  {
+    "swedish": "fler och fler",
+    "english": "more and more",
+    "example_sv": "Fler och fler människor väljer att cykla till jobbet.",
+    "example_en": "More and more people are choosing to cycle to work.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "pronoun",
+    "rank": 4443
+  },
+  {
+    "swedish": "omsättning",
+    "english": "revenue, turnover",
+    "example_sv": "Företagets omsättning ökade kraftigt under det senaste året.",
+    "example_en": "The company's revenue increased sharply over the past year.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4444
+  },
+  {
+    "swedish": "besitta",
+    "english": "possess, own",
+    "example_sv": "Hon besitter en otrolig talang för musik och sång.",
+    "example_en": "She possesses an incredible talent for music and singing.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4445
+  },
+  {
+    "swedish": "initiera",
+    "english": "initiate",
+    "example_sv": "Vi vill initiera en dialog med invånarna om de nya planerna.",
+    "example_en": "We want to initiate a dialogue with the residents about the new plans.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4446
+  },
+  {
+    "swedish": "skrivande",
+    "english": "writing",
+    "example_sv": "Mitt skrivande är ofta inspirerat av naturen omkring mig.",
+    "example_en": "My writing is often inspired by the nature around me.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4447
+  },
+  {
+    "swedish": "hänseende",
+    "english": "respect, regard",
+    "example_sv": "I alla hänseenden har han visat sig vara en lojal vän.",
+    "example_en": "In all respects, he has proven to be a loyal friend.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4448
+  },
+  {
+    "swedish": "härstamma",
+    "english": "originate, stem",
+    "example_sv": "Våra traditioner härstammar från gamla bondeseder och bruk.",
+    "example_en": "Our traditions originate from old farming customs and practices.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4449
+  },
+  {
+    "swedish": "censur",
+    "english": "censorship",
+    "example_sv": "Många anser att censur är ett hot mot yttrandefriheten.",
+    "example_en": "Many believe that censorship is a threat to freedom of speech.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4450
+  },
+  {
+    "swedish": "promenera",
+    "english": "walk, stroll",
+    "example_sv": "Vi brukar promenera längs stranden på kvällarna.",
+    "example_en": "We usually walk along the beach in the evenings.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4452
+  },
+  {
+    "swedish": "supa",
+    "english": "booze, drink heavily",
+    "example_sv": "Han brukade supa varje helg, men nu har han slutat.",
+    "example_en": "He used to drink heavily every weekend, but now he has stopped.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4453
+  },
+  {
+    "swedish": "legitimitet",
+    "english": "legitimacy",
+    "example_sv": "Regeringens legitimitet ifrågasattes efter valet.",
+    "example_en": "The government's legitimacy was questioned after the election.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4454
+  },
+  {
+    "swedish": "befäl",
+    "english": "command, authority",
+    "example_sv": "Soldaten lydde befälet utan att tveka eller protestera.",
+    "example_en": "The soldier obeyed the command without hesitation or protest.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4455
+  },
+  {
+    "swedish": "sökande",
+    "english": "applicant",
+    "example_sv": "Vi fick in många sökande till tjänsten som projektledare.",
+    "example_en": "We received many applicants for the project manager position.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4456
+  },
+  {
+    "swedish": "pojkvän",
+    "english": "boyfriend",
+    "example_sv": "Jag ska träffa min pojkvän på caféet efter jobbet.",
+    "example_en": "I'm going to meet my boyfriend at the cafe after work.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4457
+  },
+  {
+    "swedish": "poängtera",
+    "english": "emphasize, point out",
+    "example_sv": "Jag vill poängtera vikten av att komma i tid till mötet.",
+    "example_en": "I want to emphasize the importance of arriving on time for the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4458
+  },
+  {
+    "swedish": "överträdelse",
+    "english": "violation, transgression",
+    "example_sv": "Det är en allvarlig överträdelse att köra mot rött ljus.",
+    "example_en": "It is a serious violation to run a red light.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4459
+  },
+  {
+    "swedish": "klimatfråga",
+    "english": "climate issue",
+    "example_sv": "Klimatfrågan är en av de viktigaste utmaningarna idag.",
+    "example_en": "The climate issue is one of the most important challenges today.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4460
+  },
+  {
+    "swedish": "telefonsamtal",
+    "english": "phone call",
+    "example_sv": "Jag missade ett viktigt telefonsamtal från min chef.",
+    "example_en": "I missed an important phone call from my boss.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4461
+  },
+  {
+    "swedish": "beredskap",
+    "english": "preparedness, readiness",
+    "example_sv": "Det är viktigt att ha god beredskap inför eventuella kriser.",
+    "example_en": "It is important to have good preparedness for potential crises.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4462
+  },
+  {
+    "swedish": "vers",
+    "english": "verse",
+    "example_sv": "Den första versen i dikten var särskilt vacker och rörande.",
+    "example_en": "The first verse of the poem was particularly beautiful and touching.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4463
+  },
+  {
+    "swedish": "monarki",
+    "english": "monarchy",
+    "example_sv": "Sverige är en konstitutionell monarki med en kung som statschef.",
+    "example_en": "Sweden is a constitutional monarchy with a king as head of state.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4464
+  },
+  {
+    "swedish": "ockupera",
+    "english": "occupy",
+    "example_sv": "Fienden fortsatte att ockupera området trots internationella protester.",
+    "example_en": "The enemy continued to occupy the area despite international protests.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4465
+  },
+  {
+    "swedish": "skum",
+    "english": "suspicious, dubious",
+    "example_sv": "Det var något skumt med hans beteende på festen.",
+    "example_en": "There was something suspicious about his behavior at the party.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4466
+  }
+]

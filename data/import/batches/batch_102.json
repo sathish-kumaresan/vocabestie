@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "harmoni",
+    "english": "harmony",
+    "example_sv": "Vi försöker skapa harmoni i hemmet genom tydliga regler.",
+    "example_en": "We try to create harmony at home through clear rules.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5352
+  },
+  {
+    "swedish": "trea",
+    "english": "three-room apartment",
+    "example_sv": "De letar efter en trea i ett lugnt område.",
+    "example_en": "They are looking for a three-room apartment in a quiet area.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5353
+  },
+  {
+    "swedish": "avvägning",
+    "english": "trade-off",
+    "example_sv": "Det är en svår avvägning mellan kostnad och kvalitet.",
+    "example_en": "It's a difficult trade-off between cost and quality.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5354
+  },
+  {
+    "swedish": "markant",
+    "english": "markedly",
+    "example_sv": "Temperaturen har sjunkit markant de senaste dagarna.",
+    "example_en": "The temperature has dropped markedly in the last few days.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5355
+  },
+  {
+    "swedish": "slopa",
+    "english": "abolish",
+    "example_sv": "Regeringen beslutade att slopa den gamla lagen helt.",
+    "example_en": "The government decided to abolish the old law completely.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5356
+  },
+  {
+    "swedish": "stål",
+    "english": "steel",
+    "example_sv": "Bron är konstruerad av starkt och hållbart stål.",
+    "example_en": "The bridge is constructed of strong and durable steel.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5357
+  },
+  {
+    "swedish": "vinning",
+    "english": "gain",
+    "example_sv": "Företaget gjorde stor vinning på den nya produkten.",
+    "example_en": "The company made a large gain on the new product.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5358
+  },
+  {
+    "swedish": "främlingsfientlig",
+    "english": "xenophobic",
+    "example_sv": "Hans uttalanden uppfattades som rasistiska och främlingsfientliga.",
+    "example_en": "His statements were perceived as racist and xenophobic.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5359
+  },
+  {
+    "swedish": "mössa",
+    "english": "beanie",
+    "example_sv": "Jag behöver en varm mössa nu när det är kallt.",
+    "example_en": "I need a warm beanie now that it's cold.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5360
+  },
+  {
+    "swedish": "riksdagsman",
+    "english": "MP",
+    "example_sv": "Riksdagsmannen debatterade ivrigt om den nya propositionen.",
+    "example_en": "The MP debated eagerly about the new proposal.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5361
+  },
+  {
+    "swedish": "runtom",
+    "english": "around",
+    "example_sv": "Det finns många vackra parker runtom i staden.",
+    "example_en": "There are many beautiful parks around the city.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5362
+  },
+  {
+    "swedish": "skikt",
+    "english": "layer",
+    "example_sv": "Det finns olika skikt av befolkningen i samhället.",
+    "example_en": "There are different layers of the population in society.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5363
+  },
+  {
+    "swedish": "avsevärd",
+    "english": "considerable",
+    "example_sv": "Det har skett en avsevärd förbättring av resultaten.",
+    "example_en": "There has been a considerable improvement in the results.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5364
+  },
+  {
+    "swedish": "avvakta",
+    "english": "wait",
+    "example_sv": "Vi måste avvakta och se vad som händer först.",
+    "example_en": "We must wait and see what happens first.",
+    "scenario": "Common Verbs",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5365
+  },
+  {
+    "swedish": "dimma",
+    "english": "fog",
+    "example_sv": "Det var tät dimma på vägen imorse, så jag körde långsamt.",
+    "example_en": "It was thick fog on the road this morning, so I drove slowly.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5366
+  },
+  {
+    "swedish": "förundersökning",
+    "english": "preliminary investigation",
+    "example_sv": "Polisen har inlett en förundersökning om brottet.",
+    "example_en": "The police have launched a preliminary investigation into the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5367
+  },
+  {
+    "swedish": "huvudvärk",
+    "english": "headache",
+    "example_sv": "Jag har sån huvudvärk idag, jag behöver ta det lugnt.",
+    "example_en": "I have such a headache today, I need to take it easy.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5368
+  },
+  {
+    "swedish": "ohälsa",
+    "english": "ill health",
+    "example_sv": "Stress kan leda till ohälsa på lång sikt.",
+    "example_en": "Stress can lead to ill health in the long run.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5369
+  },
+  {
+    "swedish": "praktisera",
+    "english": "practice",
+    "example_sv": "Hon ska praktisera som läkare under sommaren.",
+    "example_en": "She will practice as a doctor during the summer.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5370
+  },
+  {
+    "swedish": "rusta",
+    "english": "prepare",
+    "example_sv": "Vi måste rusta oss för vinterns kyla och mörker.",
+    "example_en": "We must prepare ourselves for the winter's cold and darkness.",
+    "scenario": "Seasons",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5371
+  },
+  {
+    "swedish": "subvention",
+    "english": "subsidy",
+    "example_sv": "Jordbruket får statliga subventioner för att överleva.",
+    "example_en": "Agriculture receives government subsidies to survive.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5372
+  },
+  {
+    "swedish": "prisa",
+    "english": "praise",
+    "example_sv": "Hon prisade sina medarbetare för deras hårda arbete.",
+    "example_en": "She praised her colleagues for their hard work.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5373
+  },
+  {
+    "swedish": "odemokratisk",
+    "english": "undemocratic",
+    "example_sv": "Många anser att beslutet var odemokratiskt och orättvist.",
+    "example_en": "Many believe the decision was undemocratic and unfair.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5374
+  },
+  {
+    "swedish": "trilla",
+    "english": "fall",
+    "example_sv": "Akta dig så att du inte trillar på det hala golvet.",
+    "example_en": "Be careful not to fall on the slippery floor.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5375
+  },
+  {
+    "swedish": "valfri",
+    "english": "optional",
+    "example_sv": "Det är valfritt att delta i aktiviteterna på kvällen.",
+    "example_en": "It is optional to participate in the activities in the evening.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5376
+  },
+  {
+    "swedish": "ände",
+    "english": "end",
+    "example_sv": "Vi är snart vid ände av den här långa resan.",
+    "example_en": "We are soon at the end of this long journey.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5378
+  },
+  {
+    "swedish": "hyresrätt",
+    "english": "rental apartment",
+    "example_sv": "Det är svårt att hitta en hyresrätt i Stockholm.",
+    "example_en": "It is difficult to find a rental apartment in Stockholm.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5379
+  },
+  {
+    "swedish": "härom",
+    "english": "about this",
+    "example_sv": "Vi pratade härom dagen om att åka på semester.",
+    "example_en": "We talked about going on vacation the other day.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5380
+  },
+  {
+    "swedish": "låga",
+    "english": "flame",
+    "example_sv": "Lågan från brasan värmde oss under den kalla natten.",
+    "example_en": "The flame from the campfire warmed us during the cold night.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5381
+  },
+  {
+    "swedish": "vital",
+    "english": "vital",
+    "example_sv": "Vatten är vital för alla levande organismer.",
+    "example_en": "Water is vital for all living organisms.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5382
+  },
+  {
+    "swedish": "damm",
+    "english": "dust",
+    "example_sv": "Det ligger ett tjockt lager damm på möblerna.",
+    "example_en": "There is a thick layer of dust on the furniture.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5383
+  },
+  {
+    "swedish": "giftig",
+    "english": "toxic",
+    "example_sv": "Denna svamp är giftig och får inte ätas.",
+    "example_en": "This mushroom is toxic and must not be eaten.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5384
+  },
+  {
+    "swedish": "pizza",
+    "english": "pizza",
+    "example_sv": "Vi beställde en stor pizza med extra ost ikväll.",
+    "example_en": "We ordered a large pizza with extra cheese tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5385
+  },
+  {
+    "swedish": "shopping",
+    "english": "shopping",
+    "example_sv": "Vi ska åka till stan och göra lite shopping.",
+    "example_en": "We are going to town to do some shopping.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5386
+  },
+  {
+    "swedish": "färga",
+    "english": "dye",
+    "example_sv": "Jag ska färga håret blont imorgon hos frisören.",
+    "example_en": "I'm going to dye my hair blonde tomorrow at the hairdresser.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5387
+  },
+  {
+    "swedish": "brygga",
+    "english": "dock",
+    "example_sv": "Vi satt på bryggan och njöt av solnedgången.",
+    "example_en": "We sat on the dock and enjoyed the sunset.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5388
+  },
+  {
+    "swedish": "kyckling",
+    "english": "chicken",
+    "example_sv": "Jag ska laga kyckling med ris och grönsaker till middag.",
+    "example_en": "I'm going to cook chicken with rice and vegetables for dinner.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5389
+  },
+  {
+    "swedish": "löv",
+    "english": "leaf",
+    "example_sv": "På hösten faller de färgglada löven från träden.",
+    "example_en": "In the autumn, the colorful leaves fall from the trees.",
+    "scenario": "Seasons",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5390
+  },
+  {
+    "swedish": "specialist",
+    "english": "specialist",
+    "example_sv": "Jag behöver träffa en specialist för mitt knäproblem.",
+    "example_en": "I need to see a specialist for my knee problem.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5391
+  },
+  {
+    "swedish": "handlägga",
+    "english": "process",
+    "example_sv": "Hon handlägger ärenden gällande bygglov på kommunen.",
+    "example_en": "She processes cases concerning building permits at the municipality.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5392
+  },
+  {
+    "swedish": "hyckleri",
+    "english": "hypocrisy",
+    "example_sv": "Hans agerande var ren hyckleri, tyckte många åskådare.",
+    "example_en": "His actions were pure hypocrisy, many onlookers thought.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5393
+  },
+  {
+    "swedish": "kännetecken",
+    "english": "characteristic",
+    "example_sv": "Ett tydligt kännetecken för rasen är dess långa öron.",
+    "example_en": "A clear characteristic of the breed is its long ears.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5394
+  },
+  {
+    "swedish": "överklass",
+    "english": "upper class",
+    "example_sv": "Samhället består av en överklass, medelklass och arbetarklass.",
+    "example_en": "Society consists of an upper class, middle class and working class.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5395
+  },
+  {
+    "swedish": "drivande",
+    "english": "driving",
+    "example_sv": "Hon var en drivande kraft bakom projektets framgång.",
+    "example_en": "She was a driving force behind the project's success.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5396
+  },
+  {
+    "swedish": "arbetssätt",
+    "english": "working method",
+    "example_sv": "Vi behöver införa ett mer effektivt arbetssätt på kontoret.",
+    "example_en": "We need to introduce a more efficient working method in the office.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5397
+  },
+  {
+    "swedish": "hora",
+    "english": "whore",
+    "example_sv": "Hon kände sig kränkt och kallades för en hora.",
+    "example_en": "She felt violated and was called a whore.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5398
+  },
+  {
+    "swedish": "nobelpris",
+    "english": "Nobel Prize",
+    "example_sv": "Hon drömde om att en dag vinna Nobelpris i litteratur.",
+    "example_en": "She dreamed of one day winning the Nobel Prize in Literature.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5399
+  },
+  {
+    "swedish": "enkelhet",
+    "english": "simplicity",
+    "example_sv": "Vi strävar efter enkelhet i designen av vår nya produkt.",
+    "example_en": "We strive for simplicity in the design of our new product.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5400
+  },
+  {
+    "swedish": "förpliktelse",
+    "english": "obligation",
+    "example_sv": "Vi har en moralisk förpliktelse att hjälpa dem i nöd.",
+    "example_en": "We have a moral obligation to help those in need.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5401
+  },
+  {
+    "swedish": "larm",
+    "english": "alarm",
+    "example_sv": "Brandlarmet gick och vi var tvungna att evakuera byggnaden.",
+    "example_en": "The fire alarm went off and we had to evacuate the building.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5402
+  }
+]

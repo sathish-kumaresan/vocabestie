@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "kål",
+    "english": "cabbage",
+    "example_sv": "Jag odlar olika sorters kål i min trädgård varje år.",
+    "example_en": "I grow different kinds of cabbage in my garden every year.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7657
+  },
+  {
+    "swedish": "tillförsel",
+    "english": "supply, provision",
+    "example_sv": "Stopp i tillförseln av reservdelar försenade reparationen av maskinen.",
+    "example_en": "A halt in the supply of spare parts delayed the repair of the machine.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7658
+  },
+  {
+    "swedish": "avskrivning",
+    "english": "depreciation",
+    "example_sv": "Den årliga avskrivningen på bilen påverkar bolagets resultat negativt.",
+    "example_en": "The annual depreciation on the car negatively affects the company's earnings.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7659
+  },
+  {
+    "swedish": "bemanning",
+    "english": "staffing",
+    "example_sv": "Korrekt bemanning under sommaren är avgörande för god service.",
+    "example_en": "Adequate staffing during the summer is crucial for good service.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7660
+  },
+  {
+    "swedish": "pytteliten",
+    "english": "tiny, minuscule",
+    "example_sv": "Hon hittade en pytteliten spindel som kröp på väggen.",
+    "example_en": "She found a tiny spider crawling on the wall.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7661
+  },
+  {
+    "swedish": "cirkulation",
+    "english": "circulation",
+    "example_sv": "Regelbunden motion ökar blodcirkulationen och minskar risken för sjukdomar.",
+    "example_en": "Regular exercise increases blood circulation and reduces the risk of diseases.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7662
+  },
+  {
+    "swedish": "termisk",
+    "english": "thermal",
+    "example_sv": "Huset är välisolerat för att minska termisk energiförlust under vintern.",
+    "example_en": "The house is well-insulated to reduce thermal energy loss during the winter.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7663
+  },
+  {
+    "swedish": "ömtålig",
+    "english": "delicate, fragile",
+    "example_sv": "De antika glasföremålen var extremt ömtåliga och behövde varsam hantering.",
+    "example_en": "The antique glassware was extremely fragile and needed careful handling.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7664
+  },
+  {
+    "swedish": "koda",
+    "english": "code",
+    "example_sv": "Han lärde sig att koda i Python för att bygga sin egen hemsida.",
+    "example_en": "He learned to code in Python to build his own website.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7665
+  },
+  {
+    "swedish": "kämpe",
+    "english": "fighter, champion",
+    "example_sv": "Hon är en sann kämpe som aldrig ger upp trots motgångar.",
+    "example_en": "She is a true fighter who never gives up despite setbacks.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7666
+  },
+  {
+    "swedish": "besatthet",
+    "english": "obsession",
+    "example_sv": "Hans besatthet av att samla frimärken tog upp all hans tid.",
+    "example_en": "His obsession with collecting stamps took up all his time.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7667
+  },
+  {
+    "swedish": "fjärrkontroll",
+    "english": "remote control",
+    "example_sv": "Jag letade efter fjärrkontrollen för att byta kanal på TV:n.",
+    "example_en": "I was looking for the remote control to change the channel on the TV.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7668
+  },
+  {
+    "swedish": "juvel",
+    "english": "jewel",
+    "example_sv": "Halsbandet var dekorerat med en stor och skimrande juvel.",
+    "example_en": "The necklace was decorated with a large and shimmering jewel.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7669
+  },
+  {
+    "swedish": "ponny",
+    "english": "pony",
+    "example_sv": "Barnen älskade att rida på ponnyn under familjedagen.",
+    "example_en": "The children loved riding the pony during the family day.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7670
+  },
+  {
+    "swedish": "bemanna",
+    "english": "to staff",
+    "example_sv": "Vi behöver bemanna receptionen under hela helgen.",
+    "example_en": "We need to staff the reception throughout the weekend.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7671
+  },
+  {
+    "swedish": "måtta",
+    "english": "moderation",
+    "example_sv": "Allt är bra med måtta, även de godaste efterrätterna.",
+    "example_en": "Everything is good in moderation, even the most delicious desserts.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7672
+  },
+  {
+    "swedish": "dekorera",
+    "english": "decorate",
+    "example_sv": "Vi ska dekorera huset med ljusslingor inför julen.",
+    "example_en": "We're going to decorate the house with fairy lights for Christmas.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7673
+  },
+  {
+    "swedish": "gaffel",
+    "english": "fork",
+    "example_sv": "Kan du ge mig en gaffel, tack, jag tappade min.",
+    "example_en": "Can you give me a fork, please, I dropped mine.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7674
+  },
+  {
+    "swedish": "pilgrim",
+    "english": "pilgrim",
+    "example_sv": "Pilgrimer från hela världen besöker den heliga staden varje år.",
+    "example_en": "Pilgrims from all over the world visit the holy city every year.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7675
+  },
+  {
+    "swedish": "ackumulera",
+    "english": "accumulate",
+    "example_sv": "Över tid kan damm ackumulera sig i svåråtkomliga hörn.",
+    "example_en": "Over time, dust can accumulate in hard-to-reach corners.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7676
+  },
+  {
+    "swedish": "getto",
+    "english": "ghetto",
+    "example_sv": "Filmen skildrade livet i ett segregerat getto under 1930-talet.",
+    "example_en": "The film depicted life in a segregated ghetto during the 1930s.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7677
+  },
+  {
+    "swedish": "skorsten",
+    "english": "chimney",
+    "example_sv": "Röken steg upp ur skorstenen en kall vintermorgon.",
+    "example_en": "Smoke rose from the chimney on a cold winter morning.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7678
+  },
+  {
+    "swedish": "antenn",
+    "english": "antenna",
+    "example_sv": "Den gamla TV:n hade en stor antenn på taket för bättre signal.",
+    "example_en": "The old TV had a large antenna on the roof for a better signal.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7679
+  },
+  {
+    "swedish": "montering",
+    "english": "assembly",
+    "example_sv": "Monteringen av möblerna tog längre tid än jag hade förväntat mig.",
+    "example_en": "The assembly of the furniture took longer than I had expected.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7680
+  },
+  {
+    "swedish": "synbar",
+    "english": "visible",
+    "example_sv": "Effekten av medicinen var synbar redan efter några dagar.",
+    "example_en": "The effect of the medicine was visible after only a few days.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7681
+  },
+  {
+    "swedish": "vrå",
+    "english": "nook, corner",
+    "example_sv": "Hon hittade en mysig vrå i biblioteket där hon kunde läsa.",
+    "example_en": "She found a cozy nook in the library where she could read.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7682
+  },
+  {
+    "swedish": "assistera",
+    "english": "assist",
+    "example_sv": "Kan jag assistera dig med något, herr Andersson?",
+    "example_en": "Can I assist you with anything, Mr. Andersson?",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7683
+  },
+  {
+    "swedish": "videokamera",
+    "english": "video camera",
+    "example_sv": "Vi filmade hela bröllopet med en professionell videokamera.",
+    "example_en": "We filmed the entire wedding with a professional video camera.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7685
+  },
+  {
+    "swedish": "bataljon",
+    "english": "battalion",
+    "example_sv": "En hel bataljon soldater skickades till frontlinjen under kriget.",
+    "example_en": "An entire battalion of soldiers was sent to the front line during the war.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7686
+  },
+  {
+    "swedish": "intelligens",
+    "english": "intelligence",
+    "example_sv": "Hennes intelligens och snabbtänkthet imponerade på alla.",
+    "example_en": "Her intelligence and quick thinking impressed everyone.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7687
+  },
+  {
+    "swedish": "diplom",
+    "english": "diploma",
+    "example_sv": "Hon fick sitt diplom efter att ha avslutat sina studier.",
+    "example_en": "She received her diploma after completing her studies.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7688
+  },
+  {
+    "swedish": "konfiguration",
+    "english": "configuration",
+    "example_sv": "Den optimala konfigurationen av systemet är avgörande för prestandan.",
+    "example_en": "The optimal configuration of the system is crucial for performance.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7689
+  },
+  {
+    "swedish": "efterfölja",
+    "english": "follow, pursue",
+    "example_sv": "Polisen uppmanade allmänheten att inte efterfölja brottslingarna själva.",
+    "example_en": "The police urged the public not to follow the criminals themselves.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7690
+  },
+  {
+    "swedish": "exemplarisk",
+    "english": "exemplary",
+    "example_sv": "Hennes arbetsinsats var exemplarisk och hon fick beröm av chefen.",
+    "example_en": "Her work effort was exemplary and she received praise from the boss.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7691
+  },
+  {
+    "swedish": "konsistens",
+    "english": "consistency",
+    "example_sv": "Såsens konsistens var perfekt, varken för tjock eller för tunn.",
+    "example_en": "The consistency of the sauce was perfect, neither too thick nor too thin.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7692
+  },
+  {
+    "swedish": "stelna",
+    "english": "stiffen, congeal",
+    "example_sv": "Såsen började stelna när den svalnade i kylen.",
+    "example_en": "The sauce began to stiffen as it cooled in the fridge.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7693
+  },
+  {
+    "swedish": "amortering",
+    "english": "amortization",
+    "example_sv": "Vi måste planera för amorteringarna på bolånet varje månad.",
+    "example_en": "We need to plan for the mortgage repayments every month.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7694
+  },
+  {
+    "swedish": "avskrift",
+    "english": "copy, transcript",
+    "example_sv": "Jag behöver en avskrift av protokollen från förra mötet.",
+    "example_en": "I need a copy of the minutes from the last meeting.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7695
+  },
+  {
+    "swedish": "bläck",
+    "english": "ink",
+    "example_sv": "Skrivaren har slut på bläck, jag måste köpa en ny patron.",
+    "example_en": "The printer is out of ink, I need to buy a new cartridge.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7696
+  },
+  {
+    "swedish": "restaurera",
+    "english": "restore",
+    "example_sv": "De försöker restaurera den gamla kyrkan till sitt ursprungliga skick.",
+    "example_en": "They are trying to restore the old church to its original condition.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7697
+  },
+  {
+    "swedish": "pulver",
+    "english": "powder",
+    "example_sv": "Hon blandade proteinpulver med mjölk efter träningen.",
+    "example_en": "She mixed protein powder with milk after training.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7698
+  },
+  {
+    "swedish": "remsa",
+    "english": "strip",
+    "example_sv": "Hon rev av en remsa papper från en större ark.",
+    "example_en": "She tore off a strip of paper from a larger sheet.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7699
+  },
+  {
+    "swedish": "apelsin",
+    "english": "orange",
+    "example_sv": "Jag pressade saften ur en apelsin till frukosten.",
+    "example_en": "I squeezed the juice from an orange for breakfast.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7700
+  },
+  {
+    "swedish": "cement",
+    "english": "cement",
+    "example_sv": "De blandade cement och vatten för att bygga muren.",
+    "example_en": "They mixed cement and water to build the wall.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7701
+  },
+  {
+    "swedish": "trailer",
+    "english": "trailer",
+    "example_sv": "Vi såg en spännande trailer för den nya filmen på bio.",
+    "example_en": "We saw an exciting trailer for the new movie at the cinema.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7702
+  },
+  {
+    "swedish": "ljum",
+    "english": "lukewarm",
+    "example_sv": "Vattnet i poolen var lite ljumt, men det gick bra ändå.",
+    "example_en": "The water in the pool was a little lukewarm, but it was fine anyway.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7703
+  },
+  {
+    "swedish": "sammanstötning",
+    "english": "collision, clash",
+    "example_sv": "Det skedde en sammanstötning mellan två bilar på motorvägen.",
+    "example_en": "There was a collision between two cars on the highway.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7704
+  },
+  {
+    "swedish": "stormig",
+    "english": "stormy",
+    "example_sv": "Det var en stormig natt med kraftiga vindar och regn.",
+    "example_en": "It was a stormy night with strong winds and rain.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7705
+  },
+  {
+    "swedish": "pina",
+    "english": "torment, agony",
+    "example_sv": "Huvudvärken var en verklig pina som varade hela dagen.",
+    "example_en": "The headache was a real torment that lasted all day.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7706
+  },
+  {
+    "swedish": "skift",
+    "english": "shift",
+    "example_sv": "Jag jobbar mitt första skift på det nya jobbet imorgon.",
+    "example_en": "I'm working my first shift at the new job tomorrow.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7707
+  }
+]

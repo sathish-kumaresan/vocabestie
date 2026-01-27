@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "förvandla",
+    "english": "transform, change",
+    "example_sv": "Kan du förvandla den här bilden till en teckning?",
+    "example_en": "Can you transform this picture into a drawing?",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2131
+  },
+  {
+    "swedish": "påbörja",
+    "english": "begin, start",
+    "example_sv": "Vi måste påbörja projektet snart för att klara deadlinen.",
+    "example_en": "We have to start the project soon to meet the deadline.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2132
+  },
+  {
+    "swedish": "ursäkt",
+    "english": "apology, excuse",
+    "example_sv": "Jag vill be om ursäkt för min sena ankomst.",
+    "example_en": "I want to apologize for my late arrival.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2133
+  },
+  {
+    "swedish": "vete",
+    "english": "wheat",
+    "example_sv": "Bonden skördade mycket vete i år på sin åker.",
+    "example_en": "The farmer harvested a lot of wheat this year in his field.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2134
+  },
+  {
+    "swedish": "organisera",
+    "english": "organize",
+    "example_sv": "Vi behöver organisera alla papper innan mötet börjar.",
+    "example_en": "We need to organize all the papers before the meeting starts.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2135
+  },
+  {
+    "swedish": "kommunistisk",
+    "english": "communist",
+    "example_sv": "Det kommunistiska partiet har inte mycket makt här.",
+    "example_en": "The communist party doesn't have much power here.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2136
+  },
+  {
+    "swedish": "öra",
+    "english": "ear",
+    "example_sv": "Jag har ont i mitt vänstra öra sedan igår.",
+    "example_en": "My left ear has been hurting since yesterday.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2137
+  },
+  {
+    "swedish": "aktivt",
+    "english": "actively",
+    "example_sv": "Han deltar aktivt i alla diskussioner på jobbet.",
+    "example_en": "He actively participates in all discussions at work.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2138
+  },
+  {
+    "swedish": "granskning",
+    "english": "review, audit",
+    "example_sv": "Vi behöver en noggrann granskning av företagets ekonomi.",
+    "example_en": "We need a thorough review of the company's finances.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2139
+  },
+  {
+    "swedish": "balans",
+    "english": "balance",
+    "example_sv": "Det är viktigt att ha balans mellan arbete och fritid.",
+    "example_en": "It is important to have a balance between work and leisure.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2140
+  },
+  {
+    "swedish": "mage",
+    "english": "stomach",
+    "example_sv": "Jag har ont i magen efter att ha ätit för mycket.",
+    "example_en": "I have a stomach ache after eating too much.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2141
+  },
+  {
+    "swedish": "teckna",
+    "english": "draw, subscribe",
+    "example_sv": "Barnen älskar att teckna med färgpennor på papper.",
+    "example_en": "The children love to draw with colored pencils on paper.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2142
+  },
+  {
+    "swedish": "arg",
+    "english": "angry",
+    "example_sv": "Han blev arg när jag råkade spilla kaffe på honom.",
+    "example_en": "He got angry when I accidentally spilled coffee on him.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2143
+  },
+  {
+    "swedish": "säkra",
+    "english": "secure, ensure",
+    "example_sv": "Vi måste säkra dörren innan vi går hemifrån.",
+    "example_en": "We need to secure the door before we leave home.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2144
+  },
+  {
+    "swedish": "kommunist",
+    "english": "communist",
+    "example_sv": "Han är en övertygad kommunist och tror på jämlikhet.",
+    "example_en": "He is a convinced communist and believes in equality.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2146
+  },
+  {
+    "swedish": "gåva",
+    "english": "gift",
+    "example_sv": "Jag fick en fin gåva av mina föräldrar på min födelsedag.",
+    "example_en": "I received a nice gift from my parents on my birthday.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2148
+  },
+  {
+    "swedish": "för närvarande",
+    "english": "currently, at present",
+    "example_sv": "För närvarande studerar jag svenska på universitetet.",
+    "example_en": "I am currently studying Swedish at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2149
+  },
+  {
+    "swedish": "befintlig",
+    "english": "existing",
+    "example_sv": "Vi måste använda den befintliga infrastrukturen så effektivt som möjligt.",
+    "example_en": "We must use the existing infrastructure as efficiently as possible.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2151
+  },
+  {
+    "swedish": "socialism",
+    "english": "socialism",
+    "example_sv": "Socialism är en politisk ideologi som förespråkar jämlikhet.",
+    "example_en": "Socialism is a political ideology that advocates equality.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2153
+  },
+  {
+    "swedish": "ursprunglig",
+    "english": "original",
+    "example_sv": "Den ursprungliga planen var att åka till Italien i sommar.",
+    "example_en": "The original plan was to go to Italy this summer.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2154
+  },
+  {
+    "swedish": "anställning",
+    "english": "employment",
+    "example_sv": "Han söker en ny anställning efter att ha blivit uppsagd.",
+    "example_en": "He is looking for a new employment after being laid off.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2155
+  },
+  {
+    "swedish": "ansökan",
+    "english": "application",
+    "example_sv": "Jag skickade in min ansökan till universitetet igår.",
+    "example_en": "I submitted my application to the university yesterday.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2156
+  },
+  {
+    "swedish": "protest",
+    "english": "protest",
+    "example_sv": "Det var en stor protest mot regeringens nya lagar.",
+    "example_en": "There was a large protest against the government's new laws.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2157
+  },
+  {
+    "swedish": "test",
+    "english": "test",
+    "example_sv": "Jag måste göra ett test för att se om jag är allergisk.",
+    "example_en": "I need to take a test to see if I am allergic.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2158
+  },
+  {
+    "swedish": "anda",
+    "english": "spirit",
+    "example_sv": "Julen handlar om att sprida glädje och gemenskapens anda.",
+    "example_en": "Christmas is about spreading joy and the spirit of community.",
+    "scenario": "Holidays",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2159
+  },
+  {
+    "swedish": "galen",
+    "english": "crazy, mad",
+    "example_sv": "Han är helt galen i att spela datorspel hela dagarna.",
+    "example_en": "He is completely crazy about playing computer games all day.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2160
+  },
+  {
+    "swedish": "katastrof",
+    "english": "disaster, catastrophe",
+    "example_sv": "Tsunamin var en fruktansvärd katastrof för många människor.",
+    "example_en": "The tsunami was a terrible disaster for many people.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2161
+  },
+  {
+    "swedish": "hata",
+    "english": "hate",
+    "example_sv": "Jag hatar verkligen när det regnar hela tiden.",
+    "example_en": "I really hate it when it rains all the time.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2162
+  },
+  {
+    "swedish": "gissa",
+    "english": "guess",
+    "example_sv": "Kan du gissa hur gammal jag är, om du vågar?",
+    "example_en": "Can you guess how old I am, if you dare?",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2163
+  },
+  {
+    "swedish": "mur",
+    "english": "wall",
+    "example_sv": "Det finns en hög mur runt trädgården för insynsskydd.",
+    "example_en": "There is a high wall around the garden for privacy.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2164
+  },
+  {
+    "swedish": "tjänsteman",
+    "english": "official, clerk",
+    "example_sv": "Tjänstemannen på kommunen hjälpte mig med mitt ärende.",
+    "example_en": "The official at the municipality helped me with my matter.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2165
+  },
+  {
+    "swedish": "led",
+    "english": "joint",
+    "example_sv": "Jag har ont i mina leder efter träningen igår.",
+    "example_en": "My joints hurt after yesterday's workout.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2166
+  },
+  {
+    "swedish": "beakta",
+    "english": "consider, take into account",
+    "example_sv": "Vi måste beakta alla aspekter innan vi fattar ett beslut.",
+    "example_en": "We must consider all aspects before making a decision.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2167
+  },
+  {
+    "swedish": "till följd av",
+    "english": "as a result of",
+    "example_sv": "Till följd av regnet var vägarna mycket hala.",
+    "example_en": "As a result of the rain, the roads were very slippery.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "preposition",
+    "rank": 2168
+  },
+  {
+    "swedish": "reglera",
+    "english": "regulate",
+    "example_sv": "Regeringen måste reglera bankerna bättre för att undvika kriser.",
+    "example_en": "The government must regulate the banks better to avoid crises.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2169
+  },
+  {
+    "swedish": "kristdemokrat",
+    "english": "Christian Democrat",
+    "example_sv": "Han är kristdemokrat och engagerad i kyrkan lokalt.",
+    "example_en": "He is a Christian Democrat and engaged in the local church.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2170
+  },
+  {
+    "swedish": "flod",
+    "english": "river",
+    "example_sv": "Vi bor nära en stor flod med mycket båttrafik.",
+    "example_en": "We live near a large river with a lot of boat traffic.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2171
+  },
+  {
+    "swedish": "talare",
+    "english": "speaker",
+    "example_sv": "Talaren var mycket inspirerande och engagerade publiken väl.",
+    "example_en": "The speaker was very inspiring and engaged the audience well.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2172
+  },
+  {
+    "swedish": "mörker",
+    "english": "darkness",
+    "example_sv": "Jag är rädd för mörker och sover alltid med en lampa tänd.",
+    "example_en": "I am afraid of the dark and always sleep with a light on.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2173
+  },
+  {
+    "swedish": "begränsning",
+    "english": "limitation, restriction",
+    "example_sv": "Det finns en begränsning för hur mycket data jag kan använda.",
+    "example_en": "There is a limitation on how much data I can use.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2174
+  },
+  {
+    "swedish": "värme",
+    "english": "heat, warmth",
+    "example_sv": "Jag älskar värmen från solen på min hud under sommaren.",
+    "example_en": "I love the warmth of the sun on my skin during the summer.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2175
+  },
+  {
+    "swedish": "agerande",
+    "english": "action, behavior",
+    "example_sv": "Hennes agerande var modigt och inspirerande för alla.",
+    "example_en": "Her actions were courageous and inspiring to everyone.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2176
+  },
+  {
+    "swedish": "minoritet",
+    "english": "minority",
+    "example_sv": "Det är viktigt att skydda minoriteternas rättigheter i samhället.",
+    "example_en": "It is important to protect the rights of minorities in society.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2177
+  },
+  {
+    "swedish": "etablera",
+    "english": "establish",
+    "example_sv": "Vi vill etablera ett nytt företag i centrala Stockholm.",
+    "example_en": "We want to establish a new company in central Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2178
+  },
+  {
+    "swedish": "dam",
+    "english": "lady, dam",
+    "example_sv": "Det finns en fin damm i parken med många fiskar.",
+    "example_en": "There is a nice pond in the park with many fish.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2179
+  },
+  {
+    "swedish": "spansk",
+    "english": "Spanish",
+    "example_sv": "Jag studerar spansk grammatik på kvällskurser nu.",
+    "example_en": "I am studying Spanish grammar in evening classes now.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2180
+  },
+  {
+    "swedish": "motiv",
+    "english": "motive",
+    "example_sv": "Polisen försöker förstå motivet bakom brottet.",
+    "example_en": "The police are trying to understand the motive behind the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2181
+  },
+  {
+    "swedish": "olikhet",
+    "english": "inequality, difference",
+    "example_sv": "Det finns stora olikheter i inkomst mellan olika yrkesgrupper.",
+    "example_en": "There are large inequalities in income between different professions.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2182
+  },
+  {
+    "swedish": "rättslig",
+    "english": "legal, judicial",
+    "example_sv": "Vi behöver rättslig hjälp för att lösa denna komplicerade tvist.",
+    "example_en": "We need legal assistance to resolve this complicated dispute.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2183
+  },
+  {
+    "swedish": "utställning",
+    "english": "exhibition",
+    "example_sv": "Vi ska gå på en utställning med modern konst nästa helg.",
+    "example_en": "We are going to an exhibition of modern art next weekend.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2184
+  }
+]

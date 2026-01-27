@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "ekvation",
+    "english": "equation",
+    "example_sv": "Han löste ekvationen snabbt, men jag behövde längre tid.",
+    "example_en": "He solved the equation quickly, but I needed more time.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6176
+  },
+  {
+    "swedish": "repris",
+    "english": "replay, rerun",
+    "example_sv": "Vi tittade på en repris av den spännande fotbollsmatchen.",
+    "example_en": "We watched a replay of the exciting football match.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6177
+  },
+  {
+    "swedish": "rådgivande",
+    "english": "advisory",
+    "example_sv": "Kommittén har enbart en rådgivande funktion i beslutet.",
+    "example_en": "The committee only has an advisory function in the decision.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6178
+  },
+  {
+    "swedish": "vinnande",
+    "english": "winning",
+    "example_sv": "Det vinnande laget firade sin seger hela natten.",
+    "example_en": "The winning team celebrated their victory all night.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6179
+  },
+  {
+    "swedish": "diskret",
+    "english": "discreet",
+    "example_sv": "Hon försökte vara diskret när hon lämnade rummet.",
+    "example_en": "She tried to be discreet when she left the room.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6180
+  },
+  {
+    "swedish": "befallning",
+    "english": "command",
+    "example_sv": "Soldaten lydde befallningen utan att tveka ett ögonblick.",
+    "example_en": "The soldier obeyed the command without a moment's hesitation.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6181
+  },
+  {
+    "swedish": "pipa",
+    "english": "pipe",
+    "example_sv": "Han rökte sin pipa framför den öppna spisen.",
+    "example_en": "He smoked his pipe in front of the fireplace.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6182
+  },
+  {
+    "swedish": "kjol",
+    "english": "skirt",
+    "example_sv": "Hon köpte en ny kjol inför sommarens alla fester.",
+    "example_en": "She bought a new skirt for all the summer parties.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6183
+  },
+  {
+    "swedish": "bubbla",
+    "english": "bubble",
+    "example_sv": "Såpbubblan flög iväg och sprack i luften.",
+    "example_en": "The soap bubble flew away and burst in the air.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6184
+  },
+  {
+    "swedish": "mirakel",
+    "english": "miracle",
+    "example_sv": "Det är ett mirakel att ingen skadades i olyckan.",
+    "example_en": "It's a miracle that no one was injured in the accident.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6185
+  },
+  {
+    "swedish": "hednisk",
+    "english": "pagan",
+    "example_sv": "Vikingarna hade en hednisk tro innan kristendomen kom.",
+    "example_en": "The Vikings had a pagan belief before Christianity came.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6186
+  },
+  {
+    "swedish": "lök",
+    "english": "onion",
+    "example_sv": "Jag hackade en lök till såsen och började gråta.",
+    "example_en": "I chopped an onion for the sauce and started to cry.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6187
+  },
+  {
+    "swedish": "infektion",
+    "english": "infection",
+    "example_sv": "Han fick en infektion i såret och behövde antibiotika.",
+    "example_en": "He got an infection in the wound and needed antibiotics.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6188
+  },
+  {
+    "swedish": "integrering",
+    "english": "integration",
+    "example_sv": "Språket är en viktig del av lyckad integrering i samhället.",
+    "example_en": "Language is an important part of successful integration into society.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6189
+  },
+  {
+    "swedish": "uträtta",
+    "english": "accomplish",
+    "example_sv": "Vi måste uträtta mycket arbete innan deadline närmar sig.",
+    "example_en": "We need to accomplish a lot of work before the deadline approaches.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6190
+  },
+  {
+    "swedish": "älskling",
+    "english": "darling, sweetheart",
+    "example_sv": "Kom hit, älskling, och ge mig en stor kram.",
+    "example_en": "Come here, darling, and give me a big hug.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6191
+  },
+  {
+    "swedish": "pedagog",
+    "english": "educator, pedagogue",
+    "example_sv": "Hon är en engagerad pedagog som brinner för sina elever.",
+    "example_en": "She is a dedicated educator who is passionate about her students.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6192
+  },
+  {
+    "swedish": "kvalitativ",
+    "english": "qualitative",
+    "example_sv": "Vi behöver kvalitativ data för att förstå problemet bättre.",
+    "example_en": "We need qualitative data to understand the problem better.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6193
+  },
+  {
+    "swedish": "motorcykel",
+    "english": "motorcycle",
+    "example_sv": "Han älskar att köra motorcykel på slingriga landsvägar.",
+    "example_en": "He loves to ride his motorcycle on winding country roads.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6194
+  },
+  {
+    "swedish": "styrelseledamot",
+    "english": "board member",
+    "example_sv": "Hon är styrelseledamot i flera stora företag.",
+    "example_en": "She is a board member of several large companies.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6195
+  },
+  {
+    "swedish": "tvärt",
+    "english": "abruptly, suddenly",
+    "example_sv": "Han stannade tvärt mitt i samtalet och såg förvånad ut.",
+    "example_en": "He stopped abruptly in the middle of the conversation and looked surprised.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6196
+  },
+  {
+    "swedish": "domän",
+    "english": "domain",
+    "example_sv": "Företaget köpte en ny domän för sin webbplats.",
+    "example_en": "The company bought a new domain for its website.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6197
+  },
+  {
+    "swedish": "subjekt",
+    "english": "subject",
+    "example_sv": "I den här studien är patienterna våra subjekt.",
+    "example_en": "In this study, the patients are our subjects.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6198
+  },
+  {
+    "swedish": "fana",
+    "english": "banner, flag",
+    "example_sv": "De bar stolt fanan under nationaldagsfirandet.",
+    "example_en": "They proudly carried the banner during the national day celebration.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6199
+  },
+  {
+    "swedish": "fax",
+    "english": "fax",
+    "example_sv": "Kan du skicka dokumentet via fax till vårt kontor?",
+    "example_en": "Can you send the document via fax to our office?",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6200
+  },
+  {
+    "swedish": "belasta",
+    "english": "burden, load",
+    "example_sv": "Försök att inte belasta honom med dina problem just nu.",
+    "example_en": "Try not to burden him with your problems right now.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6201
+  },
+  {
+    "swedish": "föreläsare",
+    "english": "lecturer",
+    "example_sv": "Föreläsaren var mycket kunnig och engagerade studenterna.",
+    "example_en": "The lecturer was very knowledgeable and engaged the students.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6202
+  },
+  {
+    "swedish": "lagstiftare",
+    "english": "legislator",
+    "example_sv": "Lagstiftare debatterade den nya lagen i flera timmar.",
+    "example_en": "Legislators debated the new law for several hours.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6203
+  },
+  {
+    "swedish": "högkvarter",
+    "english": "headquarters",
+    "example_sv": "Företagets högkvarter ligger i centrala Stockholm.",
+    "example_en": "The company's headquarters are located in central Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6204
+  },
+  {
+    "swedish": "fascinera",
+    "english": "fascinate",
+    "example_sv": "Stjärnhimlen fortsätter att fascinera mig varje natt.",
+    "example_en": "The starry sky continues to fascinate me every night.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6205
+  },
+  {
+    "swedish": "fånig",
+    "english": "silly, goofy",
+    "example_sv": "Det var en fånig film, men jag skrattade ändå mycket.",
+    "example_en": "It was a silly movie, but I still laughed a lot.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6206
+  },
+  {
+    "swedish": "administratör",
+    "english": "administrator",
+    "example_sv": "Systemadministratören ansvarar för nätverkets säkerhet.",
+    "example_en": "The system administrator is responsible for the network's security.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6207
+  },
+  {
+    "swedish": "förälskad",
+    "english": "in love",
+    "example_sv": "De var så förälskade att ingenting annat spelade roll.",
+    "example_en": "They were so in love that nothing else mattered.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6208
+  },
+  {
+    "swedish": "gagna",
+    "english": "benefit",
+    "example_sv": "En god utbildning kommer att gagna dig i framtiden.",
+    "example_en": "A good education will benefit you in the future.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6209
+  },
+  {
+    "swedish": "modifiera",
+    "english": "modify",
+    "example_sv": "Vi behöver modifiera planen lite för att passa budgeten.",
+    "example_en": "We need to modify the plan a little to fit the budget.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6210
+  },
+  {
+    "swedish": "realisera",
+    "english": "realize",
+    "example_sv": "Han kämpade hårt för att realisera sina drömmar.",
+    "example_en": "He worked hard to realize his dreams.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6211
+  },
+  {
+    "swedish": "samlag",
+    "english": "sexual intercourse",
+    "example_sv": "De hade säkert samlag trots att de var unga.",
+    "example_en": "They had safe sexual intercourse despite being young.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6212
+  },
+  {
+    "swedish": "skymta",
+    "english": "glimpse",
+    "example_sv": "Jag kunde skymta bergen i fjärran genom dimman.",
+    "example_en": "I could glimpse the mountains in the distance through the fog.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6213
+  },
+  {
+    "swedish": "utbredning",
+    "english": "spread, expansion",
+    "example_sv": "Virusets utbredning är ett stort problem för folkhälsan.",
+    "example_en": "The spread of the virus is a major public health problem.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6214
+  },
+  {
+    "swedish": "utkant",
+    "english": "outskirts",
+    "example_sv": "De bor i utkanten av staden, nära skogen.",
+    "example_en": "They live on the outskirts of the city, near the forest.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6215
+  },
+  {
+    "swedish": "envis",
+    "english": "stubborn",
+    "example_sv": "Han är väldigt envis och ger aldrig upp.",
+    "example_en": "He is very stubborn and never gives up.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6216
+  },
+  {
+    "swedish": "syndare",
+    "english": "sinner",
+    "example_sv": "Prästen predikade om förlåtelse för alla syndare.",
+    "example_en": "The priest preached about forgiveness for all sinners.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6217
+  },
+  {
+    "swedish": "paradox",
+    "english": "paradox",
+    "example_sv": "Det är en paradox att ju mer jag lär mig, desto mindre vet jag.",
+    "example_en": "It's a paradox that the more I learn, the less I know.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6218
+  },
+  {
+    "swedish": "bräda",
+    "english": "board",
+    "example_sv": "Surfarens bräda gled fram genom vågorna.",
+    "example_en": "The surfer's board glided through the waves.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6219
+  },
+  {
+    "swedish": "ordbok",
+    "english": "dictionary",
+    "example_sv": "Jag använder en ordbok för att lära mig nya ord.",
+    "example_en": "I use a dictionary to learn new words.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6220
+  },
+  {
+    "swedish": "översättare",
+    "english": "translator",
+    "example_sv": "Hon arbetar som översättare mellan svenska och engelska.",
+    "example_en": "She works as a translator between Swedish and English.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6221
+  },
+  {
+    "swedish": "avkomma",
+    "english": "offspring",
+    "example_sv": "Lejonhonan skyddade sin avkomma från faror.",
+    "example_en": "The lioness protected her offspring from danger.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6222
+  },
+  {
+    "swedish": "avlägga",
+    "english": "take (exam), make (oath)",
+    "example_sv": "Studenterna måste avlägga ett prov i slutet av terminen.",
+    "example_en": "The students must take an exam at the end of the term.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6223
+  },
+  {
+    "swedish": "utnämning",
+    "english": "appointment",
+    "example_sv": "Hans utnämning till chef var en stor överraskning.",
+    "example_en": "His appointment as manager was a big surprise.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6224
+  },
+  {
+    "swedish": "riddare",
+    "english": "knight",
+    "example_sv": "Riddaren stred tappert för sitt kungarike i kriget.",
+    "example_en": "The knight fought bravely for his kingdom in the war.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6225
+  }
+]

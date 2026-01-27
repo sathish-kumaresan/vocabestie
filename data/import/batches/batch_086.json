@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "i motsats till",
+    "english": "in contrast to",
+    "example_sv": "I motsats till vad du tror, så är jag redo.",
+    "example_en": "In contrast to what you think, I am ready.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "preposition",
+    "rank": 4519
+  },
+  {
+    "swedish": "tolerans",
+    "english": "tolerance",
+    "example_sv": "Samhället behöver mer tolerans mot människor med olika åsikter.",
+    "example_en": "Society needs more tolerance towards people with different opinions.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4520
+  },
+  {
+    "swedish": "krigare",
+    "english": "warrior",
+    "example_sv": "Han var en modig krigare som stred för sitt land.",
+    "example_en": "He was a brave warrior who fought for his country.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4521
+  },
+  {
+    "swedish": "bosätta",
+    "english": "settle",
+    "example_sv": "De planerar att bosätta sig i en liten by på landet.",
+    "example_en": "They are planning to settle in a small village in the countryside.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4522
+  },
+  {
+    "swedish": "filma",
+    "english": "film",
+    "example_sv": "De ska filma en ny reklamfilm i centrala Stockholm.",
+    "example_en": "They are going to film a new commercial in central Stockholm.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4523
+  },
+  {
+    "swedish": "upplägg",
+    "english": "layout",
+    "example_sv": "Jag gillar verkligen upplägget på den här tidningen.",
+    "example_en": "I really like the layout of this magazine.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4524
+  },
+  {
+    "swedish": "överläggning",
+    "english": "deliberation",
+    "example_sv": "Efter lång överläggning fattade styrelsen ett viktigt beslut.",
+    "example_en": "After lengthy deliberation, the board made an important decision.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4526
+  },
+  {
+    "swedish": "miss",
+    "english": "miss",
+    "example_sv": "Det var verkligen en stor miss att inte gå på festen.",
+    "example_en": "It was really a big miss not to go to the party.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4527
+  },
+  {
+    "swedish": "moské",
+    "english": "mosque",
+    "example_sv": "Den nya moskén är en vacker byggnad i staden.",
+    "example_en": "The new mosque is a beautiful building in the city.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4528
+  },
+  {
+    "swedish": "passion",
+    "english": "passion",
+    "example_sv": "Hon har en stor passion för att spela piano.",
+    "example_en": "She has a great passion for playing the piano.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4529
+  },
+  {
+    "swedish": "zon",
+    "english": "zone",
+    "example_sv": "Vi bor i en zon med mycket låga elpriser.",
+    "example_en": "We live in a zone with very low electricity prices.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4530
+  },
+  {
+    "swedish": "tunga",
+    "english": "tongue",
+    "example_sv": "Jag brände mig på tungan av den heta soppan.",
+    "example_en": "I burned my tongue on the hot soup.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4531
+  },
+  {
+    "swedish": "vass",
+    "english": "sharp",
+    "example_sv": "Var försiktig, kniven är väldigt vass och farlig.",
+    "example_en": "Be careful, the knife is very sharp and dangerous.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4532
+  },
+  {
+    "swedish": "klient",
+    "english": "client",
+    "example_sv": "Advokaten träffade sin klient för att diskutera fallet.",
+    "example_en": "The lawyer met with his client to discuss the case.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4533
+  },
+  {
+    "swedish": "spana",
+    "english": "scout",
+    "example_sv": "Vi måste spana efter en lämplig plats för tältet.",
+    "example_en": "We need to scout for a suitable place for the tent.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4534
+  },
+  {
+    "swedish": "utbetalning",
+    "english": "payout",
+    "example_sv": "Jag väntar på en utbetalning från försäkringsbolaget.",
+    "example_en": "I'm waiting for a payout from the insurance company.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4535
+  },
+  {
+    "swedish": "obetydlig",
+    "english": "insignificant",
+    "example_sv": "Felet var obetydligt och lätt att rätta till.",
+    "example_en": "The error was insignificant and easy to correct.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4536
+  },
+  {
+    "swedish": "kurdisk",
+    "english": "Kurdish",
+    "example_sv": "Hon lärde sig kurdisk matlagning av sin mormor.",
+    "example_en": "She learned Kurdish cooking from her grandmother.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4537
+  },
+  {
+    "swedish": "relevans",
+    "english": "relevance",
+    "example_sv": "Frågan saknar relevans för den aktuella diskussionen.",
+    "example_en": "The question lacks relevance to the current discussion.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4538
+  },
+  {
+    "swedish": "förutsatt att",
+    "english": "provided that",
+    "example_sv": "Vi kan gå på konserten, förutsatt att vi får biljetter.",
+    "example_en": "We can go to the concert, provided that we get tickets.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "conjunction",
+    "rank": 4539
+  },
+  {
+    "swedish": "motarbeta",
+    "english": "counteract",
+    "example_sv": "Vi måste motarbeta rasismen i samhället.",
+    "example_en": "We must counteract racism in society.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4540
+  },
+  {
+    "swedish": "påtryckning",
+    "english": "pressure",
+    "example_sv": "Företaget gav efter för påtryckningen från allmänheten.",
+    "example_en": "The company succumbed to pressure from the public.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4541
+  },
+  {
+    "swedish": "efterföljande",
+    "english": "subsequent",
+    "example_sv": "Den efterföljande undersökningen bekräftade hans påståenden.",
+    "example_en": "The subsequent investigation confirmed his claims.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4542
+  },
+  {
+    "swedish": "nyhetsbrev",
+    "english": "newsletter",
+    "example_sv": "Jag prenumererar på deras nyhetsbrev för att få erbjudanden.",
+    "example_en": "I subscribe to their newsletter to get offers.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4543
+  },
+  {
+    "swedish": "årsskifte",
+    "english": "year-end",
+    "example_sv": "Vi firade årsskiftet med en stor fest och fyrverkerier.",
+    "example_en": "We celebrated the year-end with a big party and fireworks.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4544
+  },
+  {
+    "swedish": "avvikelse",
+    "english": "deviation",
+    "example_sv": "Det finns en avvikelse i budgeten som måste undersökas.",
+    "example_en": "There is a deviation in the budget that needs to be investigated.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4545
+  },
+  {
+    "swedish": "tilltala",
+    "english": "appeal",
+    "example_sv": "Den här typen av musik tilltalar inte mig alls.",
+    "example_en": "This type of music doesn't appeal to me at all.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4546
+  },
+  {
+    "swedish": "stift",
+    "english": "foundation",
+    "example_sv": "Han fick ett stipendium från en välgörenhetsstift.",
+    "example_en": "He received a scholarship from a charitable foundation.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4547
+  },
+  {
+    "swedish": "hemlös",
+    "english": "homeless",
+    "example_sv": "Det är viktigt att hjälpa hemlösa människor i samhället.",
+    "example_en": "It is important to help homeless people in society.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4548
+  },
+  {
+    "swedish": "splittra",
+    "english": "divide",
+    "example_sv": "Politiken försöker splittra befolkningen med falska påståenden.",
+    "example_en": "Politics tries to divide the population with false claims.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4549
+  },
+  {
+    "swedish": "bosätta sig",
+    "english": "settle down",
+    "example_sv": "Efter många års resande bestämde de sig för att bosätta sig.",
+    "example_en": "After many years of traveling, they decided to settle down.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4550
+  },
+  {
+    "swedish": "bekräftelse",
+    "english": "confirmation",
+    "example_sv": "Jag behöver en bekräftelse på att betalningen är genomförd.",
+    "example_en": "I need a confirmation that the payment has been made.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4551
+  },
+  {
+    "swedish": "försvarsminister",
+    "english": "defense minister",
+    "example_sv": "Försvarsministern kommenterade den aktuella säkerhetspolitiska situationen.",
+    "example_en": "The defense minister commented on the current security policy situation.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4552
+  },
+  {
+    "swedish": "dokumentera",
+    "english": "document",
+    "example_sv": "Det är viktigt att dokumentera alla steg i processen noggrant.",
+    "example_en": "It is important to document all steps of the process carefully.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4553
+  },
+  {
+    "swedish": "lydnad",
+    "english": "obedience",
+    "example_sv": "Hunden visade stor lydnad mot sin tränare.",
+    "example_en": "The dog showed great obedience to its trainer.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4554
+  },
+  {
+    "swedish": "tragedi",
+    "english": "tragedy",
+    "example_sv": "Olyckan var en stor tragedi för hela samhället.",
+    "example_en": "The accident was a great tragedy for the whole community.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4555
+  },
+  {
+    "swedish": "organism",
+    "english": "organism",
+    "example_sv": "Den mikroskopiska organismen spelar en viktig roll i ekosystemet.",
+    "example_en": "The microscopic organism plays an important role in the ecosystem.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4556
+  },
+  {
+    "swedish": "socialtjänst",
+    "english": "social services",
+    "example_sv": "Socialtjänsten hjälper familjer i utsatta situationer.",
+    "example_en": "Social services help families in vulnerable situations.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4557
+  },
+  {
+    "swedish": "tillskriva",
+    "english": "ascribe",
+    "example_sv": "Framgången kan tillskrivas hårt arbete och engagemang.",
+    "example_en": "The success can be ascribed to hard work and dedication.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4558
+  },
+  {
+    "swedish": "humanist",
+    "english": "humanist",
+    "example_sv": "Som humanist tror han på alla människors lika värde.",
+    "example_en": "As a humanist, he believes in the equal value of all people.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4559
+  },
+  {
+    "swedish": "snett",
+    "english": "askew",
+    "example_sv": "Tavlan hängde lite snett på väggen, jag ska rätta till den.",
+    "example_en": "The picture hung a little askew on the wall, I'll fix it.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4560
+  },
+  {
+    "swedish": "firma",
+    "english": "company",
+    "example_sv": "Jag har jobbat på den här firman i tio år.",
+    "example_en": "I have worked at this company for ten years.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4561
+  },
+  {
+    "swedish": "förankring",
+    "english": "anchoring",
+    "example_sv": "Partiet behöver en starkare förankring bland unga väljare.",
+    "example_en": "The party needs a stronger anchoring among young voters.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4562
+  },
+  {
+    "swedish": "reporänta",
+    "english": "repo rate",
+    "example_sv": "Riksbanken beslutade att höja reporäntan med 0,25 procentenheter.",
+    "example_en": "The Riksbank decided to raise the repo rate by 0.25 percentage points.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4563
+  },
+  {
+    "swedish": "sekulär",
+    "english": "secular",
+    "example_sv": "Sverige är en sekulär stat med religionsfrihet.",
+    "example_en": "Sweden is a secular state with freedom of religion.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4564
+  },
+  {
+    "swedish": "fortsättningsvis",
+    "english": "henceforth",
+    "example_sv": "Fortsättningsvis ska alla rapporter lämnas in på fredagar.",
+    "example_en": "Henceforth, all reports must be submitted on Fridays.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4565
+  },
+  {
+    "swedish": "erfara",
+    "english": "experience",
+    "example_sv": "Jag har erfarit att det är bäst att vara ärlig.",
+    "example_en": "I have experienced that it is best to be honest.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4566
+  },
+  {
+    "swedish": "inblandning",
+    "english": "interference",
+    "example_sv": "Vi vill inte ha någon inblandning från utomstående i konflikten.",
+    "example_en": "We don't want any interference from outsiders in the conflict.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4567
+  },
+  {
+    "swedish": "signalspaning",
+    "english": "signals intelligence",
+    "example_sv": "Signalspaning är ett viktigt verktyg för att förhindra terrorism.",
+    "example_en": "Signals intelligence is an important tool for preventing terrorism.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4568
+  },
+  {
+    "swedish": "svininfluensa",
+    "english": "swine flu",
+    "example_sv": "Många människor vaccinerades mot svininfluensan under pandemin.",
+    "example_en": "Many people were vaccinated against swine flu during the pandemic.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4569
+  }
+]

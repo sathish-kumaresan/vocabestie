@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "dusch",
+    "english": "shower",
+    "example_sv": "Jag tar en snabb dusch innan jag går till jobbet.",
+    "example_en": "I take a quick shower before going to work.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4829
+  },
+  {
+    "swedish": "konsensus",
+    "english": "consensus",
+    "example_sv": "Vi måste nå konsensus innan vi kan fatta ett beslut.",
+    "example_en": "We need to reach a consensus before we can make a decision.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4830
+  },
+  {
+    "swedish": "könsneutral",
+    "english": "gender-neutral",
+    "example_sv": "Sverige strävar efter att ha en mer könsneutral arbetsplats.",
+    "example_en": "Sweden strives to have a more gender-neutral workplace.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4831
+  },
+  {
+    "swedish": "våldta",
+    "english": "rape",
+    "example_sv": "Det är aldrig okej att våldta någon, oavsett omständigheter.",
+    "example_en": "It is never okay to rape anyone, regardless of the circumstances.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4832
+  },
+  {
+    "swedish": "skruva",
+    "english": "screw",
+    "example_sv": "Kan du skruva fast den här hyllan på väggen, tack?",
+    "example_en": "Can you screw this shelf to the wall, please?",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4833
+  },
+  {
+    "swedish": "slutföra",
+    "english": "complete, finish",
+    "example_sv": "Jag måste slutföra rapporten innan fredag eftermiddag.",
+    "example_en": "I have to complete the report before Friday afternoon.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4834
+  },
+  {
+    "swedish": "återspegla",
+    "english": "reflect",
+    "example_sv": "Hans handlingar återspeglar inte företagets värderingar.",
+    "example_en": "His actions do not reflect the company's values.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4835
+  },
+  {
+    "swedish": "eko",
+    "english": "echo",
+    "example_sv": "Ditt rop gav ett tydligt eko i den tomma dalen.",
+    "example_en": "Your shout produced a clear echo in the empty valley.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4836
+  },
+  {
+    "swedish": "horisont",
+    "english": "horizon",
+    "example_sv": "Vi såg solen gå ner vid horisonten över havet.",
+    "example_en": "We saw the sun set on the horizon over the sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4837
+  },
+  {
+    "swedish": "inkomma",
+    "english": "to arrive",
+    "example_sv": "Ansökningarna måste inkomma senast den 30 april.",
+    "example_en": "Applications must arrive no later than April 30th.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4838
+  },
+  {
+    "swedish": "ministerråd",
+    "english": "council of ministers",
+    "example_sv": "Ministerrådet ska diskutera de nya förslagen imorgon.",
+    "example_en": "The Council of Ministers will discuss the new proposals tomorrow.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4839
+  },
+  {
+    "swedish": "beslutsfattare",
+    "english": "decision-maker",
+    "example_sv": "Beslutsfattare måste ta hänsyn till alla aspekter.",
+    "example_en": "Decision-makers must consider all aspects.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4840
+  },
+  {
+    "swedish": "suck",
+    "english": "sigh",
+    "example_sv": "Hon gav ifrån sig en djup suck av lättnad.",
+    "example_en": "She let out a deep sigh of relief.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4841
+  },
+  {
+    "swedish": "utlösa",
+    "english": "trigger",
+    "example_sv": "Händelsen riskerar att utlösa en politisk kris.",
+    "example_en": "The event risks triggering a political crisis.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4842
+  },
+  {
+    "swedish": "flygbolag",
+    "english": "airline",
+    "example_sv": "Vilket flygbolag flyger du med till London?",
+    "example_en": "Which airline are you flying with to London?",
+    "scenario": "At the Airport",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4843
+  },
+  {
+    "swedish": "konventionell",
+    "english": "conventional",
+    "example_sv": "Han föredrar konventionell medicin framför alternativa metoder.",
+    "example_en": "He prefers conventional medicine over alternative methods.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4845
+  },
+  {
+    "swedish": "metall",
+    "english": "metal",
+    "example_sv": "Den här statyn är gjord av brons, en sorts metall.",
+    "example_en": "This statue is made of bronze, a type of metal.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4846
+  },
+  {
+    "swedish": "återstående",
+    "english": "remaining",
+    "example_sv": "De återstående biljetterna säljs snabbt slut.",
+    "example_en": "The remaining tickets are selling out quickly.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4847
+  },
+  {
+    "swedish": "i fjol",
+    "english": "last year",
+    "example_sv": "I fjol reste vi till Italien på semester.",
+    "example_en": "Last year we travelled to Italy on vacation.",
+    "scenario": "Holidays",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4848
+  },
+  {
+    "swedish": "lönsamhet",
+    "english": "profitability",
+    "example_sv": "Företaget har kämpat med lönsamhet under det senaste året.",
+    "example_en": "The company has struggled with profitability over the past year.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4849
+  },
+  {
+    "swedish": "vari",
+    "english": "wherein",
+    "example_sv": "Detta är ett område vari vi behöver förbättra oss.",
+    "example_en": "This is an area wherein we need to improve.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4850
+  },
+  {
+    "swedish": "balanserad",
+    "english": "balanced",
+    "example_sv": "Det är viktigt att ha en balanserad kost för hälsan.",
+    "example_en": "It's important to have a balanced diet for health.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4851
+  },
+  {
+    "swedish": "antiken",
+    "english": "antiquity",
+    "example_sv": "Vi studerar grekisk och romersk antiken i skolan.",
+    "example_en": "We study Greek and Roman antiquity in school.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 4852
+  },
+  {
+    "swedish": "innovativ",
+    "english": "innovative",
+    "example_sv": "De presenterade en mycket innovativ lösning på problemet.",
+    "example_en": "They presented a very innovative solution to the problem.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4853
+  },
+  {
+    "swedish": "utnämna",
+    "english": "appoint",
+    "example_sv": "De kommer att utnämna en ny chef nästa vecka.",
+    "example_en": "They will appoint a new manager next week.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4854
+  },
+  {
+    "swedish": "islamistisk",
+    "english": "Islamist",
+    "example_sv": "Det finns en ökad oro för islamistisk extremism i regionen.",
+    "example_en": "There is growing concern about Islamist extremism in the region.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4855
+  },
+  {
+    "swedish": "pricka",
+    "english": "mark, spot",
+    "example_sv": "Kan du pricka ut platsen på kartan åt mig?",
+    "example_en": "Can you mark the location on the map for me?",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4856
+  },
+  {
+    "swedish": "tunnel",
+    "english": "tunnel",
+    "example_sv": "Tåget körde genom en lång och mörk tunnel.",
+    "example_en": "The train went through a long and dark tunnel.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4857
+  },
+  {
+    "swedish": "avreglering",
+    "english": "deregulation",
+    "example_sv": "Avregleringen av marknaden ledde till ökad konkurrens.",
+    "example_en": "The deregulation of the market led to increased competition.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4858
+  },
+  {
+    "swedish": "bristfällig",
+    "english": "deficient, flawed",
+    "example_sv": "Rapporten var bristfällig och behövde kompletteras.",
+    "example_en": "The report was flawed and needed to be supplemented.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4859
+  },
+  {
+    "swedish": "ensamstående",
+    "english": "single parent",
+    "example_sv": "Hon är ensamstående mamma till två barn.",
+    "example_en": "She is a single parent to two children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4860
+  },
+  {
+    "swedish": "inomhus",
+    "english": "indoors",
+    "example_sv": "Vi stannar inomhus idag eftersom det regnar ute.",
+    "example_en": "We're staying indoors today because it's raining outside.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4861
+  },
+  {
+    "swedish": "kapabel",
+    "english": "capable",
+    "example_sv": "Hon är kapabel att hantera det här projektet själv.",
+    "example_en": "She is capable of handling this project herself.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4862
+  },
+  {
+    "swedish": "autonom",
+    "english": "autonomous",
+    "example_sv": "Regionen har fått ökad autonom status inom landet.",
+    "example_en": "The region has been granted increased autonomous status within the country.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4863
+  },
+  {
+    "swedish": "mekanisk",
+    "english": "mechanical",
+    "example_sv": "Klockan har en komplicerad mekanisk konstruktion.",
+    "example_en": "The clock has a complicated mechanical construction.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4864
+  },
+  {
+    "swedish": "övertygande",
+    "english": "convincing",
+    "example_sv": "Han höll ett mycket övertygande tal om klimatförändringarna.",
+    "example_en": "He gave a very convincing speech about climate change.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4865
+  },
+  {
+    "swedish": "kvarvarande",
+    "english": "remaining",
+    "example_sv": "Vi måste fokusera på de kvarvarande uppgifterna.",
+    "example_en": "We must focus on the remaining tasks.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4866
+  },
+  {
+    "swedish": "vägnar",
+    "english": "behalf",
+    "example_sv": "Jag vill tacka er alla på mina kollegors vägnar.",
+    "example_en": "I want to thank you all on behalf of my colleagues.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 4867
+  },
+  {
+    "swedish": "befara",
+    "english": "fear",
+    "example_sv": "Jag befarar att vi kommer att få ett underskott.",
+    "example_en": "I fear that we will have a deficit.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4868
+  },
+  {
+    "swedish": "beundra",
+    "english": "admire",
+    "example_sv": "Jag beundrar verkligen hennes mod och engagemang.",
+    "example_en": "I really admire her courage and dedication.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4869
+  },
+  {
+    "swedish": "förfall",
+    "english": "decay, decline",
+    "example_sv": "Byggnaden var i ett tillstånd av förfall och behövde renoveras.",
+    "example_en": "The building was in a state of decay and needed renovation.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4870
+  },
+  {
+    "swedish": "toppmöte",
+    "english": "summit",
+    "example_sv": "Ledarna träffades på ett viktigt toppmöte för fred.",
+    "example_en": "The leaders met at an important summit for peace.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4871
+  },
+  {
+    "swedish": "trakasseri",
+    "english": "harassment",
+    "example_sv": "Företaget har nolltolerans mot sexuella trakasserier.",
+    "example_en": "The company has zero tolerance for sexual harassment.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4872
+  },
+  {
+    "swedish": "kupp",
+    "english": "coup",
+    "example_sv": "Militären genomförde en kupp och tog över makten.",
+    "example_en": "The military carried out a coup and seized power.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4873
+  },
+  {
+    "swedish": "bistå",
+    "english": "assist",
+    "example_sv": "Vi kan bistå med ekonomisk hjälp till de drabbade.",
+    "example_en": "We can assist with financial aid to those affected.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4874
+  },
+  {
+    "swedish": "sno",
+    "english": "steal",
+    "example_sv": "Någon försökte sno min plånbok på bussen.",
+    "example_en": "Someone tried to steal my wallet on the bus.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4875
+  },
+  {
+    "swedish": "genuin",
+    "english": "genuine",
+    "example_sv": "Hon visade genuin omtanke om sina medmänniskor.",
+    "example_en": "She showed genuine concern for her fellow human beings.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4876
+  },
+  {
+    "swedish": "nuläge",
+    "english": "current situation",
+    "example_sv": "I nuläget är det svårt att förutspå framtiden.",
+    "example_en": "In the current situation, it is difficult to predict the future.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4877
+  },
+  {
+    "swedish": "ros",
+    "english": "rose",
+    "example_sv": "Hon fick en vacker röd ros av sin pojkvän.",
+    "example_en": "She received a beautiful red rose from her boyfriend.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4878
+  },
+  {
+    "swedish": "tittare",
+    "english": "viewer",
+    "example_sv": "Programmet har många tittare varje vecka.",
+    "example_en": "The program has many viewers every week.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4879
+  }
+]

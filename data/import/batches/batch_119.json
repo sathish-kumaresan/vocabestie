@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "handikapp",
+    "english": "disability",
+    "example_sv": "Samhället måste bli mer tillgängligt för personer med handikapp.",
+    "example_en": "Society must become more accessible for people with disabilities.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6226
+  },
+  {
+    "swedish": "myra",
+    "english": "ant",
+    "example_sv": "Jag såg en liten myra bära ett stort brödsmula.",
+    "example_en": "I saw a little ant carrying a big breadcrumb.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6227
+  },
+  {
+    "swedish": "hop",
+    "english": "hope",
+    "example_sv": "Jag har ett starkt hop om att vi lyckas.",
+    "example_en": "I have a strong hope that we will succeed.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6228
+  },
+  {
+    "swedish": "föreläsa",
+    "english": "lecture",
+    "example_sv": "Professorn kommer att föreläsa om modern fysik imorgon.",
+    "example_en": "The professor will lecture on modern physics tomorrow.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6229
+  },
+  {
+    "swedish": "besläktad",
+    "english": "related",
+    "example_sv": "De två språken är besläktade och har många likheter.",
+    "example_en": "The two languages are related and have many similarities.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6230
+  },
+  {
+    "swedish": "halvö",
+    "english": "peninsula",
+    "example_sv": "Italien är en lång halvö som sträcker sig ut i Medelhavet.",
+    "example_en": "Italy is a long peninsula that extends into the Mediterranean.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6231
+  },
+  {
+    "swedish": "sammanslagning",
+    "english": "merger",
+    "example_sv": "Sammanslagningen av företagen förväntas skapa en starkare aktör.",
+    "example_en": "The merger of the companies is expected to create a stronger player.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6232
+  },
+  {
+    "swedish": "yngling",
+    "english": "youth",
+    "example_sv": "Ynglingen drömde om att bli en berömd konstnär.",
+    "example_en": "The youth dreamed of becoming a famous artist.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6233
+  },
+  {
+    "swedish": "klassificera",
+    "english": "classify",
+    "example_sv": "Bibliotekarien måste klassificera böckerna efter ämne och författare.",
+    "example_en": "The librarian must classify the books by subject and author.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6234
+  },
+  {
+    "swedish": "spruta",
+    "english": "spray",
+    "example_sv": "Hon brukar spruta parfym på handlederna och bakom öronen.",
+    "example_en": "She usually sprays perfume on her wrists and behind her ears.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6235
+  },
+  {
+    "swedish": "spärra",
+    "english": "block",
+    "example_sv": "Polisen var tvungen att spärra av gatan efter olyckan.",
+    "example_en": "The police had to block off the street after the accident.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6236
+  },
+  {
+    "swedish": "biograf",
+    "english": "cinema",
+    "example_sv": "Vi ska gå på biografen och se den nya actionfilmen.",
+    "example_en": "We are going to the cinema to see the new action movie.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6237
+  },
+  {
+    "swedish": "klan",
+    "english": "clan",
+    "example_sv": "Familjen levde som en klan och stöttade alltid varandra.",
+    "example_en": "The family lived like a clan and always supported each other.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6238
+  },
+  {
+    "swedish": "löpning",
+    "english": "running",
+    "example_sv": "Han tränar löpning varje morgon för att hålla sig i form.",
+    "example_en": "He practices running every morning to stay in shape.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6239
+  },
+  {
+    "swedish": "profit",
+    "english": "profit",
+    "example_sv": "Företaget gjorde en stor profit under det senaste kvartalet.",
+    "example_en": "The company made a large profit in the last quarter.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6240
+  },
+  {
+    "swedish": "hållbarhet",
+    "english": "sustainability",
+    "example_sv": "Hållbarhet är en viktig fråga för framtidens generationer.",
+    "example_en": "Sustainability is an important issue for future generations.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6241
+  },
+  {
+    "swedish": "foder",
+    "english": "lining",
+    "example_sv": "Jackan har ett varmt foder som passar bra för vintern.",
+    "example_en": "The jacket has a warm lining that is good for winter.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6242
+  },
+  {
+    "swedish": "framsida",
+    "english": "front",
+    "example_sv": "Namnet på tidningen står på framsidan i stora bokstäver.",
+    "example_en": "The name of the newspaper is on the front in large letters.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6243
+  },
+  {
+    "swedish": "solidarisk",
+    "english": "solidary",
+    "example_sv": "Vi måste vara solidariska och hjälpa de som behöver det.",
+    "example_en": "We must be in solidarity and help those in need.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6244
+  },
+  {
+    "swedish": "tallrik",
+    "english": "plate",
+    "example_sv": "Jag dukade bordet med vackra tallrikar och glas.",
+    "example_en": "I set the table with beautiful plates and glasses.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6245
+  },
+  {
+    "swedish": "nominering",
+    "english": "nomination",
+    "example_sv": "Filmen fick en nominering för bästa regi på filmfestivalen.",
+    "example_en": "The film received a nomination for best director at the film festival.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6246
+  },
+  {
+    "swedish": "handbok",
+    "english": "handbook",
+    "example_sv": "Du hittar all information du behöver i handboken.",
+    "example_en": "You can find all the information you need in the handbook.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6247
+  },
+  {
+    "swedish": "debut",
+    "english": "debut",
+    "example_sv": "Författaren gjorde sin debut med en spännande roman.",
+    "example_en": "The author made his debut with an exciting novel.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6248
+  },
+  {
+    "swedish": "försiktighet",
+    "english": "caution",
+    "example_sv": "Man bör iaktta försiktighet när man hanterar kemikalier.",
+    "example_en": "One should exercise caution when handling chemicals.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6249
+  },
+  {
+    "swedish": "groda",
+    "english": "frog",
+    "example_sv": "Vi hittade en liten grön groda vid dammen i parken.",
+    "example_en": "We found a small green frog by the pond in the park.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6250
+  },
+  {
+    "swedish": "hobby",
+    "english": "hobby",
+    "example_sv": "Min hobby är att samla på gamla vykort från hela världen.",
+    "example_en": "My hobby is collecting old postcards from all over the world.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6251
+  },
+  {
+    "swedish": "bidragande",
+    "english": "contributing",
+    "example_sv": "Stress är en bidragande orsak till många hälsoproblem idag.",
+    "example_en": "Stress is a contributing factor to many health problems today.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6252
+  },
+  {
+    "swedish": "blomstra",
+    "english": "flourish",
+    "example_sv": "Växterna blomstrar i det varma och soliga vädret.",
+    "example_en": "The plants flourish in the warm and sunny weather.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6253
+  },
+  {
+    "swedish": "välbefinnande",
+    "english": "well-being",
+    "example_sv": "Yoga och meditation kan öka det personliga välbefinnandet.",
+    "example_en": "Yoga and meditation can increase personal well-being.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6254
+  },
+  {
+    "swedish": "deg",
+    "english": "dough",
+    "example_sv": "Hon knådade degen tills den var slät och elastisk.",
+    "example_en": "She kneaded the dough until it was smooth and elastic.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6255
+  },
+  {
+    "swedish": "demo",
+    "english": "demo",
+    "example_sv": "Bandet spelade in en demo för att få spelningar.",
+    "example_en": "The band recorded a demo to get gigs.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6256
+  },
+  {
+    "swedish": "fiskare",
+    "english": "fisherman",
+    "example_sv": "Fiskaren rodde ut tidigt på morgonen för att fånga fisk.",
+    "example_en": "The fisherman rowed out early in the morning to catch fish.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6257
+  },
+  {
+    "swedish": "ryggsäck",
+    "english": "backpack",
+    "example_sv": "Jag packade ryggsäcken med mat och vatten för vandringen.",
+    "example_en": "I packed the backpack with food and water for the hike.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6258
+  },
+  {
+    "swedish": "behaga",
+    "english": "please",
+    "example_sv": "Jag försöker alltid att behaga mina gäster så gott jag kan.",
+    "example_en": "I always try to please my guests as best I can.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6259
+  },
+  {
+    "swedish": "ekumenisk",
+    "english": "ecumenical",
+    "example_sv": "Det ekumeniska mötet samlade representanter från olika kyrkor.",
+    "example_en": "The ecumenical meeting gathered representatives from different churches.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6260
+  },
+  {
+    "swedish": "partikel",
+    "english": "particle",
+    "example_sv": "Forskarna studerade de små partiklarna i experimentet.",
+    "example_en": "The scientists studied the small particles in the experiment.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6261
+  },
+  {
+    "swedish": "svettig",
+    "english": "sweaty",
+    "example_sv": "Efter träningspasset kände jag mig trött och svettig.",
+    "example_en": "After the workout, I felt tired and sweaty.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6262
+  },
+  {
+    "swedish": "tårta",
+    "english": "cake",
+    "example_sv": "Vi bakade en stor tårta till födelsedagsfesten.",
+    "example_en": "We baked a big cake for the birthday party.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6263
+  },
+  {
+    "swedish": "utsida",
+    "english": "outside",
+    "example_sv": "Byggnadens utsida var täckt av vacker klätterväxt.",
+    "example_en": "The outside of the building was covered in beautiful climbing plants.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6264
+  },
+  {
+    "swedish": "drunkna",
+    "english": "drown",
+    "example_sv": "Mannen höll på att drunkna men räddades av en badvakt.",
+    "example_en": "The man was about to drown but was saved by a lifeguard.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6265
+  },
+  {
+    "swedish": "kognitiv",
+    "english": "cognitive",
+    "example_sv": "Alzheimers sjukdom påverkar de kognitiva funktionerna i hjärnan.",
+    "example_en": "Alzheimer's disease affects the cognitive functions in the brain.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6266
+  },
+  {
+    "swedish": "prägel",
+    "english": "character",
+    "example_sv": "Stadens prägel har förändrats mycket de senaste åren.",
+    "example_en": "The city's character has changed a lot in recent years.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6267
+  },
+  {
+    "swedish": "klang",
+    "english": "sound",
+    "example_sv": "Kyrkklockans klang hördes över hela staden på söndag morgon.",
+    "example_en": "The sound of the church bell could be heard across the city on Sunday morning.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6268
+  },
+  {
+    "swedish": "pc",
+    "english": "PC",
+    "example_sv": "Jag använder min pc dagligen för att jobba hemifrån.",
+    "example_en": "I use my PC daily to work from home.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6269
+  },
+  {
+    "swedish": "faktura",
+    "english": "invoice",
+    "example_sv": "Jag har inte fått fakturan för elen den här månaden.",
+    "example_en": "I have not received the invoice for the electricity this month.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6270
+  },
+  {
+    "swedish": "oroväckande",
+    "english": "worrying",
+    "example_sv": "Den oroväckande ökningen av våldet måste stoppas omedelbart.",
+    "example_en": "The worrying increase in violence must be stopped immediately.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6271
+  },
+  {
+    "swedish": "broschyr",
+    "english": "brochure",
+    "example_sv": "Turistbyrån har en broschyr med information om sevärdheter.",
+    "example_en": "The tourist office has a brochure with information about attractions.",
+    "scenario": "Hotel",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6272
+  },
+  {
+    "swedish": "mästerskap",
+    "english": "championship",
+    "example_sv": "Sverige vann mästerskapet i ishockey förra året.",
+    "example_en": "Sweden won the ice hockey championship last year.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6273
+  },
+  {
+    "swedish": "terror",
+    "english": "terror",
+    "example_sv": "Terror är ett hot mot hela mänskligheten och måste bekämpas.",
+    "example_en": "Terror is a threat to all of humanity and must be combatted.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6274
+  },
+  {
+    "swedish": "duk",
+    "english": "cloth",
+    "example_sv": "Hon lade en vit duk på bordet innan gästerna kom.",
+    "example_en": "She put a white cloth on the table before the guests arrived.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6275
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "fånga",
+    "english": "catch",
+    "example_sv": "Kan du försöka fånga bollen jag kastar till dig?",
+    "example_en": "Can you try to catch the ball I throw to you?",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2023
+  },
+  {
+    "swedish": "blogga",
+    "english": "blog",
+    "example_sv": "Hon tycker om att blogga om sina matupplevelser.",
+    "example_en": "She enjoys blogging about her food experiences.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2024
+  },
+  {
+    "swedish": "terrorism",
+    "english": "terrorism",
+    "example_sv": "Terrorism är ett allvarligt hot mot samhället.",
+    "example_en": "Terrorism is a serious threat to society.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2025
+  },
+  {
+    "swedish": "fest",
+    "english": "party",
+    "example_sv": "Vi ska ha en stor fest på lördag.",
+    "example_en": "We are having a big party on Saturday.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2026
+  },
+  {
+    "swedish": "ordentligt",
+    "english": "properly",
+    "example_sv": "Du måste städa rummet ordentligt innan gästerna kommer.",
+    "example_en": "You must clean the room properly before the guests arrive.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2027
+  },
+  {
+    "swedish": "väst",
+    "english": "vest",
+    "example_sv": "Jag behöver en varm väst för vandringen i bergen.",
+    "example_en": "I need a warm vest for the hike in the mountains.",
+    "scenario": "Clothing",
+    "difficulty": "A2",
+    "grammar_hint": "noun",
+    "rank": 2028
+  },
+  {
+    "swedish": "sajt",
+    "english": "site",
+    "example_sv": "Jag hittade informationen på en intressant sajt.",
+    "example_en": "I found the information on an interesting site.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2029
+  },
+  {
+    "swedish": "prova",
+    "english": "try",
+    "example_sv": "Du kan prova den här kakan om du vill.",
+    "example_en": "You can try this cake if you want.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2030
+  },
+  {
+    "swedish": "prägla",
+    "english": "shape",
+    "example_sv": "Hennes erfarenheter har präglat hennes syn på livet.",
+    "example_en": "Her experiences have shaped her view of life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2031
+  },
+  {
+    "swedish": "dum",
+    "english": "stupid",
+    "example_sv": "Det var en dum fråga att ställa.",
+    "example_en": "That was a stupid question to ask.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2032
+  },
+  {
+    "swedish": "övning",
+    "english": "exercise",
+    "example_sv": "Vi gör en övning i grammatik idag.",
+    "example_en": "We are doing a grammar exercise today.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2033
+  },
+  {
+    "swedish": "jobbig",
+    "english": "difficult",
+    "example_sv": "Det är jobbigt att plugga till tentan.",
+    "example_en": "It is difficult to study for the exam.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2034
+  },
+  {
+    "swedish": "måla",
+    "english": "paint",
+    "example_sv": "Jag vill måla om väggen i vardagsrummet.",
+    "example_en": "I want to repaint the wall in the living room.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2035
+  },
+  {
+    "swedish": "identifiera",
+    "english": "identify",
+    "example_sv": "Polisen försöker identifiera den misstänkta personen.",
+    "example_en": "The police are trying to identify the suspected person.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2037
+  },
+  {
+    "swedish": "rasism",
+    "english": "racism",
+    "example_sv": "Rasism är oacceptabelt i alla former.",
+    "example_en": "Racism is unacceptable in all forms.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2038
+  },
+  {
+    "swedish": "ståndpunkt",
+    "english": "viewpoint",
+    "example_sv": "Jag förstår din ståndpunkt, men jag håller inte med.",
+    "example_en": "I understand your viewpoint, but I don't agree.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2039
+  },
+  {
+    "swedish": "rang",
+    "english": "rank",
+    "example_sv": "Han har hög rang inom företaget nu.",
+    "example_en": "He has a high rank within the company now.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2041
+  },
+  {
+    "swedish": "resultera",
+    "english": "result",
+    "example_sv": "Hårt arbete kan resultera i bra betyg.",
+    "example_en": "Hard work can result in good grades.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2042
+  },
+  {
+    "swedish": "karriär",
+    "english": "career",
+    "example_sv": "Hon satsar på en karriär inom medicin.",
+    "example_en": "She is pursuing a career in medicine.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2043
+  },
+  {
+    "swedish": "trend",
+    "english": "trend",
+    "example_sv": "Det är en ny trend inom mode just nu.",
+    "example_en": "It's a new trend in fashion right now.",
+    "scenario": "Clothing",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2044
+  },
+  {
+    "swedish": "jaga",
+    "english": "hunt",
+    "example_sv": "Katten älskar att jaga möss i trädgården.",
+    "example_en": "The cat loves to hunt mice in the garden.",
+    "scenario": "Animals",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2046
+  },
+  {
+    "swedish": "yttrandefrihet",
+    "english": "freedom of speech",
+    "example_sv": "Yttrandefrihet är en viktig del av demokratin.",
+    "example_en": "Freedom of speech is an important part of democracy.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2047
+  },
+  {
+    "swedish": "fortsättning",
+    "english": "continuation",
+    "example_sv": "Vi ser fram emot fortsättningen på projektet.",
+    "example_en": "We look forward to the continuation of the project.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2048
+  },
+  {
+    "swedish": "diverse",
+    "english": "various",
+    "example_sv": "Butiken säljer diverse sorters frukt och grönsaker.",
+    "example_en": "The store sells various types of fruits and vegetables.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2049
+  },
+  {
+    "swedish": "stöta",
+    "english": "bump into",
+    "example_sv": "Jag stötte på en gammal vän på stan.",
+    "example_en": "I bumped into an old friend in town.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2050
+  },
+  {
+    "swedish": "förneka",
+    "english": "deny",
+    "example_sv": "Han fortsatte att förneka att han hade gjort det.",
+    "example_en": "He continued to deny that he had done it.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2051
+  },
+  {
+    "swedish": "väsentlig",
+    "english": "essential",
+    "example_sv": "Vatten är väsentligt för allt liv.",
+    "example_en": "Water is essential for all life.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2052
+  },
+  {
+    "swedish": "manlig",
+    "english": "male",
+    "example_sv": "Han är en manlig lärare på skolan.",
+    "example_en": "He is a male teacher at the school.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2053
+  },
+  {
+    "swedish": "demonstration",
+    "english": "demonstration",
+    "example_sv": "Det var en stor demonstration mot kriget igår.",
+    "example_en": "There was a large demonstration against the war yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2054
+  },
+  {
+    "swedish": "färd",
+    "english": "journey",
+    "example_sv": "Vi hade en lång och tröttsam färd hem.",
+    "example_en": "We had a long and tiring journey home.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2055
+  },
+  {
+    "swedish": "efterfrågan",
+    "english": "demand",
+    "example_sv": "Det är stor efterfrågan på den här produkten.",
+    "example_en": "There is a high demand for this product.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2056
+  },
+  {
+    "swedish": "kandidat",
+    "english": "candidate",
+    "example_sv": "Han är en stark kandidat till jobbet.",
+    "example_en": "He is a strong candidate for the job.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2057
+  },
+  {
+    "swedish": "upprätthålla",
+    "english": "maintain",
+    "example_sv": "Vi måste upprätthålla goda relationer med våra grannar.",
+    "example_en": "We must maintain good relations with our neighbors.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2058
+  },
+  {
+    "swedish": "fördrag",
+    "english": "treaty",
+    "example_sv": "Länderna undertecknade ett viktigt fördrag om handel.",
+    "example_en": "The countries signed an important treaty on trade.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2059
+  },
+  {
+    "swedish": "instrument",
+    "english": "instrument",
+    "example_sv": "Hon spelar ett vackert instrument i orkestern.",
+    "example_en": "She plays a beautiful instrument in the orchestra.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2060
+  },
+  {
+    "swedish": "analysera",
+    "english": "analyze",
+    "example_sv": "Forskarna måste analysera datan noggrant.",
+    "example_en": "The researchers must analyze the data carefully.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2061
+  },
+  {
+    "swedish": "främmande",
+    "english": "foreign",
+    "example_sv": "Det här är en främmande kultur för mig.",
+    "example_en": "This is a foreign culture to me.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2062
+  },
+  {
+    "swedish": "uppmuntra",
+    "english": "encourage",
+    "example_sv": "Vi måste uppmuntra barn att läsa mer.",
+    "example_en": "We must encourage children to read more.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2063
+  },
+  {
+    "swedish": "genomförande",
+    "english": "implementation",
+    "example_sv": "Genomförandet av planen tar tid och resurser.",
+    "example_en": "The implementation of the plan takes time and resources.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2064
+  },
+  {
+    "swedish": "konservativ",
+    "english": "conservative",
+    "example_sv": "Han har en konservativ syn på politik.",
+    "example_en": "He has a conservative view on politics.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2065
+  },
+  {
+    "swedish": "attityd",
+    "english": "attitude",
+    "example_sv": "Hans positiva attityd smittar av sig.",
+    "example_en": "His positive attitude is contagious.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2066
+  },
+  {
+    "swedish": "föreställning",
+    "english": "performance",
+    "example_sv": "Vi ska gå och se en teaterföreställning ikväll.",
+    "example_en": "We are going to see a theater performance tonight.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2067
+  },
+  {
+    "swedish": "lyda",
+    "english": "obey",
+    "example_sv": "Barnen måste lära sig att lyda sina föräldrar.",
+    "example_en": "Children must learn to obey their parents.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2069
+  },
+  {
+    "swedish": "juridisk",
+    "english": "legal",
+    "example_sv": "Du behöver juridisk rådgivning i det här fallet.",
+    "example_en": "You need legal advice in this case.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2070
+  },
+  {
+    "swedish": "variant",
+    "english": "variant",
+    "example_sv": "Det finns en ny variant av den här produkten.",
+    "example_en": "There is a new variant of this product.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2071
+  },
+  {
+    "swedish": "höjd",
+    "english": "height",
+    "example_sv": "Vi beundrade bergets otroliga höjd.",
+    "example_en": "We admired the mountain's incredible height.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2072
+  },
+  {
+    "swedish": "utrikesminister",
+    "english": "foreign minister",
+    "example_sv": "Utrikesministern ska träffa andra ledare i Bryssel.",
+    "example_en": "The foreign minister will meet other leaders in Brussels.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2073
+  },
+  {
+    "swedish": "gäst",
+    "english": "guest",
+    "example_sv": "Vi har en gäst som kommer på middag ikväll.",
+    "example_en": "We have a guest coming for dinner tonight.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2074
+  },
+  {
+    "swedish": "hustru",
+    "english": "wife",
+    "example_sv": "Min hustru är den bästa personen jag känner.",
+    "example_en": "My wife is the best person I know.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2075
+  },
+  {
+    "swedish": "vandring",
+    "english": "hike",
+    "example_sv": "Vi planerar en vandring i fjällen nästa helg.",
+    "example_en": "We are planning a hike in the mountains next weekend.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2076
+  }
+]

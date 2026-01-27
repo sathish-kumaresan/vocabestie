@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "lovande",
+    "english": "promising",
+    "example_sv": "Det här projektet ser väldigt lovande ut inför framtiden.",
+    "example_en": "This project looks very promising for the future.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5145
+  },
+  {
+    "swedish": "orolighet",
+    "english": "unease, worry",
+    "example_sv": "Det spreds en stor orolighet i landet efter attacken.",
+    "example_en": "Great unease spread throughout the country after the attack.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5146
+  },
+  {
+    "swedish": "brud",
+    "english": "bride",
+    "example_sv": "Bruden var vacker i sin vita klänning under ceremonin.",
+    "example_en": "The bride was beautiful in her white dress during the ceremony.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5147
+  },
+  {
+    "swedish": "tillvägagångssätt",
+    "english": "approach, method",
+    "example_sv": "Vi måste komma överens om ett nytt tillvägagångssätt i frågan.",
+    "example_en": "We need to agree on a new approach to the matter.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5148
+  },
+  {
+    "swedish": "klistra",
+    "english": "glue, paste",
+    "example_sv": "Kan du klistra fast bilden i mitt fotoalbum, tack?",
+    "example_en": "Can you paste the picture in my photo album, please?",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5149
+  },
+  {
+    "swedish": "trams",
+    "english": "nonsense",
+    "example_sv": "Sluta med det där tramset och börja jobba istället!",
+    "example_en": "Stop that nonsense and start working instead!",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5150
+  },
+  {
+    "swedish": "isär",
+    "english": "apart",
+    "example_sv": "De drog isär gardinerna för att släppa in ljuset.",
+    "example_en": "They pulled the curtains apart to let in the light.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5151
+  },
+  {
+    "swedish": "kärleksfull",
+    "english": "loving",
+    "example_sv": "Hon gav sin dotter en kärleksfull kram innan hon gick.",
+    "example_en": "She gave her daughter a loving hug before she left.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5152
+  },
+  {
+    "swedish": "usch",
+    "english": "ew, ugh",
+    "example_sv": "Usch, vad äckligt det luktar här inne!",
+    "example_en": "Ugh, how disgusting it smells in here!",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "interjection",
+    "rank": 5153
+  },
+  {
+    "swedish": "avslöjande",
+    "english": "revelation, exposé",
+    "example_sv": "Tidningen publicerade ett avslöjande om politikerns hemliga affärer.",
+    "example_en": "The newspaper published an exposé about the politician's secret affairs.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5154
+  },
+  {
+    "swedish": "beskatta",
+    "english": "tax",
+    "example_sv": "Regeringen planerar att beskatta vinster från aktiehandel hårdare.",
+    "example_en": "The government plans to tax profits from stock trading more heavily.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5155
+  },
+  {
+    "swedish": "utrikespolitisk",
+    "english": "foreign policy",
+    "example_sv": "Det är en svår utrikespolitisk fråga att ta ställning till.",
+    "example_en": "It is a difficult foreign policy issue to take a stand on.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5157
+  },
+  {
+    "swedish": "vakta",
+    "english": "guard, watch",
+    "example_sv": "Kan du vakta min väska en stund medan jag går på toaletten?",
+    "example_en": "Can you watch my bag for a moment while I go to the bathroom?",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5158
+  },
+  {
+    "swedish": "arbetskamrat",
+    "english": "colleague",
+    "example_sv": "Min arbetskamrat hjälpte mig med ett svårt problem igår.",
+    "example_en": "My colleague helped me with a difficult problem yesterday.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5159
+  },
+  {
+    "swedish": "idiotisk",
+    "english": "idiotic, stupid",
+    "example_sv": "Det var en idiotisk idé att gå ut utan jacka i kylan.",
+    "example_en": "It was an idiotic idea to go out without a jacket in the cold.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5160
+  },
+  {
+    "swedish": "spontant",
+    "english": "spontaneously",
+    "example_sv": "Vi bestämde oss spontant för att åka till stranden.",
+    "example_en": "We spontaneously decided to go to the beach.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5161
+  },
+  {
+    "swedish": "tillställning",
+    "english": "event, function",
+    "example_sv": "Det var en trevlig tillställning med god mat och musik.",
+    "example_en": "It was a pleasant event with good food and music.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5162
+  },
+  {
+    "swedish": "tvers",
+    "english": "across",
+    "example_sv": "Han gick tvärs över gatan utan att se sig för.",
+    "example_en": "He walked across the street without looking.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "budgetår",
+    "english": "fiscal year",
+    "example_sv": "Företagets budgetår börjar i januari varje år.",
+    "example_en": "The company's fiscal year begins in January each year.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5164
+  },
+  {
+    "swedish": "förtrycka",
+    "english": "oppress",
+    "example_sv": "Regimen försökte förtrycka alla former av opposition.",
+    "example_en": "The regime tried to oppress all forms of opposition.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5165
+  },
+  {
+    "swedish": "passande",
+    "english": "suitable, appropriate",
+    "example_sv": "Jag letar efter en passande klänning för festen.",
+    "example_en": "I am looking for a suitable dress for the party.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5166
+  },
+  {
+    "swedish": "atom",
+    "english": "atom",
+    "example_sv": "En atom är den minsta beståndsdelen i ett grundämne.",
+    "example_en": "An atom is the smallest component of an element.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5167
+  },
+  {
+    "swedish": "avta",
+    "english": "decrease, subside",
+    "example_sv": "Smärtan började avta efter att jag tog medicinen.",
+    "example_en": "The pain started to subside after I took the medicine.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5168
+  },
+  {
+    "swedish": "chips",
+    "english": "chips",
+    "example_sv": "Vi köpte chips och dipp till fredagsmyset ikväll.",
+    "example_en": "We bought chips and dip for Friday coziness tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5169
+  },
+  {
+    "swedish": "markering",
+    "english": "marking, indication",
+    "example_sv": "Det fanns en tydlig markering på kartan var vi skulle gå.",
+    "example_en": "There was a clear marking on the map where we should go.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5170
+  },
+  {
+    "swedish": "tillåten",
+    "english": "allowed, permitted",
+    "example_sv": "Det är inte tillåtet att parkera här efter klockan sex.",
+    "example_en": "It is not allowed to park here after six o'clock.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5171
+  },
+  {
+    "swedish": "öken",
+    "english": "desert",
+    "example_sv": "Vi vandrade i öknen under den brännande solen.",
+    "example_en": "We hiked in the desert under the burning sun.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5172
+  },
+  {
+    "swedish": "sammanhängande",
+    "english": "coherent, connected",
+    "example_sv": "Han gav en sammanhängande redogörelse för händelseförloppet.",
+    "example_en": "He gave a coherent account of the course of events.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5173
+  },
+  {
+    "swedish": "fläck",
+    "english": "stain, spot",
+    "example_sv": "Jag fick en stor fläck på min nya skjorta.",
+    "example_en": "I got a big stain on my new shirt.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5174
+  },
+  {
+    "swedish": "retorisk",
+    "english": "rhetorical",
+    "example_sv": "Det var en retorisk fråga, jag förväntade mig inget svar.",
+    "example_en": "It was a rhetorical question; I didn't expect an answer.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5175
+  },
+  {
+    "swedish": "borgmästare",
+    "english": "mayor",
+    "example_sv": "Borgmästaren höll ett tal på torget igår.",
+    "example_en": "The mayor gave a speech in the square yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5176
+  },
+  {
+    "swedish": "förlorare",
+    "english": "loser",
+    "example_sv": "Ingen vill känna sig som en förlorare efter en tävling.",
+    "example_en": "Nobody wants to feel like a loser after a competition.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5177
+  },
+  {
+    "swedish": "melodi",
+    "english": "melody",
+    "example_sv": "Jag älskar melodin i den här låten, den är så vacker.",
+    "example_en": "I love the melody of this song; it is so beautiful.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5178
+  },
+  {
+    "swedish": "senat",
+    "english": "senate",
+    "example_sv": "Senaten debatterade det nya lagförslaget i timmar.",
+    "example_en": "The senate debated the new bill for hours.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5179
+  },
+  {
+    "swedish": "skarpt",
+    "english": "sharply",
+    "example_sv": "Han kritiserade regeringens beslut skarpt i tidningen.",
+    "example_en": "He sharply criticized the government's decision in the newspaper.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5180
+  },
+  {
+    "swedish": "sjöman",
+    "english": "sailor",
+    "example_sv": "Sjömannen återvände hem efter många år till havs.",
+    "example_en": "The sailor returned home after many years at sea.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5181
+  },
+  {
+    "swedish": "bläddra",
+    "english": "browse, flip",
+    "example_sv": "Jag satt och bläddrade i en tidning på tåget.",
+    "example_en": "I was sitting and browsing through a magazine on the train.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5182
+  },
+  {
+    "swedish": "bärare",
+    "english": "carrier, bearer",
+    "example_sv": "Hon är bärare av en ärftlig sjukdom, men är själv frisk.",
+    "example_en": "She is a carrier of a hereditary disease, but is healthy herself.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5183
+  },
+  {
+    "swedish": "gissning",
+    "english": "guess",
+    "example_sv": "Det är bara en gissning, men jag tror att det kommer regna.",
+    "example_en": "It's just a guess, but I think it will rain.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5184
+  },
+  {
+    "swedish": "i onödan",
+    "english": "unnecessarily",
+    "example_sv": "Oroa dig inte i onödan, allt kommer att ordna sig.",
+    "example_en": "Don't worry unnecessarily, everything will be alright.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5185
+  },
+  {
+    "swedish": "stryk",
+    "english": "ironing",
+    "example_sv": "Jag måste ta itu med en hög av stryk idag.",
+    "example_en": "I have to tackle a pile of ironing today.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5186
+  },
+  {
+    "swedish": "strålning",
+    "english": "radiation",
+    "example_sv": "Vi mätte strålningen efter kärnkraftsolyckan noggrant.",
+    "example_en": "We carefully measured the radiation after the nuclear accident.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5187
+  },
+  {
+    "swedish": "terräng",
+    "english": "terrain",
+    "example_sv": "Terrängen var svårframkomlig, men vi lyckades ta oss fram.",
+    "example_en": "The terrain was difficult to navigate, but we managed to get through.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5188
+  },
+  {
+    "swedish": "väva",
+    "english": "weave",
+    "example_sv": "Hon väver en vacker matta på sin gamla vävstol.",
+    "example_en": "She is weaving a beautiful rug on her old loom.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5189
+  },
+  {
+    "swedish": "skönt",
+    "english": "nicely, comfortably",
+    "example_sv": "Det ska bli skönt att komma hem efter den långa resan.",
+    "example_en": "It will be nice to come home after the long trip.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5190
+  },
+  {
+    "swedish": "spricka",
+    "english": "crack",
+    "example_sv": "Vasen hade en spricka efter att jag tappade den.",
+    "example_en": "The vase had a crack after I dropped it.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5191
+  },
+  {
+    "swedish": "äldreomsorg",
+    "english": "elderly care",
+    "example_sv": "Kommunen satsar mer på äldreomsorgen detta året.",
+    "example_en": "The municipality is investing more in elderly care this year.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5192
+  },
+  {
+    "swedish": "övertala",
+    "english": "persuade",
+    "example_sv": "Han försökte övertala mig att följa med på resan.",
+    "example_en": "He tried to persuade me to come on the trip.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5193
+  },
+  {
+    "swedish": "känslomässig",
+    "english": "emotional",
+    "example_sv": "Det var en känslomässig film som berörde oss alla.",
+    "example_en": "It was an emotional film that touched us all.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5194
+  },
+  {
+    "swedish": "härja",
+    "english": "ravage, wreak havoc",
+    "example_sv": "Stormen härjade över området och orsakade stor skada.",
+    "example_en": "The storm ravaged the area and caused great damage.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5196
+  }
+]

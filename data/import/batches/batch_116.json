@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "helgon",
+    "english": "saint",
+    "example_sv": "Sankta Lucia är ett viktigt helgon inom svensk tradition.",
+    "example_en": "Saint Lucia is an important saint in Swedish tradition.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6074
+  },
+  {
+    "swedish": "utstå",
+    "english": "endure, withstand",
+    "example_sv": "Hon fick utstå mycket kritik efter hennes kontroversiella uttalande.",
+    "example_en": "She had to endure a lot of criticism after her controversial statement.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6075
+  },
+  {
+    "swedish": "envisas",
+    "english": "insist, persist",
+    "example_sv": "Han envisas med att göra allting själv, trots erbjuden hjälp.",
+    "example_en": "He insists on doing everything himself, despite offered help.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6076
+  },
+  {
+    "swedish": "pedagogik",
+    "english": "pedagogy, education",
+    "example_sv": "Läraren studerade innovativ pedagogik för att förbättra undervisningen.",
+    "example_en": "The teacher studied innovative pedagogy to improve the teaching.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6077
+  },
+  {
+    "swedish": "postning",
+    "english": "posting",
+    "example_sv": "Jag såg din senaste postning på Instagram; den var jättebra!",
+    "example_en": "I saw your latest posting on Instagram; it was really great!",
+    "scenario": "Phone & Internet",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6078
+  },
+  {
+    "swedish": "trygga",
+    "english": "secure, reassure",
+    "example_sv": "Vi måste trygga barnens framtid genom bra utbildning.",
+    "example_en": "We must secure the children's future through good education.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6079
+  },
+  {
+    "swedish": "uppmärksam",
+    "english": "attentive",
+    "example_sv": "Var uppmärksam på detaljerna under presentationen, tack.",
+    "example_en": "Please be attentive to the details during the presentation.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6080
+  },
+  {
+    "swedish": "bädda",
+    "english": "make (bed)",
+    "example_sv": "Glöm inte att bädda sängen innan du går till skolan.",
+    "example_en": "Don't forget to make the bed before you go to school.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6081
+  },
+  {
+    "swedish": "fuktig",
+    "english": "humid, damp",
+    "example_sv": "Det var väldigt fuktig luft ute efter regnet.",
+    "example_en": "The air outside was very humid after the rain.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6082
+  },
+  {
+    "swedish": "fundament",
+    "english": "foundation",
+    "example_sv": "Tillit är fundamentet för ett starkt och hållbart förhållande.",
+    "example_en": "Trust is the foundation for a strong and sustainable relationship.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6083
+  },
+  {
+    "swedish": "reformation",
+    "english": "reformation",
+    "example_sv": "Reformationen innebar en stor förändring för hela Europa.",
+    "example_en": "The Reformation meant a big change for all of Europe.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6084
+  },
+  {
+    "swedish": "grilla",
+    "english": "grill, barbecue",
+    "example_sv": "Vi ska grilla korv och hamburgare i trädgården ikväll.",
+    "example_en": "We are going to grill sausages and hamburgers in the garden tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6085
+  },
+  {
+    "swedish": "italienare",
+    "english": "Italian",
+    "example_sv": "Min vän är italienare och pratar flytande italienska.",
+    "example_en": "My friend is Italian and speaks fluent Italian.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6086
+  },
+  {
+    "swedish": "famn",
+    "english": "embrace, arms",
+    "example_sv": "Hon sprang fram till sin mamma och slängde sig i hennes famn.",
+    "example_en": "She ran to her mother and threw herself into her arms.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6087
+  },
+  {
+    "swedish": "genomgripande",
+    "english": "comprehensive, thorough",
+    "example_sv": "Företaget genomförde en genomgripande förändring av sin organisation.",
+    "example_en": "The company implemented a comprehensive change to its organization.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6088
+  },
+  {
+    "swedish": "skägg",
+    "english": "beard",
+    "example_sv": "Han har ett långt, grått skägg som når ner till bröstet.",
+    "example_en": "He has a long, grey beard that reaches down to his chest.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6089
+  },
+  {
+    "swedish": "slappna",
+    "english": "relax",
+    "example_sv": "Försök att slappna av och njuta av semestern nu.",
+    "example_en": "Try to relax and enjoy the vacation now.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6090
+  },
+  {
+    "swedish": "medalj",
+    "english": "medal",
+    "example_sv": "Hon vann en guldmedalj i simning vid OS.",
+    "example_en": "She won a gold medal in swimming at the Olympics.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6091
+  },
+  {
+    "swedish": "expansiv",
+    "english": "expansive",
+    "example_sv": "Företaget har en expansiv affärsmodell med global potential.",
+    "example_en": "The company has an expansive business model with global potential.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6092
+  },
+  {
+    "swedish": "matlagning",
+    "english": "cooking",
+    "example_sv": "Jag älskar matlagning och experimenterar gärna med nya recept.",
+    "example_en": "I love cooking and I like to experiment with new recipes.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6093
+  },
+  {
+    "swedish": "rytm",
+    "english": "rhythm",
+    "example_sv": "Musiken hade en behaglig rytm som var lätt att dansa till.",
+    "example_en": "The music had a pleasant rhythm that was easy to dance to.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6094
+  },
+  {
+    "swedish": "elefant",
+    "english": "elephant",
+    "example_sv": "Vi såg en elefant på savannen under vår safari.",
+    "example_en": "We saw an elephant on the savannah during our safari.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6095
+  },
+  {
+    "swedish": "patetisk",
+    "english": "pathetic",
+    "example_sv": "Han gjorde ett patetisk försök att ursäkta sig för sitt beteende.",
+    "example_en": "He made a pathetic attempt to apologize for his behavior.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6096
+  },
+  {
+    "swedish": "batteri",
+    "english": "battery",
+    "example_sv": "Min mobil behöver ett nytt batteri; den laddar ur sig snabbt.",
+    "example_en": "My phone needs a new battery; it drains quickly.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6097
+  },
+  {
+    "swedish": "tippa",
+    "english": "bet, guess",
+    "example_sv": "Jag brukar tippa på fotbollsmatcher ibland för skojs skull.",
+    "example_en": "I usually bet on soccer matches sometimes for fun.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6098
+  },
+  {
+    "swedish": "ambulans",
+    "english": "ambulance",
+    "example_sv": "Vi ringde en ambulans när vi såg olyckan på vägen.",
+    "example_en": "We called an ambulance when we saw the accident on the road.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6099
+  },
+  {
+    "swedish": "bearbetning",
+    "english": "processing",
+    "example_sv": "Data kräver bearbetning innan vi kan dra några slutsatser.",
+    "example_en": "Data requires processing before we can draw any conclusions.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6100
+  },
+  {
+    "swedish": "huvudkontor",
+    "english": "headquarters",
+    "example_sv": "Företagets huvudkontor ligger i Stockholm, mitt i city.",
+    "example_en": "The company's headquarters are in Stockholm, in the middle of the city.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6101
+  },
+  {
+    "swedish": "precisera",
+    "english": "specify, clarify",
+    "example_sv": "Kan du precisera vad du menar med den här kommentaren?",
+    "example_en": "Can you specify what you mean by this comment?",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6102
+  },
+  {
+    "swedish": "folkmassa",
+    "english": "crowd",
+    "example_sv": "En stor folkmassa hade samlats på torget för konserten.",
+    "example_en": "A large crowd had gathered in the square for the concert.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6103
+  },
+  {
+    "swedish": "ohållbar",
+    "english": "unsustainable",
+    "example_sv": "Den nuvarande situationen är ohållbar och kräver förändring.",
+    "example_en": "The current situation is unsustainable and requires change.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6104
+  },
+  {
+    "swedish": "revision",
+    "english": "audit",
+    "example_sv": "Företaget genomgår en årlig revision av sina finanser.",
+    "example_en": "The company undergoes an annual audit of its finances.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6105
+  },
+  {
+    "swedish": "såra",
+    "english": "hurt, wound",
+    "example_sv": "Hans ord såra henne djupt och hon började gråta.",
+    "example_en": "His words hurt her deeply and she started to cry.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6106
+  },
+  {
+    "swedish": "mix",
+    "english": "mix",
+    "example_sv": "Det var en intressant mix av människor på festen.",
+    "example_en": "There was an interesting mix of people at the party.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6107
+  },
+  {
+    "swedish": "vy",
+    "english": "view",
+    "example_sv": "Utsikten från berget gav oss en fantastisk vy över dalen.",
+    "example_en": "The view from the mountain gave us a fantastic view of the valley.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6108
+  },
+  {
+    "swedish": "diplomat",
+    "english": "diplomat",
+    "example_sv": "Han arbetar som diplomat för Sveriges regering i utlandet.",
+    "example_en": "He works as a diplomat for the Swedish government abroad.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6109
+  },
+  {
+    "swedish": "affisch",
+    "english": "poster",
+    "example_sv": "Det hängde en affisch för filmen på väggen.",
+    "example_en": "There was a poster for the movie hanging on the wall.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6110
+  },
+  {
+    "swedish": "associera",
+    "english": "associate",
+    "example_sv": "Jag associerar ofta hösten med varma drycker och mysiga kvällar.",
+    "example_en": "I often associate autumn with warm drinks and cozy evenings.",
+    "scenario": "Seasons",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6111
+  },
+  {
+    "swedish": "kalkyl",
+    "english": "calculation",
+    "example_sv": "Vi måste göra en kalkyl för att se om projektet är lönsamt.",
+    "example_en": "We need to make a calculation to see if the project is profitable.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6112
+  },
+  {
+    "swedish": "konstgjord",
+    "english": "artificial",
+    "example_sv": "Den konstgjorda blomman såg nästan äkta ut från avstånd.",
+    "example_en": "The artificial flower looked almost real from a distance.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6113
+  },
+  {
+    "swedish": "polack",
+    "english": "Pole",
+    "example_sv": "Min granne är polack och han är väldigt trevlig.",
+    "example_en": "My neighbor is Polish and he is very nice.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6114
+  },
+  {
+    "swedish": "renovering",
+    "english": "renovation",
+    "example_sv": "Vi planerar en renovering av köket nästa år.",
+    "example_en": "We are planning a renovation of the kitchen next year.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6115
+  },
+  {
+    "swedish": "maffia",
+    "english": "mafia",
+    "example_sv": "Polisen utreder misstänkt maffiaverksamhet i staden.",
+    "example_en": "The police are investigating suspected mafia activity in the city.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6116
+  },
+  {
+    "swedish": "snickare",
+    "english": "carpenter",
+    "example_sv": "Vi anlitade en snickare för att bygga en ny altan.",
+    "example_en": "We hired a carpenter to build a new deck.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6117
+  },
+  {
+    "swedish": "teolog",
+    "english": "theologian",
+    "example_sv": "Han är en känd teolog och föreläser om religion.",
+    "example_en": "He is a well-known theologian and lectures on religion.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6118
+  },
+  {
+    "swedish": "väster om",
+    "english": "west of",
+    "example_sv": "Staden ligger väster om sjön och är lätt att nå.",
+    "example_en": "The city is located west of the lake and is easy to reach.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "preposition",
+    "rank": 6119
+  },
+  {
+    "swedish": "kontinuitet",
+    "english": "continuity",
+    "example_sv": "Kontinuitet är viktigt för att skapa trygghet och tillit.",
+    "example_en": "Continuity is important to create security and trust.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6120
+  },
+  {
+    "swedish": "marginell",
+    "english": "marginal",
+    "example_sv": "Effekten av åtgärden var tyvärr ganska marginell.",
+    "example_en": "The effect of the action was unfortunately quite marginal.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6121
+  },
+  {
+    "swedish": "ojämn",
+    "english": "uneven",
+    "example_sv": "Vägen var ojämn och det var svårt att cykla där.",
+    "example_en": "The road was uneven and it was difficult to cycle there.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6122
+  },
+  {
+    "swedish": "skoja",
+    "english": "joke",
+    "example_sv": "Jag skoja bara, ta inte allt så allvarligt.",
+    "example_en": "I was just joking, don't take everything so seriously.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6123
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "arton",
+    "english": "eighteen",
+    "example_sv": "Jag fyller arton år nästa vecka.",
+    "example_en": "I'm turning eighteen next week.",
+    "scenario": "Numbers",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 2
+  },
+  {
+    "swedish": "bakre",
+    "english": "rear, back",
+    "example_sv": "Vi sitter i den bakre delen av bussen.",
+    "example_en": "We are sitting in the rear part of the bus.",
+    "scenario": "Public Transport",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 3
+  },
+  {
+    "swedish": "brunch",
+    "english": "brunch",
+    "example_sv": "Vi ska äta brunch på söndag klockan elva.",
+    "example_en": "We are having brunch on Sunday at eleven o'clock.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 4
+  },
+  {
+    "swedish": "decimeter",
+    "english": "decimeter",
+    "example_sv": "Den här hyllan är två decimeter djup.",
+    "example_en": "This shelf is two decimeters deep.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 5
+  },
+  {
+    "swedish": "europa",
+    "english": "Europe",
+    "example_sv": "Jag vill resa runt i Europa nästa sommar.",
+    "example_en": "I want to travel around Europe next summer.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 8
+  },
+  {
+    "swedish": "femte",
+    "english": "fifth",
+    "example_sv": "Idag är den femte maj och det är soligt.",
+    "example_en": "Today is the fifth of May and it's sunny.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 10
+  },
+  {
+    "swedish": "femton",
+    "english": "fifteen",
+    "example_sv": "Det kostar femton kronor att åka buss.",
+    "example_en": "It costs fifteen kronor to take the bus.",
+    "scenario": "Numbers",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 12
+  },
+  {
+    "swedish": "fjorton",
+    "english": "fourteen",
+    "example_sv": "Min lillebror är fjorton år gammal.",
+    "example_en": "My little brother is fourteen years old.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 13
+  },
+  {
+    "swedish": "fjärde",
+    "english": "fourth",
+    "example_sv": "Jag kom på fjärde plats i tävlingen.",
+    "example_en": "I came in fourth place in the competition.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 14
+  },
+  {
+    "swedish": "främre",
+    "english": "front",
+    "example_sv": "Vi sitter i den främre delen av bussen.",
+    "example_en": "We are sitting in the front part of the bus.",
+    "scenario": "Public Transport",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 15
+  },
+  {
+    "swedish": "grekland",
+    "english": "Greece",
+    "example_sv": "Vi åker till Grekland på semester i sommar.",
+    "example_en": "We are going to Greece on vacation this summer.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 19
+  },
+  {
+    "swedish": "göteborg",
+    "english": "Gothenburg",
+    "example_sv": "Jag bor i Göteborg, en stad på västkusten.",
+    "example_en": "I live in Gothenburg, a city on the west coast.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 20
+  },
+  {
+    "swedish": "hekto",
+    "english": "hectogram",
+    "example_sv": "Kan jag få två hekto ost, tack.",
+    "example_en": "Can I have two hectograms of cheese, please.",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 21
+  },
+  {
+    "swedish": "hela",
+    "english": "whole",
+    "example_sv": "Jag åt hela pizzan själv igår kväll.",
+    "example_en": "I ate the whole pizza by myself last night.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 22
+  },
+  {
+    "swedish": "hundratusen",
+    "english": "one hundred thousand",
+    "example_sv": "Bilen kostade hundratusen kronor, vilket var billigt.",
+    "example_en": "The car cost one hundred thousand kronor, which was cheap.",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 24
+  },
+  {
+    "swedish": "hörsel",
+    "english": "hearing",
+    "example_sv": "Han har problem med sin hörsel efter olyckan.",
+    "example_en": "He has problems with his hearing after the accident.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 25
+  },
+  {
+    "swedish": "inrikesminister",
+    "english": "Minister of Interior",
+    "example_sv": "Inrikesministern talade om säkerhetsläget i landet.",
+    "example_en": "The Minister of Interior spoke about the security situation in the country.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 26
+  },
+  {
+    "swedish": "inrikespolitik",
+    "english": "domestic policy",
+    "example_sv": "De diskuterade inrikespolitik i tv-programmet igår.",
+    "example_en": "They discussed domestic policy on the TV show yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 27
+  },
+  {
+    "swedish": "italien",
+    "english": "Italy",
+    "example_sv": "Vi ska åka till Italien på semester i sommar.",
+    "example_en": "We are going to Italy on vacation this summer.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 28
+  },
+  {
+    "swedish": "kina",
+    "english": "China",
+    "example_sv": "Jag vill besöka Kina någon gång i framtiden.",
+    "example_en": "I want to visit China sometime in the future.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 29
+  },
+  {
+    "swedish": "kvällsmål",
+    "english": "evening meal",
+    "example_sv": "Vi äter kvällsmål runt klockan åtta på kvällen.",
+    "example_en": "We eat evening meal around eight o'clock in the evening.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 30
+  },
+  {
+    "swedish": "känsel",
+    "english": "touch, sense of touch",
+    "example_sv": "Min känsel är inte så bra i mina fingrar.",
+    "example_en": "My sense of touch is not so good in my fingers.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 31
+  },
+  {
+    "swedish": "mellanmål",
+    "english": "snack",
+    "example_sv": "Jag äter ett mellanmål på eftermiddagen, som en frukt.",
+    "example_en": "I eat a snack in the afternoon, like a fruit.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 32
+  },
+  {
+    "swedish": "miljard",
+    "english": "billion",
+    "example_sv": "Företaget omsatte en miljard kronor förra året.",
+    "example_en": "The company had a turnover of one billion kronor last year.",
+    "scenario": "Banking",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 33
+  },
+  {
+    "swedish": "miljon",
+    "english": "million",
+    "example_sv": "Han vann en miljon kronor på lotteriet.",
+    "example_en": "He won a million kronor in the lottery.",
+    "scenario": "Celebrations",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 34
+  },
+  {
+    "swedish": "milligram",
+    "english": "milligram",
+    "example_sv": "Tabletten innehåller fem milligram av det aktiva ämnet.",
+    "example_en": "The tablet contains five milligrams of the active ingredient.",
+    "scenario": "Pharmacy",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 35
+  },
+  {
+    "swedish": "millimeter",
+    "english": "millimeter",
+    "example_sv": "Linjen är bara en millimeter tjock.",
+    "example_en": "The line is only one millimeter thick.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 36
+  },
+  {
+    "swedish": "morbror",
+    "english": "maternal uncle",
+    "example_sv": "Min morbror bor i en liten stad på landet.",
+    "example_en": "My maternal uncle lives in a small town in the countryside.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 37
+  },
+  {
+    "swedish": "månadsskifte",
+    "english": "end of the month",
+    "example_sv": "Hyran ska betalas vid månadsskiftet varje månad.",
+    "example_en": "The rent must be paid at the end of the month every month.",
+    "scenario": "Banking",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 38
+  },
+  {
+    "swedish": "nia",
+    "english": "nine",
+    "example_sv": "Det bor nio personer i huset.",
+    "example_en": "There are nine people living in the house.",
+    "scenario": "Numbers",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 39
+  },
+  {
+    "swedish": "nionde",
+    "english": "ninth",
+    "example_sv": "Idag är den nionde mars och det snöar.",
+    "example_en": "Today is the ninth of March and it's snowing.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 41
+  },
+  {
+    "swedish": "nittio",
+    "english": "ninety",
+    "example_sv": "Min farmor är nittio år gammal.",
+    "example_en": "My grandmother is ninety years old.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 42
+  },
+  {
+    "swedish": "nitton",
+    "english": "nineteen",
+    "example_sv": "Han är nitton år och studerar på universitetet.",
+    "example_en": "He is nineteen years old and studies at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 43
+  },
+  {
+    "swedish": "nordost",
+    "english": "northeast",
+    "example_sv": "Vinden kommer från nordost idag.",
+    "example_en": "The wind is coming from the northeast today.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 44
+  },
+  {
+    "swedish": "norge",
+    "english": "Norway",
+    "example_sv": "Vi åkte skidor i Norge förra vintern.",
+    "example_en": "We went skiing in Norway last winter.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 45
+  },
+  {
+    "swedish": "pingst",
+    "english": "Pentecost",
+    "example_sv": "Vi firar pingst i slutet av maj eller början av juni.",
+    "example_en": "We celebrate Pentecost at the end of May or the beginning of June.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 46
+  },
+  {
+    "swedish": "polen",
+    "english": "Poland",
+    "example_sv": "Min mamma kommer från Polen, ett land i Europa.",
+    "example_en": "My mother comes from Poland, a country in Europe.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 47
+  },
+  {
+    "swedish": "ryssland",
+    "english": "Russia",
+    "example_sv": "Ryssland är ett stort land i östra Europa.",
+    "example_en": "Russia is a large country in Eastern Europe.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 48
+  },
+  {
+    "swedish": "sexa",
+    "english": "six",
+    "example_sv": "Han fick en sexa på provet.",
+    "example_en": "He got a six on the test.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 50
+  },
+  {
+    "swedish": "sextio",
+    "english": "sixty",
+    "example_sv": "Min pappa fyller sextio år nästa år.",
+    "example_en": "My dad is turning sixty next year.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 51
+  },
+  {
+    "swedish": "sexton",
+    "english": "sixteen",
+    "example_sv": "Min syster är sexton år och går i gymnasiet.",
+    "example_en": "My sister is sixteen years old and goes to high school.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 52
+  },
+  {
+    "swedish": "sjua",
+    "english": "seven",
+    "example_sv": "Hon fick en sjua på provet.",
+    "example_en": "She got a seven on the test.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 54
+  },
+  {
+    "swedish": "sjunde",
+    "english": "seventh",
+    "example_sv": "Idag är den sjunde juli och det är varmt.",
+    "example_en": "Today is the seventh of July and it's hot.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 55
+  },
+  {
+    "swedish": "sjuttio",
+    "english": "seventy",
+    "example_sv": "Min morfar är sjuttio år gammal.",
+    "example_en": "My grandfather is seventy years old.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 56
+  },
+  {
+    "swedish": "sjutton",
+    "english": "seventeen",
+    "example_sv": "Min bror är sjutton år och spelar fotboll.",
+    "example_en": "My brother is seventeen years old and plays football.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 57
+  },
+  {
+    "swedish": "sjätte",
+    "english": "sixth",
+    "example_sv": "Han bor på sjätte våningen i huset.",
+    "example_en": "He lives on the sixth floor of the building.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "number",
+    "rank": 58
+  },
+  {
+    "swedish": "stockholm",
+    "english": "Stockholm",
+    "example_sv": "Jag bor i Stockholm, Sveriges huvudstad.",
+    "example_en": "I live in Stockholm, the capital of Sweden.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 59
+  },
+  {
+    "swedish": "storasyster",
+    "english": "older sister",
+    "example_sv": "Min storasyster är mycket snäll mot mig.",
+    "example_en": "My older sister is very kind to me.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 60
+  },
+  {
+    "swedish": "storbritannien",
+    "english": "Great Britain",
+    "example_sv": "Jag ska åka till Storbritannien på semester.",
+    "example_en": "I'm going to Great Britain on vacation.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 61
+  },
+  {
+    "swedish": "syd",
+    "english": "south",
+    "example_sv": "Vinden kommer från syd idag.",
+    "example_en": "The wind is coming from the south today.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 62
+  }
+]

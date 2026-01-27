@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "rekommendation",
+    "english": "recommendation",
+    "example_sv": "Jag fick en bra rekommendation om en ny läkare.",
+    "example_en": "I got a good recommendation for a new doctor.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2602
+  },
+  {
+    "swedish": "ansträngning",
+    "english": "effort",
+    "example_sv": "Det krävs mycket ansträngning för att lära sig svenska.",
+    "example_en": "It takes a lot of effort to learn Swedish.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2603
+  },
+  {
+    "swedish": "institut",
+    "english": "institute",
+    "example_sv": "Jag studerar vid ett forskningsinstitut i Stockholm.",
+    "example_en": "I study at a research institute in Stockholm.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2604
+  },
+  {
+    "swedish": "kritiker",
+    "english": "critic",
+    "example_sv": "Filmen fick bra recensioner från de flesta kritiker.",
+    "example_en": "The film got good reviews from most critics.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2605
+  },
+  {
+    "swedish": "övre",
+    "english": "upper",
+    "example_sv": "Vi bor på den övre våningen i huset.",
+    "example_en": "We live on the upper floor of the house.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2606
+  },
+  {
+    "swedish": "data",
+    "english": "data",
+    "example_sv": "Vi samlar in data för att förbättra tjänsten.",
+    "example_en": "We collect data to improve the service.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "noun",
+    "rank": 2608
+  },
+  {
+    "swedish": "hörn",
+    "english": "corner",
+    "example_sv": "Bageriet ligger precis runt hörnet från mitt hus.",
+    "example_en": "The bakery is just around the corner from my house.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2609
+  },
+  {
+    "swedish": "inhemsk",
+    "english": "domestic",
+    "example_sv": "Vi föredrar att köpa inhemsk frukt och grönsaker.",
+    "example_en": "We prefer to buy domestic fruits and vegetables.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2610
+  },
+  {
+    "swedish": "ängel",
+    "english": "angel",
+    "example_sv": "Hon är en riktig ängel som alltid hjälper andra.",
+    "example_en": "She is a real angel who always helps others.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2612
+  },
+  {
+    "swedish": "blott",
+    "english": "only",
+    "example_sv": "Jag har blott några minuter kvar innan tåget går.",
+    "example_en": "I only have a few minutes left before the train leaves.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2613
+  },
+  {
+    "swedish": "förhålla sig",
+    "english": "relate",
+    "example_sv": "Hur ska jag förhålla mig till den här situationen?",
+    "example_en": "How should I relate to this situation?",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2614
+  },
+  {
+    "swedish": "förhålla",
+    "english": "maintain",
+    "example_sv": "Vi måste förhålla god ordning i rummet.",
+    "example_en": "We need to maintain good order in the room.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2615
+  },
+  {
+    "swedish": "park",
+    "english": "park",
+    "example_sv": "Vi brukar gå till parken och ha picknick.",
+    "example_en": "We usually go to the park and have a picnic.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2616
+  },
+  {
+    "swedish": "regelverk",
+    "english": "regulations",
+    "example_sv": "Det finns ett strikt regelverk för byggnationen här.",
+    "example_en": "There is a strict set of regulations for construction here.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2617
+  },
+  {
+    "swedish": "nackdel",
+    "english": "disadvantage",
+    "example_sv": "En nackdel med att bo här är bristen på affärer.",
+    "example_en": "A disadvantage of living here is the lack of shops.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2618
+  },
+  {
+    "swedish": "vittne",
+    "english": "witness",
+    "example_sv": "Polisen söker efter ett vittne till olyckan.",
+    "example_en": "The police are looking for a witness to the accident.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2619
+  },
+  {
+    "swedish": "medvetet",
+    "english": "deliberately",
+    "example_sv": "Han gjorde det medvetet för att irritera henne.",
+    "example_en": "He did it deliberately to irritate her.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2621
+  },
+  {
+    "swedish": "gas",
+    "english": "gas",
+    "example_sv": "Vi använder gas för att värma upp huset.",
+    "example_en": "We use gas to heat the house.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2622
+  },
+  {
+    "swedish": "tipsa",
+    "english": "tip",
+    "example_sv": "Kan du tipsa mig om en bra restaurang?",
+    "example_en": "Can you tip me about a good restaurant?",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2623
+  },
+  {
+    "swedish": "våldtäkt",
+    "english": "rape",
+    "example_sv": "Våldtäkt är ett allvarligt brott som aldrig är okej.",
+    "example_en": "Rape is a serious crime that is never okay.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2624
+  },
+  {
+    "swedish": "boka",
+    "english": "book",
+    "example_sv": "Jag vill boka ett bord för två personer.",
+    "example_en": "I want to book a table for two people.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2625
+  },
+  {
+    "swedish": "sådan här",
+    "english": "like this",
+    "example_sv": "Jag har aldrig sett en sådan här blomma förut.",
+    "example_en": "I have never seen a flower like this before.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "ekologisk",
+    "english": "organic",
+    "example_sv": "Vi försöker att köpa ekologisk mat så ofta som möjligt.",
+    "example_en": "We try to buy organic food as often as possible.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2627
+  },
+  {
+    "swedish": "återfinna",
+    "english": "find again",
+    "example_sv": "Jag hoppas att jag kan återfinna mina borttappade nycklar.",
+    "example_en": "I hope I can find my lost keys again.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2628
+  },
+  {
+    "swedish": "huvudsakligen",
+    "english": "mainly",
+    "example_sv": "Hon arbetar huvudsakligen med marknadsföring på företaget.",
+    "example_en": "She mainly works with marketing at the company.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2629
+  },
+  {
+    "swedish": "överge",
+    "english": "abandon",
+    "example_sv": "De var tvungna att överge sitt hus på grund av branden.",
+    "example_en": "They had to abandon their house because of the fire.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2630
+  },
+  {
+    "swedish": "ockupation",
+    "english": "occupation",
+    "example_sv": "Ockupationen av landet ledde till många svårigheter.",
+    "example_en": "The occupation of the country led to many difficulties.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2631
+  },
+  {
+    "swedish": "likaså",
+    "english": "likewise",
+    "example_sv": "Jag önskar dig lycka till, och likaså din familj.",
+    "example_en": "I wish you good luck, and likewise your family.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2632
+  },
+  {
+    "swedish": "bringa",
+    "english": "bring",
+    "example_sv": "Musiken kan bringa glädje till många människor.",
+    "example_en": "Music can bring joy to many people.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2633
+  },
+  {
+    "swedish": "hylla",
+    "english": "praise",
+    "example_sv": "Vi vill hylla hennes fantastiska insatser för företaget.",
+    "example_en": "We want to praise her fantastic contributions to the company.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2634
+  },
+  {
+    "swedish": "sammanfattning",
+    "english": "summary",
+    "example_sv": "Här är en kort sammanfattning av rapportens viktigaste punkter.",
+    "example_en": "Here is a short summary of the report's main points.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2635
+  },
+  {
+    "swedish": "graf",
+    "english": "graph",
+    "example_sv": "Grafen visar tydligt ökningen av försäljningen under året.",
+    "example_en": "The graph clearly shows the increase in sales during the year.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2637
+  },
+  {
+    "swedish": "slott",
+    "english": "castle",
+    "example_sv": "Vi besökte ett vackert slott utanför staden.",
+    "example_en": "We visited a beautiful castle outside the city.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2638
+  },
+  {
+    "swedish": "anspråk",
+    "english": "claim",
+    "example_sv": "Han gjorde anspråk på att vara den rättmätige ägaren.",
+    "example_en": "He claimed to be the rightful owner.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2639
+  },
+  {
+    "swedish": "motsättning",
+    "english": "contradiction",
+    "example_sv": "Det finns en stor motsättning mellan hans ord och handlingar.",
+    "example_en": "There is a big contradiction between his words and actions.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2640
+  },
+  {
+    "swedish": "byte",
+    "english": "change",
+    "example_sv": "Jag behöver byta däck på min bil snart.",
+    "example_en": "I need to change the tires on my car soon.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2641
+  },
+  {
+    "swedish": "logik",
+    "english": "logic",
+    "example_sv": "Det finns ingen logik i det han säger.",
+    "example_en": "There is no logic in what he says.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2642
+  },
+  {
+    "swedish": "resonera",
+    "english": "reason",
+    "example_sv": "Vi måste resonera oss fram till en bra lösning.",
+    "example_en": "We have to reason our way to a good solution.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2643
+  },
+  {
+    "swedish": "tempel",
+    "english": "temple",
+    "example_sv": "Vi besökte ett gammalt tempel under vår resa.",
+    "example_en": "We visited an old temple during our trip.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2644
+  },
+  {
+    "swedish": "krönika",
+    "english": "chronicle",
+    "example_sv": "Tidningen publicerade en krönika om den lokala politiken.",
+    "example_en": "The newspaper published a chronicle about the local politics.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2645
+  },
+  {
+    "swedish": "tillbringa",
+    "english": "spend",
+    "example_sv": "Jag vill tillbringa min semester på stranden i år.",
+    "example_en": "I want to spend my vacation on the beach this year.",
+    "scenario": "Holidays",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2646
+  },
+  {
+    "swedish": "kopia",
+    "english": "copy",
+    "example_sv": "Kan jag få en kopia av ditt pass, tack?",
+    "example_en": "Can I get a copy of your passport, please?",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2647
+  },
+  {
+    "swedish": "instans",
+    "english": "instance",
+    "example_sv": "Det här är bara en instans av ett större problem.",
+    "example_en": "This is just one instance of a bigger problem.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2648
+  },
+  {
+    "swedish": "företagare",
+    "english": "entrepreneur",
+    "example_sv": "Hon är en framgångsrik företagare inom tech-branschen.",
+    "example_en": "She is a successful entrepreneur in the tech industry.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2649
+  },
+  {
+    "swedish": "medlemskap",
+    "english": "membership",
+    "example_sv": "Medlemskapet i klubben ger dig många fördelar.",
+    "example_en": "Membership in the club gives you many benefits.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2650
+  },
+  {
+    "swedish": "egentlig",
+    "english": "actual",
+    "example_sv": "Vad är den egentliga orsaken till problemet?",
+    "example_en": "What is the actual cause of the problem?",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2651
+  },
+  {
+    "swedish": "landsbygd",
+    "english": "countryside",
+    "example_sv": "Vi älskar att promenera på landsbygden under helgen.",
+    "example_en": "We love to walk in the countryside during the weekend.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2652
+  },
+  {
+    "swedish": "integration",
+    "english": "integration",
+    "example_sv": "Integrationen av invandrare är en viktig fråga.",
+    "example_en": "The integration of immigrants is an important issue.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2653
+  },
+  {
+    "swedish": "gest",
+    "english": "gesture",
+    "example_sv": "Han gjorde en vänlig gest med handen mot henne.",
+    "example_en": "He made a friendly gesture with his hand towards her.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2654
+  },
+  {
+    "swedish": "längta",
+    "english": "long for",
+    "example_sv": "Jag längtar efter att träffa mina vänner igen.",
+    "example_en": "I long to meet my friends again.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2656
+  }
+]

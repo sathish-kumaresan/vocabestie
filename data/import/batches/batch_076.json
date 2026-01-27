@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "foga",
+    "english": "attach, join",
+    "example_sv": "Man kan foga en bild till detta e-postmeddelande.",
+    "example_en": "You can attach a picture to this email message.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4004
+  },
+  {
+    "swedish": "psykologi",
+    "english": "psychology",
+    "example_sv": "Jag studerar psykologi på universitetet och tycker det är intressant.",
+    "example_en": "I study psychology at university and find it interesting.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4005
+  },
+  {
+    "swedish": "hjul",
+    "english": "wheel",
+    "example_sv": "Bilen har fyra hjul, och jag måste byta ett.",
+    "example_en": "The car has four wheels, and I need to change one.",
+    "scenario": "Driving",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4006
+  },
+  {
+    "swedish": "klänning",
+    "english": "dress",
+    "example_sv": "Jag köpte en ny klänning för att ha på festen.",
+    "example_en": "I bought a new dress to wear to the party.",
+    "scenario": "Clothing",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4007
+  },
+  {
+    "swedish": "anteckning",
+    "english": "note",
+    "example_sv": "Jag gjorde en anteckning i min kalender om mötet.",
+    "example_en": "I made a note in my calendar about the meeting.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4008
+  },
+  {
+    "swedish": "trä",
+    "english": "wood",
+    "example_sv": "Det här bordet är gjort av massivt trä.",
+    "example_en": "This table is made of solid wood.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4009
+  },
+  {
+    "swedish": "belägg",
+    "english": "evidence",
+    "example_sv": "Polisen behöver mer belägg för att kunna lösa brottet.",
+    "example_en": "The police need more evidence to solve the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4010
+  },
+  {
+    "swedish": "blunda",
+    "english": "close eyes",
+    "example_sv": "Blunda och tänk på något vackert en liten stund.",
+    "example_en": "Close your eyes and think of something beautiful for a moment.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4011
+  },
+  {
+    "swedish": "vik",
+    "english": "bay",
+    "example_sv": "Vi hittade en fin vik där vi kunde bada.",
+    "example_en": "We found a nice bay where we could swim.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4012
+  },
+  {
+    "swedish": "bråk",
+    "english": "fight, quarrel",
+    "example_sv": "Barnen hade ett litet bråk om leksakerna nyss.",
+    "example_en": "The children just had a little fight over the toys.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4013
+  },
+  {
+    "swedish": "värva",
+    "english": "recruit",
+    "example_sv": "Företaget försöker värva nya medlemmar till teamet.",
+    "example_en": "The company is trying to recruit new members to the team.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4014
+  },
+  {
+    "swedish": "biblisk",
+    "english": "biblical",
+    "example_sv": "Filmen handlar om en biblisk berättelse och är välgjord.",
+    "example_en": "The film is about a biblical story and is well made.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4015
+  },
+  {
+    "swedish": "sikta",
+    "english": "aim",
+    "example_sv": "Skytten måste sikta noga innan han skjuter pilen.",
+    "example_en": "The archer must aim carefully before shooting the arrow.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4016
+  },
+  {
+    "swedish": "uteslutande",
+    "english": "exclusively",
+    "example_sv": "Produkten säljs uteslutande online och inte i butiker.",
+    "example_en": "The product is sold exclusively online and not in stores.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4017
+  },
+  {
+    "swedish": "pryl",
+    "english": "gadget, thing",
+    "example_sv": "Jag köpte en ny pryl till min mobiltelefon igår.",
+    "example_en": "I bought a new gadget for my mobile phone yesterday.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4018
+  },
+  {
+    "swedish": "begravning",
+    "english": "funeral",
+    "example_sv": "Vi gick på begravningen för vår gamla granne.",
+    "example_en": "We went to the funeral for our old neighbor.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4019
+  },
+  {
+    "swedish": "naturligt",
+    "english": "naturally",
+    "example_sv": "Det är naturligt att vara nervös inför en intervju.",
+    "example_en": "It's natural to be nervous before an interview.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4020
+  },
+  {
+    "swedish": "bredd",
+    "english": "width",
+    "example_sv": "Vi måste mäta bredden på dörren innan vi köper den.",
+    "example_en": "We need to measure the width of the door before we buy it.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4021
+  },
+  {
+    "swedish": "frälsning",
+    "english": "salvation",
+    "example_sv": "Många söker frälsning genom religion eller andlighet.",
+    "example_en": "Many seek salvation through religion or spirituality.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4022
+  },
+  {
+    "swedish": "funktionshinder",
+    "english": "disability",
+    "example_sv": "Samhället måste bli mer tillgängligt för personer med funktionshinder.",
+    "example_en": "Society must become more accessible for people with disabilities.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4023
+  },
+  {
+    "swedish": "såvida",
+    "english": "unless",
+    "example_sv": "Jag kommer inte, såvida det inte slutar regna snart.",
+    "example_en": "I won't come, unless it stops raining soon.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "conjunction",
+    "rank": 4024
+  },
+  {
+    "swedish": "avvika",
+    "english": "deviate",
+    "example_sv": "Du får inte avvika från den bestämda rutten under vandringen.",
+    "example_en": "You must not deviate from the determined route during the hike.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4025
+  },
+  {
+    "swedish": "influensa",
+    "english": "flu, influenza",
+    "example_sv": "Jag tror jag har fått influensa, jag har feber och ont i halsen.",
+    "example_en": "I think I have the flu, I have a fever and a sore throat.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4026
+  },
+  {
+    "swedish": "medvetenhet",
+    "english": "awareness",
+    "example_sv": "Det finns en ökad medvetenhet om miljön idag.",
+    "example_en": "There is an increased awareness of the environment today.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4027
+  },
+  {
+    "swedish": "muskel",
+    "english": "muscle",
+    "example_sv": "Jag har ont i musklerna efter träningen igår.",
+    "example_en": "My muscles are sore after yesterday's workout.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4028
+  },
+  {
+    "swedish": "ointressant",
+    "english": "uninteresting",
+    "example_sv": "Den här boken är ganska ointressant, jag kan inte läsa vidare.",
+    "example_en": "This book is quite uninteresting, I can't read any further.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4029
+  },
+  {
+    "swedish": "samhällelig",
+    "english": "social",
+    "example_sv": "Vi diskuterade viktiga samhälleliga frågor på mötet.",
+    "example_en": "We discussed important social issues at the meeting.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4030
+  },
+  {
+    "swedish": "apropå",
+    "english": "by the way",
+    "example_sv": "Apropå vädret, kommer du ihåg att ta med paraplyet?",
+    "example_en": "By the way, regarding the weather, did you remember to bring the umbrella?",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 4031
+  },
+  {
+    "swedish": "cirkel",
+    "english": "circle",
+    "example_sv": "Rita en cirkel runt det rätta svaret på provet.",
+    "example_en": "Draw a circle around the correct answer on the test.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4032
+  },
+  {
+    "swedish": "rekord",
+    "english": "record",
+    "example_sv": "Hon slog världsrekordet i simning igår kväll.",
+    "example_en": "She broke the world record in swimming last night.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4033
+  },
+  {
+    "swedish": "bemärkelse",
+    "english": "sense, meaning",
+    "example_sv": "Uttrycket kan tolkas i olika bemärkelser, beroende på kontexten.",
+    "example_en": "The expression can be interpreted in different senses, depending on the context.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4034
+  },
+  {
+    "swedish": "djävul",
+    "english": "devil",
+    "example_sv": "Vissa ser djävulen som en symbol för ondska.",
+    "example_en": "Some see the devil as a symbol of evil.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4035
+  },
+  {
+    "swedish": "tålamod",
+    "english": "patience",
+    "example_sv": "Man måste ha mycket tålamod när man lär sig ett nytt språk.",
+    "example_en": "You have to have a lot of patience when learning a new language.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4036
+  },
+  {
+    "swedish": "utspel",
+    "english": "move, play",
+    "example_sv": "Presidentens utspel i debatten var oväntat och kontroversiellt.",
+    "example_en": "The President's move in the debate was unexpected and controversial.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4037
+  },
+  {
+    "swedish": "verkställa",
+    "english": "execute, implement",
+    "example_sv": "Vi måste verkställa planen så snart som möjligt.",
+    "example_en": "We must implement the plan as soon as possible.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4038
+  },
+  {
+    "swedish": "hjälpmedel",
+    "english": "aid, device",
+    "example_sv": "Rullstolen är ett viktigt hjälpmedel för personer med rörelsehinder.",
+    "example_en": "The wheelchair is an important aid for people with mobility impairments.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4039
+  },
+  {
+    "swedish": "riksdagsval",
+    "english": "parliamentary election",
+    "example_sv": "Nästa riksdagsval kommer att hållas om två år.",
+    "example_en": "The next parliamentary election will be held in two years.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4040
+  },
+  {
+    "swedish": "svära",
+    "english": "swear, curse",
+    "example_sv": "Man ska inte svära i kyrkan, det är respektlöst.",
+    "example_en": "You shouldn't swear in church, it's disrespectful.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4041
+  },
+  {
+    "swedish": "tagg",
+    "english": "thorn, spike",
+    "example_sv": "Rosen har vackra blommor, men också vassa taggar.",
+    "example_en": "The rose has beautiful flowers, but also sharp thorns.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4042
+  },
+  {
+    "swedish": "deklarera",
+    "english": "declare",
+    "example_sv": "Jag måste deklarera min inkomst före sista maj.",
+    "example_en": "I have to declare my income before the end of May.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4043
+  },
+  {
+    "swedish": "meningsfull",
+    "english": "meaningful",
+    "example_sv": "Jag vill ha ett meningsfullt arbete som gör skillnad.",
+    "example_en": "I want to have a meaningful job that makes a difference.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 4044
+  },
+  {
+    "swedish": "i anslutning till",
+    "english": "in connection with",
+    "example_sv": "Seminariet kommer att hållas i anslutning till konferensen.",
+    "example_en": "The seminar will be held in connection with the conference.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 4045
+  },
+  {
+    "swedish": "rimligen",
+    "english": "reasonably",
+    "example_sv": "Vi kan rimligen förvänta oss att priserna stiger framöver.",
+    "example_en": "We can reasonably expect prices to rise in the future.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4046
+  },
+  {
+    "swedish": "minut (förk. min.)",
+    "english": "minute",
+    "example_sv": "Jag kommer tillbaka om en minut, vänta här.",
+    "example_en": "I'll be back in a minute, wait here.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4047
+  },
+  {
+    "swedish": "annanstans",
+    "english": "elsewhere",
+    "example_sv": "Vi kan leta efter en annan restaurang annanstans i stan.",
+    "example_en": "We can look for another restaurant elsewhere in town.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 4048
+  },
+  {
+    "swedish": "kvartal",
+    "english": "quarter",
+    "example_sv": "Företaget redovisar sina resultat för varje kvartal.",
+    "example_en": "The company reports its results for each quarter.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4050
+  },
+  {
+    "swedish": "party",
+    "english": "party",
+    "example_sv": "Vi ska ha ett stort party för att fira examen.",
+    "example_en": "We're going to have a big party to celebrate graduation.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 4051
+  },
+  {
+    "swedish": "imponera",
+    "english": "impress",
+    "example_sv": "Han försökte att imponera på henne med sina kunskaper.",
+    "example_en": "He tried to impress her with his knowledge.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4052
+  },
+  {
+    "swedish": "innanför",
+    "english": "inside",
+    "example_sv": "Kom in innanför, det är kallt ute.",
+    "example_en": "Come inside, it's cold outside.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 4053
+  },
+  {
+    "swedish": "expansion",
+    "english": "expansion",
+    "example_sv": "Företaget planerar en expansion till nya marknader nästa år.",
+    "example_en": "The company is planning an expansion to new markets next year.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4054
+  }
+]

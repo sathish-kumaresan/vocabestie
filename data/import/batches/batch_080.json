@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "anlägga",
+    "english": "establish, build",
+    "example_sv": "Kommunen planerar att anlägga en ny park vid sjön.",
+    "example_en": "The municipality plans to establish a new park by the lake.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4210
+  },
+  {
+    "swedish": "upphandling",
+    "english": "procurement, tender",
+    "example_sv": "Företaget vann upphandlingen för att bygga den nya bron.",
+    "example_en": "The company won the procurement to build the new bridge.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 4211
+  },
+  {
+    "swedish": "breda",
+    "english": "spread, widen",
+    "example_sv": "Vi måste breda ut våra vingar och satsa på nya marknader.",
+    "example_en": "We need to spread our wings and invest in new markets.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 4212
+  },
+  {
+    "swedish": "realitet",
+    "english": "reality",
+    "example_sv": "Vi måste inse att det är en ekonomisk realitet.",
+    "example_en": "We must realize that it is an economic reality.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4213
+  },
+  {
+    "swedish": "marknadsföra",
+    "english": "to market, promote",
+    "example_sv": "Vi behöver marknadsföra produkten mer aggressivt online.",
+    "example_en": "We need to market the product more aggressively online.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4214
+  },
+  {
+    "swedish": "vitt",
+    "english": "widely, extensively",
+    "example_sv": "Det är vitt känt att han är en duktig musiker.",
+    "example_en": "It is widely known that he is a talented musician.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4215
+  },
+  {
+    "swedish": "vrede",
+    "english": "wrath, anger",
+    "example_sv": "Hans vrede var tydlig när han fick det dåliga beskedet.",
+    "example_en": "His wrath was clear when he received the bad news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4216
+  },
+  {
+    "swedish": "satan",
+    "english": "Satan, devil",
+    "example_sv": "Den där bilen kostade en hel del, satan vad dyr!",
+    "example_en": "That car cost a lot, damn it, how expensive!",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 4217
+  },
+  {
+    "swedish": "statistisk",
+    "english": "statistical",
+    "example_sv": "Det finns en statistisk korrelation mellan rökning och cancer.",
+    "example_en": "There is a statistical correlation between smoking and cancer.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4218
+  },
+  {
+    "swedish": "ödmjuk",
+    "english": "humble, modest",
+    "example_sv": "Trots sin framgång förblev han en ödmjuk och snäll person.",
+    "example_en": "Despite his success, he remained a humble and kind person.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4219
+  },
+  {
+    "swedish": "i natt",
+    "english": "last night",
+    "example_sv": "Jag sov dåligt i natt på grund av åskan.",
+    "example_en": "I slept badly last night because of the thunder.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4220
+  },
+  {
+    "swedish": "klarhet",
+    "english": "clarity",
+    "example_sv": "Vi behöver mer klarhet kring de nya reglerna.",
+    "example_en": "We need more clarity regarding the new rules.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4221
+  },
+  {
+    "swedish": "långsiktigt",
+    "english": "long-term",
+    "example_sv": "Vi måste tänka långsiktigt när vi planerar vår ekonomi.",
+    "example_en": "We must think long-term when we plan our finances.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4222
+  },
+  {
+    "swedish": "anstränga",
+    "english": "strain, exert",
+    "example_sv": "Du borde inte anstränga dig så mycket efter operationen.",
+    "example_en": "You shouldn't strain yourself so much after the operation.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4223
+  },
+  {
+    "swedish": "generös",
+    "english": "generous",
+    "example_sv": "Hon är en väldigt generös person som alltid hjälper andra.",
+    "example_en": "She is a very generous person who always helps others.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4224
+  },
+  {
+    "swedish": "mellanrum",
+    "english": "space, gap",
+    "example_sv": "Det finns ett litet mellanrum mellan stolen och väggen.",
+    "example_en": "There is a small space between the chair and the wall.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4225
+  },
+  {
+    "swedish": "sken",
+    "english": "appearance, light",
+    "example_sv": "Allt verkade vara i sin ordning, men det var bara sken.",
+    "example_en": "Everything seemed to be in order, but it was just appearance.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4226
+  },
+  {
+    "swedish": "upplösning",
+    "english": "resolution",
+    "example_sv": "Filmen har en mycket hög upplösning och är skarp.",
+    "example_en": "The movie has a very high resolution and is sharp.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4227
+  },
+  {
+    "swedish": "vistelse",
+    "english": "stay",
+    "example_sv": "Vi hoppas att ni får en trevlig vistelse i Sverige.",
+    "example_en": "We hope you have a pleasant stay in Sweden.",
+    "scenario": "Hotel",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4228
+  },
+  {
+    "swedish": "växla",
+    "english": "exchange, switch",
+    "example_sv": "Jag behöver växla pengar innan jag åker utomlands.",
+    "example_en": "I need to exchange money before I go abroad.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4229
+  },
+  {
+    "swedish": "strukturell",
+    "english": "structural",
+    "example_sv": "Det finns strukturella problem inom organisationen som måste åtgärdas.",
+    "example_en": "There are structural problems within the organization that need to be addressed.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4230
+  },
+  {
+    "swedish": "förvärva",
+    "english": "acquire, obtain",
+    "example_sv": "Företaget vill förvärva en ny marknadsandel i Europa.",
+    "example_en": "The company wants to acquire a new market share in Europe.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4231
+  },
+  {
+    "swedish": "regi",
+    "english": "direction",
+    "example_sv": "Filmen är i regi av en ung och lovande regissör.",
+    "example_en": "The film is directed by a young and promising director.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4232
+  },
+  {
+    "swedish": "anka",
+    "english": "duck",
+    "example_sv": "Vi såg en anka simma runt i dammen igår.",
+    "example_en": "We saw a duck swimming around in the pond yesterday.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4233
+  },
+  {
+    "swedish": "redogörelse",
+    "english": "account, report",
+    "example_sv": "Han gav en detaljerad redogörelse för händelsen i rätten.",
+    "example_en": "He gave a detailed account of the incident in court.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4234
+  },
+  {
+    "swedish": "statsmakt",
+    "english": "state power",
+    "example_sv": "Statsmakten har en viktig roll i att upprätthålla lag och ordning.",
+    "example_en": "The state power has an important role in maintaining law and order.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4235
+  },
+  {
+    "swedish": "etta",
+    "english": "one, ace",
+    "example_sv": "Vi bor på etta på andra våningen i det huset.",
+    "example_en": "We live in a one-room apartment on the second floor in that building.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4236
+  },
+  {
+    "swedish": "relativ",
+    "english": "relative",
+    "example_sv": "Priset är relativt lågt jämfört med andra alternativ.",
+    "example_en": "The price is relatively low compared to other options.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4237
+  },
+  {
+    "swedish": "vindkraft",
+    "english": "wind power",
+    "example_sv": "Sverige satsar stort på vindkraft för att minska utsläppen.",
+    "example_en": "Sweden is investing heavily in wind power to reduce emissions.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4238
+  },
+  {
+    "swedish": "imperialistisk",
+    "english": "imperialistic",
+    "example_sv": "Många kritiserar landets imperialistiska politik i regionen.",
+    "example_en": "Many criticize the country's imperialistic policies in the region.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4239
+  },
+  {
+    "swedish": "måltid",
+    "english": "meal",
+    "example_sv": "Vi äter alltid en stor måltid tillsammans på söndagar.",
+    "example_en": "We always eat a big meal together on Sundays.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4240
+  },
+  {
+    "swedish": "till synes",
+    "english": "seemingly, apparently",
+    "example_sv": "Allt verkade till synes normalt, men något var fel.",
+    "example_en": "Everything seemed seemingly normal, but something was wrong.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4241
+  },
+  {
+    "swedish": "belöna",
+    "english": "reward, award",
+    "example_sv": "De belönar sina anställda med bonusar för bra prestationer.",
+    "example_en": "They reward their employees with bonuses for good performance.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4242
+  },
+  {
+    "swedish": "importera",
+    "english": "import",
+    "example_sv": "Sverige måste importera en hel del mat från andra länder.",
+    "example_en": "Sweden has to import a lot of food from other countries.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4243
+  },
+  {
+    "swedish": "liter",
+    "english": "liter",
+    "example_sv": "Jag behöver en liter mjölk till kaffet, tack.",
+    "example_en": "I need a liter of milk for the coffee, please.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4244
+  },
+  {
+    "swedish": "rentav",
+    "english": "actually, indeed",
+    "example_sv": "Han var rentav arg när han fick höra nyheterna.",
+    "example_en": "He was actually angry when he heard the news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4245
+  },
+  {
+    "swedish": "stormakt",
+    "english": "great power",
+    "example_sv": "USA är en av världens största stormakter just nu.",
+    "example_en": "The USA is one of the world's greatest powers right now.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4246
+  },
+  {
+    "swedish": "samtida",
+    "english": "contemporary",
+    "example_sv": "Hon är expert på samtida konst från hela världen.",
+    "example_en": "She is an expert on contemporary art from all over the world.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4247
+  },
+  {
+    "swedish": "legal",
+    "english": "legal",
+    "example_sv": "Det är inte legal att köra utan körkort i Sverige.",
+    "example_en": "It is not legal to drive without a driver's license in Sweden.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4248
+  },
+  {
+    "swedish": "principiell",
+    "english": "principled",
+    "example_sv": "Han är en principiell man som står fast vid sina värderingar.",
+    "example_en": "He is a principled man who stands by his values.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4249
+  },
+  {
+    "swedish": "valfrihet",
+    "english": "freedom of choice",
+    "example_sv": "Vi har valfrihet att välja vilken vårdcentral vi vill.",
+    "example_en": "We have freedom of choice to choose which health center we want.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4250
+  },
+  {
+    "swedish": "tydlighet",
+    "english": "clarity",
+    "example_sv": "Det är viktigt med tydlighet i kommunikationen med kunderna.",
+    "example_en": "Clarity in communication with customers is important.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4251
+  },
+  {
+    "swedish": "växthusgas",
+    "english": "greenhouse gas",
+    "example_sv": "Utsläppen av växthusgaser måste minskas drastiskt snarast.",
+    "example_en": "Emissions of greenhouse gases must be drastically reduced as soon as possible.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4252
+  },
+  {
+    "swedish": "evenemang",
+    "english": "event",
+    "example_sv": "Det är ett stort evenemang som lockar många besökare hit.",
+    "example_en": "It is a big event that attracts many visitors here.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4253
+  },
+  {
+    "swedish": "lösenord",
+    "english": "password",
+    "example_sv": "Du måste komma ihåg ditt lösenord för att logga in.",
+    "example_en": "You must remember your password to log in.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4254
+  },
+  {
+    "swedish": "dialekt",
+    "english": "dialect",
+    "example_sv": "Hon talar en speciell dialekt som är svår att förstå.",
+    "example_en": "She speaks a special dialect that is difficult to understand.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4255
+  },
+  {
+    "swedish": "behärska",
+    "english": "master, control",
+    "example_sv": "Han har lyckats behärska konsten att spela gitarr.",
+    "example_en": "He has managed to master the art of playing the guitar.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4256
+  },
+  {
+    "swedish": "föregångare",
+    "english": "predecessor, pioneer",
+    "example_sv": "Marie Curie var en föregångare inom vetenskapen.",
+    "example_en": "Marie Curie was a pioneer in science.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4257
+  },
+  {
+    "swedish": "homosexualitet",
+    "english": "homosexuality",
+    "example_sv": "Homosexualitet är accepterat och lagligt i Sverige nu.",
+    "example_en": "Homosexuality is accepted and legal in Sweden now.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4258
+  },
+  {
+    "swedish": "seg",
+    "english": "tough, chewy",
+    "example_sv": "Köttet var lite segt, jag borde ha marinerat det längre.",
+    "example_en": "The meat was a little tough, I should have marinated it longer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4259
+  }
+]

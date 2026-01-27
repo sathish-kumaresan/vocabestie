@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "nationalekonomi",
+    "english": "economics",
+    "example_sv": "Jag studerar nationalekonomi på universitetet för att förstå marknaden bättre.",
+    "example_en": "I study economics at university to understand the market better.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5558
+  },
+  {
+    "swedish": "återfå",
+    "english": "recover, regain",
+    "example_sv": "Efter operationen hoppas jag att återfå full rörlighet i armen.",
+    "example_en": "After the operation, I hope to regain full mobility in my arm.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5559
+  },
+  {
+    "swedish": "övernaturlig",
+    "english": "supernatural",
+    "example_sv": "Många tror på övernaturliga fenomen, som spöken och andar.",
+    "example_en": "Many people believe in supernatural phenomena, like ghosts and spirits.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5560
+  },
+  {
+    "swedish": "elektricitet",
+    "english": "electricity",
+    "example_sv": "Vi behöver betala räkningen för elektricitet varje månad.",
+    "example_en": "We need to pay the electricity bill every month.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5561
+  },
+  {
+    "swedish": "grovt",
+    "english": "roughly, coarsely",
+    "example_sv": "Jag uppskattar grovt att det tar två timmar att köra.",
+    "example_en": "I roughly estimate that it takes two hours to drive.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5562
+  },
+  {
+    "swedish": "javisst (el. ja visst)",
+    "english": "certainly, of course",
+    "example_sv": "\"Kan du hjälpa mig med detta?\" \"Javisst, inga problem!\"",
+    "example_en": "\"Can you help me with this?\" \"Of course, no problem!\"",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "interjection",
+    "rank": 5563
+  },
+  {
+    "swedish": "beskylla",
+    "english": "accuse",
+    "example_sv": "Man kan inte beskylla honom för något utan bevis.",
+    "example_en": "You can't accuse him of anything without proof.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5564
+  },
+  {
+    "swedish": "obegränsad",
+    "english": "unlimited",
+    "example_sv": "Detta abonnemang ger dig obegränsad tillgång till internet.",
+    "example_en": "This subscription gives you unlimited internet access.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5565
+  },
+  {
+    "swedish": "anordning",
+    "english": "device, arrangement",
+    "example_sv": "Denna anordning hjälper oss att sortera posten snabbare.",
+    "example_en": "This device helps us sort the mail faster.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5566
+  },
+  {
+    "swedish": "fluga",
+    "english": "fly",
+    "example_sv": "Det är så många flugor inne, jag blir galen snart.",
+    "example_en": "There are so many flies inside, I'll go crazy soon.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5567
+  },
+  {
+    "swedish": "förråd",
+    "english": "storage, supply",
+    "example_sv": "Vi har ett stort förråd av mat inför vintern.",
+    "example_en": "We have a large supply of food for the winter.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5568
+  },
+  {
+    "swedish": "spänna",
+    "english": "tense, strain",
+    "example_sv": "Det är viktigt att inte spänna musklerna under träningen.",
+    "example_en": "It's important not to tense your muscles during exercise.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5569
+  },
+  {
+    "swedish": "oönskad",
+    "english": "unwanted",
+    "example_sv": "Jag får så mycket oönskad reklam i min e-post.",
+    "example_en": "I get so much unwanted advertising in my email.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5570
+  },
+  {
+    "swedish": "marschera",
+    "english": "march",
+    "example_sv": "Soldaterna marscherade genom staden under paraden.",
+    "example_en": "The soldiers marched through the city during the parade.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5571
+  },
+  {
+    "swedish": "päls",
+    "english": "fur",
+    "example_sv": "Hon har en varm päls att ha på vintern.",
+    "example_en": "She has a warm fur coat to wear in the winter.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5572
+  },
+  {
+    "swedish": "till vara",
+    "english": "take care",
+    "example_sv": "Du måste ta till vara på dina möjligheter i livet.",
+    "example_en": "You must take care of your opportunities in life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5573
+  },
+  {
+    "swedish": "slant",
+    "english": "coin",
+    "example_sv": "Jag hittade en slant på gatan idag.",
+    "example_en": "I found a coin on the street today.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5574
+  },
+  {
+    "swedish": "upprättande",
+    "english": "establishment",
+    "example_sv": "Upprättandet av en ny lag kan ta lång tid.",
+    "example_en": "The establishment of a new law can take a long time.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5575
+  },
+  {
+    "swedish": "överdriva",
+    "english": "exaggerate",
+    "example_sv": "Du behöver inte överdriva, jag förstår vad du menar.",
+    "example_en": "You don't need to exaggerate, I understand what you mean.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5576
+  },
+  {
+    "swedish": "reparera",
+    "english": "repair",
+    "example_sv": "Jag måste reparera min cykel innan jag kan använda den.",
+    "example_en": "I need to repair my bicycle before I can use it.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5577
+  },
+  {
+    "swedish": "erövring",
+    "english": "conquest",
+    "example_sv": "Romerska rikets erövring av Europa var omfattande.",
+    "example_en": "The Roman Empire's conquest of Europe was extensive.",
+    "scenario": "History",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5579
+  },
+  {
+    "swedish": "justering",
+    "english": "adjustment",
+    "example_sv": "En justering av temperaturen kan göra rummet mer bekvämt.",
+    "example_en": "An adjustment of the temperature can make the room more comfortable.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5580
+  },
+  {
+    "swedish": "nedanstående",
+    "english": "below",
+    "example_sv": "Vänligen fyll i informationen i de nedanstående fälten.",
+    "example_en": "Please fill in the information in the fields below.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5581
+  },
+  {
+    "swedish": "propagera",
+    "english": "propagate",
+    "example_sv": "Partiet propagerade för sänkta skatter under valkampanjen.",
+    "example_en": "The party propagated for lower taxes during the election campaign.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5582
+  },
+  {
+    "swedish": "talesman",
+    "english": "spokesman",
+    "example_sv": "Talesmannen för företaget presenterade den nya produkten.",
+    "example_en": "The spokesman for the company presented the new product.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5583
+  },
+  {
+    "swedish": "uppträdande",
+    "english": "performance",
+    "example_sv": "Bandets uppträdande var fantastiskt, med mycket energi.",
+    "example_en": "The band's performance was fantastic, with a lot of energy.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5584
+  },
+  {
+    "swedish": "utförande",
+    "english": "execution, performance",
+    "example_sv": "Det perfekta utförandet av planen var avgörande för framgång.",
+    "example_en": "The perfect execution of the plan was crucial for success.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5586
+  },
+  {
+    "swedish": "utgivare",
+    "english": "publisher",
+    "example_sv": "Utgivaren har beslutat att trycka en ny upplaga av boken.",
+    "example_en": "The publisher has decided to print a new edition of the book.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5587
+  },
+  {
+    "swedish": "underordnad",
+    "english": "subordinate",
+    "example_sv": "En underordnad medarbetare ska respektera sin chef.",
+    "example_en": "A subordinate employee should respect their boss.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5588
+  },
+  {
+    "swedish": "explosion",
+    "english": "explosion",
+    "example_sv": "Explosionen orsakades av en gasläcka i byggnaden.",
+    "example_en": "The explosion was caused by a gas leak in the building.",
+    "scenario": "News",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5589
+  },
+  {
+    "swedish": "fraktion",
+    "english": "faction",
+    "example_sv": "Inom partiet fanns det olika fraktioner med olika åsikter.",
+    "example_en": "Within the party, there were different factions with different opinions.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5590
+  },
+  {
+    "swedish": "renovera",
+    "english": "renovate",
+    "example_sv": "Vi måste renovera köket snart, det är i dåligt skick.",
+    "example_en": "We need to renovate the kitchen soon, it's in bad condition.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5591
+  },
+  {
+    "swedish": "snyggt",
+    "english": "nicely, neatly",
+    "example_sv": "Hon klädde sig snyggt för intervjun på banken.",
+    "example_en": "She dressed nicely for the interview at the bank.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5592
+  },
+  {
+    "swedish": "beröva",
+    "english": "deprive",
+    "example_sv": "Stölden berövade honom alla hans ägodelar.",
+    "example_en": "The theft deprived him of all his belongings.",
+    "scenario": "News",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5593
+  },
+  {
+    "swedish": "japan",
+    "english": "Japan",
+    "example_sv": "Jag vill gärna resa till Japan och se körsbärsblommorna.",
+    "example_en": "I would love to travel to Japan and see the cherry blossoms.",
+    "scenario": "Holidays",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5594
+  },
+  {
+    "swedish": "omvandling",
+    "english": "transformation",
+    "example_sv": "Staden genomgick en stor omvandling under de senaste åren.",
+    "example_en": "The city underwent a major transformation in recent years.",
+    "scenario": "News",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5595
+  },
+  {
+    "swedish": "tillåtelse",
+    "english": "permission",
+    "example_sv": "Du behöver tillåtelse från din chef för att ta ledigt.",
+    "example_en": "You need permission from your boss to take time off.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5596
+  },
+  {
+    "swedish": "vidrig",
+    "english": "disgusting",
+    "example_sv": "Denna lukt är vidrig, jag måste öppna fönstret.",
+    "example_en": "This smell is disgusting, I need to open the window.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5597
+  },
+  {
+    "swedish": "förmögen",
+    "english": "wealthy",
+    "example_sv": "Familjen är mycket förmögen och bor i ett stort hus.",
+    "example_en": "The family is very wealthy and lives in a large house.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5598
+  },
+  {
+    "swedish": "nedanför",
+    "english": "below",
+    "example_sv": "Vi bor i lägenheten nedanför dig, på första våningen.",
+    "example_en": "We live in the apartment below you, on the first floor.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "preposition",
+    "rank": 5599
+  },
+  {
+    "swedish": "oförmögen",
+    "english": "unable",
+    "example_sv": "Han var oförmögen att betala räkningen i tid.",
+    "example_en": "He was unable to pay the bill on time.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5600
+  },
+  {
+    "swedish": "slösa",
+    "english": "waste",
+    "example_sv": "Man ska inte slösa vatten när man borstar tänderna.",
+    "example_en": "You shouldn't waste water when you brush your teeth.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5601
+  },
+  {
+    "swedish": "arbetsmarknadspolitik",
+    "english": "labor market policy",
+    "example_sv": "Regeringen satsar på arbetsmarknadspolitik för att minska arbetslösheten.",
+    "example_en": "The government invests in labor market policy to reduce unemployment.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5602
+  },
+  {
+    "swedish": "inkomstskatt",
+    "english": "income tax",
+    "example_sv": "Jag måste betala inkomstskatt varje år på min lön.",
+    "example_en": "I have to pay income tax on my salary every year.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5603
+  },
+  {
+    "swedish": "skämta",
+    "english": "joke",
+    "example_sv": "Han brukar skämta mycket, men ibland är det inte roligt.",
+    "example_en": "He usually jokes a lot, but sometimes it's not funny.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5604
+  },
+  {
+    "swedish": "underrätta",
+    "english": "inform, notify",
+    "example_sv": "Polisen måste underrätta familjen om den tragiska olyckan.",
+    "example_en": "The police must notify the family about the tragic accident.",
+    "scenario": "News",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5605
+  },
+  {
+    "swedish": "världslig",
+    "english": "secular, worldly",
+    "example_sv": "Detta är en världslig organisation utan religiös anknytning.",
+    "example_en": "This is a secular organization without religious affiliation.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5606
+  },
+  {
+    "swedish": "cigarett",
+    "english": "cigarette",
+    "example_sv": "Jag försöker sluta röka cigaretter för min hälsas skull.",
+    "example_en": "I'm trying to quit smoking cigarettes for my health.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5607
+  },
+  {
+    "swedish": "hälsosam",
+    "english": "healthy",
+    "example_sv": "Det är viktigt att äta en hälsosam kost och motionera.",
+    "example_en": "It's important to eat a healthy diet and exercise.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5608
+  },
+  {
+    "swedish": "skalle",
+    "english": "skull",
+    "example_sv": "Arkeologen hittade en gammal skalle under utgrävningen.",
+    "example_en": "The archaeologist found an old skull during the excavation.",
+    "scenario": "History",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5609
+  }
+]

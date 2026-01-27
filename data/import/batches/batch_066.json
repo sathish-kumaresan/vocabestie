@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "godta",
+    "english": "accept",
+    "example_sv": "Jag kan inte godta den här dåliga ursäkten.",
+    "example_en": "I cannot accept this poor excuse.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3486
+  },
+  {
+    "swedish": "andas",
+    "english": "breathe",
+    "example_sv": "Det är viktigt att andas djupt under stress.",
+    "example_en": "It's important to breathe deeply during stress.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3487
+  },
+  {
+    "swedish": "böter",
+    "english": "fines",
+    "example_sv": "Han fick betala böter för fortkörning i går.",
+    "example_en": "He had to pay fines for speeding yesterday.",
+    "scenario": "Driving",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 3488
+  },
+  {
+    "swedish": "lärdom",
+    "english": "lesson",
+    "example_sv": "Varje misstag ger oss en viktig lärdom i livet.",
+    "example_en": "Every mistake gives us an important lesson in life.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3489
+  },
+  {
+    "swedish": "kyla",
+    "english": "cold",
+    "example_sv": "Jag hatar kylan som kommer varje vinter.",
+    "example_en": "I hate the cold that comes every winter.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3490
+  },
+  {
+    "swedish": "ordinarie",
+    "english": "regular",
+    "example_sv": "Det här är min ordinarie kaffe på morgonen.",
+    "example_en": "This is my regular coffee in the morning.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3491
+  },
+  {
+    "swedish": "delegation",
+    "english": "delegation",
+    "example_sv": "En delegation från EU besökte landet nyligen.",
+    "example_en": "A delegation from the EU visited the country recently.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3492
+  },
+  {
+    "swedish": "suga",
+    "english": "suck",
+    "example_sv": "Barnet älskar att suga på sin nappflaska.",
+    "example_en": "The child loves to suck on their bottle.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3493
+  },
+  {
+    "swedish": "tränare",
+    "english": "coach",
+    "example_sv": "Vår tränare är väldigt bra på att motivera oss.",
+    "example_en": "Our coach is very good at motivating us.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3494
+  },
+  {
+    "swedish": "användande",
+    "english": "use",
+    "example_sv": "Användande av mobiltelefoner är förbjudet under tentan.",
+    "example_en": "The use of mobile phones is forbidden during the exam.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3495
+  },
+  {
+    "swedish": "arbetsgrupp",
+    "english": "workgroup",
+    "example_sv": "Vi sitter i en arbetsgrupp för att förbättra processerna.",
+    "example_en": "We are in a workgroup to improve the processes.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3496
+  },
+  {
+    "swedish": "operatör",
+    "english": "operator",
+    "example_sv": "Jag arbetar som operatör på en fabrik.",
+    "example_en": "I work as an operator at a factory.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3497
+  },
+  {
+    "swedish": "reporter",
+    "english": "reporter",
+    "example_sv": "Reportern ställde svåra frågor till politikern.",
+    "example_en": "The reporter asked difficult questions to the politician.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3498
+  },
+  {
+    "swedish": "tortyr",
+    "english": "torture",
+    "example_sv": "Ingen människa ska utsättas för tortyr.",
+    "example_en": "No human being should be subjected to torture.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3499
+  },
+  {
+    "swedish": "kapten",
+    "english": "captain",
+    "example_sv": "Kaptenen gav order om att vända skeppet.",
+    "example_en": "The captain gave the order to turn the ship.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3500
+  },
+  {
+    "swedish": "forska",
+    "english": "research",
+    "example_sv": "Hon vill forska om cancer på universitetet.",
+    "example_en": "She wants to research cancer at the university.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3501
+  },
+  {
+    "swedish": "avkastning",
+    "english": "yield",
+    "example_sv": "Investeringen gav en bra avkastning i år.",
+    "example_en": "The investment gave a good yield this year.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3502
+  },
+  {
+    "swedish": "genomsnittlig",
+    "english": "average",
+    "example_sv": "Den genomsnittliga temperaturen i juli är tjugo grader.",
+    "example_en": "The average temperature in July is twenty degrees.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3503
+  },
+  {
+    "swedish": "jägare",
+    "english": "hunter",
+    "example_sv": "Jägaren gick ut i skogen för att jaga älg.",
+    "example_en": "The hunter went into the forest to hunt moose.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3504
+  },
+  {
+    "swedish": "makthavare",
+    "english": "ruler",
+    "example_sv": "Makthavarna måste ta ansvar för sina beslut.",
+    "example_en": "The rulers must take responsibility for their decisions.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3505
+  },
+  {
+    "swedish": "löjlig",
+    "english": "ridiculous",
+    "example_sv": "Det är en löjlig idé att gå ut i regnet.",
+    "example_en": "It's a ridiculous idea to go out in the rain.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3506
+  },
+  {
+    "swedish": "skönhet",
+    "english": "beauty",
+    "example_sv": "Naturens skönhet är oslagbar under hösten.",
+    "example_en": "The beauty of nature is unbeatable during the fall.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3507
+  },
+  {
+    "swedish": "orimlig",
+    "english": "unreasonable",
+    "example_sv": "Dina krav är helt orimliga i den här situationen.",
+    "example_en": "Your demands are completely unreasonable in this situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3508
+  },
+  {
+    "swedish": "matematik",
+    "english": "mathematics",
+    "example_sv": "Jag har alltid haft svårt med matematik i skolan.",
+    "example_en": "I have always had difficulty with mathematics in school.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3509
+  },
+  {
+    "swedish": "officiellt",
+    "english": "officially",
+    "example_sv": "Beslutet är inte officiellt förrän det publiceras.",
+    "example_en": "The decision is not official until it is published.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3510
+  },
+  {
+    "swedish": "rensa",
+    "english": "clean",
+    "example_sv": "Jag måste rensa min garderob i helgen.",
+    "example_en": "I need to clean out my closet this weekend.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3511
+  },
+  {
+    "swedish": "utvärdera",
+    "english": "evaluate",
+    "example_sv": "Vi måste utvärdera resultaten av experimentet noggrant.",
+    "example_en": "We must evaluate the results of the experiment carefully.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3512
+  },
+  {
+    "swedish": "onekligen",
+    "english": "undeniably",
+    "example_sv": "Hon är onekligen en mycket begåvad musiker.",
+    "example_en": "She is undeniably a very talented musician.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3513
+  },
+  {
+    "swedish": "tonåring",
+    "english": "teenager",
+    "example_sv": "Min tonåring tillbringar all sin tid framför datorn.",
+    "example_en": "My teenager spends all their time in front of the computer.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3514
+  },
+  {
+    "swedish": "dagsläge",
+    "english": "current situation",
+    "example_sv": "I dagsläget är det svårt att förutse framtiden.",
+    "example_en": "In the current situation, it is difficult to predict the future.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3515
+  },
+  {
+    "swedish": "entreprenör",
+    "english": "entrepreneur",
+    "example_sv": "Hon är en framgångsrik entreprenör inom teknikbranschen.",
+    "example_en": "She is a successful entrepreneur in the tech industry.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3516
+  },
+  {
+    "swedish": "kines",
+    "english": "Chinese",
+    "example_sv": "Min granne är kines och väldigt trevlig.",
+    "example_en": "My neighbor is Chinese and very nice.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3517
+  },
+  {
+    "swedish": "blivande",
+    "english": "prospective",
+    "example_sv": "De blivande föräldrarna är väldigt glada och förväntansfulla.",
+    "example_en": "The prospective parents are very happy and expectant.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3518
+  },
+  {
+    "swedish": "elände",
+    "english": "misery",
+    "example_sv": "Jag känner mig full av elände efter den nyheten.",
+    "example_en": "I feel full of misery after that news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3519
+  },
+  {
+    "swedish": "glida",
+    "english": "slide",
+    "example_sv": "Barnen älskar att glida nerför vattenrutschkanan på sommaren.",
+    "example_en": "The children love to slide down the water slide in the summer.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3520
+  },
+  {
+    "swedish": "stiftelse",
+    "english": "foundation",
+    "example_sv": "Stiftelsen delar ut pengar till forskning varje år.",
+    "example_en": "The foundation distributes money to research every year.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3521
+  },
+  {
+    "swedish": "frivilligt",
+    "english": "voluntarily",
+    "example_sv": "Han anmälde sig frivilligt att hjälpa till på festivalen.",
+    "example_en": "He volunteered to help out at the festival.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3522
+  },
+  {
+    "swedish": "introducera",
+    "english": "introduce",
+    "example_sv": "Jag vill introducera min vän Anna för dig.",
+    "example_en": "I want to introduce my friend Anna to you.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3523
+  },
+  {
+    "swedish": "villigt",
+    "english": "willingly",
+    "example_sv": "Hon ställde villigt upp som volontär för projektet.",
+    "example_en": "She willingly volunteered for the project.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3525
+  },
+  {
+    "swedish": "friskola",
+    "english": "independent school",
+    "example_sv": "Vi valde en friskola för våra barn på grund av pedagogiken.",
+    "example_en": "We chose an independent school for our children because of the pedagogy.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3526
+  },
+  {
+    "swedish": "smula",
+    "english": "crumb",
+    "example_sv": "Det låg smulor på bordet efter frukosten.",
+    "example_en": "There were crumbs on the table after breakfast.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3527
+  },
+  {
+    "swedish": "försvåra",
+    "english": "complicate",
+    "example_sv": "Dåligt väder kan försvåra resan avsevärt.",
+    "example_en": "Bad weather can complicate the trip considerably.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3528
+  },
+  {
+    "swedish": "kyrklig",
+    "english": "ecclesiastical",
+    "example_sv": "Vi hade en kyrklig ceremoni vid vårt bröllop.",
+    "example_en": "We had an ecclesiastical ceremony at our wedding.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3529
+  },
+  {
+    "swedish": "oväntad",
+    "english": "unexpected",
+    "example_sv": "Jag fick ett oväntad besök av en gammal vän.",
+    "example_en": "I received an unexpected visit from an old friend.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3530
+  },
+  {
+    "swedish": "rikedom",
+    "english": "wealth",
+    "example_sv": "Naturens rikedom måste bevaras för framtida generationer.",
+    "example_en": "Nature's wealth must be preserved for future generations.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3531
+  },
+  {
+    "swedish": "delstat",
+    "english": "state",
+    "example_sv": "Kalifornien är en delstat i USA.",
+    "example_en": "California is a state in the USA.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3532
+  },
+  {
+    "swedish": "gång på gång",
+    "english": "again and again",
+    "example_sv": "Hon bad mig om ursäkt gång på gång.",
+    "example_en": "She apologized to me again and again.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3533
+  },
+  {
+    "swedish": "illustrera",
+    "english": "illustrate",
+    "example_sv": "Bilderna hjälper till att illustrera förklaringen tydligare.",
+    "example_en": "The pictures help to illustrate the explanation more clearly.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3534
+  },
+  {
+    "swedish": "centralbank",
+    "english": "central bank",
+    "example_sv": "Centralbanken höjde räntan för att bekämpa inflationen.",
+    "example_en": "The central bank raised interest rates to combat inflation.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3535
+  },
+  {
+    "swedish": "grannland",
+    "english": "neighboring country",
+    "example_sv": "Norge är ett grannland till Sverige.",
+    "example_en": "Norway is a neighboring country to Sweden.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3536
+  }
+]

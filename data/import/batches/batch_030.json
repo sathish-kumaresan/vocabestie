@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "herre",
+    "english": "gentleman",
+    "example_sv": "Han är en mycket vänlig och respektabel herre.",
+    "example_en": "He is a very kind and respectable gentleman.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1583
+  },
+  {
+    "swedish": "i fråga om",
+    "english": "regarding",
+    "example_sv": "I fråga om maten, så är jag vegetarian.",
+    "example_en": "Regarding the food, I am a vegetarian.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "preposition",
+    "rank": 1584
+  },
+  {
+    "swedish": "klimat",
+    "english": "climate",
+    "example_sv": "Vi måste alla hjälpa till att rädda klimatet.",
+    "example_en": "We must all help to save the climate.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1585
+  },
+  {
+    "swedish": "topp",
+    "english": "top",
+    "example_sv": "Hon nådde toppen av berget efter många timmar.",
+    "example_en": "She reached the top of the mountain after many hours.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1587
+  },
+  {
+    "swedish": "troligen",
+    "english": "probably",
+    "example_sv": "Det kommer troligen att regna imorgon, tyvärr.",
+    "example_en": "It will probably rain tomorrow, unfortunately.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1588
+  },
+  {
+    "swedish": "kompis",
+    "english": "friend",
+    "example_sv": "Jag ska träffa min kompis på lördag kväll.",
+    "example_en": "I'm going to meet my friend on Saturday night.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1589
+  },
+  {
+    "swedish": "främja",
+    "english": "promote",
+    "example_sv": "Vi måste främja en hälsosam livsstil i skolan.",
+    "example_en": "We must promote a healthy lifestyle in school.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1590
+  },
+  {
+    "swedish": "landsting",
+    "english": "county council",
+    "example_sv": "Landstinget ansvarar för sjukvården i länet.",
+    "example_en": "The county council is responsible for healthcare in the county.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1591
+  },
+  {
+    "swedish": "undersöka",
+    "english": "examine",
+    "example_sv": "Läkaren måste undersöka min hosta ordentligt.",
+    "example_en": "The doctor needs to examine my cough properly.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1592
+  },
+  {
+    "swedish": "kilometer",
+    "english": "kilometer",
+    "example_sv": "Det är ungefär fem kilometer till affären.",
+    "example_en": "It's about five kilometers to the store.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "reform",
+    "english": "reform",
+    "example_sv": "Regeringen planerar en stor reform inom utbildningen.",
+    "example_en": "The government is planning a major reform in education.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1594
+  },
+  {
+    "swedish": "testa",
+    "english": "test",
+    "example_sv": "Du måste testa bilen innan du köper den.",
+    "example_en": "You have to test the car before you buy it.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1595
+  },
+  {
+    "swedish": "konkret",
+    "english": "concrete",
+    "example_sv": "Vi behöver en konkret plan för att lösa problemet.",
+    "example_en": "We need a concrete plan to solve the problem.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1596
+  },
+  {
+    "swedish": "rakt",
+    "english": "straight",
+    "example_sv": "Gå rakt fram tills du ser en kyrka.",
+    "example_en": "Go straight ahead until you see a church.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1597
+  },
+  {
+    "swedish": "uppenbarligen",
+    "english": "obviously",
+    "example_sv": "Uppenbarligen har någon glömt att stänga dörren.",
+    "example_en": "Obviously, someone forgot to close the door.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1598
+  },
+  {
+    "swedish": "desto",
+    "english": "the",
+    "example_sv": "Ju mer du övar, desto bättre blir du.",
+    "example_en": "The more you practice, the better you get.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1599
+  },
+  {
+    "swedish": "socialdemokratisk",
+    "english": "social democratic",
+    "example_sv": "Han är aktiv i det socialdemokratiska partiet.",
+    "example_en": "He is active in the Social Democratic party.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1600
+  },
+  {
+    "swedish": "trupp",
+    "english": "troop",
+    "example_sv": "Den svenska truppen vann guld i hockey.",
+    "example_en": "The Swedish team won gold in hockey.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1601
+  },
+  {
+    "swedish": "seger",
+    "english": "victory",
+    "example_sv": "Det var en stor seger för vårt lag.",
+    "example_en": "It was a great victory for our team.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1603
+  },
+  {
+    "swedish": "centerparti",
+    "english": "Centre Party",
+    "example_sv": "Centerpartiet har en stark miljöpolitik.",
+    "example_en": "The Centre Party has a strong environmental policy.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1604
+  },
+  {
+    "swedish": "förlust",
+    "english": "loss",
+    "example_sv": "Företaget rapporterade en stor ekonomisk förlust.",
+    "example_en": "The company reported a large financial loss.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1605
+  },
+  {
+    "swedish": "själ",
+    "english": "soul",
+    "example_sv": "Musiken berörde verkligen min själ på djupet.",
+    "example_en": "The music really touched my soul deeply.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1606
+  },
+  {
+    "swedish": "öde",
+    "english": "fate",
+    "example_sv": "Man kan inte fly sitt eget öde.",
+    "example_en": "You cannot escape your own fate.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1607
+  },
+  {
+    "swedish": "mord",
+    "english": "murder",
+    "example_sv": "Polisen utreder ett misstänkt mord i staden.",
+    "example_en": "The police are investigating a suspected murder in the city.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1608
+  },
+  {
+    "swedish": "dokument",
+    "english": "document",
+    "example_sv": "Jag behöver skriva under detta viktiga dokument.",
+    "example_en": "I need to sign this important document.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1609
+  },
+  {
+    "swedish": "upphöra",
+    "english": "cease",
+    "example_sv": "Regnet kommer troligen att upphöra snart.",
+    "example_en": "The rain will probably cease soon.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1610
+  },
+  {
+    "swedish": "folkparti",
+    "english": "Liberal Party",
+    "example_sv": "Folkpartiet fokuserar på utbildning och integration.",
+    "example_en": "The Liberal Party focuses on education and integration.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1611
+  },
+  {
+    "swedish": "kraftigt",
+    "english": "strongly",
+    "example_sv": "Det blåste kraftigt under hela natten.",
+    "example_en": "It was blowing strongly all night.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1612
+  },
+  {
+    "swedish": "middag",
+    "english": "dinner",
+    "example_sv": "Vi äter middag klockan sju ikväll.",
+    "example_en": "We are having dinner at seven o'clock tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1613
+  },
+  {
+    "swedish": "reagera",
+    "english": "react",
+    "example_sv": "Hur kommer han att reagera på nyheten?",
+    "example_en": "How will he react to the news?",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1614
+  },
+  {
+    "swedish": "hjärna",
+    "english": "brain",
+    "example_sv": "Det är viktigt att hålla hjärnan aktiv.",
+    "example_en": "It is important to keep the brain active.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1615
+  },
+  {
+    "swedish": "kulturell",
+    "english": "cultural",
+    "example_sv": "Stockholm har ett rikt kulturellt utbud.",
+    "example_en": "Stockholm has a rich cultural scene.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1616
+  },
+  {
+    "swedish": "södra",
+    "english": "southern",
+    "example_sv": "Vi bor i den södra delen av landet.",
+    "example_en": "We live in the southern part of the country.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1617
+  },
+  {
+    "swedish": "förtroende",
+    "english": "trust",
+    "example_sv": "Det är viktigt att ha förtroende för varandra.",
+    "example_en": "It is important to have trust in each other.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1619
+  },
+  {
+    "swedish": "förordning",
+    "english": "regulation",
+    "example_sv": "Det finns en ny förordning om parkering.",
+    "example_en": "There is a new regulation on parking.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1620
+  },
+  {
+    "swedish": "upphovsrätt",
+    "english": "copyright",
+    "example_sv": "Du måste respektera upphovsrätten på nätet.",
+    "example_en": "You must respect copyright online.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1621
+  },
+  {
+    "swedish": "skuld",
+    "english": "debt",
+    "example_sv": "Jag har en stor skuld till banken.",
+    "example_en": "I have a large debt to the bank.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1622
+  },
+  {
+    "swedish": "professor",
+    "english": "professor",
+    "example_sv": "Professorn höll en intressant föreläsning idag.",
+    "example_en": "The professor gave an interesting lecture today.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1623
+  },
+  {
+    "swedish": "inklusive",
+    "english": "including",
+    "example_sv": "Priset är 500 kronor, inklusive moms.",
+    "example_en": "The price is 500 kronor, including VAT.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "preposition",
+    "rank": 1624
+  },
+  {
+    "swedish": "beskrivning",
+    "english": "description",
+    "example_sv": "Kan du ge mig en beskrivning av tjuven?",
+    "example_en": "Can you give me a description of the thief?",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1625
+  },
+  {
+    "swedish": "lycka",
+    "english": "happiness",
+    "example_sv": "Jag önskar dig all lycka i framtiden.",
+    "example_en": "I wish you all the happiness in the future.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1626
+  },
+  {
+    "swedish": "skrivning",
+    "english": "writing",
+    "example_sv": "Hennes skrivning är mycket kreativ och vacker.",
+    "example_en": "Her writing is very creative and beautiful.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1627
+  },
+  {
+    "swedish": "yrkande",
+    "english": "claim",
+    "example_sv": "Mitt yrkande är att vi behöver mer personal.",
+    "example_en": "My claim is that we need more staff.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1628
+  },
+  {
+    "swedish": "kär",
+    "english": "dear",
+    "example_sv": "Min kära vän, hur mår du idag?",
+    "example_en": "My dear friend, how are you today?",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1629
+  },
+  {
+    "swedish": "äng",
+    "english": "meadow",
+    "example_sv": "Vi gick på en promenad i den gröna ängen.",
+    "example_en": "We went for a walk in the green meadow.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1630
+  },
+  {
+    "swedish": "hänvisa",
+    "english": "refer",
+    "example_sv": "Jag vill hänvisa till kapitel fem i boken.",
+    "example_en": "I want to refer to chapter five in the book.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1631
+  },
+  {
+    "swedish": "buss",
+    "english": "bus",
+    "example_sv": "Jag tar bussen till jobbet varje morgon.",
+    "example_en": "I take the bus to work every morning.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1632
+  },
+  {
+    "swedish": "norra",
+    "english": "northern",
+    "example_sv": "Vi ska åka till norra Sverige på semester.",
+    "example_en": "We are going to northern Sweden on vacation.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1633
+  },
+  {
+    "swedish": "fullständigt",
+    "english": "completely",
+    "example_sv": "Jag är fullständigt säker på att jag har rätt.",
+    "example_en": "I am completely sure that I am right.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1634
+  },
+  {
+    "swedish": "make",
+    "english": "husband",
+    "example_sv": "Min make och jag firar vår bröllopsdag.",
+    "example_en": "My husband and I are celebrating our wedding anniversary.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1635
+  }
+]

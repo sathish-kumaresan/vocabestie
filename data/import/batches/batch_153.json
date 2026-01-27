@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "svärson",
+    "english": "son-in-law",
+    "example_sv": "Min svärson är mycket hjälpsam i trädgården på sommaren.",
+    "example_en": "My son-in-law is very helpful in the garden in the summer.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7967
+  },
+  {
+    "swedish": "tejp",
+    "english": "tape",
+    "example_sv": "Jag behöver tejp för att försegla paketet ordentligt innan jag skickar det.",
+    "example_en": "I need tape to seal the package properly before I send it.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7968
+  },
+  {
+    "swedish": "viskning",
+    "english": "whisper",
+    "example_sv": "Hennes viskning var så tyst att jag knappt kunde höra henne.",
+    "example_en": "Her whisper was so quiet that I could barely hear her.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7969
+  },
+  {
+    "swedish": "fatal",
+    "english": "fatal",
+    "example_sv": "Ett fatal misstag kan få långtgående konsekvenser för hela projektet.",
+    "example_en": "A fatal mistake can have far-reaching consequences for the entire project.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7970
+  },
+  {
+    "swedish": "arbetsam",
+    "english": "industrious",
+    "example_sv": "Hon är en mycket arbetsam student som alltid gör sitt bästa.",
+    "example_en": "She is a very industrious student who always does her best.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7971
+  },
+  {
+    "swedish": "korporativ",
+    "english": "corporatist",
+    "example_sv": "Den korporativa modellen har både fördelar och nackdelar i samhället.",
+    "example_en": "The corporatist model has both advantages and disadvantages in society.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7972
+  },
+  {
+    "swedish": "långfristig",
+    "english": "long-term",
+    "example_sv": "Vi behöver en långfristig strategi för att minska klimatpåverkan.",
+    "example_en": "We need a long-term strategy to reduce climate impact.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7973
+  },
+  {
+    "swedish": "snarka",
+    "english": "snore",
+    "example_sv": "Min man brukar snarka väldigt högt när han sover djupt.",
+    "example_en": "My husband usually snores very loudly when he sleeps deeply.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7974
+  },
+  {
+    "swedish": "ärta",
+    "english": "pea",
+    "example_sv": "Jag odlar egna ärter i trädgården för att få färska grönsaker.",
+    "example_en": "I grow my own peas in the garden to get fresh vegetables.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7976
+  },
+  {
+    "swedish": "kassaskåp",
+    "english": "safe",
+    "example_sv": "Vi förvarar viktiga dokument och smycken i ett brandsäkert kassaskåp.",
+    "example_en": "We keep important documents and jewelry in a fireproof safe.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7977
+  },
+  {
+    "swedish": "fela",
+    "english": "err",
+    "example_sv": "Det är mänskligt att fela, men viktigt att lära sig av sina misstag.",
+    "example_en": "It is human to err, but it is important to learn from your mistakes.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7978
+  },
+  {
+    "swedish": "maskulin",
+    "english": "masculine",
+    "example_sv": "Vissa anser att doften har en starkt maskulin karaktär.",
+    "example_en": "Some consider the scent to have a strongly masculine character.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7979
+  },
+  {
+    "swedish": "radie",
+    "english": "radius",
+    "example_sv": "Cirkelns radie är fem centimeter enligt uppgifterna i boken.",
+    "example_en": "The radius of the circle is five centimeters according to the information in the book.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7980
+  },
+  {
+    "swedish": "utväxling",
+    "english": "gearing",
+    "example_sv": "Den högre utväxlingen ger bättre acceleration men sämre toppfart.",
+    "example_en": "The higher gearing provides better acceleration but lower top speed.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7981
+  },
+  {
+    "swedish": "växellåda",
+    "english": "gearbox",
+    "example_sv": "Mekanikern behövde reparera växellådan i min gamla Volvo direkt.",
+    "example_en": "The mechanic needed to repair the gearbox in my old Volvo right away.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7982
+  },
+  {
+    "swedish": "försyn",
+    "english": "providence",
+    "example_sv": "Många tror att det var försynen som ledde dem samman.",
+    "example_en": "Many believe that it was providence that brought them together.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7984
+  },
+  {
+    "swedish": "glidning",
+    "english": "slippage",
+    "example_sv": "En glidning i budgeten kan orsaka problem med finansieringen.",
+    "example_en": "A slippage in the budget can cause problems with the financing.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7985
+  },
+  {
+    "swedish": "planlägga",
+    "english": "plan",
+    "example_sv": "Vi måste planlägga semestern i god tid för att få bästa pris.",
+    "example_en": "We need to plan the vacation well in advance to get the best price.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7986
+  },
+  {
+    "swedish": "feminin",
+    "english": "feminine",
+    "example_sv": "Klänningen har en vacker och mycket feminin silhuett.",
+    "example_en": "The dress has a beautiful and very feminine silhouette.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7987
+  },
+  {
+    "swedish": "kodifiera",
+    "english": "codify",
+    "example_sv": "Det är viktigt att kodifiera de nya reglerna för att undvika missförstånd.",
+    "example_en": "It is important to codify the new rules to avoid misunderstandings.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7988
+  },
+  {
+    "swedish": "poem",
+    "english": "poem",
+    "example_sv": "Hon skrev ett vackert poem om kärlek och förlust igår.",
+    "example_en": "She wrote a beautiful poem about love and loss yesterday.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7989
+  },
+  {
+    "swedish": "kompanjon",
+    "english": "companion",
+    "example_sv": "Hunden har varit hans trogna kompanjon i många år.",
+    "example_en": "The dog has been his faithful companion for many years.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7990
+  },
+  {
+    "swedish": "stygg",
+    "english": "naughty",
+    "example_sv": "Han var en stygg pojke som alltid hittade på bus.",
+    "example_en": "He was a naughty boy who was always up to mischief.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7991
+  },
+  {
+    "swedish": "anstöt",
+    "english": "offence",
+    "example_sv": "Hennes kommentar gav anstöt till flera personer i rummet.",
+    "example_en": "Her comment caused offense to several people in the room.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7992
+  },
+  {
+    "swedish": "betyg(s)sätta",
+    "english": "grade",
+    "example_sv": "Lärarna kommer att betygssätta alla elevernas arbeten noggrant.",
+    "example_en": "The teachers will grade all the students' work carefully.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7993
+  },
+  {
+    "swedish": "fadd",
+    "english": "bland",
+    "example_sv": "Soppan var lite fadd och behövde mer salt och peppar.",
+    "example_en": "The soup was a little bland and needed more salt and pepper.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7995
+  },
+  {
+    "swedish": "sittning",
+    "english": "sitting",
+    "example_sv": "Vi har en sittning med ledningsgruppen varje måndag morgon.",
+    "example_en": "We have a sitting with the management team every Monday morning.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7996
+  },
+  {
+    "swedish": "besk",
+    "english": "bitter",
+    "example_sv": "Grapefrukten har en lite besk smak som jag gillar.",
+    "example_en": "The grapefruit has a slightly bitter taste that I like.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7997
+  },
+  {
+    "swedish": "rigorös",
+    "english": "rigorous",
+    "example_sv": "De genomförde en rigorös analys av alla data de samlat in.",
+    "example_en": "They conducted a rigorous analysis of all the data they collected.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7998
+  },
+  {
+    "swedish": "moster",
+    "english": "aunt",
+    "example_sv": "Min moster bor i en liten by på landet och älskar bakning.",
+    "example_en": "My aunt lives in a small village in the countryside and loves baking.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7999
+  },
+  {
+    "swedish": "gnida",
+    "english": "rub",
+    "example_sv": "Jag brukar gnida in mina trötta muskler med massageolja ofta.",
+    "example_en": "I usually rub my tired muscles with massage oil often.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8000
+  },
+  {
+    "swedish": "ordningsföljd",
+    "english": "sequence",
+    "example_sv": "Det är viktigt att följa ordningsföljden i instruktionerna noggrant.",
+    "example_en": "It is important to follow the sequence in the instructions carefully.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8001
+  },
+  {
+    "swedish": "ärorik",
+    "english": "glorious",
+    "example_sv": "Det var en ärorik seger för laget efter en spännande match.",
+    "example_en": "It was a glorious victory for the team after an exciting match.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8002
+  },
+  {
+    "swedish": "gnistra",
+    "english": "spark",
+    "example_sv": "Elden började gnistra när vi hällde på mer ved.",
+    "example_en": "The fire started to spark when we poured on more wood.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8003
+  },
+  {
+    "swedish": "pyjamas",
+    "english": "pyjamas",
+    "example_sv": "Jag älskar att krypa ner i min varma pyjamas på kvällen.",
+    "example_en": "I love to curl up in my warm pyjamas in the evening.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8004
+  },
+  {
+    "swedish": "bergig",
+    "english": "mountainous",
+    "example_sv": "Vägen slingrade sig fram genom det bergiga landskapet.",
+    "example_en": "The road snaked through the mountainous landscape.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8005
+  },
+  {
+    "swedish": "fuktighet",
+    "english": "humidity",
+    "example_sv": "Hög fuktighet kan göra att man känner sig klibbig och obekväm.",
+    "example_en": "High humidity can make you feel sticky and uncomfortable.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8006
+  },
+  {
+    "swedish": "inkassera",
+    "english": "collect",
+    "example_sv": "Företaget anlitar ett inkassobolag för att inkassera sina fordringar.",
+    "example_en": "The company hires a debt collection agency to collect its claims.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8007
+  },
+  {
+    "swedish": "laglighet",
+    "english": "legality",
+    "example_sv": "Vi måste säkerställa lagligheten av alla våra affärstransaktioner nu.",
+    "example_en": "We must ensure the legality of all our business transactions now.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8008
+  },
+  {
+    "swedish": "statist",
+    "english": "extra",
+    "example_sv": "Jag arbetade som statist i en film inspelad i gamla stan.",
+    "example_en": "I worked as an extra in a film shot in the old town.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8009
+  },
+  {
+    "swedish": "nobel",
+    "english": "noble",
+    "example_sv": "Hon visade ett nobelt sinne när hon förlät sin fiende totalt.",
+    "example_en": "She showed a noble mind when she forgave her enemy completely.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8010
+  },
+  {
+    "swedish": "beväpning",
+    "english": "armament",
+    "example_sv": "Nedrustning är nödvändig för att minska risken för globala konflikter.",
+    "example_en": "Disarmament is necessary to reduce the risk of global conflicts.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8011
+  },
+  {
+    "swedish": "gymnasist",
+    "english": "high-schooler",
+    "example_sv": "Som gymnasist drömde han om att bli läkare eller sjuksköterska.",
+    "example_en": "As a high-schooler, he dreamed of becoming a doctor or nurse.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8012
+  },
+  {
+    "swedish": "kolossal",
+    "english": "colossal",
+    "example_sv": "Pyramiderna är en kolossal bedrift av forntida ingenjörskonst som imponerar.",
+    "example_en": "The pyramids are a colossal feat of ancient engineering that impresses.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8013
+  },
+  {
+    "swedish": "stek",
+    "english": "roast",
+    "example_sv": "Vi lagade en stor stek till söndagsmiddagen och potatisgratäng.",
+    "example_en": "We cooked a big roast for Sunday dinner, and potato gratin.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8014
+  },
+  {
+    "swedish": "uppkalla",
+    "english": "name",
+    "example_sv": "De bestämde sig för att uppkalla barnet efter sin farfar.",
+    "example_en": "They decided to name the child after their grandfather.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8015
+  },
+  {
+    "swedish": "försegla",
+    "english": "seal",
+    "example_sv": "Vi måste försegla avtalet innan veckans slut så vi kan starta.",
+    "example_en": "We need to seal the agreement before the end of the week so we can start.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8016
+  },
+  {
+    "swedish": "konsortium",
+    "english": "consortium",
+    "example_sv": "Ett konsortium av företag lade ett gemensamt bud på kontraktet.",
+    "example_en": "A consortium of companies made a joint bid for the contract.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8017
+  },
+  {
+    "swedish": "acceptans",
+    "english": "acceptance",
+    "example_sv": "Acceptans är viktigt för att kunna gå vidare efter en svår situation.",
+    "example_en": "Acceptance is important to be able to move on after a difficult situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8018
+  },
+  {
+    "swedish": "grammatisk",
+    "english": "grammatical",
+    "example_sv": "Det är viktigt att använda korrekt grammatisk struktur när man skriver.",
+    "example_en": "It is important to use correct grammatical structure when writing.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8019
+  }
+]

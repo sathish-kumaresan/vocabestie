@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "garage",
+    "english": "garage",
+    "example_sv": "Vi använder garaget mest för förvaring av gamla möbler.",
+    "example_en": "We mostly use the garage for storing old furniture.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6937
+  },
+  {
+    "swedish": "sociologi",
+    "english": "sociology",
+    "example_sv": "Hon studerar sociologi på universitetet och tycker det är fascinerande.",
+    "example_en": "She studies sociology at the university and finds it fascinating.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6938
+  },
+  {
+    "swedish": "angränsande",
+    "english": "adjacent",
+    "example_sv": "De bor i ett rum angränsande till köket.",
+    "example_en": "They live in a room adjacent to the kitchen.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6939
+  },
+  {
+    "swedish": "festlig",
+    "english": "festive",
+    "example_sv": "Det var en mycket festlig stämning på bröllopet.",
+    "example_en": "There was a very festive atmosphere at the wedding.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6940
+  },
+  {
+    "swedish": "generalisera",
+    "english": "generalize",
+    "example_sv": "Man bör inte generalisera om alla människor från en region.",
+    "example_en": "You shouldn't generalize about all people from one region.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6941
+  },
+  {
+    "swedish": "glödlampa",
+    "english": "light bulb",
+    "example_sv": "Kan du byta glödlampan i taket, den har gått sönder?",
+    "example_en": "Can you change the light bulb in the ceiling, it's broken?",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6942
+  },
+  {
+    "swedish": "grubbla",
+    "english": "ponder",
+    "example_sv": "Han brukar grubbla över livets stora frågor på kvällarna.",
+    "example_en": "He usually ponders life's big questions in the evenings.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6943
+  },
+  {
+    "swedish": "lantbrukare",
+    "english": "farmer",
+    "example_sv": "Min farfar var en lantbrukare som brukade jorden med kärlek.",
+    "example_en": "My grandfather was a farmer who cultivated the land with love.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6944
+  },
+  {
+    "swedish": "stipendium",
+    "english": "scholarship",
+    "example_sv": "Hon fick ett stipendium för att studera utomlands i USA.",
+    "example_en": "She received a scholarship to study abroad in the USA.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6945
+  },
+  {
+    "swedish": "strukturera",
+    "english": "structure",
+    "example_sv": "Det är viktigt att strukturera sitt arbete för att vara effektiv.",
+    "example_en": "It is important to structure your work to be effective.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6946
+  },
+  {
+    "swedish": "tjur",
+    "english": "bull",
+    "example_sv": "Tjuren stod i hagen och betraktade oss nyfiket.",
+    "example_en": "The bull stood in the pasture and watched us curiously.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6947
+  },
+  {
+    "swedish": "böna",
+    "english": "bean",
+    "example_sv": "Vi odlar olika sorters böna i vår trädgård varje sommar.",
+    "example_en": "We grow different kinds of beans in our garden every summer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6948
+  },
+  {
+    "swedish": "erotisk",
+    "english": "erotic",
+    "example_sv": "Filmen hade en subtil men tydligt erotisk underton.",
+    "example_en": "The film had a subtle but clearly erotic undertone.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6949
+  },
+  {
+    "swedish": "förträfflig",
+    "english": "excellent",
+    "example_sv": "Det var en förträfflig middag, allting smakade underbart.",
+    "example_en": "It was an excellent dinner, everything tasted wonderful.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6950
+  },
+  {
+    "swedish": "löpare",
+    "english": "runner",
+    "example_sv": "Löparen sprang snabbt förbi oss på vägen.",
+    "example_en": "The runner ran quickly past us on the road.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6951
+  },
+  {
+    "swedish": "medlidande",
+    "english": "compassion",
+    "example_sv": "Jag kände medlidande med den hemlösa mannen på gatan.",
+    "example_en": "I felt compassion for the homeless man on the street.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6952
+  },
+  {
+    "swedish": "spänd",
+    "english": "tense",
+    "example_sv": "Atmosfären var spänd inför presentationen av budgeten.",
+    "example_en": "The atmosphere was tense before the presentation of the budget.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6953
+  },
+  {
+    "swedish": "programmerare",
+    "english": "programmer",
+    "example_sv": "Företaget söker en erfaren programmerare med goda referenser.",
+    "example_en": "The company is looking for an experienced programmer with good references.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6955
+  },
+  {
+    "swedish": "radiostation",
+    "english": "radio station",
+    "example_sv": "Jag lyssnar ofta på den lokala radiostationen i bilen.",
+    "example_en": "I often listen to the local radio station in the car.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6956
+  },
+  {
+    "swedish": "jämvikt",
+    "english": "equilibrium",
+    "example_sv": "Det är viktigt att hitta en jämvikt mellan arbete och fritid.",
+    "example_en": "It's important to find a balance between work and leisure.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6958
+  },
+  {
+    "swedish": "tonvikt",
+    "english": "emphasis",
+    "example_sv": "Läraren lade tonvikt på vikten av källkritik under lektionen.",
+    "example_en": "The teacher emphasized the importance of source criticism during the lesson.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6959
+  },
+  {
+    "swedish": "lobby",
+    "english": "lobby",
+    "example_sv": "Han väntade i lobbyn tills det var hans tur.",
+    "example_en": "He waited in the lobby until it was his turn.",
+    "scenario": "Hotel",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6960
+  },
+  {
+    "swedish": "explosiv",
+    "english": "explosive",
+    "example_sv": "Situationen var mycket explosiv efter anklagelserna.",
+    "example_en": "The situation was very explosive after the accusations.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6961
+  },
+  {
+    "swedish": "hjälplös",
+    "english": "helpless",
+    "example_sv": "Jag kände mig hjälplös när jag inte kunde hjälpa henne.",
+    "example_en": "I felt helpless when I couldn't help her.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6962
+  },
+  {
+    "swedish": "klausul",
+    "english": "clause",
+    "example_sv": "Kontraktet innehöll en klausul om uppsägningstiden.",
+    "example_en": "The contract contained a clause about the notice period.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6963
+  },
+  {
+    "swedish": "spindel",
+    "english": "spider",
+    "example_sv": "Jag fick panik när jag såg en spindel krypa på väggen.",
+    "example_en": "I panicked when I saw a spider crawling on the wall.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6964
+  },
+  {
+    "swedish": "topplista",
+    "english": "top list",
+    "example_sv": "Deras nya låt ligger etta på topplistan denna vecka.",
+    "example_en": "Their new song is number one on the top list this week.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6965
+  },
+  {
+    "swedish": "klump",
+    "english": "lump",
+    "example_sv": "Det var en stor klump socker i botten av kaffekoppen.",
+    "example_en": "There was a large lump of sugar at the bottom of the coffee cup.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6966
+  },
+  {
+    "swedish": "trivsam",
+    "english": "cozy",
+    "example_sv": "Det är så trivsam atmosfär här inne med den öppna spisen.",
+    "example_en": "It's such a cozy atmosphere in here with the fireplace.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6967
+  },
+  {
+    "swedish": "brådskande",
+    "english": "urgent",
+    "example_sv": "Det här är en brådskande fråga som måste åtgärdas omedelbart.",
+    "example_en": "This is an urgent matter that needs to be addressed immediately.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6968
+  },
+  {
+    "swedish": "elementär",
+    "english": "elementary",
+    "example_sv": "Det är elementära kunskaper som alla borde ha.",
+    "example_en": "These are elementary skills that everyone should have.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6969
+  },
+  {
+    "swedish": "rättfärdiga",
+    "english": "justify",
+    "example_sv": "Inget kan rättfärdiga våld mot oskyldiga människor.",
+    "example_en": "Nothing can justify violence against innocent people.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6970
+  },
+  {
+    "swedish": "navigera",
+    "english": "navigate",
+    "example_sv": "Jag försökte navigera mig fram genom den trånga gränden.",
+    "example_en": "I tried to navigate through the narrow alley.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6971
+  },
+  {
+    "swedish": "darra",
+    "english": "tremble",
+    "example_sv": "Hon började darra av nervositet inför presentationen.",
+    "example_en": "She started to tremble with nervousness before the presentation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6972
+  },
+  {
+    "swedish": "flygel",
+    "english": "grand piano",
+    "example_sv": "Hon spelade vackert på flygeln under hela kvällen.",
+    "example_en": "She played beautifully on the grand piano throughout the evening.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6973
+  },
+  {
+    "swedish": "orientering",
+    "english": "orientation",
+    "example_sv": "Vi fick en orientering om företaget under vår första dag.",
+    "example_en": "We received an orientation about the company on our first day.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6974
+  },
+  {
+    "swedish": "utpräglad",
+    "english": "distinct",
+    "example_sv": "Han hade en utpräglad brittisk accent när han talade svenska.",
+    "example_en": "He had a distinct British accent when he spoke Swedish.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6975
+  },
+  {
+    "swedish": "bebo",
+    "english": "inhabit",
+    "example_sv": "Ingen människa kan bebo planeten Mars i dagsläget.",
+    "example_en": "No human can inhabit the planet Mars at the present time.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6976
+  },
+  {
+    "swedish": "embryo",
+    "english": "embryo",
+    "example_sv": "Forskare studerar embryon för att förstå utvecklingen.",
+    "example_en": "Researchers study embryos to understand development.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6977
+  },
+  {
+    "swedish": "lexikon",
+    "english": "dictionary",
+    "example_sv": "Jag använder ett lexikon när jag läser svåra böcker.",
+    "example_en": "I use a dictionary when I read difficult books.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6978
+  },
+  {
+    "swedish": "experimentell",
+    "english": "experimental",
+    "example_sv": "De gjorde en experimentell film som var väldigt speciell.",
+    "example_en": "They made an experimental film that was very special.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6979
+  },
+  {
+    "swedish": "instifta",
+    "english": "establish",
+    "example_sv": "De beslutade att instifta en ny förening för unga konstnärer.",
+    "example_en": "They decided to establish a new association for young artists.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6980
+  },
+  {
+    "swedish": "väsentligen",
+    "english": "essentially",
+    "example_sv": "Hans åsikt skiljer sig väsentligen från min i frågan.",
+    "example_en": "His opinion differs essentially from mine on the issue.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6981
+  },
+  {
+    "swedish": "kortfattad",
+    "english": "concise",
+    "example_sv": "Hon gav en kortfattad sammanfattning av mötets viktigaste punkter.",
+    "example_en": "She gave a concise summary of the meeting's most important points.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6982
+  },
+  {
+    "swedish": "referat",
+    "english": "summary",
+    "example_sv": "Jag ska skriva ett referat från gårdagens intressanta föreläsning.",
+    "example_en": "I will write a summary of yesterday's interesting lecture.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6983
+  },
+  {
+    "swedish": "fyr",
+    "english": "lighthouse",
+    "example_sv": "Vi kunde se fyren blinka långt ute på havet.",
+    "example_en": "We could see the lighthouse flashing far out at sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6984
+  },
+  {
+    "swedish": "förbränning",
+    "english": "combustion",
+    "example_sv": "Förbränningen av fossila bränslen bidrar till växthuseffekten.",
+    "example_en": "The combustion of fossil fuels contributes to the greenhouse effect.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6985
+  },
+  {
+    "swedish": "inrymma",
+    "english": "accommodate",
+    "example_sv": "Byggnaden kan inrymma upp till hundra studenter samtidigt.",
+    "example_en": "The building can accommodate up to one hundred students at a time.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6986
+  },
+  {
+    "swedish": "privilegierad",
+    "english": "privileged",
+    "example_sv": "Han växte upp i en mycket privilegierad miljö.",
+    "example_en": "He grew up in a very privileged environment.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6987
+  },
+  {
+    "swedish": "kardinal",
+    "english": "cardinal",
+    "example_sv": "Kardinalreglerna måste följas oavsett vad som händer.",
+    "example_en": "The cardinal rules must be followed no matter what happens.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6988
+  }
+]

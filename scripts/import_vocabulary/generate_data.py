@@ -1,13 +1,18 @@
 """
-Generate vocabulary data using Claude AI in batches.
+Generate vocabulary data using Google Gemini AI in batches.
+Kelly dataset provides CEFR levels and grammar hints.
+AI only needs to generate: English translation, example sentences, scenario assignment.
+
+Uses Gemini 2.0 Flash. Set GEMINI_API_KEY environment variable before running.
 """
 
 import json
 import time
-import os
-import anthropic
+import random
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
+from google import genai
+from google.genai import errors as genai_errors
 
 # Paths
 BASE_DIR = Path(__file__).parent.parent.parent
@@ -20,7 +25,9 @@ SCENARIOS_FILE = IMPORT_DIR / "scenarios_master.json"
 
 # Config
 BATCH_SIZE = 50
-DELAY_BETWEEN_BATCHES = 2  # seconds
+DELAY_BETWEEN_BATCHES = 2  # seconds between successful requests
+MAX_RETRIES = 5
+MODEL = "gemini-2.0-flash"
 
 
 def load_scenarios() -> list[str]:
@@ -53,39 +60,51 @@ def load_state() -> dict:
 
 def save_state(state: dict):
     """Save processing state."""
-    state["last_updated"] = datetime.utcnow().isoformat()
+    state["last_updated"] = datetime.now(timezone.utc).isoformat()
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
 
 
-def get_difficulty(rank: int) -> str:
-    """Assign difficulty based on frequency rank."""
-    if rank <= 200:
-        return "A1"
-    elif rank <= 500:
-        return "A2"
-    elif rank <= 1000:
-        return "B1"
-    elif rank <= 1500:
-        return "B2"
-    elif rank <= 2000:
-        return "C1"
-    else:
-        return "C2"
+def call_gemini_with_retry(client: genai.Client, prompt: str) -> str:
+    """Call Gemini API with exponential backoff on 429 errors."""
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+            )
+            return response.text.strip()
+        except (genai_errors.ClientError, genai_errors.ServerError, genai_errors.APIError) as e:
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e) or "resource" in str(e).lower():
+                wait = (2 ** attempt) + random.uniform(0, 1)
+                print(f"  Rate limited (attempt {attempt+1}/{MAX_RETRIES}), waiting {wait:.1f}s...")
+                time.sleep(wait)
+            else:
+                raise
+    raise RuntimeError(f"Failed after {MAX_RETRIES} retries due to rate limiting")
 
 
-def process_batch(client: anthropic.Anthropic, batch_num: int, words: list[dict], scenarios: list[str]) -> list[dict]:
-    """Process a batch of words using Claude."""
-    # Build word list for prompt
-    word_list = "\n".join([f"{i+1}. {w['word']} (rank: {w['rank']})" for i, w in enumerate(words)])
+def process_batch(client: genai.Client, batch_num: int, words: list[dict], scenarios: list[str]) -> list[dict]:
+    """Process a batch of words using Gemini."""
+    # Build word list with Kelly metadata for context
+    word_lines = []
+    for i, w in enumerate(words):
+        line = f"{i+1}. {w['word']} (POS: {w['pos']}, CEFR: {w['cefr_level']}"
+        if w.get('kelly_examples'):
+            line += f", examples: {w['kelly_examples'][:80]}"
+        line += ")"
+        word_lines.append(line)
+    word_list = "\n".join(word_lines)
+
     scenario_list = ", ".join(scenarios)
 
     prompt = f"""You are a Swedish language expert. For each Swedish word below, provide:
-1. english: The most common English translation
-2. grammar_hint: One of: en-word, ett-word, verb, adjective, adverb, pronoun, preposition, conjunction, interjection, noun, plural, number, ordinal, phrase
-3. example_sv: A natural Swedish sentence using the word (8-12 words)
-4. example_en: English translation of that sentence
-5. scenario: The BEST matching scenario from the list (choose only ONE)
+1. english: The most common English translation (1-3 words)
+2. example_sv: A natural Swedish sentence using the word (8-12 words)
+3. example_en: English translation of that sentence
+4. scenario: The BEST matching scenario from the list (choose only ONE)
+
+The words already have POS and CEFR level data from the Kelly dataset — you do NOT need to provide those.
 
 Words to process:
 {word_list}
@@ -98,7 +117,6 @@ Return ONLY a valid JSON array with this exact format (no markdown, no explanati
   {{
     "swedish": "word",
     "english": "translation",
-    "grammar_hint": "category",
     "example_sv": "Swedish sentence",
     "example_en": "English translation",
     "scenario": "Scenario Name"
@@ -106,24 +124,20 @@ Return ONLY a valid JSON array with this exact format (no markdown, no explanati
 ]
 
 Important:
-- Ensure grammar_hint accurately reflects the word type
+- Return the swedish word exactly as given (lowercase)
 - Example sentences should be practical and natural
-- Each word must have exactly one scenario
-- Return valid JSON only"""
+- Each word must have exactly one scenario from the list
+- Return valid JSON only, no markdown code fences"""
 
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}]
-    )
-
-    # Parse response
-    response_text = response.content[0].text.strip()
+    response_text = call_gemini_with_retry(client, prompt)
 
     # Remove markdown code blocks if present
     if response_text.startswith("```"):
         lines = response_text.split("\n")
-        response_text = "\n".join(lines[1:-1] if lines[-1] == "```" else lines[1:])
+        if lines[-1].strip() == "```":
+            response_text = "\n".join(lines[1:-1])
+        else:
+            response_text = "\n".join(lines[1:])
 
     try:
         results = json.loads(response_text)
@@ -132,13 +146,14 @@ Important:
         print(f"Response: {response_text[:500]}...")
         raise
 
-    # Add difficulty based on rank
-    word_ranks = {w["word"]: w["rank"] for w in words}
+    # Enrich results with Kelly metadata (CEFR, grammar_hint)
+    word_meta = {w["word"]: w for w in words}
     for result in results:
         swedish = result.get("swedish", "").lower()
-        rank = word_ranks.get(swedish, 1000)
-        result["difficulty"] = get_difficulty(rank)
-        result["rank"] = rank
+        meta = word_meta.get(swedish, {})
+        result["difficulty"] = meta.get("cefr_level", "B1")
+        result["grammar_hint"] = meta.get("grammar_hint", "noun")
+        result["rank"] = meta.get("rank", 0)
 
     return results
 
@@ -146,12 +161,12 @@ Important:
 def main(resume: bool = True, start_batch: int = None):
     """Main entry point."""
     print("=" * 50)
-    print("Generating Vocabulary Data with AI")
+    print("Generating Vocabulary Data with Gemini AI")
     print("=" * 50)
 
     # Setup
     BATCHES_DIR.mkdir(parents=True, exist_ok=True)
-    client = anthropic.Anthropic()  # Uses ANTHROPIC_API_KEY env var
+    client = genai.Client()  # Uses GEMINI_API_KEY env var
 
     # Load data
     words = load_filtered_words()
@@ -167,6 +182,8 @@ def main(resume: bool = True, start_batch: int = None):
     print(f"Batch size: {BATCH_SIZE}")
     print(f"Total batches: {total_batches}")
     print(f"Already completed: {len(state['completed_batches'])}")
+    print(f"Model: {MODEL}")
+    print(f"Delay between batches: {DELAY_BETWEEN_BATCHES}s")
 
     # Determine starting point
     if start_batch is not None:
@@ -194,7 +211,6 @@ def main(resume: bool = True, start_batch: int = None):
             continue
 
         try:
-            # Process with AI
             results = process_batch(client, batch_num, batch_words, scenarios)
 
             # Save batch results
@@ -211,8 +227,8 @@ def main(resume: bool = True, start_batch: int = None):
                 state["failed_batches"].remove(batch_num)
             save_state(state)
 
-            # Delay between batches
-            if batch_num < total_batches:
+            # Delay between batches (respect free tier rate limit)
+            if batch_num < total_batches and len(batches_to_process) > 1:
                 print(f"Waiting {DELAY_BETWEEN_BATCHES}s before next batch...")
                 time.sleep(DELAY_BETWEEN_BATCHES)
 

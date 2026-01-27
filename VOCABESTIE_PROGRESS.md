@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6: Vocabulary Import (IN PROGRESS) |
+| **Current Phase** | Phase 6: Vocabulary Import & PWA (IN PROGRESS) |
 | **Last Session** | January 27, 2026 |
-| **Next Task** | Run AI generation for vocabulary (decide word count: 2000/3500/10000) |
+| **Next Task** | Re-seed database with 8,204 words (`python scripts/seed_data.py`), then verify UI |
 | **Blockers** | None |
 
 ---
@@ -21,7 +21,7 @@
 ### Phase 1: Foundation & Data ✅ COMPLETE
 - [x] Database schema (7 tables)
 - [x] Alembic migrations
-- [x] Vocabulary data (10 scenarios, 198 words)
+- [x] Vocabulary data (42 scenarios, 8,204 words)
 - [x] API endpoints for scenarios and words
 
 ### Phase 2: Core UI Shell ✅ COMPLETE
@@ -114,13 +114,19 @@
   - [x] 42 scenarios defined (26 new + 10 existing + 6 grammar)
 - [x] Fetched and filtered words
   - [x] Source: 10,000 Swedish words (frequency-sorted)
-  - [x] Filtered: 9,806 new words (excluding 196 existing)
+  - [x] Filtered: 8,012 words
   - [x] Saved to `data/import/filtered_words.json`
-- [ ] AI generation (NEXT STEP)
-  - [ ] Decide word count: 2000 / 3500 / 10000
-  - [ ] Run `python scripts/import_vocabulary/generate_data.py`
-- [ ] Merge and import to database
-- [ ] Basic PWA setup (manifest, icons)
+- [x] AI generation with Claude
+  - [x] Ran `generate_data.py` — 161 batches processed
+  - [x] Generated vocabulary for 42 scenarios, 8,204 total words
+  - [x] Merged into `data/vocabulary.json`
+- [x] Updated `scripts/seed_data.py` to clear mastery/status data on re-seed
+- [ ] Re-seed database with new vocabulary (run `python scripts/seed_data.py`)
+- [x] Basic PWA setup
+  - [x] `app/static/manifest.json` — app name, display standalone, Swedish colors
+  - [x] `app/static/icons/` — PNG icons (192, 512) + screenshots (wide, narrow)
+  - [x] `app/static/sw.js` — service worker (cache-first static, network-first HTML/API)
+  - [x] `app/templates/base.html` — manifest link, theme-color, mobile meta tags, SW registration
 
 ### Phase 7: Launch Prep (Future)
 - [ ] Landing page
@@ -153,7 +159,11 @@ vocabestie/
 │   │       ├── session.html, complete.html, no_words.html
 │   │       ├── exercise_read.html, exercise_listen.html
 │   │       ├── exercise_speak.html, exercise_write.html
-│   └── static/js/tts.js
+│   └── static/
+│       ├── js/tts.js
+│       ├── manifest.json            # PWA manifest
+│       ├── sw.js                    # Service worker
+│       └── icons/                   # PWA icons & screenshots
 ├── scripts/
 │   ├── seed_data.py
 │   └── import_vocabulary/       # NEW: Vocabulary import scripts
@@ -198,6 +208,7 @@ uvicorn app.main:app --reload
 | Jan 26, 2026 | Phase 4: Streak tracking, time tracking, statistics page, word status UI, scenario progress, "already known" feature |
 | Jan 27, 2026 | Phase 5: Google OAuth authentication, server-side sessions, guest data migration, auth UI |
 | Jan 27, 2026 | Phase 6 started: Vocabulary import scripts, 42 scenarios defined, 9,806 words fetched and filtered |
+| Jan 27, 2026 | AI vocabulary generation: 161 batches via Claude API, 8,204 words across 42 scenarios. Updated seed script, fetch_words, generate_data scripts. Basic PWA setup: manifest.json, PNG icons (192/512), screenshots (wide/narrow), service worker (cache-first static, network-first HTML/API), base.html meta tags and SW registration |
 
 ---
 
@@ -213,11 +224,11 @@ This is Vocabestie, a Swedish vocabulary learning app with:
 - Dark theme with Swedish flag colors (blue/yellow)
 - Google OAuth authentication with server-side sessions
 
-Current status: Phase 6 in progress (Vocabulary Import)
-Next task: Run AI generation for vocabulary
-  - 9,806 words ready in data/import/filtered_words.json
-  - Decide word count: 2000 (fast) / 3500 (balanced) / 10000 (full)
-  - Run: python scripts/import_vocabulary/generate_data.py
+Current status: Phase 6 nearly complete (Vocabulary Import & PWA done)
+Next task: Re-seed database with 8,204 words and verify UI
+  - Run: python scripts/seed_data.py
+  - Verify scenarios and words display correctly
+  - PWA is set up and working (manifest, service worker, icons)
 ```
 
 ---

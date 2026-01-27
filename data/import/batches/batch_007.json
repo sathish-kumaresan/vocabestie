@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "ena",
+    "english": "unite",
+    "example_sv": "Vi måste ena oss för att lösa detta problem.",
+    "example_en": "We must unite to solve this problem.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 356
+  },
+  {
+    "swedish": "svara",
+    "english": "answer",
+    "example_sv": "Kan du svara på frågan om Sveriges huvudstad?",
+    "example_en": "Can you answer the question about Sweden's capital?",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 357
+  },
+  {
+    "swedish": "ner",
+    "english": "down",
+    "example_sv": "Jag går ner till affären och köper mjölk.",
+    "example_en": "I'm going down to the store to buy milk.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 358
+  },
+  {
+    "swedish": "fortsätta",
+    "english": "continue",
+    "example_sv": "Vi kan fortsätta diskussionen imorgon, om det passar.",
+    "example_en": "We can continue the discussion tomorrow, if it suits.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 359
+  },
+  {
+    "swedish": "bruka",
+    "english": "used to",
+    "example_sv": "Jag brukade bo i Stockholm när jag var yngre.",
+    "example_en": "I used to live in Stockholm when I was younger.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 361
+  },
+  {
+    "swedish": "mål",
+    "english": "goal",
+    "example_sv": "Mitt mål är att lära mig svenska flytande.",
+    "example_en": "My goal is to learn Swedish fluently.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 362
+  },
+  {
+    "swedish": "par",
+    "english": "pair",
+    "example_sv": "Jag behöver ett par nya skor till vintern.",
+    "example_en": "I need a pair of new shoes for the winter.",
+    "scenario": "Clothing",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 363
+  },
+  {
+    "swedish": "sent",
+    "english": "late",
+    "example_sv": "Det är sent nu, så vi borde gå hem.",
+    "example_en": "It's late now, so we should go home.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 364
+  },
+  {
+    "swedish": "ekonomisk",
+    "english": "economic",
+    "example_sv": "Företaget har en ekonomisk plan för nästa år.",
+    "example_en": "The company has an economic plan for next year.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 365
+  },
+  {
+    "swedish": "kl. (klockan)",
+    "english": "o'clock",
+    "example_sv": "Mötet börjar kl. 14:00 i konferensrummet.",
+    "example_en": "The meeting starts at 2:00 PM in the conference room.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 366
+  },
+  {
+    "swedish": "dålig",
+    "english": "bad",
+    "example_sv": "Jag mår dåligt idag och vill vila hemma.",
+    "example_en": "I feel bad today and want to rest at home.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 367
+  },
+  {
+    "swedish": "namn",
+    "english": "name",
+    "example_sv": "Vad är ditt namn, och hur stavar man det?",
+    "example_en": "What is your name, and how do you spell it?",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 368
+  },
+  {
+    "swedish": "igen",
+    "english": "again",
+    "example_sv": "Kan du säga det igen, jag hörde inte.",
+    "example_en": "Can you say that again, I didn't hear.",
+    "scenario": "Common Verbs",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 369
+  },
+  {
+    "swedish": "verkligen",
+    "english": "really",
+    "example_sv": "Är du verkligen säker på att du vill göra det?",
+    "example_en": "Are you really sure you want to do that?",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 370
+  },
+  {
+    "swedish": "mena",
+    "english": "mean",
+    "example_sv": "Vad menar du med det du sa nyss?",
+    "example_en": "What do you mean by what you just said?",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 371
+  },
+  {
+    "swedish": "fortfarande",
+    "english": "still",
+    "example_sv": "Jag är fortfarande trött efter den långa resan.",
+    "example_en": "I'm still tired after the long trip.",
+    "scenario": "At the Airport",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 372
+  },
+  {
+    "swedish": "grupp",
+    "english": "group",
+    "example_sv": "Vi arbetar i en grupp om fem personer.",
+    "example_en": "We are working in a group of five people.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 373
+  },
+  {
+    "swedish": "beslut",
+    "english": "decision",
+    "example_sv": "Vi måste fatta ett beslut om projektets framtid.",
+    "example_en": "We must make a decision about the project's future.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 374
+  },
+  {
+    "swedish": "även om",
+    "english": "even if",
+    "example_sv": "Även om det regnar, ska vi gå ut.",
+    "example_en": "Even if it rains, we will go out.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "conjunction",
+    "rank": 375
+  },
+  {
+    "swedish": "enda",
+    "english": "only",
+    "example_sv": "Det enda jag vill ha är lite lugn och ro.",
+    "example_en": "The only thing I want is some peace and quiet.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 376
+  },
+  {
+    "swedish": "bort",
+    "english": "away",
+    "example_sv": "Jag måste ta bort den gamla informationen först.",
+    "example_en": "I have to remove the old information first.",
+    "scenario": "Technology",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 377
+  },
+  {
+    "swedish": "slå",
+    "english": "hit",
+    "example_sv": "Man kan slå upp ord i en ordbok.",
+    "example_en": "You can look up words in a dictionary.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 378
+  },
+  {
+    "swedish": "möjlig",
+    "english": "possible",
+    "example_sv": "Det är möjligt att jag kommer sent imorgon.",
+    "example_en": "It is possible that I will be late tomorrow.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 379
+  },
+  {
+    "swedish": "många",
+    "english": "many",
+    "example_sv": "Det finns många bra restauranger i den här staden.",
+    "example_en": "There are many good restaurants in this city.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "pronoun",
+    "rank": 380
+  },
+  {
+    "swedish": "hända",
+    "english": "happen",
+    "example_sv": "Vad kommer att hända om vi inte gör det?",
+    "example_en": "What will happen if we don't do it?",
+    "scenario": "Common Verbs",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 381
+  },
+  {
+    "swedish": "ämna",
+    "english": "intend",
+    "example_sv": "Jag ämnar att åka till Italien i sommar.",
+    "example_en": "I intend to go to Italy this summer.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 382
+  },
+  {
+    "swedish": "endast",
+    "english": "only",
+    "example_sv": "Endast medlemmar har tillträde till klubben.",
+    "example_en": "Only members have access to the club.",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 383
+  },
+  {
+    "swedish": "vidare",
+    "english": "further",
+    "example_sv": "Vi kan diskutera detta vidare vid ett senare tillfälle.",
+    "example_en": "We can discuss this further at a later time.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 385
+  },
+  {
+    "swedish": "ganska",
+    "english": "quite",
+    "example_sv": "Jag är ganska trött efter jobbet idag.",
+    "example_en": "I'm quite tired after work today.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 386
+  },
+  {
+    "swedish": "svar",
+    "english": "answer",
+    "example_sv": "Jag väntar på ett svar från företaget.",
+    "example_en": "I am waiting for an answer from the company.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 387
+  },
+  {
+    "swedish": "varenda",
+    "english": "every single",
+    "example_sv": "Varenda person i gruppen måste delta aktivt.",
+    "example_en": "Every single person in the group must participate actively.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "pronoun",
+    "rank": 388
+  },
+  {
+    "swedish": "istället (el. i stället)",
+    "english": "instead",
+    "example_sv": "Jag tar te istället för kaffe, tack.",
+    "example_en": "I'll have tea instead of coffee, thank you.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 389
+  },
+  {
+    "swedish": "först",
+    "english": "first",
+    "example_sv": "Vi måste äta först, sedan kan vi gå ut.",
+    "example_en": "We must eat first, then we can go out.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 390
+  },
+  {
+    "swedish": "arbeta",
+    "english": "work",
+    "example_sv": "Jag arbeta på ett kontor i Stockholm.",
+    "example_en": "I work in an office in Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 391
+  },
+  {
+    "swedish": "heller",
+    "english": "either",
+    "example_sv": "Jag vill inte gå dit, och han vill inte heller.",
+    "example_en": "I don't want to go there, and he doesn't either.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 392
+  },
+  {
+    "swedish": "riktigt",
+    "english": "really",
+    "example_sv": "Är det riktigt kallt ute idag?",
+    "example_en": "Is it really cold outside today?",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 393
+  },
+  {
+    "swedish": "hand",
+    "english": "hand",
+    "example_sv": "Jag skakade hand med chefen efter mötet.",
+    "example_en": "I shook hands with the boss after the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 394
+  },
+  {
+    "swedish": "uppgift",
+    "english": "task",
+    "example_sv": "Min uppgift är att skriva rapporten denna vecka.",
+    "example_en": "My task is to write the report this week.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 395
+  },
+  {
+    "swedish": "fungera (vardagl. funka)",
+    "english": "work",
+    "example_sv": "Den nya datorn fungerar inte som den ska.",
+    "example_en": "The new computer isn't working as it should.",
+    "scenario": "Technology",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 396
+  },
+  {
+    "swedish": "beta",
+    "english": "graze",
+    "example_sv": "Kor betar i hagen under sommaren.",
+    "example_en": "Cows graze in the pasture during the summer.",
+    "scenario": "Animals",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 397
+  },
+  {
+    "swedish": "nästan",
+    "english": "almost",
+    "example_sv": "Jag är nästan klar med min läxa.",
+    "example_en": "I am almost finished with my homework.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 399
+  },
+  {
+    "swedish": "bland",
+    "english": "among",
+    "example_sv": "Bland annat fanns det frukt och kakor.",
+    "example_en": "Among other things, there were fruit and cookies.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "preposition",
+    "rank": 401
+  },
+  {
+    "swedish": "december",
+    "english": "December",
+    "example_sv": "Jag fyller år i december, precis före jul.",
+    "example_en": "My birthday is in December, just before Christmas.",
+    "scenario": "Days & Months",
+    "difficulty": "A1",
+    "grammar_hint": "noun",
+    "rank": 402
+  },
+  {
+    "swedish": "sitta",
+    "english": "sit",
+    "example_sv": "Jag tycker om att sitta ute i solen.",
+    "example_en": "I like to sit outside in the sun.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 403
+  },
+  {
+    "swedish": "precis",
+    "english": "exactly",
+    "example_sv": "Det är precis vad jag tänkte!",
+    "example_en": "That's exactly what I was thinking!",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 404
+  },
+  {
+    "swedish": "åta sig",
+    "english": "undertake",
+    "example_sv": "Han åtog sig uppgiften att leda projektet.",
+    "example_en": "He undertook the task of leading the project.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 406
+  },
+  {
+    "swedish": "bland annat (förk. bl.a.)",
+    "english": "among other things",
+    "example_sv": "Vi ska bjuda på bland annat tårta och kaffe.",
+    "example_en": "We're serving, among other things, cake and coffee.",
+    "scenario": "Celebrations",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 407
+  },
+  {
+    "swedish": "krig",
+    "english": "war",
+    "example_sv": "Krig skapar alltid mycket lidande för människor.",
+    "example_en": "War always creates much suffering for people.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 408
+  },
+  {
+    "swedish": "till exempel (förk. t.ex., t ex)",
+    "english": "for example",
+    "example_sv": "Jag tycker om att läsa böcker, till exempel deckare.",
+    "example_en": "I like to read books, for example, detective novels.",
+    "scenario": "Hobbies",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 409
+  },
+  {
+    "swedish": "tillsammans",
+    "english": "together",
+    "example_sv": "Vi kan göra det här tillsammans, det blir roligare.",
+    "example_en": "We can do this together, it will be more fun.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 410
+  }
+]

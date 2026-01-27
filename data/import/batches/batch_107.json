@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "spädbarn",
+    "english": "infant, baby",
+    "example_sv": "Spädbarnet sov lugnt i sin säng hela natten.",
+    "example_en": "The infant slept peacefully in its bed all night.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5610
+  },
+  {
+    "swedish": "domslut",
+    "english": "verdict, judgment",
+    "example_sv": "Domslutet i rättegången förväntas komma nästa vecka.",
+    "example_en": "The verdict in the trial is expected to come next week.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5611
+  },
+  {
+    "swedish": "dyrka",
+    "english": "adore, worship",
+    "example_sv": "Många dyrkar solen efter en lång och mörk vinter.",
+    "example_en": "Many adore the sun after a long and dark winter.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5612
+  },
+  {
+    "swedish": "utmärkelse",
+    "english": "award, honor",
+    "example_sv": "Hon fick en utmärkelse för sitt engagemang i föreningen.",
+    "example_en": "She received an award for her commitment to the association.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5613
+  },
+  {
+    "swedish": "katalog",
+    "english": "catalog, directory",
+    "example_sv": "Jag hittade en intressant lampa i deras nya katalog.",
+    "example_en": "I found an interesting lamp in their new catalog.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5614
+  },
+  {
+    "swedish": "bredband",
+    "english": "broadband",
+    "example_sv": "Vi behöver ett snabbare bredband för att kunna streama filmer.",
+    "example_en": "We need faster broadband to be able to stream movies.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5615
+  },
+  {
+    "swedish": "kemi",
+    "english": "chemistry",
+    "example_sv": "Hon studerar kemi på universitetet och tycker det är fascinerande.",
+    "example_en": "She studies chemistry at the university and finds it fascinating.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 5616
+  },
+  {
+    "swedish": "foster",
+    "english": "fetus",
+    "example_sv": "Läkaren kontrollerade fostrets hjärtslag under ultraljudsundersökningen.",
+    "example_en": "The doctor checked the fetus's heartbeat during the ultrasound.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5617
+  },
+  {
+    "swedish": "tillfällighet",
+    "english": "coincidence",
+    "example_sv": "Det var en ren tillfällighet att vi träffades där.",
+    "example_en": "It was a pure coincidence that we met there.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5618
+  },
+  {
+    "swedish": "enastående",
+    "english": "outstanding, remarkable",
+    "example_sv": "Hennes prestation var enastående och överträffade alla förväntningar.",
+    "example_en": "Her performance was outstanding and exceeded all expectations.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5619
+  },
+  {
+    "swedish": "rökning",
+    "english": "smoking",
+    "example_sv": "Rökning är skadligt för hälsan och bör undvikas.",
+    "example_en": "Smoking is harmful to health and should be avoided.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5620
+  },
+  {
+    "swedish": "muta",
+    "english": "bribe",
+    "example_sv": "Det är olagligt att muta tjänstemän inom offentlig sektor.",
+    "example_en": "It is illegal to bribe public officials.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5622
+  },
+  {
+    "swedish": "motgång",
+    "english": "setback, adversity",
+    "example_sv": "Trots motgångar lyckades han till slut nå sina mål.",
+    "example_en": "Despite setbacks, he finally managed to achieve his goals.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5623
+  },
+  {
+    "swedish": "människosyn",
+    "english": "view of humanity",
+    "example_sv": "Hennes människosyn är optimistisk och inkluderande.",
+    "example_en": "Her view of humanity is optimistic and inclusive.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5624
+  },
+  {
+    "swedish": "omvända",
+    "english": "convert, reverse",
+    "example_sv": "De försöker omvända fler människor till sin religion.",
+    "example_en": "They are trying to convert more people to their religion.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5625
+  },
+  {
+    "swedish": "sammanbrott",
+    "english": "breakdown, collapse",
+    "example_sv": "Stressen ledde till ett fullständigt sammanbrott för honom.",
+    "example_en": "The stress led to a complete breakdown for him.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5626
+  },
+  {
+    "swedish": "auktoritär",
+    "english": "authoritarian",
+    "example_sv": "Han har en auktoritär ledarstil som inte alla uppskattar.",
+    "example_en": "He has an authoritarian leadership style that not everyone appreciates.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5627
+  },
+  {
+    "swedish": "bebis",
+    "english": "baby",
+    "example_sv": "Den lilla bebisen skrattade åt sin mammas grimaser.",
+    "example_en": "The little baby laughed at her mother's funny faces.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5628
+  },
+  {
+    "swedish": "fat",
+    "english": "dish, plate",
+    "example_sv": "Hon la upp maten på ett stort fat och serverade.",
+    "example_en": "She put the food on a large plate and served it.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5629
+  },
+  {
+    "swedish": "hunger",
+    "english": "hunger",
+    "example_sv": "Efter vandringen kände jag en stark hunger.",
+    "example_en": "After the hike, I felt a strong hunger.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5630
+  },
+  {
+    "swedish": "metafor",
+    "english": "metaphor",
+    "example_sv": "Livet är en metafor för en resa, menade han.",
+    "example_en": "Life is a metaphor for a journey, he argued.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5631
+  },
+  {
+    "swedish": "understödja",
+    "english": "support, aid",
+    "example_sv": "Vi måste understödja de som är i behov av hjälp.",
+    "example_en": "We must support those who are in need of help.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5632
+  },
+  {
+    "swedish": "anamma",
+    "english": "adopt, embrace",
+    "example_sv": "Företaget bestämde sig för att anamma en ny strategi.",
+    "example_en": "The company decided to adopt a new strategy.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5633
+  },
+  {
+    "swedish": "arrestera",
+    "english": "arrest",
+    "example_sv": "Polisen var tvungen att arrestera mannen efter bråket.",
+    "example_en": "The police had to arrest the man after the fight.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5634
+  },
+  {
+    "swedish": "barriär",
+    "english": "barrier",
+    "example_sv": "Språkbarriären gjorde det svårt att kommunicera.",
+    "example_en": "The language barrier made it difficult to communicate.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5635
+  },
+  {
+    "swedish": "best",
+    "english": "beast",
+    "example_sv": "Det sägs att det finns ett odjur i sjön.",
+    "example_en": "It is said that there is a beast in the lake.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5636
+  },
+  {
+    "swedish": "fästning",
+    "english": "fortress",
+    "example_sv": "Den gamla fästningen skyddade staden från invasioner.",
+    "example_en": "The old fortress protected the city from invasions.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5637
+  },
+  {
+    "swedish": "immateriell",
+    "english": "intangible",
+    "example_sv": "Kärlek är en immateriell känsla som är svår att beskriva.",
+    "example_en": "Love is an intangible feeling that is difficult to describe.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5638
+  },
+  {
+    "swedish": "vansinne",
+    "english": "insanity, madness",
+    "example_sv": "Det var ett vansinne att köra så fort i den kurvan.",
+    "example_en": "It was insane to drive so fast in that curve.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5639
+  },
+  {
+    "swedish": "involvera",
+    "english": "involve",
+    "example_sv": "Vi vill involvera fler medarbetare i projektet.",
+    "example_en": "We want to involve more employees in the project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5640
+  },
+  {
+    "swedish": "hopplös",
+    "english": "hopeless",
+    "example_sv": "Situationen kändes hopplös, men vi gav inte upp.",
+    "example_en": "The situation felt hopeless, but we didn't give up.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5641
+  },
+  {
+    "swedish": "införliva",
+    "english": "incorporate, integrate",
+    "example_sv": "Vi måste införliva dessa nya regler i systemet.",
+    "example_en": "We must incorporate these new rules into the system.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5642
+  },
+  {
+    "swedish": "tacksamhet",
+    "english": "gratitude",
+    "example_sv": "Jag känner stor tacksamhet för all hjälp jag fått.",
+    "example_en": "I feel great gratitude for all the help I have received.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5643
+  },
+  {
+    "swedish": "återkalla",
+    "english": "recall, revoke",
+    "example_sv": "Företaget tvingades återkalla produkten på grund av defekter.",
+    "example_en": "The company was forced to recall the product due to defects.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5644
+  },
+  {
+    "swedish": "jämnt",
+    "english": "evenly, smooth",
+    "example_sv": "Dela upp kakan jämnt mellan er alla.",
+    "example_en": "Divide the cake evenly between you all.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5645
+  },
+  {
+    "swedish": "extremist",
+    "english": "extremist",
+    "example_sv": "Extremister utgör ett hot mot demokratin och samhället.",
+    "example_en": "Extremists pose a threat to democracy and society.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5646
+  },
+  {
+    "swedish": "civilbefolkning",
+    "english": "civilian population",
+    "example_sv": "Kriget drabbar alltid civilbefolkningen hårdast.",
+    "example_en": "War always affects the civilian population the hardest.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5647
+  },
+  {
+    "swedish": "förtvivlan",
+    "english": "despair",
+    "example_sv": "Hennes förtvivlan var djup efter förlusten.",
+    "example_en": "Her despair was deep after the loss.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5648
+  },
+  {
+    "swedish": "löntagare",
+    "english": "employee, wage earner",
+    "example_sv": "De flesta i Sverige är löntagare och betalar skatt.",
+    "example_en": "Most people in Sweden are employees and pay taxes.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5649
+  },
+  {
+    "swedish": "åratal",
+    "english": "years, for years",
+    "example_sv": "I åratal har de kämpat för sina rättigheter.",
+    "example_en": "For years they have fought for their rights.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "noun",
+    "rank": 5650
+  },
+  {
+    "swedish": "överträffa",
+    "english": "surpass, exceed",
+    "example_sv": "Hennes resultat överträffade alla våra förväntningar.",
+    "example_en": "Her results surpassed all our expectations.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5651
+  },
+  {
+    "swedish": "flitig",
+    "english": "diligent, industrious",
+    "example_sv": "Hon är en flitig student som alltid gör sitt bästa.",
+    "example_en": "She is a diligent student who always does her best.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5652
+  },
+  {
+    "swedish": "härleda",
+    "english": "derive, deduce",
+    "example_sv": "Man kan härleda många ord från latin.",
+    "example_en": "Many words can be derived from Latin.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5653
+  },
+  {
+    "swedish": "greve",
+    "english": "count, earl",
+    "example_sv": "Greven bodde i ett stort slott på landet.",
+    "example_en": "The count lived in a large castle in the countryside.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5654
+  },
+  {
+    "swedish": "internt",
+    "english": "internally",
+    "example_sv": "Frågan kommer att diskuteras internt inom företaget.",
+    "example_en": "The issue will be discussed internally within the company.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5655
+  },
+  {
+    "swedish": "soppa",
+    "english": "soup",
+    "example_sv": "Jag lagade en varm soppa till middag igår.",
+    "example_en": "I made a warm soup for dinner yesterday.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5656
+  },
+  {
+    "swedish": "tvivelaktig",
+    "english": "doubtful, questionable",
+    "example_sv": "Hans förklaring verkade tvivelaktig och osannolik.",
+    "example_en": "His explanation seemed doubtful and unlikely.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5657
+  },
+  {
+    "swedish": "ändamålsenlig",
+    "english": "appropriate, suitable",
+    "example_sv": "Den här metoden är inte ändamålsenlig för det problemet.",
+    "example_en": "This method is not appropriate for that problem.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5658
+  },
+  {
+    "swedish": "byråkrat",
+    "english": "bureaucrat",
+    "example_sv": "Byråkraterna kan ibland göra processerna långsamma.",
+    "example_en": "Bureaucrats can sometimes make the processes slow.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5659
+  },
+  {
+    "swedish": "lagstiftande",
+    "english": "legislative",
+    "example_sv": "Riksdagen har en lagstiftande makt i Sverige.",
+    "example_en": "The parliament has a legislative power in Sweden.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5660
+  }
+]

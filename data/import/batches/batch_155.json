@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "systerdotter",
+    "english": "niece",
+    "example_sv": "Min systerdotter älskar att spela datorspel hela dagarna.",
+    "example_en": "My niece loves to play computer games all day long.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8074
+  },
+  {
+    "swedish": "turkos",
+    "english": "turquoise",
+    "example_sv": "Hon valde en turkos klänning för sommarfesten vid havet.",
+    "example_en": "She chose a turquoise dress for the summer party by the sea.",
+    "scenario": "Colors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8075
+  },
+  {
+    "swedish": "huvudrollsinnehavare",
+    "english": "lead actor",
+    "example_sv": "Huvudrollsinnehavaren i filmen fick stående ovationer efter premiären.",
+    "example_en": "The lead actor in the film received a standing ovation after the premiere.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8076
+  },
+  {
+    "swedish": "kraftlös",
+    "english": "feeble",
+    "example_sv": "Efter den långa sjukdomen kände hon sig helt kraftlös.",
+    "example_en": "After the long illness, she felt completely feeble.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8077
+  },
+  {
+    "swedish": "spann",
+    "english": "span",
+    "example_sv": "Det finns ett stort spann av åsikter inom gruppen.",
+    "example_en": "There is a large span of opinions within the group.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8078
+  },
+  {
+    "swedish": "förbittring",
+    "english": "resentment",
+    "example_sv": "Hans förbittring över orättvisan växte med tiden.",
+    "example_en": "His resentment over the injustice grew over time.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8079
+  },
+  {
+    "swedish": "metallisk",
+    "english": "metallic",
+    "example_sv": "Bilen hade en vacker, metallisk blå färg.",
+    "example_en": "The car had a beautiful metallic blue color.",
+    "scenario": "Colors",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8080
+  },
+  {
+    "swedish": "repertoar",
+    "english": "repertoire",
+    "example_sv": "Orkesterns repertoar inkluderar både klassiska och moderna verk.",
+    "example_en": "The orchestra's repertoire includes both classical and modern works.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8081
+  },
+  {
+    "swedish": "avspänd",
+    "english": "relaxed",
+    "example_sv": "Efter yogan kände hon sig mycket mer avspänd.",
+    "example_en": "After yoga, she felt much more relaxed.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8082
+  },
+  {
+    "swedish": "butiksägare",
+    "english": "shop owner",
+    "example_sv": "Butiksägaren öppnade dörren och hälsade oss välkomna.",
+    "example_en": "The shop owner opened the door and welcomed us.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8083
+  },
+  {
+    "swedish": "kännare",
+    "english": "connoisseur",
+    "example_sv": "Han är en kännare av goda viner från Bourgogne.",
+    "example_en": "He is a connoisseur of fine wines from Burgundy.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8084
+  },
+  {
+    "swedish": "samtalspartner",
+    "english": "conversationalist",
+    "example_sv": "Hon var en intelligent och stimulerande samtalspartner.",
+    "example_en": "She was an intelligent and stimulating conversationalist.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8085
+  },
+  {
+    "swedish": "överväldiga",
+    "english": "overwhelm",
+    "example_sv": "Synen av det vackra landskapet kunde överväldiga mig.",
+    "example_en": "The sight of the beautiful landscape could overwhelm me.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8086
+  },
+  {
+    "swedish": "diagnostisk",
+    "english": "diagnostic",
+    "example_sv": "Läkaren utförde en diagnostisk undersökning för att fastställa orsaken.",
+    "example_en": "The doctor performed a diagnostic examination to determine the cause.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8089
+  },
+  {
+    "swedish": "ställ",
+    "english": "stand",
+    "example_sv": "Han parkerade cykeln i stället utanför affären.",
+    "example_en": "He parked the bicycle in the stand outside the store.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8090
+  },
+  {
+    "swedish": "kontingent",
+    "english": "contingent",
+    "example_sv": "Sverige skickade en militär kontingent till fredsbevarande insatsen.",
+    "example_en": "Sweden sent a military contingent to the peacekeeping operation.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8091
+  },
+  {
+    "swedish": "projektil",
+    "english": "projectile",
+    "example_sv": "Projektilen avfyrades från kanonen med stor kraft.",
+    "example_en": "The projectile was fired from the cannon with great force.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8092
+  },
+  {
+    "swedish": "avtäcka",
+    "english": "unveil",
+    "example_sv": "De kommer att avtäcka den nya statyn imorgon.",
+    "example_en": "They will unveil the new statue tomorrow.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8094
+  },
+  {
+    "swedish": "iakttagare",
+    "english": "observer",
+    "example_sv": "Som iakttagare kunde han se hela händelseförloppet.",
+    "example_en": "As an observer, he could see the whole course of events.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8095
+  },
+  {
+    "swedish": "atmosfärisk",
+    "english": "atmospheric",
+    "example_sv": "Filmen hade en mycket atmosfärisk stämning med dimma och ljuseffekter.",
+    "example_en": "The film had a very atmospheric mood with fog and lighting effects.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8096
+  },
+  {
+    "swedish": "borttagning",
+    "english": "removal",
+    "example_sv": "Borttagningen av stubben var svårare än vi trodde.",
+    "example_en": "The removal of the stump was more difficult than we thought.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8097
+  },
+  {
+    "swedish": "differentiera",
+    "english": "differentiate",
+    "example_sv": "Det är viktigt att differentiera mellan olika typer av information.",
+    "example_en": "It is important to differentiate between different types of information.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8098
+  },
+  {
+    "swedish": "fysiker",
+    "english": "physicist",
+    "example_sv": "Fysikern forskade på mörk materia och energi.",
+    "example_en": "The physicist researched dark matter and energy.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8099
+  },
+  {
+    "swedish": "mygga",
+    "english": "mosquito",
+    "example_sv": "På sommaren blir jag ofta biten av myggor vid sjön.",
+    "example_en": "In the summer, I often get bitten by mosquitoes by the lake.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8100
+  },
+  {
+    "swedish": "silke",
+    "english": "silk",
+    "example_sv": "Hon bar en klänning gjord av mjukt silke.",
+    "example_en": "She wore a dress made of soft silk.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8102
+  },
+  {
+    "swedish": "borste",
+    "english": "brush",
+    "example_sv": "Jag behöver en ny borste för att rengöra skorna.",
+    "example_en": "I need a new brush to clean the shoes.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8104
+  },
+  {
+    "swedish": "sparv",
+    "english": "sparrow",
+    "example_sv": "En liten sparv hoppade runt på balkongen.",
+    "example_en": "A small sparrow hopped around on the balcony.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8105
+  },
+  {
+    "swedish": "stränghet",
+    "english": "severity",
+    "example_sv": "Läraren var känd för sin stränghet i klassrummet.",
+    "example_en": "The teacher was known for her severity in the classroom.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8106
+  },
+  {
+    "swedish": "nittonde",
+    "english": "nineteenth",
+    "example_sv": "Det var den nittonde dagen i månaden redan.",
+    "example_en": "It was the nineteenth day of the month already.",
+    "scenario": "Days & Months",
+    "difficulty": "C2",
+    "grammar_hint": "number",
+    "rank": 8107
+  },
+  {
+    "swedish": "i övermorgon",
+    "english": "the day after",
+    "example_sv": "Jag reser till Stockholm i övermorgon för att besöka museet.",
+    "example_en": "I'm traveling to Stockholm the day after tomorrow to visit the museum.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "adverb",
+    "rank": 8108
+  },
+  {
+    "swedish": "motsägande",
+    "english": "contradictory",
+    "example_sv": "Hans uttalanden var ofta motsägande och förvirrande.",
+    "example_en": "His statements were often contradictory and confusing.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8109
+  },
+  {
+    "swedish": "käring",
+    "english": "old woman",
+    "example_sv": "En gammal käring satt på bänken och läste en bok.",
+    "example_en": "An old woman sat on the bench and read a book.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8110
+  },
+  {
+    "swedish": "blus",
+    "english": "blouse",
+    "example_sv": "Hon köpte en ny blus med vackra blommor på.",
+    "example_en": "She bought a new blouse with beautiful flowers on it.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8111
+  },
+  {
+    "swedish": "kärnpunkt",
+    "english": "crux",
+    "example_sv": "Kärnpunkten i debatten var frågan om finansiering.",
+    "example_en": "The crux of the debate was the question of financing.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8112
+  },
+  {
+    "swedish": "projektera",
+    "english": "project",
+    "example_sv": "De planerar att projektera en film på väggen i sommar.",
+    "example_en": "They are planning to project a film on the wall this summer.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8113
+  },
+  {
+    "swedish": "utstyrsel",
+    "english": "outfit",
+    "example_sv": "Hennes utstyrsel var perfekt för galakvällen.",
+    "example_en": "Her outfit was perfect for the gala evening.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8114
+  },
+  {
+    "swedish": "laser",
+    "english": "laser",
+    "example_sv": "De använde en laser för att skära igenom metallen.",
+    "example_en": "They used a laser to cut through the metal.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8115
+  },
+  {
+    "swedish": "knippe",
+    "english": "bunch",
+    "example_sv": "Hon köpte ett knippe tulpaner på torget.",
+    "example_en": "She bought a bunch of tulips at the market.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8116
+  },
+  {
+    "swedish": "presidium",
+    "english": "executive board",
+    "example_sv": "Presidiet fattade ett enhälligt beslut om frågan.",
+    "example_en": "The executive board made a unanimous decision on the issue.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8117
+  },
+  {
+    "swedish": "kvast",
+    "english": "broom",
+    "example_sv": "Hon använde en kvast för att sopa upp löven på gården.",
+    "example_en": "She used a broom to sweep up the leaves in the yard.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8118
+  },
+  {
+    "swedish": "plommon",
+    "english": "plum",
+    "example_sv": "Vi plockade mogna plommon från trädet i trädgården.",
+    "example_en": "We picked ripe plums from the tree in the garden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8119
+  },
+  {
+    "swedish": "ägarskap",
+    "english": "ownership",
+    "example_sv": "Frågan om ägarskap till marken är fortfarande oklar.",
+    "example_en": "The question of ownership of the land is still unclear.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8120
+  },
+  {
+    "swedish": "oxe",
+    "english": "ox",
+    "example_sv": "Bondens oxe drog plogen över åkern.",
+    "example_en": "The farmer's ox pulled the plow across the field.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8121
+  },
+  {
+    "swedish": "snabbköp",
+    "english": "supermarket",
+    "example_sv": "Vi handlar mat på snabbköpet varje vecka.",
+    "example_en": "We buy groceries at the supermarket every week.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8122
+  },
+  {
+    "swedish": "tilltugg",
+    "english": "snack",
+    "example_sv": "Vi serverade några tilltugg innan middagen började.",
+    "example_en": "We served some snacks before dinner started.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8123
+  },
+  {
+    "swedish": "egenartad",
+    "english": "peculiar",
+    "example_sv": "Han hade en egenartad smak när det gällde kläder.",
+    "example_en": "He had a peculiar taste when it came to clothes.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8125
+  },
+  {
+    "swedish": "bulletin",
+    "english": "bulletin",
+    "example_sv": "Jag läste en bulletin om vädret på nyheterna.",
+    "example_en": "I read a bulletin about the weather on the news.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8127
+  },
+  {
+    "swedish": "högerhand",
+    "english": "right hand",
+    "example_sv": "Hon är chefen högerhand och sköter många viktiga uppgifter.",
+    "example_en": "She is the boss's right hand and handles many important tasks.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8128
+  },
+  {
+    "swedish": "squash",
+    "english": "squash",
+    "example_sv": "Jag spelade squash med min vän i gymmet.",
+    "example_en": "I played squash with my friend at the gym.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8129
+  },
+  {
+    "swedish": "stadsbo",
+    "english": "city dweller",
+    "example_sv": "Som stadsbo uppskattar han närheten till kultur och service.",
+    "example_en": "As a city dweller, he appreciates the proximity to culture and services.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8130
+  }
+]

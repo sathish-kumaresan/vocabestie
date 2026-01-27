@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "asiatisk",
+    "english": "Asian",
+    "example_sv": "Hon är mycket intresserad av asiatisk kultur och historia.",
+    "example_en": "She is very interested in Asian culture and history.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4776
+  },
+  {
+    "swedish": "muntlig",
+    "english": "oral, verbal",
+    "example_sv": "Den muntliga presentationen var lika viktig som den skriftliga.",
+    "example_en": "The oral presentation was as important as the written one.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4778
+  },
+  {
+    "swedish": "nedre",
+    "english": "lower",
+    "example_sv": "Vi bor på den nedre våningen i huset.",
+    "example_en": "We live on the lower floor of the house.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4779
+  },
+  {
+    "swedish": "regeringsform",
+    "english": "form of government",
+    "example_sv": "Sveriges regeringsform fastställer hur landet ska styras.",
+    "example_en": "Sweden's form of government determines how the country should be governed.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4780
+  },
+  {
+    "swedish": "otrevlig",
+    "english": "unpleasant",
+    "example_sv": "Han var väldigt otrevlig mot servitören på restaurangen.",
+    "example_en": "He was very unpleasant to the waiter at the restaurant.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4781
+  },
+  {
+    "swedish": "publikation",
+    "english": "publication",
+    "example_sv": "Denna publikation innehåller de senaste forskningsresultaten inom området.",
+    "example_en": "This publication contains the latest research results in the field.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4782
+  },
+  {
+    "swedish": "halt",
+    "english": "grip, hold",
+    "example_sv": "Vägen var isig och hade dåligt halt för bilarna.",
+    "example_en": "The road was icy and had poor grip for the cars.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4783
+  },
+  {
+    "swedish": "borg",
+    "english": "castle",
+    "example_sv": "Den gamla borgen tornar upp sig över staden.",
+    "example_en": "The old castle towers over the city.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4784
+  },
+  {
+    "swedish": "pedofil",
+    "english": "pedophile",
+    "example_sv": "Polisen utreder misstankar om att mannen är en pedofil.",
+    "example_en": "The police are investigating suspicions that the man is a pedophile.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4785
+  },
+  {
+    "swedish": "porträtt",
+    "english": "portrait",
+    "example_sv": "Konstnären målade ett vackert porträtt av drottningen.",
+    "example_en": "The artist painted a beautiful portrait of the queen.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4786
+  },
+  {
+    "swedish": "utomstående",
+    "english": "outsider",
+    "example_sv": "Som utomstående är det svårt att förstå deras kultur.",
+    "example_en": "As an outsider, it's difficult to understand their culture.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4787
+  },
+  {
+    "swedish": "ironi",
+    "english": "irony",
+    "example_sv": "Hans kommentar var full av ironi, men ingen märkte det.",
+    "example_en": "His comment was full of irony, but no one noticed it.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4788
+  },
+  {
+    "swedish": "manipulera",
+    "english": "manipulate",
+    "example_sv": "Han försökte manipulera henne till att göra som han ville.",
+    "example_en": "He tried to manipulate her into doing what he wanted.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4789
+  },
+  {
+    "swedish": "afghansk",
+    "english": "Afghan",
+    "example_sv": "Vi åt en mycket god afghansk middag igår kväll.",
+    "example_en": "We ate a very good Afghan dinner last night.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4790
+  },
+  {
+    "swedish": "utomhus",
+    "english": "outdoors",
+    "example_sv": "Vi älskar att äta frukost utomhus på sommaren.",
+    "example_en": "We love to eat breakfast outdoors in the summer.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4792
+  },
+  {
+    "swedish": "privilegium",
+    "english": "privilege",
+    "example_sv": "Det är ett privilegium att få studera på detta universitet.",
+    "example_en": "It is a privilege to study at this university.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4793
+  },
+  {
+    "swedish": "rensning",
+    "english": "cleansing",
+    "example_sv": "Efter stormen behövde vi en ordentlig rensning i trädgården.",
+    "example_en": "After the storm, we needed a proper cleansing in the garden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4794
+  },
+  {
+    "swedish": "etapp",
+    "english": "stage",
+    "example_sv": "Detta är bara en etapp i vårt långsiktiga projekt.",
+    "example_en": "This is just one stage in our long-term project.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4795
+  },
+  {
+    "swedish": "minimera",
+    "english": "minimize",
+    "example_sv": "Vi måste minimera kostnaderna för att öka vinsten.",
+    "example_en": "We need to minimize costs to increase profits.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4796
+  },
+  {
+    "swedish": "till fullo",
+    "english": "fully",
+    "example_sv": "Jag njöt till fullo av semestern i Italien.",
+    "example_en": "I fully enjoyed my vacation in Italy.",
+    "scenario": "Holidays",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4797
+  },
+  {
+    "swedish": "representation",
+    "english": "representation",
+    "example_sv": "Fackföreningen arbetar för en bättre representation av de anställda.",
+    "example_en": "The union is working for better representation of the employees.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4798
+  },
+  {
+    "swedish": "latin",
+    "english": "Latin",
+    "example_sv": "Hon studerar latin på universitetet och älskar språket.",
+    "example_en": "She studies Latin at the university and loves the language.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4799
+  },
+  {
+    "swedish": "måhända",
+    "english": "perhaps",
+    "example_sv": "Måhända kommer han inte alls ikväll, jag är osäker.",
+    "example_en": "Perhaps he won't come at all tonight, I'm unsure.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4800
+  },
+  {
+    "swedish": "serbisk",
+    "english": "Serbian",
+    "example_sv": "Hon talar serbisk flytande efter att ha bott där länge.",
+    "example_en": "She speaks Serbian fluently after living there for a long time.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4801
+  },
+  {
+    "swedish": "estetisk",
+    "english": "aesthetic",
+    "example_sv": "Byggnaden har ett mycket estetiskt tilltalande utseende.",
+    "example_en": "The building has a very aesthetically pleasing appearance.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4802
+  },
+  {
+    "swedish": "explodera",
+    "english": "explode",
+    "example_sv": "Bomben riskerade att explodera om den skakades för mycket.",
+    "example_en": "The bomb was at risk of exploding if it was shaken too much.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4803
+  },
+  {
+    "swedish": "folkrörelse",
+    "english": "popular movement",
+    "example_sv": "Miljöfrågan har blivit en stark folkrörelse i landet.",
+    "example_en": "The environmental issue has become a strong popular movement in the country.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4804
+  },
+  {
+    "swedish": "grundare",
+    "english": "founder",
+    "example_sv": "Han var en av grundarna av det framgångsrika företaget.",
+    "example_en": "He was one of the founders of the successful company.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4805
+  },
+  {
+    "swedish": "konspiration",
+    "english": "conspiracy",
+    "example_sv": "Det florerar rykten om en konspiration bakom kulisserna.",
+    "example_en": "There are rumors of a conspiracy behind the scenes.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4806
+  },
+  {
+    "swedish": "kritiskt",
+    "english": "critically",
+    "example_sv": "Han skadades kritiskt i bilolyckan och vårdas på sjukhus.",
+    "example_en": "He was critically injured in the car accident and is being treated in hospital.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4807
+  },
+  {
+    "swedish": "kurva",
+    "english": "curve",
+    "example_sv": "Vägen hade en skarp kurva som var svår att navigera.",
+    "example_en": "The road had a sharp curve that was difficult to navigate.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4808
+  },
+  {
+    "swedish": "operera",
+    "english": "operate",
+    "example_sv": "Läkarna var tvungna att operera honom omedelbart efter olyckan.",
+    "example_en": "The doctors had to operate on him immediately after the accident.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4809
+  },
+  {
+    "swedish": "turné",
+    "english": "tour",
+    "example_sv": "Bandet är ute på en lång turné genom Europa.",
+    "example_en": "The band is on a long tour through Europe.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4810
+  },
+  {
+    "swedish": "åskådare",
+    "english": "spectator",
+    "example_sv": "Det var tusentals åskådare på plats för att se matchen.",
+    "example_en": "There were thousands of spectators on site to see the match.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4811
+  },
+  {
+    "swedish": "forntid",
+    "english": "ancient times",
+    "example_sv": "Vi studerar forntiden och dess stora civilisationer i skolan.",
+    "example_en": "We study ancient times and its great civilizations in school.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4812
+  },
+  {
+    "swedish": "alliansregering",
+    "english": "coalition government",
+    "example_sv": "Sverige har haft flera alliansregeringar genom åren.",
+    "example_en": "Sweden has had several coalition governments over the years.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4813
+  },
+  {
+    "swedish": "framgångsrikt",
+    "english": "successfully",
+    "example_sv": "Företaget lanserade framgångsrikt sin nya produkt på marknaden.",
+    "example_en": "The company successfully launched its new product on the market.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4814
+  },
+  {
+    "swedish": "robot",
+    "english": "robot",
+    "example_sv": "Fabriken använder robotar för att montera bilarna snabbare.",
+    "example_en": "The factory uses robots to assemble the cars faster.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4816
+  },
+  {
+    "swedish": "försvarare",
+    "english": "defender",
+    "example_sv": "Advokaten är en skicklig försvarare i brottmål.",
+    "example_en": "The lawyer is a skilled defender in criminal cases.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4817
+  },
+  {
+    "swedish": "landslag",
+    "english": "national team",
+    "example_sv": "Han drömmer om att få spela i landslaget.",
+    "example_en": "He dreams of playing in the national team.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4818
+  },
+  {
+    "swedish": "proportion",
+    "english": "proportion",
+    "example_sv": "Blandningen måste ha rätt proportion av vatten och mjöl.",
+    "example_en": "The mixture must have the right proportion of water and flour.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4819
+  },
+  {
+    "swedish": "verkstad",
+    "english": "workshop",
+    "example_sv": "Jag lämnade in bilen på verkstaden för reparation.",
+    "example_en": "I took the car to the workshop for repair.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4820
+  },
+  {
+    "swedish": "ask",
+    "english": "ash",
+    "example_sv": "Efter branden låg allt i ask och ruiner.",
+    "example_en": "After the fire, everything was in ash and ruins.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4821
+  },
+  {
+    "swedish": "bomba",
+    "english": "bomb",
+    "example_sv": "Staden hotades med att bli bombad under kriget.",
+    "example_en": "The city was threatened with being bombed during the war.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4822
+  },
+  {
+    "swedish": "jeans",
+    "english": "jeans",
+    "example_sv": "Hon köpte ett par nya jeans i affären igår.",
+    "example_en": "She bought a new pair of jeans in the store yesterday.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4823
+  },
+  {
+    "swedish": "jordbävning",
+    "english": "earthquake",
+    "example_sv": "En kraftig jordbävning skakade staden i natt.",
+    "example_en": "A powerful earthquake shook the city last night.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4824
+  },
+  {
+    "swedish": "ratt",
+    "english": "steering wheel",
+    "example_sv": "Han höll hårt i ratten när han körde i stormen.",
+    "example_en": "He held tightly to the steering wheel as he drove in the storm.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4825
+  },
+  {
+    "swedish": "brant",
+    "english": "steep",
+    "example_sv": "Backen var väldigt brant, det var jobbigt att cykla uppför.",
+    "example_en": "The hill was very steep, it was hard to cycle uphill.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4826
+  },
+  {
+    "swedish": "befälhavare",
+    "english": "commander",
+    "example_sv": "Befälhavaren gav order om att trupperna skulle avancera.",
+    "example_en": "The commander gave the order for the troops to advance.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4827
+  },
+  {
+    "swedish": "bot",
+    "english": "cure, fine",
+    "example_sv": "Läkarna försöker hitta en bot mot den dödliga sjukdomen.",
+    "example_en": "The doctors are trying to find a cure for the deadly disease.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4828
+  }
+]

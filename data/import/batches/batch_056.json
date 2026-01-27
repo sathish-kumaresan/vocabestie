@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "oklar",
+    "english": "unclear, vague",
+    "example_sv": "Instruktionerna var oklara, så jag förstod inte uppgiften.",
+    "example_en": "The instructions were unclear, so I didn't understand the task.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 2967
+  },
+  {
+    "swedish": "företeelse",
+    "english": "phenomenon",
+    "example_sv": "Global uppvärmning är en oroande företeelse som påverkar alla.",
+    "example_en": "Global warming is a worrying phenomenon that affects everyone.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2968
+  },
+  {
+    "swedish": "offra",
+    "english": "sacrifice",
+    "example_sv": "Hon var tvungen att offra sin fritid för att studera.",
+    "example_en": "She had to sacrifice her free time to study.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 2969
+  },
+  {
+    "swedish": "lager",
+    "english": "layer, stock",
+    "example_sv": "Det finns ett tjockt lager snö på marken.",
+    "example_en": "There is a thick layer of snow on the ground.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2970
+  },
+  {
+    "swedish": "arbetsliv",
+    "english": "working life",
+    "example_sv": "Många faktorer påverkar hur man upplever sitt arbetsliv.",
+    "example_en": "Many factors affect how one experiences their working life.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2971
+  },
+  {
+    "swedish": "lysande",
+    "english": "brilliant, shining",
+    "example_sv": "Hon hade en lysande idé för att lösa problemet.",
+    "example_en": "She had a brilliant idea to solve the problem.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 2972
+  },
+  {
+    "swedish": "bränsle",
+    "english": "fuel",
+    "example_sv": "Bilen behöver bränsle för att kunna köra långt.",
+    "example_en": "The car needs fuel to be able to drive far.",
+    "scenario": "Driving",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2973
+  },
+  {
+    "swedish": "finanskris",
+    "english": "financial crisis",
+    "example_sv": "Finanskrisen 2008 hade en stor inverkan på ekonomin.",
+    "example_en": "The financial crisis of 2008 had a major impact on the economy.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2974
+  },
+  {
+    "swedish": "nödvändigtvis",
+    "english": "necessarily",
+    "example_sv": "Det är inte nödvändigtvis sant att alla ljuger.",
+    "example_en": "It is not necessarily true that everyone lies.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 2975
+  },
+  {
+    "swedish": "gott om",
+    "english": "plenty of",
+    "example_sv": "Vi har gott om tid att avsluta uppgiften.",
+    "example_en": "We have plenty of time to finish the task.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 2976
+  },
+  {
+    "swedish": "medeltid",
+    "english": "Middle Ages",
+    "example_sv": "Under medeltiden var kyrkan mycket mäktig.",
+    "example_en": "During the Middle Ages, the church was very powerful.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2977
+  },
+  {
+    "swedish": "strävan",
+    "english": "striving, aspiration",
+    "example_sv": "Hennes strävan efter framgång är beundransvärd.",
+    "example_en": "Her striving for success is admirable.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 2978
+  },
+  {
+    "swedish": "hastighet",
+    "english": "speed, velocity",
+    "example_sv": "Man måste anpassa hastigheten till väglaget.",
+    "example_en": "You have to adapt the speed to the road conditions.",
+    "scenario": "Driving",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2979
+  },
+  {
+    "swedish": "kö",
+    "english": "queue, line",
+    "example_sv": "Det var en lång kö till bussen i morse.",
+    "example_en": "There was a long queue for the bus this morning.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2980
+  },
+  {
+    "swedish": "medvetande",
+    "english": "consciousness",
+    "example_sv": "Han förlorade medvetandet efter olyckan.",
+    "example_en": "He lost consciousness after the accident.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2981
+  },
+  {
+    "swedish": "producent",
+    "english": "producer",
+    "example_sv": "Filmen är gjord av en känd producent.",
+    "example_en": "The film is made by a famous producer.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2982
+  },
+  {
+    "swedish": "så pass",
+    "english": "so much, that much",
+    "example_sv": "Det var inte så pass dyrt som jag trodde.",
+    "example_en": "It wasn't so expensive as I thought.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 2983
+  },
+  {
+    "swedish": "vetande",
+    "english": "knowledge",
+    "example_sv": "Utan hennes vetande hade projektet misslyckats.",
+    "example_en": "Without her knowledge, the project would have failed.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2984
+  },
+  {
+    "swedish": "i mitten av",
+    "english": "in the middle of",
+    "example_sv": "Biblioteket ligger i mitten av staden.",
+    "example_en": "The library is located in the middle of the city.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 2985
+  },
+  {
+    "swedish": "dylik",
+    "english": "such, similar",
+    "example_sv": "Jag har aldrig sett en dylik vacker solnedgång.",
+    "example_en": "I have never seen such a beautiful sunset.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 2986
+  },
+  {
+    "swedish": "installera",
+    "english": "install",
+    "example_sv": "Vi måste installera det nya programmet på datorn.",
+    "example_en": "We need to install the new program on the computer.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 2987
+  },
+  {
+    "swedish": "utge",
+    "english": "publish, issue",
+    "example_sv": "Förlaget kommer att utge hans nya roman nästa år.",
+    "example_en": "The publisher will publish his new novel next year.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 2988
+  },
+  {
+    "swedish": "förberedelse",
+    "english": "preparation",
+    "example_sv": "Bra förberedelse är nyckeln till ett lyckat möte.",
+    "example_en": "Good preparation is key to a successful meeting.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2989
+  },
+  {
+    "swedish": "fördom",
+    "english": "prejudice",
+    "example_sv": "Vi måste kämpa mot fördomar i samhället.",
+    "example_en": "We must fight against prejudice in society.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2990
+  },
+  {
+    "swedish": "synnerligen",
+    "english": "particularly, extremely",
+    "example_sv": "Han var synnerligen nöjd med resultatet.",
+    "example_en": "He was extremely pleased with the result.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 2991
+  },
+  {
+    "swedish": "i närheten av",
+    "english": "near, close to",
+    "example_sv": "Jag bor i närheten av parken.",
+    "example_en": "I live near the park.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 2992
+  },
+  {
+    "swedish": "åtagande",
+    "english": "commitment, undertaking",
+    "example_sv": "Företaget har ett stort åtagande gentemot miljön.",
+    "example_en": "The company has a large commitment to the environment.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2993
+  },
+  {
+    "swedish": "tillkännage",
+    "english": "announce",
+    "example_sv": "Rektorn kommer att tillkännage de nya reglerna imorgon.",
+    "example_en": "The principal will announce the new rules tomorrow.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 2994
+  },
+  {
+    "swedish": "kaos",
+    "english": "chaos",
+    "example_sv": "Efter stormen var det totalt kaos överallt.",
+    "example_en": "After the storm, there was total chaos everywhere.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2995
+  },
+  {
+    "swedish": "mästare",
+    "english": "master, champion",
+    "example_sv": "Han är en mästare på att lösa problem.",
+    "example_en": "He is a master at solving problems.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2996
+  },
+  {
+    "swedish": "utmana",
+    "english": "challenge",
+    "example_sv": "Vi måste utmana oss själva för att utvecklas.",
+    "example_en": "We have to challenge ourselves to develop.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 2997
+  },
+  {
+    "swedish": "drift",
+    "english": "operation, urge",
+    "example_sv": "Företaget har en effektiv drift.",
+    "example_en": "The company has an efficient operation.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2998
+  },
+  {
+    "swedish": "hundratal",
+    "english": "hundreds",
+    "example_sv": "Det kom ett hundratal personer till konserten.",
+    "example_en": "Hundreds of people came to the concert.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 2999
+  },
+  {
+    "swedish": "måne",
+    "english": "moon",
+    "example_sv": "Månen lyste starkt på natthimlen.",
+    "example_en": "The moon shone brightly in the night sky.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3000
+  },
+  {
+    "swedish": "bita",
+    "english": "bite",
+    "example_sv": "Hunden kan bita om du retar den.",
+    "example_en": "The dog may bite if you tease it.",
+    "scenario": "Animals",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3001
+  },
+  {
+    "swedish": "blandad",
+    "english": "mixed",
+    "example_sv": "De fick blandad kritik för sin nya film.",
+    "example_en": "They received mixed reviews for their new film.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3002
+  },
+  {
+    "swedish": "hjälte",
+    "english": "hero",
+    "example_sv": "Brandmannen var en hjälte som räddade livet på barnet.",
+    "example_en": "The firefighter was a hero who saved the child's life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3003
+  },
+  {
+    "swedish": "skänka",
+    "english": "donate, give",
+    "example_sv": "Vi skänker pengar till välgörenhet varje år.",
+    "example_en": "We donate money to charity every year.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3004
+  },
+  {
+    "swedish": "tillämplig",
+    "english": "applicable",
+    "example_sv": "Denna regel är tillämplig i alla situationer.",
+    "example_en": "This rule is applicable in all situations.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3005
+  },
+  {
+    "swedish": "betydelsefull",
+    "english": "significant, important",
+    "example_sv": "Hennes bidrag var betydelsefullt för projektets framgång.",
+    "example_en": "Her contribution was significant to the project's success.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3006
+  },
+  {
+    "swedish": "synsätt",
+    "english": "perspective, viewpoint",
+    "example_sv": "Vi har olika synsätt på problemet.",
+    "example_en": "We have different perspectives on the problem.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3007
+  },
+  {
+    "swedish": "ström",
+    "english": "current, stream",
+    "example_sv": "Det är en stark ström i floden.",
+    "example_en": "There is a strong current in the river.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3008
+  },
+  {
+    "swedish": "förse",
+    "english": "supply, provide",
+    "example_sv": "Vi måste förse skolan med nya datorer.",
+    "example_en": "We must supply the school with new computers.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3009
+  },
+  {
+    "swedish": "mätning",
+    "english": "measurement",
+    "example_sv": "Mätningen visade att temperaturen var hög.",
+    "example_en": "The measurement showed that the temperature was high.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3010
+  },
+  {
+    "swedish": "massiv",
+    "english": "massive",
+    "example_sv": "Det är en massiv byggnad mitt i stan.",
+    "example_en": "It's a massive building in the middle of town.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3011
+  },
+  {
+    "swedish": "atmosfär",
+    "english": "atmosphere",
+    "example_sv": "Stämningen skapade en trevlig atmosfär på festen.",
+    "example_en": "The mood created a pleasant atmosphere at the party.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3012
+  },
+  {
+    "swedish": "mall",
+    "english": "template, pattern",
+    "example_sv": "Vi använder en mall för att skapa fakturor.",
+    "example_en": "We use a template to create invoices.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3013
+  },
+  {
+    "swedish": "personlighet",
+    "english": "personality",
+    "example_sv": "Hon har en mycket stark personlighet.",
+    "example_en": "She has a very strong personality.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3014
+  },
+  {
+    "swedish": "gren",
+    "english": "branch",
+    "example_sv": "Barnen klättrade upp i trädet och satte sig på en gren.",
+    "example_en": "The children climbed up the tree and sat on a branch.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3015
+  },
+  {
+    "swedish": "väldig",
+    "english": "huge, vast",
+    "example_sv": "Det var en väldig folkmassa på torget.",
+    "example_en": "There was a huge crowd in the square.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3016
+  }
+]

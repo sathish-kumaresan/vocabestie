@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "stab",
+    "english": "staff",
+    "example_sv": "Hela vår stab arbetar hårt för att slutföra projektet.",
+    "example_en": "Our entire staff is working hard to complete the project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6886
+  },
+  {
+    "swedish": "päron",
+    "english": "pear",
+    "example_sv": "Jag köpte några saftiga päron på marknaden idag.",
+    "example_en": "I bought some juicy pears at the market today.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6887
+  },
+  {
+    "swedish": "myndig",
+    "english": "of age",
+    "example_sv": "Nu är jag myndig och kan rösta i valet.",
+    "example_en": "Now I am of age and can vote in the election.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6888
+  },
+  {
+    "swedish": "förräderi",
+    "english": "treachery",
+    "example_sv": "Hans agerande betraktades som ett stort förräderi mot laget.",
+    "example_en": "His actions were seen as a great treachery against the team.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6889
+  },
+  {
+    "swedish": "förskott",
+    "english": "advance",
+    "example_sv": "Jag betalade en del av hyran i förskott denna månad.",
+    "example_en": "I paid part of the rent in advance this month.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6890
+  },
+  {
+    "swedish": "raka",
+    "english": "shave",
+    "example_sv": "Jag måste raka mig innan jag går till jobbet.",
+    "example_en": "I need to shave before I go to work.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6891
+  },
+  {
+    "swedish": "svida",
+    "english": "sting",
+    "example_sv": "Det svider lite när jag tvättar såret med sprit.",
+    "example_en": "It stings a little when I wash the wound with alcohol.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6892
+  },
+  {
+    "swedish": "syntetisk",
+    "english": "synthetic",
+    "example_sv": "Den här tröjan är gjord av syntetisk material.",
+    "example_en": "This sweater is made of synthetic material.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6893
+  },
+  {
+    "swedish": "mala",
+    "english": "grind",
+    "example_sv": "Jag måste mala kaffebönorna innan jag kan brygga kaffe.",
+    "example_en": "I need to grind the coffee beans before I can brew coffee.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6894
+  },
+  {
+    "swedish": "frisör",
+    "english": "hairdresser",
+    "example_sv": "Jag har en tid hos frisören imorgon eftermiddag.",
+    "example_en": "I have an appointment at the hairdresser's tomorrow afternoon.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6895
+  },
+  {
+    "swedish": "osanning",
+    "english": "falsehood",
+    "example_sv": "Hans berättelse var full av osanning och överdrifter.",
+    "example_en": "His story was full of falsehoods and exaggerations.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6896
+  },
+  {
+    "swedish": "identifiering",
+    "english": "identification",
+    "example_sv": "Vi behöver identifiering för att komma in på klubben.",
+    "example_en": "We need identification to get into the club.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6897
+  },
+  {
+    "swedish": "undre",
+    "english": "lower",
+    "example_sv": "Vi bor på det undre våningsplanet i byggnaden.",
+    "example_en": "We live on the lower floor of the building.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6898
+  },
+  {
+    "swedish": "återvinning",
+    "english": "recycling",
+    "example_sv": "Vi måste bli bättre på återvinning för miljön.",
+    "example_en": "We need to get better at recycling for the environment.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6899
+  },
+  {
+    "swedish": "hurra",
+    "english": "hooray",
+    "example_sv": "Hurra, vi vann matchen och är i finalen!",
+    "example_en": "Hooray, we won the match and are in the final!",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6900
+  },
+  {
+    "swedish": "landning",
+    "english": "landing",
+    "example_sv": "Landningen var lite skakig på grund av turbulensen.",
+    "example_en": "The landing was a bit shaky due to the turbulence.",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6901
+  },
+  {
+    "swedish": "spilla",
+    "english": "spill",
+    "example_sv": "Akta dig så att du inte spiller kaffet på mattan.",
+    "example_en": "Be careful not to spill the coffee on the carpet.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6902
+  },
+  {
+    "swedish": "duva",
+    "english": "pigeon",
+    "example_sv": "Det satt en duva på fönsterbrädan och pickade.",
+    "example_en": "There was a pigeon sitting on the windowsill pecking.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6903
+  },
+  {
+    "swedish": "pryda",
+    "english": "adorn",
+    "example_sv": "Blommorna prydde bordet och gjorde det festligt.",
+    "example_en": "The flowers adorned the table and made it festive.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6904
+  },
+  {
+    "swedish": "karakterisera",
+    "english": "characterize",
+    "example_sv": "Man kan karakterisera honom som en mycket envis person.",
+    "example_en": "You can characterize him as a very stubborn person.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6905
+  },
+  {
+    "swedish": "komponera",
+    "english": "compose",
+    "example_sv": "Han älskar att komponera musik på sin fritid.",
+    "example_en": "He loves to compose music in his spare time.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6906
+  },
+  {
+    "swedish": "vidsträckt",
+    "english": "vast",
+    "example_sv": "De vandrade genom ett vidsträckt och öde landskap.",
+    "example_en": "They hiked through a vast and desolate landscape.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6907
+  },
+  {
+    "swedish": "areal",
+    "english": "area",
+    "example_sv": "Arealen av skogen minskar på grund av skogsbränder.",
+    "example_en": "The area of the forest is decreasing due to forest fires.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6908
+  },
+  {
+    "swedish": "utvecklare",
+    "english": "developer",
+    "example_sv": "Vårt företag söker en erfaren mjukvaruutvecklare snarast.",
+    "example_en": "Our company is looking for an experienced software developer as soon as possible.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6909
+  },
+  {
+    "swedish": "betjäna",
+    "english": "serve",
+    "example_sv": "Restaurangen kommer att betjäna dig snabbt och effektivt.",
+    "example_en": "The restaurant will serve you quickly and efficiently.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6910
+  },
+  {
+    "swedish": "projektion",
+    "english": "projection",
+    "example_sv": "Hans negativa syn är bara en projektion av hans osäkerhet.",
+    "example_en": "His negative view is just a projection of his insecurity.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6911
+  },
+  {
+    "swedish": "skrattretande",
+    "english": "ridiculous",
+    "example_sv": "Det är skrattretande att du tror på den historien.",
+    "example_en": "It's ridiculous that you believe that story.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6912
+  },
+  {
+    "swedish": "bacon",
+    "english": "bacon",
+    "example_sv": "Jag älskar att äta bacon till frukost på helgen.",
+    "example_en": "I love to eat bacon for breakfast on the weekend.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6913
+  },
+  {
+    "swedish": "gräl",
+    "english": "quarrel",
+    "example_sv": "De hamnade i ett häftigt gräl om pengar.",
+    "example_en": "They got into a heated quarrel about money.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6914
+  },
+  {
+    "swedish": "diameter",
+    "english": "diameter",
+    "example_sv": "Cirkeln har en diameter på tio centimeter.",
+    "example_en": "The circle has a diameter of ten centimeters.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6915
+  },
+  {
+    "swedish": "förhöra",
+    "english": "interrogate",
+    "example_sv": "Polisen ville förhöra vittnet om händelsen.",
+    "example_en": "The police wanted to interrogate the witness about the incident.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6916
+  },
+  {
+    "swedish": "läsk",
+    "english": "soda",
+    "example_sv": "Jag beställde en läsk till min hamburgare på restaurangen.",
+    "example_en": "I ordered a soda with my hamburger at the restaurant.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6917
+  },
+  {
+    "swedish": "tillmäta",
+    "english": "attribute",
+    "example_sv": "Vi bör inte tillmäta ryktet någon större betydelse.",
+    "example_en": "We should not attribute any great importance to the rumor.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6918
+  },
+  {
+    "swedish": "åsna",
+    "english": "donkey",
+    "example_sv": "Vi såg en åsna beta i hagen på landet.",
+    "example_en": "We saw a donkey grazing in the pasture in the countryside.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6919
+  },
+  {
+    "swedish": "konsolidering",
+    "english": "consolidation",
+    "example_sv": "Det krävs en konsolidering av våra resurser för framgång.",
+    "example_en": "A consolidation of our resources is required for success.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6920
+  },
+  {
+    "swedish": "tidtabell",
+    "english": "timetable",
+    "example_sv": "Kolla tidtabellen för att se när tåget avgår.",
+    "example_en": "Check the timetable to see when the train departs.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6921
+  },
+  {
+    "swedish": "återbetalning",
+    "english": "refund",
+    "example_sv": "Jag fick en återbetalning för den felaktiga varan.",
+    "example_en": "I received a refund for the defective item.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6922
+  },
+  {
+    "swedish": "explicit",
+    "english": "explicitly",
+    "example_sv": "Han sade det explicit så att ingen skulle missförstå.",
+    "example_en": "He said it explicitly so that no one would misunderstand.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6923
+  },
+  {
+    "swedish": "kafé (el. café)",
+    "english": "cafe",
+    "example_sv": "Vi träffades på ett litet kafé i gamla stan.",
+    "example_en": "We met at a small cafe in the old town.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6924
+  },
+  {
+    "swedish": "stram",
+    "english": "strict",
+    "example_sv": "Chefen har en stram policy när det gäller sena ankomster.",
+    "example_en": "The boss has a strict policy when it comes to late arrivals.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6926
+  },
+  {
+    "swedish": "handske",
+    "english": "glove",
+    "example_sv": "Jag behöver en handske eftersom det är kallt ute.",
+    "example_en": "I need a glove because it's cold outside.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6927
+  },
+  {
+    "swedish": "informativ",
+    "english": "informative",
+    "example_sv": "Föreläsningen var mycket informativ och lärorik.",
+    "example_en": "The lecture was very informative and educational.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6928
+  },
+  {
+    "swedish": "rekonstruktion",
+    "english": "reconstruction",
+    "example_sv": "Rekonstruktionen av bron kommer att ta flera månader.",
+    "example_en": "The reconstruction of the bridge will take several months.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6929
+  },
+  {
+    "swedish": "ridning",
+    "english": "horseback riding",
+    "example_sv": "Jag gillar ridning i skogen på sommaren.",
+    "example_en": "I enjoy horseback riding in the forest in the summer.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6930
+  },
+  {
+    "swedish": "garn",
+    "english": "yarn",
+    "example_sv": "Hon köpte garn för att sticka en varm tröja.",
+    "example_en": "She bought yarn to knit a warm sweater.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6931
+  },
+  {
+    "swedish": "samtidig",
+    "english": "simultaneous",
+    "example_sv": "De genomförde samtidiga attacker mot flera mål.",
+    "example_en": "They carried out simultaneous attacks on several targets.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6932
+  },
+  {
+    "swedish": "matt",
+    "english": "dull",
+    "example_sv": "Färgen på väggen ser matt och trist ut.",
+    "example_en": "The color on the wall looks dull and drab.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6933
+  },
+  {
+    "swedish": "bredda",
+    "english": "widen",
+    "example_sv": "Vi måste bredda vägen för att minska trängseln.",
+    "example_en": "We need to widen the road to reduce congestion.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6934
+  },
+  {
+    "swedish": "gruppledare",
+    "english": "team leader",
+    "example_sv": "Hon är gruppledare för projektet och ansvarar för planeringen.",
+    "example_en": "She is the team leader for the project and is responsible for planning.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6935
+  },
+  {
+    "swedish": "certifikat",
+    "english": "certificate",
+    "example_sv": "Han fick ett certifikat efter att ha avslutat kursen.",
+    "example_en": "He received a certificate after completing the course.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6936
+  }
+]

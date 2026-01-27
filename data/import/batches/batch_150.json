@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "trosa",
+    "english": "underpants",
+    "example_sv": "Hon köpte en ny trosa i spets på marknaden.",
+    "example_en": "She bought new lace underpants at the market.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7811
+  },
+  {
+    "swedish": "såg",
+    "english": "saw",
+    "example_sv": "Han använde en såg för att kapa brädorna till staketet.",
+    "example_en": "He used a saw to cut the boards for the fence.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7812
+  },
+  {
+    "swedish": "fysiologisk",
+    "english": "physiological",
+    "example_sv": "Stress kan leda till en rad fysiologiska reaktioner i kroppen.",
+    "example_en": "Stress can lead to a number of physiological reactions in the body.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7813
+  },
+  {
+    "swedish": "uppfödning",
+    "english": "breeding",
+    "example_sv": "Den här gården specialiserar sig på uppfödning av ekologiska kor.",
+    "example_en": "This farm specializes in breeding organic cows.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7814
+  },
+  {
+    "swedish": "betinga",
+    "english": "stipulate",
+    "example_sv": "Avtalet kan betinga särskilda villkor för projektets genomförande.",
+    "example_en": "The agreement may stipulate special conditions for the project's implementation.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7815
+  },
+  {
+    "swedish": "farförälder",
+    "english": "grandfather",
+    "example_sv": "Mina farföräldrar bor i ett litet hus på landet.",
+    "example_en": "My grandparents live in a small house in the countryside.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7816
+  },
+  {
+    "swedish": "råolja",
+    "english": "crude oil",
+    "example_sv": "Priset på råolja påverkar bensinkostnaderna i hela världen.",
+    "example_en": "The price of crude oil affects gasoline costs worldwide.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7817
+  },
+  {
+    "swedish": "ficklampa",
+    "english": "flashlight",
+    "example_sv": "Jag tog med en ficklampa eftersom det var mörkt i skogen.",
+    "example_en": "I brought a flashlight because it was dark in the woods.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7818
+  },
+  {
+    "swedish": "hårig",
+    "english": "hairy",
+    "example_sv": "Han är en hårig man med en stor mustasch.",
+    "example_en": "He is a hairy man with a big mustache.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7819
+  },
+  {
+    "swedish": "tvättmedel",
+    "english": "detergent",
+    "example_sv": "Glöm inte att köpa tvättmedel när du är i affären.",
+    "example_en": "Don't forget to buy detergent when you're at the store.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7820
+  },
+  {
+    "swedish": "förorena",
+    "english": "pollute",
+    "example_sv": "Industriella utsläpp kan förorena vattnet och skada miljön.",
+    "example_en": "Industrial emissions can pollute the water and damage the environment.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7821
+  },
+  {
+    "swedish": "marskalk",
+    "english": "marshal",
+    "example_sv": "Marskalken ledde paraden genom stadens centrum på nationaldagen.",
+    "example_en": "The marshal led the parade through the city center on National Day.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7822
+  },
+  {
+    "swedish": "böjning",
+    "english": "inflection",
+    "example_sv": "Eleverna studerade substantivens böjning i svenskan.",
+    "example_en": "The students studied the inflection of nouns in Swedish.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7823
+  },
+  {
+    "swedish": "narkoman",
+    "english": "addict",
+    "example_sv": "Han försökte hjälpa sin vän att komma bort från sitt narkomanproblem.",
+    "example_en": "He tried to help his friend get away from his drug addiction problem.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7824
+  },
+  {
+    "swedish": "upphetsning",
+    "english": "excitement",
+    "example_sv": "Det fanns en tydlig upphetsning i luften inför konserten.",
+    "example_en": "There was a clear excitement in the air before the concert.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7825
+  },
+  {
+    "swedish": "uppköp",
+    "english": "takeover",
+    "example_sv": "Företaget var rädda för ett fientligt uppköp från konkurrenten.",
+    "example_en": "The company was afraid of a hostile takeover from the competitor.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7826
+  },
+  {
+    "swedish": "mentor",
+    "english": "mentor",
+    "example_sv": "Hon fungerade som mentor för flera unga entreprenörer.",
+    "example_en": "She acted as a mentor to several young entrepreneurs.",
+    "scenario": "Job Interview",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7827
+  },
+  {
+    "swedish": "fyrverkeri",
+    "english": "fireworks",
+    "example_sv": "Vi tittade på ett fantastiskt fyrverkeri på nyårsafton.",
+    "example_en": "We watched a fantastic fireworks display on New Year's Eve.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7828
+  },
+  {
+    "swedish": "kollegium",
+    "english": "faculty",
+    "example_sv": "Lärarkollegium diskuterade den nya läroplanen under mötet.",
+    "example_en": "The faculty discussed the new curriculum during the meeting.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7829
+  },
+  {
+    "swedish": "spade",
+    "english": "spade",
+    "example_sv": "Han använde en spade för att gräva ett hål i trädgården.",
+    "example_en": "He used a spade to dig a hole in the garden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7830
+  },
+  {
+    "swedish": "differentiering",
+    "english": "differentiation",
+    "example_sv": "Differentiering är viktigt för att möta elevers olika behov.",
+    "example_en": "Differentiation is important to meet students' different needs.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7831
+  },
+  {
+    "swedish": "infektera",
+    "english": "infect",
+    "example_sv": "Bakterier kan infektera sår och orsaka inflammation.",
+    "example_en": "Bacteria can infect wounds and cause inflammation.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7832
+  },
+  {
+    "swedish": "veck",
+    "english": "fold",
+    "example_sv": "Det var ett tydligt veck på mitten av papperet.",
+    "example_en": "There was a clear fold in the middle of the paper.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7833
+  },
+  {
+    "swedish": "limma",
+    "english": "glue",
+    "example_sv": "Vi behövde limma ihop de trasiga bitarna av vasen.",
+    "example_en": "We needed to glue the broken pieces of the vase together.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7834
+  },
+  {
+    "swedish": "oväsen",
+    "english": "noise",
+    "example_sv": "Jag kunde inte sova på grund av oväsenet från gatan.",
+    "example_en": "I couldn't sleep because of the noise from the street.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7835
+  },
+  {
+    "swedish": "innesluta",
+    "english": "enclose",
+    "example_sv": "Dokumentet behöver innesluta all relevant information.",
+    "example_en": "The document needs to enclose all relevant information.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7836
+  },
+  {
+    "swedish": "klädesplagg",
+    "english": "garment",
+    "example_sv": "Hon designar unika klädesplagg för kända artister.",
+    "example_en": "She designs unique garments for famous artists.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7837
+  },
+  {
+    "swedish": "musiker",
+    "english": "musician",
+    "example_sv": "Han är en begåvad musiker som spelar flera instrument.",
+    "example_en": "He is a talented musician who plays several instruments.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7838
+  },
+  {
+    "swedish": "smaklös",
+    "english": "tasteless",
+    "example_sv": "Den här soppan är helt smaklös, den behöver mer kryddor.",
+    "example_en": "This soup is completely tasteless, it needs more spices.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7839
+  },
+  {
+    "swedish": "stigning",
+    "english": "increase",
+    "example_sv": "Vi har sett en stigning i antalet sökande till programmet.",
+    "example_en": "We have seen an increase in the number of applicants to the program.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7840
+  },
+  {
+    "swedish": "bravo",
+    "english": "bravo",
+    "example_sv": "Bravo! Vilken fantastisk prestation du gjorde.",
+    "example_en": "Bravo! What a fantastic performance you did.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "interjection",
+    "rank": 7841
+  },
+  {
+    "swedish": "hjärtlig",
+    "english": "cordial",
+    "example_sv": "De hälsade oss med ett hjärtligt välkomnande till staden.",
+    "example_en": "They greeted us with a cordial welcome to the city.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7842
+  },
+  {
+    "swedish": "idrottsman",
+    "english": "athlete",
+    "example_sv": "Han är en framgångsrik idrottsman inom friidrott.",
+    "example_en": "He is a successful athlete in track and field.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7844
+  },
+  {
+    "swedish": "koncession",
+    "english": "concession",
+    "example_sv": "De förhandlade om en koncession för att driva gruvan.",
+    "example_en": "They negotiated a concession to operate the mine.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7845
+  },
+  {
+    "swedish": "ofördelaktig",
+    "english": "unfavorable",
+    "example_sv": "Vädret är ofördelaktigt för en utomhusaktivitet idag.",
+    "example_en": "The weather is unfavorable for an outdoor activity today.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7846
+  },
+  {
+    "swedish": "ädel",
+    "english": "noble",
+    "example_sv": "Han visade en ädel karaktär genom att hjälpa de behövande.",
+    "example_en": "He showed a noble character by helping those in need.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7847
+  },
+  {
+    "swedish": "epos",
+    "english": "epic",
+    "example_sv": "Beowulf är ett klassiskt epos från den anglosaxiska perioden.",
+    "example_en": "Beowulf is a classic epic from the Anglo-Saxon period.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7848
+  },
+  {
+    "swedish": "fasta",
+    "english": "fast",
+    "example_sv": "Under fastan avstår många från vissa typer av mat.",
+    "example_en": "During Lent, many abstain from certain types of food.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7849
+  },
+  {
+    "swedish": "geting",
+    "english": "wasp",
+    "example_sv": "En geting flög in genom fönstret och stack mig.",
+    "example_en": "A wasp flew in through the window and stung me.",
+    "scenario": "Animals",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7850
+  },
+  {
+    "swedish": "hedervärd",
+    "english": "honorable",
+    "example_sv": "Det är en hedervärd gärning att hjälpa de svaga.",
+    "example_en": "It is an honorable deed to help the weak.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7851
+  },
+  {
+    "swedish": "hjältinna",
+    "english": "heroine",
+    "example_sv": "Hon blev hyllad som en hjältinna efter att ha räddat barnet.",
+    "example_en": "She was hailed as a heroine after saving the child.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7852
+  },
+  {
+    "swedish": "frågeformulär",
+    "english": "questionnaire",
+    "example_sv": "Patienterna fick fylla i ett frågeformulär om sina symtom.",
+    "example_en": "The patients had to fill out a questionnaire about their symptoms.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7854
+  },
+  {
+    "swedish": "densitet",
+    "english": "density",
+    "example_sv": "Stenens densitet är högre än vattnets densitet.",
+    "example_en": "The density of the stone is higher than the density of the water.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7855
+  },
+  {
+    "swedish": "eskortera",
+    "english": "escort",
+    "example_sv": "Polisen fick eskortera presidenten genom folkmassan.",
+    "example_en": "The police had to escort the president through the crowd.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7856
+  },
+  {
+    "swedish": "rankning",
+    "english": "ranking",
+    "example_sv": "Universitetets rankning har förbättrats de senaste åren.",
+    "example_en": "The university's ranking has improved in recent years.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7857
+  },
+  {
+    "swedish": "svägerska",
+    "english": "sister-in-law",
+    "example_sv": "Min svägerska är en mycket trevlig och hjälpsam person.",
+    "example_en": "My sister-in-law is a very nice and helpful person.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7859
+  },
+  {
+    "swedish": "förbrylla",
+    "english": "puzzle",
+    "example_sv": "Hans beteende fortsätter att förbrylla alla i hans omgivning.",
+    "example_en": "His behavior continues to puzzle everyone around him.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7860
+  },
+  {
+    "swedish": "skattemässig",
+    "english": "fiscal",
+    "example_sv": "Regeringen presenterade en ny skattemässig reform för riksdagen.",
+    "example_en": "The government presented a new fiscal reform to parliament.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7861
+  },
+  {
+    "swedish": "tillgivenhet",
+    "english": "affection",
+    "example_sv": "Hon visade sin tillgivenhet genom att ge honom en kram.",
+    "example_en": "She showed her affection by giving him a hug.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7862
+  },
+  {
+    "swedish": "avkomling",
+    "english": "descendant",
+    "example_sv": "Han är en avkomling till en berömd kunglig familj.",
+    "example_en": "He is a descendant of a famous royal family.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7863
+  }
+]

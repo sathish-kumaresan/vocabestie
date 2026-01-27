@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "påve",
+    "english": "pope",
+    "example_sv": "Påven besökte Polen och träffade många troende människor.",
+    "example_en": "The Pope visited Poland and met many faithful people.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3226
+  },
+  {
+    "swedish": "kant",
+    "english": "edge, border",
+    "example_sv": "Jag ställde glaset på kanten av bordet, försiktigt.",
+    "example_en": "I placed the glass on the edge of the table, carefully.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3227
+  },
+  {
+    "swedish": "turist",
+    "english": "tourist",
+    "example_sv": "Stockholm är fullt av turister under sommarmånaderna.",
+    "example_en": "Stockholm is full of tourists during the summer months.",
+    "scenario": "Hotel",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3228
+  },
+  {
+    "swedish": "predika",
+    "english": "preach",
+    "example_sv": "Prästen predikar om kärlek och förlåtelse varje söndag.",
+    "example_en": "The priest preaches about love and forgiveness every Sunday.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3229
+  },
+  {
+    "swedish": "reflektera",
+    "english": "reflect",
+    "example_sv": "Vi måste reflektera över våra handlingar och deras konsekvenser.",
+    "example_en": "We must reflect on our actions and their consequences.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3230
+  },
+  {
+    "swedish": "folkgrupp",
+    "english": "ethnic group",
+    "example_sv": "Sverige har en stor mångfald av olika folkgrupper.",
+    "example_en": "Sweden has a great diversity of different ethnic groups.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3231
+  },
+  {
+    "swedish": "rektor",
+    "english": "principal",
+    "example_sv": "Rektor informerar om de nya reglerna på skolan.",
+    "example_en": "The principal informs about the new rules at the school.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3232
+  },
+  {
+    "swedish": "klargöra",
+    "english": "clarify",
+    "example_sv": "Kan du klargöra vad du menar med det påståendet?",
+    "example_en": "Can you clarify what you mean by that statement?",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3233
+  },
+  {
+    "swedish": "neutral",
+    "english": "neutral",
+    "example_sv": "Schweiz har traditionellt varit ett neutralt land.",
+    "example_en": "Switzerland has traditionally been a neutral country.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3234
+  },
+  {
+    "swedish": "laglig",
+    "english": "legal",
+    "example_sv": "Det är inte lagligt att köra bil utan körkort.",
+    "example_en": "It is not legal to drive a car without a driver's license.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3235
+  },
+  {
+    "swedish": "tendera",
+    "english": "tend",
+    "example_sv": "Priserna på bostäder tenderar att öka i storstäderna.",
+    "example_en": "Housing prices tend to increase in the big cities.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3236
+  },
+  {
+    "swedish": "utrikespolitik",
+    "english": "foreign policy",
+    "example_sv": "Sveriges utrikespolitik fokuserar på fred och samarbete.",
+    "example_en": "Sweden's foreign policy focuses on peace and cooperation.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3237
+  },
+  {
+    "swedish": "glädja",
+    "english": "please, gladden",
+    "example_sv": "Det glädjer mig att höra att du mår bra.",
+    "example_en": "It pleases me to hear that you are doing well.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3238
+  },
+  {
+    "swedish": "rödgrön",
+    "english": "red-green",
+    "example_sv": "Den rödgröna regeringen införde nya miljöskatter.",
+    "example_en": "The red-green government introduced new environmental taxes.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3239
+  },
+  {
+    "swedish": "segra",
+    "english": "triumph, conquer",
+    "example_sv": "Vårt lag kämpade hårt och lyckades segra till slut.",
+    "example_en": "Our team fought hard and managed to triumph in the end.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3240
+  },
+  {
+    "swedish": "inrikta",
+    "english": "focus",
+    "example_sv": "Vi måste inrikta oss på att lösa detta problem snabbt.",
+    "example_en": "We must focus on solving this problem quickly.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3241
+  },
+  {
+    "swedish": "monopol",
+    "english": "monopoly",
+    "example_sv": "Systembolaget har monopol på försäljning av alkohol.",
+    "example_en": "Systembolaget has a monopoly on the sale of alcohol.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3242
+  },
+  {
+    "swedish": "konkurrent",
+    "english": "competitor",
+    "example_sv": "Det är viktigt att hålla koll på sina konkurrenter.",
+    "example_en": "It is important to keep track of your competitors.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3243
+  },
+  {
+    "swedish": "plattform",
+    "english": "platform",
+    "example_sv": "Tåget ankommer till plattform nummer fem om fem minuter.",
+    "example_en": "The train arrives at platform number five in five minutes.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3244
+  },
+  {
+    "swedish": "skådespelare",
+    "english": "actor",
+    "example_sv": "Hon är en fantastisk skådespelare med stor talang.",
+    "example_en": "She is a fantastic actor with great talent.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3245
+  },
+  {
+    "swedish": "störning",
+    "english": "disturbance",
+    "example_sv": "Jag ber om ursäkt för störningen under mötet.",
+    "example_en": "I apologize for the disturbance during the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3246
+  },
+  {
+    "swedish": "remissinstans",
+    "english": "consultative body",
+    "example_sv": "Regeringen skickade lagförslaget till flera remissinstanser.",
+    "example_en": "The government sent the bill to several consultative bodies.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3247
+  },
+  {
+    "swedish": "rutin",
+    "english": "routine",
+    "example_sv": "Jag har en fast morgonrutin som hjälper mig vakna.",
+    "example_en": "I have a fixed morning routine that helps me wake up.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3248
+  },
+  {
+    "swedish": "dal",
+    "english": "valley",
+    "example_sv": "Vi vandrade genom en vacker dal med höga berg.",
+    "example_en": "We hiked through a beautiful valley with high mountains.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3249
+  },
+  {
+    "swedish": "studio",
+    "english": "studio",
+    "example_sv": "Bandet spelade in sitt nya album i en professionell studio.",
+    "example_en": "The band recorded their new album in a professional studio.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3250
+  },
+  {
+    "swedish": "användbar",
+    "english": "useful",
+    "example_sv": "Den här informationen var väldigt användbar för mitt arbete.",
+    "example_en": "This information was very useful for my work.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3251
+  },
+  {
+    "swedish": "lagförslag",
+    "english": "bill, legislative proposal",
+    "example_sv": "Oppositionen kritiserade regeringens nya lagförslag hårt.",
+    "example_en": "The opposition heavily criticized the government's new bill.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3252
+  },
+  {
+    "swedish": "självfallet",
+    "english": "obviously, of course",
+    "example_sv": "Självfallet kommer jag att hjälpa dig med det problemet.",
+    "example_en": "Of course I will help you with that problem.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3253
+  },
+  {
+    "swedish": "ömsesidig",
+    "english": "mutual",
+    "example_sv": "Respekten i vårt förhållande är ömsesidig och viktig.",
+    "example_en": "The respect in our relationship is mutual and important.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3254
+  },
+  {
+    "swedish": "förvåna",
+    "english": "surprise",
+    "example_sv": "Det skulle inte förvåna mig om han vann tävlingen.",
+    "example_en": "It wouldn't surprise me if he won the competition.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3255
+  },
+  {
+    "swedish": "flaska",
+    "english": "bottle",
+    "example_sv": "Kan du öppna den här flaskan med vin, tack?",
+    "example_en": "Can you open this bottle of wine, please?",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3256
+  },
+  {
+    "swedish": "packa",
+    "english": "pack",
+    "example_sv": "Jag måste packa min väska inför resan imorgon.",
+    "example_en": "I need to pack my bag for the trip tomorrow.",
+    "scenario": "At the Airport",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3257
+  },
+  {
+    "swedish": "reportage",
+    "english": "report, feature",
+    "example_sv": "Tidningen publicerade ett intressant reportage om miljön.",
+    "example_en": "The newspaper published an interesting report about the environment.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3258
+  },
+  {
+    "swedish": "skylt",
+    "english": "sign",
+    "example_sv": "Jag såg en skylt som pekade mot centrum av staden.",
+    "example_en": "I saw a sign pointing towards the center of the city.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3259
+  },
+  {
+    "swedish": "platta",
+    "english": "slab, tile",
+    "example_sv": "Vi köpte nya plattor till badrummet på rea.",
+    "example_en": "We bought new tiles for the bathroom on sale.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3260
+  },
+  {
+    "swedish": "välsignelse",
+    "english": "blessing",
+    "example_sv": "Barnen är en stor välsignelse i våra liv.",
+    "example_en": "Children are a great blessing in our lives.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3261
+  },
+  {
+    "swedish": "cell",
+    "english": "cell",
+    "example_sv": "Forskarna studerar cellernas struktur och funktion noggrant.",
+    "example_en": "The researchers are studying the structure and function of cells carefully.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3262
+  },
+  {
+    "swedish": "i förväg",
+    "english": "in advance",
+    "example_sv": "Du måste boka biljetterna i förväg för att vara säker.",
+    "example_en": "You must book the tickets in advance to be sure.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3263
+  },
+  {
+    "swedish": "kopp",
+    "english": "cup",
+    "example_sv": "Jag vill gärna ha en kopp te med mjölk.",
+    "example_en": "I would like a cup of tea with milk.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3264
+  },
+  {
+    "swedish": "bortse",
+    "english": "disregard, ignore",
+    "example_sv": "Vi kan inte bortse från de allvarliga konsekvenserna.",
+    "example_en": "We cannot disregard the serious consequences.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3265
+  },
+  {
+    "swedish": "etik",
+    "english": "ethics",
+    "example_sv": "Företag måste ha en stark etikpolicy på plats.",
+    "example_en": "Companies must have a strong ethics policy in place.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3266
+  },
+  {
+    "swedish": "mördare",
+    "english": "murderer",
+    "example_sv": "Polisen jagar fortfarande mördaren i det fallet.",
+    "example_en": "The police are still hunting the murderer in that case.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3267
+  },
+  {
+    "swedish": "med stöd av",
+    "english": "supported by",
+    "example_sv": "Byggnaden är konstruerad med stöd av starka pelare.",
+    "example_en": "The building is constructed with the support of strong pillars.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 3268
+  },
+  {
+    "swedish": "förintelse",
+    "english": "holocaust",
+    "example_sv": "Förintelsen är en mörk och tragisk del av historien.",
+    "example_en": "The Holocaust is a dark and tragic part of history.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3270
+  },
+  {
+    "swedish": "redogöra",
+    "english": "report, account for",
+    "example_sv": "Du måste redogöra för alla dina utgifter under resan.",
+    "example_en": "You must account for all your expenses during the trip.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3271
+  },
+  {
+    "swedish": "auktoritet",
+    "english": "authority",
+    "example_sv": "Han har stor auktoritet inom sitt forskningsområde.",
+    "example_en": "He has great authority in his field of research.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3272
+  },
+  {
+    "swedish": "avslå",
+    "english": "reject, deny",
+    "example_sv": "Banken tvingades avslå hans ansökan om ett lån.",
+    "example_en": "The bank was forced to reject his application for a loan.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3273
+  },
+  {
+    "swedish": "hud",
+    "english": "skin",
+    "example_sv": "Det är viktigt att skydda din hud mot solen.",
+    "example_en": "It is important to protect your skin from the sun.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3274
+  },
+  {
+    "swedish": "välstånd",
+    "english": "prosperity, welfare",
+    "example_sv": "Välstånd är inte bara materiella saker, utan även hälsa.",
+    "example_en": "Prosperity is not just material things, but also health.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3275
+  },
+  {
+    "swedish": "rättfärdig",
+    "english": "righteous, just",
+    "example_sv": "Han ansåg att hans handlingar var rättfärdiga i situationen.",
+    "example_en": "He considered his actions to be righteous in the situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3276
+  }
+]

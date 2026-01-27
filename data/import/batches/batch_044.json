@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "förbättring",
+    "english": "improvement",
+    "example_sv": "Det har skett en klar förbättring i hennes hälsa.",
+    "example_en": "There has been a clear improvement in her health.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2344
+  },
+  {
+    "swedish": "föreställa",
+    "english": "imagine",
+    "example_sv": "Kan du föreställa dig att bo på månen?",
+    "example_en": "Can you imagine living on the moon?",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2345
+  },
+  {
+    "swedish": "operation",
+    "english": "operation",
+    "example_sv": "Han behöver en operation för att fixa sitt knä.",
+    "example_en": "He needs an operation to fix his knee.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2346
+  },
+  {
+    "swedish": "service",
+    "english": "service",
+    "example_sv": "Restaurangen har bra service och trevlig personal.",
+    "example_en": "The restaurant has good service and friendly staff.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2348
+  },
+  {
+    "swedish": "låsa",
+    "english": "lock",
+    "example_sv": "Glöm inte att låsa dörren när du går.",
+    "example_en": "Don't forget to lock the door when you leave.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2349
+  },
+  {
+    "swedish": "varna",
+    "english": "warn",
+    "example_sv": "Jag måste varna dig för den hala isen.",
+    "example_en": "I must warn you about the slippery ice.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2350
+  },
+  {
+    "swedish": "anställa",
+    "english": "hire",
+    "example_sv": "Företaget planerar att anställa fler ingenjörer snart.",
+    "example_en": "The company plans to hire more engineers soon.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2351
+  },
+  {
+    "swedish": "förtryck",
+    "english": "oppression",
+    "example_sv": "De lever under ett system av politiskt förtryck.",
+    "example_en": "They live under a system of political oppression.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2352
+  },
+  {
+    "swedish": "varelse",
+    "english": "creature",
+    "example_sv": "En okänd varelse observerades i skogen igår kväll.",
+    "example_en": "An unknown creature was observed in the forest last night.",
+    "scenario": "Animals",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2353
+  },
+  {
+    "swedish": "tyst",
+    "english": "quiet",
+    "example_sv": "Var tyst, jag försöker koncentrera mig på arbetet.",
+    "example_en": "Be quiet, I'm trying to concentrate on my work.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2354
+  },
+  {
+    "swedish": "bredvid",
+    "english": "next to",
+    "example_sv": "Hon sitter bredvid mig på bussen varje morgon.",
+    "example_en": "She sits next to me on the bus every morning.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "preposition",
+    "rank": 2355
+  },
+  {
+    "swedish": "syssla",
+    "english": "occupy",
+    "example_sv": "Jag brukar syssla med trädgårdsarbete på helgerna.",
+    "example_en": "I usually occupy myself with gardening on the weekends.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2356
+  },
+  {
+    "swedish": "drömma",
+    "english": "dream",
+    "example_sv": "Jag älskar att drömma om att resa runt i världen.",
+    "example_en": "I love to dream about traveling around the world.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2357
+  },
+  {
+    "swedish": "evangelium",
+    "english": "gospel",
+    "example_sv": "Han predikade evangelium i kyrkan varje söndag.",
+    "example_en": "He preached the gospel in church every Sunday.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2358
+  },
+  {
+    "swedish": "planet",
+    "english": "planet",
+    "example_sv": "Jorden är den enda planet vi känner till med liv.",
+    "example_en": "Earth is the only planet we know of with life.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2359
+  },
+  {
+    "swedish": "organiserad",
+    "english": "organized",
+    "example_sv": "Hon är väldigt organiserad och har alltid koll på allt.",
+    "example_en": "She is very organized and always has everything under control.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2360
+  },
+  {
+    "swedish": "fält",
+    "english": "field",
+    "example_sv": "Vi spelade fotboll på fältet bakom skolan.",
+    "example_en": "We played football on the field behind the school.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2361
+  },
+  {
+    "swedish": "omröstning",
+    "english": "vote",
+    "example_sv": "Det kommer att bli en omröstning om den nya lagen.",
+    "example_en": "There will be a vote on the new law.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2362
+  },
+  {
+    "swedish": "psykisk",
+    "english": "mental",
+    "example_sv": "Det är viktigt att ta hand om sin psykiska hälsa.",
+    "example_en": "It's important to take care of your mental health.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2363
+  },
+  {
+    "swedish": "fåtal",
+    "english": "few",
+    "example_sv": "Bara ett fåtal personer kände till hemligheten.",
+    "example_en": "Only a few people knew the secret.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2364
+  },
+  {
+    "swedish": "öppet",
+    "english": "openly",
+    "example_sv": "De diskuterade sina problem öppet med varandra.",
+    "example_en": "They discussed their problems openly with each other.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2365
+  },
+  {
+    "swedish": "överväga",
+    "english": "consider",
+    "example_sv": "Jag måste överväga alla alternativ innan jag bestämmer mig.",
+    "example_en": "I need to consider all the options before I decide.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2366
+  },
+  {
+    "swedish": "stopp",
+    "english": "stop",
+    "example_sv": "Det är ett stopp här, så du måste stanna.",
+    "example_en": "There is a stop here, so you have to stop.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2367
+  },
+  {
+    "swedish": "tråd",
+    "english": "thread",
+    "example_sv": "Jag behöver en rulle tråd för att sy den här knappen.",
+    "example_en": "I need a spool of thread to sew this button.",
+    "scenario": "Clothing",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2368
+  },
+  {
+    "swedish": "prov",
+    "english": "exam",
+    "example_sv": "Jag måste plugga till provet i matematik imorgon.",
+    "example_en": "I have to study for the math exam tomorrow.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2369
+  },
+  {
+    "swedish": "sinne",
+    "english": "mind",
+    "example_sv": "Det är viktigt att hålla sinnet aktivt och engagerat.",
+    "example_en": "It's important to keep the mind active and engaged.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2370
+  },
+  {
+    "swedish": "sorg",
+    "english": "grief",
+    "example_sv": "Hennes sorg efter förlusten var mycket djup.",
+    "example_en": "Her grief after the loss was very deep.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2371
+  },
+  {
+    "swedish": "ensamt",
+    "english": "lonely",
+    "example_sv": "Han kände sig väldigt ensamt utan sin familj.",
+    "example_en": "He felt very lonely without his family.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2372
+  },
+  {
+    "swedish": "gemensamt",
+    "english": "common",
+    "example_sv": "De har många gemensamma intressen och värderingar.",
+    "example_en": "They have many common interests and values.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2373
+  },
+  {
+    "swedish": "kommersiell",
+    "english": "commercial",
+    "example_sv": "Filmen fick ett kommersiellt genomslag världen över.",
+    "example_en": "The film had a commercial breakthrough worldwide.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2375
+  },
+  {
+    "swedish": "före detta (förk. f.d., f d)",
+    "english": "former",
+    "example_sv": "Han är före detta anställd på företaget.",
+    "example_en": "He is a former employee of the company.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2376
+  },
+  {
+    "swedish": "sist",
+    "english": "last",
+    "example_sv": "Sist jag såg honom var han på väg till flygplatsen.",
+    "example_en": "The last time I saw him, he was on his way to the airport.",
+    "scenario": "At the Airport",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2377
+  },
+  {
+    "swedish": "i huvudsak",
+    "english": "essentially",
+    "example_sv": "I huvudsak handlar filmen om kärlek och förlust.",
+    "example_en": "Essentially, the film is about love and loss.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2378
+  },
+  {
+    "swedish": "lämpa sig",
+    "english": "suit",
+    "example_sv": "Den här boken lämpar sig inte för barn under tolv.",
+    "example_en": "This book is not suitable for children under twelve.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2379
+  },
+  {
+    "swedish": "lura",
+    "english": "trick",
+    "example_sv": "Försök inte lura mig, jag vet vad du gör.",
+    "example_en": "Don't try to trick me, I know what you're doing.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2381
+  },
+  {
+    "swedish": "förvisso",
+    "english": "indeed",
+    "example_sv": "Det är förvisso en mycket intressant fråga.",
+    "example_en": "It is indeed a very interesting question.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2382
+  },
+  {
+    "swedish": "övervakning",
+    "english": "surveillance",
+    "example_sv": "Polisen använder övervakning för att bekämpa brott.",
+    "example_en": "The police use surveillance to fight crime.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2383
+  },
+  {
+    "swedish": "pågående",
+    "english": "ongoing",
+    "example_sv": "Det finns en pågående diskussion om klimatförändringar.",
+    "example_en": "There is an ongoing discussion about climate change.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2384
+  },
+  {
+    "swedish": "utvärdering",
+    "english": "evaluation",
+    "example_sv": "Vi gör en utvärdering av projektet efter avslutat arbete.",
+    "example_en": "We will do an evaluation of the project after completion.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2385
+  },
+  {
+    "swedish": "trygg",
+    "english": "safe",
+    "example_sv": "Jag känner mig trygg här i mitt eget hem.",
+    "example_en": "I feel safe here in my own home.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2386
+  },
+  {
+    "swedish": "arv",
+    "english": "heritage",
+    "example_sv": "Det är viktigt att bevara vårt kulturella arv.",
+    "example_en": "It is important to preserve our cultural heritage.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2387
+  },
+  {
+    "swedish": "seminarium",
+    "english": "seminar",
+    "example_sv": "Jag ska delta i ett seminarium om hållbarhet nästa vecka.",
+    "example_en": "I will attend a seminar on sustainability next week.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2388
+  },
+  {
+    "swedish": "besvara",
+    "english": "answer",
+    "example_sv": "Jag ska besvara dina frågor så gott jag kan.",
+    "example_en": "I will answer your questions as best as I can.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2389
+  },
+  {
+    "swedish": "övergrepp",
+    "english": "abuse",
+    "example_sv": "Ingen ska behöva uppleva något form av övergrepp.",
+    "example_en": "No one should have to experience any form of abuse.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2390
+  },
+  {
+    "swedish": "ljuga",
+    "english": "lie",
+    "example_sv": "Du ska inte ljuga för mig, var ärlig.",
+    "example_en": "You shouldn't lie to me, be honest.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2392
+  },
+  {
+    "swedish": "uppdatering",
+    "english": "update",
+    "example_sv": "Jag installerade en ny uppdatering på min dator igår.",
+    "example_en": "I installed a new update on my computer yesterday.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2393
+  },
+  {
+    "swedish": "grekisk",
+    "english": "Greek",
+    "example_sv": "Jag älskar att äta grekisk sallad på sommaren.",
+    "example_en": "I love to eat Greek salad in the summer.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2394
+  },
+  {
+    "swedish": "närvaro",
+    "english": "presence",
+    "example_sv": "Hans närvaro gjorde alla lite gladare.",
+    "example_en": "His presence made everyone a little happier.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2395
+  },
+  {
+    "swedish": "tidskrift",
+    "english": "journal",
+    "example_sv": "Jag prenumererar på en tidskrift om trädgårdsskötsel.",
+    "example_en": "I subscribe to a journal about gardening.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2396
+  },
+  {
+    "swedish": "infrastruktur",
+    "english": "infrastructure",
+    "example_sv": "Investeringen i ny infrastruktur är väldigt viktig.",
+    "example_en": "The investment in new infrastructure is very important.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2397
+  }
+]

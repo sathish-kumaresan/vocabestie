@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "perfekt",
+    "english": "perfect",
+    "example_sv": "Den här tårtan är helt perfekt till efterrätt.",
+    "example_en": "This cake is absolutely perfect for dessert.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1801
+  },
+  {
+    "swedish": "överenskommelse",
+    "english": "agreement",
+    "example_sv": "Vi har en överenskommelse om att dela kostnaderna.",
+    "example_en": "We have an agreement to share the costs.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1802
+  },
+  {
+    "swedish": "kampanj",
+    "english": "campaign",
+    "example_sv": "Företaget startade en stor kampanj för den nya produkten.",
+    "example_en": "The company started a large campaign for the new product.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1803
+  },
+  {
+    "swedish": "grej",
+    "english": "thing",
+    "example_sv": "Det är en jättebra grej att ha med sig.",
+    "example_en": "It's a really good thing to have with you.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1804
+  },
+  {
+    "swedish": "åstadkomma",
+    "english": "achieve",
+    "example_sv": "Vi hoppas kunna åstadkomma mycket med detta projekt.",
+    "example_en": "We hope to achieve a lot with this project.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1805
+  },
+  {
+    "swedish": "budget",
+    "english": "budget",
+    "example_sv": "Vi måste hålla oss inom budgeten för resan.",
+    "example_en": "We must stay within the budget for the trip.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1806
+  },
+  {
+    "swedish": "rygg",
+    "english": "back",
+    "example_sv": "Jag har ont i ryggen efter att ha suttit länge.",
+    "example_en": "I have a backache after sitting for a long time.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1807
+  },
+  {
+    "swedish": "press",
+    "english": "pressure",
+    "example_sv": "Det är mycket press på mig att prestera bra.",
+    "example_en": "There is a lot of pressure on me to perform well.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1809
+  },
+  {
+    "swedish": "digital",
+    "english": "digital",
+    "example_sv": "Vi lever i en alltmer digital värld idag.",
+    "example_en": "We live in an increasingly digital world today.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1810
+  },
+  {
+    "swedish": "framstå",
+    "english": "appear",
+    "example_sv": "Han ville framstå som mer självsäker än han var.",
+    "example_en": "He wanted to appear more confident than he was.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1811
+  },
+  {
+    "swedish": "verktyg",
+    "english": "tool",
+    "example_sv": "Den här appen är ett användbart verktyg för språkinlärning.",
+    "example_en": "This app is a useful tool for language learning.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1812
+  },
+  {
+    "swedish": "beroende på",
+    "english": "depending on",
+    "example_sv": "Vi går ut, beroende på vädret senare idag.",
+    "example_en": "We'll go out, depending on the weather later today.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "preposition",
+    "rank": 1813
+  },
+  {
+    "swedish": "betyg",
+    "english": "grade",
+    "example_sv": "Hon fick bra betyg i alla sina kurser.",
+    "example_en": "She got good grades in all her courses.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1814
+  },
+  {
+    "swedish": "detsamma",
+    "english": "the same",
+    "example_sv": "\"Ha en bra dag!\" \"Detsamma!\"",
+    "example_en": "\"Have a nice day!\" \"The same to you!\"",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "pronoun",
+    "rank": 1815
+  },
+  {
+    "swedish": "start",
+    "english": "start",
+    "example_sv": "Vi fick en bra start på dagen imorse.",
+    "example_en": "We had a good start to the day this morning.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1816
+  },
+  {
+    "swedish": "leverera",
+    "english": "deliver",
+    "example_sv": "De lovade att leverera paketet imorgon bitti.",
+    "example_en": "They promised to deliver the package tomorrow morning.",
+    "scenario": "Post Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1817
+  },
+  {
+    "swedish": "kompetens",
+    "english": "competence",
+    "example_sv": "Vi behöver mer kompetens inom området dataskydd.",
+    "example_en": "We need more competence in the area of data protection.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1818
+  },
+  {
+    "swedish": "var och en",
+    "english": "each",
+    "example_sv": "Var och en måste ta ansvar för sina handlingar.",
+    "example_en": "Each one must take responsibility for their actions.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "pronoun",
+    "rank": 1819
+  },
+  {
+    "swedish": "långsiktig",
+    "english": "long-term",
+    "example_sv": "Vi behöver en långsiktig plan för företaget.",
+    "example_en": "We need a long-term plan for the company.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1820
+  },
+  {
+    "swedish": "vinter",
+    "english": "winter",
+    "example_sv": "Det är kallt och snöigt på vintern i Sverige.",
+    "example_en": "It's cold and snowy in the winter in Sweden.",
+    "scenario": "Seasons",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1821
+  },
+  {
+    "swedish": "gripa",
+    "english": "grab",
+    "example_sv": "Polisen var tvungen att gripa den misstänkte mannen.",
+    "example_en": "The police had to grab the suspected man.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1822
+  },
+  {
+    "swedish": "skyldighet",
+    "english": "obligation",
+    "example_sv": "Det är din skyldighet att hjälpa de behövande.",
+    "example_en": "It is your obligation to help those in need.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1823
+  },
+  {
+    "swedish": "evig",
+    "english": "eternal",
+    "example_sv": "De lovade varandra evig kärlek på bröllopet.",
+    "example_en": "They promised each other eternal love at the wedding.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1824
+  },
+  {
+    "swedish": "företrädare",
+    "english": "representative",
+    "example_sv": "Han är en företrädare för studentkåren på universitetet.",
+    "example_en": "He is a representative for the student union at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1825
+  },
+  {
+    "swedish": "etnisk",
+    "english": "ethnic",
+    "example_sv": "Sverige är ett land med stor etnisk mångfald.",
+    "example_en": "Sweden is a country with great ethnic diversity.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1826
+  },
+  {
+    "swedish": "med andra ord",
+    "english": "in other words",
+    "example_sv": "Hon är väldigt trött, med andra ord hon behöver vila.",
+    "example_en": "She is very tired, in other words she needs to rest.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1827
+  },
+  {
+    "swedish": "njuta",
+    "english": "enjoy",
+    "example_sv": "Jag älskar att njuta av en kopp kaffe på morgonen.",
+    "example_en": "I love to enjoy a cup of coffee in the morning.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1828
+  },
+  {
+    "swedish": "posta",
+    "english": "post",
+    "example_sv": "Jag måste posta det här brevet innan jag åker hem.",
+    "example_en": "I need to post this letter before I go home.",
+    "scenario": "Post Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1829
+  },
+  {
+    "swedish": "runda",
+    "english": "round",
+    "example_sv": "Vi måste runda hörnet för att se affären.",
+    "example_en": "We have to round the corner to see the store.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1830
+  },
+  {
+    "swedish": "bereda",
+    "english": "prepare",
+    "example_sv": "Kocken måste bereda maten innan gästerna kommer.",
+    "example_en": "The chef must prepare the food before the guests arrive.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1832
+  },
+  {
+    "swedish": "uppmärksamma",
+    "english": "pay attention",
+    "example_sv": "Du måste uppmärksamma vad läraren säger i klassen.",
+    "example_en": "You must pay attention to what the teacher says in class.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1833
+  },
+  {
+    "swedish": "arbetslös",
+    "english": "unemployed",
+    "example_sv": "Han har varit arbetslös sedan fabriken lades ned.",
+    "example_en": "He has been unemployed since the factory closed down.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1834
+  },
+  {
+    "swedish": "yta",
+    "english": "surface",
+    "example_sv": "Bordets yta var täckt av damm och smuts.",
+    "example_en": "The surface of the table was covered in dust and dirt.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1835
+  },
+  {
+    "swedish": "skratta",
+    "english": "laugh",
+    "example_sv": "Vi skrattade mycket åt den roliga filmen igår.",
+    "example_en": "We laughed a lot at the funny movie yesterday.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1836
+  },
+  {
+    "swedish": "underlätta",
+    "english": "facilitate",
+    "example_sv": "Den nya programvaran kommer att underlätta vårt arbete.",
+    "example_en": "The new software will facilitate our work.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1837
+  },
+  {
+    "swedish": "föreligga",
+    "english": "exist",
+    "example_sv": "Det måste föreligga ett missförstånd mellan oss.",
+    "example_en": "There must be a misunderstanding between us.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1838
+  },
+  {
+    "swedish": "tillämpning",
+    "english": "application",
+    "example_sv": "Det finns många tillämpningar av den nya tekniken.",
+    "example_en": "There are many applications of the new technology.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1839
+  },
+  {
+    "swedish": "garantera",
+    "english": "guarantee",
+    "example_sv": "Vi kan inte garantera att han kommer att lyckas.",
+    "example_en": "We cannot guarantee that he will succeed.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1840
+  },
+  {
+    "swedish": "jakt",
+    "english": "hunting",
+    "example_sv": "Han gillar att gå på jakt med sin hund.",
+    "example_en": "He likes to go hunting with his dog.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1841
+  },
+  {
+    "swedish": "utse",
+    "english": "appoint",
+    "example_sv": "De bestämde sig för att utse honom till chef.",
+    "example_en": "They decided to appoint him as manager.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1842
+  },
+  {
+    "swedish": "blick",
+    "english": "glance",
+    "example_sv": "Hon kastade en snabb blick på klockan på väggen.",
+    "example_en": "She cast a quick glance at the clock on the wall.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1843
+  },
+  {
+    "swedish": "svenska",
+    "english": "Swedish",
+    "example_sv": "Jag studerar svenska på universitetet i Stockholm.",
+    "example_en": "I am studying Swedish at the university in Stockholm.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1844
+  },
+  {
+    "swedish": "konferens",
+    "english": "conference",
+    "example_sv": "Jag ska delta i en konferens nästa vecka.",
+    "example_en": "I'm going to attend a conference next week.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1845
+  },
+  {
+    "swedish": "framföra",
+    "english": "present",
+    "example_sv": "Hon kommer att framföra sin åsikt på mötet.",
+    "example_en": "She will present her opinion at the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1846
+  },
+  {
+    "swedish": "specifik",
+    "english": "specific",
+    "example_sv": "Jag letar efter en specifik typ av sko.",
+    "example_en": "I am looking for a specific type of shoe.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1848
+  },
+  {
+    "swedish": "varg",
+    "english": "wolf",
+    "example_sv": "Vargen ylade högt i skogen under natten.",
+    "example_en": "The wolf howled loudly in the forest during the night.",
+    "scenario": "Animals",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1849
+  },
+  {
+    "swedish": "kanal",
+    "english": "channel",
+    "example_sv": "Vilken kanal sänds fotbollsmatchen på ikväll?",
+    "example_en": "Which channel is the football match on tonight?",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1850
+  },
+  {
+    "swedish": "klok",
+    "english": "wise",
+    "example_sv": "Det var ett klokt beslut att investera i företaget.",
+    "example_en": "It was a wise decision to invest in the company.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1851
+  },
+  {
+    "swedish": "regim",
+    "english": "regime",
+    "example_sv": "Den politiska regimen har styrt landet i många år.",
+    "example_en": "The political regime has ruled the country for many years.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1852
+  },
+  {
+    "swedish": "utöva",
+    "english": "exercise",
+    "example_sv": "Jag brukar utöva yoga varje morgon för att slappna av.",
+    "example_en": "I usually exercise yoga every morning to relax.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1853
+  }
+]

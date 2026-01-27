@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "investering",
+    "english": "investment",
+    "example_sv": "Det är en bra investering för framtiden, tror jag.",
+    "example_en": "It's a good investment for the future, I think.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1532
+  },
+  {
+    "swedish": "fira",
+    "english": "celebrate",
+    "example_sv": "Vi ska fira min födelsedag med en stor fest.",
+    "example_en": "We are going to celebrate my birthday with a big party.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1533
+  },
+  {
+    "swedish": "försäljning",
+    "english": "sale",
+    "example_sv": "Försäljningen av biljetter börjar nästa vecka klockan nio.",
+    "example_en": "The ticket sale starts next week at nine o'clock.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1534
+  },
+  {
+    "swedish": "populär",
+    "english": "popular",
+    "example_sv": "Den här restaurangen är väldigt populär bland turister.",
+    "example_en": "This restaurant is very popular among tourists.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1535
+  },
+  {
+    "swedish": "klubb",
+    "english": "club",
+    "example_sv": "Jag är medlem i en fotbollsklubb nära mitt hem.",
+    "example_en": "I am a member of a football club near my home.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1536
+  },
+  {
+    "swedish": "citat",
+    "english": "quote",
+    "example_sv": "Jag hittade ett bra citat i den boken igår.",
+    "example_en": "I found a good quote in that book yesterday.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1537
+  },
+  {
+    "swedish": "palestinier",
+    "english": "Palestinian",
+    "example_sv": "Många palestinier bor i flyktingläger runt om i världen.",
+    "example_en": "Many Palestinians live in refugee camps around the world.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1538
+  },
+  {
+    "swedish": "utrymme",
+    "english": "space",
+    "example_sv": "Det finns inte tillräckligt med utrymme för alla möbler.",
+    "example_en": "There isn't enough space for all the furniture.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1539
+  },
+  {
+    "swedish": "förr",
+    "english": "before",
+    "example_sv": "Förr i tiden var livet mycket enklare, säger min farfar.",
+    "example_en": "Life was much simpler in the past, says my grandfather.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1540
+  },
+  {
+    "swedish": "svårt",
+    "english": "difficult",
+    "example_sv": "Det är svårt att lära sig ett nytt språk snabbt.",
+    "example_en": "It is difficult to learn a new language quickly.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1541
+  },
+  {
+    "swedish": "stark",
+    "english": "strong",
+    "example_sv": "Han är en stark man som tränar varje dag.",
+    "example_en": "He is a strong man who works out every day.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1542
+  },
+  {
+    "swedish": "påminna",
+    "english": "remind",
+    "example_sv": "Kan du påminna mig om mötet imorgon bitti?",
+    "example_en": "Can you remind me about the meeting tomorrow morning?",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1543
+  },
+  {
+    "swedish": "aktör",
+    "english": "actor",
+    "example_sv": "Han är en viktig aktör inom svensk politik idag.",
+    "example_en": "He is an important actor in Swedish politics today.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1544
+  },
+  {
+    "swedish": "klassisk",
+    "english": "classic",
+    "example_sv": "Det är en klassisk bil från 1960-talet, jättefin.",
+    "example_en": "It is a classic car from the 1960s, very nice.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1545
+  },
+  {
+    "swedish": "fokus",
+    "english": "focus",
+    "example_sv": "Vi måste ha fokus på de viktigaste problemen nu.",
+    "example_en": "We must have focus on the most important problems now.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "noun",
+    "rank": 1547
+  },
+  {
+    "swedish": "officiell",
+    "english": "official",
+    "example_sv": "Det är den officiella webbplatsen för staden Stockholm.",
+    "example_en": "It is the official website for the city of Stockholm.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1548
+  },
+  {
+    "swedish": "beröra",
+    "english": "affect",
+    "example_sv": "Den nya lagen kommer att beröra många människor.",
+    "example_en": "The new law will affect many people.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1549
+  },
+  {
+    "swedish": "palestinsk",
+    "english": "Palestinian",
+    "example_sv": "Hon studerar palestinsk kultur och historia på universitetet.",
+    "example_en": "She studies Palestinian culture and history at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1550
+  },
+  {
+    "swedish": "ägare",
+    "english": "owner",
+    "example_sv": "Han är ägare till den nya restaurangen på hörnet.",
+    "example_en": "He is the owner of the new restaurant on the corner.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1551
+  },
+  {
+    "swedish": "kapital",
+    "english": "capital",
+    "example_sv": "Företaget behöver mer kapital för att kunna expandera.",
+    "example_en": "The company needs more capital to expand.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1552
+  },
+  {
+    "swedish": "relevant",
+    "english": "relevant",
+    "example_sv": "Den informationen är inte relevant för vår diskussion.",
+    "example_en": "That information is not relevant to our discussion.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1553
+  },
+  {
+    "swedish": "minister",
+    "english": "minister",
+    "example_sv": "Utrikesministern ska träffa presidenten imorgon bitti.",
+    "example_en": "The Foreign Minister will meet the President tomorrow morning.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1554
+  },
+  {
+    "swedish": "anpassa",
+    "english": "adapt",
+    "example_sv": "Du måste anpassa dig till den nya situationen snabbt.",
+    "example_en": "You must adapt to the new situation quickly.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1555
+  },
+  {
+    "swedish": "glädje",
+    "english": "joy",
+    "example_sv": "Det fyllde mitt hjärta med stor glädje att se dem.",
+    "example_en": "It filled my heart with great joy to see them.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1556
+  },
+  {
+    "swedish": "titel",
+    "english": "title",
+    "example_sv": "Vad är titeln på den nya boken av Stephen King?",
+    "example_en": "What is the title of the new book by Stephen King?",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1557
+  },
+  {
+    "swedish": "något",
+    "english": "somewhat",
+    "example_sv": "Jag är något trött efter den långa resan igår.",
+    "example_en": "I am somewhat tired after the long trip yesterday.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1558
+  },
+  {
+    "swedish": "utgångspunkt",
+    "english": "starting point",
+    "example_sv": "Vår utgångspunkt är att alla ska ha lika rättigheter.",
+    "example_en": "Our starting point is that everyone should have equal rights.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1559
+  },
+  {
+    "swedish": "nätverk",
+    "english": "network",
+    "example_sv": "Han har ett stort nätverk av kontakter inom branschen.",
+    "example_en": "He has a large network of contacts within the industry.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1560
+  },
+  {
+    "swedish": "scen",
+    "english": "scene",
+    "example_sv": "Skådespelarna förbereder sig inför kvällens scenföreställning.",
+    "example_en": "The actors are preparing for tonight's stage performance.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1561
+  },
+  {
+    "swedish": "nytta",
+    "english": "benefit",
+    "example_sv": "Det finns mycket nytta i att studera utomlands.",
+    "example_en": "There is much benefit in studying abroad.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1562
+  },
+  {
+    "swedish": "hållbar",
+    "english": "sustainable",
+    "example_sv": "Vi måste hitta mer hållbara lösningar för framtiden.",
+    "example_en": "We must find more sustainable solutions for the future.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1563
+  },
+  {
+    "swedish": "begränsa",
+    "english": "limit",
+    "example_sv": "Vi måste begränsa vår användning av fossila bränslen.",
+    "example_en": "We must limit our use of fossil fuels.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1564
+  },
+  {
+    "swedish": "sikte",
+    "english": "sight",
+    "example_sv": "Hon hade siktet inställt på att vinna loppet.",
+    "example_en": "She had her sights set on winning the race.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1565
+  },
+  {
+    "swedish": "snygg",
+    "english": "nice-looking",
+    "example_sv": "Vilken snygg jacka du har köpt, passar dig bra!",
+    "example_en": "What a nice-looking jacket you bought, it suits you well!",
+    "scenario": "Clothing",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1566
+  },
+  {
+    "swedish": "kvinnlig",
+    "english": "female",
+    "example_sv": "Hon är en framgångsrik kvinnlig företagare från Stockholm.",
+    "example_en": "She is a successful female entrepreneur from Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1567
+  },
+  {
+    "swedish": "som vanligt",
+    "english": "as usual",
+    "example_sv": "Jag tar en kopp kaffe som vanligt på morgonen.",
+    "example_en": "I have a cup of coffee as usual in the morning.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1568
+  },
+  {
+    "swedish": "avstånd",
+    "english": "distance",
+    "example_sv": "Det är ett långt avstånd mellan Stockholm och Göteborg.",
+    "example_en": "It is a long distance between Stockholm and Gothenburg.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1569
+  },
+  {
+    "swedish": "fly",
+    "english": "flee",
+    "example_sv": "Många människor tvingas fly från sina hemländer på grund av krig.",
+    "example_en": "Many people are forced to flee from their home countries because of war.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1570
+  },
+  {
+    "swedish": "betydande",
+    "english": "significant",
+    "example_sv": "Det är en betydande skillnad mellan de två alternativen.",
+    "example_en": "There is a significant difference between the two options.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1571
+  },
+  {
+    "swedish": "skyldig",
+    "english": "guilty",
+    "example_sv": "Mannen förklarades skyldig till brottet av domstolen.",
+    "example_en": "The man was declared guilty of the crime by the court.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1572
+  },
+  {
+    "swedish": "i övrigt",
+    "english": "otherwise",
+    "example_sv": "I övrigt har jag inget att tillägga till rapporten.",
+    "example_en": "Otherwise, I have nothing to add to the report.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1573
+  },
+  {
+    "swedish": "inflation",
+    "english": "inflation",
+    "example_sv": "Inflationen har ökat kraftigt det senaste året tyvärr.",
+    "example_en": "Inflation has increased sharply in the past year, unfortunately.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1574
+  },
+  {
+    "swedish": "ben",
+    "english": "leg",
+    "example_sv": "Jag bröt mitt ben när jag åkte skidor förra vintern.",
+    "example_en": "I broke my leg when I went skiing last winter.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 1575
+  },
+  {
+    "swedish": "definition",
+    "english": "definition",
+    "example_sv": "Vad är definitionen av ordet 'paradox' på svenska?",
+    "example_en": "What is the definition of the word 'paradox' in Swedish?",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1576
+  },
+  {
+    "swedish": "uppmärksamhet",
+    "english": "attention",
+    "example_sv": "Barnen behöver mer uppmärksamhet från sina föräldrar.",
+    "example_en": "The children need more attention from their parents.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1577
+  },
+  {
+    "swedish": "ladda",
+    "english": "charge",
+    "example_sv": "Jag måste ladda min mobiltelefon innan jag går hem.",
+    "example_en": "I have to charge my mobile phone before I go home.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1578
+  },
+  {
+    "swedish": "jul",
+    "english": "Christmas",
+    "example_sv": "Vi firar jul med familjen hemma hos mina föräldrar.",
+    "example_en": "We celebrate Christmas with the family at my parents' house.",
+    "scenario": "Holidays",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 1579
+  },
+  {
+    "swedish": "dåligt",
+    "english": "badly",
+    "example_sv": "Jag sov dåligt i natt och är väldigt trött idag.",
+    "example_en": "I slept badly last night and am very tired today.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 1580
+  },
+  {
+    "swedish": "kommunal",
+    "english": "municipal",
+    "example_sv": "Den kommunala skolan har bra lärare och resurser.",
+    "example_en": "The municipal school has good teachers and resources.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 1581
+  },
+  {
+    "swedish": "passera",
+    "english": "pass",
+    "example_sv": "Bilen kunde inte passera eftersom vägen var avstängd.",
+    "example_en": "The car could not pass because the road was closed.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 1582
+  }
+]

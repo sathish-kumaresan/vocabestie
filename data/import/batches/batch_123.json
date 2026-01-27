@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "rand",
+    "english": "edge, border",
+    "example_sv": "Målningen sträckte sig ända till randen av den stora duken.",
+    "example_en": "The painting extended to the very edge of the large canvas.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6428
+  },
+  {
+    "swedish": "festa",
+    "english": "party, celebrate",
+    "example_sv": "Vi ska festa ordentligt när vi har avslutat projektet.",
+    "example_en": "We will party properly when we have finished the project.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6429
+  },
+  {
+    "swedish": "frekvent",
+    "english": "frequent",
+    "example_sv": "Han är en frekvent besökare på biblioteket i stan.",
+    "example_en": "He is a frequent visitor to the library in town.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6430
+  },
+  {
+    "swedish": "prestanda",
+    "english": "performance",
+    "example_sv": "Datorns prestanda har förbättrats avsevärt efter uppgraderingen.",
+    "example_en": "The computer's performance has improved significantly after the upgrade.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6431
+  },
+  {
+    "swedish": "djärv",
+    "english": "bold, daring",
+    "example_sv": "Hennes djärva beslut att starta eget företag imponerade på alla.",
+    "example_en": "Her bold decision to start her own business impressed everyone.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6432
+  },
+  {
+    "swedish": "omtyckt",
+    "english": "well-liked, popular",
+    "example_sv": "Läraren var mycket omtyckt av både elever och föräldrar.",
+    "example_en": "The teacher was very well-liked by both students and parents.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6433
+  },
+  {
+    "swedish": "skrik",
+    "english": "scream, shout",
+    "example_sv": "Ett högt skrik hördes från barnens rum på övervåningen.",
+    "example_en": "A loud scream was heard from the children's room upstairs.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6434
+  },
+  {
+    "swedish": "förtvivlad",
+    "english": "desperate",
+    "example_sv": "Hon var förtvivlad när hon insåg att hon hade missat tåget.",
+    "example_en": "She was desperate when she realized she had missed the train.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6435
+  },
+  {
+    "swedish": "uttrycklig",
+    "english": "explicit, express",
+    "example_sv": "Det finns ingen uttrycklig regel som förbjuder detta beteende.",
+    "example_en": "There is no explicit rule that prohibits this behavior.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6436
+  },
+  {
+    "swedish": "signera",
+    "english": "sign",
+    "example_sv": "Skådespelaren erbjöd sig att signera mitt exemplar av boken.",
+    "example_en": "The actor offered to sign my copy of the book.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6437
+  },
+  {
+    "swedish": "experimentera",
+    "english": "experiment",
+    "example_sv": "Kocken älskar att experimentera med nya smaker och ingredienser.",
+    "example_en": "The chef loves to experiment with new flavors and ingredients.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6438
+  },
+  {
+    "swedish": "födsel",
+    "english": "birth",
+    "example_sv": "Födseln av mitt första barn var en oförglömlig upplevelse.",
+    "example_en": "The birth of my first child was an unforgettable experience.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6439
+  },
+  {
+    "swedish": "ombyggnad",
+    "english": "reconstruction, renovation",
+    "example_sv": "Hela köket är i full ombyggnad just nu.",
+    "example_en": "The entire kitchen is under full reconstruction right now.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6440
+  },
+  {
+    "swedish": "avgrund",
+    "english": "abyss, chasm",
+    "example_sv": "Han stod på kanten av avgrunden och kände en yrsel.",
+    "example_en": "He stood on the edge of the abyss and felt dizzy.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6441
+  },
+  {
+    "swedish": "kapell",
+    "english": "chapel",
+    "example_sv": "Bröllopet kommer att äga rum i ett litet kapell på landet.",
+    "example_en": "The wedding will take place in a small chapel in the countryside.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6442
+  },
+  {
+    "swedish": "planta",
+    "english": "plant",
+    "example_sv": "Jag ska plantera nya blommor i trädgården imorgon bitti.",
+    "example_en": "I'm going to plant new flowers in the garden tomorrow morning.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6443
+  },
+  {
+    "swedish": "våt",
+    "english": "wet",
+    "example_sv": "Mina kläder är helt våta efter regnet som föll.",
+    "example_en": "My clothes are completely wet after the rain that fell.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6444
+  },
+  {
+    "swedish": "fångenskap",
+    "english": "captivity",
+    "example_sv": "Djuren levde i fångenskap hela sina liv.",
+    "example_en": "The animals lived in captivity their entire lives.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6445
+  },
+  {
+    "swedish": "korrekthet",
+    "english": "correctness, accuracy",
+    "example_sv": "Vi måste försäkra oss om korrektheten i datan vi samlar in.",
+    "example_en": "We must ensure the correctness of the data we collect.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6446
+  },
+  {
+    "swedish": "variabel",
+    "english": "variable",
+    "example_sv": "Temperaturen är en viktig variabel i detta experiment.",
+    "example_en": "Temperature is an important variable in this experiment.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6447
+  },
+  {
+    "swedish": "formulär",
+    "english": "form",
+    "example_sv": "Du måste fylla i detta formulär för att ansöka.",
+    "example_en": "You must fill in this form to apply.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6448
+  },
+  {
+    "swedish": "gap",
+    "english": "gap",
+    "example_sv": "Det var ett stort gap mellan hennes förväntningar och verkligheten.",
+    "example_en": "There was a big gap between her expectations and reality.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6449
+  },
+  {
+    "swedish": "manifest",
+    "english": "manifesto",
+    "example_sv": "Partiet presenterade sitt manifest inför valet.",
+    "example_en": "The party presented its manifesto before the election.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6450
+  },
+  {
+    "swedish": "handlare",
+    "english": "merchant, trader",
+    "example_sv": "En handlare sålde kryddor på den lokala marknaden.",
+    "example_en": "A merchant sold spices at the local market.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6451
+  },
+  {
+    "swedish": "mobilisering",
+    "english": "mobilization",
+    "example_sv": "Det skedde en stor mobilisering av trupper vid gränsen.",
+    "example_en": "There was a large mobilization of troops at the border.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6452
+  },
+  {
+    "swedish": "återförsäljare",
+    "english": "reseller, retailer",
+    "example_sv": "Vi letar efter en återförsäljare i ditt område.",
+    "example_en": "We are looking for a reseller in your area.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6453
+  },
+  {
+    "swedish": "fördjupning",
+    "english": "immersion, deepening",
+    "example_sv": "Kursen erbjuder en fördjupning i ämnet psykologi.",
+    "example_en": "The course offers an immersion in the subject of psychology.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6454
+  },
+  {
+    "swedish": "räv",
+    "english": "fox",
+    "example_sv": "En räv sprang över vägen framför bilen igår kväll.",
+    "example_en": "A fox ran across the road in front of the car last night.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6455
+  },
+  {
+    "swedish": "anvisa",
+    "english": "assign, instruct",
+    "example_sv": "Chefen kommer att anvisa nya arbetsuppgifter imorgon.",
+    "example_en": "The boss will assign new tasks tomorrow.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6456
+  },
+  {
+    "swedish": "definitiv",
+    "english": "definitive",
+    "example_sv": "Detta är den definitiva versionen av rapporten.",
+    "example_en": "This is the definitive version of the report.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6457
+  },
+  {
+    "swedish": "misstänksam",
+    "english": "suspicious",
+    "example_sv": "Hon var misstänksam mot hans plötsliga generositet.",
+    "example_en": "She was suspicious of his sudden generosity.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6458
+  },
+  {
+    "swedish": "intervall",
+    "english": "interval",
+    "example_sv": "Vi tar en paus med jämna intervall under träningen.",
+    "example_en": "We take a break at regular intervals during training.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6459
+  },
+  {
+    "swedish": "gryta",
+    "english": "stew, pot",
+    "example_sv": "Jag lagar en mustig gryta till middag ikväll.",
+    "example_en": "I'm making a hearty stew for dinner tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6460
+  },
+  {
+    "swedish": "återvinna",
+    "english": "recycle",
+    "example_sv": "Det är viktigt att återvinna för att skydda miljön.",
+    "example_en": "It is important to recycle to protect the environment.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6461
+  },
+  {
+    "swedish": "frakta",
+    "english": "ship, transport",
+    "example_sv": "Företaget fraktar varor över hela världen.",
+    "example_en": "The company ships goods all over the world.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6462
+  },
+  {
+    "swedish": "gumma",
+    "english": "old woman",
+    "example_sv": "En gammal gumma satt på bänken i parken.",
+    "example_en": "An old woman sat on the bench in the park.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6463
+  },
+  {
+    "swedish": "ojämlikhet",
+    "english": "inequality",
+    "example_sv": "Ojämlikhet i inkomstfördelningen är ett växande problem.",
+    "example_en": "Inequality in income distribution is a growing problem.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6464
+  },
+  {
+    "swedish": "krut",
+    "english": "gunpowder",
+    "example_sv": "De använde krut för att spränga bort berget.",
+    "example_en": "They used gunpowder to blast away the mountain.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6465
+  },
+  {
+    "swedish": "precision",
+    "english": "precision",
+    "example_sv": "Kirurgen utförde operationen med stor precision.",
+    "example_en": "The surgeon performed the operation with great precision.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6466
+  },
+  {
+    "swedish": "anslå",
+    "english": "allocate, announce",
+    "example_sv": "Regeringen kommer att anslå mer pengar till forskningen.",
+    "example_en": "The government will allocate more money to research.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6467
+  },
+  {
+    "swedish": "orealistisk",
+    "english": "unrealistic",
+    "example_sv": "Dina förväntningar är helt orealistiska i denna situation.",
+    "example_en": "Your expectations are completely unrealistic in this situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6468
+  },
+  {
+    "swedish": "copyright",
+    "english": "copyright",
+    "example_sv": "Denna bild är skyddad av copyright och får inte användas.",
+    "example_en": "This image is protected by copyright and may not be used.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6469
+  },
+  {
+    "swedish": "företräde",
+    "english": "priority, preference",
+    "example_sv": "De gamla har företräde till platserna på bussen.",
+    "example_en": "The elderly have priority for the seats on the bus.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6470
+  },
+  {
+    "swedish": "minimum",
+    "english": "minimum",
+    "example_sv": "Det krävs ett minimum av tre deltagare för att kursen ska hållas.",
+    "example_en": "A minimum of three participants is required for the course to be held.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6471
+  },
+  {
+    "swedish": "skolgång",
+    "english": "schooling, education",
+    "example_sv": "Hennes skolgång avbröts på grund av familjens ekonomiska situation.",
+    "example_en": "Her schooling was interrupted due to the family's financial situation.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6472
+  },
+  {
+    "swedish": "giltighet",
+    "english": "validity",
+    "example_sv": "Passets giltighet löper ut om tre månader.",
+    "example_en": "The passport's validity expires in three months.",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6473
+  },
+  {
+    "swedish": "anknyta",
+    "english": "connect, relate",
+    "example_sv": "Jag försöker att anknyta teorin till den praktiska verkligheten.",
+    "example_en": "I am trying to relate the theory to practical reality.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6474
+  },
+  {
+    "swedish": "avskeda",
+    "english": "dismiss, fire",
+    "example_sv": "Företaget tvingades att avskeda flera anställda på grund av nedskärningar.",
+    "example_en": "The company was forced to dismiss several employees due to cuts.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6475
+  },
+  {
+    "swedish": "barmhärtighet",
+    "english": "mercy, compassion",
+    "example_sv": "Hon visade stor barmhärtighet mot den lidande mannen.",
+    "example_en": "She showed great mercy towards the suffering man.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6476
+  },
+  {
+    "swedish": "gevär",
+    "english": "rifle",
+    "example_sv": "Jägaren lyfte geväret och siktade på bytet.",
+    "example_en": "The hunter raised the rifle and aimed at the prey.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6477
+  }
+]

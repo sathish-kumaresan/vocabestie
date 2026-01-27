@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "essens",
+    "english": "essence",
+    "example_sv": "Essensen av hennes argument var att vi behövde agera snabbt.",
+    "example_en": "The essence of her argument was that we needed to act quickly.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6989
+  },
+  {
+    "swedish": "affärsverksamhet",
+    "english": "business operations",
+    "example_sv": "Företagets affärsverksamhet expanderade till nya marknader under det senaste året.",
+    "example_en": "The company's business operations expanded to new markets in the past year.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6990
+  },
+  {
+    "swedish": "extraordinär",
+    "english": "extraordinary",
+    "example_sv": "Hennes talang för musik är verkligen extraordinär och inspirerande.",
+    "example_en": "Her talent for music is truly extraordinary and inspiring.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6991
+  },
+  {
+    "swedish": "grammatik",
+    "english": "grammar",
+    "example_sv": "Jag måste repetera grammatikreglerna inför det kommande provet.",
+    "example_en": "I need to review the grammar rules for the upcoming test.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6992
+  },
+  {
+    "swedish": "komposition",
+    "english": "composition",
+    "example_sv": "Den musikaliska kompositionen var både komplex och vacker att lyssna på.",
+    "example_en": "The musical composition was both complex and beautiful to listen to.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6993
+  },
+  {
+    "swedish": "krok",
+    "english": "hook",
+    "example_sv": "Häng jackan på kroken bakom dörren, tack.",
+    "example_en": "Hang your jacket on the hook behind the door, please.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6994
+  },
+  {
+    "swedish": "kyss",
+    "english": "kiss",
+    "example_sv": "De utbytte en snabb kyss innan de sa adjö.",
+    "example_en": "They exchanged a quick kiss before saying goodbye.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6995
+  },
+  {
+    "swedish": "företrädesvis",
+    "english": "preferably",
+    "example_sv": "Jag vill företrädesvis resa på morgonen innan rusningstrafiken börjar.",
+    "example_en": "I would preferably travel in the morning before the rush hour starts.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6996
+  },
+  {
+    "swedish": "medfödd",
+    "english": "innate",
+    "example_sv": "Han verkar ha en medfödd talang för att lära sig språk.",
+    "example_en": "He seems to have an innate talent for learning languages.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6997
+  },
+  {
+    "swedish": "jurisdiktion",
+    "english": "jurisdiction",
+    "example_sv": "Domstolen har jurisdiktion över alla brott som begås här.",
+    "example_en": "The court has jurisdiction over all crimes committed here.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6998
+  },
+  {
+    "swedish": "knipa",
+    "english": "pinch",
+    "example_sv": "Jag försöker knipa igen budgeten för nästa kvartal.",
+    "example_en": "I'm trying to pinch the budget for the next quarter.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6999
+  },
+  {
+    "swedish": "kondition",
+    "english": "condition",
+    "example_sv": "Min kondition har förbättrats sedan jag började springa regelbundet.",
+    "example_en": "My condition has improved since I started running regularly.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7000
+  },
+  {
+    "swedish": "oriktig",
+    "english": "incorrect",
+    "example_sv": "Kontrollera att informationen är korrekt, så att inget är oriktigt.",
+    "example_en": "Make sure the information is correct, so that nothing is incorrect.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 7001
+  },
+  {
+    "swedish": "proportionell",
+    "english": "proportional",
+    "example_sv": "Straffet bör vara proportionell mot brottets allvarlighetsgrad.",
+    "example_en": "The punishment should be proportional to the severity of the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 7002
+  },
+  {
+    "swedish": "själslig",
+    "english": "spiritual",
+    "example_sv": "Hon sökte själslig frid genom meditation och yoga.",
+    "example_en": "She sought spiritual peace through meditation and yoga.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 7003
+  },
+  {
+    "swedish": "dagsljus",
+    "english": "daylight",
+    "example_sv": "Jag älskar att vakna med dagsljus som strömmar in genom fönstret.",
+    "example_en": "I love waking up with daylight streaming in through the window.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 7004
+  },
+  {
+    "swedish": "fukt",
+    "english": "moisture",
+    "example_sv": "Det är mycket fukt i luften idag, vilket gör det obehagligt.",
+    "example_en": "There is a lot of moisture in the air today, which makes it uncomfortable.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7005
+  },
+  {
+    "swedish": "abonnemang",
+    "english": "subscription",
+    "example_sv": "Jag har ett abonnemang på en streamingtjänst för att se filmer.",
+    "example_en": "I have a subscription to a streaming service to watch movies.",
+    "scenario": "Phone & Internet",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 7006
+  },
+  {
+    "swedish": "sammanföra",
+    "english": "bring together",
+    "example_sv": "Konferensen syftar till att sammanföra experter från hela världen.",
+    "example_en": "The conference aims to bring together experts from around the world.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 7007
+  },
+  {
+    "swedish": "ånga",
+    "english": "steam",
+    "example_sv": "En moln av ånga steg upp från den varma koppen te.",
+    "example_en": "A cloud of steam rose from the warm cup of tea.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7008
+  },
+  {
+    "swedish": "aktiemarknad",
+    "english": "stock market",
+    "example_sv": "Aktiemarknaden har varit mycket volatil den senaste tiden.",
+    "example_en": "The stock market has been very volatile recently.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7009
+  },
+  {
+    "swedish": "mapp",
+    "english": "folder",
+    "example_sv": "Lägg alla viktiga dokument i en mapp för enkel åtkomst.",
+    "example_en": "Put all important documents in a folder for easy access.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7010
+  },
+  {
+    "swedish": "prototyp",
+    "english": "prototype",
+    "example_sv": "Vi behöver testa prototypen noggrant innan vi lanserar produkten.",
+    "example_en": "We need to test the prototype carefully before launching the product.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7011
+  },
+  {
+    "swedish": "vilseleda",
+    "english": "mislead",
+    "example_sv": "Annonsen var utformad för att vilseleda konsumenterna om produktens fördelar.",
+    "example_en": "The ad was designed to mislead consumers about the product's benefits.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 7012
+  },
+  {
+    "swedish": "immigrant",
+    "english": "immigrant",
+    "example_sv": "Staden har en stor och diversifierad befolkning av immigranter.",
+    "example_en": "The city has a large and diverse population of immigrants.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7013
+  },
+  {
+    "swedish": "anlag",
+    "english": "talent",
+    "example_sv": "Hon visar anlag för matematik redan i ung ålder.",
+    "example_en": "She shows a talent for mathematics even at a young age.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 7014
+  },
+  {
+    "swedish": "fullmakt",
+    "english": "proxy",
+    "example_sv": "Jag gav min bror fullmakt att rösta åt mig på stämman.",
+    "example_en": "I gave my brother a proxy to vote for me at the meeting.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7015
+  },
+  {
+    "swedish": "hyresvärd",
+    "english": "landlord",
+    "example_sv": "Jag måste kontakta min hyresvärd angående en läckande kran.",
+    "example_en": "I need to contact my landlord about a leaking faucet.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7016
+  },
+  {
+    "swedish": "klassificering",
+    "english": "classification",
+    "example_sv": "Biblioteket använder ett system för klassificering av böckerna.",
+    "example_en": "The library uses a system for the classification of books.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7017
+  },
+  {
+    "swedish": "parlamentsledamot",
+    "english": "MP (Member of Parliament)",
+    "example_sv": "Parlamentsledamoten kritiserades för sitt uttalande i frågan.",
+    "example_en": "The Member of Parliament was criticized for his statement on the issue.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7018
+  },
+  {
+    "swedish": "försena",
+    "english": "delay",
+    "example_sv": "Snöstormen kan försena tågtrafiken och skapa problem.",
+    "example_en": "The snowstorm may delay train traffic and create problems.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 7019
+  },
+  {
+    "swedish": "renhet",
+    "english": "purity",
+    "example_sv": "Företaget garanterar renhet i sina produkter.",
+    "example_en": "The company guarantees purity in its products.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 7020
+  },
+  {
+    "swedish": "övertid",
+    "english": "overtime",
+    "example_sv": "Jag måste jobba övertid ikväll för att hinna klart med rapporten.",
+    "example_en": "I have to work overtime tonight to finish the report.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7021
+  },
+  {
+    "swedish": "eskalera",
+    "english": "escalate",
+    "example_sv": "Konflikten riskerar att eskalera om inte någon ingriper.",
+    "example_en": "The conflict is at risk of escalating if no one intervenes.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7023
+  },
+  {
+    "swedish": "föreståndare",
+    "english": "manager",
+    "example_sv": "Som föreståndare är det mitt ansvar att se till att allt fungerar.",
+    "example_en": "As a manager, it's my responsibility to make sure everything works.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7024
+  },
+  {
+    "swedish": "spanare",
+    "english": "scout",
+    "example_sv": "Spanare skickades ut för att utforska området framför truppen.",
+    "example_en": "Scouts were sent out to explore the area ahead of the troop.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7025
+  },
+  {
+    "swedish": "instruktör",
+    "english": "instructor",
+    "example_sv": "Skidinstruktören visade oss hur man svänger på skidorna.",
+    "example_en": "The ski instructor showed us how to turn on skis.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7026
+  },
+  {
+    "swedish": "mugg",
+    "english": "mug",
+    "example_sv": "Jag köpte en fin mugg på loppmarknaden i helgen.",
+    "example_en": "I bought a nice mug at the flea market this weekend.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7027
+  },
+  {
+    "swedish": "granat",
+    "english": "grenade",
+    "example_sv": "Soldaten kastade en granat mot fienden under striden.",
+    "example_en": "The soldier threw a grenade at the enemy during the battle.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7028
+  },
+  {
+    "swedish": "ofrivillig",
+    "english": "involuntary",
+    "example_sv": "Han kände en ofrivillig ryckning i benet under läkarens undersökning.",
+    "example_en": "He felt an involuntary twitch in his leg during the doctor's examination.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7029
+  },
+  {
+    "swedish": "subtil",
+    "english": "subtle",
+    "example_sv": "Det fanns en subtil antydan i hennes röst som jag inte missade.",
+    "example_en": "There was a subtle hint in her voice that I didn't miss.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7030
+  },
+  {
+    "swedish": "successiv",
+    "english": "successive",
+    "example_sv": "Det skedde en successiv förbättring av ekonomin under året.",
+    "example_en": "There was a successive improvement in the economy during the year.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7031
+  },
+  {
+    "swedish": "välvilja",
+    "english": "goodwill",
+    "example_sv": "Företaget åtnjuter stor välvilja bland sina kunder.",
+    "example_en": "The company enjoys great goodwill among its customers.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7032
+  },
+  {
+    "swedish": "banal",
+    "english": "banal",
+    "example_sv": "Han kom med en banal kommentar om vädret.",
+    "example_en": "He made a banal comment about the weather.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 7033
+  },
+  {
+    "swedish": "spjut",
+    "english": "spear",
+    "example_sv": "Jägaren använde ett spjut för att jaga vildsvin i skogen.",
+    "example_en": "The hunter used a spear to hunt wild boar in the forest.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7034
+  },
+  {
+    "swedish": "hektar",
+    "english": "hectare",
+    "example_sv": "Gården omfattar flera hektar åkermark och skog.",
+    "example_en": "The farm covers several hectares of arable land and forest.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 7035
+  },
+  {
+    "swedish": "avvärja",
+    "english": "ward off",
+    "example_sv": "Vi försökte avvärja attacken genom att bygga en barrikad.",
+    "example_en": "We tried to ward off the attack by building a barricade.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7036
+  },
+  {
+    "swedish": "hållplats",
+    "english": "bus stop",
+    "example_sv": "Jag väntar vid hållplatsen på bussen som går till centrum.",
+    "example_en": "I'm waiting at the bus stop for the bus that goes to the city center.",
+    "scenario": "Public Transport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7037
+  },
+  {
+    "swedish": "härma",
+    "english": "imitate",
+    "example_sv": "Barnen älskar att härma sina föräldrar och deras beteenden.",
+    "example_en": "Children love to imitate their parents and their behaviors.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 7038
+  },
+  {
+    "swedish": "distributör",
+    "english": "distributor",
+    "example_sv": "Företaget söker en ny distributör för sina produkter i Europa.",
+    "example_en": "The company is looking for a new distributor for its products in Europe.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 7039
+  }
+]

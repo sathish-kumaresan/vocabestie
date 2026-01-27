@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "turism",
+    "english": "tourism",
+    "example_sv": "Turism bidrar starkt till Sveriges ekonomi, speciellt under sommaren.",
+    "example_en": "Tourism contributes strongly to Sweden's economy, especially during the summer.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4467
+  },
+  {
+    "swedish": "befrielse",
+    "english": "relief, liberation",
+    "example_sv": "Det var en stor befrielse när tentan äntligen var klar.",
+    "example_en": "It was a great relief when the exam was finally finished.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4468
+  },
+  {
+    "swedish": "byxa",
+    "english": "trousers, pants",
+    "example_sv": "Jag behöver köpa en ny byxa till jobbintervjun.",
+    "example_en": "I need to buy new trousers for the job interview.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4469
+  },
+  {
+    "swedish": "rekrytera",
+    "english": "recruit",
+    "example_sv": "Företaget planerar att rekrytera fler ingenjörer nästa kvartal.",
+    "example_en": "The company plans to recruit more engineers next quarter.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4470
+  },
+  {
+    "swedish": "förmögenhet",
+    "english": "fortune, wealth",
+    "example_sv": "Hennes familj hade byggt upp en stor förmögenhet under åren.",
+    "example_en": "Her family had built up a large fortune over the years.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4472
+  },
+  {
+    "swedish": "gången",
+    "english": "time, instance",
+    "example_sv": "Det var första gången jag besökte det här museet.",
+    "example_en": "It was the first time I visited this museum.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4473
+  },
+  {
+    "swedish": "äpple",
+    "english": "apple",
+    "example_sv": "Jag brukar ta ett äpple som mellanmål på eftermiddagen.",
+    "example_en": "I usually have an apple as a snack in the afternoon.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4475
+  },
+  {
+    "swedish": "höjdpunkt",
+    "english": "highlight",
+    "example_sv": "Konserten var en riktig höjdpunkt på festivalen i somras.",
+    "example_en": "The concert was a real highlight of the festival last summer.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4476
+  },
+  {
+    "swedish": "sammanställning",
+    "english": "compilation, summary",
+    "example_sv": "Jag behöver en sammanställning av alla säljsiffror förra månaden.",
+    "example_en": "I need a compilation of all sales figures from last month.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4477
+  },
+  {
+    "swedish": "underhållning",
+    "english": "entertainment",
+    "example_sv": "Det finns gott om underhållning för barn på den här orten.",
+    "example_en": "There is plenty of entertainment for children in this town.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4478
+  },
+  {
+    "swedish": "uppbyggnad",
+    "english": "construction, development",
+    "example_sv": "Stadens uppbyggnad efter kriget tog många år.",
+    "example_en": "The city's construction after the war took many years.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4479
+  },
+  {
+    "swedish": "etablissemang",
+    "english": "establishment",
+    "example_sv": "Det här etablissemanget har funnits i staden i över hundra år.",
+    "example_en": "This establishment has been in the city for over a hundred years.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4480
+  },
+  {
+    "swedish": "kontinuerligt",
+    "english": "continuously",
+    "example_sv": "Han arbetar kontinuerligt med att förbättra sin svenska.",
+    "example_en": "He works continuously to improve his Swedish.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4481
+  },
+  {
+    "swedish": "krama",
+    "english": "hug",
+    "example_sv": "Jag ville bara krama henne när jag hörde hennes ledsna historia.",
+    "example_en": "I just wanted to hug her when I heard her sad story.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4482
+  },
+  {
+    "swedish": "missförstånd",
+    "english": "misunderstanding",
+    "example_sv": "Det måste ha uppstått ett missförstånd angående tidpunkten för mötet.",
+    "example_en": "There must have been a misunderstanding regarding the time of the meeting.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4483
+  },
+  {
+    "swedish": "nationalistisk",
+    "english": "nationalistic",
+    "example_sv": "Det nationalistiska partiet vann många röster i valet.",
+    "example_en": "The nationalistic party won many votes in the election.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4484
+  },
+  {
+    "swedish": "obalans",
+    "english": "imbalance",
+    "example_sv": "Det finns en obalans mellan utbud och efterfrågan på bostäder.",
+    "example_en": "There is an imbalance between supply and demand for housing.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4485
+  },
+  {
+    "swedish": "nyår",
+    "english": "New Year",
+    "example_sv": "Vi firar nyår med god mat och fyrverkerier varje år.",
+    "example_en": "We celebrate New Year with good food and fireworks every year.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4486
+  },
+  {
+    "swedish": "produktiv",
+    "english": "productive",
+    "example_sv": "Hon är väldigt produktiv på jobbet och får mycket gjort.",
+    "example_en": "She is very productive at work and gets a lot done.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4487
+  },
+  {
+    "swedish": "till rätta",
+    "english": "right, correct",
+    "example_sv": "Polisen hjälpte dem att komma till rätta efter flytten.",
+    "example_en": "The police helped them to settle in after the move.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4488
+  },
+  {
+    "swedish": "avveckling",
+    "english": "winding down, closure",
+    "example_sv": "Företaget har beslutat om en gradvis avveckling av verksamheten.",
+    "example_en": "The company has decided on a gradual winding down of operations.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4489
+  },
+  {
+    "swedish": "provocera",
+    "english": "provoke",
+    "example_sv": "Han försökte provocera mig med sina konstiga kommentarer.",
+    "example_en": "He tried to provoke me with his strange comments.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4490
+  },
+  {
+    "swedish": "erfaren",
+    "english": "experienced",
+    "example_sv": "Vi söker en erfaren säljare med goda resultat.",
+    "example_en": "We are looking for an experienced salesperson with good results.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4491
+  },
+  {
+    "swedish": "blank",
+    "english": "blank",
+    "example_sv": "Jag fick ett blankt papper för att skriva min ansökan.",
+    "example_en": "I got a blank piece of paper to write my application.",
+    "scenario": "Post Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4492
+  },
+  {
+    "swedish": "singel",
+    "english": "single",
+    "example_sv": "Hon har varit singel i flera år och trivs med det.",
+    "example_en": "She has been single for several years and enjoys it.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4493
+  },
+  {
+    "swedish": "försörjning",
+    "english": "livelihood, sustenance",
+    "example_sv": "Fisket är en viktig försörjning för många familjer här.",
+    "example_en": "Fishing is an important livelihood for many families here.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4494
+  },
+  {
+    "swedish": "irländsk",
+    "english": "Irish",
+    "example_sv": "Vi drack irländsk whiskey på puben igår kväll.",
+    "example_en": "We drank Irish whiskey at the pub last night.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4495
+  },
+  {
+    "swedish": "kurd",
+    "english": "Kurd",
+    "example_sv": "Många kurder bor i Sverige och har bidragit till samhället.",
+    "example_en": "Many Kurds live in Sweden and have contributed to society.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4496
+  },
+  {
+    "swedish": "psykolog",
+    "english": "psychologist",
+    "example_sv": "Jag går till en psykolog för att hantera min ångest.",
+    "example_en": "I go to a psychologist to manage my anxiety.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4497
+  },
+  {
+    "swedish": "samtala",
+    "english": "converse, talk",
+    "example_sv": "Vi satt och samtalade om livet och döden i timmar.",
+    "example_en": "We sat and talked about life and death for hours.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4498
+  },
+  {
+    "swedish": "sekel",
+    "english": "century",
+    "example_sv": "Det var en viktig händelse i Sveriges historia under 1800-talet.",
+    "example_en": "It was an important event in Sweden's history during the 19th century.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4499
+  },
+  {
+    "swedish": "federal",
+    "english": "federal",
+    "example_sv": "Schweiz är en federal republik med starka kantoner.",
+    "example_en": "Switzerland is a federal republic with strong cantons.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4500
+  },
+  {
+    "swedish": "frustration",
+    "english": "frustration",
+    "example_sv": "Hon kände en stor frustration över att inte kunna språket.",
+    "example_en": "She felt a great frustration at not being able to speak the language.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4501
+  },
+  {
+    "swedish": "fundamental",
+    "english": "fundamental",
+    "example_sv": "Det är en fundamental rättighet att ha yttrandefrihet.",
+    "example_en": "It is a fundamental right to have freedom of speech.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4502
+  },
+  {
+    "swedish": "omge",
+    "english": "surround",
+    "example_sv": "Huset omges av en vacker trädgård med många blommor.",
+    "example_en": "The house is surrounded by a beautiful garden with many flowers.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4503
+  },
+  {
+    "swedish": "företa",
+    "english": "undertake",
+    "example_sv": "De planerade att företa en lång vandring i bergen.",
+    "example_en": "They planned to undertake a long hike in the mountains.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4504
+  },
+  {
+    "swedish": "utdrag",
+    "english": "excerpt, extract",
+    "example_sv": "Jag läste ett utdrag ur boken i tidningen igår.",
+    "example_en": "I read an excerpt from the book in the newspaper yesterday.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4505
+  },
+  {
+    "swedish": "fram och tillbaka",
+    "english": "back and forth",
+    "example_sv": "Jag åker fram och tillbaka till jobbet varje dag med buss.",
+    "example_en": "I go back and forth to work every day by bus.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4506
+  },
+  {
+    "swedish": "lågt",
+    "english": "low",
+    "example_sv": "Flygplanet flög väldigt lågt över hustaken när det landade.",
+    "example_en": "The plane flew very low over the rooftops when it landed.",
+    "scenario": "At the Airport",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4507
+  },
+  {
+    "swedish": "skal",
+    "english": "shell, hull",
+    "example_sv": "Man kan göra fina smycken av snäckskal man hittar på stranden.",
+    "example_en": "You can make beautiful jewelry from seashells you find on the beach.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4508
+  },
+  {
+    "swedish": "irakisk",
+    "english": "Iraqi",
+    "example_sv": "Restaurangen serverar utsökt irakisk mat till ett bra pris.",
+    "example_en": "The restaurant serves delicious Iraqi food at a good price.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4509
+  },
+  {
+    "swedish": "parallell",
+    "english": "parallel",
+    "example_sv": "De två gatorna löper parallellt med varandra i flera kilometer.",
+    "example_en": "The two streets run parallel to each other for several kilometers.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4510
+  },
+  {
+    "swedish": "avslag",
+    "english": "rejection, denial",
+    "example_sv": "Han fick ett avslag på sin ansökan om lån från banken.",
+    "example_en": "He received a rejection of his loan application from the bank.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4511
+  },
+  {
+    "swedish": "emellanåt",
+    "english": "occasionally, sometimes",
+    "example_sv": "Jag brukar emellanåt träna yoga hemma framför tv:n.",
+    "example_en": "I occasionally practice yoga at home in front of the TV.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4512
+  },
+  {
+    "swedish": "källare",
+    "english": "cellar, basement",
+    "example_sv": "Vi har en fuktig källare som vi behöver renovera snarast.",
+    "example_en": "We have a damp basement that we need to renovate as soon as possible.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4513
+  },
+  {
+    "swedish": "merpart",
+    "english": "majority",
+    "example_sv": "Merparten av befolkningen i staden är positiv till förändringen.",
+    "example_en": "The majority of the population in the city is positive about the change.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4514
+  },
+  {
+    "swedish": "vetskap",
+    "english": "knowledge, awareness",
+    "example_sv": "Med vetskap om riskerna, valde hon ändå att fortsätta.",
+    "example_en": "Knowing the risks, she still chose to continue.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4515
+  },
+  {
+    "swedish": "delägare",
+    "english": "partner, shareholder",
+    "example_sv": "Han är delägare i ett framgångsrikt it-företag i Stockholm.",
+    "example_en": "He is a partner in a successful IT company in Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4516
+  },
+  {
+    "swedish": "distans",
+    "english": "distance",
+    "example_sv": "Jag föredrar att hålla distans till människor jag inte känner.",
+    "example_en": "I prefer to keep my distance from people I don't know.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4517
+  },
+  {
+    "swedish": "eliminera",
+    "english": "eliminate",
+    "example_sv": "Vi måste eliminera alla fel innan vi lanserar produkten.",
+    "example_en": "We must eliminate all errors before we launch the product.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4518
+  }
+]

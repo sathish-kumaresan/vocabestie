@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "rättegång",
+    "english": "trial, lawsuit",
+    "example_sv": "Rättegången kommer att pågå i flera veckor framöver.",
+    "example_en": "The trial will continue for several weeks.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2292
+  },
+  {
+    "swedish": "mått",
+    "english": "measure, size",
+    "example_sv": "Kan du ta mått på fönstret, tack?",
+    "example_en": "Can you take the measurements of the window, please?",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2293
+  },
+  {
+    "swedish": "kammare",
+    "english": "chamber, room",
+    "example_sv": "Hon satt ensam i sin kammare och läste.",
+    "example_en": "She sat alone in her chamber reading.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2294
+  },
+  {
+    "swedish": "nazist",
+    "english": "Nazi",
+    "example_sv": "Man får aldrig tolerera nazistiska åsikter i samhället.",
+    "example_en": "One must never tolerate Nazi opinions in society.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2295
+  },
+  {
+    "swedish": "förefalla",
+    "english": "seem, appear",
+    "example_sv": "Det förefaller mig att han är trött.",
+    "example_en": "It seems to me that he is tired.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2296
+  },
+  {
+    "swedish": "efteråt",
+    "english": "afterwards",
+    "example_sv": "Vi äter middag nu och diskar efteråt.",
+    "example_en": "We'll have dinner now and do the dishes afterwards.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2297
+  },
+  {
+    "swedish": "försäkring",
+    "english": "insurance",
+    "example_sv": "Jag måste teckna en försäkring för min bil.",
+    "example_en": "I need to get insurance for my car.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2298
+  },
+  {
+    "swedish": "konung",
+    "english": "king",
+    "example_sv": "Konungen höll ett tal till nationen igår.",
+    "example_en": "The king gave a speech to the nation yesterday.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2299
+  },
+  {
+    "swedish": "såklart",
+    "english": "of course",
+    "example_sv": "Kan du hjälpa mig? - Såklart jag kan!",
+    "example_en": "Can you help me? - Of course, I can!",
+    "scenario": "Common Verbs",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2300
+  },
+  {
+    "swedish": "ändamål",
+    "english": "purpose, aim",
+    "example_sv": "Insamlingen har ett gott ändamål att hjälpa barn.",
+    "example_en": "The collection has a good purpose to help children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2301
+  },
+  {
+    "swedish": "avsedd",
+    "english": "intended, meant",
+    "example_sv": "Den här presenten är avsedd för dig.",
+    "example_en": "This gift is intended for you.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2302
+  },
+  {
+    "swedish": "generell",
+    "english": "general",
+    "example_sv": "Det är en generell regel som alla måste följa.",
+    "example_en": "It is a general rule that everyone must follow.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2303
+  },
+  {
+    "swedish": "kommunism",
+    "english": "communism",
+    "example_sv": "Kommunism är en politisk ideologi med många olika tolkningar.",
+    "example_en": "Communism is a political ideology with many different interpretations.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2304
+  },
+  {
+    "swedish": "dölja",
+    "english": "hide, conceal",
+    "example_sv": "Hon försökte dölja sin sorg för sina vänner.",
+    "example_en": "She tried to hide her sorrow from her friends.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2305
+  },
+  {
+    "swedish": "arab",
+    "english": "Arab",
+    "example_sv": "Han talar arabiska flytande eftersom han bott i Dubai.",
+    "example_en": "He speaks Arabic fluently because he lived in Dubai.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2306
+  },
+  {
+    "swedish": "sträva",
+    "english": "strive, aim",
+    "example_sv": "Vi måste sträva efter att göra vårt bästa.",
+    "example_en": "We must strive to do our best.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2307
+  },
+  {
+    "swedish": "stämning",
+    "english": "atmosphere, mood",
+    "example_sv": "Det var en trevlig stämning på festen.",
+    "example_en": "There was a nice atmosphere at the party.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2308
+  },
+  {
+    "swedish": "torg",
+    "english": "square",
+    "example_sv": "Vi träffas på torget klockan tre i eftermiddag.",
+    "example_en": "We'll meet in the square at three this afternoon.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2309
+  },
+  {
+    "swedish": "planerad",
+    "english": "planned, scheduled",
+    "example_sv": "Mötet är planerad till nästa vecka på onsdag.",
+    "example_en": "The meeting is scheduled for next week on Wednesday.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2310
+  },
+  {
+    "swedish": "utrustning",
+    "english": "equipment",
+    "example_sv": "Vi behöver ny utrustning för att klara jobbet.",
+    "example_en": "We need new equipment to do the job.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2311
+  },
+  {
+    "swedish": "vandra",
+    "english": "hike, wander",
+    "example_sv": "Vi ska vandra i bergen i helgen.",
+    "example_en": "We're going to hike in the mountains this weekend.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2312
+  },
+  {
+    "swedish": "registrera",
+    "english": "register",
+    "example_sv": "Du måste registrera dig för kursen online.",
+    "example_en": "You have to register for the course online.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2313
+  },
+  {
+    "swedish": "argumentera",
+    "english": "argue, debate",
+    "example_sv": "De argumenterade länge om vilken film de skulle se.",
+    "example_en": "They argued for a long time about which movie to watch.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2314
+  },
+  {
+    "swedish": "uppgå",
+    "english": "amount to",
+    "example_sv": "Kostnaden för resan uppgår till 5000 kronor.",
+    "example_en": "The cost of the trip amounts to 5000 kronor.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2316
+  },
+  {
+    "swedish": "bön",
+    "english": "prayer",
+    "example_sv": "Hon viskade en stilla bön innan hon somnade.",
+    "example_en": "She whispered a silent prayer before falling asleep.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2318
+  },
+  {
+    "swedish": "anläggning",
+    "english": "facility, plant",
+    "example_sv": "Den nya anläggningen kommer att skapa många jobb.",
+    "example_en": "The new facility will create many jobs.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2319
+  },
+  {
+    "swedish": "filosofi",
+    "english": "philosophy",
+    "example_sv": "Han studerar filosofi vid universitetet.",
+    "example_en": "He studies philosophy at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2320
+  },
+  {
+    "swedish": "gråta",
+    "english": "cry",
+    "example_sv": "Hon började gråta när hon hörde de dåliga nyheterna.",
+    "example_en": "She started to cry when she heard the bad news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2321
+  },
+  {
+    "swedish": "underlag",
+    "english": "basis, data",
+    "example_sv": "Vi behöver ett bättre underlag för att fatta beslutet.",
+    "example_en": "We need a better basis to make the decision.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2322
+  },
+  {
+    "swedish": "typisk",
+    "english": "typical",
+    "example_sv": "Det är en typisk svensk sommar med mycket regn.",
+    "example_en": "It's a typical Swedish summer with a lot of rain.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2323
+  },
+  {
+    "swedish": "förespråka",
+    "english": "advocate, promote",
+    "example_sv": "Han förespråkar en grönare politik för framtiden.",
+    "example_en": "He advocates a greener policy for the future.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2324
+  },
+  {
+    "swedish": "smärta",
+    "english": "pain",
+    "example_sv": "Hon kände en skarp smärta i ryggen efter fallet.",
+    "example_en": "She felt a sharp pain in her back after the fall.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2325
+  },
+  {
+    "swedish": "uppror",
+    "english": "rebellion, revolt",
+    "example_sv": "Det var ett uppror mot regeringen i landet.",
+    "example_en": "There was a rebellion against the government in the country.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2326
+  },
+  {
+    "swedish": "strategisk",
+    "english": "strategic",
+    "example_sv": "Det är en strategisk placering för den nya affären.",
+    "example_en": "It is a strategic location for the new store.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2327
+  },
+  {
+    "swedish": "symbol",
+    "english": "symbol",
+    "example_sv": "Hjärtat är en symbol för kärlek och vänskap.",
+    "example_en": "The heart is a symbol of love and friendship.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2328
+  },
+  {
+    "swedish": "radikal",
+    "english": "radical",
+    "example_sv": "Han har radikala åsikter om politik och samhälle.",
+    "example_en": "He has radical views about politics and society.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2329
+  },
+  {
+    "swedish": "vd (verkställande direktör)",
+    "english": "CEO",
+    "example_sv": "Vd:n höll ett viktigt tal till alla anställda.",
+    "example_en": "The CEO gave an important speech to all employees.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2330
+  },
+  {
+    "swedish": "frid",
+    "english": "peace",
+    "example_sv": "Jag önskar dig frid och lycka i ditt liv.",
+    "example_en": "I wish you peace and happiness in your life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2331
+  },
+  {
+    "swedish": "arbetskraft",
+    "english": "workforce, labor",
+    "example_sv": "Det finns en brist på arbetskraft inom vården.",
+    "example_en": "There is a shortage of labor in healthcare.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2332
+  },
+  {
+    "swedish": "bevilja",
+    "english": "grant, approve",
+    "example_sv": "Banken beviljade honom ett lån för att köpa huset.",
+    "example_en": "The bank granted him a loan to buy the house.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2333
+  },
+  {
+    "swedish": "rot",
+    "english": "root",
+    "example_sv": "Trädet har djupa rötter i jorden.",
+    "example_en": "The tree has deep roots in the ground.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2334
+  },
+  {
+    "swedish": "förmå",
+    "english": "persuade, manage",
+    "example_sv": "Jag kunde inte förmå henne att ändra sin åsikt.",
+    "example_en": "I couldn't persuade her to change her mind.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2335
+  },
+  {
+    "swedish": "rak",
+    "english": "straight",
+    "example_sv": "Gå rakt fram tills du ser affären.",
+    "example_en": "Go straight ahead until you see the store.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2336
+  },
+  {
+    "swedish": "formulera",
+    "english": "formulate",
+    "example_sv": "Han försökte formulera sin åsikt på ett tydligt sätt.",
+    "example_en": "He tried to formulate his opinion in a clear way.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2337
+  },
+  {
+    "swedish": "jämställdhet",
+    "english": "equality",
+    "example_sv": "Jämställdhet mellan könen är en viktig fråga.",
+    "example_en": "Equality between the genders is an important issue.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2338
+  },
+  {
+    "swedish": "existens",
+    "english": "existence",
+    "example_sv": "Frågan om meningen med vår existens är svår.",
+    "example_en": "The question about the meaning of our existence is difficult.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2339
+  },
+  {
+    "swedish": "bonde",
+    "english": "farmer",
+    "example_sv": "Bonden arbetar hårt på åkern varje dag.",
+    "example_en": "The farmer works hard in the field every day.",
+    "scenario": "Animals",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2340
+  },
+  {
+    "swedish": "bränna",
+    "english": "burn",
+    "example_sv": "Var försiktig så du inte bränner dig på spisen.",
+    "example_en": "Be careful not to burn yourself on the stove.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2341
+  },
+  {
+    "swedish": "italiensk",
+    "english": "Italian",
+    "example_sv": "Vi åt en god italiensk pizza till middag igår.",
+    "example_en": "We ate a delicious Italian pizza for dinner yesterday.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2342
+  },
+  {
+    "swedish": "utgift",
+    "english": "expense",
+    "example_sv": "Vi måste minska våra utgifter den här månaden.",
+    "example_en": "We need to reduce our expenses this month.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2343
+  }
+]

@@ -18,6 +18,7 @@ sys.path.insert(0, str(project_root))
 from sqlalchemy.orm import Session
 from app.database import engine, SessionLocal
 from app.models import Scenario, Word
+from app.models.mastery import WordSkillMastery, UserWordStatus
 
 
 def load_vocabulary_data() -> dict:
@@ -28,8 +29,10 @@ def load_vocabulary_data() -> dict:
 
 
 def clear_data(db: Session) -> None:
-    """Clear existing scenarios and words."""
+    """Clear existing scenarios, words, and related progress data."""
     print("Clearing existing data...")
+    db.query(WordSkillMastery).delete()
+    db.query(UserWordStatus).delete()
     db.query(Word).delete()
     db.query(Scenario).delete()
     db.commit()

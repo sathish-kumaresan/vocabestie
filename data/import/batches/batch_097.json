@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "självkänsla",
+    "english": "self-esteem",
+    "example_sv": "Hon arbetar hårt för att förbättra sin självkänsla varje dag.",
+    "example_en": "She works hard to improve her self-esteem every day.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5092
+  },
+  {
+    "swedish": "sammanhållning",
+    "english": "cohesion",
+    "example_sv": "God sammanhållning i laget är nyckeln till framgång.",
+    "example_en": "Good cohesion in the team is the key to success.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5093
+  },
+  {
+    "swedish": "sammanfalla",
+    "english": "coincide",
+    "example_sv": "Deras födelsedagar sammanfalla, de är födda samma dag.",
+    "example_en": "Their birthdays coincide, they were born on the same day.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5094
+  },
+  {
+    "swedish": "intensivt",
+    "english": "intensely",
+    "example_sv": "Han studerade intensivt inför tentamen hela veckan.",
+    "example_en": "He studied intensely for the exam all week.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5096
+  },
+  {
+    "swedish": "optimal",
+    "english": "optimal",
+    "example_sv": "Det optimala resultatet uppnås med rätt förberedelser.",
+    "example_en": "The optimal result is achieved with the right preparation.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5097
+  },
+  {
+    "swedish": "suverän",
+    "english": "superb",
+    "example_sv": "Maten på restaurangen var suverän, verkligen en fullträff.",
+    "example_en": "The food at the restaurant was superb, really a bullseye.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5098
+  },
+  {
+    "swedish": "upp och ner",
+    "english": "upside down",
+    "example_sv": "Hela mitt liv har varit upp och ner senaste tiden.",
+    "example_en": "My whole life has been upside down lately.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5099
+  },
+  {
+    "swedish": "hälla",
+    "english": "pour",
+    "example_sv": "Kan du hälla upp lite kaffe till mig, tack?",
+    "example_en": "Can you pour some coffee for me, please?",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5101
+  },
+  {
+    "swedish": "käka",
+    "english": "eat",
+    "example_sv": "Vi kan käka pizza ikväll om du vill det.",
+    "example_en": "We can eat pizza tonight if you want to.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5102
+  },
+  {
+    "swedish": "fäste",
+    "english": "foothold",
+    "example_sv": "Klättraren kämpade för att få fäste på klippväggen.",
+    "example_en": "The climber struggled to get a foothold on the rock face.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5103
+  },
+  {
+    "swedish": "hastigt",
+    "english": "hastily",
+    "example_sv": "Han sprang hastigt över gatan utan att se sig för.",
+    "example_en": "He ran hastily across the street without looking.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5104
+  },
+  {
+    "swedish": "livslång",
+    "english": "lifelong",
+    "example_sv": "De har en livslång vänskap sedan barndomen.",
+    "example_en": "They have a lifelong friendship since childhood.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5105
+  },
+  {
+    "swedish": "svälta",
+    "english": "starve",
+    "example_sv": "Många människor i världen svälter på grund av torka.",
+    "example_en": "Many people in the world starve because of drought.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5106
+  },
+  {
+    "swedish": "välta",
+    "english": "tip over",
+    "example_sv": "Vinden var så stark att den kunde välta träd.",
+    "example_en": "The wind was so strong it could tip over trees.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5107
+  },
+  {
+    "swedish": "arbetsgivaravgift",
+    "english": "employer contribution",
+    "example_sv": "Företaget betalar arbetsgivaravgift för alla sina anställda.",
+    "example_en": "The company pays employer contributions for all its employees.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5108
+  },
+  {
+    "swedish": "demon",
+    "english": "demon",
+    "example_sv": "Filmen handlar om en ung kvinna besatt av en demon.",
+    "example_en": "The film is about a young woman possessed by a demon.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5109
+  },
+  {
+    "swedish": "fastighetsskatt",
+    "english": "property tax",
+    "example_sv": "Fastighetsskatten har ökat kraftigt de senaste åren.",
+    "example_en": "Property taxes have increased sharply in recent years.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5110
+  },
+  {
+    "swedish": "korridor",
+    "english": "corridor",
+    "example_sv": "Patienten väntade i korridoren utanför läkarens kontor.",
+    "example_en": "The patient waited in the corridor outside the doctor's office.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5111
+  },
+  {
+    "swedish": "stridsvagn",
+    "english": "tank",
+    "example_sv": "Stridsvagnen rullade fram genom det förstörda landskapet.",
+    "example_en": "The tank rolled through the destroyed landscape.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5112
+  },
+  {
+    "swedish": "tillvara",
+    "english": "safeguard",
+    "example_sv": "Vi måste ta tillvara naturens resurser för framtida generationer.",
+    "example_en": "We must safeguard nature's resources for future generations.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5113
+  },
+  {
+    "swedish": "vittnesmål",
+    "english": "testimony",
+    "example_sv": "Hennes vittnesmål var avgörande för att fälla den åtalade.",
+    "example_en": "Her testimony was crucial to convicting the defendant.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5114
+  },
+  {
+    "swedish": "ansvarsfull",
+    "english": "responsible",
+    "example_sv": "En ansvarsfull förälder tar hand om sina barn.",
+    "example_en": "A responsible parent takes care of their children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5115
+  },
+  {
+    "swedish": "evigt",
+    "english": "eternally",
+    "example_sv": "Jag kommer evigt minnas den här fantastiska resan.",
+    "example_en": "I will eternally remember this fantastic trip.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5117
+  },
+  {
+    "swedish": "koldioxidutsläpp",
+    "english": "carbon emissions",
+    "example_sv": "Vi måste minska koldioxidutsläppen för att rädda planeten.",
+    "example_en": "We must reduce carbon emissions to save the planet.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5118
+  },
+  {
+    "swedish": "fängsla",
+    "english": "imprison",
+    "example_sv": "Han dömdes att fängslas för rån och misshandel.",
+    "example_en": "He was sentenced to be imprisoned for robbery and assault.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5119
+  },
+  {
+    "swedish": "utflykt",
+    "english": "excursion",
+    "example_sv": "Vi gjorde en utflykt till skogen för att plocka svamp.",
+    "example_en": "We made an excursion to the forest to pick mushrooms.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5120
+  },
+  {
+    "swedish": "gratulera",
+    "english": "congratulate",
+    "example_sv": "Jag vill gratulera dig till ditt nya jobb!",
+    "example_en": "I want to congratulate you on your new job!",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5121
+  },
+  {
+    "swedish": "studerande",
+    "english": "student",
+    "example_sv": "Som studerande får man ofta rabatt på busskort.",
+    "example_en": "As a student, you often get a discount on bus passes.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5122
+  },
+  {
+    "swedish": "upprop",
+    "english": "roll call",
+    "example_sv": "Läraren började lektionen med ett upprop av eleverna.",
+    "example_en": "The teacher started the lesson with a roll call of the students.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5123
+  },
+  {
+    "swedish": "utgåva",
+    "english": "edition",
+    "example_sv": "Den senaste utgåvan av boken är uppdaterad och förbättrad.",
+    "example_en": "The latest edition of the book is updated and improved.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5124
+  },
+  {
+    "swedish": "vädja",
+    "english": "appeal",
+    "example_sv": "Jag vill vädja till er att hjälpa de hemlösa.",
+    "example_en": "I want to appeal to you to help the homeless.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5125
+  },
+  {
+    "swedish": "finländsk",
+    "english": "Finnish",
+    "example_sv": "Jag har en finländsk vän som bor i Helsingfors.",
+    "example_en": "I have a Finnish friend who lives in Helsinki.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5126
+  },
+  {
+    "swedish": "morfar",
+    "english": "grandfather",
+    "example_sv": "Min morfar brukade berätta spännande historier för mig.",
+    "example_en": "My grandfather used to tell me exciting stories.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5127
+  },
+  {
+    "swedish": "norrman",
+    "english": "Norwegian",
+    "example_sv": "Min kollega är norrman och kommer från Oslo.",
+    "example_en": "My colleague is Norwegian and comes from Oslo.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5128
+  },
+  {
+    "swedish": "skandinavisk",
+    "english": "Scandinavian",
+    "example_sv": "Stockholm är en typisk skandinavisk stad med vacker arkitektur.",
+    "example_en": "Stockholm is a typical Scandinavian city with beautiful architecture.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5129
+  },
+  {
+    "swedish": "tumme",
+    "english": "thumb",
+    "example_sv": "Jag slog mig på tummen när jag hamrade.",
+    "example_en": "I hit my thumb when I was hammering.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5130
+  },
+  {
+    "swedish": "utslag",
+    "english": "rash",
+    "example_sv": "Jag fick utslag efter att ha ätit jordnötter.",
+    "example_en": "I got a rash after eating peanuts.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5131
+  },
+  {
+    "swedish": "familjemedlem",
+    "english": "family member",
+    "example_sv": "Alla familjemedlemmar var med på julfirandet.",
+    "example_en": "All family members were at the Christmas celebration.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5132
+  },
+  {
+    "swedish": "lasta",
+    "english": "load",
+    "example_sv": "Vi måste lasta bilen med alla våra saker innan resan.",
+    "example_en": "We need to load the car with all our things before the trip.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5133
+  },
+  {
+    "swedish": "ledarsida",
+    "english": "editorial",
+    "example_sv": "Jag läste ledarsidan i tidningen imorse om politik.",
+    "example_en": "I read the editorial in the newspaper this morning about politics.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5134
+  },
+  {
+    "swedish": "skräp",
+    "english": "trash",
+    "example_sv": "Släng inte skräp på gatan, använd papperskorgen.",
+    "example_en": "Don't throw trash on the street, use the trash can.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5135
+  },
+  {
+    "swedish": "smitta",
+    "english": "infect",
+    "example_sv": "Försök att inte smitta andra om du är sjuk.",
+    "example_en": "Try not to infect others if you are sick.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5136
+  },
+  {
+    "swedish": "påtala",
+    "english": "point out",
+    "example_sv": "Han ville påtala felet i rapporten innan den skickades.",
+    "example_en": "He wanted to point out the error in the report before it was sent.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5137
+  },
+  {
+    "swedish": "stort",
+    "english": "greatly",
+    "example_sv": "Jag uppskattar ditt stöd stort under denna svåra tid.",
+    "example_en": "I greatly appreciate your support during this difficult time.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5138
+  },
+  {
+    "swedish": "levnadsstandard",
+    "english": "living standard",
+    "example_sv": "Sverige har en hög levnadsstandard jämfört med många länder.",
+    "example_en": "Sweden has a high standard of living compared to many countries.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5139
+  },
+  {
+    "swedish": "palats",
+    "english": "palace",
+    "example_sv": "Det kungliga palatset i Stockholm är en populär turistattraktion.",
+    "example_en": "The Royal Palace in Stockholm is a popular tourist attraction.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5140
+  },
+  {
+    "swedish": "tyska",
+    "english": "German",
+    "example_sv": "Jag studerar tyska på kvällskursen två gånger i veckan.",
+    "example_en": "I study German in the evening class twice a week.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5141
+  },
+  {
+    "swedish": "opinionsundersökning",
+    "english": "opinion poll",
+    "example_sv": "Opinionsundersökningen visade att stödet för partiet hade minskat.",
+    "example_en": "The opinion poll showed that support for the party had decreased.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5142
+  },
+  {
+    "swedish": "vetenskapligt",
+    "english": "scientifically",
+    "example_sv": "Det har bevisats vetenskapligt att motion är bra för hälsan.",
+    "example_en": "It has been scientifically proven that exercise is good for health.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5143
+  },
+  {
+    "swedish": "revidera",
+    "english": "revise",
+    "example_sv": "Vi måste revidera budgeten eftersom kostnaderna har ökat.",
+    "example_en": "We need to revise the budget because the costs have increased.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5144
+  }
+]

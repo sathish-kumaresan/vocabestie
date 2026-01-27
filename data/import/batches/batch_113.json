@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "alster",
+    "english": "creation, work",
+    "example_sv": "Denna roman är ett av hennes mest kända alster.",
+    "example_en": "This novel is one of her most famous works.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5920
+  },
+  {
+    "swedish": "energikälla",
+    "english": "energy source",
+    "example_sv": "Solenergi är en viktig och förnybar energikälla för framtiden.",
+    "example_en": "Solar energy is an important and renewable energy source for the future.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5921
+  },
+  {
+    "swedish": "livsfarlig",
+    "english": "lethal, deadly",
+    "example_sv": "Det är livsfarligt att röra vid elkablarna efter stormen.",
+    "example_en": "It is deadly to touch the electrical cables after the storm.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5922
+  },
+  {
+    "swedish": "livskvalitet",
+    "english": "quality of life",
+    "example_sv": "Tillgång till grönområden bidrar till ökad livskvalitet i staden.",
+    "example_en": "Access to green spaces contributes to increased quality of life in the city.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5923
+  },
+  {
+    "swedish": "måttlig",
+    "english": "moderate, mild",
+    "example_sv": "Vi hoppas på måttlig vind under segelturen imorgon.",
+    "example_en": "We are hoping for moderate wind during the sailing trip tomorrow.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5924
+  },
+  {
+    "swedish": "tryggt",
+    "english": "safely, securely",
+    "example_sv": "Hon kunde tryggt somna i sin egen säng igen.",
+    "example_en": "She could safely fall asleep in her own bed again.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5925
+  },
+  {
+    "swedish": "bäck",
+    "english": "stream, brook",
+    "example_sv": "Vi hörde vattnet porla i den lilla bäcken.",
+    "example_en": "We heard the water gurgling in the small stream.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5926
+  },
+  {
+    "swedish": "förtal",
+    "english": "slander, libel",
+    "example_sv": "Anklagelserna om korruption var inget annat än förtal.",
+    "example_en": "The accusations of corruption were nothing but slander.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5927
+  },
+  {
+    "swedish": "förutsägbar",
+    "english": "predictable",
+    "example_sv": "Filmens handling var ganska förutsägbar och tråkig.",
+    "example_en": "The movie's plot was quite predictable and boring.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5928
+  },
+  {
+    "swedish": "intensifiera",
+    "english": "intensify",
+    "example_sv": "Vi måste intensifiera våra ansträngningar för att nå målet.",
+    "example_en": "We must intensify our efforts to reach the goal.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5929
+  },
+  {
+    "swedish": "naturresurs",
+    "english": "natural resource",
+    "example_sv": "Sverige är rikt på naturresurser som skog och mineraler.",
+    "example_en": "Sweden is rich in natural resources such as forests and minerals.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5930
+  },
+  {
+    "swedish": "otänkbar",
+    "english": "unthinkable",
+    "example_sv": "En sådan katastrof är helt otänkbar i vår moderna tid.",
+    "example_en": "Such a catastrophe is completely unthinkable in our modern time.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5931
+  },
+  {
+    "swedish": "varsel",
+    "english": "warning, notice",
+    "example_sv": "Företaget har utfärdat varsel om uppsägningar på grund av krisen.",
+    "example_en": "The company has issued notices of layoffs due to the crisis.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5932
+  },
+  {
+    "swedish": "tillbehör",
+    "english": "accessory, attachment",
+    "example_sv": "Kameran säljs med flera praktiska tillbehör som stativ.",
+    "example_en": "The camera is sold with several practical accessories like a tripod.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5933
+  },
+  {
+    "swedish": "betong",
+    "english": "concrete",
+    "example_sv": "Hela byggnaden var gjord av grå och trist betong.",
+    "example_en": "The whole building was made of gray and dreary concrete.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5934
+  },
+  {
+    "swedish": "nybörjare",
+    "english": "beginner",
+    "example_sv": "Som nybörjare kan det vara svårt att förstå alla regler.",
+    "example_en": "As a beginner, it can be difficult to understand all the rules.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5935
+  },
+  {
+    "swedish": "ruin",
+    "english": "ruin",
+    "example_sv": "Vi besökte en gammal borg och vandrade bland dess ruiner.",
+    "example_en": "We visited an old castle and wandered among its ruins.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5936
+  },
+  {
+    "swedish": "sortiment",
+    "english": "assortment, range",
+    "example_sv": "Butiken har ett brett sortiment av ekologiska produkter.",
+    "example_en": "The store has a wide range of organic products.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5937
+  },
+  {
+    "swedish": "nyans",
+    "english": "nuance, shade",
+    "example_sv": "Det finns en subtil nyansskillnad mellan färgerna.",
+    "example_en": "There is a subtle difference in nuance between the colors.",
+    "scenario": "Colors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5938
+  },
+  {
+    "swedish": "uppbära",
+    "english": "receive, collect",
+    "example_sv": "Han kommer att uppbära en hög pension efter många år.",
+    "example_en": "He will receive a high pension after many years.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5939
+  },
+  {
+    "swedish": "arkeologisk",
+    "english": "archaeological",
+    "example_sv": "De gjorde ett viktigt arkeologiskt fynd i utgrävningen.",
+    "example_en": "They made an important archaeological discovery at the excavation.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5940
+  },
+  {
+    "swedish": "okunnighet",
+    "english": "ignorance",
+    "example_sv": "Hennes kommentarer avslöjade stor okunnighet om ämnet.",
+    "example_en": "Her comments revealed great ignorance of the subject.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5941
+  },
+  {
+    "swedish": "anseende",
+    "english": "reputation, esteem",
+    "example_sv": "Läkaren har ett gott anseende bland sina patienter.",
+    "example_en": "The doctor has a good reputation among his patients.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5942
+  },
+  {
+    "swedish": "förbannelse",
+    "english": "curse",
+    "example_sv": "Enligt legenden vilar en förbannelse över familjen.",
+    "example_en": "According to legend, a curse rests upon the family.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5943
+  },
+  {
+    "swedish": "jubla",
+    "english": "cheer, rejoice",
+    "example_sv": "Publiken började jubla när laget gjorde mål i sista minuten.",
+    "example_en": "The audience started cheering when the team scored in the last minute.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5944
+  },
+  {
+    "swedish": "lejon",
+    "english": "lion",
+    "example_sv": "Vi såg ett ståtligt lejon på savannen under safarituren.",
+    "example_en": "We saw a majestic lion on the savanna during the safari tour.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5945
+  },
+  {
+    "swedish": "session",
+    "english": "session",
+    "example_sv": "Vi hade en lång brainstormingsession för att hitta nya idéer.",
+    "example_en": "We had a long brainstorming session to find new ideas.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5946
+  },
+  {
+    "swedish": "effektivisera",
+    "english": "streamline, optimize",
+    "example_sv": "Vi behöver effektivisera våra processer för att minska kostnaderna.",
+    "example_en": "We need to streamline our processes to reduce costs.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5947
+  },
+  {
+    "swedish": "hotfull",
+    "english": "threatening",
+    "example_sv": "Hans ton var hotfull och gjorde mig väldigt obekväm.",
+    "example_en": "His tone was threatening and made me very uncomfortable.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5948
+  },
+  {
+    "swedish": "miljöpolitik",
+    "english": "environmental policy",
+    "example_sv": "Regeringen måste föra en mer ambitiös miljöpolitik för framtiden.",
+    "example_en": "The government must pursue a more ambitious environmental policy for the future.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5949
+  },
+  {
+    "swedish": "storföretag",
+    "english": "corporation, large company",
+    "example_sv": "Storföretaget investerar mycket i forskning och utveckling.",
+    "example_en": "The corporation invests heavily in research and development.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5950
+  },
+  {
+    "swedish": "suveränitet",
+    "english": "sovereignty",
+    "example_sv": "Varje land har rätt att hävda sin egen suveränitet.",
+    "example_en": "Every country has the right to assert its own sovereignty.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5951
+  },
+  {
+    "swedish": "landshövding",
+    "english": "governor",
+    "example_sv": "Landshövdingen höll ett tal på nationaldagen i parken.",
+    "example_en": "The governor gave a speech on the national day in the park.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5953
+  },
+  {
+    "swedish": "statsbidrag",
+    "english": "government subsidy",
+    "example_sv": "Föreningen lever till stor del på statsbidrag från kommunen.",
+    "example_en": "The association lives largely on government subsidies from the municipality.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5954
+  },
+  {
+    "swedish": "storslagen",
+    "english": "magnificent, grand",
+    "example_sv": "Utsikten från berget var verkligen storslagen och oförglömlig.",
+    "example_en": "The view from the mountain was truly magnificent and unforgettable.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5955
+  },
+  {
+    "swedish": "separera",
+    "english": "separate",
+    "example_sv": "Vi måste separera plasten från papperet för återvinning.",
+    "example_en": "We need to separate the plastic from the paper for recycling.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5956
+  },
+  {
+    "swedish": "firande",
+    "english": "celebration",
+    "example_sv": "Företaget anordnade ett stort firande för sina anställda.",
+    "example_en": "The company organized a big celebration for its employees.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "noun",
+    "rank": 5957
+  },
+  {
+    "swedish": "hyllning",
+    "english": "tribute, homage",
+    "example_sv": "Konserten var en hyllning till den bortgångne artisten.",
+    "example_en": "The concert was a tribute to the deceased artist.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5958
+  },
+  {
+    "swedish": "oljepris",
+    "english": "oil price",
+    "example_sv": "Det höga oljepriset påverkar transportkostnaderna negativt.",
+    "example_en": "The high oil price negatively affects transportation costs.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5959
+  },
+  {
+    "swedish": "biologi",
+    "english": "biology",
+    "example_sv": "Hon studerar biologi på universitetet för att bli forskare.",
+    "example_en": "She is studying biology at university to become a researcher.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5960
+  },
+  {
+    "swedish": "rimligtvis",
+    "english": "presumably, reasonably",
+    "example_sv": "Rimligtvis borde vi vara framme vid lunchtid om vi kör direkt.",
+    "example_en": "Presumably, we should arrive by lunchtime if we drive directly.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5961
+  },
+  {
+    "swedish": "arbetarparti",
+    "english": "labor party",
+    "example_sv": "Arbetarpartiet vann valet med löften om ökad välfärd.",
+    "example_en": "The labor party won the election with promises of increased welfare.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5962
+  },
+  {
+    "swedish": "beskåda",
+    "english": "behold, observe",
+    "example_sv": "Vi stannade för att beskåda den vackra solnedgången över havet.",
+    "example_en": "We stopped to behold the beautiful sunset over the sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5963
+  },
+  {
+    "swedish": "briljant",
+    "english": "brilliant, excellent",
+    "example_sv": "Hennes lösning på problemet var helt enkelt briljant.",
+    "example_en": "Her solution to the problem was simply brilliant.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5964
+  },
+  {
+    "swedish": "lott",
+    "english": "lot, fate",
+    "example_sv": "Det är inte min lott att vinna på lotteriet.",
+    "example_en": "It is not my fate to win the lottery.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5965
+  },
+  {
+    "swedish": "kidnappa",
+    "english": "kidnap",
+    "example_sv": "Männen planerade att kidnappa direktören och kräva lösensumma.",
+    "example_en": "The men planned to kidnap the director and demand a ransom.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5966
+  },
+  {
+    "swedish": "girighet",
+    "english": "greed, avarice",
+    "example_sv": "Hans girighet efter pengar ledde till många problem.",
+    "example_en": "His greed for money led to many problems.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5967
+  },
+  {
+    "swedish": "härröra",
+    "english": "originate, stem",
+    "example_sv": "Många av våra traditioner härrör från gamla vikingatider.",
+    "example_en": "Many of our traditions originate from old Viking times.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5968
+  },
+  {
+    "swedish": "på sätt och vis",
+    "english": "in a way",
+    "example_sv": "Han har på sätt och vis rätt, men jag håller inte med.",
+    "example_en": "He is right in a way, but I disagree.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5969
+  },
+  {
+    "swedish": "framlägga",
+    "english": "present, submit",
+    "example_sv": "Företaget måste framlägga en ny plan för att rädda ekonomin.",
+    "example_en": "The company must present a new plan to save the economy.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5970
+  }
+]

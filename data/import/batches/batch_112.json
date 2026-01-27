@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "jämställa",
+    "english": "equate",
+    "example_sv": "Man kan inte jämställa hans misstag med hennes förräderi.",
+    "example_en": "You can't equate his mistake with her betrayal.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5869
+  },
+  {
+    "swedish": "runt omkring",
+    "english": "around",
+    "example_sv": "Det ligger papper runt omkring på hela skrivbordet.",
+    "example_en": "There are papers lying around all over the desk.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5870
+  },
+  {
+    "swedish": "välsigna",
+    "english": "bless",
+    "example_sv": "Prästen välsignade paret under den vackra bröllopsceremonin.",
+    "example_en": "The priest blessed the couple during the beautiful wedding ceremony.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5871
+  },
+  {
+    "swedish": "donation",
+    "english": "donation",
+    "example_sv": "Museet tackade för den generösa donationen av konstverket.",
+    "example_en": "The museum thanked for the generous donation of the artwork.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5872
+  },
+  {
+    "swedish": "laddad",
+    "english": "charged",
+    "example_sv": "Stämningen i rummet var laddad inför det viktiga beslutet.",
+    "example_en": "The atmosphere in the room was charged before the important decision.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5873
+  },
+  {
+    "swedish": "monument",
+    "english": "monument",
+    "example_sv": "Vi besökte ett imponerande monument över krigets offer.",
+    "example_en": "We visited an impressive monument to the victims of the war.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5874
+  },
+  {
+    "swedish": "hona",
+    "english": "female",
+    "example_sv": "Den här fågelarten har en vackrare fjäderdräkt hos hanen än honan.",
+    "example_en": "This bird species has more beautiful plumage in the male than the female.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5876
+  },
+  {
+    "swedish": "prick",
+    "english": "dot",
+    "example_sv": "Sätt en prick över i:et när du skriver texten.",
+    "example_en": "Put a dot over the i when you write the text.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5877
+  },
+  {
+    "swedish": "humanistisk",
+    "english": "humanistic",
+    "example_sv": "Universitetet har en stark humanistisk tradition och värdegrund.",
+    "example_en": "The university has a strong humanistic tradition and values.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5878
+  },
+  {
+    "swedish": "intressent",
+    "english": "stakeholder",
+    "example_sv": "Vi måste involvera alla intressenter i projektets utveckling.",
+    "example_en": "We must involve all stakeholders in the project's development.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5879
+  },
+  {
+    "swedish": "parameter",
+    "english": "parameter",
+    "example_sv": "Vi behöver justera dessa parametrar för att få bästa resultat.",
+    "example_en": "We need to adjust these parameters to get the best results.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5880
+  },
+  {
+    "swedish": "sopa",
+    "english": "sweep",
+    "example_sv": "Jag måste sopa golvet innan gästerna kommer ikväll.",
+    "example_en": "I need to sweep the floor before the guests come tonight.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5881
+  },
+  {
+    "swedish": "streck",
+    "english": "line",
+    "example_sv": "Dra ett streck under svaret på frågan.",
+    "example_en": "Draw a line under the answer to the question.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5882
+  },
+  {
+    "swedish": "ikon",
+    "english": "icon",
+    "example_sv": "Madonna har blivit en sann popikon genom åren.",
+    "example_en": "Madonna has become a true pop icon over the years.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5883
+  },
+  {
+    "swedish": "insekt",
+    "english": "insect",
+    "example_sv": "Jag hittade en konstig insekt i trädgården igår.",
+    "example_en": "I found a strange insect in the garden yesterday.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5884
+  },
+  {
+    "swedish": "dotterbolag",
+    "english": "subsidiary",
+    "example_sv": "Företaget planerar att öppna ett nytt dotterbolag i Kina.",
+    "example_en": "The company plans to open a new subsidiary in China.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5885
+  },
+  {
+    "swedish": "irakier",
+    "english": "Iraqi",
+    "example_sv": "Många irakier har flytt till Sverige på grund av kriget.",
+    "example_en": "Many Iraqis have fled to Sweden because of the war.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5886
+  },
+  {
+    "swedish": "istid",
+    "english": "ice age",
+    "example_sv": "Forskarna studerar spåren efter den senaste istiden i Sverige.",
+    "example_en": "Researchers are studying the traces of the last ice age in Sweden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5887
+  },
+  {
+    "swedish": "till slut",
+    "english": "finally",
+    "example_sv": "Till slut fick jag ett svar på min fråga.",
+    "example_en": "Finally, I got an answer to my question.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5888
+  },
+  {
+    "swedish": "försening",
+    "english": "delay",
+    "example_sv": "Det var en stor försening på flyget på grund av dåligt väder.",
+    "example_en": "There was a large delay on the flight due to bad weather.",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5889
+  },
+  {
+    "swedish": "färja",
+    "english": "ferry",
+    "example_sv": "Vi tog färjan över till den lilla ön i skärgården.",
+    "example_en": "We took the ferry over to the small island in the archipelago.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5890
+  },
+  {
+    "swedish": "förståelig",
+    "english": "understandable",
+    "example_sv": "Hennes reaktion var fullt förståelig med tanke på omständigheterna.",
+    "example_en": "Her reaction was perfectly understandable given the circumstances.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5891
+  },
+  {
+    "swedish": "prenumerera",
+    "english": "subscribe",
+    "example_sv": "Jag prenumererar på en tidning om trädgårdsskötsel.",
+    "example_en": "I subscribe to a magazine about gardening.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5892
+  },
+  {
+    "swedish": "ansluten",
+    "english": "connected",
+    "example_sv": "Är du ansluten till internet via wifi eller kabel?",
+    "example_en": "Are you connected to the internet via wifi or cable?",
+    "scenario": "Phone & Internet",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5893
+  },
+  {
+    "swedish": "romantik",
+    "english": "romance",
+    "example_sv": "Filmen var fylld av romantik och dramatik.",
+    "example_en": "The movie was full of romance and drama.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5894
+  },
+  {
+    "swedish": "bisarr",
+    "english": "bizarre",
+    "example_sv": "Det var en bisarr situation och jag visste inte vad jag skulle säga.",
+    "example_en": "It was a bizarre situation and I didn't know what to say.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5895
+  },
+  {
+    "swedish": "förfalla",
+    "english": "decay",
+    "example_sv": "Det gamla huset hade börjat förfalla efter många år av försummelse.",
+    "example_en": "The old house had begun to decay after many years of neglect.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5896
+  },
+  {
+    "swedish": "lås",
+    "english": "lock",
+    "example_sv": "Kom ihåg att sätta ett lås på dörren när du går.",
+    "example_en": "Remember to put a lock on the door when you leave.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5897
+  },
+  {
+    "swedish": "principiellt",
+    "english": "in principle",
+    "example_sv": "Principiellt sett håller jag med dig, men det finns undantag.",
+    "example_en": "In principle, I agree with you, but there are exceptions.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5898
+  },
+  {
+    "swedish": "samförstånd",
+    "english": "consensus",
+    "example_sv": "Vi nådde ett samförstånd efter en lång diskussion.",
+    "example_en": "We reached a consensus after a long discussion.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5899
+  },
+  {
+    "swedish": "jazz",
+    "english": "jazz",
+    "example_sv": "Vi gick på en jazzkonsert igår kväll på klubben.",
+    "example_en": "We went to a jazz concert last night at the club.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5900
+  },
+  {
+    "swedish": "ritual",
+    "english": "ritual",
+    "example_sv": "Varje morgon utför jag en ritual av kaffe och tidningsläsning.",
+    "example_en": "Every morning I perform a ritual of coffee and newspaper reading.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "noun",
+    "rank": 5901
+  },
+  {
+    "swedish": "segel",
+    "english": "sail",
+    "example_sv": "Båten hissade segel och gled ut på det öppna havet.",
+    "example_en": "The boat hoisted sails and glided out onto the open sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5902
+  },
+  {
+    "swedish": "exotisk",
+    "english": "exotic",
+    "example_sv": "De åt en exotisk frukt som de aldrig hade sett förut.",
+    "example_en": "They ate an exotic fruit that they had never seen before.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5903
+  },
+  {
+    "swedish": "informationssamhälle",
+    "english": "information society",
+    "example_sv": "Vi lever i ett informationssamhälle där kunskap är makt.",
+    "example_en": "We live in an information society where knowledge is power.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 5904
+  },
+  {
+    "swedish": "lukt",
+    "english": "smell",
+    "example_sv": "Det var en stark lukt av nybakat bröd i butiken.",
+    "example_en": "There was a strong smell of freshly baked bread in the store.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5905
+  },
+  {
+    "swedish": "skrapa",
+    "english": "scrape",
+    "example_sv": "Jag måste skrapa bort isen från bilrutan imorgon bitti.",
+    "example_en": "I have to scrape the ice off the car window tomorrow morning.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5906
+  },
+  {
+    "swedish": "uppgradera",
+    "english": "upgrade",
+    "example_sv": "Jag behöver uppgradera min dator för att kunna köra programmet.",
+    "example_en": "I need to upgrade my computer to be able to run the program.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5907
+  },
+  {
+    "swedish": "mäklare",
+    "english": "broker",
+    "example_sv": "Vi anlitade en mäklare för att hjälpa oss att sälja huset.",
+    "example_en": "We hired a broker to help us sell the house.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5908
+  },
+  {
+    "swedish": "reservera",
+    "english": "reserve",
+    "example_sv": "Jag vill reservera ett bord för två personer på fredag kväll.",
+    "example_en": "I would like to reserve a table for two people on Friday evening.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5909
+  },
+  {
+    "swedish": "bur",
+    "english": "cage",
+    "example_sv": "Papegojan satt i sin bur och härmade våra röster.",
+    "example_en": "The parrot sat in its cage and mimicked our voices.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5910
+  },
+  {
+    "swedish": "snöa",
+    "english": "snow",
+    "example_sv": "Det började snöa kraftigt under eftermiddagen igår.",
+    "example_en": "It started to snow heavily during the afternoon yesterday.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5911
+  },
+  {
+    "swedish": "anteckna",
+    "english": "note",
+    "example_sv": "Jag brukar anteckna viktiga punkter under mötet.",
+    "example_en": "I usually note down important points during the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5912
+  },
+  {
+    "swedish": "box",
+    "english": "box",
+    "example_sv": "Jag fick en stor box med böcker i present.",
+    "example_en": "I received a large box of books as a gift.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5913
+  },
+  {
+    "swedish": "korsning",
+    "english": "crossing",
+    "example_sv": "Var försiktig när du går över korsningen, det är mycket trafik.",
+    "example_en": "Be careful when crossing the intersection, there is a lot of traffic.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 5914
+  },
+  {
+    "swedish": "legitimera",
+    "english": "legitimize",
+    "example_sv": "Ingenting kan legitimera våldet som har begåtts mot civila.",
+    "example_en": "Nothing can legitimize the violence that has been committed against civilians.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5915
+  },
+  {
+    "swedish": "förfärlig",
+    "english": "horrible",
+    "example_sv": "Det var en förfärlig olycka med många skadade.",
+    "example_en": "It was a horrible accident with many injured.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 5916
+  },
+  {
+    "swedish": "förvånansvärt",
+    "english": "surprisingly",
+    "example_sv": "Förvånansvärt nog kom han i tid trots förseningen.",
+    "example_en": "Surprisingly enough, he arrived on time despite the delay.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 5917
+  },
+  {
+    "swedish": "kretsa",
+    "english": "revolve",
+    "example_sv": "Diskussionen fortsatte att kretsa kring samma problem.",
+    "example_en": "The discussion continued to revolve around the same problem.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5918
+  },
+  {
+    "swedish": "implementera",
+    "english": "implement",
+    "example_sv": "Vi behöver implementera de nya rutinerna så snabbt som möjligt.",
+    "example_en": "We need to implement the new routines as quickly as possible.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 5919
+  }
+]

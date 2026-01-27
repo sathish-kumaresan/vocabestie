@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "introduktion",
+    "english": "introduction",
+    "example_sv": "Hon gav en kort introduktion till kursen.",
+    "example_en": "She gave a short introduction to the course.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4312
+  },
+  {
+    "swedish": "livstid",
+    "english": "lifetime",
+    "example_sv": "Han fick livstid för det brutala brottet.",
+    "example_en": "He received a lifetime sentence for the brutal crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4313
+  },
+  {
+    "swedish": "demonstrant",
+    "english": "protester",
+    "example_sv": "Många demonstranter samlades utanför parlamentet igår kväll.",
+    "example_en": "Many protesters gathered outside parliament last night.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4314
+  },
+  {
+    "swedish": "flexibilitet",
+    "english": "flexibility",
+    "example_sv": "Vi värdesätter flexibilitet i vårt arbetsschema.",
+    "example_en": "We value flexibility in our work schedule.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4315
+  },
+  {
+    "swedish": "hed",
+    "english": "heath",
+    "example_sv": "Vi promenerade över den öppna, vackra heden.",
+    "example_en": "We walked across the open, beautiful heath.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4316
+  },
+  {
+    "swedish": "kol",
+    "english": "coal",
+    "example_sv": "Vi använde kol för att grilla korvarna.",
+    "example_en": "We used coal to grill the sausages.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4317
+  },
+  {
+    "swedish": "uppväxt",
+    "english": "upbringing",
+    "example_sv": "Hennes uppväxt präglades av fattigdom och svårigheter.",
+    "example_en": "Her upbringing was marked by poverty and hardship.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4318
+  },
+  {
+    "swedish": "efterlysa",
+    "english": "to seek",
+    "example_sv": "Polisen efterlyser vittnen till händelsen.",
+    "example_en": "The police are seeking witnesses to the event.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4319
+  },
+  {
+    "swedish": "grönsak",
+    "english": "vegetable",
+    "example_sv": "Jag försöker äta mer grönsaker varje dag.",
+    "example_en": "I try to eat more vegetables every day.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4320
+  },
+  {
+    "swedish": "samordna",
+    "english": "coordinate",
+    "example_sv": "Vi måste samordna våra ansträngningar för att lyckas.",
+    "example_en": "We must coordinate our efforts to succeed.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4321
+  },
+  {
+    "swedish": "järn",
+    "english": "iron",
+    "example_sv": "Den gamla spisen var gjord av tungt järn.",
+    "example_en": "The old stove was made of heavy iron.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4322
+  },
+  {
+    "swedish": "distribution",
+    "english": "distribution",
+    "example_sv": "Företaget ansvarar för distributionen av produkterna.",
+    "example_en": "The company is responsible for the distribution of the products.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4323
+  },
+  {
+    "swedish": "automatisk",
+    "english": "automatic",
+    "example_sv": "Dörren öppnas automatiskt när man närmar sig.",
+    "example_en": "The door opens automatically as you approach.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4324
+  },
+  {
+    "swedish": "transaktion",
+    "english": "transaction",
+    "example_sv": "Transaktionen genomfördes snabbt och smidigt online.",
+    "example_en": "The transaction was completed quickly and smoothly online.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4325
+  },
+  {
+    "swedish": "däck",
+    "english": "tire",
+    "example_sv": "Vi måste byta däck på bilen inför vintern.",
+    "example_en": "We have to change the tires on the car before winter.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4326
+  },
+  {
+    "swedish": "observation",
+    "english": "observation",
+    "example_sv": "Forskarna gjorde viktiga observationer av beteendet.",
+    "example_en": "The researchers made important observations of the behavior.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4327
+  },
+  {
+    "swedish": "typiskt",
+    "english": "typically",
+    "example_sv": "Det är typiskt svenskt att fika på eftermiddagen.",
+    "example_en": "It is typically Swedish to have fika in the afternoon.",
+    "scenario": "Fika Culture",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4328
+  },
+  {
+    "swedish": "inskränkning",
+    "english": "restriction",
+    "example_sv": "Det finns en inskränkning i tillgången till området.",
+    "example_en": "There is a restriction on access to the area.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4329
+  },
+  {
+    "swedish": "mata",
+    "english": "to feed",
+    "example_sv": "Glöm inte att mata katten innan du går.",
+    "example_en": "Don't forget to feed the cat before you leave.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4330
+  },
+  {
+    "swedish": "paradis",
+    "english": "paradise",
+    "example_sv": "Denna ö känns som ett riktigt paradis.",
+    "example_en": "This island feels like a real paradise.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4331
+  },
+  {
+    "swedish": "ingenjör",
+    "english": "engineer",
+    "example_sv": "Hon är en duktig ingenjör på ett stort företag.",
+    "example_en": "She is a skilled engineer at a large company.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4332
+  },
+  {
+    "swedish": "koncentration",
+    "english": "concentration",
+    "example_sv": "Jag har svårt att behålla koncentrationen länge.",
+    "example_en": "I have difficulty maintaining concentration for long.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4333
+  },
+  {
+    "swedish": "dugg",
+    "english": "bit",
+    "example_sv": "Jag förstår inte ett dugg av vad du säger.",
+    "example_en": "I don't understand a bit of what you're saying.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4335
+  },
+  {
+    "swedish": "samtid",
+    "english": "contemporary",
+    "example_sv": "Hon är en viktig röst i vår samtid.",
+    "example_en": "She is an important voice in our contemporary.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4336
+  },
+  {
+    "swedish": "uppståndelse",
+    "english": "commotion",
+    "example_sv": "Händelsen orsakade stor uppståndelse i media.",
+    "example_en": "The event caused a great commotion in the media.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4337
+  },
+  {
+    "swedish": "slaveri",
+    "english": "slavery",
+    "example_sv": "Slaveri är ett brott mot mänskligheten.",
+    "example_en": "Slavery is a crime against humanity.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4338
+  },
+  {
+    "swedish": "ålägga",
+    "english": "impose",
+    "example_sv": "Domstolen kan ålägga honom att betala skadestånd.",
+    "example_en": "The court can impose damages on him.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4339
+  },
+  {
+    "swedish": "framkalla",
+    "english": "evoke",
+    "example_sv": "Musiken kan framkalla starka minnen från det förflutna.",
+    "example_en": "The music can evoke strong memories from the past.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4340
+  },
+  {
+    "swedish": "utkast",
+    "english": "draft",
+    "example_sv": "Här är ett utkast till det nya avtalet.",
+    "example_en": "Here is a draft of the new agreement.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4341
+  },
+  {
+    "swedish": "framträdande",
+    "english": "prominent",
+    "example_sv": "Hon är en framträdande person inom politiken.",
+    "example_en": "She is a prominent person in politics.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4342
+  },
+  {
+    "swedish": "desperat",
+    "english": "desperate",
+    "example_sv": "Han var desperat efter att hitta ett jobb.",
+    "example_en": "He was desperate to find a job.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4343
+  },
+  {
+    "swedish": "någon som helst",
+    "english": "any",
+    "example_sv": "Jag har inte någon som helst aning om vad som hände.",
+    "example_en": "I have no idea what happened.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "pronoun",
+    "rank": 4344
+  },
+  {
+    "swedish": "flitigt",
+    "english": "diligently",
+    "example_sv": "Hon studerade flitigt inför tentamen.",
+    "example_en": "She studied diligently for the exam.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4345
+  },
+  {
+    "swedish": "offensiv",
+    "english": "offensive",
+    "example_sv": "Laget startade matchen med en stark offensiv.",
+    "example_en": "The team started the match with a strong offensive.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4346
+  },
+  {
+    "swedish": "sångare",
+    "english": "singer",
+    "example_sv": "Hon är en populär sångare med en fantastisk röst.",
+    "example_en": "She is a popular singer with a fantastic voice.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4347
+  },
+  {
+    "swedish": "ingrepp",
+    "english": "intervention",
+    "example_sv": "Läkarna beslutade att göra ett kirurgiskt ingrepp.",
+    "example_en": "The doctors decided to perform a surgical intervention.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4348
+  },
+  {
+    "swedish": "otalig",
+    "english": "countless",
+    "example_sv": "Hon har vunnit otaliga priser för sin forskning.",
+    "example_en": "She has won countless awards for her research.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4349
+  },
+  {
+    "swedish": "diagram",
+    "english": "diagram",
+    "example_sv": "Diagrammet visar tydligt resultatet av undersökningen.",
+    "example_en": "The diagram clearly shows the results of the survey.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4350
+  },
+  {
+    "swedish": "inbjuda",
+    "english": "invite",
+    "example_sv": "Vi vill inbjuda dig till vårt bröllop.",
+    "example_en": "We would like to invite you to our wedding.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4351
+  },
+  {
+    "swedish": "motivation",
+    "english": "motivation",
+    "example_sv": "Hon har stor motivation att lyckas i livet.",
+    "example_en": "She has great motivation to succeed in life.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4352
+  },
+  {
+    "swedish": "utplåna",
+    "english": "obliterate",
+    "example_sv": "Bomben riskerade att utplåna hela staden.",
+    "example_en": "The bomb risked obliterating the entire city.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4353
+  },
+  {
+    "swedish": "gymnasieskola",
+    "english": "high school",
+    "example_sv": "Han går på gymnasieskola i en annan stad.",
+    "example_en": "He goes to high school in another city.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4354
+  },
+  {
+    "swedish": "bearbeta",
+    "english": "process",
+    "example_sv": "Datorn hjälper oss att bearbeta stora mängder data.",
+    "example_en": "The computer helps us process large amounts of data.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4355
+  },
+  {
+    "swedish": "förlåtelse",
+    "english": "forgiveness",
+    "example_sv": "Hon bad honom om förlåtelse för sitt misstag.",
+    "example_en": "She asked him for forgiveness for her mistake.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4356
+  },
+  {
+    "swedish": "snurra",
+    "english": "spin",
+    "example_sv": "Karusellen började snurra fortare och fortare.",
+    "example_en": "The carousel started to spin faster and faster.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4357
+  },
+  {
+    "swedish": "skildring",
+    "english": "portrayal",
+    "example_sv": "Boken ger en detaljerad skildring av kriget.",
+    "example_en": "The book gives a detailed portrayal of the war.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4358
+  },
+  {
+    "swedish": "sändning",
+    "english": "broadcast",
+    "example_sv": "Vi såg sändningen av OS-finalen igår kväll.",
+    "example_en": "We watched the broadcast of the Olympic final last night.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4359
+  },
+  {
+    "swedish": "baby",
+    "english": "baby",
+    "example_sv": "Den nyfödda babyn sov lugnt i sin vagga.",
+    "example_en": "The newborn baby slept peacefully in its cradle.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4360
+  },
+  {
+    "swedish": "förvara",
+    "english": "store",
+    "example_sv": "Vi förvarar vinterns kläder i källaren.",
+    "example_en": "We store the winter clothes in the basement.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4361
+  },
+  {
+    "swedish": "rota",
+    "english": "rummage",
+    "example_sv": "Hon började rota i sin väska efter nycklarna.",
+    "example_en": "She started rummaging in her bag for the keys.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4363
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "sanning",
+    "english": "truth",
+    "example_sv": "Det är viktigt att alltid tala sanning.",
+    "example_en": "It is important to always tell the truth.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 732
+  },
+  {
+    "swedish": "religion",
+    "english": "religion",
+    "example_sv": "Många människor har en stark tro på sin religion.",
+    "example_en": "Many people have a strong belief in their religion.",
+    "scenario": "Traditions",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 733
+  },
+  {
+    "swedish": "källa",
+    "english": "source",
+    "example_sv": "Denna bok är en bra källa till information.",
+    "example_en": "This book is a good source of information.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 734
+  },
+  {
+    "swedish": "må",
+    "english": "feel",
+    "example_sv": "Jag hoppas att du kommer att må bättre snart.",
+    "example_en": "I hope you will feel better soon.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 735
+  },
+  {
+    "swedish": "kostnad",
+    "english": "cost",
+    "example_sv": "Vad är den totala kostnaden för resan?",
+    "example_en": "What is the total cost of the trip?",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 736
+  },
+  {
+    "swedish": "medborgare",
+    "english": "citizen",
+    "example_sv": "Alla medborgare har rättigheter och skyldigheter.",
+    "example_en": "All citizens have rights and responsibilities.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 737
+  },
+  {
+    "swedish": "förhållande",
+    "english": "relationship",
+    "example_sv": "De har ett bra förhållande med sina grannar.",
+    "example_en": "They have a good relationship with their neighbors.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 738
+  },
+  {
+    "swedish": "far",
+    "english": "father",
+    "example_sv": "Min far lagar alltid god mat på helgerna.",
+    "example_en": "My father always cooks good food on weekends.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "ungdom",
+    "english": "youth",
+    "example_sv": "Ungdom är en viktig period i livet.",
+    "example_en": "Youth is an important period in life.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 741
+  },
+  {
+    "swedish": "släppa",
+    "english": "release",
+    "example_sv": "Kan du släppa in katten, tack?",
+    "example_en": "Can you let the cat in, please?",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 742
+  },
+  {
+    "swedish": "enbart",
+    "english": "only",
+    "example_sv": "Jag dricker enbart kaffe på morgonen.",
+    "example_en": "I only drink coffee in the morning.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 743
+  },
+  {
+    "swedish": "drag",
+    "english": "feature",
+    "example_sv": "Hennes starkaste drag är hennes optimism.",
+    "example_en": "Her strongest feature is her optimism.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 744
+  },
+  {
+    "swedish": "verklighet",
+    "english": "reality",
+    "example_sv": "Det är dags att möta verkligheten.",
+    "example_en": "It is time to face reality.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 745
+  },
+  {
+    "swedish": "författare",
+    "english": "author",
+    "example_sv": "Hon är en berömd författare av barnböcker.",
+    "example_en": "She is a famous author of children's books.",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 746
+  },
+  {
+    "swedish": "tillgång",
+    "english": "access",
+    "example_sv": "Vi har tillgång till internet i biblioteket.",
+    "example_en": "We have access to the internet in the library.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 747
+  },
+  {
+    "swedish": "nödvändig",
+    "english": "necessary",
+    "example_sv": "Det är nödvändigt att ha ett pass.",
+    "example_en": "It is necessary to have a passport.",
+    "scenario": "At the Airport",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 748
+  },
+  {
+    "swedish": "full",
+    "english": "full",
+    "example_sv": "Glast är fullt med vatten.",
+    "example_en": "The glass is full of water.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 749
+  },
+  {
+    "swedish": "frihet",
+    "english": "freedom",
+    "example_sv": "Alla har rätt till frihet och trygghet.",
+    "example_en": "Everyone has the right to freedom and security.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 750
+  },
+  {
+    "swedish": "passa",
+    "english": "fit",
+    "example_sv": "Den här tröjan passar mig perfekt.",
+    "example_en": "This sweater fits me perfectly.",
+    "scenario": "Clothing",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 751
+  },
+  {
+    "swedish": "lokal",
+    "english": "local",
+    "example_sv": "Jag handlar alltid på den lokala mataffären.",
+    "example_en": "I always shop at the local grocery store.",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 752
+  },
+  {
+    "swedish": "ytterligare",
+    "english": "further",
+    "example_sv": "Behöver du ytterligare information om kursen?",
+    "example_en": "Do you need further information about the course?",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 753
+  },
+  {
+    "swedish": "öppna",
+    "english": "open",
+    "example_sv": "Kan du öppna fönstret, det är varmt här.",
+    "example_en": "Can you open the window, it's hot in here.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 754
+  },
+  {
+    "swedish": "införa",
+    "english": "introduce",
+    "example_sv": "De vill införa en ny skatt.",
+    "example_en": "They want to introduce a new tax.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 755
+  },
+  {
+    "swedish": "ledare",
+    "english": "leader",
+    "example_sv": "Han är en stark och inspirerande ledare.",
+    "example_en": "He is a strong and inspiring leader.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 756
+  },
+  {
+    "swedish": "mamma",
+    "english": "mother",
+    "example_sv": "Min mamma är den bästa kocken jag känner.",
+    "example_en": "My mother is the best cook I know.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 757
+  },
+  {
+    "swedish": "sammanhang",
+    "english": "context",
+    "example_sv": "Man måste förstå det i sitt sammanhang.",
+    "example_en": "You have to understand it in its context.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 758
+  },
+  {
+    "swedish": "hemma",
+    "english": "at home",
+    "example_sv": "Jag stannar hemma idag eftersom jag är sjuk.",
+    "example_en": "I am staying at home today because I am sick.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 760
+  },
+  {
+    "swedish": "produkt",
+    "english": "product",
+    "example_sv": "Detta är en ny produkt från företaget.",
+    "example_en": "This is a new product from the company.",
+    "scenario": "Shopping",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 761
+  },
+  {
+    "swedish": "därefter",
+    "english": "thereafter",
+    "example_sv": "Först äter vi, därefter går vi på bio.",
+    "example_en": "First we eat, thereafter we go to the cinema.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 762
+  },
+  {
+    "swedish": "match",
+    "english": "match",
+    "example_sv": "Vi ska titta på en fotbollsmatch ikväll.",
+    "example_en": "We are going to watch a football match tonight.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 764
+  },
+  {
+    "swedish": "alldeles",
+    "english": "completely",
+    "example_sv": "Jag är alldeles slut efter den långa dagen.",
+    "example_en": "I am completely exhausted after the long day.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 766
+  },
+  {
+    "swedish": "sann",
+    "english": "true",
+    "example_sv": "Är det sant att du ska flytta?",
+    "example_en": "Is it true that you are going to move?",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 768
+  },
+  {
+    "swedish": "uppfattning",
+    "english": "opinion",
+    "example_sv": "Jag har en annan uppfattning om det.",
+    "example_en": "I have a different opinion about that.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 769
+  },
+  {
+    "swedish": "demokrat",
+    "english": "democrat",
+    "example_sv": "Han är en engagerad demokrat.",
+    "example_en": "He is a committed democrat.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 770
+  },
+  {
+    "swedish": "bolag",
+    "english": "company",
+    "example_sv": "Hon jobbar på ett stort bolag i Stockholm.",
+    "example_en": "She works for a large company in Stockholm.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 771
+  },
+  {
+    "swedish": "erfarenhet",
+    "english": "experience",
+    "example_sv": "Jag har mycket erfarenhet inom det området.",
+    "example_en": "I have a lot of experience in that area.",
+    "scenario": "Job Interview",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 772
+  },
+  {
+    "swedish": "kritik",
+    "english": "criticism",
+    "example_sv": "Filmen fick mycket kritik av recensenterna.",
+    "example_en": "The film received a lot of criticism from the reviewers.",
+    "scenario": "Entertainment",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 773
+  },
+  {
+    "swedish": "grad",
+    "english": "degree",
+    "example_sv": "Det är 25 grader varmt idag.",
+    "example_en": "It is 25 degrees Celsius today.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 774
+  },
+  {
+    "swedish": "jude",
+    "english": "Jew",
+    "example_sv": "Min vän är jude och firar Chanukka.",
+    "example_en": "My friend is Jewish and celebrates Hanukkah.",
+    "scenario": "Traditions",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 775
+  },
+  {
+    "swedish": "vacker",
+    "english": "beautiful",
+    "example_sv": "Vilken vacker solnedgång vi har ikväll!",
+    "example_en": "What a beautiful sunset we have tonight!",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 776
+  },
+  {
+    "swedish": "erbjuda",
+    "english": "offer",
+    "example_sv": "De kan erbjuda bra priser på flyg.",
+    "example_en": "They can offer good prices on flights.",
+    "scenario": "At the Airport",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 777
+  },
+  {
+    "swedish": "kamp",
+    "english": "struggle",
+    "example_sv": "Det är en kamp att hitta ett jobb.",
+    "example_en": "It is a struggle to find a job.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 778
+  },
+  {
+    "swedish": "period",
+    "english": "period",
+    "example_sv": "Vi åker på semester under sommaren perioden.",
+    "example_en": "We are going on vacation during the summer period.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 779
+  },
+  {
+    "swedish": "modern",
+    "english": "modern",
+    "example_sv": "Det är en modern och bekväm lägenhet.",
+    "example_en": "It is a modern and comfortable apartment.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 780
+  },
+  {
+    "swedish": "spelare",
+    "english": "player",
+    "example_sv": "Han är en duktig spelare i laget.",
+    "example_en": "He is a good player in the team.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 781
+  },
+  {
+    "swedish": "elev",
+    "english": "student",
+    "example_sv": "Hon är en flitig elev i klassen.",
+    "example_en": "She is a diligent student in the class.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 782
+  },
+  {
+    "swedish": "utredning",
+    "english": "investigation",
+    "example_sv": "Polisen gör en utredning av brottet.",
+    "example_en": "The police are conducting an investigation into the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 783
+  },
+  {
+    "swedish": "ingå",
+    "english": "include",
+    "example_sv": "Frukost ingår i priset på hotellet.",
+    "example_en": "Breakfast is included in the price of the hotel.",
+    "scenario": "Hotel",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 784
+  },
+  {
+    "swedish": "kung",
+    "english": "king",
+    "example_sv": "Sverige har en kung och en drottning.",
+    "example_en": "Sweden has a king and a queen.",
+    "scenario": "Traditions",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 785
+  },
+  {
+    "swedish": "bestå",
+    "english": "consist",
+    "example_sv": "Tårtan består av tre lager kräm.",
+    "example_en": "The cake consists of three layers of cream.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 786
+  }
+]

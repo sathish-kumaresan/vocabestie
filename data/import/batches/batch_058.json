@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "straffa",
+    "english": "punish",
+    "example_sv": "Domaren måste straffa spelaren för det farliga spelet.",
+    "example_en": "The judge must punish the player for the dangerous play.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3073
+  },
+  {
+    "swedish": "sådär",
+    "english": "so-so",
+    "example_sv": "Hur var filmen? Den var sådär, inte jättebra.",
+    "example_en": "How was the movie? It was so-so, not very good.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3074
+  },
+  {
+    "swedish": "nödvändighet",
+    "english": "necessity",
+    "example_sv": "Vatten är en nödvändighet för allt liv på jorden.",
+    "example_en": "Water is a necessity for all life on Earth.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3075
+  },
+  {
+    "swedish": "medlemsland",
+    "english": "member state",
+    "example_sv": "Sverige är ett medlemsland i Europeiska Unionen.",
+    "example_en": "Sweden is a member state of the European Union.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3076
+  },
+  {
+    "swedish": "översyn",
+    "english": "review",
+    "example_sv": "Vi behöver göra en översyn av våra processer.",
+    "example_en": "We need to do a review of our processes.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3077
+  },
+  {
+    "swedish": "blind",
+    "english": "blind",
+    "example_sv": "Hon är blind men lever ett aktivt liv.",
+    "example_en": "She is blind but lives an active life.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3078
+  },
+  {
+    "swedish": "front",
+    "english": "front",
+    "example_sv": "De möttes vid fronten under andra världskriget.",
+    "example_en": "They met at the front during World War II.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3079
+  },
+  {
+    "swedish": "fördöma",
+    "english": "condemn",
+    "example_sv": "Vi fördömer starkt alla former av våld.",
+    "example_en": "We strongly condemn all forms of violence.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3080
+  },
+  {
+    "swedish": "synlig",
+    "english": "visible",
+    "example_sv": "Stjärnorna är synliga en klar natt på landet.",
+    "example_en": "The stars are visible on a clear night in the countryside.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3081
+  },
+  {
+    "swedish": "fint",
+    "english": "nicely",
+    "example_sv": "Han har lagat maten väldigt fint ikväll.",
+    "example_en": "He has cooked the food very nicely tonight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3082
+  },
+  {
+    "swedish": "skapelse",
+    "english": "creation",
+    "example_sv": "Den här tavlan är en vacker skapelse.",
+    "example_en": "This painting is a beautiful creation.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3083
+  },
+  {
+    "swedish": "rasa",
+    "english": "collapse",
+    "example_sv": "Huset började rasa efter jordbävningen i området.",
+    "example_en": "The house began to collapse after the earthquake in the area.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3084
+  },
+  {
+    "swedish": "verksam",
+    "english": "active",
+    "example_sv": "Företaget är verksamt inom förnybar energi.",
+    "example_en": "The company is active in renewable energy.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3085
+  },
+  {
+    "swedish": "avlida",
+    "english": "pass away",
+    "example_sv": "Min morfar avled efter en lång tids sjukdom.",
+    "example_en": "My grandfather passed away after a long illness.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3086
+  },
+  {
+    "swedish": "fullkomligt",
+    "english": "completely",
+    "example_sv": "Jag är fullkomligt övertygad om att han har rätt.",
+    "example_en": "I am completely convinced that he is right.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3087
+  },
+  {
+    "swedish": "teoretisk",
+    "english": "theoretical",
+    "example_sv": "Det är en teoretisk möjlighet, men inte trolig.",
+    "example_en": "It's a theoretical possibility, but not probable.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3088
+  },
+  {
+    "swedish": "flyta",
+    "english": "float",
+    "example_sv": "Båten kan flyta på vattnet utan problem.",
+    "example_en": "The boat can float on the water without any problems.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3089
+  },
+  {
+    "swedish": "urval",
+    "english": "selection",
+    "example_sv": "Butiken har ett stort urval av importerade ostar.",
+    "example_en": "The store has a large selection of imported cheeses.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3090
+  },
+  {
+    "swedish": "binda",
+    "english": "tie",
+    "example_sv": "Kan du hjälpa mig att binda skosnörena?",
+    "example_en": "Can you help me tie my shoelaces?",
+    "scenario": "Clothing",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3091
+  },
+  {
+    "swedish": "fett",
+    "english": "fat",
+    "example_sv": "Det finns mycket fett i den här maten.",
+    "example_en": "There is a lot of fat in this food.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3092
+  },
+  {
+    "swedish": "erkännande",
+    "english": "recognition",
+    "example_sv": "Hon fick ett erkännande för sitt arbete i byn.",
+    "example_en": "She received recognition for her work in the village.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3093
+  },
+  {
+    "swedish": "hälsning",
+    "english": "greeting",
+    "example_sv": "Jag skickar en varm hälsning till hela familjen.",
+    "example_en": "I send a warm greeting to the whole family.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3094
+  },
+  {
+    "swedish": "idrott",
+    "english": "sports",
+    "example_sv": "Jag älskar att titta på idrott på TV.",
+    "example_en": "I love watching sports on TV.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3095
+  },
+  {
+    "swedish": "debattartikel",
+    "english": "op-ed",
+    "example_sv": "Han skrev en intressant debattartikel om skolan.",
+    "example_en": "He wrote an interesting op-ed about the school.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3096
+  },
+  {
+    "swedish": "belysa",
+    "english": "highlight",
+    "example_sv": "Journalisten ville belysa problemet med hemlöshet.",
+    "example_en": "The journalist wanted to highlight the problem of homelessness.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3097
+  },
+  {
+    "swedish": "emellan",
+    "english": "between",
+    "example_sv": "Bussen går regelbundet emellan städerna varje dag.",
+    "example_en": "The bus runs regularly between the cities every day.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "preposition",
+    "rank": 3098
+  },
+  {
+    "swedish": "övervaka",
+    "english": "monitor",
+    "example_sv": "Vi måste övervaka situationen noga framöver.",
+    "example_en": "We must monitor the situation closely going forward.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3099
+  },
+  {
+    "swedish": "lagom",
+    "english": "just right",
+    "example_sv": "Temperaturen är lagom, varken för varmt eller kallt.",
+    "example_en": "The temperature is just right, neither too hot nor too cold.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3100
+  },
+  {
+    "swedish": "proletariat",
+    "english": "proletariat",
+    "example_sv": "Marx skrev om proletariatets revolutionära roll.",
+    "example_en": "Marx wrote about the revolutionary role of the proletariat.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3102
+  },
+  {
+    "swedish": "önskemål",
+    "english": "wish",
+    "example_sv": "Har du några speciella önskemål inför din födelsedag?",
+    "example_en": "Do you have any special wishes for your birthday?",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3103
+  },
+  {
+    "swedish": "förlåta",
+    "english": "forgive",
+    "example_sv": "Jag kan inte förlåta honom för det han gjorde.",
+    "example_en": "I cannot forgive him for what he did.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3104
+  },
+  {
+    "swedish": "sammanlagt",
+    "english": "in total",
+    "example_sv": "Sammanlagt kostade resan fem tusen kronor per person.",
+    "example_en": "In total, the trip cost five thousand kronor per person.",
+    "scenario": "At the Airport",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3105
+  },
+  {
+    "swedish": "slav",
+    "english": "slave",
+    "example_sv": "Han behandlades som en slav av sin chef.",
+    "example_en": "He was treated like a slave by his boss.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3106
+  },
+  {
+    "swedish": "näsa",
+    "english": "nose",
+    "example_sv": "Jag har ont i näsan efter att ha ramlat.",
+    "example_en": "My nose hurts after falling.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3107
+  },
+  {
+    "swedish": "däribland",
+    "english": "including",
+    "example_sv": "Många olika länder deltog, däribland Sverige och Norge.",
+    "example_en": "Many different countries participated, including Sweden and Norway.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3108
+  },
+  {
+    "swedish": "export",
+    "english": "export",
+    "example_sv": "Sverige har en stor export av skogsprodukter.",
+    "example_en": "Sweden has a large export of forest products.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3109
+  },
+  {
+    "swedish": "nedgång",
+    "english": "decline",
+    "example_sv": "Företaget upplevde en nedgång i försäljningen förra året.",
+    "example_en": "The company experienced a decline in sales last year.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3110
+  },
+  {
+    "swedish": "vinkel",
+    "english": "angle",
+    "example_sv": "Fotografera från en annan vinkel för bättre effekt.",
+    "example_en": "Photograph from a different angle for a better effect.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3111
+  },
+  {
+    "swedish": "experiment",
+    "english": "experiment",
+    "example_sv": "De genomförde ett experiment för att testa teorin.",
+    "example_en": "They conducted an experiment to test the theory.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3112
+  },
+  {
+    "swedish": "allierad",
+    "english": "allied",
+    "example_sv": "De var allierade under andra världskriget.",
+    "example_en": "They were allied during World War II.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3113
+  },
+  {
+    "swedish": "arbetstid",
+    "english": "working hours",
+    "example_sv": "Min arbetstid är från åtta på morgonen till fem på eftermiddagen.",
+    "example_en": "My working hours are from eight in the morning to five in the afternoon.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3114
+  },
+  {
+    "swedish": "flagga",
+    "english": "flag",
+    "example_sv": "Vi hissade flaggan för att fira nationaldagen.",
+    "example_en": "We raised the flag to celebrate the national day.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3115
+  },
+  {
+    "swedish": "uppdatera",
+    "english": "update",
+    "example_sv": "Du måste uppdatera programvaran för att den ska fungera.",
+    "example_en": "You need to update the software for it to work.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3116
+  },
+  {
+    "swedish": "block",
+    "english": "block",
+    "example_sv": "Jag behöver ett nytt block att skriva på.",
+    "example_en": "I need a new notepad to write on.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3117
+  },
+  {
+    "swedish": "feminism",
+    "english": "feminism",
+    "example_sv": "Feminism handlar om jämställdhet mellan kvinnor och män.",
+    "example_en": "Feminism is about equality between women and men.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3118
+  },
+  {
+    "swedish": "skattebetalare",
+    "english": "taxpayer",
+    "example_sv": "Skattebetalarna betalar för välfärden i samhället.",
+    "example_en": "Taxpayers pay for the welfare in society.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3119
+  },
+  {
+    "swedish": "globalisering",
+    "english": "globalization",
+    "example_sv": "Globalisering har både positiva och negativa effekter.",
+    "example_en": "Globalization has both positive and negative effects.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3120
+  },
+  {
+    "swedish": "miljontals",
+    "english": "millions",
+    "example_sv": "Miljontals människor lever i fattigdom runt om i världen.",
+    "example_en": "Millions of people live in poverty around the world.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3121
+  },
+  {
+    "swedish": "obehaglig",
+    "english": "unpleasant",
+    "example_sv": "Det var en obehaglig överraskning att se honom där.",
+    "example_en": "It was an unpleasant surprise to see him there.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3122
+  },
+  {
+    "swedish": "ondska",
+    "english": "evil",
+    "example_sv": "Ondska finns tyvärr i världen, det är sant.",
+    "example_en": "Evil unfortunately exists in the world, that is true.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3123
+  }
+]

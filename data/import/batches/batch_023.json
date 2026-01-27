@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "skog",
+    "english": "forest, woods",
+    "example_sv": "Vi gick en lång promenad i den vackra skogen.",
+    "example_en": "We took a long walk in the beautiful forest.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1219
+  },
+  {
+    "swedish": "kritisera",
+    "english": "criticize",
+    "example_sv": "Man ska inte kritisera andras utseende.",
+    "example_en": "You shouldn't criticize other people's appearance.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1220
+  },
+  {
+    "swedish": "förklaring",
+    "english": "explanation",
+    "example_sv": "Jag vill ha en tydlig förklaring till detta.",
+    "example_en": "I want a clear explanation for this.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1221
+  },
+  {
+    "swedish": "springa",
+    "english": "run",
+    "example_sv": "Jag måste springa till bussen för att hinna.",
+    "example_en": "I have to run to the bus to catch it.",
+    "scenario": "Public Transport",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1222
+  },
+  {
+    "swedish": "oerhört",
+    "english": "incredibly, extremely",
+    "example_sv": "Det var oerhört trevligt att träffa dig idag.",
+    "example_en": "It was incredibly nice to meet you today.",
+    "scenario": "Small Talk",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 1223
+  },
+  {
+    "swedish": "uppfatta",
+    "english": "perceive, understand",
+    "example_sv": "Jag uppfattade inte vad du sa just nu.",
+    "example_en": "I didn't understand what you just said.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1224
+  },
+  {
+    "swedish": "foto",
+    "english": "photo",
+    "example_sv": "Jag tog ett vackert foto av solnedgången.",
+    "example_en": "I took a beautiful photo of the sunset.",
+    "scenario": "Hobbies",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1225
+  },
+  {
+    "swedish": "islam",
+    "english": "Islam",
+    "example_sv": "Min vän berättade om sina åsikter om islam.",
+    "example_en": "My friend told me about their views on Islam.",
+    "scenario": "Traditions",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1226
+  },
+  {
+    "swedish": "stänga",
+    "english": "close, shut",
+    "example_sv": "Kan du stänga dörren, tack så mycket.",
+    "example_en": "Can you close the door, thank you very much.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1227
+  },
+  {
+    "swedish": "aning",
+    "english": "idea, clue",
+    "example_sv": "Jag har ingen aning om vad du pratar om.",
+    "example_en": "I have no idea what you are talking about.",
+    "scenario": "Question Words",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1228
+  },
+  {
+    "swedish": "försvar",
+    "english": "defense",
+    "example_sv": "Hon hade inget bra försvar mot anklagelserna.",
+    "example_en": "She had no good defense against the accusations.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1229
+  },
+  {
+    "swedish": "meter",
+    "english": "meter",
+    "example_sv": "Jag är ungefär en och åttio meter lång.",
+    "example_en": "I am about one meter and eighty centimeters tall.",
+    "scenario": "Numbers",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1230
+  },
+  {
+    "swedish": "evolution",
+    "english": "evolution",
+    "example_sv": "Vi studerar evolution i biologilektionen idag.",
+    "example_en": "We are studying evolution in biology class today.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1231
+  },
+  {
+    "swedish": "funktion",
+    "english": "function",
+    "example_sv": "Denna knapp har ingen funktion på datorn.",
+    "example_en": "This button has no function on the computer.",
+    "scenario": "Technology",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1232
+  },
+  {
+    "swedish": "dotter",
+    "english": "daughter",
+    "example_sv": "Min dotter älskar att spela fotboll med mig.",
+    "example_en": "My daughter loves playing football with me.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1233
+  },
+  {
+    "swedish": "värdering",
+    "english": "value, assessment",
+    "example_sv": "Det är en viktig värdering att vara ärlig.",
+    "example_en": "It is an important value to be honest.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1234
+  },
+  {
+    "swedish": "råda",
+    "english": "prevail, advise",
+    "example_sv": "Jag råder dig att ta det lugnt nu.",
+    "example_en": "I advise you to take it easy now.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1235
+  },
+  {
+    "swedish": "ersättning",
+    "english": "compensation",
+    "example_sv": "Du har rätt till ersättning för skadan.",
+    "example_en": "You are entitled to compensation for the damage.",
+    "scenario": "Banking",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1236
+  },
+  {
+    "swedish": "slippa",
+    "english": "avoid, get out of",
+    "example_sv": "Jag vill slippa städa idag, det är tråkigt.",
+    "example_en": "I want to avoid cleaning today, it's boring.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1237
+  },
+  {
+    "swedish": "självklart",
+    "english": "of course",
+    "example_sv": "Självklart kommer jag på din födelsedagsfest.",
+    "example_en": "Of course I'm coming to your birthday party.",
+    "scenario": "Celebrations",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 1238
+  },
+  {
+    "swedish": "lämplig",
+    "english": "suitable, appropriate",
+    "example_sv": "Den här klänningen är lämplig för festen.",
+    "example_en": "This dress is suitable for the party.",
+    "scenario": "Clothing",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1239
+  },
+  {
+    "swedish": "ting",
+    "english": "thing",
+    "example_sv": "Det finns många vackra ting i det här rummet.",
+    "example_en": "There are many beautiful things in this room.",
+    "scenario": "At Home",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1240
+  },
+  {
+    "swedish": "minne",
+    "english": "memory",
+    "example_sv": "Jag har ett fint minne av vår resa.",
+    "example_en": "I have a fond memory of our trip.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1241
+  },
+  {
+    "swedish": "strategi",
+    "english": "strategy",
+    "example_sv": "Vi behöver en bra strategi för marknadsföringen.",
+    "example_en": "We need a good strategy for the marketing.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1242
+  },
+  {
+    "swedish": "dyka",
+    "english": "dive",
+    "example_sv": "Vi älskar att dyka i det klara vattnet.",
+    "example_en": "We love to dive in the clear water.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1243
+  },
+  {
+    "swedish": "orka",
+    "english": "have the energy",
+    "example_sv": "Jag orkar inte gå ut ikväll, jag är trött.",
+    "example_en": "I don't have the energy to go out tonight, I'm tired.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1244
+  },
+  {
+    "swedish": "kontrollera",
+    "english": "control, check",
+    "example_sv": "Jag måste kontrollera att jag låste dörren.",
+    "example_en": "I need to check that I locked the door.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1245
+  },
+  {
+    "swedish": "planera",
+    "english": "plan",
+    "example_sv": "Vi måste planera vår semester i god tid.",
+    "example_en": "We need to plan our vacation well in advance.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1246
+  },
+  {
+    "swedish": "lova",
+    "english": "promise",
+    "example_sv": "Jag lovar att jag kommer i tid imorgon.",
+    "example_en": "I promise I will be on time tomorrow.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1248
+  },
+  {
+    "swedish": "citera",
+    "english": "quote",
+    "example_sv": "Jag vill citera ett utdrag ur boken.",
+    "example_en": "I want to quote an excerpt from the book.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1249
+  },
+  {
+    "swedish": "finansiell",
+    "english": "financial",
+    "example_sv": "Vi behöver en finansiell plan för framtiden.",
+    "example_en": "We need a financial plan for the future.",
+    "scenario": "Banking",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1250
+  },
+  {
+    "swedish": "ständigt",
+    "english": "constantly, always",
+    "example_sv": "Han klagar ständigt på dåligt väder.",
+    "example_en": "He is constantly complaining about bad weather.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 1251
+  },
+  {
+    "swedish": "spår",
+    "english": "track, trace",
+    "example_sv": "Vi hittade spår av djur i snön.",
+    "example_en": "We found animal tracks in the snow.",
+    "scenario": "Animals",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1252
+  },
+  {
+    "swedish": "kall",
+    "english": "cold",
+    "example_sv": "Det är kallt ute idag, ta på dig jackan.",
+    "example_en": "It's cold outside today, put on your jacket.",
+    "scenario": "Weather",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1253
+  },
+  {
+    "swedish": "vuxen",
+    "english": "adult",
+    "example_sv": "Som vuxen måste man ta ansvar för sina handlingar.",
+    "example_en": "As an adult, you have to take responsibility for your actions.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1254
+  },
+  {
+    "swedish": "allians",
+    "english": "alliance",
+    "example_sv": "De två partierna bildade en politisk allians.",
+    "example_en": "The two parties formed a political alliance.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1255
+  },
+  {
+    "swedish": "faktor",
+    "english": "factor",
+    "example_sv": "Stress är en stor faktor för dålig hälsa.",
+    "example_en": "Stress is a major factor in poor health.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1256
+  },
+  {
+    "swedish": "kvalitet",
+    "english": "quality",
+    "example_sv": "Vi vill ha hög kvalitet på våra produkter.",
+    "example_en": "We want high quality in our products.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "utländsk",
+    "english": "foreign",
+    "example_sv": "Jag älskar att prova utländsk mat på restauranger.",
+    "example_en": "I love trying foreign food in restaurants.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1259
+  },
+  {
+    "swedish": "svag",
+    "english": "weak",
+    "example_sv": "Jag känner mig svag efter sjukdomen.",
+    "example_en": "I feel weak after the illness.",
+    "scenario": "At the Doctor",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1260
+  },
+  {
+    "swedish": "sköta",
+    "english": "manage, handle",
+    "example_sv": "Jag måste sköta mitt jobb på ett bra sätt.",
+    "example_en": "I have to manage my job in a good way.",
+    "scenario": "At the Office",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1261
+  },
+  {
+    "swedish": "vägra",
+    "english": "refuse",
+    "example_sv": "Han vägrade att svara på mina frågor.",
+    "example_en": "He refused to answer my questions.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1262
+  },
+  {
+    "swedish": "rike",
+    "english": "kingdom, realm",
+    "example_sv": "Sverige är ett vackert rike att besöka.",
+    "example_en": "Sweden is a beautiful kingdom to visit.",
+    "scenario": "Holidays",
+    "difficulty": "A1",
+    "grammar_hint": "ett-word",
+    "rank": 1263
+  },
+  {
+    "swedish": "framgå",
+    "english": "appear, emerge",
+    "example_sv": "Det framgår tydligt att han är oskyldig.",
+    "example_en": "It clearly appears that he is innocent.",
+    "scenario": "Government & ID",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1264
+  },
+  {
+    "swedish": "judisk",
+    "english": "Jewish",
+    "example_sv": "Min granne är judisk och firar chanukka.",
+    "example_en": "My neighbor is Jewish and celebrates Hanukkah.",
+    "scenario": "Traditions",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1265
+  },
+  {
+    "swedish": "studera",
+    "english": "study",
+    "example_sv": "Jag vill studera medicin på universitetet.",
+    "example_en": "I want to study medicine at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1266
+  },
+  {
+    "swedish": "farlig",
+    "english": "dangerous",
+    "example_sv": "Det är farligt att köra för fort här.",
+    "example_en": "It is dangerous to drive too fast here.",
+    "scenario": "Driving",
+    "difficulty": "A1",
+    "grammar_hint": "adjective",
+    "rank": 1267
+  },
+  {
+    "swedish": "framgång",
+    "english": "success",
+    "example_sv": "Hon har haft stor framgång med sitt företag.",
+    "example_en": "She has had great success with her company.",
+    "scenario": "Job Interview",
+    "difficulty": "A1",
+    "grammar_hint": "en-word",
+    "rank": 1268
+  },
+  {
+    "swedish": "tolka",
+    "english": "interpret",
+    "example_sv": "Det är svårt att tolka hans reaktion.",
+    "example_en": "It is difficult to interpret his reaction.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A1",
+    "grammar_hint": "verb",
+    "rank": 1269
+  },
+  {
+    "swedish": "iväg",
+    "english": "away",
+    "example_sv": "Nu måste jag gå iväg till jobbet.",
+    "example_en": "Now I have to go away to work.",
+    "scenario": "Daily Routines",
+    "difficulty": "A1",
+    "grammar_hint": "adverb",
+    "rank": 1271
+  }
+]

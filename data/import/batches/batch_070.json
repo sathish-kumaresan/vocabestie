@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "värma",
+    "english": "to warm",
+    "example_sv": "Jag måste värma maten innan barnen kommer hem.",
+    "example_en": "I have to warm up the food before the kids come home.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3689
+  },
+  {
+    "swedish": "kommunistparti",
+    "english": "Communist Party",
+    "example_sv": "Kommunistpartiet har inte så många väljare i Sverige.",
+    "example_en": "The Communist Party doesn't have many voters in Sweden.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3690
+  },
+  {
+    "swedish": "marginal",
+    "english": "margin",
+    "example_sv": "Företaget hade en liten marginal på den affären.",
+    "example_en": "The company had a small margin on that deal.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3691
+  },
+  {
+    "swedish": "gravid",
+    "english": "pregnant",
+    "example_sv": "Min syster är gravid och väntar barn i maj.",
+    "example_en": "My sister is pregnant and expecting a baby in May.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3693
+  },
+  {
+    "swedish": "kniv",
+    "english": "knife",
+    "example_sv": "Kan du ge mig en kniv för att skära brödet?",
+    "example_en": "Can you give me a knife to cut the bread?",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3694
+  },
+  {
+    "swedish": "ramla",
+    "english": "to fall",
+    "example_sv": "Akta dig så du inte ramlar på den hala isen.",
+    "example_en": "Be careful so you don't fall on the slippery ice.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3695
+  },
+  {
+    "swedish": "villa",
+    "english": "house, villa",
+    "example_sv": "De bor i en stor villa utanför stan.",
+    "example_en": "They live in a big house outside the city.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3696
+  },
+  {
+    "swedish": "dryg",
+    "english": "arrogant",
+    "example_sv": "Han är lite dryg ibland, men oftast ganska snäll.",
+    "example_en": "He is a bit arrogant sometimes, but mostly quite kind.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3697
+  },
+  {
+    "swedish": "överdriven",
+    "english": "exaggerated",
+    "example_sv": "Jag tycker hans reaktion var lite överdriven.",
+    "example_en": "I think his reaction was a bit exaggerated.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3699
+  },
+  {
+    "swedish": "back",
+    "english": "hill, slope",
+    "example_sv": "Det är en brant back upp till huset.",
+    "example_en": "It's a steep hill up to the house.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3700
+  },
+  {
+    "swedish": "kusin",
+    "english": "cousin",
+    "example_sv": "Jag träffade min kusin på julafton förra året.",
+    "example_en": "I met my cousin on Christmas Eve last year.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3701
+  },
+  {
+    "swedish": "knapp",
+    "english": "button",
+    "example_sv": "Den här skjortan saknar en knapp på manschetten.",
+    "example_en": "This shirt is missing a button on the cuff.",
+    "scenario": "Clothing",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3702
+  },
+  {
+    "swedish": "skynda",
+    "english": "hurry",
+    "example_sv": "Vi måste skynda oss om vi ska hinna med tåget.",
+    "example_en": "We have to hurry if we're going to catch the train.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3703
+  },
+  {
+    "swedish": "privatliv",
+    "english": "private life",
+    "example_sv": "Artister har svårt att hålla sitt privatliv privat.",
+    "example_en": "Artists find it difficult to keep their private lives private.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3704
+  },
+  {
+    "swedish": "toalett",
+    "english": "toilet",
+    "example_sv": "Ursäkta, var är toaletten någonstans här?",
+    "example_en": "Excuse me, where is the toilet here?",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3705
+  },
+  {
+    "swedish": "bada",
+    "english": "to bathe, swim",
+    "example_sv": "Vi ska bada i havet imorgon om vädret tillåter.",
+    "example_en": "We're going to swim in the sea tomorrow if the weather permits.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3706
+  },
+  {
+    "swedish": "lustig",
+    "english": "funny",
+    "example_sv": "Det var en lustig film, jag skrattade mycket.",
+    "example_en": "It was a funny movie, I laughed a lot.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3707
+  },
+  {
+    "swedish": "provins",
+    "english": "province",
+    "example_sv": "Han kommer från en liten provins i södra Frankrike.",
+    "example_en": "He comes from a small province in southern France.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3708
+  },
+  {
+    "swedish": "orättvis",
+    "english": "unfair",
+    "example_sv": "Jag tycker det är orättvist att han får mer betalt.",
+    "example_en": "I think it's unfair that he gets paid more.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3709
+  },
+  {
+    "swedish": "sexualitet",
+    "english": "sexuality",
+    "example_sv": "Hon pratade öppet om sin sexualitet i intervjun.",
+    "example_en": "She spoke openly about her sexuality in the interview.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3710
+  },
+  {
+    "swedish": "upptäckt",
+    "english": "discovery",
+    "example_sv": "Denna vetenskapliga upptäckt kommer att förändra världen.",
+    "example_en": "This scientific discovery will change the world.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3711
+  },
+  {
+    "swedish": "kreativitet",
+    "english": "creativity",
+    "example_sv": "Barns kreativitet bör uppmuntras från en tidig ålder.",
+    "example_en": "Children's creativity should be encouraged from an early age.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3712
+  },
+  {
+    "swedish": "lagråd",
+    "english": "Council on Legislation",
+    "example_sv": "Förslaget skickades till Lagrådet för granskning innan beslutet.",
+    "example_en": "The proposal was sent to the Council on Legislation for review before the decision.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3713
+  },
+  {
+    "swedish": "malm",
+    "english": "ore",
+    "example_sv": "Sverige har stora fyndigheter av järnmalm i norr.",
+    "example_en": "Sweden has large deposits of iron ore in the north.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3714
+  },
+  {
+    "swedish": "referera",
+    "english": "to refer",
+    "example_sv": "I uppsatsen måste du referera till dina källor korrekt.",
+    "example_en": "In the essay, you must refer to your sources correctly.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3715
+  },
+  {
+    "swedish": "teologi",
+    "english": "theology",
+    "example_sv": "Han studerar teologi vid Uppsala universitet.",
+    "example_en": "He studies theology at Uppsala University.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3716
+  },
+  {
+    "swedish": "arkitektur",
+    "english": "architecture",
+    "example_sv": "Jag är intresserad av arkitektur och stadsplanering.",
+    "example_en": "I am interested in architecture and urban planning.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3717
+  },
+  {
+    "swedish": "förvalta",
+    "english": "to manage",
+    "example_sv": "Banken hjälper oss att förvalta våra pengar.",
+    "example_en": "The bank helps us manage our money.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3718
+  },
+  {
+    "swedish": "rättsväsende",
+    "english": "judiciary",
+    "example_sv": "Rättsväsendet ska vara opartiskt och rättvist.",
+    "example_en": "The judiciary should be impartial and fair.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3719
+  },
+  {
+    "swedish": "lord",
+    "english": "lord",
+    "example_sv": "Han ärvde titeln som Lord efter sin far.",
+    "example_en": "He inherited the title of Lord after his father.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3720
+  },
+  {
+    "swedish": "poet",
+    "english": "poet",
+    "example_sv": "Hon är en känd poet och skriver vackra dikter.",
+    "example_en": "She is a famous poet and writes beautiful poems.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3721
+  },
+  {
+    "swedish": "stuga",
+    "english": "cabin, cottage",
+    "example_sv": "Vi åker till vår stuga i skogen i helgen.",
+    "example_en": "We're going to our cabin in the woods this weekend.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3722
+  },
+  {
+    "swedish": "regna",
+    "english": "to rain",
+    "example_sv": "Det kommer att regna hela dagen imorgon.",
+    "example_en": "It will rain all day tomorrow.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3723
+  },
+  {
+    "swedish": "spekulera",
+    "english": "to speculate",
+    "example_sv": "Man bör inte spekulera i aktiemarknaden om man inte har kunskap.",
+    "example_en": "One should not speculate in the stock market if one does not have knowledge.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3724
+  },
+  {
+    "swedish": "bonus",
+    "english": "bonus",
+    "example_sv": "Jag fick en bra bonus på jobbet i år.",
+    "example_en": "I got a good bonus at work this year.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3725
+  },
+  {
+    "swedish": "längtan",
+    "english": "longing",
+    "example_sv": "Jag har en stark längtan efter sommaren och värmen.",
+    "example_en": "I have a strong longing for summer and warmth.",
+    "scenario": "Seasons",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3726
+  },
+  {
+    "swedish": "rymd",
+    "english": "space",
+    "example_sv": "Intresset för rymden har ökat de senaste åren.",
+    "example_en": "Interest in space has increased in recent years.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3727
+  },
+  {
+    "swedish": "fruktansvärt",
+    "english": "terribly",
+    "example_sv": "Det var fruktansvärt kallt ute idag, minus tjugo grader.",
+    "example_en": "It was terribly cold outside today, minus twenty degrees.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3728
+  },
+  {
+    "swedish": "bad",
+    "english": "bath",
+    "example_sv": "Jag tog ett varmt bad efter den långa resan.",
+    "example_en": "I took a warm bath after the long journey.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3729
+  },
+  {
+    "swedish": "förhör",
+    "english": "interrogation",
+    "example_sv": "Polisen kallade honom till förhör angående brottet.",
+    "example_en": "The police called him in for questioning regarding the crime.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3730
+  },
+  {
+    "swedish": "likvärdig",
+    "english": "equivalent",
+    "example_sv": "Alla elever ska ha en likvärdig utbildning.",
+    "example_en": "All students should have an equivalent education.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3731
+  },
+  {
+    "swedish": "upplösa",
+    "english": "dissolve",
+    "example_sv": "Man kan upplösa socker i varmt vatten.",
+    "example_en": "You can dissolve sugar in warm water.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3732
+  },
+  {
+    "swedish": "blockera",
+    "english": "to block",
+    "example_sv": "Jag var tvungen att blockera hans nummer på min telefon.",
+    "example_en": "I had to block his number on my phone.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3733
+  },
+  {
+    "swedish": "fröken",
+    "english": "miss",
+    "example_sv": "Förr kallade man lärarinnan för fröken i skolan.",
+    "example_en": "In the past, you would call the female teacher miss at school.",
+    "scenario": "Traditions",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3734
+  },
+  {
+    "swedish": "hysa",
+    "english": "harbor, hold",
+    "example_sv": "Jag hyser inga tvivel om hans ärlighet.",
+    "example_en": "I harbor no doubts about his honesty.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3735
+  },
+  {
+    "swedish": "klipp",
+    "english": "cut, clip",
+    "example_sv": "Jag hittade ett roligt klipp på Youtube igår.",
+    "example_en": "I found a funny clip on Youtube yesterday.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3736
+  },
+  {
+    "swedish": "äganderätt",
+    "english": "ownership",
+    "example_sv": "De kämpade för äganderätten till marken i domstolen.",
+    "example_en": "They fought for the ownership of the land in court.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3737
+  },
+  {
+    "swedish": "akademi",
+    "english": "academy",
+    "example_sv": "Han är medlem i den svenska akademien.",
+    "example_en": "He is a member of the Swedish Academy.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3738
+  },
+  {
+    "swedish": "benämna",
+    "english": "to name, call",
+    "example_sv": "Man kan benämna detta fenomen som en trend.",
+    "example_en": "You can name this phenomenon a trend.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3739
+  },
+  {
+    "swedish": "indisk",
+    "english": "Indian",
+    "example_sv": "Vi åt indisk mat på restaurangen igår.",
+    "example_en": "We ate Indian food at the restaurant yesterday.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3740
+  }
+]

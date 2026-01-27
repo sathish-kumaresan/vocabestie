@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "periodiskt",
+    "english": "periodically",
+    "example_sv": "Läkaren rekommenderade periodiskt blodtrycksmätning för att övervaka hälsan.",
+    "example_en": "The doctor recommended periodic blood pressure measurements to monitor health.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adverb",
+    "rank": 8293
+  },
+  {
+    "swedish": "trofé",
+    "english": "trophy",
+    "example_sv": "Efter vinsten i turneringen visade han stolt upp sin trofé.",
+    "example_en": "After winning the tournament, he proudly showed off his trophy.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8294
+  },
+  {
+    "swedish": "fjäder",
+    "english": "feather",
+    "example_sv": "En vit fjäder flög ned från himlen och landade mjukt.",
+    "example_en": "A white feather flew down from the sky and landed softly.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8296
+  },
+  {
+    "swedish": "himmelsblå",
+    "english": "sky blue",
+    "example_sv": "Hon målade väggarna i sovrummet en ljus och himmelsblå färg.",
+    "example_en": "She painted the bedroom walls a light and sky blue color.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8297
+  },
+  {
+    "swedish": "trådbuss",
+    "english": "trolleybus",
+    "example_sv": "Jag tar trådbussen till jobbet eftersom den är miljövänlig.",
+    "example_en": "I take the trolleybus to work because it is environmentally friendly.",
+    "scenario": "Public Transport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8298
+  },
+  {
+    "swedish": "födelsemärke",
+    "english": "birthmark",
+    "example_sv": "Hon hade ett litet, runt födelsemärke på sin vänstra arm.",
+    "example_en": "She had a small, round birthmark on her left arm.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8300
+  },
+  {
+    "swedish": "hövlighet",
+    "english": "courtesy",
+    "example_sv": "Hans hövlighet gjorde ett starkt intryck på alla närvarande.",
+    "example_en": "His courtesy made a strong impression on everyone present.",
+    "scenario": "Small Talk",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8301
+  },
+  {
+    "swedish": "konvergens",
+    "english": "convergence",
+    "example_sv": "Det fanns en tydlig konvergens av åsikter bland deltagarna.",
+    "example_en": "There was a clear convergence of opinions among the participants.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8302
+  },
+  {
+    "swedish": "sorgsenhet",
+    "english": "sadness",
+    "example_sv": "En djup sorgsenhet fyllde rummet efter det tragiska beskedet.",
+    "example_en": "A deep sadness filled the room after the tragic news.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8303
+  },
+  {
+    "swedish": "brorson",
+    "english": "nephew",
+    "example_sv": "Jag älskar att spendera tid med min brorson på helgerna.",
+    "example_en": "I love spending time with my nephew on weekends.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8304
+  },
+  {
+    "swedish": "ringklocka",
+    "english": "doorbell",
+    "example_sv": "Jag hörde ringklockan och gick för att öppna dörren.",
+    "example_en": "I heard the doorbell and went to open the door.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8305
+  },
+  {
+    "swedish": "vardaglighet",
+    "english": "ordinariness",
+    "example_sv": "Hon sökte tröst i vardagligheten efter den dramatiska händelsen.",
+    "example_en": "She sought comfort in the ordinariness after the dramatic event.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8306
+  },
+  {
+    "swedish": "berömdhet",
+    "english": "fame",
+    "example_sv": "Hans berömdhet ökade snabbt efter den succéfyllda filmen.",
+    "example_en": "His fame increased rapidly after the successful film.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8307
+  },
+  {
+    "swedish": "förutbestämma",
+    "english": "predetermine",
+    "example_sv": "Man kan inte förutbestämma resultatet av ett val helt säkert.",
+    "example_en": "You cannot predetermine the outcome of an election with complete certainty.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8308
+  },
+  {
+    "swedish": "folie",
+    "english": "foil",
+    "example_sv": "Vi använde aluminiumfolie för att täcka maten på grillen.",
+    "example_en": "We used aluminum foil to cover the food on the grill.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8309
+  },
+  {
+    "swedish": "kejsardöme",
+    "english": "empire",
+    "example_sv": "Det romerska kejsardöme sträckte sig över stora delar av Europa.",
+    "example_en": "The Roman Empire stretched across large parts of Europe.",
+    "scenario": "Traditions",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8310
+  },
+  {
+    "swedish": "käke",
+    "english": "jaw",
+    "example_sv": "Han hade ont i käken efter tandläkarbesöket imorse.",
+    "example_en": "He had pain in his jaw after the dentist appointment this morning.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8311
+  },
+  {
+    "swedish": "rymling",
+    "english": "escapee",
+    "example_sv": "Polisen sökte efter rymlingen som flytt från fängelset igår.",
+    "example_en": "The police were searching for the escapee who fled from the prison yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8312
+  },
+  {
+    "swedish": "serum",
+    "english": "serum",
+    "example_sv": "Sjuksköterskan injicerade serumet för att bekämpa infektionen snabbt.",
+    "example_en": "The nurse injected the serum to combat the infection quickly.",
+    "scenario": "Pharmacy",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8313
+  },
+  {
+    "swedish": "elektriker",
+    "english": "electrician",
+    "example_sv": "Vi behövde en elektriker för att fixa det trasiga eluttaget.",
+    "example_en": "We needed an electrician to fix the broken power outlet.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8315
+  },
+  {
+    "swedish": "syrsa",
+    "english": "cricket",
+    "example_sv": "På sommaren kan man höra syrsan spela sin speciella sång.",
+    "example_en": "In the summer, you can hear the cricket playing its special song.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8316
+  },
+  {
+    "swedish": "äggvita",
+    "english": "egg white",
+    "example_sv": "Hon vispade äggvita till ett hårt skum för marängen.",
+    "example_en": "She whipped egg whites into stiff peaks for the meringue.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8318
+  },
+  {
+    "swedish": "hypotekslån",
+    "english": "mortgage",
+    "example_sv": "De tog ett hypotekslån för att kunna köpa sitt första hus.",
+    "example_en": "They took out a mortgage to be able to buy their first house.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8319
+  },
+  {
+    "swedish": "invalid",
+    "english": "invalid",
+    "example_sv": "Efter olyckan blev han invalid och behövde hjälpmedel för rörelse.",
+    "example_en": "After the accident, he became disabled and needed mobility aids.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8320
+  },
+  {
+    "swedish": "månljus",
+    "english": "moonlight",
+    "example_sv": "Månljuset reflekterades i sjön och skapade en magisk stämning.",
+    "example_en": "The moonlight was reflected in the lake, creating a magical atmosphere.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8321
+  },
+  {
+    "swedish": "transplantera",
+    "english": "transplant",
+    "example_sv": "Läkarna kunde transplantera njuren och rädda patientens liv.",
+    "example_en": "The doctors were able to transplant the kidney and save the patient's life.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8322
+  },
+  {
+    "swedish": "tursam",
+    "english": "lucky",
+    "example_sv": "Han var tursam som vann lotteriet med så små odds.",
+    "example_en": "He was lucky to win the lottery with such small odds.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8323
+  },
+  {
+    "swedish": "kvalificering",
+    "english": "qualification",
+    "example_sv": "Hennes akademiska kvalificering var imponerande för den tjänsten.",
+    "example_en": "Her academic qualification was impressive for that position.",
+    "scenario": "Job Interview",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8324
+  },
+  {
+    "swedish": "skolväska",
+    "english": "schoolbag",
+    "example_sv": "Hon packade sin skolväska med böcker och pennor inför morgondagen.",
+    "example_en": "She packed her schoolbag with books and pens for tomorrow.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8325
+  },
+  {
+    "swedish": "utprovning",
+    "english": "testing",
+    "example_sv": "Utprovningen av den nya medicinen tog flera år att slutföra.",
+    "example_en": "Testing of the new medicine took several years to complete.",
+    "scenario": "Pharmacy",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8326
+  },
+  {
+    "swedish": "skollov",
+    "english": "school holiday",
+    "example_sv": "Barnen ser fram emot skollov och lediga dagar från skolan.",
+    "example_en": "The children are looking forward to the school holidays and days off from school.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8327
+  },
+  {
+    "swedish": "likkista",
+    "english": "coffin",
+    "example_sv": "Likkistan sänktes ner i graven under en stillsam ceremoni.",
+    "example_en": "The coffin was lowered into the grave during a quiet ceremony.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8328
+  },
+  {
+    "swedish": "packe",
+    "english": "package",
+    "example_sv": "Jag fick en stor packe levererad till dörren igår eftermiddag.",
+    "example_en": "I received a large package delivered to the door yesterday afternoon.",
+    "scenario": "Post Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8329
+  },
+  {
+    "swedish": "svärmor",
+    "english": "mother-in-law",
+    "example_sv": "Jag har en bra relation med min svärmor och hennes familj.",
+    "example_en": "I have a good relationship with my mother-in-law and her family.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8330
+  },
+  {
+    "swedish": "bäcken",
+    "english": "pelvis",
+    "example_sv": "Hon bröt bäckenet i en allvarlig bilolycka förra året.",
+    "example_en": "She broke her pelvis in a serious car accident last year.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8331
+  },
+  {
+    "swedish": "förbrukare",
+    "english": "consumer",
+    "example_sv": "Som förbrukare har du rätt att reklamera en defekt vara.",
+    "example_en": "As a consumer, you have the right to complain about a defective product.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8332
+  },
+  {
+    "swedish": "modus",
+    "english": "mode",
+    "example_sv": "Forskarna undersökte ett nytt modus för energiproduktion.",
+    "example_en": "The researchers investigated a new mode for energy production.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8334
+  },
+  {
+    "swedish": "studenthem",
+    "english": "dormitory",
+    "example_sv": "Hon bodde på studenthemmet under sina första år vid universitetet.",
+    "example_en": "She lived in the dormitory during her first years at the university.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8335
+  },
+  {
+    "swedish": "mekaniker",
+    "english": "mechanic",
+    "example_sv": "Jag lämnade in bilen hos en mekaniker för en service.",
+    "example_en": "I took the car to a mechanic for a service.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8336
+  },
+  {
+    "swedish": "översida",
+    "english": "top side",
+    "example_sv": "Vattnet rann av översidan av berget efter det kraftiga regnet.",
+    "example_en": "The water ran off the top side of the mountain after the heavy rain.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8337
+  },
+  {
+    "swedish": "fullbordande",
+    "english": "completion",
+    "example_sv": "Fullbordandet av projektet krävde hårt arbete från hela teamet.",
+    "example_en": "The completion of the project required hard work from the entire team.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8338
+  },
+  {
+    "swedish": "undervåning",
+    "english": "ground floor",
+    "example_sv": "Lägenheten ligger på undervåningen, lättillgänglig för alla.",
+    "example_en": "The apartment is on the ground floor, easily accessible to everyone.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8339
+  },
+  {
+    "swedish": "aritmetisk",
+    "english": "arithmetic",
+    "example_sv": "Barnen lärde sig grundläggande aritmetisk i den första klassen.",
+    "example_en": "The children learned basic arithmetic in the first grade.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8340
+  },
+  {
+    "swedish": "frisersalong",
+    "english": "hair salon",
+    "example_sv": "Hon bokade en tid på frisersalongen för att klippa håret.",
+    "example_en": "She booked an appointment at the hair salon to get her hair cut.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8342
+  },
+  {
+    "swedish": "fönsterbräda",
+    "english": "windowsill",
+    "example_sv": "Hon placerade blomkrukorna på fönsterbrädan för att få ljus.",
+    "example_en": "She placed the flower pots on the windowsill to get light.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8343
+  },
+  {
+    "swedish": "cirkelformad",
+    "english": "circular",
+    "example_sv": "De satt runt ett cirkelformat bord under mötet imorse.",
+    "example_en": "They sat around a circular table during the meeting this morning.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8344
+  },
+  {
+    "swedish": "oföränderligt",
+    "english": "invariably",
+    "example_sv": "Han var oföränderligt sen till möten, trots påminnelser.",
+    "example_en": "He was invariably late for meetings, despite reminders.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adverb",
+    "rank": 8346
+  },
+  {
+    "swedish": "regelvidrig",
+    "english": "irregular",
+    "example_sv": "Deras affärsmetoder var regelvidriga och orsakade många problem.",
+    "example_en": "Their business practices were irregular and caused many problems.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8347
+  },
+  {
+    "swedish": "skrynkla",
+    "english": "wrinkle",
+    "example_sv": "Han försökte att inte skrynkla papperet när han vecklade ut det.",
+    "example_en": "He tried not to wrinkle the paper when he unfolded it.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8348
+  },
+  {
+    "swedish": "otvivelaktig",
+    "english": "indisputable",
+    "example_sv": "Hans talang var otvivelaktig, alla kunde se hur begåvad han var.",
+    "example_en": "His talent was indisputable, everyone could see how gifted he was.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8349
+  }
+]

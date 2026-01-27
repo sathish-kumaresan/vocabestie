@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "specialitet",
+    "english": "specialty, speciality",
+    "example_sv": "Den lokala restaurangen har fisksoppa som sin stora specialitet.",
+    "example_en": "The local restaurant has fish soup as their main specialty.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6580
+  },
+  {
+    "swedish": "stråla",
+    "english": "shine, radiate",
+    "example_sv": "Hon strålade av lycka när hon fick se presenten.",
+    "example_en": "She radiated happiness when she saw the present.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6581
+  },
+  {
+    "swedish": "domkyrka",
+    "english": "cathedral",
+    "example_sv": "Uppsala domkyrka är en imponerande byggnad med lång historia.",
+    "example_en": "Uppsala Cathedral is an impressive building with a long history.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6582
+  },
+  {
+    "swedish": "slapp",
+    "english": "relaxed, lazy",
+    "example_sv": "Efter en lång dag kände jag mig väldigt slapp.",
+    "example_en": "After a long day, I felt very relaxed.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6583
+  },
+  {
+    "swedish": "utvinna",
+    "english": "extract, obtain",
+    "example_sv": "Man kan utvinna olja från alger, vilket är lovande.",
+    "example_en": "One can extract oil from algae, which is promising.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6584
+  },
+  {
+    "swedish": "upphöjd",
+    "english": "elevated, sublime",
+    "example_sv": "Känslan av att vara på toppen av berget var upphöjd.",
+    "example_en": "The feeling of being on top of the mountain was sublime.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6585
+  },
+  {
+    "swedish": "vykort",
+    "english": "postcard",
+    "example_sv": "Jag skickade ett vykort från semestern till mina föräldrar.",
+    "example_en": "I sent a postcard from the vacation to my parents.",
+    "scenario": "Post Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6586
+  },
+  {
+    "swedish": "assistans",
+    "english": "assistance",
+    "example_sv": "Behöver du assistans med att bära väskorna?",
+    "example_en": "Do you need assistance with carrying the bags?",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6587
+  },
+  {
+    "swedish": "begåvning",
+    "english": "talent, gift",
+    "example_sv": "Hon har en enorm begåvning för musik och dans.",
+    "example_en": "She has an enormous talent for music and dance.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6588
+  },
+  {
+    "swedish": "måleri",
+    "english": "painting",
+    "example_sv": "Konstnären är känd för sitt abstrakta måleri.",
+    "example_en": "The artist is known for their abstract painting.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6589
+  },
+  {
+    "swedish": "påhitt",
+    "english": "invention, fabrication",
+    "example_sv": "Det är ett rent påhitt, det har aldrig hänt.",
+    "example_en": "It's a complete fabrication, it never happened.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6590
+  },
+  {
+    "swedish": "kompakt",
+    "english": "compact",
+    "example_sv": "Den nya bilen har en mycket kompakt design.",
+    "example_en": "The new car has a very compact design.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6591
+  },
+  {
+    "swedish": "samtycka",
+    "english": "consent, agree",
+    "example_sv": "För att delta måste du samtycka till villkoren.",
+    "example_en": "To participate, you must consent to the terms.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6592
+  },
+  {
+    "swedish": "hälsovård",
+    "english": "healthcare",
+    "example_sv": "Sverige har en bra hälsovård för alla medborgare.",
+    "example_en": "Sweden has good healthcare for all citizens.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6593
+  },
+  {
+    "swedish": "lyft",
+    "english": "lift, boost",
+    "example_sv": "Investeringen gav företaget ett stort ekonomiskt lyft.",
+    "example_en": "The investment gave the company a big economic boost.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6594
+  },
+  {
+    "swedish": "asfalt",
+    "english": "asphalt",
+    "example_sv": "Den nya vägen har fått ett lager med ny asfalt.",
+    "example_en": "The new road has received a layer of new asphalt.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6595
+  },
+  {
+    "swedish": "underkänna",
+    "english": "fail, reject",
+    "example_sv": "Professorn var tvungen att underkänna flera studenter på tentan.",
+    "example_en": "The professor had to fail several students on the exam.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6596
+  },
+  {
+    "swedish": "uppoffring",
+    "english": "sacrifice",
+    "example_sv": "Hennes uppoffring för familjen var enormt stor.",
+    "example_en": "Her sacrifice for the family was incredibly great.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6597
+  },
+  {
+    "swedish": "utrusta",
+    "english": "equip",
+    "example_sv": "Vi måste utrusta oss med varma kläder inför vandringen.",
+    "example_en": "We need to equip ourselves with warm clothes for the hike.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6598
+  },
+  {
+    "swedish": "förflyta",
+    "english": "pass, elapse",
+    "example_sv": "Tiden förflyter snabbt när man har roligt.",
+    "example_en": "Time passes quickly when you're having fun.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6599
+  },
+  {
+    "swedish": "handledning",
+    "english": "guidance, supervision",
+    "example_sv": "Jag fick bra handledning från min mentor på jobbet.",
+    "example_en": "I received good guidance from my mentor at work.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6600
+  },
+  {
+    "swedish": "oenighet",
+    "english": "disagreement, discord",
+    "example_sv": "Det rådde oenighet om vilken färg rummet skulle målas i.",
+    "example_en": "There was disagreement about what color the room should be painted in.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6601
+  },
+  {
+    "swedish": "slogan",
+    "english": "slogan",
+    "example_sv": "Företagets nya slogan är kort och lätt att komma ihåg.",
+    "example_en": "The company's new slogan is short and easy to remember.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6602
+  },
+  {
+    "swedish": "triumf",
+    "english": "triumph",
+    "example_sv": "Laget firade sin stora triumf efter vinsten.",
+    "example_en": "The team celebrated their great triumph after the win.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6603
+  },
+  {
+    "swedish": "färdigställa",
+    "english": "complete, finish",
+    "example_sv": "Vi måste färdigställa projektet innan fredag.",
+    "example_en": "We need to complete the project before Friday.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6604
+  },
+  {
+    "swedish": "skötsel",
+    "english": "maintenance, care",
+    "example_sv": "Denna trädgård kräver mycket skötsel och uppmärksamhet.",
+    "example_en": "This garden requires a lot of maintenance and attention.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6605
+  },
+  {
+    "swedish": "portal",
+    "english": "portal",
+    "example_sv": "Universitetet har en studentportal för alla sina kurser.",
+    "example_en": "The university has a student portal for all its courses.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6606
+  },
+  {
+    "swedish": "överdrivet",
+    "english": "exaggeratedly, excessively",
+    "example_sv": "Hon var överdrivet entusiastisk över den nya filmen.",
+    "example_en": "She was excessively enthusiastic about the new movie.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adverb",
+    "rank": 6607
+  },
+  {
+    "swedish": "applådera",
+    "english": "applaud",
+    "example_sv": "Publiken började applådera efter föreställningen.",
+    "example_en": "The audience began to applaud after the performance.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6608
+  },
+  {
+    "swedish": "husvagn",
+    "english": "caravan, trailer",
+    "example_sv": "Vi planerar att åka på semester med husvagnen i sommar.",
+    "example_en": "We are planning to go on vacation with the caravan this summer.",
+    "scenario": "Holidays",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6609
+  },
+  {
+    "swedish": "vodka",
+    "english": "vodka",
+    "example_sv": "Kan jag få en vodka och tonic, tack?",
+    "example_en": "Can I have a vodka and tonic, please?",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6610
+  },
+  {
+    "swedish": "lansering",
+    "english": "launch",
+    "example_sv": "Lanseringen av den nya produkten gick väldigt bra.",
+    "example_en": "The launch of the new product went very well.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6611
+  },
+  {
+    "swedish": "handduk",
+    "english": "towel",
+    "example_sv": "Glöm inte att ta med en handduk till stranden.",
+    "example_en": "Don't forget to bring a towel to the beach.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6612
+  },
+  {
+    "swedish": "honung",
+    "english": "honey",
+    "example_sv": "Jag brukar ha honung i mitt te när jag är förkyld.",
+    "example_en": "I usually have honey in my tea when I have a cold.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6613
+  },
+  {
+    "swedish": "kanin",
+    "english": "rabbit",
+    "example_sv": "Barnen älskar att mata kaninen i trädgården.",
+    "example_en": "The children love to feed the rabbit in the garden.",
+    "scenario": "Animals",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6614
+  },
+  {
+    "swedish": "målare",
+    "english": "painter",
+    "example_sv": "Vi anlitade en målare för att måla om hela huset.",
+    "example_en": "We hired a painter to repaint the whole house.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6615
+  },
+  {
+    "swedish": "plågsam",
+    "english": "painful, agonizing",
+    "example_sv": "Sjukdomen kan vara mycket plågsam för patienterna.",
+    "example_en": "The illness can be very painful for the patients.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6616
+  },
+  {
+    "swedish": "trollkarl",
+    "english": "magician",
+    "example_sv": "Trollkarlen imponerade på publiken med sina trick.",
+    "example_en": "The magician impressed the audience with his tricks.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6617
+  },
+  {
+    "swedish": "avancera",
+    "english": "advance, progress",
+    "example_sv": "Hon hoppas på att avancera inom företaget snart.",
+    "example_en": "She hopes to advance within the company soon.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6618
+  },
+  {
+    "swedish": "homogen",
+    "english": "homogeneous",
+    "example_sv": "Gruppen är inte homogen, utan består av många olika individer.",
+    "example_en": "The group is not homogeneous, but consists of many different individuals.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6619
+  },
+  {
+    "swedish": "skingra",
+    "english": "disperse, scatter",
+    "example_sv": "Polisen försökte skingra folkmassan på torget.",
+    "example_en": "The police tried to disperse the crowd in the square.",
+    "scenario": "Public Transport",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6620
+  },
+  {
+    "swedish": "underordna",
+    "english": "subordinate",
+    "example_sv": "Man bör inte underordna sina egna behov andras.",
+    "example_en": "One should not subordinate one's own needs to those of others.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6621
+  },
+  {
+    "swedish": "överlägsenhet",
+    "english": "superiority",
+    "example_sv": "Han visade en tydlig känsla av överlägsenhet gentemot sina kollegor.",
+    "example_en": "He showed a clear sense of superiority towards his colleagues.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6622
+  },
+  {
+    "swedish": "krocka",
+    "english": "crash, collide",
+    "example_sv": "Två bilar krockade i korsningen på grund av halkan.",
+    "example_en": "Two cars crashed at the intersection due to the ice.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6623
+  },
+  {
+    "swedish": "filt",
+    "english": "blanket",
+    "example_sv": "Jag la en filt över barnen när de somnade i soffan.",
+    "example_en": "I put a blanket over the children when they fell asleep on the sofa.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6624
+  },
+  {
+    "swedish": "herravälde",
+    "english": "dominion, rule",
+    "example_sv": "Romarrikets herravälde sträckte sig över stora områden.",
+    "example_en": "The Roman Empire's dominion extended over large areas.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6625
+  },
+  {
+    "swedish": "ryttare",
+    "english": "rider",
+    "example_sv": "Ryttaren och hästen tränade tillsammans inför tävlingen.",
+    "example_en": "The rider and the horse trained together for the competition.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6626
+  },
+  {
+    "swedish": "peppar",
+    "english": "pepper",
+    "example_sv": "Kan du skicka mig peppar och salt, tack?",
+    "example_en": "Can you pass me the pepper and salt, please?",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6627
+  },
+  {
+    "swedish": "nominell",
+    "english": "nominal",
+    "example_sv": "Den nominella räntan är högre än den reala räntan.",
+    "example_en": "The nominal interest rate is higher than the real interest rate.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6628
+  },
+  {
+    "swedish": "spola",
+    "english": "flush, rinse",
+    "example_sv": "Du måste spola toaletten efter användning.",
+    "example_en": "You must flush the toilet after use.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6629
+  }
+]

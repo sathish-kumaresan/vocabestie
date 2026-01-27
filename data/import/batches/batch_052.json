@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "sovjetisk",
+    "english": "Soviet",
+    "example_sv": "Filmen handlar om en sovjetisk spion under kalla kriget.",
+    "example_en": "The movie is about a Soviet spy during the Cold War.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2761
+  },
+  {
+    "swedish": "skepp",
+    "english": "ship",
+    "example_sv": "Det stora skeppet seglade ut från hamnen igår kväll.",
+    "example_en": "The big ship sailed out of the harbor last night.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2762
+  },
+  {
+    "swedish": "utgång",
+    "english": "exit",
+    "example_sv": "Vi letade efter utgången i den stora byggnaden.",
+    "example_en": "We were looking for the exit in the large building.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2763
+  },
+  {
+    "swedish": "skrämmande",
+    "english": "scary",
+    "example_sv": "Det var en skrämmande film med många läskiga scener.",
+    "example_en": "It was a scary movie with many frightening scenes.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2764
+  },
+  {
+    "swedish": "omedelbar",
+    "english": "immediate",
+    "example_sv": "Hon behövde omedelbar hjälp efter olyckan.",
+    "example_en": "She needed immediate help after the accident.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2765
+  },
+  {
+    "swedish": "partner",
+    "english": "partner",
+    "example_sv": "Min partner och jag planerar en resa tillsammans.",
+    "example_en": "My partner and I are planning a trip together.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2766
+  },
+  {
+    "swedish": "rejält",
+    "english": "really",
+    "example_sv": "Vi åt rejält med mat efter den långa vandringen.",
+    "example_en": "We ate a lot of food after the long hike.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2767
+  },
+  {
+    "swedish": "kapacitet",
+    "english": "capacity",
+    "example_sv": "Den nya arenan har en kapacitet på 20 000 åskådare.",
+    "example_en": "The new arena has a capacity of 20,000 spectators.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2768
+  },
+  {
+    "swedish": "genomsnitt",
+    "english": "average",
+    "example_sv": "Genomsnittet på provresultaten var högre än förra året.",
+    "example_en": "The average of the test results was higher than last year.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2769
+  },
+  {
+    "swedish": "värdig",
+    "english": "worthy",
+    "example_sv": "Han ansågs vara en värdig kandidat till jobbet.",
+    "example_en": "He was considered a worthy candidate for the job.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2770
+  },
+  {
+    "swedish": "gymnasium",
+    "english": "high school",
+    "example_sv": "Efter grundskolan började hon på ett lokalt gymnasium.",
+    "example_en": "After elementary school, she started at a local high school.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2771
+  },
+  {
+    "swedish": "umgås",
+    "english": "socialize",
+    "example_sv": "Vi brukar umgås med våra vänner på helgerna.",
+    "example_en": "We usually socialize with our friends on the weekends.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2772
+  },
+  {
+    "swedish": "knä",
+    "english": "knee",
+    "example_sv": "Jag skadade mitt knä när jag spelade fotboll.",
+    "example_en": "I injured my knee when I was playing football.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2773
+  },
+  {
+    "swedish": "element",
+    "english": "element",
+    "example_sv": "Värme elementet i rummet fungerar inte ordentligt.",
+    "example_en": "The heating element in the room is not working properly.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2774
+  },
+  {
+    "swedish": "fredlig",
+    "english": "peaceful",
+    "example_sv": "Vi hoppas på en fredlig lösning på konflikten.",
+    "example_en": "We hope for a peaceful solution to the conflict.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2775
+  },
+  {
+    "swedish": "smal",
+    "english": "narrow",
+    "example_sv": "Vägen var väldigt smal och svår att köra på.",
+    "example_en": "The road was very narrow and difficult to drive on.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2776
+  },
+  {
+    "swedish": "gubbe",
+    "english": "old man",
+    "example_sv": "En gammal gubbe satt och läste tidningen i parken.",
+    "example_en": "An old man was sitting and reading the newspaper in the park.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2777
+  },
+  {
+    "swedish": "arrangera",
+    "english": "arrange",
+    "example_sv": "Vi ska arrangera en överraskningsfest för henne.",
+    "example_en": "We are going to arrange a surprise party for her.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2778
+  },
+  {
+    "swedish": "skugga",
+    "english": "shadow",
+    "example_sv": "Det var skönt att sitta i skuggan under trädet.",
+    "example_en": "It was nice to sit in the shadow under the tree.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2779
+  },
+  {
+    "swedish": "pressa",
+    "english": "press",
+    "example_sv": "Du måste pressa citronen för att få ut saften.",
+    "example_en": "You need to press the lemon to get the juice.",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2780
+  },
+  {
+    "swedish": "självständighet",
+    "english": "independence",
+    "example_sv": "Landet firade sin självständighet med en stor parad.",
+    "example_en": "The country celebrated its independence with a large parade.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2781
+  },
+  {
+    "swedish": "densamma",
+    "english": "the same",
+    "example_sv": "Jag vill ha densamma som du beställde.",
+    "example_en": "I want the same as you ordered.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "pronoun",
+    "rank": 2782
+  },
+  {
+    "swedish": "slutlig",
+    "english": "final",
+    "example_sv": "Det slutliga beslutet kommer att fattas nästa vecka.",
+    "example_en": "The final decision will be made next week.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2783
+  },
+  {
+    "swedish": "tvivel",
+    "english": "doubt",
+    "example_sv": "Utan tvivel är han den bästa spelaren i laget.",
+    "example_en": "Without a doubt, he is the best player on the team.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2784
+  },
+  {
+    "swedish": "fälla",
+    "english": "fell",
+    "example_sv": "De var tvungna att fälla trädet för att bygga huset.",
+    "example_en": "They had to fell the tree to build the house.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2785
+  },
+  {
+    "swedish": "smaka",
+    "english": "taste",
+    "example_sv": "Vill du smaka på min hemmagjorda kaka?",
+    "example_en": "Do you want to taste my homemade cake?",
+    "scenario": "Food & Cooking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2786
+  },
+  {
+    "swedish": "näst",
+    "english": "next",
+    "example_sv": "Näst i tur är du, var vänlig och kom fram.",
+    "example_en": "Next in line is you, please come forward.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2787
+  },
+  {
+    "swedish": "utbud",
+    "english": "selection",
+    "example_sv": "Affären har ett stort utbud av frukt och grönsaker.",
+    "example_en": "The store has a large selection of fruits and vegetables.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2788
+  },
+  {
+    "swedish": "opinion",
+    "english": "opinion",
+    "example_sv": "Allmänhetens opinion är viktig för politiska beslut.",
+    "example_en": "Public opinion is important for political decisions.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2789
+  },
+  {
+    "swedish": "värdera",
+    "english": "value",
+    "example_sv": "Jag värderar vår vänskap väldigt högt.",
+    "example_en": "I value our friendship very highly.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2790
+  },
+  {
+    "swedish": "allvarligt",
+    "english": "seriously",
+    "example_sv": "Han tog inte kritiken allvarligt och fortsatte som vanligt.",
+    "example_en": "He didn't take the criticism seriously and continued as usual.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2791
+  },
+  {
+    "swedish": "formell",
+    "english": "formal",
+    "example_sv": "Det är en formell tillställning, så klä dig ordentligt.",
+    "example_en": "It's a formal event, so dress appropriately.",
+    "scenario": "Celebrations",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2792
+  },
+  {
+    "swedish": "dagligen",
+    "english": "daily",
+    "example_sv": "Jag läser tidningen dagligen för att hålla mig uppdaterad.",
+    "example_en": "I read the newspaper daily to keep myself updated.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2793
+  },
+  {
+    "swedish": "ursprungligen",
+    "english": "originally",
+    "example_sv": "Denna byggnad var ursprungligen en gammal fabrik.",
+    "example_en": "This building was originally an old factory.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2794
+  },
+  {
+    "swedish": "fördela",
+    "english": "distribute",
+    "example_sv": "Vi måste fördela arbetet rättvist mellan alla.",
+    "example_en": "We need to distribute the work fairly among everyone.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2796
+  },
+  {
+    "swedish": "ovanligt",
+    "english": "unusually",
+    "example_sv": "Det är ovanligt varmt för att vara oktober.",
+    "example_en": "It is unusually warm for October.",
+    "scenario": "Weather",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2797
+  },
+  {
+    "swedish": "reducera",
+    "english": "reduce",
+    "example_sv": "Vi behöver reducera våra kostnader för att spara pengar.",
+    "example_en": "We need to reduce our expenses to save money.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2798
+  },
+  {
+    "swedish": "vanligt",
+    "english": "usually",
+    "example_sv": "Jag brukar vanligt vis äta frukost vid sju tiden.",
+    "example_en": "I usually eat breakfast around seven o'clock.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2799
+  },
+  {
+    "swedish": "skadestånd",
+    "english": "damages",
+    "example_sv": "Han krävde skadestånd efter bilolyckan.",
+    "example_en": "He claimed damages after the car accident.",
+    "scenario": "Driving",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2800
+  },
+  {
+    "swedish": "kopiera",
+    "english": "copy",
+    "example_sv": "Du kan kopiera filen till din dator.",
+    "example_en": "You can copy the file to your computer.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2801
+  },
+  {
+    "swedish": "övergång",
+    "english": "transition",
+    "example_sv": "Övergången från sommar till höst är vacker.",
+    "example_en": "The transition from summer to autumn is beautiful.",
+    "scenario": "Seasons",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2802
+  },
+  {
+    "swedish": "anhörig",
+    "english": "relative",
+    "example_sv": "De anhöriga fick information om olyckan.",
+    "example_en": "The relatives received information about the accident.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2803
+  },
+  {
+    "swedish": "ångest",
+    "english": "anxiety",
+    "example_sv": "Jag kände ångest inför den stora presentationen.",
+    "example_en": "I felt anxiety about the big presentation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2804
+  },
+  {
+    "swedish": "vakt",
+    "english": "guard",
+    "example_sv": "Vakten stod utanför dörren och kontrollerade legitimation.",
+    "example_en": "The guard stood outside the door and checked identification.",
+    "scenario": "At the Airport",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2805
+  },
+  {
+    "swedish": "förhandla",
+    "english": "negotiate",
+    "example_sv": "De försökte förhandla om ett bättre pris.",
+    "example_en": "They tried to negotiate a better price.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2806
+  },
+  {
+    "swedish": "koncentrera",
+    "english": "concentrate",
+    "example_sv": "Jag måste koncentrera mig på mitt arbete.",
+    "example_en": "I need to concentrate on my work.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2807
+  },
+  {
+    "swedish": "tabell",
+    "english": "table",
+    "example_sv": "Vi tittade på tabellen för att se resultaten.",
+    "example_en": "We looked at the table to see the results.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2808
+  },
+  {
+    "swedish": "önskan",
+    "english": "wish",
+    "example_sv": "Min största önskan är att resa jorden runt.",
+    "example_en": "My biggest wish is to travel around the world.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2809
+  },
+  {
+    "swedish": "konsert",
+    "english": "concert",
+    "example_sv": "Vi ska gå på en rockkonsert nästa helg.",
+    "example_en": "We are going to a rock concert next weekend.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2810
+  },
+  {
+    "swedish": "teckning",
+    "english": "drawing",
+    "example_sv": "Barnet visade stolt upp sin senaste teckning.",
+    "example_en": "The child proudly showed off his latest drawing.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 2811
+  }
+]

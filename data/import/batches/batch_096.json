@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "komplement",
+    "english": "complement, addition",
+    "example_sv": "Den röda väskan är ett bra komplement till hennes outfit.",
+    "example_en": "The red bag is a good complement to her outfit.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5037
+  },
+  {
+    "swedish": "modersmål",
+    "english": "mother tongue",
+    "example_sv": "Jag talar svenska flytande, men mitt modersmål är spanska.",
+    "example_en": "I speak Swedish fluently, but my mother tongue is Spanish.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5038
+  },
+  {
+    "swedish": "beröm",
+    "english": "praise",
+    "example_sv": "Hon fick mycket beröm för sitt engagemang i projektet.",
+    "example_en": "She received a lot of praise for her involvement in the project.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 5039
+  },
+  {
+    "swedish": "frö",
+    "english": "seed",
+    "example_sv": "Jag planterade ett frö och hoppas att det ska gro snart.",
+    "example_en": "I planted a seed and hope it will germinate soon.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5040
+  },
+  {
+    "swedish": "installation",
+    "english": "installation",
+    "example_sv": "Installationen av det nya systemet tog längre tid än planerat.",
+    "example_en": "The installation of the new system took longer than planned.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5041
+  },
+  {
+    "swedish": "släcka",
+    "english": "extinguish, turn off",
+    "example_sv": "Glöm inte att släcka lamporna när du går hemifrån.",
+    "example_en": "Don't forget to turn off the lights when you leave home.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5042
+  },
+  {
+    "swedish": "odds",
+    "english": "odds",
+    "example_sv": "Oddsen för att Sverige ska vinna är ganska höga.",
+    "example_en": "The odds of Sweden winning are quite high.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5043
+  },
+  {
+    "swedish": "årsmöte",
+    "english": "annual meeting",
+    "example_sv": "Vi ska hålla vårt årliga årsmöte nästa vecka.",
+    "example_en": "We will hold our annual meeting next week.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5044
+  },
+  {
+    "swedish": "kommunstyrelse",
+    "english": "municipal council",
+    "example_sv": "Kommunstyrelsen diskuterade budgeten för nästa år igår.",
+    "example_en": "The municipal council discussed the budget for next year yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5046
+  },
+  {
+    "swedish": "mångkulturell",
+    "english": "multicultural",
+    "example_sv": "Stockholm är en mångkulturell stad med många olika kulturer.",
+    "example_en": "Stockholm is a multicultural city with many different cultures.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5047
+  },
+  {
+    "swedish": "varaktig",
+    "english": "lasting, durable",
+    "example_sv": "Vi vill skapa en varaktig förändring i samhället.",
+    "example_en": "We want to create a lasting change in society.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5048
+  },
+  {
+    "swedish": "horn",
+    "english": "horn",
+    "example_sv": "Renen hade stora horn på huvudet.",
+    "example_en": "The reindeer had large horns on its head.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5049
+  },
+  {
+    "swedish": "sedel",
+    "english": "banknote, bill",
+    "example_sv": "Jag betalade med en femhundrakronorssedel i affären.",
+    "example_en": "I paid with a five hundred kronor bill at the store.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5050
+  },
+  {
+    "swedish": "valsedel",
+    "english": "ballot paper",
+    "example_sv": "Han fyllde i valsedeln och lade den i urnan.",
+    "example_en": "He filled out the ballot paper and put it in the ballot box.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5051
+  },
+  {
+    "swedish": "merit",
+    "english": "merit",
+    "example_sv": "God utbildning är en viktig merit när man söker jobb.",
+    "example_en": "Good education is an important merit when applying for a job.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5052
+  },
+  {
+    "swedish": "skinn",
+    "english": "skin, leather",
+    "example_sv": "Jackan är gjord av äkta skinn.",
+    "example_en": "The jacket is made of genuine leather.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5053
+  },
+  {
+    "swedish": "inbegripa",
+    "english": "include, involve",
+    "example_sv": "Kostnaden inbegriper både resa och logi.",
+    "example_en": "The cost includes both travel and accommodation.",
+    "scenario": "Hotel",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5055
+  },
+  {
+    "swedish": "uppehålla",
+    "english": "delay, maintain",
+    "example_sv": "Ett tågfel kan uppehålla trafiken i flera timmar.",
+    "example_en": "A train fault can delay traffic for several hours.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5057
+  },
+  {
+    "swedish": "opassande",
+    "english": "inappropriate",
+    "example_sv": "Hans kommentar var opassande och sårade henne.",
+    "example_en": "His comment was inappropriate and hurt her.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5058
+  },
+  {
+    "swedish": "hårddisk",
+    "english": "hard drive",
+    "example_sv": "Min hårddisk är full, jag behöver köpa en ny.",
+    "example_en": "My hard drive is full, I need to buy a new one.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5059
+  },
+  {
+    "swedish": "insamling",
+    "english": "collection, fundraising",
+    "example_sv": "Vi startade en insamling för att hjälpa de drabbade.",
+    "example_en": "We started a collection to help those affected.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5060
+  },
+  {
+    "swedish": "oändligt",
+    "english": "infinitely",
+    "example_sv": "Jag är oändligt tacksam för din hjälp.",
+    "example_en": "I am infinitely grateful for your help.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5061
+  },
+  {
+    "swedish": "påminnelse",
+    "english": "reminder",
+    "example_sv": "Jag fick en påminnelse om att betala räkningen.",
+    "example_en": "I received a reminder to pay the bill.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5062
+  },
+  {
+    "swedish": "marin",
+    "english": "marine",
+    "example_sv": "Museet har en stor samling marin konst.",
+    "example_en": "The museum has a large collection of marine art.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5063
+  },
+  {
+    "swedish": "opera",
+    "english": "opera",
+    "example_sv": "Vi ska gå på opera på lördag kväll.",
+    "example_en": "We are going to the opera on Saturday evening.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5064
+  },
+  {
+    "swedish": "aktieägare",
+    "english": "shareholder",
+    "example_sv": "Aktieägarna röstade om den nya strategin på mötet.",
+    "example_en": "The shareholders voted on the new strategy at the meeting.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5065
+  },
+  {
+    "swedish": "panel",
+    "english": "panel",
+    "example_sv": "En panel av experter diskuterade frågan i TV.",
+    "example_en": "A panel of experts discussed the issue on TV.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5066
+  },
+  {
+    "swedish": "på något vis",
+    "english": "somehow",
+    "example_sv": "Jag måste lösa det här problemet på något vis.",
+    "example_en": "I have to solve this problem somehow.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5067
+  },
+  {
+    "swedish": "inflytelserik",
+    "english": "influential",
+    "example_sv": "Hon är en inflytelserik person inom politiken.",
+    "example_en": "She is an influential person in politics.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5068
+  },
+  {
+    "swedish": "polismyndighet",
+    "english": "police authority",
+    "example_sv": "Polismyndigheten utreder händelsen noggrant.",
+    "example_en": "The police authority is investigating the incident thoroughly.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5069
+  },
+  {
+    "swedish": "vetenskapsman",
+    "english": "scientist",
+    "example_sv": "Denna vetenskapsman har gjort många viktiga upptäckter.",
+    "example_en": "This scientist has made many important discoveries.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5070
+  },
+  {
+    "swedish": "begåvad",
+    "english": "talented, gifted",
+    "example_sv": "Hon är en mycket begåvad musiker.",
+    "example_en": "She is a very talented musician.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5071
+  },
+  {
+    "swedish": "miljöfråga",
+    "english": "environmental issue",
+    "example_sv": "Miljöfrågan är mycket viktig för oss.",
+    "example_en": "The environmental issue is very important to us.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5072
+  },
+  {
+    "swedish": "miste",
+    "english": "lose",
+    "example_sv": "Han gick miste om chansen att få jobbet.",
+    "example_en": "He lost the chance to get the job.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5073
+  },
+  {
+    "swedish": "nicka",
+    "english": "nod",
+    "example_sv": "Hon nickade instämmande när jag förklarade min idé.",
+    "example_en": "She nodded in agreement when I explained my idea.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5074
+  },
+  {
+    "swedish": "förtjänst",
+    "english": "merit, earnings",
+    "example_sv": "Det är hennes förtjänst att projektet blev så lyckat.",
+    "example_en": "It is to her credit that the project was so successful.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5076
+  },
+  {
+    "swedish": "inge",
+    "english": "inspire, arouse",
+    "example_sv": "Hans tal ingav oss hopp om framtiden.",
+    "example_en": "His speech inspired us with hope for the future.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5077
+  },
+  {
+    "swedish": "undergång",
+    "english": "downfall, ruin",
+    "example_sv": "Klimatförändringarna kan leda till vår undergång.",
+    "example_en": "Climate change could lead to our downfall.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5079
+  },
+  {
+    "swedish": "ambitiös",
+    "english": "ambitious",
+    "example_sv": "Hon är en ambitiös student som vill lyckas.",
+    "example_en": "She is an ambitious student who wants to succeed.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5080
+  },
+  {
+    "swedish": "hebreisk",
+    "english": "Hebrew",
+    "example_sv": "Jag studerar hebreisk litteratur på universitetet.",
+    "example_en": "I study Hebrew literature at the university.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5081
+  },
+  {
+    "swedish": "växelkurs",
+    "english": "exchange rate",
+    "example_sv": "Växelkursen mellan kronan och euron har förändrats.",
+    "example_en": "The exchange rate between the krona and the euro has changed.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5082
+  },
+  {
+    "swedish": "möda",
+    "english": "effort, trouble",
+    "example_sv": "Jag uppskattar verkligen din möda att hjälpa mig.",
+    "example_en": "I really appreciate your effort to help me.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5083
+  },
+  {
+    "swedish": "anklagad",
+    "english": "accused",
+    "example_sv": "Han blev anklagad för stöld av företagshemligheter.",
+    "example_en": "He was accused of stealing trade secrets.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5084
+  },
+  {
+    "swedish": "klassrum",
+    "english": "classroom",
+    "example_sv": "Eleverna sitter i klassrummet och lyssnar på läraren.",
+    "example_en": "The students are sitting in the classroom listening to the teacher.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5085
+  },
+  {
+    "swedish": "kontinuerlig",
+    "english": "continuous",
+    "example_sv": "Vi behöver kontinuerlig feedback för att förbättra oss.",
+    "example_en": "We need continuous feedback to improve.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5086
+  },
+  {
+    "swedish": "si",
+    "english": "so",
+    "example_sv": "Han sa si och så, men jag förstod inte allt.",
+    "example_en": "He said so and so, but I didn't understand everything.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5087
+  },
+  {
+    "swedish": "entusiasm",
+    "english": "enthusiasm",
+    "example_sv": "Hon talade med stor entusiasm om sitt nya projekt.",
+    "example_en": "She spoke with great enthusiasm about her new project.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5088
+  },
+  {
+    "swedish": "respons",
+    "english": "response",
+    "example_sv": "Vi fick mycket positiv respons på vår kampanj.",
+    "example_en": "We received a very positive response to our campaign.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5089
+  },
+  {
+    "swedish": "monster",
+    "english": "monster",
+    "example_sv": "Barnen var rädda för monstret under sängen.",
+    "example_en": "The children were afraid of the monster under the bed.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5090
+  },
+  {
+    "swedish": "rån",
+    "english": "robbery",
+    "example_sv": "Banken utsattes för ett rån i morse.",
+    "example_en": "The bank was subjected to a robbery this morning.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5091
+  }
+]

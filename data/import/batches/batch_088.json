@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "informell",
+    "english": "informal",
+    "example_sv": "Stämningen på festen var väldigt informell och avslappnad.",
+    "example_en": "The atmosphere at the party was very informal and relaxed.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4621
+  },
+  {
+    "swedish": "förvåning",
+    "english": "surprise, astonishment",
+    "example_sv": "Hennes ansikte fylldes av förvåning när hon såg presenten.",
+    "example_en": "Her face filled with surprise when she saw the gift.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4622
+  },
+  {
+    "swedish": "iaktta",
+    "english": "observe",
+    "example_sv": "Forskarna iakttog djurens beteende i deras naturliga miljö.",
+    "example_en": "The researchers observed the animals' behavior in their natural habitat.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4623
+  },
+  {
+    "swedish": "körkort",
+    "english": "driving license",
+    "example_sv": "Han var tvungen att visa sitt körkort för polisen.",
+    "example_en": "He had to show his driving license to the police.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4624
+  },
+  {
+    "swedish": "försäkringsbolag",
+    "english": "insurance company",
+    "example_sv": "Jag måste ringa försäkringsbolaget angående bilskadan.",
+    "example_en": "I have to call the insurance company regarding the car damage.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4625
+  },
+  {
+    "swedish": "missnöje",
+    "english": "dissatisfaction",
+    "example_sv": "Han uttryckte sitt missnöje med den dåliga servicen.",
+    "example_en": "He expressed his dissatisfaction with the poor service.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4626
+  },
+  {
+    "swedish": "etnicitet",
+    "english": "ethnicity",
+    "example_sv": "Befolkningen i landet är mångfacetterad med olika etniciteter.",
+    "example_en": "The population of the country is diverse with different ethnicities.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4627
+  },
+  {
+    "swedish": "inbjudan",
+    "english": "invitation",
+    "example_sv": "Jag fick en inbjudan till hennes bröllop nästa månad.",
+    "example_en": "I received an invitation to her wedding next month.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4628
+  },
+  {
+    "swedish": "dyster",
+    "english": "gloomy, bleak",
+    "example_sv": "Vädret var dyster med grå himmel och regn.",
+    "example_en": "The weather was gloomy with grey skies and rain.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4629
+  },
+  {
+    "swedish": "okunskap",
+    "english": "ignorance",
+    "example_sv": "Hennes okunskap om ämnet var uppenbar under diskussionen.",
+    "example_en": "Her ignorance of the topic was obvious during the discussion.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4630
+  },
+  {
+    "swedish": "garanterat",
+    "english": "guaranteed",
+    "example_sv": "Leveransen är garanterat framme inom två arbetsdagar.",
+    "example_en": "The delivery is guaranteed to arrive within two business days.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4631
+  },
+  {
+    "swedish": "sammanfattningsvis",
+    "english": "in summary",
+    "example_sv": "Sammanfattningsvis kan vi konstatera att projektet är lyckat.",
+    "example_en": "In summary, we can conclude that the project is successful.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4632
+  },
+  {
+    "swedish": "spark",
+    "english": "kick",
+    "example_sv": "Han gav bollen en kraftig spark över planen.",
+    "example_en": "He gave the ball a powerful kick across the field.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4633
+  },
+  {
+    "swedish": "arbetsdag",
+    "english": "workday",
+    "example_sv": "En typisk arbetsdag börjar klockan åtta på morgonen.",
+    "example_en": "A typical workday starts at eight in the morning.",
+    "scenario": "Daily Routines",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4634
+  },
+  {
+    "swedish": "silver",
+    "english": "silver",
+    "example_sv": "Hon bar ett halsband gjort av äkta silver.",
+    "example_en": "She wore a necklace made of genuine silver.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4635
+  },
+  {
+    "swedish": "organisatorisk",
+    "english": "organizational",
+    "example_sv": "Företaget genomgick en stor organisatorisk förändring.",
+    "example_en": "The company underwent a major organizational change.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4636
+  },
+  {
+    "swedish": "slutgiltig",
+    "english": "final, definitive",
+    "example_sv": "Det slutgiltiga beslutet kommer att tas nästa vecka.",
+    "example_en": "The final decision will be made next week.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4637
+  },
+  {
+    "swedish": "tungt",
+    "english": "heavily",
+    "example_sv": "Det regnade tungt under hela eftermiddagen igår.",
+    "example_en": "It rained heavily throughout the afternoon yesterday.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4638
+  },
+  {
+    "swedish": "bekänna",
+    "english": "confess",
+    "example_sv": "Han tvingades bekänna sina brott för polisen.",
+    "example_en": "He was forced to confess his crimes to the police.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4639
+  },
+  {
+    "swedish": "kostym",
+    "english": "suit",
+    "example_sv": "Han bar en mörk kostym och slips på mötet.",
+    "example_en": "He wore a dark suit and tie to the meeting.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4640
+  },
+  {
+    "swedish": "långtgående",
+    "english": "far-reaching",
+    "example_sv": "De nya reglerna kommer att ha långtgående konsekvenser.",
+    "example_en": "The new rules will have far-reaching consequences.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4642
+  },
+  {
+    "swedish": "mask",
+    "english": "mask",
+    "example_sv": "Han tog på sig en mask innan han gick in.",
+    "example_en": "He put on a mask before he went in.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4643
+  },
+  {
+    "swedish": "materiel",
+    "english": "equipment, material",
+    "example_sv": "Skolan behövde beställa mer materiel inför det nya läsåret.",
+    "example_en": "The school needed to order more equipment for the new school year.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4644
+  },
+  {
+    "swedish": "mobbning",
+    "english": "bullying",
+    "example_sv": "Mobbning är ett allvarligt problem som måste åtgärdas.",
+    "example_en": "Bullying is a serious problem that must be addressed.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4645
+  },
+  {
+    "swedish": "leksak",
+    "english": "toy",
+    "example_sv": "Barnet lekte glatt med sin nya leksak.",
+    "example_en": "The child happily played with his new toy.",
+    "scenario": "At Home, Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4646
+  },
+  {
+    "swedish": "spridd",
+    "english": "spread, widespread",
+    "example_sv": "Ryktet var spridd över hela staden på nolltid.",
+    "example_en": "The rumor was spread throughout the city in no time.",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4647
+  },
+  {
+    "swedish": "stava",
+    "english": "spell",
+    "example_sv": "Kan du stava ditt namn för mig, tack?",
+    "example_en": "Can you spell your name for me, please?",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4648
+  },
+  {
+    "swedish": "tillit",
+    "english": "trust",
+    "example_sv": "Det är viktigt att ha tillit till sina medarbetare.",
+    "example_en": "It is important to have trust in your colleagues.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4649
+  },
+  {
+    "swedish": "modig",
+    "english": "brave, courageous",
+    "example_sv": "Hon var modig som vågade stå upp för sig själv.",
+    "example_en": "She was brave to stand up for herself.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4650
+  },
+  {
+    "swedish": "utbrott",
+    "english": "outburst",
+    "example_sv": "Hans utbrott kom som en chock för alla närvarande.",
+    "example_en": "His outburst came as a shock to everyone present.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4651
+  },
+  {
+    "swedish": "apparat",
+    "english": "device, apparatus",
+    "example_sv": "Denna apparat kan användas för att mäta temperaturen.",
+    "example_en": "This device can be used to measure the temperature.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4652
+  },
+  {
+    "swedish": "disk",
+    "english": "counter",
+    "example_sv": "Jag lämnade tillbaka boken vid disken i biblioteket.",
+    "example_en": "I returned the book at the counter in the library.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4653
+  },
+  {
+    "swedish": "drama",
+    "english": "drama",
+    "example_sv": "Det var mycket drama i den nya tv-serien.",
+    "example_en": "There was a lot of drama in the new TV series.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4654
+  },
+  {
+    "swedish": "exportera",
+    "english": "export",
+    "example_sv": "Sverige exporterar mycket trä och stål.",
+    "example_en": "Sweden exports a lot of wood and steel.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4655
+  },
+  {
+    "swedish": "försoning",
+    "english": "reconciliation",
+    "example_sv": "Efter grälet strävade de efter försoning.",
+    "example_en": "After the argument, they strived for reconciliation.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4656
+  },
+  {
+    "swedish": "universell",
+    "english": "universal",
+    "example_sv": "Mänskliga rättigheter är universella och gäller alla.",
+    "example_en": "Human rights are universal and apply to everyone.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4657
+  },
+  {
+    "swedish": "beroende",
+    "english": "addiction, dependency",
+    "example_sv": "Han kämpade mot sitt beroende av alkohol.",
+    "example_en": "He struggled against his addiction to alcohol.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4658
+  },
+  {
+    "swedish": "surfa",
+    "english": "surf",
+    "example_sv": "Jag älskar att surfa på internet efter nya recept.",
+    "example_en": "I love to surf the internet for new recipes.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4659
+  },
+  {
+    "swedish": "diktator",
+    "english": "dictator",
+    "example_sv": "Landet styrdes av en hänsynslös diktator.",
+    "example_en": "The country was ruled by a ruthless dictator.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4660
+  },
+  {
+    "swedish": "passage",
+    "english": "passage",
+    "example_sv": "Det fanns en smal passage mellan husen.",
+    "example_en": "There was a narrow passage between the houses.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4661
+  },
+  {
+    "swedish": "inbyggd",
+    "english": "built-in",
+    "example_sv": "Datorn har en inbyggd webbkamera.",
+    "example_en": "The computer has a built-in webcam.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4662
+  },
+  {
+    "swedish": "plåga",
+    "english": "torment, plague",
+    "example_sv": "Huvudvärken plågade henne hela dagen.",
+    "example_en": "The headache plagued her all day.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4663
+  },
+  {
+    "swedish": "strikt",
+    "english": "strict",
+    "example_sv": "Skolan har strikta regler angående mobiltelefoner.",
+    "example_en": "The school has strict rules regarding mobile phones.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4664
+  },
+  {
+    "swedish": "utlova",
+    "english": "promise",
+    "example_sv": "Han utlovade en stor belöning till den som hittade katten.",
+    "example_en": "He promised a large reward to whoever found the cat.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4665
+  },
+  {
+    "swedish": "riksbank",
+    "english": "central bank",
+    "example_sv": "Riksbanken styr den svenska penningpolitiken.",
+    "example_en": "The Riksbank controls Swedish monetary policy.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4666
+  },
+  {
+    "swedish": "återta",
+    "english": "reclaim, regain",
+    "example_sv": "Han försökte återta kontrollen över situationen.",
+    "example_en": "He tried to regain control of the situation.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4667
+  },
+  {
+    "swedish": "dokumentation",
+    "english": "documentation",
+    "example_sv": "Projektet kräver noggrann dokumentation av alla steg.",
+    "example_en": "The project requires thorough documentation of all steps.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4668
+  },
+  {
+    "swedish": "ingrediens",
+    "english": "ingredient",
+    "example_sv": "Den viktigaste ingrediensen i receptet är kärlek.",
+    "example_en": "The most important ingredient in the recipe is love.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4669
+  },
+  {
+    "swedish": "inträda",
+    "english": "enter, commence",
+    "example_sv": "Avtalet kommer att inträda i kraft nästa månad.",
+    "example_en": "The agreement will come into force next month.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4670
+  },
+  {
+    "swedish": "show",
+    "english": "show",
+    "example_sv": "Vi gick på en fantastisk show igår kväll.",
+    "example_en": "We went to a fantastic show last night.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4671
+  }
+]

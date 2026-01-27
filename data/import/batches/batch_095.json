@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "förpackning",
+    "english": "packaging",
+    "example_sv": "Jag återvinner alltid min mjölks förpackning efter användning.",
+    "example_en": "I always recycle the milk packaging after use.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4985
+  },
+  {
+    "swedish": "överskrida",
+    "english": "exceed",
+    "example_sv": "Du får inte överskrida den tillåtna hastigheten här.",
+    "example_en": "You are not allowed to exceed the speed limit here.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4986
+  },
+  {
+    "swedish": "aktivera",
+    "english": "activate",
+    "example_sv": "Du måste aktivera ditt nya SIM-kort online.",
+    "example_en": "You need to activate your new SIM card online.",
+    "scenario": "Phone & Internet",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4987
+  },
+  {
+    "swedish": "flytt",
+    "english": "move",
+    "example_sv": "Hela familjen hjälpte till med vår flytt.",
+    "example_en": "The whole family helped with our move.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4988
+  },
+  {
+    "swedish": "vida",
+    "english": "widely",
+    "example_sv": "Hon är vida känd för sin forskning.",
+    "example_en": "She is widely known for her research.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4989
+  },
+  {
+    "swedish": "älg",
+    "english": "moose",
+    "example_sv": "Vi såg en stor älg i skogen igår.",
+    "example_en": "We saw a large moose in the forest yesterday.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4990
+  },
+  {
+    "swedish": "förstörelse",
+    "english": "destruction",
+    "example_sv": "Stormen orsakade stor förstörelse längs kusten.",
+    "example_en": "The storm caused great destruction along the coast.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4991
+  },
+  {
+    "swedish": "elegant",
+    "english": "elegant",
+    "example_sv": "Hon bar en elegant klänning på festen.",
+    "example_en": "She wore an elegant dress to the party.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4992
+  },
+  {
+    "swedish": "montera",
+    "english": "assemble",
+    "example_sv": "Jag måste montera den nya bokhyllan imorgon.",
+    "example_en": "I have to assemble the new bookshelf tomorrow.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4994
+  },
+  {
+    "swedish": "polisman",
+    "english": "police officer",
+    "example_sv": "Polismannen hjälpte oss att hitta rätt väg.",
+    "example_en": "The police officer helped us find the right way.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4995
+  },
+  {
+    "swedish": "preliminär",
+    "english": "preliminary",
+    "example_sv": "Vi har bara en preliminär plan än så länge.",
+    "example_en": "We only have a preliminary plan so far.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4996
+  },
+  {
+    "swedish": "primitiv",
+    "english": "primitive",
+    "example_sv": "Deras levnadssätt är väldigt primitivt och enkelt.",
+    "example_en": "Their way of life is very primitive and simple.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4997
+  },
+  {
+    "swedish": "avrättning",
+    "english": "execution",
+    "example_sv": "Avrättningen av den dömde väckte starka reaktioner.",
+    "example_en": "The execution of the condemned man sparked strong reactions.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4998
+  },
+  {
+    "swedish": "nedåt",
+    "english": "downwards",
+    "example_sv": "Priserna fortsätter att gå nedåt på marknaden.",
+    "example_en": "Prices continue to fall downwards in the market.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4999
+  },
+  {
+    "swedish": "real",
+    "english": "real",
+    "example_sv": "Det är svårt att förstå de reala konsekvenserna.",
+    "example_en": "It's hard to understand the real consequences.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5000
+  },
+  {
+    "swedish": "överväldigande",
+    "english": "overwhelming",
+    "example_sv": "Känslan av glädje var helt överväldigande.",
+    "example_en": "The feeling of joy was completely overwhelming.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5001
+  },
+  {
+    "swedish": "gym",
+    "english": "gym",
+    "example_sv": "Jag brukar gå till gymet tre gånger i veckan.",
+    "example_en": "I usually go to the gym three times a week.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5002
+  },
+  {
+    "swedish": "federation",
+    "english": "federation",
+    "example_sv": "Landet är en federation av flera olika stater.",
+    "example_en": "The country is a federation of several different states.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5003
+  },
+  {
+    "swedish": "mötesplats",
+    "english": "meeting place",
+    "example_sv": "Torget är en populär mötesplats i staden.",
+    "example_en": "The square is a popular meeting place in the city.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5004
+  },
+  {
+    "swedish": "öster",
+    "english": "east",
+    "example_sv": "Solen går upp i öster varje morgon.",
+    "example_en": "The sun rises in the east every morning.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "noun",
+    "rank": 5005
+  },
+  {
+    "swedish": "beslutsfattande",
+    "english": "decision-making",
+    "example_sv": "Beslutsfattandet i företaget tar alldeles för lång tid.",
+    "example_en": "Decision-making in the company takes far too long.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5006
+  },
+  {
+    "swedish": "psykiatri",
+    "english": "psychiatry",
+    "example_sv": "Hon studerar psykiatri för att bli läkare.",
+    "example_en": "She is studying psychiatry to become a doctor.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5007
+  },
+  {
+    "swedish": "handläggning",
+    "english": "processing",
+    "example_sv": "Handläggningen av mitt ärende tar lite tid.",
+    "example_en": "The processing of my case is taking some time.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5008
+  },
+  {
+    "swedish": "utbryta",
+    "english": "break out",
+    "example_sv": "En brand kan utbryta om man är oförsiktig.",
+    "example_en": "A fire can break out if you are careless.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5009
+  },
+  {
+    "swedish": "fientlighet",
+    "english": "hostility",
+    "example_sv": "Det råder stor fientlighet mellan de två länderna.",
+    "example_en": "There is great hostility between the two countries.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5010
+  },
+  {
+    "swedish": "inredning",
+    "english": "interior",
+    "example_sv": "Vi ska ändra inredningen i vardagsrummet.",
+    "example_en": "We are going to change the interior in the living room.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5011
+  },
+  {
+    "swedish": "troll",
+    "english": "troll",
+    "example_sv": "I sagorna bor det ofta troll i skogen.",
+    "example_en": "In fairy tales, trolls often live in the forest.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5012
+  },
+  {
+    "swedish": "identisk",
+    "english": "identical",
+    "example_sv": "De två tvillingarna är nästan helt identiska.",
+    "example_en": "The two twins are almost completely identical.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5013
+  },
+  {
+    "swedish": "riksförbund",
+    "english": "national federation",
+    "example_sv": "Vårt idrottslag är medlem i ett riksförbund.",
+    "example_en": "Our sports team is a member of a national federation.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5014
+  },
+  {
+    "swedish": "sal",
+    "english": "hall",
+    "example_sv": "Vi ska ha konserten i stora salen i kväll.",
+    "example_en": "We are having the concert in the main hall tonight.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5015
+  },
+  {
+    "swedish": "förtjust",
+    "english": "delighted",
+    "example_sv": "Barnen var mycket förtjust över presenterna.",
+    "example_en": "The children were very delighted with the presents.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5016
+  },
+  {
+    "swedish": "generalsekreterare",
+    "english": "secretary-general",
+    "example_sv": "Han har blivit utnämnd till ny generalsekreterare.",
+    "example_en": "He has been appointed as the new secretary-general.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5017
+  },
+  {
+    "swedish": "genomsyra",
+    "english": "permeate",
+    "example_sv": "Rädslan för förändring genomsyrar hela organisationen.",
+    "example_en": "Fear of change permeates the entire organization.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5018
+  },
+  {
+    "swedish": "öppning",
+    "english": "opening",
+    "example_sv": "Det är en bra öppning för ett nytt företag.",
+    "example_en": "It's a good opening for a new company.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5019
+  },
+  {
+    "swedish": "obefintlig",
+    "english": "non-existent",
+    "example_sv": "Deras intresse för saken är nästan obefintlig.",
+    "example_en": "Their interest in the matter is almost non-existent.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5020
+  },
+  {
+    "swedish": "tillförlitlig",
+    "english": "reliable",
+    "example_sv": "Det är viktigt att ha en tillförlitlig bil.",
+    "example_en": "It is important to have a reliable car.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5021
+  },
+  {
+    "swedish": "näringsminister",
+    "english": "minister for enterprise",
+    "example_sv": "Näringsministern talade om vikten av småföretag.",
+    "example_en": "The Minister for Enterprise spoke about the importance of small businesses.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5022
+  },
+  {
+    "swedish": "protein",
+    "english": "protein",
+    "example_sv": "Kyckling är en bra källa till protein.",
+    "example_en": "Chicken is a good source of protein.",
+    "scenario": "Food & Cooking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5023
+  },
+  {
+    "swedish": "applåd",
+    "english": "applause",
+    "example_sv": "Talet avslutades med en stor applåd.",
+    "example_en": "The speech ended with great applause.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5024
+  },
+  {
+    "swedish": "ersättare",
+    "english": "substitute",
+    "example_sv": "Jag är ersättare i fotbollslaget idag.",
+    "example_en": "I'm a substitute on the football team today.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5025
+  },
+  {
+    "swedish": "onödigt",
+    "english": "unnecessary",
+    "example_sv": "Det är onödigt att köpa en så dyr bil.",
+    "example_en": "It is unnecessary to buy such an expensive car.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5026
+  },
+  {
+    "swedish": "tjänstgöra",
+    "english": "serve",
+    "example_sv": "Han tjänstgör som soldat i utlandet.",
+    "example_en": "He is serving as a soldier abroad.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5027
+  },
+  {
+    "swedish": "fastslå",
+    "english": "establish",
+    "example_sv": "Rätten fastslog att han var skyldig.",
+    "example_en": "The court established that he was guilty.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5028
+  },
+  {
+    "swedish": "solig",
+    "english": "sunny",
+    "example_sv": "Det var en solig dag och vi gick till stranden.",
+    "example_en": "It was a sunny day and we went to the beach.",
+    "scenario": "Weather",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5030
+  },
+  {
+    "swedish": "gåta",
+    "english": "riddle",
+    "example_sv": "Hon älskar att lösa svåra gåtor.",
+    "example_en": "She loves to solve difficult riddles.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5031
+  },
+  {
+    "swedish": "härlighet",
+    "english": "glory",
+    "example_sv": "Vi njöt av naturens härlighet under vandringen.",
+    "example_en": "We enjoyed the glory of nature during the hike.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5032
+  },
+  {
+    "swedish": "återuppta",
+    "english": "resume",
+    "example_sv": "Vi kommer att återuppta förhandlingarna nästa vecka.",
+    "example_en": "We will resume negotiations next week.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5033
+  },
+  {
+    "swedish": "fördriva",
+    "english": "beguile",
+    "example_sv": "Vi brukar fördriva tiden med att spela kort.",
+    "example_en": "We usually beguile the time by playing cards.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5034
+  },
+  {
+    "swedish": "hertig",
+    "english": "duke",
+    "example_sv": "Hertigen höll ett viktigt tal på slottet.",
+    "example_en": "The duke gave an important speech at the castle.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5035
+  },
+  {
+    "swedish": "påsk",
+    "english": "Easter",
+    "example_sv": "Vi firar påsk med familjen varje år.",
+    "example_en": "We celebrate Easter with family every year.",
+    "scenario": "Holidays",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5036
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "gestalt",
+    "english": "form, shape",
+    "example_sv": "Hela bilden framträder först när man ser den kompletta gestalt.",
+    "example_en": "The whole picture only emerges when you see the complete form.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4725
+  },
+  {
+    "swedish": "konstitutionell",
+    "english": "constitutional",
+    "example_sv": "Frågan om monarkins framtid är en konstitutionell fråga.",
+    "example_en": "The question of the monarchy's future is a constitutional issue.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4726
+  },
+  {
+    "swedish": "avslutningsvis",
+    "english": "in conclusion",
+    "example_sv": "Avslutningsvis vill jag tacka alla för ert engagemang.",
+    "example_en": "In conclusion, I want to thank everyone for their commitment.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4727
+  },
+  {
+    "swedish": "indian",
+    "english": "Indian",
+    "example_sv": "Hon studerade indianfolkens historia och kultur med stort intresse.",
+    "example_en": "She studied the history and culture of Native American peoples with great interest.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4728
+  },
+  {
+    "swedish": "ingenstans",
+    "english": "nowhere",
+    "example_sv": "Jag har letat överallt, men hittar den ingenstans.",
+    "example_en": "I've looked everywhere, but I can't find it anywhere.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4729
+  },
+  {
+    "swedish": "nuförtiden (el. nu för tiden)",
+    "english": "nowadays",
+    "example_sv": "Nuförtiden är det vanligt att arbeta hemifrån.",
+    "example_en": "Nowadays, it's common to work from home.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4730
+  },
+  {
+    "swedish": "baltisk",
+    "english": "Baltic",
+    "example_sv": "Vi besökte flera baltiska länder under vår semester.",
+    "example_en": "We visited several Baltic countries during our vacation.",
+    "scenario": "Travel",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4732
+  },
+  {
+    "swedish": "farfar",
+    "english": "paternal grandfather",
+    "example_sv": "Min farfar brukade berätta spännande historier från sin ungdom.",
+    "example_en": "My paternal grandfather used to tell exciting stories from his youth.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4733
+  },
+  {
+    "swedish": "förtydliga",
+    "english": "clarify",
+    "example_sv": "Kan du förtydliga vad du menar med den kommentaren?",
+    "example_en": "Can you clarify what you mean by that comment?",
+    "scenario": "Emails & Communication",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4734
+  },
+  {
+    "swedish": "gärningsman",
+    "english": "perpetrator, offender",
+    "example_sv": "Polisen söker efter gärningsmannen som begick brottet igår.",
+    "example_en": "The police are looking for the perpetrator who committed the crime yesterday.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4735
+  },
+  {
+    "swedish": "succé",
+    "english": "success",
+    "example_sv": "Företagets nya produkt blev en stor succé på marknaden.",
+    "example_en": "The company's new product was a great success in the market.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4736
+  },
+  {
+    "swedish": "tröst",
+    "english": "comfort",
+    "example_sv": "Jag fann stor tröst i mina vänners stöd under svåra tider.",
+    "example_en": "I found great comfort in the support of my friends during difficult times.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4737
+  },
+  {
+    "swedish": "epok",
+    "english": "epoch, era",
+    "example_sv": "Den industriella revolutionen markerade en ny epok i historien.",
+    "example_en": "The industrial revolution marked a new epoch in history.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4738
+  },
+  {
+    "swedish": "intention",
+    "english": "intention",
+    "example_sv": "Min intention var aldrig att såra dina känslor.",
+    "example_en": "My intention was never to hurt your feelings.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4739
+  },
+  {
+    "swedish": "nedskärning",
+    "english": "cutback",
+    "example_sv": "Företaget tvingades göra nedskärningar på grund av ekonomiska problem.",
+    "example_en": "The company was forced to make cutbacks due to economic problems.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4740
+  },
+  {
+    "swedish": "tillika",
+    "english": "also, as well",
+    "example_sv": "Han är lärare tillika författare.",
+    "example_en": "He is a teacher as well as an author.",
+    "scenario": "Job Interview",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4741
+  },
+  {
+    "swedish": "remiss",
+    "english": "referral",
+    "example_sv": "Jag behövde en remiss från min läkare för att träffa specialisten.",
+    "example_en": "I needed a referral from my doctor to see the specialist.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4742
+  },
+  {
+    "swedish": "skåda",
+    "english": "behold, view",
+    "example_sv": "Vi fick skåda en fantastisk solnedgång över havet.",
+    "example_en": "We got to behold a fantastic sunset over the sea.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4743
+  },
+  {
+    "swedish": "bevittna",
+    "english": "witness",
+    "example_sv": "Jag fick bevittna en otrolig händelse under konserten.",
+    "example_en": "I got to witness an incredible event during the concert.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4744
+  },
+  {
+    "swedish": "främling",
+    "english": "stranger",
+    "example_sv": "Hon kände sig obekväm när främlingen kom närmare.",
+    "example_en": "She felt uncomfortable when the stranger came closer.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4745
+  },
+  {
+    "swedish": "juridik",
+    "english": "law, jurisprudence",
+    "example_sv": "Han studerar juridik vid universitetet.",
+    "example_en": "He is studying law at the university.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4746
+  },
+  {
+    "swedish": "utvisning",
+    "english": "deportation",
+    "example_sv": "Hotet om utvisning hängde över familjen.",
+    "example_en": "The threat of deportation hung over the family.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4747
+  },
+  {
+    "swedish": "folkrätt",
+    "english": "international law",
+    "example_sv": "Frågan bedömdes utifrån principerna i folkrätt.",
+    "example_en": "The issue was assessed based on the principles of international law.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4748
+  },
+  {
+    "swedish": "legitim",
+    "english": "legitimate",
+    "example_sv": "Hans oro var legitim med tanke på situationen.",
+    "example_en": "His concern was legitimate given the situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4749
+  },
+  {
+    "swedish": "bostadsområde",
+    "english": "residential area",
+    "example_sv": "Vi bor i ett lugnt bostadsområde utanför stan.",
+    "example_en": "We live in a quiet residential area outside the city.",
+    "scenario": "Directions",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4750
+  },
+  {
+    "swedish": "egyptisk",
+    "english": "Egyptian",
+    "example_sv": "Hon studerade egyptisk historia och kultur.",
+    "example_en": "She studied Egyptian history and culture.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4751
+  },
+  {
+    "swedish": "glatt",
+    "english": "smoothly",
+    "example_sv": "Förhandlingarna gick glatt tack vare bra förberedelser.",
+    "example_en": "The negotiations went smoothly thanks to good preparations.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4752
+  },
+  {
+    "swedish": "hyresgäst",
+    "english": "tenant",
+    "example_sv": "Hyresgästen betalade hyran i tid varje månad.",
+    "example_en": "The tenant paid the rent on time every month.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4753
+  },
+  {
+    "swedish": "radikalt",
+    "english": "radically",
+    "example_sv": "Företaget måste förändras radikalt för att överleva.",
+    "example_en": "The company must change radically in order to survive.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 4754
+  },
+  {
+    "swedish": "vinge",
+    "english": "wing",
+    "example_sv": "Fågeln bredde ut sin vinge och flög iväg.",
+    "example_en": "The bird spread its wing and flew away.",
+    "scenario": "Animals",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4755
+  },
+  {
+    "swedish": "klassa",
+    "english": "classify",
+    "example_sv": "Forskarna försöker klassa de nya arterna.",
+    "example_en": "The researchers are trying to classify the new species.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4756
+  },
+  {
+    "swedish": "legend",
+    "english": "legend",
+    "example_sv": "Han är en riktig legend inom fotbollsvärlden.",
+    "example_en": "He is a true legend in the world of football.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4757
+  },
+  {
+    "swedish": "öre",
+    "english": "cent",
+    "example_sv": "Det kostar bara några öre per styck.",
+    "example_en": "It only costs a few cents per piece.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4758
+  },
+  {
+    "swedish": "nazistisk",
+    "english": "Nazi",
+    "example_sv": "Han kritiserade den nazistiska ideologin skarpt.",
+    "example_en": "He sharply criticized the Nazi ideology.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4759
+  },
+  {
+    "swedish": "varsin",
+    "english": "one each",
+    "example_sv": "Barnen fick varsin glass efter maten.",
+    "example_en": "The children each got an ice cream after the meal.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "pronoun",
+    "rank": 4760
+  },
+  {
+    "swedish": "begrava",
+    "english": "bury",
+    "example_sv": "De kommer att begrava henne bredvid hennes man.",
+    "example_en": "They will bury her next to her husband.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4761
+  },
+  {
+    "swedish": "funktionsnedsättning",
+    "english": "disability",
+    "example_sv": "Samhället måste bli mer tillgängligt för personer med funktionsnedsättning.",
+    "example_en": "Society must become more accessible for people with disabilities.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4762
+  },
+  {
+    "swedish": "kontra",
+    "english": "against",
+    "example_sv": "Det fanns starka argument kontra förslaget.",
+    "example_en": "There were strong arguments against the proposal.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "preposition",
+    "rank": 4763
+  },
+  {
+    "swedish": "persisk",
+    "english": "Persian",
+    "example_sv": "Hon är expert på persisk litteratur och poesi.",
+    "example_en": "She is an expert in Persian literature and poetry.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4764
+  },
+  {
+    "swedish": "tillskott",
+    "english": "addition, supplement",
+    "example_sv": "Vi behöver ett tillskott av pengar för att slutföra projektet.",
+    "example_en": "We need an addition of money to complete the project.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4765
+  },
+  {
+    "swedish": "klagomål",
+    "english": "complaint",
+    "example_sv": "Vi har mottagit flera klagomål angående den nya tjänsten.",
+    "example_en": "We have received several complaints regarding the new service.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4766
+  },
+  {
+    "swedish": "konstverk",
+    "english": "artwork",
+    "example_sv": "Konstverket var en imponerande kombination av färg och form.",
+    "example_en": "The artwork was an impressive combination of color and form.",
+    "scenario": "Hobbies",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 4767
+  },
+  {
+    "swedish": "kortsiktig",
+    "english": "short-sighted",
+    "example_sv": "Det är en kortsiktig lösning som inte kommer att fungera i längden.",
+    "example_en": "It is a short-sighted solution that will not work in the long run.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4768
+  },
+  {
+    "swedish": "avliden",
+    "english": "deceased",
+    "example_sv": "Familjen sörjer den avlidne och ber om lugn och ro.",
+    "example_en": "The family mourns the deceased and asks for peace and quiet.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4769
+  },
+  {
+    "swedish": "backe",
+    "english": "hill",
+    "example_sv": "Det var en brant backe upp till toppen av berget.",
+    "example_en": "It was a steep hill up to the top of the mountain.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4770
+  },
+  {
+    "swedish": "förespråkare",
+    "english": "advocate",
+    "example_sv": "Han är en stark förespråkare för miljövänlig energi.",
+    "example_en": "He is a strong advocate for environmentally friendly energy.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4771
+  },
+  {
+    "swedish": "indikator",
+    "english": "indicator",
+    "example_sv": "Arbetslösheten är en viktig indikator på ekonomins hälsa.",
+    "example_en": "Unemployment is an important indicator of the economy's health.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4772
+  },
+  {
+    "swedish": "nutida",
+    "english": "contemporary",
+    "example_sv": "Museet har en stor samling av nutida konst.",
+    "example_en": "The museum has a large collection of contemporary art.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 4773
+  },
+  {
+    "swedish": "textstorlek",
+    "english": "font size",
+    "example_sv": "Jag ändrade textstorleken för att göra det lättare att läsa.",
+    "example_en": "I changed the font size to make it easier to read.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 4774
+  },
+  {
+    "swedish": "åta",
+    "english": "undertake",
+    "example_sv": "Han åtog sig uppgiften att organisera hela konferensen.",
+    "example_en": "He undertook the task of organizing the entire conference.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 4775
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "utmed",
+    "english": "along",
+    "example_sv": "Vi promenerade utmed floden hela eftermiddagen i solskenet.",
+    "example_en": "We walked along the river all afternoon in the sunshine.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "preposition",
+    "rank": 5508
+  },
+  {
+    "swedish": "visdom",
+    "english": "wisdom",
+    "example_sv": "Hon delade med sig av sin visdom till de yngre generationerna.",
+    "example_en": "She shared her wisdom with the younger generations.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5509
+  },
+  {
+    "swedish": "uppfostra",
+    "english": "raise, bring up",
+    "example_sv": "Det är viktigt att uppfostra barn med kärlek och respekt.",
+    "example_en": "It is important to raise children with love and respect.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5510
+  },
+  {
+    "swedish": "lagändring",
+    "english": "law change",
+    "example_sv": "Regeringen föreslog en viktig lagändring gällande miljön.",
+    "example_en": "The government proposed an important law change concerning the environment.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5511
+  },
+  {
+    "swedish": "så länge (som)",
+    "english": "as long as",
+    "example_sv": "Du kan bo här så länge som du vill.",
+    "example_en": "You can live here as long as you want.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "conjunction",
+    "rank": 5512
+  },
+  {
+    "swedish": "kulturarv",
+    "english": "cultural heritage",
+    "example_sv": "Vi måste skydda vårt kulturarv för framtida generationer.",
+    "example_en": "We must protect our cultural heritage for future generations.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5513
+  },
+  {
+    "swedish": "nordlig",
+    "english": "northern",
+    "example_sv": "Det nordliga området är känt för sina vackra fjäll.",
+    "example_en": "The northern area is known for its beautiful mountains.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5514
+  },
+  {
+    "swedish": "plantera",
+    "english": "plant",
+    "example_sv": "Vi ska plantera nya träd i trädgården i vår.",
+    "example_en": "We are going to plant new trees in the garden in the spring.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5515
+  },
+  {
+    "swedish": "chaufför",
+    "english": "driver",
+    "example_sv": "Chauffören körde bussen säkert genom den tunga trafiken.",
+    "example_en": "The driver drove the bus safely through the heavy traffic.",
+    "scenario": "Public Transport",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5516
+  },
+  {
+    "swedish": "inuti",
+    "english": "inside",
+    "example_sv": "Jag lämnade nycklarna inuti bilen av misstag.",
+    "example_en": "I accidentally left the keys inside the car.",
+    "scenario": "Driving",
+    "difficulty": "B2",
+    "grammar_hint": "preposition",
+    "rank": 5517
+  },
+  {
+    "swedish": "förbruka",
+    "english": "consume, use",
+    "example_sv": "Vi försöker att förbruka mindre el för att spara pengar.",
+    "example_en": "We are trying to consume less electricity to save money.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5518
+  },
+  {
+    "swedish": "budgetproposition",
+    "english": "budget proposal",
+    "example_sv": "Regeringen presenterade sin budgetproposition för nästa år.",
+    "example_en": "The government presented its budget proposal for next year.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5519
+  },
+  {
+    "swedish": "ceremoni",
+    "english": "ceremony",
+    "example_sv": "Bröllopsceremonin var vacker och mycket känslosam.",
+    "example_en": "The wedding ceremony was beautiful and very emotional.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5520
+  },
+  {
+    "swedish": "uran",
+    "english": "uranium",
+    "example_sv": "Uran används som bränsle i kärnkraftverk runt om i världen.",
+    "example_en": "Uranium is used as fuel in nuclear power plants around the world.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5521
+  },
+  {
+    "swedish": "aktualisera",
+    "english": "bring up, raise",
+    "example_sv": "Debatten aktualiserades efter den senaste rapporten om klimatet.",
+    "example_en": "The debate was raised after the latest report on the climate.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5522
+  },
+  {
+    "swedish": "barnfamilj",
+    "english": "family with children",
+    "example_sv": "Det området är väldigt populärt bland barnfamiljer.",
+    "example_en": "That area is very popular with families with children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5523
+  },
+  {
+    "swedish": "population",
+    "english": "population",
+    "example_sv": "Landets population ökar stadigt varje år.",
+    "example_en": "The country's population is steadily increasing every year.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5524
+  },
+  {
+    "swedish": "undanröja",
+    "english": "remove, eliminate",
+    "example_sv": "Vi måste undanröja alla hinder för en smidig process.",
+    "example_en": "We must remove all obstacles for a smooth process.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5525
+  },
+  {
+    "swedish": "utväg",
+    "english": "way out, solution",
+    "example_sv": "Vi letar efter en utväg ur den här svåra situationen.",
+    "example_en": "We are looking for a way out of this difficult situation.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5526
+  },
+  {
+    "swedish": "entreprenörskap",
+    "english": "entrepreneurship",
+    "example_sv": "Entreprenörskap är viktigt för att skapa nya jobb och innovation.",
+    "example_en": "Entrepreneurship is important for creating new jobs and innovation.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5527
+  },
+  {
+    "swedish": "godtagbar",
+    "english": "acceptable",
+    "example_sv": "Ditt svar är inte godtagbart; du måste försöka igen.",
+    "example_en": "Your answer is not acceptable; you must try again.",
+    "scenario": "At School/University",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5528
+  },
+  {
+    "swedish": "mardröm",
+    "english": "nightmare",
+    "example_sv": "Jag hade en hemsk mardröm om att jag var vilse.",
+    "example_en": "I had a terrible nightmare about being lost.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5529
+  },
+  {
+    "swedish": "storebror",
+    "english": "older brother",
+    "example_sv": "Min storebror hjälpte mig alltid med mina läxor.",
+    "example_en": "My older brother always helped me with my homework.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5530
+  },
+  {
+    "swedish": "isolera",
+    "english": "isolate",
+    "example_sv": "Vi måste isolera huset bättre inför vintern.",
+    "example_en": "We need to insulate the house better for the winter.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5531
+  },
+  {
+    "swedish": "kalas",
+    "english": "party",
+    "example_sv": "Vi ska ha ett stort kalas för att fira min födelsedag.",
+    "example_en": "We are having a big party to celebrate my birthday.",
+    "scenario": "Celebrations",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5532
+  },
+  {
+    "swedish": "kopiering",
+    "english": "copying",
+    "example_sv": "Kopiering av upphovsrättsskyddat material är olagligt.",
+    "example_en": "Copying copyrighted material is illegal.",
+    "scenario": "Technology",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5533
+  },
+  {
+    "swedish": "paroll",
+    "english": "slogan",
+    "example_sv": "Deras paroll var 'En bättre framtid för alla'.",
+    "example_en": "Their slogan was 'A better future for everyone'.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5534
+  },
+  {
+    "swedish": "shoppa",
+    "english": "shop",
+    "example_sv": "Vi ska shoppa i stan hela dagen imorgon.",
+    "example_en": "We're going shopping in town all day tomorrow.",
+    "scenario": "Shopping",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5535
+  },
+  {
+    "swedish": "språkbruk",
+    "english": "language use",
+    "example_sv": "Språkbruket i rapporten var formellt och korrekt.",
+    "example_en": "The language use in the report was formal and correct.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5536
+  },
+  {
+    "swedish": "diabetes",
+    "english": "diabetes",
+    "example_sv": "Min farfar har diabetes och måste ta medicin regelbundet.",
+    "example_en": "My grandfather has diabetes and must take medication regularly.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5537
+  },
+  {
+    "swedish": "fortlöpande",
+    "english": "ongoing, continuous",
+    "example_sv": "Det pågår en fortlöpande utredning av händelsen.",
+    "example_en": "There is an ongoing investigation of the incident.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5538
+  },
+  {
+    "swedish": "klädsel",
+    "english": "attire, clothing",
+    "example_sv": "Klädseln på bröllopet var formell och elegant.",
+    "example_en": "The attire at the wedding was formal and elegant.",
+    "scenario": "Clothing",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5539
+  },
+  {
+    "swedish": "svagt",
+    "english": "weakly, faintly",
+    "example_sv": "Jag hörde svagt ett ljud från andra sidan rummet.",
+    "example_en": "I faintly heard a sound from across the room.",
+    "scenario": "At Home",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5540
+  },
+  {
+    "swedish": "ämbete",
+    "english": "office, position",
+    "example_sv": "Han tillträdde ämbetet som borgmästare förra veckan.",
+    "example_en": "He took office as mayor last week.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5541
+  },
+  {
+    "swedish": "historik",
+    "english": "history",
+    "example_sv": "Företaget har en lång och framgångsrik historik.",
+    "example_en": "The company has a long and successful history.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5542
+  },
+  {
+    "swedish": "intyg",
+    "english": "certificate",
+    "example_sv": "Du behöver ett intyg från läkaren för att vara sjukskriven.",
+    "example_en": "You need a certificate from the doctor to be on sick leave.",
+    "scenario": "At the Doctor",
+    "difficulty": "B2",
+    "grammar_hint": "ett-word",
+    "rank": 5543
+  },
+  {
+    "swedish": "konversation",
+    "english": "conversation",
+    "example_sv": "Vi hade en intressant konversation om politik och samhälle.",
+    "example_en": "We had an interesting conversation about politics and society.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5544
+  },
+  {
+    "swedish": "växel",
+    "english": "exchange, switchboard",
+    "example_sv": "Jag jobbar på en växel och svarar på inkommande samtal.",
+    "example_en": "I work at a switchboard and answer incoming calls.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5545
+  },
+  {
+    "swedish": "byråkratisk",
+    "english": "bureaucratic",
+    "example_sv": "Processen för att få tillstånd är väldigt byråkratisk.",
+    "example_en": "The process for getting a permit is very bureaucratic.",
+    "scenario": "Government & ID",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5546
+  },
+  {
+    "swedish": "etablering",
+    "english": "establishment",
+    "example_sv": "Etableringen av det nya företaget gick smidigt.",
+    "example_en": "The establishment of the new company went smoothly.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5547
+  },
+  {
+    "swedish": "förnuftig",
+    "english": "sensible, reasonable",
+    "example_sv": "Det vore förnuftigt att spara pengar inför framtiden.",
+    "example_en": "It would be sensible to save money for the future.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5548
+  },
+  {
+    "swedish": "hedra",
+    "english": "honor",
+    "example_sv": "Vi vill hedra minnet av de som kämpade för fred.",
+    "example_en": "We want to honor the memory of those who fought for peace.",
+    "scenario": "Traditions",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5549
+  },
+  {
+    "swedish": "omedveten",
+    "english": "unaware, unconscious",
+    "example_sv": "Jag var helt omedveten om att han hade flyttat.",
+    "example_en": "I was completely unaware that he had moved.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5550
+  },
+  {
+    "swedish": "stundtals",
+    "english": "at times, occasionally",
+    "example_sv": "Det kan vara stundtals svårt att förstå vad han säger.",
+    "example_en": "It can be difficult at times to understand what he is saying.",
+    "scenario": "Small Talk",
+    "difficulty": "B2",
+    "grammar_hint": "adverb",
+    "rank": 5551
+  },
+  {
+    "swedish": "tjata",
+    "english": "nag, whine",
+    "example_sv": "Sluta tjata, jag ska göra det snart!",
+    "example_en": "Stop nagging, I'll do it soon!",
+    "scenario": "Family & Relationships",
+    "difficulty": "B2",
+    "grammar_hint": "verb",
+    "rank": 5552
+  },
+  {
+    "swedish": "tjeckisk",
+    "english": "Czech",
+    "example_sv": "Jag älskar tjeckisk öl och traditionell mat.",
+    "example_en": "I love Czech beer and traditional food.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5553
+  },
+  {
+    "swedish": "åtanke",
+    "english": "consideration",
+    "example_sv": "Ha det i åtanke när du fattar ditt beslut.",
+    "example_en": "Keep that in mind when you make your decision.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5554
+  },
+  {
+    "swedish": "fördelaktig",
+    "english": "advantageous",
+    "example_sv": "Ett fasträntekonto kan vara fördelaktigt i dagens läge.",
+    "example_en": "A fixed-interest account can be advantageous in the current situation.",
+    "scenario": "Banking",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5555
+  },
+  {
+    "swedish": "assistent",
+    "english": "assistant",
+    "example_sv": "Min assistent hjälper mig med alla administrativa uppgifter.",
+    "example_en": "My assistant helps me with all the administrative tasks.",
+    "scenario": "At the Office",
+    "difficulty": "B2",
+    "grammar_hint": "en-word",
+    "rank": 5556
+  },
+  {
+    "swedish": "läskig",
+    "english": "scary",
+    "example_sv": "Den filmen var så läskig att jag inte kunde sova.",
+    "example_en": "That movie was so scary that I couldn't sleep.",
+    "scenario": "Entertainment",
+    "difficulty": "B2",
+    "grammar_hint": "adjective",
+    "rank": 5557
+  }
+]

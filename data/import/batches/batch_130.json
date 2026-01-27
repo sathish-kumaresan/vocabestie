@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "hastig",
+    "english": "sudden, hasty",
+    "example_sv": "Han tog ett hastigt beslut att sälja sin lägenhet.",
+    "example_en": "He made a hasty decision to sell his apartment.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6783
+  },
+  {
+    "swedish": "faster",
+    "english": "aunt (father's sister)",
+    "example_sv": "Min faster bor i Göteborg och vi ses sällan.",
+    "example_en": "My aunt lives in Gothenburg and we rarely see each other.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6784
+  },
+  {
+    "swedish": "sammankalla",
+    "english": "convene, summon",
+    "example_sv": "Chefen beslutade att sammankalla ett krismöte omedelbart.",
+    "example_en": "The boss decided to convene a crisis meeting immediately.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6785
+  },
+  {
+    "swedish": "anekdot",
+    "english": "anecdote",
+    "example_sv": "Professorn delade med sig av en rolig anekdot från sin ungdom.",
+    "example_en": "The professor shared a funny anecdote from his youth.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6786
+  },
+  {
+    "swedish": "rekommenderad",
+    "english": "recommended",
+    "example_sv": "Den rekommenderade dosen är en tablett om dagen.",
+    "example_en": "The recommended dose is one tablet per day.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6787
+  },
+  {
+    "swedish": "dike",
+    "english": "ditch, drain",
+    "example_sv": "Bilen körde av vägen och hamnade i ett dike.",
+    "example_en": "The car drove off the road and ended up in a ditch.",
+    "scenario": "Driving",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6788
+  },
+  {
+    "swedish": "parfym",
+    "english": "perfume",
+    "example_sv": "Hon köpte en ny parfym på flygplatsen i taxfree-butiken.",
+    "example_en": "She bought a new perfume at the airport duty-free shop.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6789
+  },
+  {
+    "swedish": "intuition",
+    "english": "intuition",
+    "example_sv": "Jag hade en intuition om att något inte stod rätt till.",
+    "example_en": "I had an intuition that something was not right.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6790
+  },
+  {
+    "swedish": "kortvarig",
+    "english": "brief, short-lived",
+    "example_sv": "Lyckan över vinsten var kortvarig när skatten kom.",
+    "example_en": "The joy over the win was short-lived when the tax bill arrived.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6791
+  },
+  {
+    "swedish": "växthus",
+    "english": "greenhouse",
+    "example_sv": "Tomaterna trivs bra i vårt nya växthus på tomten.",
+    "example_en": "The tomatoes thrive in our new greenhouse in the garden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6792
+  },
+  {
+    "swedish": "modul",
+    "english": "module",
+    "example_sv": "Kursen är uppdelad i flera moduler med olika teman.",
+    "example_en": "The course is divided into several modules with different themes.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6793
+  },
+  {
+    "swedish": "fantisera",
+    "english": "fantasize",
+    "example_sv": "Jag älskar att fantisera om hur mitt framtida hus ska se ut.",
+    "example_en": "I love to fantasize about what my future house will look like.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6794
+  },
+  {
+    "swedish": "landsman",
+    "english": "compatriot",
+    "example_sv": "Det var trevligt att träffa en landsman i det här landet.",
+    "example_en": "It was nice to meet a compatriot in this country.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6795
+  },
+  {
+    "swedish": "skönlitteratur",
+    "english": "fiction",
+    "example_sv": "Jag föredrar att läsa skönlitteratur framför facklitteratur.",
+    "example_en": "I prefer to read fiction rather than non-fiction.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6796
+  },
+  {
+    "swedish": "maka",
+    "english": "spouse (female)",
+    "example_sv": "Han presenterade sin maka för alla sina kollegor.",
+    "example_en": "He introduced his wife to all his colleagues.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6797
+  },
+  {
+    "swedish": "prosa",
+    "english": "prose",
+    "example_sv": "Hennes debutroman är skriven i vacker, poetisk prosa.",
+    "example_en": "Her debut novel is written in beautiful, poetic prose.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "noun",
+    "rank": 6798
+  },
+  {
+    "swedish": "användbarhet",
+    "english": "usability",
+    "example_sv": "Vi måste förbättra hemsidans användbarhet för våra kunder.",
+    "example_en": "We need to improve the website's usability for our customers.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6799
+  },
+  {
+    "swedish": "förläggare",
+    "english": "publisher",
+    "example_sv": "Förläggaren var mycket nöjd med bokens försäljningssiffror.",
+    "example_en": "The publisher was very pleased with the book's sales figures.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6800
+  },
+  {
+    "swedish": "förolämpa",
+    "english": "insult, offend",
+    "example_sv": "Han ville inte förolämpa henne, men hans ord kom ut fel.",
+    "example_en": "He didn't want to offend her, but his words came out wrong.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6801
+  },
+  {
+    "swedish": "påföljande",
+    "english": "subsequent, following",
+    "example_sv": "Påföljande dag åkte vi på en guidad tur i staden.",
+    "example_en": "The following day, we went on a guided tour of the city.",
+    "scenario": "Hotel",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6802
+  },
+  {
+    "swedish": "notering",
+    "english": "note, notation",
+    "example_sv": "Jag gjorde en notering i min kalender om mötet imorgon.",
+    "example_en": "I made a note in my calendar about the meeting tomorrow.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6803
+  },
+  {
+    "swedish": "nål",
+    "english": "needle",
+    "example_sv": "Hon stack sig på nålen när hon sydde knappen.",
+    "example_en": "She pricked herself with the needle when she sewed the button.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6804
+  },
+  {
+    "swedish": "talrik",
+    "english": "numerous, many",
+    "example_sv": "Det fanns talrika exempel på hans generositet.",
+    "example_en": "There were numerous examples of his generosity.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6805
+  },
+  {
+    "swedish": "komplettering",
+    "english": "completion, addition",
+    "example_sv": "Vi behöver en komplettering av dokumentationen innan vi kan godkänna ansökan.",
+    "example_en": "We need a completion of the documentation before we can approve the application.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6806
+  },
+  {
+    "swedish": "ordspråk",
+    "english": "proverb, saying",
+    "example_sv": "Det finns ett ordspråk som säger 'den som gapar efter mycket...'.",
+    "example_en": "There is a proverb that says 'he who reaches for too much...'.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6807
+  },
+  {
+    "swedish": "solnedgång",
+    "english": "sunset",
+    "example_sv": "Vi satt på stranden och tittade på den vackra solnedgången.",
+    "example_en": "We sat on the beach watching the beautiful sunset.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6808
+  },
+  {
+    "swedish": "attribut",
+    "english": "attribute",
+    "example_sv": "Tålamod är ett viktigt attribut för en lärare.",
+    "example_en": "Patience is an important attribute for a teacher.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6809
+  },
+  {
+    "swedish": "fosterland",
+    "english": "fatherland, homeland",
+    "example_sv": "Han offrade allt för sitt fosterland.",
+    "example_en": "He sacrificed everything for his homeland.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6810
+  },
+  {
+    "swedish": "klot",
+    "english": "sphere, globe",
+    "example_sv": "Jorden är ett klot som snurrar runt solen.",
+    "example_en": "The Earth is a sphere that revolves around the sun.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6811
+  },
+  {
+    "swedish": "utbetala",
+    "english": "pay out, disburse",
+    "example_sv": "Banken kommer att utbetala lönen på fredag.",
+    "example_en": "The bank will pay out the salary on Friday.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6812
+  },
+  {
+    "swedish": "alfabet",
+    "english": "alphabet",
+    "example_sv": "Det svenska alfabetet har 29 bokstäver.",
+    "example_en": "The Swedish alphabet has 29 letters.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6813
+  },
+  {
+    "swedish": "bokföring",
+    "english": "bookkeeping, accounting",
+    "example_sv": "Jag behöver hjälp med bokföringen för mitt företag.",
+    "example_en": "I need help with the bookkeeping for my company.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6814
+  },
+  {
+    "swedish": "fräck",
+    "english": "cheeky, bold",
+    "example_sv": "Han var lite fräck när han flörtade med servitrisen.",
+    "example_en": "He was a little cheeky when he flirted with the waitress.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6815
+  },
+  {
+    "swedish": "gammaldags",
+    "english": "old-fashioned",
+    "example_sv": "Den här restaurangen har en mysig, gammaldags atmosfär.",
+    "example_en": "This restaurant has a cozy, old-fashioned atmosphere.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6816
+  },
+  {
+    "swedish": "jorden",
+    "english": "Earth",
+    "example_sv": "Vi måste ta hand om jorden för framtida generationer.",
+    "example_en": "We must take care of the Earth for future generations.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "noun",
+    "rank": 6817
+  },
+  {
+    "swedish": "jaså",
+    "english": "oh really?",
+    "example_sv": "Jaså, har du verkligen träffat Brad Pitt?",
+    "example_en": "Oh really, have you actually met Brad Pitt?",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "interjection",
+    "rank": 6818
+  },
+  {
+    "swedish": "lämplighet",
+    "english": "suitability, appropriateness",
+    "example_sv": "Vi undersöker kandidatens lämplighet för jobbet.",
+    "example_en": "We are investigating the candidate's suitability for the job.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6819
+  },
+  {
+    "swedish": "sönderfall",
+    "english": "decay, disintegration",
+    "example_sv": "Kärnvapnen bidrar till sönderfall av stabiliteten i världen.",
+    "example_en": "Nuclear weapons contribute to the disintegration of stability in the world.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6820
+  },
+  {
+    "swedish": "ämbetsman",
+    "english": "civil servant",
+    "example_sv": "Ämbetsmannen förklarade den nya lagen i detalj.",
+    "example_en": "The civil servant explained the new law in detail.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6821
+  },
+  {
+    "swedish": "duell",
+    "english": "duel",
+    "example_sv": "De två männen utmanade varandra till en duell.",
+    "example_en": "The two men challenged each other to a duel.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6822
+  },
+  {
+    "swedish": "likviditet",
+    "english": "liquidity",
+    "example_sv": "Företaget har problem med likviditeten och kan inte betala sina skulder.",
+    "example_en": "The company has liquidity problems and cannot pay its debts.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6823
+  },
+  {
+    "swedish": "lossna",
+    "english": "come loose, detach",
+    "example_sv": "En knapp hade lossnat från min jacka i morse.",
+    "example_en": "A button had come loose from my jacket this morning.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6824
+  },
+  {
+    "swedish": "mikrofon",
+    "english": "microphone",
+    "example_sv": "Artisten testade mikrofonen innan konserten började.",
+    "example_en": "The artist tested the microphone before the concert started.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6825
+  },
+  {
+    "swedish": "trottoar",
+    "english": "sidewalk, pavement",
+    "example_sv": "Det låg glassplitter på trottoaren efter festen.",
+    "example_en": "There was broken glass on the sidewalk after the party.",
+    "scenario": "Directions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6826
+  },
+  {
+    "swedish": "slips",
+    "english": "tie",
+    "example_sv": "Han knöt sin slips och gick till jobbet.",
+    "example_en": "He tied his tie and went to work.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6827
+  },
+  {
+    "swedish": "hormon",
+    "english": "hormone",
+    "example_sv": "Hormonerna spelar en viktig roll i puberteten.",
+    "example_en": "Hormones play an important role in puberty.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6828
+  },
+  {
+    "swedish": "illamående",
+    "english": "nausea",
+    "example_sv": "Hon kände ett plötsligt illamående och var tvungen att sätta sig.",
+    "example_en": "She felt a sudden nausea and had to sit down.",
+    "scenario": "At the Doctor",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6829
+  },
+  {
+    "swedish": "tilldelning",
+    "english": "allocation, assignment",
+    "example_sv": "Vi väntar på tilldelningen av resurser från huvudkontoret.",
+    "example_en": "We are waiting for the allocation of resources from headquarters.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6830
+  },
+  {
+    "swedish": "aluminium",
+    "english": "aluminum",
+    "example_sv": "Den här kastrullen är gjord av lätt och hållbart aluminium.",
+    "example_en": "This saucepan is made of lightweight and durable aluminum.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6831
+  },
+  {
+    "swedish": "kappa",
+    "english": "coat",
+    "example_sv": "Hon tog på sig sin varma kappa innan hon gick ut.",
+    "example_en": "She put on her warm coat before going out.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6832
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "skadlig",
+    "english": "harmful, damaging",
+    "example_sv": "Rökning är skadlig för både rökaren och de runt omkring.",
+    "example_en": "Smoking is harmful for both the smoker and those around them.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3330
+  },
+  {
+    "swedish": "ansöka",
+    "english": "to apply",
+    "example_sv": "Jag ska ansöka om ett stipendium till hösten.",
+    "example_en": "I'm going to apply for a scholarship in the autumn.",
+    "scenario": "At School/University",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3331
+  },
+  {
+    "swedish": "industriell",
+    "english": "industrial",
+    "example_sv": "Staden har genomgått en stor industriell utveckling de senaste åren.",
+    "example_en": "The city has undergone a major industrial development in recent years.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3332
+  },
+  {
+    "swedish": "köpare",
+    "english": "buyer",
+    "example_sv": "Köparen var mycket nöjd med husets skick.",
+    "example_en": "The buyer was very pleased with the condition of the house.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3333
+  },
+  {
+    "swedish": "börs",
+    "english": "stock exchange",
+    "example_sv": "Aktiekurserna steg kraftigt på börsen idag.",
+    "example_en": "Stock prices rose sharply on the stock exchange today.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3334
+  },
+  {
+    "swedish": "beklaga",
+    "english": "to regret, apologize",
+    "example_sv": "Jag beklagar verkligen det som hände dig.",
+    "example_en": "I am very sorry for what happened to you.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3335
+  },
+  {
+    "swedish": "korruption",
+    "english": "corruption",
+    "example_sv": "Korruption är ett stort problem i många länder.",
+    "example_en": "Corruption is a major problem in many countries.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3336
+  },
+  {
+    "swedish": "uppföra",
+    "english": "to behave",
+    "example_sv": "Barnen måste lära sig att uppföra sig ordentligt.",
+    "example_en": "Children must learn to behave properly.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3337
+  },
+  {
+    "swedish": "arbetsförmedling",
+    "english": "employment agency",
+    "example_sv": "Jag sökte hjälp hos arbetsförmedlingen för att hitta jobb.",
+    "example_en": "I sought help from the employment agency to find a job.",
+    "scenario": "Job Interview",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3338
+  },
+  {
+    "swedish": "fria",
+    "english": "to acquit",
+    "example_sv": "Mannen friades från alla anklagelser i rätten.",
+    "example_en": "The man was acquitted of all charges in court.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3339
+  },
+  {
+    "swedish": "britt",
+    "english": "Brit, British person",
+    "example_sv": "Min granne är britt och kommer från London.",
+    "example_en": "My neighbor is British and comes from London.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3340
+  },
+  {
+    "swedish": "kontinent",
+    "english": "continent",
+    "example_sv": "Europa är en relativt liten kontinent.",
+    "example_en": "Europe is a relatively small continent.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3341
+  },
+  {
+    "swedish": "låda",
+    "english": "box, crate",
+    "example_sv": "Jag packade alla mina böcker i en stor låda.",
+    "example_en": "I packed all my books in a large box.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3342
+  },
+  {
+    "swedish": "bevaka",
+    "english": "to monitor, guard",
+    "example_sv": "Polisen fick i uppdrag att bevaka området.",
+    "example_en": "The police were assigned to monitor the area.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3343
+  },
+  {
+    "swedish": "besparing",
+    "english": "saving",
+    "example_sv": "Vi har gjort stora besparingar på elförbrukningen i år.",
+    "example_en": "We have made large savings on electricity consumption this year.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3344
+  },
+  {
+    "swedish": "redovisning",
+    "english": "accounting",
+    "example_sv": "Hon arbetar med redovisning på ett stort företag.",
+    "example_en": "She works with accounting at a large company.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3345
+  },
+  {
+    "swedish": "variation",
+    "english": "variation",
+    "example_sv": "Det finns en stor variation av blommor i trädgården.",
+    "example_en": "There is a large variation of flowers in the garden.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3346
+  },
+  {
+    "swedish": "detaljerad",
+    "english": "detailed",
+    "example_sv": "Jag vill ha en detaljerad beskrivning av projektet.",
+    "example_en": "I want a detailed description of the project.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3347
+  },
+  {
+    "swedish": "skratt",
+    "english": "laughter",
+    "example_sv": "Hennes skratt är väldigt smittsamt och glatt.",
+    "example_en": "Her laughter is very contagious and cheerful.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3348
+  },
+  {
+    "swedish": "naken",
+    "english": "naked",
+    "example_sv": "Barnet sprang naken runt i trädgården.",
+    "example_en": "The child ran naked around the garden.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3349
+  },
+  {
+    "swedish": "byggande",
+    "english": "construction",
+    "example_sv": "Byggandet av den nya bron kommer att ta flera år.",
+    "example_en": "The construction of the new bridge will take several years.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3350
+  },
+  {
+    "swedish": "konstruktiv",
+    "english": "constructive",
+    "example_sv": "Vi hade en konstruktiv diskussion om framtiden.",
+    "example_en": "We had a constructive discussion about the future.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3351
+  },
+  {
+    "swedish": "integrera",
+    "english": "to integrate",
+    "example_sv": "Vi försöker integrera nyanlända i samhället.",
+    "example_en": "We are trying to integrate newcomers into society.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3352
+  },
+  {
+    "swedish": "återkommande",
+    "english": "recurring",
+    "example_sv": "Han har återkommande problem med ryggen.",
+    "example_en": "He has recurring problems with his back.",
+    "scenario": "At the Doctor",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3353
+  },
+  {
+    "swedish": "slump",
+    "english": "chance, coincidence",
+    "example_sv": "Det var en ren slump att vi träffades där.",
+    "example_en": "It was pure chance that we met there.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3354
+  },
+  {
+    "swedish": "mottagare",
+    "english": "recipient",
+    "example_sv": "Mottagaren av priset var mycket rörd.",
+    "example_en": "The recipient of the prize was very moved.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3355
+  },
+  {
+    "swedish": "återgå",
+    "english": "to return, revert",
+    "example_sv": "Vi måste återgå till det ursprungliga förslaget.",
+    "example_en": "We must return to the original proposal.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3356
+  },
+  {
+    "swedish": "i likhet med",
+    "english": "like, similar to",
+    "example_sv": "I likhet med många andra gillar jag att resa.",
+    "example_en": "Like many others, I like to travel.",
+    "scenario": "Small Talk",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3357
+  },
+  {
+    "swedish": "leverantör",
+    "english": "supplier",
+    "example_sv": "Vi behöver hitta en ny leverantör av kontorsmaterial.",
+    "example_en": "We need to find a new supplier of office supplies.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3358
+  },
+  {
+    "swedish": "storm",
+    "english": "storm",
+    "example_sv": "En kraftig storm drog in över kusten igår.",
+    "example_en": "A severe storm swept over the coast yesterday.",
+    "scenario": "Weather",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3360
+  },
+  {
+    "swedish": "pirat",
+    "english": "pirate",
+    "example_sv": "Filmen handlar om en grupp farliga pirater.",
+    "example_en": "The movie is about a group of dangerous pirates.",
+    "scenario": "Entertainment",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3361
+  },
+  {
+    "swedish": "svänga",
+    "english": "to turn, swing",
+    "example_sv": "Du måste svänga vänster vid nästa korsning.",
+    "example_en": "You must turn left at the next intersection.",
+    "scenario": "Directions",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3362
+  },
+  {
+    "swedish": "bifall",
+    "english": "approval, applause",
+    "example_sv": "Förslaget möttes med stort bifall från publiken.",
+    "example_en": "The proposal was met with great approval from the audience.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3363
+  },
+  {
+    "swedish": "instruktion",
+    "english": "instruction",
+    "example_sv": "Följ instruktionerna noggrant för bästa resultat.",
+    "example_en": "Follow the instructions carefully for best results.",
+    "scenario": "At Home",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3364
+  },
+  {
+    "swedish": "upptagen",
+    "english": "busy",
+    "example_sv": "Jag är väldigt upptagen idag, jag kan inte prata nu.",
+    "example_en": "I'm very busy today, I can't talk now.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3365
+  },
+  {
+    "swedish": "rationell",
+    "english": "rational",
+    "example_sv": "Vi måste fatta ett rationellt beslut i den här situationen.",
+    "example_en": "We must make a rational decision in this situation.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3367
+  },
+  {
+    "swedish": "överstiga",
+    "english": "to exceed",
+    "example_sv": "Kostnaderna får inte överstiga budgeten.",
+    "example_en": "The costs must not exceed the budget.",
+    "scenario": "Banking",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3368
+  },
+  {
+    "swedish": "delad",
+    "english": "shared, divided",
+    "example_sv": "Vi har en delad vårdnad om barnen.",
+    "example_en": "We have shared custody of the children.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3369
+  },
+  {
+    "swedish": "skärpa",
+    "english": "to sharpen, tighten",
+    "example_sv": "Vi måste skärpa säkerheten i området.",
+    "example_en": "We need to tighten security in the area.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "verb",
+    "rank": 3370
+  },
+  {
+    "swedish": "tillverkare",
+    "english": "manufacturer",
+    "example_sv": "Denna bil är tillverkad av en svensk tillverkare.",
+    "example_en": "This car is made by a Swedish manufacturer.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3371
+  },
+  {
+    "swedish": "imponerande",
+    "english": "impressive",
+    "example_sv": "Hennes prestation var verkligen imponerande.",
+    "example_en": "Her performance was truly impressive.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3372
+  },
+  {
+    "swedish": "följaktligen",
+    "english": "consequently, therefore",
+    "example_sv": "Han var sen, följaktligen missade han tåget.",
+    "example_en": "He was late, consequently he missed the train.",
+    "scenario": "Daily Routines",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3373
+  },
+  {
+    "swedish": "misstanke",
+    "english": "suspicion",
+    "example_sv": "Polisen har en stark misstanke mot mannen.",
+    "example_en": "The police have a strong suspicion against the man.",
+    "scenario": "Government & ID",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3375
+  },
+  {
+    "swedish": "omdöme",
+    "english": "judgment, opinion",
+    "example_sv": "Jag litar på hennes omdöme i den här frågan.",
+    "example_en": "I trust her judgment in this matter.",
+    "scenario": "Family & Relationships",
+    "difficulty": "B1",
+    "grammar_hint": "ett-word",
+    "rank": 3376
+  },
+  {
+    "swedish": "kod",
+    "english": "code",
+    "example_sv": "Du måste ange en kod för att öppna dörren.",
+    "example_en": "You must enter a code to open the door.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3377
+  },
+  {
+    "swedish": "server",
+    "english": "server",
+    "example_sv": "Servern gick ner och webbplatsen är otillgänglig.",
+    "example_en": "The server went down and the website is unavailable.",
+    "scenario": "Technology",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3378
+  },
+  {
+    "swedish": "magisk",
+    "english": "magical",
+    "example_sv": "Kvällen var helt magisk med stjärnor och månsken.",
+    "example_en": "The evening was completely magical with stars and moonlight.",
+    "scenario": "Celebrations",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3379
+  },
+  {
+    "swedish": "sträng",
+    "english": "strict, severe",
+    "example_sv": "Min chef är väldigt sträng när det gäller regler.",
+    "example_en": "My boss is very strict when it comes to rules.",
+    "scenario": "At the Office",
+    "difficulty": "B1",
+    "grammar_hint": "adjective",
+    "rank": 3380
+  },
+  {
+    "swedish": "vad som helst",
+    "english": "anything, whatever",
+    "example_sv": "Du kan välja vad som helst från menyn.",
+    "example_en": "You can choose anything from the menu.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "B1",
+    "grammar_hint": "adverb",
+    "rank": 3381
+  },
+  {
+    "swedish": "dagbok",
+    "english": "diary, journal",
+    "example_sv": "Jag skriver i min dagbok varje kväll innan jag sover.",
+    "example_en": "I write in my diary every evening before I sleep.",
+    "scenario": "Hobbies",
+    "difficulty": "B1",
+    "grammar_hint": "en-word",
+    "rank": 3382
+  }
+]

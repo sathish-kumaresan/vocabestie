@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "krage",
+    "english": "collar",
+    "example_sv": "Han knäppte upp sin skjortas krage eftersom det var varmt.",
+    "example_en": "He unbuttoned his shirt collar because it was hot.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8185
+  },
+  {
+    "swedish": "reklamera",
+    "english": "to complain, return",
+    "example_sv": "Jag måste reklamera den här tröjan, den har ett hål.",
+    "example_en": "I need to return this sweater, it has a hole.",
+    "scenario": "Shopping",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8186
+  },
+  {
+    "swedish": "tempus",
+    "english": "tense",
+    "example_sv": "Vilket tempus ska vi använda för att beskriva framtiden?",
+    "example_en": "Which tense should we use to describe the future?",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8187
+  },
+  {
+    "swedish": "upplag",
+    "english": "edition",
+    "example_sv": "Den nya boken trycktes i en stor upplag direkt.",
+    "example_en": "The new book was printed in a large edition immediately.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8188
+  },
+  {
+    "swedish": "tekniker",
+    "english": "technician",
+    "example_sv": "Vi behöver en tekniker för att reparera den här maskinen.",
+    "example_en": "We need a technician to repair this machine.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8189
+  },
+  {
+    "swedish": "avläsning",
+    "english": "reading",
+    "example_sv": "Avläsningen av mätaren visade en hög elförbrukning.",
+    "example_en": "The reading of the meter showed a high electricity consumption.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8190
+  },
+  {
+    "swedish": "knall",
+    "english": "bang",
+    "example_sv": "Det hördes en hög knall när ballongen sprack.",
+    "example_en": "There was a loud bang when the balloon burst.",
+    "scenario": "Celebrations",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8191
+  },
+  {
+    "swedish": "molnig",
+    "english": "cloudy",
+    "example_sv": "Det ser ut att bli en molnig dag idag.",
+    "example_en": "It looks like it will be a cloudy day today.",
+    "scenario": "Weather",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8192
+  },
+  {
+    "swedish": "sårande",
+    "english": "hurtful",
+    "example_sv": "Hennes kommentar var väldigt sårande och onödig.",
+    "example_en": "Her comment was very hurtful and unnecessary.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8193
+  },
+  {
+    "swedish": "särprägel",
+    "english": "distinctiveness",
+    "example_sv": "Staden har en unik särprägel tack vare sin historia.",
+    "example_en": "The city has a unique distinctiveness thanks to its history.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8194
+  },
+  {
+    "swedish": "yrkesman",
+    "english": "professional",
+    "example_sv": "Anlita alltid en behörig yrkesman för elinstallationer.",
+    "example_en": "Always hire a qualified professional for electrical installations.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8196
+  },
+  {
+    "swedish": "återuppståndelse",
+    "english": "resurrection",
+    "example_sv": "Filmen handlar om en mytologisk återuppståndelse.",
+    "example_en": "The film is about a mythological resurrection.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8197
+  },
+  {
+    "swedish": "manöver",
+    "english": "maneuver",
+    "example_sv": "Piloten utförde en riskabel manöver för att undvika kollision.",
+    "example_en": "The pilot performed a risky maneuver to avoid a collision.",
+    "scenario": "Driving",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8198
+  },
+  {
+    "swedish": "myr",
+    "english": "bog",
+    "example_sv": "Vi vandrade genom den fuktiga myren på eftermiddagen.",
+    "example_en": "We hiked through the damp bog in the afternoon.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8199
+  },
+  {
+    "swedish": "överse",
+    "english": "overlook",
+    "example_sv": "Chefen brukar överse mindre misstag på kontoret.",
+    "example_en": "The boss usually overlooks minor mistakes in the office.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8200
+  },
+  {
+    "swedish": "atletisk",
+    "english": "athletic",
+    "example_sv": "Hon är en mycket atletisk person som älskar att träna.",
+    "example_en": "She is a very athletic person who loves to work out.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8201
+  },
+  {
+    "swedish": "skolflicka",
+    "english": "schoolgirl",
+    "example_sv": "Skolflickan cyklade snabbt hem efter skolan.",
+    "example_en": "The schoolgirl cycled home quickly after school.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8202
+  },
+  {
+    "swedish": "atlet",
+    "english": "athlete",
+    "example_sv": "Den unga atleten tränade hårt inför olympiaden.",
+    "example_en": "The young athlete trained hard for the Olympics.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8203
+  },
+  {
+    "swedish": "debitering",
+    "english": "charge",
+    "example_sv": "Jag ifrågasätter debiteringen på min senaste faktura.",
+    "example_en": "I question the charge on my latest invoice.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8204
+  },
+  {
+    "swedish": "huslig",
+    "english": "homely",
+    "example_sv": "Hon är väldigt huslig och älskar att baka.",
+    "example_en": "She is very homely and loves to bake.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8205
+  },
+  {
+    "swedish": "postlåda",
+    "english": "mailbox",
+    "example_sv": "Jag tömde postlådan på vägen hem från jobbet.",
+    "example_en": "I emptied the mailbox on my way home from work.",
+    "scenario": "Post Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8206
+  },
+  {
+    "swedish": "millennium",
+    "english": "millennium",
+    "example_sv": "Vi lever nu i det tredje millennium sedan Kristus.",
+    "example_en": "We are now living in the third millennium since Christ.",
+    "scenario": "Numbers",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8207
+  },
+  {
+    "swedish": "armbandsur",
+    "english": "wristwatch",
+    "example_sv": "Han tittade på sitt armbandsur och konstaterade att han var sen.",
+    "example_en": "He looked at his wristwatch and realized he was late.",
+    "scenario": "Daily Routines",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8209
+  },
+  {
+    "swedish": "betäckning",
+    "english": "designation",
+    "example_sv": "Vagnen hade betäckningen 'Sittvagn' tydligt markerad.",
+    "example_en": "The carriage had the designation 'Seating Car' clearly marked.",
+    "scenario": "Public Transport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8210
+  },
+  {
+    "swedish": "brorsdotter",
+    "english": "niece",
+    "example_sv": "Min brorsdotter är en väldigt intelligent och kreativ tjej.",
+    "example_en": "My niece is a very intelligent and creative girl.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8211
+  },
+  {
+    "swedish": "brutto",
+    "english": "gross",
+    "example_sv": "Min bruttolön är högre än min nettolön efter skatt.",
+    "example_en": "My gross salary is higher than my net salary after tax.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "adverb",
+    "rank": 8212
+  },
+  {
+    "swedish": "scarf",
+    "english": "scarf",
+    "example_sv": "Hon bar en vacker scarf runt halsen för att hålla värmen.",
+    "example_en": "She wore a beautiful scarf around her neck to stay warm.",
+    "scenario": "Clothing",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8214
+  },
+  {
+    "swedish": "annullering",
+    "english": "cancellation",
+    "example_sv": "Vi fick ett mejl om annullering av flyget i morse.",
+    "example_en": "We received an email about the cancellation of the flight this morning.",
+    "scenario": "At the Airport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8215
+  },
+  {
+    "swedish": "flanera",
+    "english": "stroll",
+    "example_sv": "Vi bestämde oss för att flanera längs strandpromenaden i kväll.",
+    "example_en": "We decided to stroll along the promenade this evening.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8216
+  },
+  {
+    "swedish": "läkarvetenskap",
+    "english": "medicine",
+    "example_sv": "Hon studerar läkarvetenskap på universitetet i Uppsala.",
+    "example_en": "She studies medicine at the university in Uppsala.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8217
+  },
+  {
+    "swedish": "apparatur",
+    "english": "apparatus",
+    "example_sv": "Laboratoriet är utrustat med avancerad vetenskaplig apparatur.",
+    "example_en": "The laboratory is equipped with advanced scientific apparatus.",
+    "scenario": "Technology",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8219
+  },
+  {
+    "swedish": "fosterbarn",
+    "english": "foster child",
+    "example_sv": "De behandlar sitt fosterbarn som en del av familjen.",
+    "example_en": "They treat their foster child as part of the family.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8220
+  },
+  {
+    "swedish": "förbluffa",
+    "english": "astound",
+    "example_sv": "Magikerns trick förbluffade publiken fullständigt.",
+    "example_en": "The magician's tricks completely astounded the audience.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8221
+  },
+  {
+    "swedish": "vrist",
+    "english": "ankle",
+    "example_sv": "Hon stukade vristen när hon sprang i skogen.",
+    "example_en": "She sprained her ankle while running in the forest.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8223
+  },
+  {
+    "swedish": "avskedsansökan",
+    "english": "resignation",
+    "example_sv": "Han lämnade in sin avskedsansökan igår eftermiddag.",
+    "example_en": "He submitted his resignation yesterday afternoon.",
+    "scenario": "At the Office",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8224
+  },
+  {
+    "swedish": "blyertspenna",
+    "english": "pencil",
+    "example_sv": "Jag använde en blyertspenna för att skissa grovt.",
+    "example_en": "I used a pencil to sketch roughly.",
+    "scenario": "Hobbies",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8225
+  },
+  {
+    "swedish": "invändig",
+    "english": "internal",
+    "example_sv": "Skadorna var mestadels invändig och svåra att upptäcka.",
+    "example_en": "The injuries were mostly internal and difficult to detect.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8226
+  },
+  {
+    "swedish": "postulat",
+    "english": "postulate",
+    "example_sv": "Han presenterade ett nytt postulat inom den matematiska forskningen.",
+    "example_en": "He presented a new postulate in mathematical research.",
+    "scenario": "At School/University",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8227
+  },
+  {
+    "swedish": "ytterlig",
+    "english": "extreme",
+    "example_sv": "Vi måste undvika ytterligheter i den politiska debatten.",
+    "example_en": "We must avoid extremes in the political debate.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "adjective",
+    "rank": 8228
+  },
+  {
+    "swedish": "ungdomstid",
+    "english": "youth",
+    "example_sv": "Han minns sin ungdomstid med både glädje och vemod.",
+    "example_en": "He remembers his youth with both joy and melancholy.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8229
+  },
+  {
+    "swedish": "kabin",
+    "english": "cabin",
+    "example_sv": "Vi hade en liten kabin på färjan över Östersjön.",
+    "example_en": "We had a small cabin on the ferry across the Baltic Sea.",
+    "scenario": "Public Transport",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8230
+  },
+  {
+    "swedish": "nödhjälp",
+    "english": "emergency aid",
+    "example_sv": "Organisationen samlar in pengar till nödhjälp för krigsdrabbade.",
+    "example_en": "The organization is raising money for emergency aid for war victims.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8231
+  },
+  {
+    "swedish": "kuriositet",
+    "english": "curiosity",
+    "example_sv": "Museet visar många kuriositeter från 1800-talet.",
+    "example_en": "The museum displays many curiosities from the 19th century.",
+    "scenario": "Entertainment",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8232
+  },
+  {
+    "swedish": "pantsätta",
+    "english": "to pawn",
+    "example_sv": "Han var tvungen att pantsätta sin klocka för att få pengar.",
+    "example_en": "He had to pawn his watch to get money.",
+    "scenario": "Banking",
+    "difficulty": "C2",
+    "grammar_hint": "verb",
+    "rank": 8233
+  },
+  {
+    "swedish": "hake",
+    "english": "catch",
+    "example_sv": "Det finns en liten hake på dörren som du måste lyfta.",
+    "example_en": "There is a small catch on the door that you have to lift.",
+    "scenario": "At Home",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8234
+  },
+  {
+    "swedish": "renlighet",
+    "english": "cleanliness",
+    "example_sv": "Renlighet är viktig för att förhindra spridning av sjukdomar.",
+    "example_en": "Cleanliness is important to prevent the spread of disease.",
+    "scenario": "At the Doctor",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8235
+  },
+  {
+    "swedish": "stjälk",
+    "english": "stalk",
+    "example_sv": "Hon plockade rosor och klippte av stjälken försiktigt.",
+    "example_en": "She picked roses and carefully cut off the stalk.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8236
+  },
+  {
+    "swedish": "överlämning",
+    "english": "handover",
+    "example_sv": "Det var en formell överlämning av makten till den nya regeringen.",
+    "example_en": "It was a formal handover of power to the new government.",
+    "scenario": "Government & ID",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8237
+  },
+  {
+    "swedish": "olympiad",
+    "english": "olympiad",
+    "example_sv": "Nästa sommarolympiad kommer att hållas i Paris.",
+    "example_en": "The next summer olympiad will be held in Paris.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "en-word",
+    "rank": 8238
+  },
+  {
+    "swedish": "bräde",
+    "english": "board",
+    "example_sv": "Surfarens bräde flöt i land efter den kraftiga vågen.",
+    "example_en": "The surfer's board washed ashore after the strong wave.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C2",
+    "grammar_hint": "ett-word",
+    "rank": 8239
+  }
+]

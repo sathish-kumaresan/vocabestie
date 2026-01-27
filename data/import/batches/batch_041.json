@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "utomlands",
+    "english": "abroad",
+    "example_sv": "Jag vill resa utomlands nästa sommar och se Europa.",
+    "example_en": "I want to travel abroad next summer and see Europe.",
+    "scenario": "At the Airport",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2185
+  },
+  {
+    "swedish": "huvudstad",
+    "english": "capital",
+    "example_sv": "Stockholm är Sveriges huvudstad och en vacker stad.",
+    "example_en": "Stockholm is the capital of Sweden and a beautiful city.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2186
+  },
+  {
+    "swedish": "likt",
+    "english": "like",
+    "example_sv": "Han sjunger likt en professionell artist på scenen.",
+    "example_en": "He sings like a professional artist on stage.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2187
+  },
+  {
+    "swedish": "terrorist",
+    "english": "terrorist",
+    "example_sv": "Polisen försöker stoppa varje terrorist hot mot landet.",
+    "example_en": "The police are trying to stop every terrorist threat against the country.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2188
+  },
+  {
+    "swedish": "besökare",
+    "english": "visitor",
+    "example_sv": "Museet har många besökare varje dag under sommaren.",
+    "example_en": "The museum has many visitors every day during the summer.",
+    "scenario": "Entertainment",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2189
+  },
+  {
+    "swedish": "hushåll",
+    "english": "household",
+    "example_sv": "De flesta hushåll i Sverige sorterar sitt avfall.",
+    "example_en": "Most households in Sweden sort their waste.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2190
+  },
+  {
+    "swedish": "respektera",
+    "english": "respect",
+    "example_sv": "Vi måste respektera varandras åsikter även om vi inte håller med.",
+    "example_en": "We must respect each other's opinions even if we disagree.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2191
+  },
+  {
+    "swedish": "fullständig",
+    "english": "complete",
+    "example_sv": "Jag behöver en fullständig adress för att skicka paketet.",
+    "example_en": "I need a complete address to send the package.",
+    "scenario": "Post Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2192
+  },
+  {
+    "swedish": "mäktig",
+    "english": "powerful",
+    "example_sv": "Lejonet är ett mäktigt djur i djungeln.",
+    "example_en": "The lion is a powerful animal in the jungle.",
+    "scenario": "Animals",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2193
+  },
+  {
+    "swedish": "växande",
+    "english": "growing",
+    "example_sv": "Det finns en växande efterfrågan på ekologiska produkter.",
+    "example_en": "There is a growing demand for organic products.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2194
+  },
+  {
+    "swedish": "stabil",
+    "english": "stable",
+    "example_sv": "Företaget har en stabil ekonomi och många anställda.",
+    "example_en": "The company has a stable economy and many employees.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2195
+  },
+  {
+    "swedish": "förvaltning",
+    "english": "administration",
+    "example_sv": "Kommunens förvaltning ansvarar för många viktiga tjänster.",
+    "example_en": "The municipality's administration is responsible for many important services.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2196
+  },
+  {
+    "swedish": "hat",
+    "english": "hate",
+    "example_sv": "Hat leder bara till våld och förstörelse i samhället.",
+    "example_en": "Hate only leads to violence and destruction in society.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2197
+  },
+  {
+    "swedish": "mönster",
+    "english": "pattern",
+    "example_sv": "Tapeten i rummet har ett vackert blommigt mönster.",
+    "example_en": "The wallpaper in the room has a beautiful floral pattern.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2198
+  },
+  {
+    "swedish": "nyss",
+    "english": "just",
+    "example_sv": "Jag kom nyss hem från jobbet och är trött.",
+    "example_en": "I just got home from work and I'm tired.",
+    "scenario": "Daily Routines",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2199
+  },
+  {
+    "swedish": "varumärke",
+    "english": "brand",
+    "example_sv": "Detta är ett känt varumärke för sportkläder i Sverige.",
+    "example_en": "This is a well-known brand for sportswear in Sweden.",
+    "scenario": "Shopping",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2200
+  },
+  {
+    "swedish": "fastighet",
+    "english": "property",
+    "example_sv": "De äger en stor fastighet med ett hus och en trädgård.",
+    "example_en": "They own a large property with a house and a garden.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2201
+  },
+  {
+    "swedish": "inta",
+    "english": "take",
+    "example_sv": "Trupperna försökte inta staden under kriget.",
+    "example_en": "The troops tried to take the city during the war.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2202
+  },
+  {
+    "swedish": "orolig",
+    "english": "worried",
+    "example_sv": "Jag är orolig för min vän som är sjuk.",
+    "example_en": "I am worried about my friend who is sick.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2203
+  },
+  {
+    "swedish": "rulla",
+    "english": "roll",
+    "example_sv": "Bollen började rulla ner för backen snabbt.",
+    "example_en": "The ball started to roll down the hill quickly.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2204
+  },
+  {
+    "swedish": "moral",
+    "english": "morality",
+    "example_sv": "Han har en hög moral och är en ärlig person.",
+    "example_en": "He has high morals and is an honest person.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2205
+  },
+  {
+    "swedish": "motivera",
+    "english": "motivate",
+    "example_sv": "Min tränare hjälper mig att motivera mig till träning.",
+    "example_en": "My trainer helps me to motivate myself to exercise.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2206
+  },
+  {
+    "swedish": "myt",
+    "english": "myth",
+    "example_sv": "Det finns en myt om att vikingar hade horn på sina hjälmar.",
+    "example_en": "There is a myth that Vikings had horns on their helmets.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2207
+  },
+  {
+    "swedish": "noga",
+    "english": "carefully",
+    "example_sv": "Läs instruktionerna noga innan du använder maskinen.",
+    "example_en": "Read the instructions carefully before using the machine.",
+    "scenario": "Technology",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2208
+  },
+  {
+    "swedish": "snacka",
+    "english": "chat",
+    "example_sv": "Vi kan snacka senare om dina framtida planer.",
+    "example_en": "We can chat later about your future plans.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2209
+  },
+  {
+    "swedish": "till sist",
+    "english": "finally",
+    "example_sv": "Till sist lyckades jag få jobbet jag ville ha.",
+    "example_en": "Finally, I managed to get the job I wanted.",
+    "scenario": "Job Interview",
+    "difficulty": "A2",
+    "grammar_hint": "adverb",
+    "rank": 2210
+  },
+  {
+    "swedish": "förmedla",
+    "english": "convey",
+    "example_sv": "Budskapet måste förmedlas tydligt till all personal.",
+    "example_en": "The message must be conveyed clearly to all staff.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2211
+  },
+  {
+    "swedish": "hamn",
+    "english": "harbor",
+    "example_sv": "Båten ligger i hamn under natten när det är storm.",
+    "example_en": "The boat is in the harbor during the night when there is a storm.",
+    "scenario": "Public Transport",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2212
+  },
+  {
+    "swedish": "tillhandahålla",
+    "english": "provide",
+    "example_sv": "Restaurangen tillhandahåller gratis vatten till sina kunder.",
+    "example_en": "The restaurant provides free water to its customers.",
+    "scenario": "Restaurant & Café",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2213
+  },
+  {
+    "swedish": "informera",
+    "english": "inform",
+    "example_sv": "Vi måste informera alla om de nya reglerna.",
+    "example_en": "We must inform everyone about the new rules.",
+    "scenario": "Emails & Communication",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2214
+  },
+  {
+    "swedish": "karta",
+    "english": "map",
+    "example_sv": "Jag använder en karta för att hitta rätt väg.",
+    "example_en": "I use a map to find the right way.",
+    "scenario": "Directions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2215
+  },
+  {
+    "swedish": "utforma",
+    "english": "design",
+    "example_sv": "Arkitekten hjälpte till att utforma det nya huset.",
+    "example_en": "The architect helped to design the new house.",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2216
+  },
+  {
+    "swedish": "konvention",
+    "english": "convention",
+    "example_sv": "Landet följer den internationella konventionen om mänskliga rättigheter.",
+    "example_en": "The country follows the international convention on human rights.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2217
+  },
+  {
+    "swedish": "allt mer",
+    "english": "more and more",
+    "example_sv": "Det blir allt mer populärt att resa med tåg.",
+    "example_en": "It is becoming more and more popular to travel by train.",
+    "scenario": "Public Transport",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "koll",
+    "english": "control",
+    "example_sv": "Jag har inte koll på alla detaljer än, men jag jobbar på det.",
+    "example_en": "I don't have control of all the details yet, but I'm working on it.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2219
+  },
+  {
+    "swedish": "längd",
+    "english": "length",
+    "example_sv": "Vilken är längden på detta rum, tack?",
+    "example_en": "What is the length of this room, please?",
+    "scenario": "At Home",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2220
+  },
+  {
+    "swedish": "medicinsk",
+    "english": "medical",
+    "example_sv": "Han behöver medicinsk hjälp efter olyckan igår.",
+    "example_en": "He needs medical help after the accident yesterday.",
+    "scenario": "At the Doctor",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2221
+  },
+  {
+    "swedish": "läggning",
+    "english": "sexual orientation",
+    "example_sv": "Vi bör acceptera alla oavsett sexuell läggning.",
+    "example_en": "We should accept everyone regardless of sexual orientation.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2222
+  },
+  {
+    "swedish": "kilogram",
+    "english": "kilogram",
+    "example_sv": "Jag behöver två kilogram potatis från affären.",
+    "example_en": "I need two kilograms of potatoes from the store.",
+    "scenario": "Shopping",
+    "difficulty": "B1",
+    "grammar_hint": "noun",
+    "rank": 0
+  },
+  {
+    "swedish": "finansiering",
+    "english": "funding",
+    "example_sv": "Projektet behöver mer finansiering för att kunna slutföras.",
+    "example_en": "The project needs more funding to be completed.",
+    "scenario": "Banking",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2224
+  },
+  {
+    "swedish": "löfte",
+    "english": "promise",
+    "example_sv": "Jag gav min vän ett löfte om att hjälpa henne.",
+    "example_en": "I made my friend a promise to help her.",
+    "scenario": "Family & Relationships",
+    "difficulty": "A2",
+    "grammar_hint": "ett-word",
+    "rank": 2225
+  },
+  {
+    "swedish": "mörda",
+    "english": "murder",
+    "example_sv": "Polisen utreder fallet med den mördade mannen.",
+    "example_en": "The police are investigating the case of the murdered man.",
+    "scenario": "Government & ID",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2226
+  },
+  {
+    "swedish": "amerikan",
+    "english": "American",
+    "example_sv": "Hon är amerikan och kommer från New York.",
+    "example_en": "She is American and comes from New York.",
+    "scenario": "Small Talk",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2228
+  },
+  {
+    "swedish": "rit",
+    "english": "rite",
+    "example_sv": "Det är en gammal rit att tända ljus under advent.",
+    "example_en": "It is an old rite to light candles during Advent.",
+    "scenario": "Traditions",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2229
+  },
+  {
+    "swedish": "status",
+    "english": "status",
+    "example_sv": "Han vill uppdatera sin status på sociala medier.",
+    "example_en": "He wants to update his status on social media.",
+    "scenario": "Phone & Internet",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2230
+  },
+  {
+    "swedish": "biologisk",
+    "english": "biological",
+    "example_sv": "Han studerar biologisk mångfald på universitetet.",
+    "example_en": "He studies biological diversity at the university.",
+    "scenario": "At School/University",
+    "difficulty": "A2",
+    "grammar_hint": "adjective",
+    "rank": 2231
+  },
+  {
+    "swedish": "dikt",
+    "english": "poem",
+    "example_sv": "Hon skrev en vacker dikt om kärlek och förlust.",
+    "example_en": "She wrote a beautiful poem about love and loss.",
+    "scenario": "Hobbies",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2232
+  },
+  {
+    "swedish": "sko",
+    "english": "shoe",
+    "example_sv": "Jag behöver köpa en ny sko till vintern.",
+    "example_en": "I need to buy a new shoe for the winter.",
+    "scenario": "Clothing",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2233
+  },
+  {
+    "swedish": "sträcka",
+    "english": "stretch",
+    "example_sv": "Innan träningen bör du sträcka ut musklerna.",
+    "example_en": "Before training, you should stretch your muscles.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "A2",
+    "grammar_hint": "verb",
+    "rank": 2234
+  },
+  {
+    "swedish": "medarbetare",
+    "english": "colleague",
+    "example_sv": "Jag har många trevliga medarbetare på mitt jobb.",
+    "example_en": "I have many nice colleagues at my job.",
+    "scenario": "At the Office",
+    "difficulty": "A2",
+    "grammar_hint": "en-word",
+    "rank": 2235
+  }
+]

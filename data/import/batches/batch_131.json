@@ -1,0 +1,502 @@
+[
+  {
+    "swedish": "permission",
+    "english": "authorization",
+    "example_sv": "Vi behövde ytterligare permission för att kunna genomföra projektet.",
+    "example_en": "We needed further permission to carry out the project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6833
+  },
+  {
+    "swedish": "försprång",
+    "english": "head start",
+    "example_sv": "Hon fick ett rejält försprång i loppet redan från starten.",
+    "example_en": "She got a significant head start in the race right from the start.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6834
+  },
+  {
+    "swedish": "intim",
+    "english": "intimate",
+    "example_sv": "Konserten skapade en intim stämning mellan artisten och publiken.",
+    "example_en": "The concert created an intimate atmosphere between the artist and the audience.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6835
+  },
+  {
+    "swedish": "älskare",
+    "english": "lover",
+    "example_sv": "Boken handlar om en passionerad relation mellan två älskare.",
+    "example_en": "The book is about a passionate relationship between two lovers.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6836
+  },
+  {
+    "swedish": "skvaller",
+    "english": "gossip",
+    "example_sv": "Hon brydde sig inte om allt skvaller på arbetsplatsen.",
+    "example_en": "She didn't care about all the gossip at the workplace.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6837
+  },
+  {
+    "swedish": "metodik",
+    "english": "methodology",
+    "example_sv": "Forskarna diskuterade metodiken som använts i studien noggrant.",
+    "example_en": "The researchers carefully discussed the methodology used in the study.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6838
+  },
+  {
+    "swedish": "attraktion",
+    "english": "attraction",
+    "example_sv": "Eiffeltornet är en stor attraktion för turister i Paris.",
+    "example_en": "The Eiffel Tower is a major attraction for tourists in Paris.",
+    "scenario": "Hotel",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6839
+  },
+  {
+    "swedish": "fragment",
+    "english": "fragment",
+    "example_sv": "Arkeologerna hittade ett fragment av en antik vas.",
+    "example_en": "The archaeologists found a fragment of an ancient vase.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6840
+  },
+  {
+    "swedish": "magister",
+    "english": "master",
+    "example_sv": "Hon har en magisterexamen i statsvetenskap från Uppsala universitet.",
+    "example_en": "She has a master's degree in political science from Uppsala University.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6841
+  },
+  {
+    "swedish": "reserv",
+    "english": "reserve",
+    "example_sv": "Vi har en reservplan om det här projektet misslyckas.",
+    "example_en": "We have a backup plan if this project fails.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6842
+  },
+  {
+    "swedish": "ekologi",
+    "english": "ecology",
+    "example_sv": "De studerar ekologi och dess påverkan på vår planet.",
+    "example_en": "They are studying ecology and its impact on our planet.",
+    "scenario": "Nature & Outdoors",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6843
+  },
+  {
+    "swedish": "sponsring",
+    "english": "sponsorship",
+    "example_sv": "Företaget erbjöd sponsring till den lokala idrottsföreningen.",
+    "example_en": "The company offered sponsorship to the local sports club.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6844
+  },
+  {
+    "swedish": "adelsman",
+    "english": "nobleman",
+    "example_sv": "Historien berättar om en mäktig adelsman och hans inflytande.",
+    "example_en": "The story tells of a powerful nobleman and his influence.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6845
+  },
+  {
+    "swedish": "maskineri",
+    "english": "machinery",
+    "example_sv": "Fabriken är beroende av ett komplicerat maskineri för produktionen.",
+    "example_en": "The factory depends on complicated machinery for production.",
+    "scenario": "Technology",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6846
+  },
+  {
+    "swedish": "spalt",
+    "english": "column",
+    "example_sv": "Artikeln var för lång för att få plats i en spalt.",
+    "example_en": "The article was too long to fit in one column.",
+    "scenario": "Emails & Communication",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6847
+  },
+  {
+    "swedish": "underkastelse",
+    "english": "submission",
+    "example_sv": "Han vägrade underkastelse och stod upp för sina rättigheter.",
+    "example_en": "He refused submission and stood up for his rights.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6848
+  },
+  {
+    "swedish": "uråldrig",
+    "english": "ancient",
+    "example_sv": "De besökte en uråldrig ruin med en fascinerande historia.",
+    "example_en": "They visited an ancient ruin with a fascinating history.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6849
+  },
+  {
+    "swedish": "clown",
+    "english": "clown",
+    "example_sv": "Barnen skrattade åt clowner som uppträdde på cirkusen.",
+    "example_en": "The children laughed at the clowns performing at the circus.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6850
+  },
+  {
+    "swedish": "verbal",
+    "english": "verbal",
+    "example_sv": "Han var mycket verbal och kunde uttrycka sig väl.",
+    "example_en": "He was very verbal and could express himself well.",
+    "scenario": "Job Interview",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6852
+  },
+  {
+    "swedish": "polisstation",
+    "english": "police station",
+    "example_sv": "De rapporterade stölden på polisstationen igår eftermiddag.",
+    "example_en": "They reported the theft at the police station yesterday afternoon.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6854
+  },
+  {
+    "swedish": "borsta",
+    "english": "brush",
+    "example_sv": "Du borde borsta dina tänder efter varje måltid.",
+    "example_en": "You should brush your teeth after every meal.",
+    "scenario": "Daily Routines",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6855
+  },
+  {
+    "swedish": "bägare",
+    "english": "cup",
+    "example_sv": "Hon vann en bägare i den lokala schacktävlingen.",
+    "example_en": "She won a cup in the local chess competition.",
+    "scenario": "Celebrations",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6856
+  },
+  {
+    "swedish": "gränslös",
+    "english": "limitless",
+    "example_sv": "Barnens fantasi är gränslös när de leker.",
+    "example_en": "Children's imagination is limitless when they play.",
+    "scenario": "Family & Relationships",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6857
+  },
+  {
+    "swedish": "kärl",
+    "english": "vessel",
+    "example_sv": "Använd ett tätt kärl för att förvara den hemgjorda sylten.",
+    "example_en": "Use a tight vessel to store the homemade jam.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6858
+  },
+  {
+    "swedish": "utomordentlig",
+    "english": "extraordinary",
+    "example_sv": "Hon gjorde en utomordentlig insats under presentationen.",
+    "example_en": "She made an extraordinary effort during the presentation.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6859
+  },
+  {
+    "swedish": "manager",
+    "english": "manager",
+    "example_sv": "Han är manager för ett stort multinationellt företag.",
+    "example_en": "He is the manager of a large multinational company.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6860
+  },
+  {
+    "swedish": "sångerska",
+    "english": "singer",
+    "example_sv": "Den unga sångerskan har en fantastisk röst.",
+    "example_en": "The young singer has a fantastic voice.",
+    "scenario": "Entertainment",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6861
+  },
+  {
+    "swedish": "kooperativ",
+    "english": "cooperative",
+    "example_sv": "De startade ett kooperativ för att sälja lokalt producerade varor.",
+    "example_en": "They started a cooperative to sell locally produced goods.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6862
+  },
+  {
+    "swedish": "genomskinlig",
+    "english": "transparent",
+    "example_sv": "Hon köpte en genomskinlig regnjacka igår på stan.",
+    "example_en": "She bought a transparent raincoat yesterday downtown.",
+    "scenario": "Clothing",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6863
+  },
+  {
+    "swedish": "kalender",
+    "english": "calendar",
+    "example_sv": "Jag måste skriva in mötet i min kalender direkt.",
+    "example_en": "I need to put the meeting in my calendar right away.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6864
+  },
+  {
+    "swedish": "option",
+    "english": "option",
+    "example_sv": "Vi har alltid optionen att ändra oss senare i projektet.",
+    "example_en": "We always have the option to change our minds later in the project.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6865
+  },
+  {
+    "swedish": "arkeolog",
+    "english": "archaeologist",
+    "example_sv": "Arkeologen hittade flera antika föremål under utgrävningen.",
+    "example_en": "The archaeologist found several ancient objects during the excavation.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6866
+  },
+  {
+    "swedish": "oändlighet",
+    "english": "infinity",
+    "example_sv": "Han kände en oändlighet av möjligheter framför sig.",
+    "example_en": "He felt an infinity of possibilities before him.",
+    "scenario": "Emotions & Feelings",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6867
+  },
+  {
+    "swedish": "netto",
+    "english": "net",
+    "example_sv": "Nettopriset på varan var lägre än jag förväntat mig.",
+    "example_en": "The net price of the goods was lower than I expected.",
+    "scenario": "Shopping",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6868
+  },
+  {
+    "swedish": "veto",
+    "english": "veto",
+    "example_sv": "Presidenten lade in sitt veto mot lagförslaget direkt.",
+    "example_en": "The president vetoed the bill immediately.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6869
+  },
+  {
+    "swedish": "veteran",
+    "english": "veteran",
+    "example_sv": "Den gamle veteranen berättade om sina erfarenheter från kriget.",
+    "example_en": "The old veteran spoke about his experiences from the war.",
+    "scenario": "Traditions",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6870
+  },
+  {
+    "swedish": "kalori",
+    "english": "calorie",
+    "example_sv": "Jag försöker att räkna kalorier för att gå ner i vikt.",
+    "example_en": "I'm trying to count calories to lose weight.",
+    "scenario": "Food & Cooking",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6871
+  },
+  {
+    "swedish": "vits",
+    "english": "joke",
+    "example_sv": "Han berättade en rolig vits som fick alla att skratta.",
+    "example_en": "He told a funny joke that made everyone laugh.",
+    "scenario": "Small Talk",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6872
+  },
+  {
+    "swedish": "kruka",
+    "english": "pot",
+    "example_sv": "Hon planterade blommor i en vacker kruka av terrakotta.",
+    "example_en": "She planted flowers in a beautiful terracotta pot.",
+    "scenario": "At Home",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6873
+  },
+  {
+    "swedish": "lotteri",
+    "english": "lottery",
+    "example_sv": "Hon vann en stor summa pengar på lotteriet i helgen.",
+    "example_en": "She won a large sum of money in the lottery this weekend.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6874
+  },
+  {
+    "swedish": "spektrum",
+    "english": "spectrum",
+    "example_sv": "Debatten täckte ett brett spektrum av åsikter.",
+    "example_en": "The debate covered a wide spectrum of opinions.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6875
+  },
+  {
+    "swedish": "attentat",
+    "english": "assassination",
+    "example_sv": "Polisen utreder attentatet mot den politiska ledaren.",
+    "example_en": "The police are investigating the assassination attempt on the political leader.",
+    "scenario": "Government & ID",
+    "difficulty": "C1",
+    "grammar_hint": "ett-word",
+    "rank": 6876
+  },
+  {
+    "swedish": "avtala",
+    "english": "arrange",
+    "example_sv": "Vi måste avtala ett möte så snart som möjligt.",
+    "example_en": "We need to arrange a meeting as soon as possible.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6877
+  },
+  {
+    "swedish": "förutsägelse",
+    "english": "prediction",
+    "example_sv": "Meteorologens förutsägelse stämde inte överens med verkligheten.",
+    "example_en": "The meteorologist's prediction did not match reality.",
+    "scenario": "Weather",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6878
+  },
+  {
+    "swedish": "halvtid",
+    "english": "halftime",
+    "example_sv": "Det stod 1-1 vid halvtid i fotbollsmatchen.",
+    "example_en": "The score was 1-1 at halftime in the football match.",
+    "scenario": "Fitness & Sports",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6879
+  },
+  {
+    "swedish": "oförutsedd",
+    "english": "unforeseen",
+    "example_sv": "En oförutsedd händelse tvingade oss att ändra planerna.",
+    "example_en": "An unforeseen event forced us to change our plans.",
+    "scenario": "At the Airport",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6881
+  },
+  {
+    "swedish": "livskraftig",
+    "english": "viable",
+    "example_sv": "Företaget visade sig vara livskraftigt trots ekonomiska svårigheter.",
+    "example_en": "The company proved to be viable despite economic difficulties.",
+    "scenario": "Banking",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6882
+  },
+  {
+    "swedish": "delegera",
+    "english": "delegate",
+    "example_sv": "Chefen bestämde sig för att delegera uppgiften till en kollega.",
+    "example_en": "The manager decided to delegate the task to a colleague.",
+    "scenario": "At the Office",
+    "difficulty": "C1",
+    "grammar_hint": "verb",
+    "rank": 6883
+  },
+  {
+    "swedish": "flit",
+    "english": "diligence",
+    "example_sv": "Hennes flit och engagemang var avgörande för projektets framgång.",
+    "example_en": "Her diligence and commitment were crucial to the project's success.",
+    "scenario": "At School/University",
+    "difficulty": "C1",
+    "grammar_hint": "en-word",
+    "rank": 6884
+  },
+  {
+    "swedish": "fullvärdig",
+    "english": "full-fledged",
+    "example_sv": "Han blev en fullvärdig medlem i klubben efter ett år.",
+    "example_en": "He became a full-fledged member of the club after a year.",
+    "scenario": "Hobbies",
+    "difficulty": "C1",
+    "grammar_hint": "adjective",
+    "rank": 6885
+  }
+]
