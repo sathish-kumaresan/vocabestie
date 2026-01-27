@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 5: Authentication ✅ COMPLETE |
+| **Current Phase** | Phase 6: Vocabulary Import (IN PROGRESS) |
 | **Last Session** | January 27, 2026 |
-| **Next Task** | Phase 6: Polish & Content (2000+ words) |
+| **Next Task** | Run AI generation for vocabulary (decide word count: 2000/3500/10000) |
 | **Blockers** | None |
 
 ---
@@ -104,9 +104,28 @@
   - [x] OAuth credentials loaded from `oauth.json`
   - [x] Session middleware added
 
-### Phase 6-7: Future
-- [ ] Polish & Content (2000+ words)
-- [ ] Launch Prep
+### Phase 6: Vocabulary Import & PWA (IN PROGRESS)
+- [x] Import script structure (`scripts/import_vocabulary/`)
+  - [x] `fetch_words.py` - Download and filter source words
+  - [x] `generate_data.py` - AI batch processing with Claude
+  - [x] `merge_data.py` - Combine batches into vocabulary.json
+  - [x] `run_import.py` - Main orchestrator
+- [x] Scenarios master file (`data/import/scenarios_master.json`)
+  - [x] 42 scenarios defined (26 new + 10 existing + 6 grammar)
+- [x] Fetched and filtered words
+  - [x] Source: 10,000 Swedish words (frequency-sorted)
+  - [x] Filtered: 9,806 new words (excluding 196 existing)
+  - [x] Saved to `data/import/filtered_words.json`
+- [ ] AI generation (NEXT STEP)
+  - [ ] Decide word count: 2000 / 3500 / 10000
+  - [ ] Run `python scripts/import_vocabulary/generate_data.py`
+- [ ] Merge and import to database
+- [ ] Basic PWA setup (manifest, icons)
+
+### Phase 7: Launch Prep (Future)
+- [ ] Landing page
+- [ ] Privacy policy, terms of service
+- [ ] Deployment setup
 
 ---
 
@@ -135,8 +154,19 @@ vocabestie/
 │   │       ├── exercise_read.html, exercise_listen.html
 │   │       ├── exercise_speak.html, exercise_write.html
 │   └── static/js/tts.js
-├── scripts/seed_data.py
-├── data/vocabulary.json
+├── scripts/
+│   ├── seed_data.py
+│   └── import_vocabulary/       # NEW: Vocabulary import scripts
+│       ├── fetch_words.py
+│       ├── generate_data.py
+│       ├── merge_data.py
+│       └── run_import.py
+├── data/
+│   ├── vocabulary.json
+│   └── import/                  # NEW: Import data directory
+│       ├── scenarios_master.json
+│       ├── filtered_words.json
+│       └── batches/             # AI-generated batches go here
 ├── oauth.json                   # Google OAuth credentials (not in git)
 ├── alembic/
 └── docker-compose.yml
@@ -167,6 +197,7 @@ uvicorn app.main:app --reload
 | Jan 26, 2026 | Phase 3 fixes: TTS native Swedish voice selection, exercise template improvements, testing mode for skill randomization |
 | Jan 26, 2026 | Phase 4: Streak tracking, time tracking, statistics page, word status UI, scenario progress, "already known" feature |
 | Jan 27, 2026 | Phase 5: Google OAuth authentication, server-side sessions, guest data migration, auth UI |
+| Jan 27, 2026 | Phase 6 started: Vocabulary import scripts, 42 scenarios defined, 9,806 words fetched and filtered |
 
 ---
 
@@ -182,8 +213,11 @@ This is Vocabestie, a Swedish vocabulary learning app with:
 - Dark theme with Swedish flag colors (blue/yellow)
 - Google OAuth authentication with server-side sessions
 
-Current status: Phase 5 complete (Authentication)
-Next task: Phase 6 - Polish & Content (2000+ words)
+Current status: Phase 6 in progress (Vocabulary Import)
+Next task: Run AI generation for vocabulary
+  - 9,806 words ready in data/import/filtered_words.json
+  - Decide word count: 2000 (fast) / 3500 (balanced) / 10000 (full)
+  - Run: python scripts/import_vocabulary/generate_data.py
 ```
 
 ---
