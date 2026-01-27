@@ -17,7 +17,8 @@
         <div class="flex items-center justify-between">
             <div>
                 <p class="text-gray-400 text-sm">Current Streak</p>
-                <p class="text-2xl font-bold {% if stats.current_streak > 0 %}text-swedish-yellow{% else %}text-gray-500{% endif %}">
+                <p
+                    class="text-2xl font-bold {% if stats.current_streak > 0 %}text-swedish-yellow{% else %}text-gray-500{% endif %}">
                     {{ stats.current_streak }} day{% if stats.current_streak != 1 %}s{% endif %}
                 </p>
             </div>
@@ -38,21 +39,26 @@
     </div>
 
     <!-- Continue Learning Button -->
-    <a href="/scenarios" class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-2xl text-center mb-6 transition-colors">
+    <a href="/levels"
+        class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-2xl text-center mb-6 transition-colors">
         {% if stats.words_started > 0 %}Continue Learning{% else %}Start Learning{% endif %}
     </a>
 
     <!-- Overall Progress -->
-    {% set progress_percent = ((stats.words_mastered + stats.words_already_known) / stats.total_words * 100) | int if stats.total_words > 0 else 0 %}
+    {% set progress_percent = ((stats.words_mastered + stats.words_already_known) / stats.total_words * 100) | int if
+    stats.total_words > 0 else 0 %}
     <div class="bg-dark-card rounded-2xl p-4">
         <div class="flex justify-between items-center mb-2">
             <p class="text-gray-400 text-sm">Overall Progress</p>
-            <p class="{% if progress_percent == 100 %}text-green-500{% else %}text-swedish-yellow{% endif %} font-bold">{{ progress_percent }}%</p>
+            <p class="{% if progress_percent == 100 %}text-green-500{% else %}text-swedish-yellow{% endif %} font-bold">
+                {{ progress_percent }}%</p>
         </div>
         <div class="w-full bg-dark-border rounded-full h-2">
-            <div class="{% if progress_percent == 100 %}bg-green-500{% else %}bg-swedish-yellow{% endif %} h-2 rounded-full transition-all" style="width: {{ progress_percent }}%"></div>
+            <div class="{% if progress_percent == 100 %}bg-green-500{% else %}bg-swedish-yellow{% endif %} h-2 rounded-full transition-all"
+                style="width: {{ progress_percent }}%"></div>
         </div>
-        <p class="text-gray-500 text-xs mt-2">{{ stats.words_mastered + stats.words_already_known }} of {{ stats.total_words }} words mastered</p>
+        <p class="text-gray-500 text-xs mt-2">{{ stats.words_mastered + stats.words_already_known }} of {{
+            stats.total_words }} words mastered</p>
     </div>
 
     <!-- Info Card -->

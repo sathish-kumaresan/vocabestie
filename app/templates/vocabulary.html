@@ -7,44 +7,45 @@
     <!-- Header -->
     <div class="mb-4">
         <h1 class="text-2xl font-bold text-white">Vocabulary</h1>
-        <p class="text-gray-400 text-sm mt-1">{{ total_words }} words total</p>
+        <p class="text-gray-400 text-sm mt-1">{{ total_words }} words match criteria</p>
     </div>
 
-    <!-- Search bar -->
+    <!-- Search form -->
     <div class="mb-4">
-        <div class="relative">
-            <input type="text" id="searchInput" placeholder="Search words..."
+        <form action="/vocabulary" method="get" class="relative">
+            <input type="hidden" name="filter" value="{{ current_filter }}">
+            <input type="text" name="search" value="{{ search_query }}" placeholder="Search words..."
                    class="w-full bg-dark-card border border-dark-border rounded-xl py-3 px-4 pl-10 text-white placeholder-gray-500 focus:outline-none focus:border-swedish-blue">
             <svg class="w-5 h-5 text-gray-500 absolute left-3 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
             </svg>
-        </div>
+            {% if search_query %}
+            <a href="/vocabulary?filter={{ current_filter }}" class="absolute right-3 top-3 text-gray-500 hover:text-white">
+                ✕
+            </a>
+            {% endif %}
+        </form>
     </div>
 
     <!-- Filter tabs -->
     <div class="flex gap-2 mb-4 overflow-x-auto pb-2">
-        <a href="/vocabulary?filter=all" class="px-4 py-2 {% if current_filter == 'all' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            All ({{ counts.all }})
+        {% for status_key, count in counts.items() %}
+        <a href="/vocabulary?filter={{ status_key }}&search={{ search_query }}" 
+           class="px-4 py-2 {% if current_filter == status_key %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
+            {% if status_key == 'all' %}All{% endif %}
+            {% if status_key == 'not_started' %}Not Started{% endif %}
+            {% if status_key == 'in_progress' %}In Progress{% endif %}
+            {% if status_key == 'mastered' %}Mastered{% endif %}
+            {% if status_key == 'already_known' %}Known{% endif %}
+            ({{ count }})
         </a>
-        <a href="/vocabulary?filter=not_started" class="px-4 py-2 {% if current_filter == 'not_started' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            Not Started ({{ counts.not_started }})
-        </a>
-        <a href="/vocabulary?filter=in_progress" class="px-4 py-2 {% if current_filter == 'in_progress' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            In Progress ({{ counts.in_progress }})
-        </a>
-        <a href="/vocabulary?filter=mastered" class="px-4 py-2 {% if current_filter == 'mastered' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            Mastered ({{ counts.mastered }})
-        </a>
-        <a href="/vocabulary?filter=already_known" class="px-4 py-2 {% if current_filter == 'already_known' %}bg-swedish-blue text-white{% else %}bg-dark-card text-gray-400 hover:bg-gray-800{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            Known ({{ counts.already_known }})
-        </a>
+        {% endfor %}
     </div>
 
     <!-- Words List -->
     <div class="space-y-2" id="wordsList">
         {% for item in words %}
-        <div class="word-item bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors"
-             data-swedish="{{ item.word.swedish|lower }}" data-english="{{ item.word.english|lower }}">
+        <div class="word-item bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors">
             <div class="flex items-center justify-between">
                 <div class="flex-1">
                     <div class="flex items-center gap-2">
@@ -83,26 +84,43 @@
 
     {% if not words %}
     <div class="text-center py-12">
-        <p class="text-gray-400">No words in this category.</p>
+        <p class="text-gray-400">No words found.</p>
+    </div>
+    {% endif %}
+
+    <!-- Pagination -->
+    {% if total_pages > 1 %}
+    <div class="flex justify-center items-center gap-4 mt-8 mb-8">
+        {% if current_page > 1 %}
+        <a href="/vocabulary?page={{ current_page - 1 }}&filter={{ current_filter }}&search={{ search_query }}" 
+           class="px-4 py-2 bg-dark-card text-white rounded-lg hover:bg-gray-800 transition-colors">
+            Previous
+        </a>
+        {% else %}
+        <span class="px-4 py-2 bg-dark-card text-gray-600 rounded-lg cursor-not-allowed">
+            Previous
+        </span>
+        {% endif %}
+
+        <span class="text-gray-400">
+            Page {{ current_page }} of {{ total_pages }}
+        </span>
+
+        {% if current_page < total_pages %}
+        <a href="/vocabulary?page={{ current_page + 1 }}&filter={{ current_filter }}&search={{ search_query }}" 
+           class="px-4 py-2 bg-dark-card text-white rounded-lg hover:bg-gray-800 transition-colors">
+            Next
+        </a>
+        {% else %}
+        <span class="px-4 py-2 bg-dark-card text-gray-600 rounded-lg cursor-not-allowed">
+            Next
+        </span>
+        {% endif %}
     </div>
     {% endif %}
 </div>
 
 <script>
-// Simple search functionality
-document.getElementById('searchInput').addEventListener('input', function(e) {
-    const searchTerm = e.target.value.toLowerCase();
-    document.querySelectorAll('.word-item').forEach(function(item) {
-        const swedish = item.dataset.swedish;
-        const english = item.dataset.english;
-        if (swedish.includes(searchTerm) || english.includes(searchTerm)) {
-            item.style.display = 'block';
-        } else {
-            item.style.display = 'none';
-        }
-    });
-});
-
 function speakWord(word) {
     if (typeof TTS !== 'undefined') {
         TTS.speak(word, {lang: 'sv-SE'});

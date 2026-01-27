@@ -212,6 +212,9 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | Phase 6 started: Vocabulary import scripts, 42 scenarios defined, 9,806 words fetched and filtered |
 | Jan 27, 2026 | AI vocabulary generation: 161 batches via Claude API, 8,204 words across 42 scenarios. Updated seed script, fetch_words, generate_data scripts. Basic PWA setup: manifest.json, PNG icons (192/512), screenshots (wide/narrow), service worker (cache-first static, network-first HTML/API), base.html meta tags and SW registration |
 | Jan 27, 2026 | Redistributed vocabulary into CEFR levels (A1-C2) with ~25 words per group (331 levels total). Created `scripts/redistribute_vocabulary.py`. Re-seeded database. Renamed all UI references from "Scenarios" to "Levels" across 5 templates. Phase 6 complete. |
+| Jan 27, 2026 | Performance Optimization: Fixed slow "Vocabulary" page by implementing server-side pagination, search, and bulk status fetching. Reduced N+1 queries. |
+| Jan 27, 2026 | Levels Refactor: Grouped 331 levels into 6 CEFR categories (A1-C2) to fix "Levels" page performance. Added aggregated progress stats and drill-down pages. |
+| Jan 27, 2026 | Route Update: Changed main route from `/scenarios` to `/levels` to reflect the new hierarchy. Updated all template links and navigation. |
 
 ---
 
