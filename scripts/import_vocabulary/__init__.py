@@ -1,1 +1,0 @@
-# Swedish vocabulary import scripts

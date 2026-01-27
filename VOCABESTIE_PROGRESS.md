@@ -176,18 +176,9 @@ vocabestie/
 │       └── icons/                   # PWA icons & screenshots
 ├── scripts/
 │   ├── seed_data.py
-│   ├── redistribute_vocabulary.py  # CEFR level redistribution
-│   └── import_vocabulary/       # Vocabulary import scripts
-│       ├── fetch_words.py
-│       ├── generate_data.py
-│       ├── merge_data.py
-│       └── run_import.py
+│   └── redistribute_vocabulary.py  # CEFR level redistribution
 ├── data/
-│   ├── vocabulary.json
-│   └── import/                  # NEW: Import data directory
-│       ├── scenarios_master.json
-│       ├── filtered_words.json
-│       └── batches/             # AI-generated batches go here
+│   └── vocabulary.json
 ├── oauth.json                   # Google OAuth credentials (not in git)
 ├── alembic/
 └── docker-compose.yml
