@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6.5: Vocabulary Corrections & Reordering (IN PROGRESS) |
-| **Last Session** | January 27, 2026 |
-| **Next Task** | Finish moving 295 words to correct CEFR levels, reorder all levels by frequency, re-seed DB |
+| **Current Phase** | Phase 6.5: Speech Recognition Stabilization (IN PROGRESS) |
+| **Last Session** | January 29, 2026 |
+| **Next Task** | Stabilize STT for short words, investigate alternative retry strategies (non-blocking) |
 | **Blockers** | None |
 
 ---
@@ -227,7 +227,9 @@ uvicorn app.main:app --reload
 | Jan 27, 2026 | **Progress Fix**: Fixed a bug where words manually marked as "Known" were not showing up in the "Mastered" count. They now correctly contribute to both the mastery count and the progress percentage. |
 | Jan 28, 2026 | **Home Stats Fix**: Updated the Home and Settings "Statistics" cards to correctly include "Known" words in the "Words Mastered" count. |
 | Jan 28, 2026 | **Bug Fix**: Fixed negative "Words in progress" count by correctly calculating it in the backend instead of using template subtraction which was affected by the Known/Mastered merge. |
-| Jan 27, 2026 | **Git Push**: Committing and pushing all Vocabulary Page enhancements (Sorting, Badges, Practice Mode, Single Word Mode). |
+| Jan 28, 2026 | **Git Push**: Committing and pushing all Vocabulary Page enhancements, Word Details, Level fixes, and Stats fixes to `main`. |
+| Jan 29, 2026 | **Bug Fix**: Removed duplicate event listeners in `exercise_speak.html` that caused race conditions in speech recognition. |
+| Jan 29, 2026 | **Speech Improvements**: [IN PROGRESS] Investigating sensitivity issues with short words ("i" vs "y"). Attempted auto-retry and relaxed validation (reverted due to instability). Debugging continues. |
 
 ---
 

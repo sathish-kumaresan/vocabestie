@@ -520,8 +520,27 @@ def settings_page(
         "request": request,
         "active_tab": "settings",
         "stats": stats,
+        "stats": stats,
         **auth,
     })
+
+
+@app.get("/api/audio/tts")
+def get_tts_audio(text: str):
+    """Generates (if needed) and returns path to audio file."""
+    from app.services.audio import get_audio_path
+    
+    if not text:
+        raise HTTPException(status_code=400, detail="Text required")
+        
+    audio_url = get_audio_path(text)
+    if not audio_url:
+        raise HTTPException(status_code=500, detail="Audio generation failed")
+        
+    return {"audio_url": audio_url}
+
+
+
 
 
 @app.get("/health")

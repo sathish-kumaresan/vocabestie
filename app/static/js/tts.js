@@ -1,29 +1,32 @@
-// Text-to-Speech Helper for Vocabestie
+// Text-to-Speech Helper for Vocabestie - v6.6 Improved
+// Implements strict Swedish voice selection and Cloud TTS fallback support
 
 const TTS = {
     speaking: false,
     voices: [],
     voicesLoaded: false,
+    preferredVoiceURI: localStorage.getItem('vocabestie_preferred_voice'), // Persist user choice
 
-    // Initialize voices - must be called after page load
+    // Initialize voices
     init() {
         if (!window.speechSynthesis) {
-            console.warn('Speech synthesis not supported');
+            console.error('Speech synthesis not supported');
             return;
         }
 
-        // Load voices
         const loadVoices = () => {
             TTS.voices = window.speechSynthesis.getVoices();
             TTS.voicesLoaded = true;
-            console.log('TTS: Loaded', TTS.voices.length, 'voices');
+            console.log(`TTS: Loaded ${TTS.voices.length} voices`);
 
-            // Log Swedish voices for debugging
-            const swedishVoices = TTS.voices.filter(v => v.lang.startsWith('sv'));
-            console.log('TTS: Swedish voices available:', swedishVoices.map(v => `${v.name} (${v.lang})`));
+            // Debug available Swedish voices
+            const swedish = TTS.voices.filter(v => v.lang.startsWith('sv'));
+            console.log('TTS: Available Swedish voices:', swedish.map(v => `${v.name} (${v.lang})`));
+
+            // Dispatch event for UI updates
+            window.dispatchEvent(new CustomEvent('voices_loaded', { detail: { voices: TTS.voices } }));
         };
 
-        // Voices may already be loaded
         loadVoices();
 
         // Chrome loads voices asynchronously
@@ -32,79 +35,149 @@ const TTS = {
         }
     },
 
-    // Find the best voice for a language
-    findVoice(lang) {
+    // Strict Swedish Voice Finder
+    getSwedishVoice() {
         if (!TTS.voices.length) {
             TTS.voices = window.speechSynthesis.getVoices();
         }
 
-        // Exact match first (e.g., 'sv-SE')
-        let voice = TTS.voices.find(v => v.lang === lang);
-
-        // Partial match (e.g., 'sv' matches 'sv-SE')
-        if (!voice) {
-            const langPrefix = lang.split('-')[0];
-            voice = TTS.voices.find(v => v.lang.startsWith(langPrefix));
+        // 1. User Preferred Voice (if valid and is Swedish)
+        if (TTS.preferredVoiceURI) {
+            const preferred = TTS.voices.find(v => v.voiceURI === TTS.preferredVoiceURI);
+            if (preferred && preferred.lang.startsWith('sv')) {
+                return preferred;
+            }
         }
 
-        // Prefer native/local voices over remote ones
-        if (!voice) {
-            voice = TTS.voices.find(v => v.lang.startsWith(lang.split('-')[0]) && v.localService);
-        }
+        // 2. High-Quality "Google" Swedish Voice (Chrome/Android)
+        // Usually named "Google Svenska" or similar
+        const googleSv = TTS.voices.find(v => v.name.includes('Google') && v.lang.startsWith('sv'));
+        if (googleSv) return googleSv;
 
-        return voice;
+        // 3. Exact Region Match (sv-SE)
+        const exactSv = TTS.voices.find(v => v.lang === 'sv-SE');
+        if (exactSv) return exactSv;
+
+        // 4. Any Swedish Voice (sv, sv-FI, etc.)
+        const anySv = TTS.voices.find(v => v.lang.startsWith('sv'));
+        if (anySv) return anySv;
+
+        return null; // Strict mode: Fail if no Swedish voice
     },
 
+    // Retrieve all Swedish voices for the picker UI
+    getAllSwedishVoices() {
+        if (!TTS.voices.length) TTS.voices = window.speechSynthesis.getVoices();
+        return TTS.voices.filter(v => v.lang.startsWith('sv'));
+    },
+
+    // Set user preference
+    setPreferredVoice(voiceURI) {
+        TTS.preferredVoiceURI = voiceURI;
+        localStorage.setItem('vocabestie_preferred_voice', voiceURI);
+        console.log('TTS: Preference saved:', voiceURI);
+    },
+
+    // Core Speak Function
+    // Supports static audioUrl (Cloud TTS) check in future
+    // Core Speak Function
+    // Tries Server cached audio (gTTS) first, falls back to Web Speech
     speak(text, options = {}) {
-        if (!window.speechSynthesis) {
-            console.warn('Speech synthesis not supported');
-            return Promise.reject('Speech synthesis not supported');
-        }
-
-        // Cancel any ongoing speech
-        window.speechSynthesis.cancel();
-
         return new Promise((resolve, reject) => {
-            const utterance = new SpeechSynthesisUtterance(text);
-            const lang = options.lang || 'en-US';
-            utterance.lang = lang;
-            utterance.rate = options.rate || 0.9;
-            utterance.pitch = options.pitch || 1;
-            utterance.volume = options.volume || 1;
-
-            // Find and set the best voice for the language
-            const voice = TTS.findVoice(lang);
-            if (voice) {
-                utterance.voice = voice;
-                console.log('TTS: Using voice:', voice.name, voice.lang);
-            } else {
-                console.warn('TTS: No voice found for', lang, '- using default');
-            }
-
-            utterance.onstart = () => {
-                TTS.speaking = true;
+            const stopPrevious = () => {
+                window.speechSynthesis.cancel();
+                TTS.speaking = false;
             };
 
+            stopPrevious();
+            TTS.speaking = true;
+
+            // STRATEGY: Try Server Audio First
+            const encodedText = encodeURIComponent(text);
+            fetch(`/api/audio/tts?text=${encodedText}`)
+                .then(res => {
+                    if (!res.ok) throw new Error('Server TTS failed');
+                    return res.json();
+                })
+                .then(data => {
+                    // Play Audio File
+                    const audio = new Audio(data.audio_url);
+                    audio.playbackRate = options.rate || 1.0;
+
+                    audio.onended = () => {
+                        TTS.speaking = false;
+                        resolve();
+                    };
+
+                    audio.onerror = (e) => {
+                        console.warn('Audio file playback failed, falling back:', e);
+                        alert("Debug: Audio file playback failed. Code: " + (e.target.error ? e.target.error.code : 'unknown'));
+                        // Fallback to Web Speech if file fails
+                        TTS.speakWebSpeech(text, options).then(resolve).catch(reject);
+                    };
+
+                    console.log(`TTS: Playing server audio for "${text}"`);
+                    audio.play().catch(e => {
+                        console.warn('Autoplay prevented or error:', e);
+                        alert("Debug: Autoplay prevented or error: " + e.message);
+                        TTS.speakWebSpeech(text, options).then(resolve).catch(reject);
+                    });
+                })
+                .catch(err => {
+                    console.warn(`TTS: Server audio skipped (${err.message}), using Web Speech fallback.`);
+                    TTS.speakWebSpeech(text, options).then(resolve).catch(reject);
+                });
+        });
+    },
+
+    // Fallback Web Speech Implementation (Legacy/Backup)
+    speakWebSpeech(text, options = {}) {
+        return new Promise((resolve, reject) => {
+            const voice = TTS.getSwedishVoice();
+
+            // FALLBACK WARNING
+            if (!voice) {
+                console.warn('TTS: No Swedish voice detected.');
+                window.dispatchEvent(new CustomEvent('tts_error', {
+                    detail: { message: 'No Swedish voice detected. Please install a Swedish language pack.' }
+                }));
+                TTS.speaking = false;
+                reject('No Swedish voice found');
+                return;
+            }
+
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.voice = voice;
+            utterance.lang = voice.lang;
+            utterance.rate = options.rate || 0.9;
+            utterance.pitch = options.pitch || 1.0;
+            utterance.volume = 1.0;
+
+            utterance.onstart = () => { TTS.speaking = true; };
             utterance.onend = () => {
                 TTS.speaking = false;
                 resolve();
             };
-
-            utterance.onerror = (event) => {
+            utterance.onerror = (e) => {
                 TTS.speaking = false;
-                reject(event.error);
+                if (e.error !== 'interrupted' && e.error !== 'canceled') {
+                    reject(e.error);
+                } else {
+                    resolve();
+                }
             };
 
+            console.log(`TTS: Speaking "${text}" using Web Speech ${voice.name}`);
             window.speechSynthesis.speak(utterance);
         });
     },
 
-    speakWord(word, example = null) {
-        // Speak the word, then optionally the example
-        return TTS.speak(word).then(() => {
+    speakWord(word, example = null, audioUrl = null) {
+        return TTS.speak(word, { audioUrl }).then(() => {
             if (example) {
-                return new Promise(resolve => setTimeout(resolve, 500))
-                    .then(() => TTS.speak(example, { rate: 0.85 }));
+                // Pause slightly before example
+                return new Promise(r => setTimeout(r, 500))
+                    .then(() => TTS.speak(example, { rate: 0.85 })); // Slower for sentences
             }
         });
     },
@@ -119,34 +192,37 @@ const TTS = {
     }
 };
 
-// Audio button click handler
+// UI Helper: Visual Feedback on Buttons
 function speakText(text, button = null) {
-    if (button) {
-        button.classList.add('speaking');
-    }
+    if (button) button.classList.add('speaking', 'animate-pulse');
 
-    TTS.speak(text).finally(() => {
-        if (button) {
-            button.classList.remove('speaking');
-        }
-    });
+    TTS.speak(text)
+        .catch(err => console.warn('Speak failed:', err))
+        .finally(() => {
+            if (button) button.classList.remove('speaking', 'animate-pulse');
+        });
 }
 
 function speakWordAndExample(word, example, button = null) {
-    if (button) {
-        button.classList.add('speaking');
-    }
+    if (button) button.classList.add('speaking', 'animate-pulse');
 
-    TTS.speakWord(word, example).finally(() => {
-        if (button) {
-            button.classList.remove('speaking');
-        }
-    });
+    TTS.speakWord(word, example)
+        .catch(err => console.warn('Speak sequence failed:', err))
+        .finally(() => {
+            if (button) button.classList.remove('speaking', 'animate-pulse');
+        });
 }
 
-// Initialize TTS when DOM is ready
+
+// Initialization
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => TTS.init());
 } else {
     TTS.init();
 }
+
+// Global Error Handler for TTS (to show toasts)
+window.addEventListener('tts_error', (e) => {
+    // User requested to remove this alert.
+    console.warn("TTS Error suppressed:", e.detail.message);
+});

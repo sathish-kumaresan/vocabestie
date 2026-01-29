@@ -12,9 +12,11 @@
         <p class="text-gray-400 mb-2">Say this word</p>
         <div class="flex items-center justify-center gap-3 mb-4">
             <h2 class="text-4xl font-bold text-white">{{ exercise.swedish }}</h2>
-            <button onclick="speakSwedishWord()" class="text-gray-400 hover:text-swedish-yellow p-2">
+            <button onclick="speakText('{{ exercise.swedish }}', this)"
+                class="text-gray-400 hover:text-swedish-yellow p-2 rounded-full transition-all">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                 </svg>
             </button>
         </div>
@@ -23,13 +25,26 @@
 
     <!-- Microphone button -->
     <div class="flex flex-col items-center">
-        <button onclick="startRecording()" id="mic-btn" class="bg-swedish-blue hover:bg-blue-700 text-white p-6 rounded-full transition-colors mb-4">
-            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+        <button id="mic-btn"
+            class="bg-swedish-blue hover:bg-blue-600 text-white p-6 rounded-full transition-all transform hover:scale-105 shadow-lg relative">
+            <!-- Ripple effect when recording -->
+            <span id="mic-ripple"
+                class="absolute inset-0 rounded-full bg-red-500 opacity-75 animate-ping hidden"></span>
+
+            <svg class="w-12 h-12 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
             </svg>
         </button>
-        <p class="text-gray-500 text-sm" id="mic-status">Tap to speak</p>
-        <p class="text-white text-xl mt-4 hidden" id="transcript"></p>
+        <p class="text-gray-400 text-sm mt-3 font-medium min-h-[1.5em]" id="mic-status">Tap to speak</p>
+
+        <!-- Transcript Result -->
+        <div id="result-container" class="mt-4 text-center hidden">
+            <p class="text-xl font-bold text-white mb-2" id="transcript-text"></p>
+            <p class="text-sm text-gray-400" id="confidence-text"></p>
+        </div>
+
+
     </div>
 
     <!-- Skip button -->
@@ -39,8 +54,138 @@
         </button>
     </div>
 
+    <!-- Data for JS -->
     <input type="hidden" id="word-id" value="{{ exercise.word_id }}">
-    <input type="hidden" id="skill-type" value="{{ exercise.skill_type }}">
-    <input type="hidden" id="swedish-word" value="{{ exercise.swedish }}">
+    <input type="hidden" id="skill-type" value="speak">
     <input type="hidden" id="expected-word" value="{{ exercise.swedish }}">
 </div>
+
+<script>
+    // Local exercise logic consuming Speech.js events
+    const micBtn = document.getElementById('mic-btn');
+    const micRipple = document.getElementById('mic-ripple');
+    const statusText = document.getElementById('mic-status');
+    const resultContainer = document.getElementById('result-container');
+    const transcriptDisplay = document.getElementById('transcript-text');
+
+
+    // Toggle recording
+    micBtn.addEventListener('click', () => {
+        if (Speech.isRecording) {
+            Speech.stop();
+        } else {
+            Speech.start();
+        }
+    });
+
+    // Handle Speech Events
+    window.addEventListener('speech_start', () => {
+        micBtn.classList.remove('bg-swedish-blue', 'hover:bg-blue-600');
+        micBtn.classList.add('bg-red-600', 'hover:bg-red-700');
+        micRipple.classList.remove('hidden');
+        statusText.textContent = "Listening...";
+        statusText.classList.add('text-red-400');
+        resultContainer.classList.add('hidden');
+
+    });
+
+
+
+    window.addEventListener('speech_end', () => {
+        micBtn.classList.add('bg-swedish-blue', 'hover:bg-blue-600');
+        micBtn.classList.remove('bg-red-600', 'hover:bg-red-700');
+        micRipple.classList.add('hidden');
+        // Status updates based on result next
+    });
+
+    // Event listeners consolidated below (speech_result, speech_error) to avoid duplicates.
+
+
+    window.addEventListener('speech_no_result', () => {
+        statusText.textContent = "Didn't hear anything. Try again?";
+        statusText.className = "text-md font-medium text-yellow-500";
+
+    });
+
+    window.addEventListener('speech_result', (e) => {
+        try {
+            const transcript = e.detail.transcript;
+            const confidence = e.detail.confidence;
+            const expected = document.getElementById('expected-word').value;
+
+            // Display check
+            statusText.textContent = "Processing...";
+            statusText.classList.remove('text-red-400');
+
+            // Explicit Feedback UI
+            transcriptDisplay.innerHTML = `<span class="text-gray-400 text-xs">Heard:</span> <span class="text-white">"${transcript}"</span>`;
+            if (confidence < 0.8) {
+                transcriptDisplay.innerHTML += ` <span class="text-yellow-500 text-xs" title="Low confidence">(?)</span>`;
+            }
+            resultContainer.classList.remove('hidden');
+
+            // Robust Validation Logic
+            const normalize = (str) => str ? str.toLowerCase().replace(/[.,!?]/g, '').trim() : '';
+            const tNorm = normalize(transcript);
+            const eNorm = normalize(expected);
+
+            console.log(`STT Check: "${tNorm}" vs "${eNorm}" (Raw: "${transcript}")`);
+
+            // 2. Direct Match
+            let isMatch = tNorm === eNorm;
+
+            // 3. Containment (with length safeguard)
+            if (!isMatch && tNorm && eNorm) {
+                if ((tNorm.includes(eNorm) || eNorm.includes(tNorm)) && Math.abs(tNorm.length - eNorm.length) <= 3) {
+                    isMatch = true;
+                }
+            }
+
+            if (isMatch) {
+                statusText.textContent = "Correct!";
+                statusText.className = "text-xl font-bold text-green-500 animate-bounce";
+                setTimeout(() => submitAnswer(transcript, true), 1000);
+            } else {
+                statusText.textContent = "Not quite. Try again.";
+                statusText.className = "text-md font-bold text-orange-500";
+            }
+        } catch (err) {
+            console.error("Validation Error:", err);
+            statusText.textContent = "Error verifying answer.";
+            statusText.className = "text-red-500";
+        }
+    });
+
+    window.addEventListener('speech_error', (e) => {
+        statusText.textContent = e.detail.message;
+        statusText.classList.add('text-red-400');
+    });
+
+    function submitAnswer(answer, success) {
+        // Call parent function defined in session.html/exercises.js
+        // Using the existing fetch submission logic if available or simulate form
+
+        const wordId = document.getElementById('word-id').value;
+
+        fetch('/learn/answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                word_id: parseInt(wordId),
+                skill_type: 'speak',
+                is_correct: success, // We trust the client-side check for speak
+                answer: answer
+            })
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    window.location.reload(); // Next exercise
+                }
+            });
+    }
+
+    function skipExercise() {
+        window.location.reload();
+    }
+</script>

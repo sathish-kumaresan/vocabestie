@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,15 +32,18 @@
             background-color: #000000;
             color: #ffffff;
         }
+
         .nav-item.active {
             color: #FECC00;
         }
+
         .nav-item.active svg {
             color: #FECC00;
         }
     </style>
     {% block extra_head %}{% endblock %}
 </head>
+
 <body class="min-h-screen flex flex-col">
     <!-- Top Header with Auth Status -->
     <header class="bg-dark-card border-b border-dark-border px-4 py-2 flex justify-between items-center">
@@ -66,40 +70,51 @@
     <!-- Bottom Navigation -->
     <nav class="fixed bottom-0 left-0 right-0 bg-dark-card border-t border-dark-border">
         <div class="flex justify-around items-center h-16 max-w-md mx-auto">
-            <a href="/" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'home' %}active{% endif %}">
+            <a href="/"
+                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'home' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                 </svg>
                 <span class="text-xs mt-1">Home</span>
             </a>
-            <a href="/levels" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'levels' %}active{% endif %}">
+            <a href="/levels"
+                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'levels' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
                 <span class="text-xs mt-1">Levels</span>
             </a>
-            <a href="/vocabulary" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'vocabulary' %}active{% endif %}">
+            <a href="/vocabulary"
+                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'vocabulary' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
                 </svg>
                 <span class="text-xs mt-1">Vocabulary</span>
             </a>
-            <a href="/settings" class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'settings' %}active{% endif %}">
+            <a href="/settings"
+                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'settings' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span class="text-xs mt-1">Settings</span>
             </a>
         </div>
     </nav>
 
-    <script src="/static/js/tts.js"></script>
+    <script src="/static/js/tts.js?v=2"></script>
+    <script src="/static/js/speech.js?v=2"></script>
     <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/static/sw.js');
-    }
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/static/sw.js');
+        }
     </script>
     {% block extra_js %}{% endblock %}
 </body>
+
 </html>

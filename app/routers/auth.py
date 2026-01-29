@@ -44,6 +44,8 @@ async def login_google(request: Request):
     # Generate state token to prevent CSRF
     state = secrets.token_urlsafe(32)
     request.session["oauth_state"] = state
+    print(f"DEBUG: Setting oauth_state: {state}")
+    print(f"DEBUG: Session keys after set: {request.session.keys()}")
 
     redirect_uri = settings.oauth_redirect_uri
     return await oauth.google.authorize_redirect(request, redirect_uri, state=state)
@@ -57,6 +59,9 @@ async def callback_google(request: Request, db: DbSession = Depends(get_db)):
     """
     try:
         # Exchange code for token
+        print(f"DEBUG: Callback received. Query params: {request.query_params}")
+        print(f"DEBUG: Session keys: {request.session.keys()}")
+        print(f"DEBUG: Session oauth_state: {request.session.get('oauth_state')}")
         token = await oauth.google.authorize_access_token(request)
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"OAuth error: {str(e)}")
