@@ -32,69 +32,94 @@
 
     <!-- Filter tabs -->
     <div class="flex gap-2 mb-4 overflow-x-auto pb-2">
-        {% for status_key, count in counts.items() %}
-        <a href="/vocabulary?filter={{ status_key }}&search={{ search_query }}"
-            class="px-4 py-2 {% if current_filter == status_key %}bg-swedish-blue text-white{% else %}bg-card text-text-secondary hover:bg-border-color border border-border-color{% endif %} rounded-full text-sm whitespace-nowrap transition-colors">
-            {% if status_key == 'all' %}All{% endif %}
-            {% if status_key == 'not_started' %}Not Started{% endif %}
-            {% if status_key == 'in_progress' %}In Progress{% endif %}
-            {% if status_key == 'mastered' %}Mastered{% endif %}
-            {% if status_key == 'already_known' %}Known{% endif %}
-            ({{ count }})
+        <!-- All -->
+        <a href="/vocabulary?filter=all&search={{ search_query }}"
+            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'all' %}bg-swedish-blue text-white border-swedish-blue{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
+            All ({{ counts.all }})
         </a>
-        {% endfor %}
+
+        <!-- In Progress -->
+        <a href="/vocabulary?filter=in_progress&search={{ search_query }}"
+            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'in_progress' %}bg-swedish-yellow/20 text-swedish-yellow border-swedish-yellow{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
+            In Progress ({{ counts.in_progress }})
+        </a>
+
+        <!-- Mastered -->
+        <a href="/vocabulary?filter=mastered&search={{ search_query }}"
+            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'mastered' %}bg-green-500/20 text-green-500 border-green-500{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
+            Mastered ({{ counts.mastered }})
+        </a>
+
+        <!-- Not Started -->
+        <a href="/vocabulary?filter=not_started&search={{ search_query }}"
+            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'not_started' %}bg-gray-500 text-white border-gray-500{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
+            Not Started ({{ counts.not_started }})
+        </a>
     </div>
 
     <!-- Words List -->
     <div class="space-y-2" id="wordsList">
         {% for item in words %}
-        <div class="word-item bg-card rounded-xl p-4 hover:bg-border-color/50 transition-colors cursor-pointer border border-border-color"
+        <div class="word-item bg-card rounded-xl p-4 hover:bg-border-color/50 transition-colors cursor-pointer border border-border-color flex items-center justify-between"
             onclick="window.location.href='/vocabulary/{{ item.word.id }}'">
-            <div class="flex items-center justify-between">
-                <div class="flex-1">
-                    <div class="flex items-center gap-2">
-                        <span class="text-text-primary font-medium">{{ item.word.swedish }}</span>
-                        <button onclick="event.stopPropagation(); speakWord('{{ item.word.swedish }}')"
-                            class="text-text-secondary hover:text-swedish-yellow p-1 transition-colors">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-                            </svg>
-                        </button>
-                    </div>
-                    <p class="text-text-secondary text-sm">{{ item.word.english }}</p>
+
+            <!-- Left: Word & Translation -->
+            <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3">
+                    <span class="text-white text-lg font-bold tracking-wide">{{ item.word.swedish }}</span>
+                    <button onclick="event.stopPropagation(); speakWord('{{ item.word.swedish }}')"
+                        class="text-gray-500 hover:text-white transition-colors p-1 rounded-full hover:bg-white/10">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                        </svg>
+                    </button>
                 </div>
-                <div class="flex items-center gap-2">
-                    {% if item.word.difficulty_level %}
-                    <span
-                        class="px-2 py-1 bg-swedish-blue text-white rounded text-xs font-bold shadow-sm border border-blue-400/30"
-                        title="Level {{ item.word.difficulty_level }}">
-                        {{ item.word.difficulty_level }}
-                    </span>
-                    {% endif %}
+                <p class="text-gray-500 text-sm">{{ item.word.english }}</p>
+            </div>
 
-                    {% if item.word.grammar_hint %}
-                    <span class="px-2 py-1 bg-border-color rounded text-xs text-text-secondary">{{
-                        item.word.grammar_hint
-                        }}</span>
-                    {% endif %}
+            <!-- Right: Meta & Status -->
+            <div class="flex items-center gap-3">
+                <!-- Level Badge -->
+                {% if item.word.difficulty_level %}
+                <span
+                    class="px-2 py-1 bg-blue-600 text-white rounded text-xs font-bold shadow-sm min-w-[30px] text-center">
+                    {{ item.word.difficulty_level }}
+                </span>
+                {% endif %}
 
-                    {% if item.status.status == 'mastered' %}
-                    <span class="px-2 py-1 bg-green-500/20 rounded-lg text-xs text-green-400">Mastered</span>
-                    {% elif item.status.status == 'in_progress' %}
-                    <span class="px-2 py-1 bg-swedish-yellow/20 rounded-lg text-xs text-swedish-yellow">{{
-                        item.status.overall_progress }}%</span>
-                    {% elif item.status.status == 'already_known' %}
-                    <button onclick="event.stopPropagation(); toggleKnown({{ item.word.id }}, false)"
-                        class="px-2 py-1 bg-gray-500/20 hover:bg-gray-500/30 rounded-lg text-xs text-gray-400 transition-colors"
-                        title="Click to unmark">
-                        ✓ Known
+                <!-- Part of Speech -->
+                {% if item.word.grammar_hint %}
+                <span
+                    class="px-2 py-1 bg-gray-800 text-gray-400 border border-gray-700 rounded text-xs hidden sm:inline-block">
+                    {{ item.word.grammar_hint }}
+                </span>
+                {% endif %}
+
+                <!-- Status Actions -->
+                <div class="status-actions flex items-center gap-3 ml-2">
+                    {% if item.overall_progress >= 100 or item.status == 'mastered' or item.status == 'already_known' %}
+                    <!-- Mastered State -->
+                    <span class="px-2 py-1 bg-green-900/40 text-green-400 rounded text-xs font-bold">100%</span>
+                    <button onclick="toggleKnown({{ item.word.id }}, false, this)"
+                        class="text-green-500 hover:text-green-400 transition-colors p-1" title="Unmark known">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
                     </button>
                     {% else %}
-                    <button onclick="event.stopPropagation(); toggleKnown({{ item.word.id }}, true)"
-                        class="px-2 py-1 bg-border-color hover:bg-gray-500/20 rounded-lg text-xs text-text-secondary transition-colors"
-                        title="I already know this word">
-                        Mark known
+                    <!-- In Progress / Not Started -->
+                    <span id="percent-{{ item.word.id }}"
+                        class="px-2 py-1 rounded text-xs font-bold {% if item.overall_progress > 0 %}bg-yellow-900/40 text-yellow-400{% else %}text-gray-600{% endif %}">
+                        {{ item.overall_progress }}%
+                    </span>
+                    <button onclick="toggleKnown({{ item.word.id }}, true, this)"
+                        class="text-gray-600 hover:text-green-500 transition-colors p-1" title="Mark as known">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
                     </button>
                     {% endif %}
                 </div>
@@ -168,7 +193,12 @@
         }
     }
 
-    function toggleKnown(wordId, markAsKnown) {
+    function toggleKnown(wordId, markAsKnown, element) {
+        if (event) event.stopPropagation();
+
+        // Find the specific status container (using the new class)
+        const statusContainer = element.closest('.status-actions');
+
         fetch('/api/words/' + wordId + '/known', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -177,12 +207,45 @@
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    window.location.reload();
+                    if (statusContainer) {
+                        const percent = data.mastery_percent;
+
+                        // Use transition classes for smooth UI updates
+                        if (markAsKnown) {
+                            // Render Green Tick + 100%
+                            statusContainer.innerHTML = `
+                                <span class="px-2 py-1 bg-green-900/40 text-green-400 rounded text-xs font-bold transition-all duration-300">100%</span>
+                                <button onclick="toggleKnown(${wordId}, false, this)" 
+                                    class="text-green-500 hover:text-green-400 transition-colors p-1" 
+                                    title="Unmark known">
+                                    <svg class="w-6 h-6 transform transition-transform duration-300 hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </button>
+                            `;
+                        } else {
+                            // Render Gray Tick + Restored Percentage
+                            // Use yellow style if percent > 0, otherwise gray style (no bg, gray text like mockup)
+                            const colorClass = percent > 0 ? "bg-yellow-900/40 text-yellow-400" : "text-gray-600";
+
+                            statusContainer.innerHTML = `
+                                <span class="px-2 py-1 ${colorClass} rounded text-xs font-bold transition-all duration-300">${percent}%</span>
+                                <button onclick="toggleKnown(${wordId}, true, this)" 
+                                    class="text-gray-600 hover:text-green-500 transition-colors p-1" 
+                                    title="Mark as known">
+                                    <svg class="w-6 h-6 transform transition-transform duration-300 hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </button>
+                            `;
+                        }
+                    } else {
+                        // Fallback if we can't find the container
+                        window.location.reload();
+                    }
                 }
             })
-            .catch(error => {
-                console.error('Error toggling known status:', error);
-            });
+            .catch(error => console.error('Error toggling known status:', error));
     }
 </script>
 {% endblock %}

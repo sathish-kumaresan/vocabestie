@@ -231,6 +231,8 @@ uvicorn app.main:app --reload
 | Jan 29, 2026 | **Bug Fix**: Removed duplicate event listeners in `exercise_speak.html` that caused race conditions in speech recognition. |
 | Jan 29, 2026 | **Speech Improvements**: Resolved sensitivity issues with short words ("i" vs "y"). Addressed race conditions and validation logic. |
 | Jan 30, 2026 | **Theme Polish**: Fixed Light Theme issues (invisible text, pagination colors). Improved yellow contrast. Corrected 'VD' to 'vd'. Updated .gitignore for audio assets. |
+| Jan 30, 2026 | **UI Refinement**: Updated Vocabulary Card UI to distinct "Premium" look (Bold text, pill badges). Fixed issue where 0% words appeared in "In Progress". Swapped A1/A2 colors etc. |
+| Jan 30, 2026 | **Bug Fix**: Fixed "Auto-play Audio" setting. Implemented Settings persistence (saving to localStorage) and updated Learning Session to trigger audio for "Read" exercises if enabled. |
 
 ---
 

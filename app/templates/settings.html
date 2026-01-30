@@ -125,7 +125,7 @@
                     <p class="text-text-secondary text-sm">Play sounds for correct/incorrect</p>
                 </div>
                 <label class="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" class="sr-only peer" checked>
+                    <input type="checkbox" id="sound-effects-toggle" class="sr-only peer">
                     <div
                         class="w-11 h-6 bg-border-color peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-swedish-blue">
                     </div>
@@ -137,7 +137,7 @@
                     <p class="text-text-secondary text-sm">Automatically speak Swedish words</p>
                 </div>
                 <label class="relative inline-flex items-center cursor-pointer">
-                    <input type="checkbox" class="sr-only peer">
+                    <input type="checkbox" id="auto-play-toggle" class="sr-only peer">
                     <div
                         class="w-11 h-6 bg-border-color peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-swedish-blue">
                     </div>
@@ -220,8 +220,37 @@
             });
         }
 
+        // Learning Settings Logic
+        const soundEffectsCheckbox = document.getElementById('sound-effects-toggle');
+        const autoPlayCheckbox = document.getElementById('auto-play-toggle');
+
+        function loadLearningSettings() {
+            if (soundEffectsCheckbox) {
+                // Default to true if not set
+                const soundEnabled = localStorage.getItem('sound_effects') !== 'false';
+                soundEffectsCheckbox.checked = soundEnabled;
+
+                soundEffectsCheckbox.addEventListener('change', (e) => {
+                    localStorage.setItem('sound_effects', e.target.checked);
+                });
+            }
+
+            if (autoPlayCheckbox) {
+                // Default to true if not set (user expectation)
+                const autoPlayEnabled = localStorage.getItem('autoplay_pronunciation') !== 'false';
+                autoPlayCheckbox.checked = autoPlayEnabled;
+
+                autoPlayCheckbox.addEventListener('change', (e) => {
+                    localStorage.setItem('autoplay_pronunciation', e.target.checked);
+                });
+            }
+        }
+
         // Initialize
-        updateActiveButton();
+        document.addEventListener('DOMContentLoaded', () => {
+            updateActiveButton();
+            loadLearningSettings();
+        });
     </script>
 
 

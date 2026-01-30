@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from app.database import get_db
 from app.models import Scenario, Word
 from app.schemas.word import WordResponse, WordListResponse, WordDetailResponse
-from app.services.stats import mark_word_as_known, unmark_word_as_known
+from app.services.stats import mark_word_as_known, unmark_word_as_known, get_single_word_status
 from app.dependencies import get_user_id
 
 router = APIRouter(prefix="/api/words", tags=["words"])
@@ -31,10 +31,24 @@ def toggle_word_known(
 
     if request.known:
         mark_word_as_known(db, word_id, user_id)
-        return {"success": True, "status": "already_known", "message": "Word marked as known"}
+        # Fetch updated status to verify 100%
+        new_status = get_single_word_status(db, word_id, user_id)
+        return {
+            "success": True, 
+            "status": new_status["status"], 
+            "mastery_percent": new_status["mastery_percent"],
+            "message": "Word marked as known"
+        }
     else:
         unmark_word_as_known(db, word_id, user_id)
-        return {"success": True, "status": "active", "message": "Word unmarked"}
+        # Fetch restored status (e.g. 45% or 0%)
+        new_status = get_single_word_status(db, word_id, user_id)
+        return {
+            "success": True, 
+            "status": new_status["status"], 
+            "mastery_percent": new_status["mastery_percent"],
+            "message": "Word unmarked"
+        }
 
 
 @router.get("", response_model=WordListResponse)

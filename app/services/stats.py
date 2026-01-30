@@ -738,3 +738,73 @@ def get_scenarios_progress_bulk(
         }
         
     return results
+
+def get_single_word_status(
+    db: Session,
+    word_id: int,
+    user_id: int = GUEST_USER_ID
+) -> Dict[str, Any]:
+    """
+    Get detailed status and mastery percentage for a single word.
+    Useful for returning updated state after a toggle action.
+    """
+    # 1. Check for manual override
+    override = db.query(UserWordStatus).filter(
+        UserWordStatus.user_id == user_id,
+        UserWordStatus.word_id == word_id,
+        UserWordStatus.status == 'already_known'
+    ).first()
+
+    if override:
+        return {
+            "status": "already_known",
+            "mastery_percent": 100,
+            "overall_progress": 100
+        }
+
+    # 2. Check skill mastery
+    masteries = db.query(WordSkillMastery).filter(
+        WordSkillMastery.user_id == user_id,
+        WordSkillMastery.word_id == word_id
+    ).all()
+
+    if not masteries:
+        return {
+            "status": "not_started",
+            "mastery_percent": 0,
+            "overall_progress": 0
+        }
+    
+    # Calculate progress
+    # Similar logic to loop in get_word_statuses_bulk
+    skill_scores = {m.skill_type: (m.mastery_score or 0.0) for m in masteries}
+    
+    # Calculate average score (0-100)
+    # If 4 skills, sum / 4. If fewer, still sum / 4? 
+    # Current logic seems to be: average of PRESENT skills?
+    # No, typically mastery is based on all 4 skills.
+    # Let's check get_word_statuses_bulk logic:
+    #   avg_score = sum(scores) / 4.0  ((max possible sum is 4.0))
+    #   percent = avg_score * 100
+    
+    total_score = sum(skill_scores.values())
+    overall_progress = int((total_score / 4.0) * 100)
+    
+    # Determine status
+    PASS_THRESHOLD = 0.8  # Should match constant in stats.py
+    
+    min_score = min(skill_scores.values()) if skill_scores else 0.0
+    skills_count = len(skill_scores)
+    
+    if skills_count == 4 and min_score >= PASS_THRESHOLD:
+        status = "mastered"
+        overall_progress = 100 # Cap at 100
+    else:
+        status = "in_progress"
+        
+    return {
+        "status": status,
+        "mastery_percent": overall_progress,
+        "overall_progress": overall_progress,
+        "skill_scores": skill_scores
+    }

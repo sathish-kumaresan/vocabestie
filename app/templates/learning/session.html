@@ -78,11 +78,20 @@
     }
 
     function initializeExercise(skillType) {
+        const autoPlayEnabled = localStorage.getItem('autoplay_pronunciation') !== 'false';
+
         if (skillType === 'listen') {
-            // Auto-play audio after a short delay
+            // "Listen" exercise implicitly requires audio, so always play
             setTimeout(function () {
                 playAudio();
             }, 500);
+        } else if (skillType === 'read') {
+            // "Read" exercise only auto-plays if setting is enabled
+            if (autoPlayEnabled) {
+                setTimeout(function () {
+                    playAudio();
+                }, 500);
+            }
         } else if (skillType === 'write') {
             // Initialize letter tiles
             initWriteExercise();

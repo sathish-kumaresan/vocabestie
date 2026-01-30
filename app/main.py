@@ -73,12 +73,12 @@ def levels_page(
     
     # CEFR definitions for UI
     cefr_levels = [
-        {"id": "A1", "name": "Beginner", "desc": "Basic everyday interactions", "color": "text-green-400"},
-        {"id": "A2", "name": "Elementary", "desc": "Simple personal information", "color": "text-green-300"},
-        {"id": "B1", "name": "Intermediate", "desc": "Work, school, leisure", "color": "text-yellow-400"},
-        {"id": "B2", "name": "Upper Intermediate", "desc": "Regular interaction", "color": "text-yellow-300"},
-        {"id": "C1", "name": "Advanced", "desc": "Effective operational proficiency", "color": "text-red-400"},
-        {"id": "C2", "name": "Mastery", "desc": "Spontaneous, fluent translation", "color": "text-red-300"},
+        {"id": "A1", "name": "Beginner", "desc": "Basic everyday interactions", "color": "text-green-300"},
+        {"id": "A2", "name": "Elementary", "desc": "Simple personal information", "color": "text-green-400"},
+        {"id": "B1", "name": "Intermediate", "desc": "Work, school, leisure", "color": "text-yellow-300"},
+        {"id": "B2", "name": "Upper Intermediate", "desc": "Regular interaction", "color": "text-yellow-400"},
+        {"id": "C1", "name": "Advanced", "desc": "Effective operational proficiency", "color": "text-red-300"},
+        {"id": "C2", "name": "Mastery", "desc": "Spontaneous, fluent translation", "color": "text-red-400"},
     ]
     
     # Merge stats into definition
@@ -342,168 +342,92 @@ def vocabulary_page(
     candidates.sort(key=lambda x: (len(x[1]), x[2] or "", swedish_sort_key(x)))
     candidate_ids = [c[0] for c in candidates]
     
-    if filter == "all":
-        # Simple case: just paginate the ids
-        total_items = len(candidate_ids)
-        start_idx = (page - 1) * PAGE_SIZE
-        end_idx = start_idx + PAGE_SIZE
-        page_ids = candidate_ids[start_idx:end_idx]
-    else:
-        # Complex case: We need to check status for candidates until we fill the page? 
-        # OR we just get statuses for ALL candidates (8000) and filters.
-        # Fetching 8000 statuses in memory is faster than N+1 queries.
+    # logic below handles pagination for all filters
+    try:
+        # logic below handles pagination for all filters
+        # --- UNIFIED STATUS CALCULATION & FILTERING ---
+        from app.models.mastery import UserWordStatus, WordSkillMastery
+        from app.services.stats import PASS_THRESHOLD
         
-        # Get all masteries for user
-        # We'll use a specific service method for this if getting too complex, 
-        # but let's try to utilize `get_word_statuses_bulk` but maybe chunked?
-        # Actually, let's fetch all relevant data and filter in python.
-        
-        # 1. Get Known Words
-        from app.models import UserWordStatus
-        known_overrides = db.query(UserWordStatus.word_id).filter(
-            UserWordStatus.user_id == user_id, 
-            UserWordStatus.status == 'already_known'
-        ).all()
-        known_ids = {k[0] for k in known_overrides}
+        # 1. Get Known Overrides
+        known_ids_set = {x[0] for x in db.query(UserWordStatus.word_id).filter(UserWordStatus.user_id == user_id, UserWordStatus.status == 'already_known').all()}
         
         # 2. Get Masteries
-        from app.models import WordSkillMastery
-        user_masteries = db.query(WordSkillMastery).filter(
-            WordSkillMastery.user_id == user_id
-        ).all()
+        raw_masteries = db.query(WordSkillMastery.word_id, WordSkillMastery.skill_type, WordSkillMastery.mastery_score).filter(WordSkillMastery.user_id == user_id).all()
         
-        # Build status map
-        # word_id -> {skill: score}
-        word_mastery_map = {}
-        for m in user_masteries:
-            if m.word_id not in word_mastery_map:
-                word_mastery_map[m.word_id] = {}
-            word_mastery_map[m.word_id][m.skill_type] = m.mastery_score
+        w_map = {}
+        for r in raw_masteries:
+            if r.word_id not in w_map: w_map[r.word_id] = {}
+            w_map[r.word_id][r.skill_type] = r.mastery_score
             
+        counts = {"all": len(candidate_ids), "not_started": 0, "in_progress": 0, "mastered": 0}
+        
         final_ids = []
-        
-        from app.services.mastery import PASS_THRESHOLD
-        
-        counts = {"all": len(candidate_ids), "not_started": 0, "in_progress": 0, "mastered": 0, "already_known": 0}
         
         for wid in candidate_ids:
             status = "not_started"
-            if wid in known_ids:
-                status = "already_known"
-            elif wid in word_mastery_map:
-                skills = word_mastery_map[wid]
-                # Default 0 if missing skills
+            
+            # Check Known Override FIRST (Treat as Mastered)
+            if wid in known_ids_set:
+                status = "mastered"
+            
+            # Check Skills
+            elif wid in w_map:
+                skills = w_map[wid]
+                # Check for 4 skills >= threshold
                 skill_scores = [skills.get(s, 0.0) for s in ['read', 'listen', 'speak', 'write']]
+                
+                # If any skill is missing, treated as 0.0
                 if all(s >= PASS_THRESHOLD for s in skill_scores):
                     status = "mastered"
                 elif all(s == 0 for s in skill_scores):
-                    status = "not_started" # Should be covered but just in case
+                     # If all scores are 0, it is not started (even if record exists)
+                     status = "not_started"
                 else:
-                    status = "in_progress"
-            else:
-                 status = "not_started"
-                 
+                     status = "in_progress"
+            
             counts[status] += 1
             
-            if status == filter:
+            if filter == "all" or filter == status:
                 final_ids.append(wid)
                 
         total_items = len(final_ids)
         start_idx = (page - 1) * PAGE_SIZE
         end_idx = start_idx + PAGE_SIZE
         page_ids = final_ids[start_idx:end_idx]
+
+        # --- FETCH WORDS AND STATUSES FOR PAGE ---
+        words = db.query(Word).filter(Word.id.in_(page_ids)).all()
+        word_map_obj = {w.id: w for w in words}
         
-    # Now we have the IDs for the current page. Fetch the actual Word objects and formatted statuses.
-    words = db.query(Word).filter(Word.id.in_(page_ids)).order_by(Word.swedish).all()
-    # Sort words to match the ID order (which was sorted by Swedish)
-    words_map = {w.id: w for w in words}
-    ordered_words = [words_map[wid] for wid in page_ids if wid in words_map]
-    
-    # Bulk fetch full status details for display
-    statuses = get_word_statuses_bulk(db, page_ids, user_id)
-    
-    words_with_status = []
-    for word in ordered_words:
-        words_with_status.append({
-            "word": word,
-            "status": statuses.get(word.id)
+        statuses = get_word_statuses_bulk(db, page_ids, user_id)
+        
+        words_with_status = []
+        for wid in page_ids:
+            if wid in word_map_obj:
+                entry = statuses.get(wid, {})
+                entry['word'] = word_map_obj[wid]
+                words_with_status.append(entry)
+
+        total_words_count = total_items
+        total_pages = math.ceil(total_items / PAGE_SIZE)
+        if total_pages == 0: total_pages = 1
+
+        return templates.TemplateResponse("vocabulary.html", {
+            "request": request,
+            "active_tab": "vocabulary",
+            "words": words_with_status,
+            "total_words": total_words_count,
+            "current_filter": filter,
+            "counts": counts,
+            "current_page": page,
+            "total_pages": total_pages,
+            "search_query": search or "",
+            **auth,
         })
-
-    # Recalculate counts if we didn't do the full loop (e.g. filter="all")
-    if filter == "all":
-         # We still need counts for the tabs... 
-         # This is the tradeoff. For now, let's keep the counts accurate only if filter is active
-         # OR we do a separate quick count query.
-         # For speed, let's approximate or load on demand? 
-         # The user wants "Levels" page fixed too.
-         # Let's do the "Get counts" logic cleanly:
-         # It's actually fast to just query the counts from DB directly.
-         pass
-         # TODO: optimize counts. utilizing the loop above is ok for 8k items in memory (milliseconds).
-         # So maybe we ALWAYS run the loop to get counts, but only hydrate objects for the page.
-         
-         # Re-running the loop logic for "all" case to get accurate counts:
-         if filter == "all":
-            # Repatriate the logic to avoid code duplication? 
-            # Ideally we refactor this service-side.
-            # FASTEST WAY:
-            # 1. Get all candidate IDs (search applied)
-            # 2. Get all user masteries and known overrides
-            # 3. Iterate in python to count and filter
-            
-            # COPYING LOGIC for "all" filter just to get counts
-            from app.models import UserWordStatus, WordSkillMastery
-            from app.services.mastery import PASS_THRESHOLD
-            
-            known_ids_set = {x[0] for x in db.query(UserWordStatus.word_id).filter(UserWordStatus.user_id == user_id, UserWordStatus.status == 'already_known').all()}
-            
-            # Fetch minimal data for mastery: word_id, skill_type, score
-            # Optimization: 1 query
-            raw_masteries = db.query(WordSkillMastery.word_id, WordSkillMastery.skill_type, WordSkillMastery.mastery_score).filter(WordSkillMastery.user_id == user_id).all()
-            
-            w_map = {}
-            for r in raw_masteries:
-                 if r.word_id not in w_map: w_map[r.word_id] = []
-                 w_map[r.word_id].append(r.mastery_score)
-            
-            counts = {"all": len(candidate_ids), "not_started": 0, "in_progress": 0, "mastered": 0, "already_known": 0}
-            
-            for wid in candidate_ids:
-                if wid in known_ids_set:
-                    counts["already_known"] += 1
-                elif wid in w_map:
-                    scores = w_map[wid]
-                    # We need to know if we have 4 skills... 
-                    # If less than 4 skills, others are 0.
-                    # Simplified status check:
-                    if len(scores) < 4: 
-                        # HAS SOME SKILLS
-                         # If any existing is < threshold -> in_progress (since missing are 0)
-                         # If all existing > threshold -> still in_progress (missing are 0)
-                         # UNLESS missing skills don't exist? No, 4 skills always exist conceptually.
-                         counts['in_progress'] += 1
-                    else:
-                        if all(s >= PASS_THRESHOLD for s in scores):
-                            counts['mastered'] += 1
-                        else:
-                            counts['in_progress'] += 1
-                else:
-                    counts['not_started'] += 1
-
-    total_pages = math.ceil(total_items / PAGE_SIZE)
-
-    return templates.TemplateResponse("vocabulary.html", {
-        "request": request,
-        "active_tab": "vocabulary",
-        "words": words_with_status,
-        "total_words": total_words_count,
-        "current_filter": filter,
-        "counts": counts,
-        "current_page": page,
-        "total_pages": total_pages,
-        "search_query": search or "",
-        **auth,
-    })
+    except Exception as e:
+        import traceback
+        return HTMLResponse(content=f"DEBUG ERROR [2]: {str(e)} \n {traceback.format_exc()}", status_code=500)
 
 
 @app.get("/settings", response_class=HTMLResponse)
