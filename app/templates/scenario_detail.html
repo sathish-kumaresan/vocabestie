@@ -6,7 +6,8 @@
 <div class="p-4 max-w-md mx-auto">
     <!-- Back button and header -->
     <div class="mb-6">
-        <a href="/levels" class="inline-flex items-center text-gray-400 hover:text-white mb-4">
+        <a href="/levels"
+            class="inline-flex items-center text-text-secondary hover:text-text-primary mb-4 transition-colors">
             <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
@@ -15,35 +16,40 @@
         <div class="flex items-center gap-3">
             <span class="text-4xl">{{ scenario.icon }}</span>
             <div>
-                <h1 class="text-2xl font-bold text-white">{{ scenario.name }}</h1>
-                <p class="text-gray-400 text-sm">{{ scenario.word_count }} words · {{ scenario.difficulty_level or 'A1'
+                <h1 class="text-2xl font-bold text-text-primary">{{ scenario.name }}</h1>
+                <p class="text-text-secondary text-sm">{{ scenario.word_count }} words · {{ scenario.difficulty_level or
+                    'A1'
                     }}</p>
             </div>
         </div>
         {% if scenario.description %}
-        <p class="text-gray-400 mt-3">{{ scenario.description }}</p>
+        <p class="text-text-secondary mt-3">{{ scenario.description }}</p>
         {% endif %}
     </div>
 
     <!-- Progress and Learn button -->
-    <div class="bg-dark-card rounded-2xl p-4 mb-6">
+    <div class="bg-card rounded-2xl p-4 mb-6 shadow-sm border border-border-color transition-colors">
         <div class="flex justify-between items-center mb-2">
-            <span class="text-gray-400">Progress</span>
+            <span class="text-text-secondary">Progress</span>
             <span
                 class="{% if progress.progress_percent == 100 %}text-green-500{% else %}text-swedish-yellow{% endif %} font-bold">
                 {% if progress.progress_percent == 100 %}Complete!{% else %}{{ progress.progress_percent }}%{% endif %}
             </span>
         </div>
-        <div class="w-full bg-dark-border rounded-full h-2 mb-4">
+        <div class="w-full bg-border-color rounded-full h-2 mb-4">
             <div class="{% if progress.progress_percent == 100 %}bg-green-500{% else %}bg-swedish-yellow{% endif %} h-2 rounded-full transition-all"
                 style="width: {{ progress.progress_percent }}%"></div>
         </div>
-        <div class="flex gap-2 text-xs text-gray-500 mb-4">
-            <span>{{ progress.mastered }} mastered</span>
-            <span>·</span>
-            <span>{{ progress.in_progress }} in progress</span>
-            <span>·</span>
-            <span>{{ progress.not_started }} not started</span>
+        <div class="flex justify-between text-xs font-medium mb-4">
+            <span class="text-swedish-yellow bg-swedish-yellow/10 px-2 py-1 rounded-md">
+                {{ progress.in_progress }} in progress
+            </span>
+            <span class="text-green-400 bg-green-400/10 px-2 py-1 rounded-md">
+                {{ progress.mastered }} mastered
+            </span>
+            <span class="text-text-secondary bg-gray-500/10 px-2 py-1 rounded-md">
+                {{ progress.not_started }} not started
+            </span>
         </div>
         <a href="/learn/scenario/{{ scenario.id }}"
             class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-center">
@@ -57,9 +63,10 @@
             <!-- Empty left side -->
         </div>
         <div class="flex items-center gap-2">
-            <label class="text-gray-400 text-sm">Words per page:</label>
+            <label class="text-text-secondary text-sm">Words per page:</label>
             <select onchange="changeLimit(this.value)"
-                class="bg-dark-card text-white text-sm rounded-lg border-none focus:ring-swedish-blue p-2">
+                class="bg-card text-text-primary text-sm rounded-lg border border-border-color focus:ring-swedish-blue p-2 transition-colors">
+                <option value="10" {% if pagination and pagination.limit==10 %}selected{% endif %}>10</option>
                 <option value="25" {% if pagination and pagination.limit==25 %}selected{% endif %}>25</option>
                 <option value="50" {% if pagination and pagination.limit==50 %}selected{% endif %}>50</option>
                 <option value="100" {% if pagination and pagination.limit==100 %}selected{% endif %}>100</option>
@@ -69,28 +76,28 @@
 
     <!-- Words List -->
     <div class="mb-4">
-        <h2 class="text-lg font-semibold text-white mb-3">Words in this level</h2>
+        <h2 class="text-lg font-semibold text-text-primary mb-3">Words in this level</h2>
     </div>
 
     <div class="space-y-2">
         {% for item in words %}
-        <div class="bg-dark-card rounded-xl p-4 hover:bg-gray-800 transition-colors cursor-pointer"
+        <div class="bg-card rounded-xl p-4 hover:bg-border-color/50 transition-colors cursor-pointer border border-border-color"
             onclick="window.location.href='/vocabulary/{{ item.word.id }}'">
             <div class="flex items-center justify-between">
                 <div class="flex-1">
                     <div class="flex items-center gap-2">
-                        <span class="text-white font-medium text-lg">{{ item.word.swedish }}</span>
+                        <span class="text-text-primary font-medium text-lg">{{ item.word.swedish }}</span>
                         <button onclick="event.stopPropagation(); speakWord('{{ item.word.swedish }}')"
-                            class="text-gray-400 hover:text-swedish-yellow p-1">
+                            class="text-text-secondary hover:text-swedish-yellow p-1 transition-colors">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
                             </svg>
                         </button>
                     </div>
-                    <p class="text-gray-400 text-sm">{{ item.word.english }}</p>
+                    <p class="text-text-secondary text-sm">{{ item.word.english }}</p>
                     {% if item.word.grammar_hint %}
-                    <span class="inline-block mt-1 px-2 py-0.5 bg-dark-border rounded text-xs text-gray-500">{{
+                    <span class="inline-block mt-1 px-2 py-0.5 bg-border-color rounded text-xs text-text-secondary">{{
                         item.word.grammar_hint }}</span>
                     {% endif %}
                 </div>
@@ -129,16 +136,16 @@
     {% if pagination and pagination.total_pages > 1 %}
     <div class="flex justify-center items-center gap-4 mt-8 mb-8">
         <a href="?page={{ pagination.prev_page }}&limit={{ pagination.limit }}"
-            class="px-4 py-2 rounded-lg {% if pagination.has_prev %}bg-dark-card hover:bg-gray-700 text-white{% else %}bg-transparent text-gray-600 cursor-not-allowed pointer-events-none{% endif %} transition-colors">
+            class="px-4 py-2 rounded-lg {% if pagination.has_prev %}bg-card text-text-primary border border-border-color hover:bg-border-color shadow-sm{% else %}bg-card text-text-secondary border border-border-color opacity-50 cursor-not-allowed pointer-events-none shadow-sm{% endif %} transition-colors">
             Previous
         </a>
 
-        <span class="text-gray-400 text-sm">
-            Page <span class="text-white font-bold">{{ pagination.page }}</span> of {{ pagination.total_pages }}
+        <span class="text-text-secondary text-sm font-medium">
+            Page <span class="text-text-primary font-bold">{{ pagination.page }}</span> of {{ pagination.total_pages }}
         </span>
 
         <a href="?page={{ pagination.next_page }}&limit={{ pagination.limit }}"
-            class="px-4 py-2 rounded-lg {% if pagination.has_next %}bg-dark-card hover:bg-gray-700 text-white{% else %}bg-transparent text-gray-600 cursor-not-allowed pointer-events-none{% endif %} transition-colors">
+            class="px-4 py-2 rounded-lg {% if pagination.has_next %}bg-card text-text-primary border border-border-color hover:bg-border-color shadow-sm{% else %}bg-card text-text-secondary border border-border-color opacity-50 cursor-not-allowed pointer-events-none shadow-sm{% endif %} transition-colors">
             Next
         </a>
     </div>

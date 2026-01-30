@@ -13,12 +13,28 @@
     <link rel="apple-touch-icon" href="/static/icons/icon-192.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
+        // Check for saved theme preference, otherwise use system preference
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+
         tailwind.config = {
+            darkMode: ['class', '[data-theme="dark"]'],
             theme: {
                 extend: {
                     colors: {
                         'swedish-blue': '#006AA7',
                         'swedish-yellow': '#FECC00',
+                        // Semantic colors mapped to CSS variables
+                        'primary': 'var(--bg-primary)',
+                        'card': 'var(--bg-card)',
+                        'border-color': 'var(--bg-border)',
+                        'text-primary': 'var(--text-primary)',
+                        'text-secondary': 'var(--text-secondary)',
+
+                        // Keep legacy colors for compatibility during refactor
                         'dark-bg': '#000000',
                         'dark-card': '#1a1a1a',
                         'dark-border': '#333333',
@@ -28,9 +44,34 @@
         }
     </script>
     <style>
+        :root {
+            /* Light Theme (Default) */
+            --bg-primary: #f3f4f6;
+            --bg-card: #ffffff;
+            --bg-border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --swedish-yellow: #d9ad00;
+            /* Darker gold/yellow for better contrast on white */
+        }
+
+        [data-theme="dark"] {
+            /* Dark Theme */
+            --bg-primary: #000000;
+            --bg-card: #1a1a1a;
+            --bg-border: #333333;
+            --text-primary: #ffffff;
+            --text-secondary: #9ca3af;
+            --swedish-yellow: #FECC00;
+            /* Original bright yellow for dark mode */
+        }
+
+
+
         body {
-            background-color: #000000;
-            color: #ffffff;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .nav-item.active {
@@ -40,16 +81,26 @@
         .nav-item.active svg {
             color: #FECC00;
         }
+
+        /* Smooth transitions for theme switching */
+        *,
+        *::before,
+        *::after {
+            transition-property: background-color, border-color, color, fill, stroke;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 200ms;
+        }
     </style>
     {% block extra_head %}{% endblock %}
 </head>
 
 <body class="min-h-screen flex flex-col">
     <!-- Top Header with Auth Status -->
-    <header class="bg-dark-card border-b border-dark-border px-4 py-2 flex justify-between items-center">
+    <header class="bg-card border-b border-border-color px-4 py-2 flex justify-between items-center transition-colors">
         <span class="text-swedish-yellow font-bold text-lg">Vocabestie</span>
         {% if is_authenticated %}
-        <a href="/settings" class="flex items-center gap-2 text-gray-400 hover:text-white text-sm">
+        <a href="/settings"
+            class="flex items-center gap-2 text-text-secondary hover:text-text-primary text-sm transition-colors">
             <span>{{ user_name }}</span>
             <div class="w-7 h-7 bg-swedish-blue rounded-full flex items-center justify-center">
                 <span class="text-xs text-white">{{ user_name[0] | upper if user_name else 'U' }}</span>
@@ -68,10 +119,10 @@
     </main>
 
     <!-- Bottom Navigation -->
-    <nav class="fixed bottom-0 left-0 right-0 bg-dark-card border-t border-dark-border">
+    <nav class="fixed bottom-0 left-0 right-0 bg-card border-t border-border-color transition-colors">
         <div class="flex justify-around items-center h-16 max-w-md mx-auto">
             <a href="/"
-                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'home' %}active{% endif %}">
+                class="nav-item flex flex-col items-center py-2 px-4 text-text-secondary hover:text-swedish-yellow transition-colors {% if active_tab == 'home' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -79,7 +130,7 @@
                 <span class="text-xs mt-1">Home</span>
             </a>
             <a href="/levels"
-                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'levels' %}active{% endif %}">
+                class="nav-item flex flex-col items-center py-2 px-4 text-text-secondary hover:text-swedish-yellow transition-colors {% if active_tab == 'levels' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -87,7 +138,7 @@
                 <span class="text-xs mt-1">Levels</span>
             </a>
             <a href="/vocabulary"
-                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'vocabulary' %}active{% endif %}">
+                class="nav-item flex flex-col items-center py-2 px-4 text-text-secondary hover:text-swedish-yellow transition-colors {% if active_tab == 'vocabulary' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
@@ -95,7 +146,7 @@
                 <span class="text-xs mt-1">Vocabulary</span>
             </a>
             <a href="/settings"
-                class="nav-item flex flex-col items-center py-2 px-4 text-gray-400 hover:text-swedish-yellow {% if active_tab == 'settings' %}active{% endif %}">
+                class="nav-item flex flex-col items-center py-2 px-4 text-text-secondary hover:text-swedish-yellow transition-colors {% if active_tab == 'settings' %}active{% endif %}">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />

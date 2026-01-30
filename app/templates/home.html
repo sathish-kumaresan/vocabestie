@@ -9,14 +9,14 @@
         <h1 class="text-3xl font-bold">
             <span class="text-swedish-blue">Voca</span><span class="text-swedish-yellow">bestie</span>
         </h1>
-        <p class="text-gray-400 mt-2">Learn Swedish vocabulary your way</p>
+        <p class="text-text-secondary mt-2">Learn Swedish vocabulary your way</p>
     </div>
 
     <!-- Streak Card -->
-    <div class="bg-dark-card rounded-2xl p-4 mb-4">
+    <div class="bg-card rounded-2xl p-4 mb-4 shadow-sm border border-border-color transition-colors">
         <div class="flex items-center justify-between">
             <div>
-                <p class="text-gray-400 text-sm">Current Streak</p>
+                <p class="text-text-secondary text-sm">Current Streak</p>
                 <p
                     class="text-2xl font-bold {% if stats.current_streak > 0 %}text-swedish-yellow{% else %}text-gray-500{% endif %}">
                     {{ stats.current_streak }} day{% if stats.current_streak != 1 %}s{% endif %}
@@ -28,43 +28,43 @@
 
     <!-- Quick Stats -->
     <div class="grid grid-cols-2 gap-4 mb-6">
-        <div class="bg-dark-card rounded-2xl p-4 text-center">
+        <div class="bg-card rounded-2xl p-4 text-center shadow-sm border border-border-color transition-colors">
             <p class="text-3xl font-bold text-green-500">{{ stats.words_mastered }}</p>
-            <p class="text-gray-400 text-sm">Words Mastered</p>
+            <p class="text-text-secondary text-sm">Words Mastered</p>
         </div>
-        <div class="bg-dark-card rounded-2xl p-4 text-center">
+        <div class="bg-card rounded-2xl p-4 text-center shadow-sm border border-border-color transition-colors">
             <p class="text-3xl font-bold text-swedish-yellow">{{ stats.words_in_progress }}</p>
-            <p class="text-gray-400 text-sm">Words Learning</p>
+            <p class="text-text-secondary text-sm">Words Learning</p>
         </div>
     </div>
 
     <!-- Continue Learning Button -->
     <a href="/levels"
-        class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-2xl text-center mb-6 transition-colors">
+        class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-2xl text-center mb-6 transition-colors shadow-lg shadow-blue-500/20">
         {% if stats.words_started > 0 %}Continue Learning{% else %}Start Learning{% endif %}
     </a>
 
     <!-- Overall Progress -->
     {% set progress_percent = ((stats.words_mastered) / stats.total_words * 100) | int if
     stats.total_words > 0 else 0 %}
-    <div class="bg-dark-card rounded-2xl p-4">
+    <div class="bg-card rounded-2xl p-4 shadow-sm border border-border-color transition-colors">
         <div class="flex justify-between items-center mb-2">
-            <p class="text-gray-400 text-sm">Overall Progress</p>
+            <p class="text-text-secondary text-sm">Overall Progress</p>
             <p class="{% if progress_percent == 100 %}text-green-500{% else %}text-swedish-yellow{% endif %} font-bold">
                 {{ progress_percent }}%</p>
         </div>
-        <div class="w-full bg-dark-border rounded-full h-2">
+        <div class="w-full bg-border-color rounded-full h-2">
             <div class="{% if progress_percent == 100 %}bg-green-500{% else %}bg-swedish-yellow{% endif %} h-2 rounded-full transition-all"
                 style="width: {{ progress_percent }}%"></div>
         </div>
-        <p class="text-gray-500 text-xs mt-2">{{ stats.words_mastered }} of {{
+        <p class="text-text-secondary text-xs mt-2">{{ stats.words_mastered }} of {{
             stats.total_words }} words mastered</p>
     </div>
 
     <!-- Info Card -->
-    <div class="bg-dark-card rounded-2xl p-4 mt-4 border border-dark-border">
+    <div class="bg-card rounded-2xl p-4 mt-4 border border-border-color transition-colors">
         <h3 class="font-bold text-swedish-yellow mb-2">4-Skill Mastery System</h3>
-        <div class="grid grid-cols-2 gap-2 text-sm text-gray-400">
+        <div class="grid grid-cols-2 gap-2 text-sm text-text-secondary">
             <div class="flex items-center gap-2">
                 <span class="text-lg">👁️</span> Read
             </div>
@@ -78,7 +78,7 @@
                 <span class="text-lg">✍️</span> Write
             </div>
         </div>
-        <p class="text-gray-500 text-xs mt-3">Master all 4 skills to fully learn each word</p>
+        <p class="text-text-secondary text-xs mt-3">Master all 4 skills to fully learn each word</p>
     </div>
 </div>
 {% endblock %}

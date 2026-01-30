@@ -103,7 +103,7 @@ def level_detail_page(
     level_id: str,
     request: Request,
     page: int = Query(1, ge=1),
-    limit: int = Query(25, ge=1, le=100),
+    limit: int = Query(10, ge=1, le=100),
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),

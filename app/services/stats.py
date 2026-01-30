@@ -206,10 +206,14 @@ def get_scenario_progress(
     scenario_id: int,
     user_id: int = GUEST_USER_ID
 ) -> Dict[str, Any]:
-    """Get progress statistics for a specific scenario."""
-    # Get all words in scenario
-    words = db.query(Word).filter(Word.scenario_id == scenario_id).all()
-    total_words = len(words)
+    """Get progress statistics for a specific scenario using optimized bulk queries."""
+    # 1. Get all word IDs for this scenario
+    # We only need IDs, which is very fast
+    word_ids = [
+        w_id for (w_id,) in 
+        db.query(Word.id).filter(Word.scenario_id == scenario_id).all()
+    ]
+    total_words = len(word_ids)
 
     if total_words == 0:
         return {
@@ -221,43 +225,72 @@ def get_scenario_progress(
             "progress_percent": 0,
         }
 
+    # 2. Batch fetch ALL masteries for these words
+    masteries = db.query(WordSkillMastery).filter(
+        WordSkillMastery.user_id == user_id,
+        WordSkillMastery.word_id.in_(word_ids)
+    ).all()
+
+    # Organize masteries: word_id -> {skill: score}
+    word_skills: Dict[int, Dict[str, float]] = {}
+    for m in masteries:
+        if m.word_id not in word_skills:
+            word_skills[m.word_id] = {}
+        word_skills[m.word_id][m.skill_type] = m.mastery_score or 0.0
+
+    # 3. Batch fetch ALL known overrides for these words
+    known_overrides = db.query(UserWordStatus.word_id).filter(
+        UserWordStatus.user_id == user_id,
+        UserWordStatus.word_id.in_(word_ids),
+        UserWordStatus.status == 'already_known'
+    ).all()
+    
+    known_word_ids = {k[0] for k in known_overrides}
+
+    # 4. Aggregation in Memory
     mastered = 0
     in_progress = 0
     not_started = 0
-    already_known = 0
-    total_mastery = 0.0  # Sum of all word masteries for progress calculation
+    already_known = len(known_word_ids)
+    total_score_sum = 0.0
 
-    for word in words:
-        # Check for already_known override
-        override = db.query(UserWordStatus).filter(
-            UserWordStatus.user_id == user_id,
-            UserWordStatus.word_id == word.id,
-            UserWordStatus.status == 'already_known'
-        ).first()
-
-        if override:
-            already_known += 1
-            total_mastery += 1.0  # Count as 100% mastered
+    for wid in word_ids:
+        # Check Known Override
+        if wid in known_word_ids:
+            # Counts as fully mastered for progress
+            total_score_sum += 1.0
+            # We track it in 'already_known' bucket, but for UI "Mastered" usually includes known
             continue
+            
+        skills = word_skills.get(wid, {})
+        
+        # Calculate scores
+        # Default 0.0 for missing skills
+        scores = [skills.get(s, 0.0) for s in SKILL_TYPES]
+        
+        # Calculate average for this word
+        if not scores: # Should not happen if SKILL_TYPES is set
+             avg_word_mastery = 0.0
+        else:
+             avg_word_mastery = sum(scores) / 4.0
 
-        # Get skill masteries
-        skills = get_word_mastery(db, user_id, word.id)
-        avg_skill_mastery = sum(skills.values()) / len(skills) if skills else 0.0
-        total_mastery += avg_skill_mastery
+        total_score_sum += avg_word_mastery
 
-        if all(score == 0.0 for score in skills.values()):
+        # Determine Status
+        if all(s == 0.0 for s in scores):
             not_started += 1
-        elif all(score >= PASS_THRESHOLD for score in skills.values()):
+        elif all(s >= PASS_THRESHOLD for s in scores):
             mastered += 1
         else:
             in_progress += 1
 
-    # Calculate progress based on average mastery across all words
-    progress_percent = int((total_mastery / total_words) * 100) if total_words > 0 else 0
+    # Calculate final percentage
+    # Sum of all word masteries (0.0 to 1.0) / total words
+    progress_percent = int((total_score_sum / total_words) * 100)
 
     return {
         "total_words": total_words,
-        "mastered": mastered + already_known,  # Include known in mastered
+        "mastered": mastered + already_known,  # Include known in mastered count for UI consistency
         "in_progress": in_progress,
         "not_started": not_started,
         "already_known": already_known,
