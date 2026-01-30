@@ -229,7 +229,8 @@ uvicorn app.main:app --reload
 | Jan 28, 2026 | **Bug Fix**: Fixed negative "Words in progress" count by correctly calculating it in the backend instead of using template subtraction which was affected by the Known/Mastered merge. |
 | Jan 28, 2026 | **Git Push**: Committing and pushing all Vocabulary Page enhancements, Word Details, Level fixes, and Stats fixes to `main`. |
 | Jan 29, 2026 | **Bug Fix**: Removed duplicate event listeners in `exercise_speak.html` that caused race conditions in speech recognition. |
-| Jan 29, 2026 | **Speech Improvements**: [IN PROGRESS] Investigating sensitivity issues with short words ("i" vs "y"). Attempted auto-retry and relaxed validation (reverted due to instability). Debugging continues. |
+| Jan 29, 2026 | **Speech Improvements**: Resolved sensitivity issues with short words ("i" vs "y"). Addressed race conditions and validation logic. |
+| Jan 30, 2026 | **Theme Polish**: Fixed Light Theme issues (invisible text, pagination colors). Improved yellow contrast. Corrected 'VD' to 'vd'. Updated .gitignore for audio assets. |
 
 ---
 
