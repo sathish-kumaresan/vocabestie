@@ -9,9 +9,8 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6.5: Speaking Exercise Redesign (PLANNED) |
 | **Last Session** | January 31, 2026 |
-| **Next Task** | Test Speaking Exercise Redesign |
+| **Next Task** | Phase 7: Launch Prep and Optimization |
 | **Blockers** | None |
 | **Plan File** | `~/.claude/plans/melodic-roaming-brooks.md` |
 
@@ -139,7 +138,7 @@
   - [x] `app/static/sw.js` — service worker (cache-first static, network-first HTML/API)
   - [x] `app/templates/base.html` — manifest link, theme-color, mobile meta tags, SW registration
 
-### Phase 6.5: Speaking Exercise Redesign (NEXT - IN PROGRESS)
+### Phase 6.5: Speaking Exercise Redesign ✅ COMPLETE
 - [x] New recording system with MediaRecorder (replaces Web Speech API)
   - [x] `app/static/js/pronunciation.js` - Recording orchestrator
   - [x] `app/static/js/audio-visualizer.js` - Waveform + level meter
@@ -255,6 +254,7 @@ uvicorn app.main:app --reload
 | Jan 30, 2026 | **Bug Fix**: Fixed "Auto-play Audio" setting. Implemented Settings persistence (saving to localStorage) and updated Learning Session to trigger audio for "Read" exercises if enabled. |
 | Jan 31, 2026 | **Code Audit & Bug Fixes**: Comprehensive codebase review. Fixed: missing HTTPException import (main.py), removed debug alerts (tts.js), removed debug prints (auth.py), fixed exposed error tracebacks, removed duplicate dict key, set testing_mode=False for production adaptive learning (mastery.py), cleaned up orphaned code (stats.py). |
 | Jan 31, 2026 | **Speaking Exercise Redesign Plan**: Analyzed broken speech recognition (Web Speech API issues). Researched alternatives (Azure Speech, Whisper, Vosk). Created comprehensive plan: replace with MediaRecorder + Whisper STT, add visual feedback (score gauge, syllable breakdown, waveform comparison). Plan saved to `~/.claude/plans/melodic-roaming-brooks.md`. |
+| Jan 31, 2026 | **Speaking Exercise Implementation**: Fully implemented the redesign. Replaced Web Speech API with `MediaRecorder` + `openai-whisper`. Added server-side analysis endpoint (`/api/speech/analyze`). Created new UI with score gauge, live level meter, waveform visualization, and syllable breakdown. Fixed race conditions in SPA loading script. |
 
 ---
 
