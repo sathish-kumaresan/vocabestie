@@ -9,9 +9,9 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 6.5: Speech Recognition Stabilization (IN PROGRESS) |
-| **Last Session** | January 29, 2026 |
-| **Next Task** | Stabilize STT for short words, investigate alternative retry strategies (non-blocking) |
+| **Current Phase** | Phase 7: Launch Prep (Ready to Start) |
+| **Last Session** | January 31, 2026 |
+| **Next Task** | Landing page, privacy policy, deployment setup |
 | **Blockers** | None |
 
 ---
@@ -233,6 +233,7 @@ uvicorn app.main:app --reload
 | Jan 30, 2026 | **Theme Polish**: Fixed Light Theme issues (invisible text, pagination colors). Improved yellow contrast. Corrected 'VD' to 'vd'. Updated .gitignore for audio assets. |
 | Jan 30, 2026 | **UI Refinement**: Updated Vocabulary Card UI to distinct "Premium" look (Bold text, pill badges). Fixed issue where 0% words appeared in "In Progress". Swapped A1/A2 colors etc. |
 | Jan 30, 2026 | **Bug Fix**: Fixed "Auto-play Audio" setting. Implemented Settings persistence (saving to localStorage) and updated Learning Session to trigger audio for "Read" exercises if enabled. |
+| Jan 31, 2026 | **Code Audit & Bug Fixes**: Comprehensive codebase review. Fixed: missing HTTPException import (main.py), removed debug alerts (tts.js), removed debug prints (auth.py), fixed exposed error tracebacks, removed duplicate dict key, set testing_mode=False for production adaptive learning (mastery.py), cleaned up orphaned code (stats.py). |
 
 ---
 

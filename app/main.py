@@ -1,6 +1,6 @@
 from typing import Optional
 import math
-from fastapi import FastAPI, Request, Depends, Query
+from fastapi import FastAPI, Request, Depends, Query, HTTPException
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -426,8 +426,9 @@ def vocabulary_page(
             **auth,
         })
     except Exception as e:
-        import traceback
-        return HTMLResponse(content=f"DEBUG ERROR [2]: {str(e)} \n {traceback.format_exc()}", status_code=500)
+        import logging
+        logging.exception("Error in vocabulary page")
+        return HTMLResponse(content="An error occurred. Please try again.", status_code=500)
 
 
 @app.get("/settings", response_class=HTMLResponse)
@@ -443,7 +444,6 @@ def settings_page(
     return templates.TemplateResponse("settings.html", {
         "request": request,
         "active_tab": "settings",
-        "stats": stats,
         "stats": stats,
         **auth,
     })

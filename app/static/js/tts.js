@@ -111,7 +111,6 @@ const TTS = {
 
                     audio.onerror = (e) => {
                         console.warn('Audio file playback failed, falling back:', e);
-                        alert("Debug: Audio file playback failed. Code: " + (e.target.error ? e.target.error.code : 'unknown'));
                         // Fallback to Web Speech if file fails
                         TTS.speakWebSpeech(text, options).then(resolve).catch(reject);
                     };
@@ -119,7 +118,6 @@ const TTS = {
                     console.log(`TTS: Playing server audio for "${text}"`);
                     audio.play().catch(e => {
                         console.warn('Autoplay prevented or error:', e);
-                        alert("Debug: Autoplay prevented or error: " + e.message);
                         TTS.speakWebSpeech(text, options).then(resolve).catch(reject);
                     });
                 })

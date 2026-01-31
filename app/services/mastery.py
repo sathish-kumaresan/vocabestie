@@ -130,7 +130,7 @@ def get_weakest_skill(
     db: Session,
     user_id: int,
     word_id: int,
-    testing_mode: bool = True,  # Set to False for production
+    testing_mode: bool = False,  # Set to True for testing all exercise types
 ) -> str:
     """
     Get the skill with lowest mastery for a word.

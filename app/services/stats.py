@@ -605,15 +605,7 @@ def get_cefr_progress(
     
     # Correct approach: fetch known IDs first.
     
-    # Let's simplify for V1 of this feature:
-    # 1. Total words per level
-    # 2. Get aggregated counts from new specialized helper if needed,
-    #    OR just iterate all UserWordStatus and WordSkillMastery in Python.
-    #    8000 words is small enough for Python iteration if we fetch raw data.
-    
-    pass 
-    
-    # Redoing logic for perfect accuracy with 2 queries:
+    # Redoing logic for perfect accuracy with 3 queries:
     # Q1: All Words (id, difficulty)
     # Q2: All User Data (word_id, type, score/status)
     

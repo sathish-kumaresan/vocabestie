@@ -150,13 +150,12 @@ def start_custom_session(
         
     # 3. Select Session Words (Top 10)
     import random
-    # Shuffle IDs in memory (fast)
     random.shuffle(filtered_ids)
     selected_ids = filtered_ids[:10]
-    
+
     # 4. Fetch full Word objects for the 10 selected IDs
     selected_words = db.query(Word).filter(Word.id.in_(selected_ids)).all()
-    # Shuffle again because DB return order is undefined/by ID
+    # DB doesn't preserve order from IN clause, shuffle for randomness
     random.shuffle(selected_words)
     
     # 5. Start Session
