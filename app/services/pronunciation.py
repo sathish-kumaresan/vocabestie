@@ -34,7 +34,7 @@ class PronunciationService:
             
         try:
             # Transcribe with Whisper
-            result = await asyncio.to_thread(PronunciationService._transcribe, tmp_path)
+            result = await asyncio.to_thread(PronunciationService._transcribe, tmp_path, expected_text)
             transcribed_text = result["text"].strip()
             
             # Clean up temp file
@@ -57,10 +57,32 @@ class PronunciationService:
             raise e
 
     @staticmethod
-    def _transcribe(file_path: str):
+    def _transcribe(file_path: str, expected_text: str = ""):
         model = get_whisper_model()
-        # language='sv' forces Swedish, task='transcribe'
-        return model.transcribe(file_path, language="sv", task="transcribe")
+        
+        # improved parameters to reduce hallucinations:
+        # 1. initial_prompt: biases the model towards the expected domain/word
+        # 2. condition_on_previous_text=False: prevents context pollution
+        # 3. no_speech_threshold: stricter silence detection
+        # 4. logprob_threshold: stricter confidence requirement
+        
+        # Swedish prompt to bias context
+        prompt = f"Ordet är {expected_text}." if expected_text else "Säg ordet."
+        
+        return model.transcribe(
+            file_path, 
+            language="sv", 
+            task="transcribe",
+            initial_prompt=prompt,
+            condition_on_previous_text=False,
+            # Robustness filtering
+            no_speech_threshold=0.5, # Slightly looser to detect short words
+            logprob_threshold=-0.9, # Strict confidence
+            compression_ratio_threshold=2.4,
+            beam_size=5, # Better accuracy
+            best_of=5,
+            fp16=False # robust on cpu
+        )
 
     @staticmethod
     def _calculate_score(transcribed: str, expected: str):
@@ -70,6 +92,11 @@ class PronunciationService:
         if not t_norm:
             return 0, "No speech detected"
             
+        # Sanity check for hallucinations:
+        # If transcribed is way longer than expected (e.g. "fot" -> "Zus grupp"), it's likely noise/hallucination
+        if len(expected) < 5 and len(t_norm) > len(e_norm) * 3:
+             return 0, "Could not understand. Try again."
+             
         # Levenshtein distance
         dist = Levenshtein.distance(t_norm, e_norm)
         max_len = max(len(t_norm), len(e_norm))

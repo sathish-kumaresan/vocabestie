@@ -192,7 +192,7 @@
             // Check if our new UI controller is available
             if (window.SpeakExerciseUI) {
                 console.log("Initializing SpeakExerciseUI");
-                SpeakExerciseUI.init(wordId, expectedWord);
+                SpeakExerciseUI.init(wordId, expectedWord, nextExercise);
             } else {
                 console.error("SpeakExerciseUI not found! Check network/caching.");
             }

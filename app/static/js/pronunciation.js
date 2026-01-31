@@ -60,11 +60,41 @@ const Pronunciation = {
             this.mediaRecorder.start(100); // Collect data every 100ms
             this.isRecording = true;
 
-            // Start level meter updates
+            // Start level meter & silence detection
+            let silenceStart = null;
+            let speechDetected = false;
+            const SILENCE_THRESHOLD = 5; // Level below this is silence
+            const AUTO_STOP_DELAY = 1500; // Stop after 1.5s of silence
+            const MIN_SPEECH_DURATION = 500; // Must speak for 0.5s to arm auto-stop
+            let speechStartTime = null;
+
             if (onLevelUpdate) {
                 this.levelMeterInterval = setInterval(() => {
                     const level = this.getAudioLevel();
                     onLevelUpdate(level);
+
+                    // Auto-stop logic
+                    if (level > SILENCE_THRESHOLD) {
+                        silenceStart = null;
+                        if (!speechDetected) {
+                            speechStartTime = Date.now();
+                        }
+                        if (Date.now() - speechStartTime > MIN_SPEECH_DURATION) {
+                            speechDetected = true;
+                        }
+                    } else {
+                        if (speechDetected) {
+                            if (!silenceStart) silenceStart = Date.now();
+                            else if (Date.now() - silenceStart > AUTO_STOP_DELAY) {
+                                // Auto-stop!
+                                console.log('Auto-stopping due to silence');
+                                if (this.isRecording) {
+                                    // Dispatch event or callback (we'll emit a custom event to UI)
+                                    window.dispatchEvent(new Event('autostop_trigger'));
+                                }
+                            }
+                        }
+                    }
                 }, 50);
             }
 
@@ -133,13 +163,26 @@ const Pronunciation = {
         });
     },
 
+    // Decode blob to AudioBuffer
+    async decodeAudio(blob) {
+        if (!blob) return null;
+        try {
+            const arrayBuffer = await blob.arrayBuffer();
+            return await this.audioContext.decodeAudioData(arrayBuffer);
+        } catch (e) {
+            console.error('Failed to decode audio:', e);
+            return null;
+        }
+    },
+
     // Check if audio has content (not silence)
     async hasAudioContent(blob) {
         if (!blob || blob.size < 1000) return false; // Less than 1KB is likely silence
 
         try {
-            const arrayBuffer = await blob.arrayBuffer();
-            const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
+            const audioBuffer = await this.decodeAudio(blob);
+            if (!audioBuffer) return blob.size > 2000;
+
             const data = audioBuffer.getChannelData(0);
 
             // Calculate RMS energy
@@ -194,10 +237,15 @@ const SpeakExerciseUI = {
         expectedWord: ''
     },
 
-    init(wordId, expectedWord) {
+    init(wordId, expectedWord, onComplete) {
         this.state.wordId = wordId;
         this.state.expectedWord = expectedWord;
+        this.state.nativeBuffer = null; // Store native audio buffer
+        this.onComplete = onComplete || (() => window.location.reload());
         this.bindElements();
+
+        // Pre-fetch native audio for comparison
+        this.prefetchNativeAudio();
 
         if (!Pronunciation.isSupported()) {
             if (this.elements.micStatus) this.elements.micStatus.textContent = 'Recording not supported';
@@ -222,6 +270,13 @@ const SpeakExerciseUI = {
                     await this.stopAndAnalyze();
                 } else {
                     await this.startRecording();
+                }
+            });
+
+            // Listen for auto-stop
+            window.addEventListener('autostop_trigger', async () => {
+                if (Pronunciation.isRecording) {
+                    await this.stopAndAnalyze();
                 }
             });
         }
@@ -250,6 +305,24 @@ const SpeakExerciseUI = {
             actionSection: document.getElementById('action-section'),
             syllablesContainer: document.getElementById('syllables-container')
         };
+    },
+
+    async prefetchNativeAudio() {
+        if (!this.state.expectedWord) return;
+        try {
+            const encodedText = encodeURIComponent(this.state.expectedWord);
+            const res = await fetch(`/api/audio/tts?text=${encodedText}`);
+            if (res.ok) {
+                const data = await res.json();
+                if (data.audio_url) {
+                    const audioRes = await fetch(data.audio_url);
+                    const blob = await audioRes.blob();
+                    this.state.nativeBuffer = await Pronunciation.decodeAudio(blob);
+                }
+            }
+        } catch (e) {
+            console.warn('Native audio prefetch failed:', e);
+        }
     },
 
     async startRecording() {
@@ -295,28 +368,81 @@ const SpeakExerciseUI = {
             return;
         }
 
-        this.elements.playbackSection.classList.remove('hidden');
-
-        // Analyze
-        const formData = new FormData();
-        formData.append('audio', blob, 'recording.webm');
-        formData.append('word_id', this.state.wordId);
-
+        // Draw Waveform immediately (updated with native buffer when analysis completes)
         try {
-            const response = await fetch('/api/speech/analyze', {
+            const audioBuffer = await Pronunciation.decodeAudio(blob);
+
+            // --- INSTANT CLIENT-SIDE SCORING (Seamless) ---
+            let instantScore = 0;
+            if (audioBuffer && this.state.nativeBuffer) {
+                // 1. Calculate matching score (0-100)
+                instantScore = AudioMatcher.compare(audioBuffer, this.state.nativeBuffer);
+                console.log('Instant Client Score:', instantScore);
+
+                // 2. Show result IMMEDIATELY
+                AudioVisualizer.drawDualWaveform('waveform-canvas', audioBuffer, this.state.nativeBuffer, instantScore);
+                this.showResult(instantScore, '...', 'Verifying...', null);
+
+                // Show "Checking..." state without blocking
+                this.elements.micStatus.textContent = 'Verifying...';
+            } else if (audioBuffer) {
+                // No native audio to compare? Default to green/100 for now.
+                AudioVisualizer.drawDualWaveform('waveform-canvas', audioBuffer, null, 100);
+            }
+
+            this.elements.playbackSection.classList.remove('hidden');
+
+            // --- BACKGROUND SERVER VERIFICATION ---
+            const formData = new FormData();
+            formData.append('audio', blob, 'recording.webm');
+            formData.append('word_id', this.state.wordId);
+
+            // Fire and adjust (non-blocking feel)
+            fetch('/api/speech/analyze', {
                 method: 'POST',
                 body: formData
-            });
+            }).then(async (res) => {
+                if (res.ok) {
+                    const data = await res.json();
 
-            if (response.ok) {
-                const data = await response.json();
-                this.showResult(data.score, data.transcription, data.feedback, data.syllables);
-            } else {
-                this.showResult(50, '', 'Analysis error. Good effort!');
-            }
+                    // Reconciliation Strategy:
+                    // 1. Trust client match for "How close it sounds"
+                    // 2. Trust server Whisper for "Did they say the right word?"
+
+                    if (data.score === 0) {
+                        // Whisper says: "Wrong word" or "Silence" -> Overwrite instant score
+                        this.showResult(0, data.transcription, data.feedback, data.syllables);
+                        if (audioBuffer) AudioVisualizer.drawDualWaveform('waveform-canvas', audioBuffer, this.state.nativeBuffer, 0);
+                    } else {
+                        // Whisper agrees it's the right word.
+                        // STRATEGY: Base Score (80) + Waveform Bonus (0-20)
+                        // This guarantees that if you say the correct word, you get at least "Excellent" (80%),
+                        // and a perfect waveform match bumps you to 100%.
+
+                        const bonus = Math.round(instantScore * 0.2);
+                        const hybridScore = 80 + bonus;
+
+                        console.log(`Hybrid Score: ${hybridScore} (Base: 80 + Bonus: ${bonus} [from client ${instantScore}])`);
+
+                        // Generate new feedback based on the FINAL score
+                        let finalFeedback = '';
+                        if (hybridScore >= 95) finalFeedback = 'Perfect pronunciation!';
+                        else if (hybridScore >= 80) finalFeedback = 'Excellent!';
+                        else if (hybridScore >= 60) finalFeedback = 'Good job!';
+                        else finalFeedback = 'Try again.';
+
+                        // Use hybridScore and our derived feedback
+                        this.showResult(hybridScore, data.transcription, finalFeedback, data.syllables);
+
+                        // Subtle update to waveform color if category changed
+                        if (audioBuffer) AudioVisualizer.drawDualWaveform('waveform-canvas', audioBuffer, this.state.nativeBuffer, hybridScore);
+                    }
+                }
+            }).catch(e => console.error("Background verification failed:", e));
+
         } catch (e) {
-            console.error(e);
-            this.showResult(50, '', 'Connection error. Good effort!');
+            console.error('Analysis flow error:', e);
+            this.showResult(50, '', 'Error. Please try again.');
         }
     },
 
@@ -326,15 +452,20 @@ const SpeakExerciseUI = {
 
         AudioVisualizer.updateScoreGauge(score);
 
-        if (syllables && this.elements.syllablesContainer) {
-            AudioVisualizer.displaySyllables('syllables-container', syllables);
-        }
+        // Hide the generic label under the gauge since we show specific feedback below
+        const scoreLabel = document.getElementById('score-label');
+        if (scoreLabel) scoreLabel.textContent = '';
+
+        if (scoreLabel) scoreLabel.textContent = '';
 
         this.elements.scoreSection.classList.remove('hidden');
 
-        if (score >= 70) {
-            this.elements.resultText.textContent = feedback || 'Good job!';
+        if (score >= 80) {
+            this.elements.resultText.textContent = feedback || 'Excellent!';
             this.elements.resultText.className = 'text-lg font-medium text-green-400';
+        } else if (score >= 60) {
+            this.elements.resultText.textContent = feedback || 'Good job!';
+            this.elements.resultText.className = 'text-lg font-medium text-teal-400';
         } else if (score >= 40) {
             this.elements.resultText.textContent = feedback || 'Keep practicing';
             this.elements.resultText.className = 'text-lg font-medium text-yellow-400';
@@ -343,12 +474,7 @@ const SpeakExerciseUI = {
             this.elements.resultText.className = 'text-lg font-medium text-red-400';
         }
 
-        if (transcript) {
-            this.elements.heardText.textContent = `Heard: "${transcript}"`;
-            this.elements.heardText.classList.remove('hidden');
-        } else {
-            this.elements.heardText.classList.add('hidden');
-        }
+
 
         this.elements.resultSection.classList.remove('hidden');
         this.elements.actionSection.classList.remove('hidden');
@@ -373,8 +499,8 @@ const SpeakExerciseUI = {
                 answer: this.state.lastTranscript || this.state.expectedWord
             })
         })
-            .then(() => window.location.reload())
-            .catch(() => window.location.reload());
+            .then(() => this.onComplete())
+            .catch(() => this.onComplete());
     },
 
     skip() {
@@ -386,7 +512,7 @@ const SpeakExerciseUI = {
                 skill_type: 'speak',
                 answer: ''
             })
-        }).finally(() => window.location.reload());
+        }).finally(() => this.onComplete());
     }
 };
 
