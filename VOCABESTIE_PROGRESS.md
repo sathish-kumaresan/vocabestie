@@ -9,10 +9,11 @@
 
 | Item | Status |
 |------|--------|
-| **Current Phase** | Phase 7: Launch Prep (Ready to Start) |
+| **Current Phase** | Phase 6.5: Speaking Exercise Redesign (PLANNED) |
 | **Last Session** | January 31, 2026 |
-| **Next Task** | Landing page, privacy policy, deployment setup |
+| **Next Task** | Implement new speaking exercise with MediaRecorder + Whisper STT |
 | **Blockers** | None |
+| **Plan File** | `~/.claude/plans/melodic-roaming-brooks.md` |
 
 ---
 
@@ -138,6 +139,25 @@
   - [x] `app/static/sw.js` — service worker (cache-first static, network-first HTML/API)
   - [x] `app/templates/base.html` — manifest link, theme-color, mobile meta tags, SW registration
 
+### Phase 6.5: Speaking Exercise Redesign (NEXT)
+- [ ] New recording system with MediaRecorder (replaces Web Speech API)
+  - [ ] `app/static/js/pronunciation.js` - Recording orchestrator
+  - [ ] `app/static/js/audio-visualizer.js` - Waveform + level meter
+  - [ ] Live level meter during recording
+  - [ ] Playback of user recording
+- [ ] Server-side analysis with Whisper STT
+  - [ ] `app/services/pronunciation.py` - Whisper transcription + scoring
+  - [ ] `app/routers/speech.py` - `/api/speech/analyze` endpoint
+  - [ ] Phonetic similarity scoring
+  - [ ] Syllable-level breakdown
+- [ ] Visual feedback UI
+  - [ ] Score gauge (0-100% circular meter)
+  - [ ] Syllable chips (color-coded)
+  - [ ] Waveform comparison (Wavesurfer.js)
+  - [ ] User vs native audio side-by-side
+- [ ] Update exercise_speak.html with new UI
+- [ ] Fallback handling (mic denied, no audio, browser compat)
+
 ### Phase 7: Launch Prep (Future)
 - [ ] Landing page
 - [ ] Privacy policy, terms of service
@@ -234,23 +254,24 @@ uvicorn app.main:app --reload
 | Jan 30, 2026 | **UI Refinement**: Updated Vocabulary Card UI to distinct "Premium" look (Bold text, pill badges). Fixed issue where 0% words appeared in "In Progress". Swapped A1/A2 colors etc. |
 | Jan 30, 2026 | **Bug Fix**: Fixed "Auto-play Audio" setting. Implemented Settings persistence (saving to localStorage) and updated Learning Session to trigger audio for "Read" exercises if enabled. |
 | Jan 31, 2026 | **Code Audit & Bug Fixes**: Comprehensive codebase review. Fixed: missing HTTPException import (main.py), removed debug alerts (tts.js), removed debug prints (auth.py), fixed exposed error tracebacks, removed duplicate dict key, set testing_mode=False for production adaptive learning (mastery.py), cleaned up orphaned code (stats.py). |
+| Jan 31, 2026 | **Speaking Exercise Redesign Plan**: Analyzed broken speech recognition (Web Speech API issues). Researched alternatives (Azure Speech, Whisper, Vosk). Created comprehensive plan: replace with MediaRecorder + Whisper STT, add visual feedback (score gauge, syllable breakdown, waveform comparison). Plan saved to `~/.claude/plans/melodic-roaming-brooks.md`. |
 
 ---
 
 ## 📎 Claude Code Session Starter
 
 ```
-Read VOCABESTIE_PLAN.md and VOCABESTIE_PROGRESS.md to understand the project.
+Read VOCABESTIE_PLAN.md and VOCABESTIE_PROGRESS.md first.
 
-This is Vocabestie, a Swedish vocabulary learning app with:
-- CEFR level-based organization (Levels → Words, grouped A1-C2)
-- 4-skill mastery system (Read, Listen, Speak, Write)
-- Adaptive learning that picks exercises based on user weakness
-- Dark theme with Swedish flag colors (blue/yellow)
-- Google OAuth authentication with server-side sessions
+This is Vocabestie - a Swedish vocabulary learning app with scenario-based learning and 4-skill mastery (Read, Listen, Speak, Write).
 
-Current status: Phase 6 complete (Vocabulary Import, CEFR Levels, PWA)
-Next task: Phase 7 — Launch Prep (landing page, privacy policy, deployment)
+Check VOCABESTIE_PROGRESS.md for:
+- Current phase and status
+
+NEXT TASK: Implement Speaking Exercise Redesign (Phase 6.5)
+- Plan file: ~/.claude/plans/melodic-roaming-brooks.md
+- Replace Web Speech API with MediaRecorder + Whisper STT
+- Add visual feedback: score gauge, syllable breakdown, waveform comparison
 ```
 
 ---
