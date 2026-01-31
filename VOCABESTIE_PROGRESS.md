@@ -11,7 +11,7 @@
 |------|--------|
 | **Current Phase** | Phase 6.5: Speaking Exercise Redesign (PLANNED) |
 | **Last Session** | January 31, 2026 |
-| **Next Task** | Implement new speaking exercise with MediaRecorder + Whisper STT |
+| **Next Task** | Test Speaking Exercise Redesign |
 | **Blockers** | None |
 | **Plan File** | `~/.claude/plans/melodic-roaming-brooks.md` |
 
@@ -139,24 +139,24 @@
   - [x] `app/static/sw.js` — service worker (cache-first static, network-first HTML/API)
   - [x] `app/templates/base.html` — manifest link, theme-color, mobile meta tags, SW registration
 
-### Phase 6.5: Speaking Exercise Redesign (NEXT)
-- [ ] New recording system with MediaRecorder (replaces Web Speech API)
-  - [ ] `app/static/js/pronunciation.js` - Recording orchestrator
-  - [ ] `app/static/js/audio-visualizer.js` - Waveform + level meter
-  - [ ] Live level meter during recording
-  - [ ] Playback of user recording
-- [ ] Server-side analysis with Whisper STT
-  - [ ] `app/services/pronunciation.py` - Whisper transcription + scoring
-  - [ ] `app/routers/speech.py` - `/api/speech/analyze` endpoint
-  - [ ] Phonetic similarity scoring
-  - [ ] Syllable-level breakdown
-- [ ] Visual feedback UI
-  - [ ] Score gauge (0-100% circular meter)
-  - [ ] Syllable chips (color-coded)
-  - [ ] Waveform comparison (Wavesurfer.js)
-  - [ ] User vs native audio side-by-side
-- [ ] Update exercise_speak.html with new UI
-- [ ] Fallback handling (mic denied, no audio, browser compat)
+### Phase 6.5: Speaking Exercise Redesign (NEXT - IN PROGRESS)
+- [x] New recording system with MediaRecorder (replaces Web Speech API)
+  - [x] `app/static/js/pronunciation.js` - Recording orchestrator
+  - [x] `app/static/js/audio-visualizer.js` - Waveform + level meter
+  - [x] Live level meter during recording
+  - [x] Playback of user recording
+- [x] Server-side analysis with Whisper STT
+  - [x] `app/services/pronunciation.py` - Whisper transcription + scoring
+  - [x] `app/routers/speech.py` - `/api/speech/analyze` endpoint
+  - [x] Phonetic similarity scoring (Levenshtein)
+  - [x] Syllable-level breakdown (Simple heuristic implemented)
+- [x] Visual feedback UI
+  - [x] Score gauge (0-100% circular meter)
+  - [x] Syllable chips (color-coded)
+  - [x] Waveform comparison (Simple canvas implemented)
+  - [x] User vs native audio side-by-side
+- [x] Update exercise_speak.html with new UI
+- [x] Fallback handling (mic denied, no audio, browser compat)
 
 ### Phase 7: Launch Prep (Future)
 - [ ] Landing page

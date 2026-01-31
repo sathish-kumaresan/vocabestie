@@ -182,24 +182,20 @@
     // ============ SPEAK EXERCISE FUNCTIONS ============
 
     function initSpeakExercise() {
-        console.log("initSpeakExercise called");
+        console.log("initSpeakExercise called (New Architecture)");
+
         const micBtn = document.getElementById('mic-btn');
+        const expectedWord = document.getElementById('expected-word') ? document.getElementById('expected-word').value : '';
+        const wordId = document.getElementById('word-id') ? document.getElementById('word-id').value : '';
+
         if (micBtn) {
-            console.log("mic-btn found, attaching handler");
-            micBtn.onclick = function () {
-                console.log("Mic button clicked. State:", Speech.isRecording);
-                if (Speech.isRecording) {
-                    Speech.stop();
-                } else {
-                    Speech.start();
-                }
-            };
-        } else {
-            console.warn("mic-btn NOT found");
-        }
-        // Update UI based on current state (in case it carried over)
-        if (Speech.isRecording) {
-            handleSpeechStart();
+            // Check if our new UI controller is available
+            if (window.SpeakExerciseUI) {
+                console.log("Initializing SpeakExerciseUI");
+                SpeakExerciseUI.init(wordId, expectedWord);
+            } else {
+                console.error("SpeakExerciseUI not found! Check network/caching.");
+            }
         }
     }
 

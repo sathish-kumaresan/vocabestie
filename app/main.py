@@ -10,7 +10,7 @@ from starlette.middleware.sessions import SessionMiddleware
 from app.database import get_db
 from app.config import settings
 from app.models import Scenario, Word
-from app.routers import scenarios_router, words_router, learning_router, auth_router
+from app.routers import scenarios_router, words_router, learning_router, auth_router, speech_router
 from app.services.stats import get_user_statistics, get_scenario_progress, get_word_statuses_bulk
 from app.dependencies import get_user_id, get_auth_context
 
@@ -31,6 +31,7 @@ app.include_router(scenarios_router)
 app.include_router(words_router)
 app.include_router(learning_router)
 app.include_router(auth_router)
+app.include_router(speech_router)
 
 # Templates
 templates = Jinja2Templates(directory="app/templates")
