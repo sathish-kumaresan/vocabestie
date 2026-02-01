@@ -105,14 +105,18 @@ def get_exercise_for_word(
     db: Session,
     word: Word,
     user_id: int = GUEST_USER_ID,
+    forced_skill_type: Optional[str] = None,
 ) -> Tuple[str, dict]:
     """
     Get the appropriate exercise type and data for a word.
 
     Returns: (skill_type, exercise_data)
     """
-    # Get the weakest skill
-    skill_type = get_weakest_skill(db, user_id, word.id)
+    # Get the weakest skill if not forced
+    if forced_skill_type:
+        skill_type = forced_skill_type
+    else:
+        skill_type = get_weakest_skill(db, user_id, word.id)
 
     # Prepare exercise data based on skill type
     exercise_data = {

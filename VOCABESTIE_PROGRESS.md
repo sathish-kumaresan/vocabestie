@@ -256,6 +256,7 @@ uvicorn app.main:app --reload
 | Jan 31, 2026 | **Speaking Exercise Redesign Plan**: Analyzed broken speech recognition (Web Speech API issues). Researched alternatives (Azure Speech, Whisper, Vosk). Created comprehensive plan: replace with MediaRecorder + Whisper STT, add visual feedback (score gauge, syllable breakdown, waveform comparison). Plan saved to `~/.claude/plans/melodic-roaming-brooks.md`. |
 | Jan 31, 2026 | **Speaking Exercise Redesign Implementation**: Fully implemented the redesign. Replaced Web Speech API with `MediaRecorder` + `openai-whisper`. Added server-side analysis endpoint (`/api/speech/analyze`). Created new UI with score gauge, live level meter, waveform visualization, and syllable breakdown. Fixed race conditions in SPA loading script. |
 | Feb 01, 2026 | **Daily Learning Flow Redesign**: Implemented complete overhaul of learning session logic. Database: WordReviewState (SM2), LearningSession, ExerciseQueue. Services: SM2 Algorithm, SessionManager. Frontend: New Intro page (10 words/day), Session V2 UI. Features: Intro/Practice 'Mark as Known', SM2 Spaced Repetition, Strict 40/50 exercise gate, Session Resume. |
+| Feb 01, 2026 | **Feedback UX Improvement**: Replaced feedback screen with inline answer checking. Added visual success/fail states (Green/Red options), feedback text below exercise, and auto-advance for correct answers. Fixed missing options bug in Listen exercises by forcing skill type data generation. |
 
 ---
 

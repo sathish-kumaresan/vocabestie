@@ -206,10 +206,10 @@ def show_session_exercises(
     word = db.query(Word).filter(Word.id == current_exercise.word_id).first()
 
     # Get exercise data
-    skill_type, exercise_data = get_exercise_for_word(db, word, user_id)
-    # Override skill_type from queue
-    skill_type = current_exercise.skill_type
-    exercise_data['skill_type'] = skill_type
+    # Pass the skill type from the queue to ensure correct data generation
+    skill_type, exercise_data = get_exercise_for_word(
+        db, word, user_id, forced_skill_type=current_exercise.skill_type
+    )
 
     return templates.TemplateResponse("learning/session_v2.html", {
         "request": request,
