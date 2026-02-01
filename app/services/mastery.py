@@ -50,8 +50,8 @@ def update_mastery(
     current_score = mastery.mastery_score or 0.0
 
     if is_correct:
-        # Increase mastery - bigger jump when score is low
-        new_score = current_score + (1 - current_score) * 0.3
+        # Strict scoring: One correct answer grants full mastery for that skill
+        new_score = 1.0
         mastery.correct_count = (mastery.correct_count or 0) + 1
     else:
         # Decrease mastery
@@ -114,13 +114,14 @@ def get_word_status(
 
     # Get skill mastery
     skills = get_word_mastery(db, user_id, word_id)
-
+    
     # Check if not started
     if all(score == 0.0 for score in skills.values()):
         return 'not_started'
 
-    # Check if mastered (all skills >= threshold)
-    if all(score >= PASS_THRESHOLD for score in skills.values()):
+    # Check for Mastered: Average > 90% (Strict 90% threshold)
+    avg_score = sum(skills.values()) / 4.0
+    if avg_score > 0.9:
         return 'mastered'
 
     return 'in_progress'

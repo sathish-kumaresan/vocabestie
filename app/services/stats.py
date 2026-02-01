@@ -136,8 +136,29 @@ def count_mastered_words(db: Session, user_id: int = GUEST_USER_ID) -> int:
         WordSkillMastery.mastery_score >= PASS_THRESHOLD
     ).group_by(WordSkillMastery.word_id).all()
 
-    # Word is mastered if all 4 skills are passed
-    mastered_count = sum(1 for m in masteries if m.skill_count == 4)
+    # Word is mastered if average score > 0.9
+    # We can't easily fetch "average" in SQL for all cases without complex grouping, 
+    # but we can filter for words where skills_count=4 and min_score > 0.9? 
+    # Actually, strict Requirement is Avg > 0.9.
+    # If all 4 skills are 1.0, avg is 1.0. 
+    # If 3 skills 1.0, 1 skill 0.7 -> Avg 0.925 (Mastered). 
+    # So we need to sum scores.
+    
+    mastered_count = 0
+    # Re-query for accurate sum calculation in python (safest for complex logic)
+    # Or use SQL sum
+    masteries_sum = db.query(
+        WordSkillMastery.word_id,
+        func.sum(WordSkillMastery.mastery_score).label('total_score'),
+        func.count(WordSkillMastery.skill_type).label('skill_count')
+    ).filter(
+        WordSkillMastery.user_id == user_id
+    ).group_by(WordSkillMastery.word_id).all()
+    
+    for _, total, count in masteries_sum:
+        if count == 4 and (total / 4.0) > 0.9:
+            mastered_count += 1
+            
     return mastered_count
 
 
@@ -279,7 +300,7 @@ def get_scenario_progress(
         # Determine Status
         if all(s == 0.0 for s in scores):
             not_started += 1
-        elif all(s >= PASS_THRESHOLD for s in scores):
+        elif (sum(scores) / 4.0) > 0.9:
             mastered += 1
         else:
             in_progress += 1
@@ -324,11 +345,13 @@ def get_word_status_for_display(
     skills = get_word_mastery(db, user_id, word_id)
 
     # Determine status
+    avg_mastery = sum(skills.values()) / 4.0
+    
     if all(score == 0.0 for score in skills.values()):
         status = "not_started"
         status_label = "Not Started"
         status_color = "gray"
-    elif all(score >= PASS_THRESHOLD for score in skills.values()):
+    elif avg_mastery > 0.9:
         status = "mastered"
         status_label = "Mastered"
         status_color = "green"
@@ -460,7 +483,7 @@ def get_word_statuses_bulk(
             status = "not_started"
             status_label = "Not Started"
             status_color = "gray"
-        elif all(score >= PASS_THRESHOLD for score in skill_values):
+        elif (sum(skill_values) / 4.0) > 0.9:
             status = "mastered"
             status_label = "Mastered"
             status_color = "green"
@@ -651,7 +674,7 @@ def get_cefr_progress(
             word_score = sum(scores) / 4.0
             stats["total_score_sum"] += word_score
             
-            if len(scores) == 4 and all(s >= PASS_THRESHOLD for s in scores):
+            if len(scores) == 4 and (word_score > 0.9):
                 stats["mastered"] += 1
             else:
                 stats["in_progress"] += 1
@@ -787,8 +810,9 @@ def get_single_word_status(
     
     min_score = min(skill_scores.values()) if skill_scores else 0.0
     skills_count = len(skill_scores)
+    avg_score = total_score / 4.0
     
-    if skills_count == 4 and min_score >= PASS_THRESHOLD:
+    if skills_count == 4 and avg_score > 0.9:
         status = "mastered"
         overall_progress = 100 # Cap at 100
     else:

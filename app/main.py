@@ -1,6 +1,6 @@
 from typing import Optional
 import math
-from fastapi import FastAPI, Request, Depends, Query, HTTPException
+from fastapi import FastAPI, Request, Depends, Query, HTTPException, Cookie
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -45,9 +45,20 @@ def home(
     auth: dict = Depends(get_auth_context),
 ):
     """Home page with stats and quick actions."""
+    from app.services.session_manager import get_active_session
+    
     total_words = db.query(Word).count()
     total_scenarios = db.query(Scenario).count()
     stats = get_user_statistics(db, user_id)
+    
+    # Determine where "Start/Continue" should go
+    active_session = get_active_session(db, user_id)
+    if active_session:
+        next_scenario_id = active_session.scenario_id
+    else:
+        # Default to Scenario 1 (Intro) for now
+        # Improvement: Could find first incomplete scenario
+        next_scenario_id = 1
 
     return templates.TemplateResponse("home.html", {
         "request": request,
@@ -55,6 +66,7 @@ def home(
         "total_words": total_words,
         "total_scenarios": total_scenarios,
         "stats": stats,
+        "next_scenario_id": next_scenario_id,
         **auth,
     })
 
@@ -82,14 +94,31 @@ def levels_page(
         {"id": "C2", "name": "Mastery", "desc": "Spontaneous, fluent translation", "color": "text-red-400"},
     ]
     
-    # Merge stats into definition
+    # Merge stats into definition and compute locking
     levels_data = []
+    previous_level_mastered = True  # First level (A1) is always unlocked
+    
     for level in cefr_levels:
         stats = cefr_stats.get(level["id"], {})
+        
+        # Check mastery of THIS level for the NEXT iteration
+        # Mastered if mastered count == total words (and total > 0)
+        total = stats.get("total_words", 0)
+        mastered = stats.get("mastered", 0)
+        is_mastered = (total > 0 and mastered == total)
+        
+        # Determine locked status
+        # Locked if previous level was NOT mastered
+        is_locked = not previous_level_mastered
+        
         levels_data.append({
             **level,
-            "stats": stats
+            "stats": stats,
+            "locked": is_locked
         })
+        
+        # Update flag for next level
+        previous_level_mastered = is_mastered
 
     return templates.TemplateResponse("scenarios.html", {
         "request": request,
@@ -104,14 +133,18 @@ def level_detail_page(
     level_id: str,
     request: Request,
     page: int = Query(1, ge=1),
-    limit: int = Query(10, ge=1, le=100),
+    limit: Optional[int] = Query(None, ge=1, le=100),
+    words_per_page: Optional[int] = Cookie(None),
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),
 ):
-    """Level detail page showing all words directly (flattened structure) with pagination."""
-    from app.services.stats import get_word_status_for_display, get_scenario_progress
+    """Level detail page showing NEXT words to learn (excluding mastered/known)."""
+    from app.services.stats import get_word_status_for_display, get_scenario_progress, get_word_statuses_bulk
     import math
+    
+    # Resolving limit from query or cookie
+    limit = limit or words_per_page or 10
     
     # Flattened structure: 1 scenario per level
     scenario = db.query(Scenario).filter(Scenario.difficulty_level == level_id).first()
@@ -119,37 +152,47 @@ def level_detail_page(
     if not scenario:
         raise HTTPException(status_code=404, detail=f"Level {level_id} not found")
 
-    # Pagination Logic
-    offset = (page - 1) * limit
-    total_words = db.query(Word).filter(Word.scenario_id == scenario.id).count()
-    total_pages = math.ceil(total_words / limit)
-
-    # Fetch words for this level (paginated)
-    words = (
+    # 1. Fetch ALL words for this level (ordered)
+    all_words = (
         db.query(Word)
         .filter(Word.scenario_id == scenario.id)
         .order_by(Word.display_order)
-        .offset(offset)
-        .limit(limit)
         .all()
     )
 
-    # Get progress (for the whole level, not just the page)
-    progress = get_scenario_progress(db, scenario.id, user_id)
+    # 2. Get status for ALL words efficiently
+    all_word_ids = [w.id for w in all_words]
+    bulk_statuses = get_word_statuses_bulk(db, all_word_ids, user_id)
+
+    # 3. Filter: Keep only 'in_progress' and 'not_started'
+    filtered_words = []
+    for word in all_words:
+        status_info = bulk_statuses.get(word.id, {"status": "not_started"})
+        if status_info["status"] not in ("mastered", "already_known"):
+            filtered_words.append({
+                "word": word,
+                "status": status_info
+            })
+
+    # 4. Pagination on filtered list
+    total_words = len(filtered_words)
+    total_pages = math.ceil(total_words / limit) if total_words > 0 else 1
     
-    words_with_status = []
-    for word in words:
-        status = get_word_status_for_display(db, word.id, user_id)
-        words_with_status.append({
-            "word": word,
-            "status": status,
-        })
+    # Ensure page is within bounds
+    if page > total_pages: page = total_pages
+    if page < 1: page = 1
+    
+    offset = (page - 1) * limit
+    paginated_words = filtered_words[offset : offset + limit]
+
+    # Get progress (for the whole level)
+    progress = get_scenario_progress(db, scenario.id, user_id)
 
     return templates.TemplateResponse("scenario_detail.html", {
         "request": request,
         "active_tab": "levels",
         "scenario": scenario,
-        "words": words_with_status,
+        "words": paginated_words,
         "progress": progress,
         "pagination": {
             "page": page,
@@ -169,26 +212,50 @@ def level_detail_page(
 def scenario_detail_page(
     scenario_id: int,
     request: Request,
+    page: int = Query(1, ge=1),
+    limit: Optional[int] = Query(None, ge=1, le=100),
+    words_per_page: Optional[int] = Cookie(None),
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),
 ):
     """Scenario detail page with word list and progress."""
-    from app.services.stats import get_word_status_for_display
+    from app.services.stats import get_word_status_for_display, get_scenario_progress, get_word_statuses_bulk
+    import math
+
+    # Resolving limit from query or cookie
+    limit = limit or words_per_page or 10
 
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
     if not scenario:
         raise HTTPException(status_code=404, detail="Scenario not found")
 
+    # Pagination Logic
+    offset = (page - 1) * limit
+    total_words = db.query(Word).filter(Word.scenario_id == scenario_id).count()
+    total_pages = math.ceil(total_words / limit) if total_words > 0 else 1
+
+    # Ensure page is within bounds
+    if page > total_pages: page = total_pages
+    if page < 1: page = 1
+
+    # Fetch words for this level (paginated)
     words = (
         db.query(Word)
         .filter(Word.scenario_id == scenario_id)
         .order_by(Word.display_order)
+        .offset(offset)
+        .limit(limit)
         .all()
     )
 
     # Get progress for scenario and each word
     progress = get_scenario_progress(db, scenario_id, user_id)
+    
+    # Get status for the paginated words efficiently
+    word_ids_on_page = [word.id for word in words]
+    bulk_statuses = get_word_statuses_bulk(db, word_ids_on_page, user_id)
+
     words_with_status = []
     for word in words:
         status = get_word_status_for_display(db, word.id, user_id)
@@ -375,11 +442,11 @@ def vocabulary_page(
             # Check Skills
             elif wid in w_map:
                 skills = w_map[wid]
-                # Check for 4 skills >= threshold
+                # Check for Mastered: Average > 90%
                 skill_scores = [skills.get(s, 0.0) for s in ['read', 'listen', 'speak', 'write']]
+                avg_score = sum(skill_scores) / 4.0
                 
-                # If any skill is missing, treated as 0.0
-                if all(s >= PASS_THRESHOLD for s in skill_scores):
+                if avg_score > 0.9:
                     status = "mastered"
                 elif all(s == 0 for s in skill_scores):
                      # If all scores are 0, it is not started (even if record exists)

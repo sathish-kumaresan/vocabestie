@@ -11,9 +11,10 @@ AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
 def get_audio_path(text: str) -> str:
     """Returns the relative web path for the audio file."""
-    # Sanitize filename: 'hej' -> 'hej.mp3', 'en katt' -> 'en_katt.mp3'
-    safe_name = "".join([c if c.isalnum() else "_" for c in text.lower()])
-    filename = f"{safe_name}.mp3"
+    # Use MD5 hash for robust filename handling (avoids special char issues)
+    import hashlib
+    hash_name = hashlib.md5(text.lower().strip().encode('utf-8')).hexdigest()
+    filename = f"{hash_name}.mp3"
     file_path = AUDIO_DIR / filename
     
     # If not exists, generate

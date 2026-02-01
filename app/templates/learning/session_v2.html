@@ -6,7 +6,7 @@
 <div class="p-4 max-w-md mx-auto" id="session-container" data-session-id="{{ session.id }}"
     data-scenario-id="{{ scenario.id }}" data-exercise-id="{{ current_exercise.id }}" data-word-id="{{ word.id }}"
     data-skill-type="{{ skill_type }}" data-queue-order="{{ queue_order }}" data-total-exercises="{{ total_exercises }}"
-    data-correct-count="{{ progress.correct_count }}">
+    data-correct-count="{{ progress.correct_count }}" data-start-time="{{ session_created_at_ts }}">
 
     <!-- Header -->
     <div class="flex items-center justify-between mb-4">
@@ -94,8 +94,8 @@
         queueOrder: parseInt(document.getElementById('session-container').dataset.queueOrder),
         totalExercises: parseInt(document.getElementById('session-container').dataset.totalExercises),
         correctCount: parseInt(document.getElementById('session-container').dataset.correctCount),
+        startTime: parseFloat(document.getElementById('session-container').dataset.startTime) * 1000, // Convert to ms
         answered: false,
-        startTime: Date.now(),
     };
 
     // Initialize exercise on load
@@ -109,9 +109,7 @@
         if (skillType === 'listen') {
             setTimeout(() => playAudio(), 500);
         } else if (skillType === 'read') {
-            if (autoPlayEnabled) {
-                setTimeout(() => playAudio(), 500);
-            }
+            // No auto-play for read exercises
         } else if (skillType === 'write') {
             initWriteExercise();
         } else if (skillType === 'speak') {

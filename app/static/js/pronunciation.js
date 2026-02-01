@@ -438,7 +438,11 @@ const SpeakExerciseUI = {
                         if (audioBuffer) AudioVisualizer.drawDualWaveform('waveform-canvas', audioBuffer, this.state.nativeBuffer, hybridScore);
                     }
                 }
-            }).catch(e => console.error("Background verification failed:", e));
+            }).catch(e => {
+                console.error("Background verification failed:", e);
+                // Fallback to instant score if server fails
+                this.showResult(instantScore, '...', 'Good attempt!', null);
+            });
 
         } catch (e) {
             console.error('Analysis flow error:', e);

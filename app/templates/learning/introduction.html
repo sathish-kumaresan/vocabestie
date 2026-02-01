@@ -3,8 +3,7 @@
 {% block title %}Word Introduction - {{ scenario.name }}{% endblock %}
 
 {% block content %}
-<div class="p-4 max-w-md mx-auto" id="intro-container"
-    data-scenario-id="{{ scenario.id }}"
+<div class="p-4 max-w-md mx-auto" id="intro-container" data-scenario-id="{{ scenario.id }}"
     data-word-ids="{{ word_ids | join(',') }}">
 
     <!-- Header -->
@@ -32,7 +31,8 @@
     <!-- Word card container -->
     <div id="word-cards" class="relative">
         {% for word in words %}
-        <div class="word-card {% if loop.index0 != 0 %}hidden{% endif %}" data-index="{{ loop.index0 }}" data-word-id="{{ word.id }}">
+        <div class="word-card {% if loop.index0 != 0 %}hidden{% endif %}" data-index="{{ loop.index0 }}"
+            data-word-id="{{ word.id }}">
             <div class="bg-card rounded-2xl p-6 shadow-lg border border-border-color">
                 <!-- Swedish word -->
                 <div class="text-center mb-6">
@@ -98,7 +98,7 @@
     <div id="start-container" class="hidden mt-6">
         <button onclick="startLearning()"
             class="w-full py-4 bg-swedish-yellow text-gray-900 font-bold rounded-xl hover:bg-yellow-400 transition-colors text-lg">
-            Start Learning ({{ words | length * 4 }} exercises)
+            Ready to Test
         </button>
     </div>
 </div>
@@ -110,11 +110,16 @@
         wordIds: document.getElementById('intro-container').dataset.wordIds.split(',').map(Number),
         currentIndex: 0,
         totalWords: {{ words | length }},
-        viewedAll: false,
+    viewedAll: false,
         maxViewed: 0,
     };
 
     function updateUI() {
+        // Track max viewed
+        if (introState.currentIndex > introState.maxViewed) {
+            introState.maxViewed = introState.currentIndex;
+        }
+
         // Show/hide cards
         document.querySelectorAll('.word-card').forEach((card, index) => {
             card.classList.toggle('hidden', index !== introState.currentIndex);
@@ -140,19 +145,20 @@
 
         const nextBtn = document.getElementById('next-btn');
         if (introState.currentIndex === introState.totalWords - 1) {
-            nextBtn.textContent = 'Done';
+            nextBtn.classList.add('invisible');
             if (!introState.viewedAll && introState.maxViewed >= introState.totalWords - 1) {
                 introState.viewedAll = true;
                 document.getElementById('start-container').classList.remove('hidden');
             }
         } else {
             nextBtn.textContent = 'Next';
+            nextBtn.classList.remove('invisible');
         }
 
-        // Track max viewed
-        if (introState.currentIndex > introState.maxViewed) {
-            introState.maxViewed = introState.currentIndex;
-        }
+
+
+        // Auto-play pronunciation
+        playCurrentWord();
     }
 
     function prevWord() {
@@ -188,34 +194,34 @@
                 current_word_ids: introState.wordIds
             })
         })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                // Update word IDs list
-                introState.wordIds = data.updated_word_ids;
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Update word IDs list
+                    introState.wordIds = data.updated_word_ids;
 
-                // If we got a replacement word, update the current card
-                if (data.replacement_word) {
-                    const currentCard = document.querySelector(`.word-card[data-index="${introState.currentIndex}"]`);
-                    if (currentCard) {
-                        updateCardContent(currentCard, data.replacement_word);
+                    // If we got a replacement word, update the current card
+                    if (data.replacement_word) {
+                        const currentCard = document.querySelector(`.word-card[data-index="${introState.currentIndex}"]`);
+                        if (currentCard) {
+                            updateCardContent(currentCard, data.replacement_word);
+                        }
+                    } else {
+                        // No replacement available - remove current card and adjust
+                        introState.totalWords--;
+                        if (introState.currentIndex >= introState.totalWords) {
+                            introState.currentIndex = Math.max(0, introState.totalWords - 1);
+                        }
                     }
-                } else {
-                    // No replacement available - remove current card and adjust
-                    introState.totalWords--;
-                    if (introState.currentIndex >= introState.totalWords) {
-                        introState.currentIndex = Math.max(0, introState.totalWords - 1);
-                    }
+
+                    // Show feedback
+                    showToast('Word marked as known!', 'success');
                 }
-
-                // Show feedback
-                showToast('Word marked as known!', 'success');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            showToast('Error marking word as known', 'error');
-        });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showToast('Error marking word as known', 'error');
+            });
     }
 
     function updateCardContent(card, word) {
@@ -267,29 +273,50 @@
                 intro_word_ids: introState.wordIds
             })
         })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                window.location.href = data.redirect_url;
-            } else {
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = data.redirect_url;
+                } else {
+                    showToast('Error creating session', 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
                 showToast('Error creating session', 'error');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            showToast('Error creating session', 'error');
-        });
+            });
     }
 
-    // Auto-play first word
-    document.addEventListener('DOMContentLoaded', function() {
+    function playCurrentWord() {
         const autoPlayEnabled = localStorage.getItem('autoplay_pronunciation') !== 'false';
         if (autoPlayEnabled) {
-            const firstWord = document.querySelector('.word-card:not(.hidden) h2');
-            if (firstWord && typeof TTS !== 'undefined') {
-                setTimeout(() => TTS.speak(firstWord.textContent, { lang: 'sv-SE' }), 500);
+            const currentCard = document.querySelector('.word-card:not(.hidden)');
+            if (currentCard) {
+                const wordText = currentCard.querySelector('h2').textContent;
+                const playBtn = currentCard.querySelector('button[onclick^="speakWord"]');
+
+                if (wordText && typeof TTS !== 'undefined') {
+                    // Small delay to allow UI transition
+                    setTimeout(() => {
+                        TTS.speak(wordText, { lang: 'sv-SE' })
+                            .catch(err => {
+                                console.warn("Autoplay failed:", err);
+                                // Visual hint to click
+                                if (playBtn) {
+                                    playBtn.classList.add('animate-bounce', 'text-swedish-yellow');
+                                    setTimeout(() => playBtn.classList.remove('animate-bounce', 'text-swedish-yellow'), 2000);
+                                    showToast('Tap speaker to listen', 'info');
+                                }
+                            });
+                    }, 300);
+                }
             }
         }
+    }
+
+    // Initial play on load
+    document.addEventListener('DOMContentLoaded', function () {
+        playCurrentWord();
     });
 </script>
 {% endblock %}

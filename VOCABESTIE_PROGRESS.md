@@ -257,6 +257,8 @@ uvicorn app.main:app --reload
 | Jan 31, 2026 | **Speaking Exercise Redesign Implementation**: Fully implemented the redesign. Replaced Web Speech API with `MediaRecorder` + `openai-whisper`. Added server-side analysis endpoint (`/api/speech/analyze`). Created new UI with score gauge, live level meter, waveform visualization, and syllable breakdown. Fixed race conditions in SPA loading script. |
 | Feb 01, 2026 | **Daily Learning Flow Redesign**: Implemented complete overhaul of learning session logic. Database: WordReviewState (SM2), LearningSession, ExerciseQueue. Services: SM2 Algorithm, SessionManager. Frontend: New Intro page (10 words/day), Session V2 UI. Features: Intro/Practice 'Mark as Known', SM2 Spaced Repetition, Strict 40/50 exercise gate, Session Resume. |
 | Feb 01, 2026 | **Feedback UX Improvement**: Replaced feedback screen with inline answer checking. Added visual success/fail states (Green/Red options), feedback text below exercise, and auto-advance for correct answers. Fixed missing options bug in Listen exercises by forcing skill type data generation. |
+| Feb 01, 2026 | **UX Refinements**: Fixed Audio Autoplay issues (robust filenames, visual fallback). Refined Session Timer (reset on resume). Cleaned up Completion Page (removed distractions). |
+| Feb 01, 2026 | **Levels Page Improvements**: Disabled random clicks on word cards. Filtered word list to show only "Next words to learn" (hiding mastered/known). Added cookie-based persistence for "Words per page". Reordered status indicators (Mastered > In Progress > Not Started) across the app. |
 
 ---
 

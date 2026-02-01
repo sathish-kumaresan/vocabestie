@@ -9,6 +9,7 @@ New architecture (Feb 2026):
 """
 
 import time
+from datetime import datetime
 from fastapi import APIRouter, Depends, HTTPException, Request, Query
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
@@ -186,6 +187,11 @@ def show_session_exercises(
             status_code=302
         )
 
+    # If no exercises completed yet, reset start time to NOW to avoid counting idle time
+    if progress['completed'] == 0:
+        session.created_at = datetime.utcnow()
+        db.commit()
+
     # Get current exercise
     if exercise_order is not None:
         current_exercise = get_exercise_by_order(db, session_id, exercise_order)
@@ -221,7 +227,9 @@ def show_session_exercises(
         "word": word,
         "progress": progress,
         "queue_order": current_exercise.queue_order,
+        "queue_order": current_exercise.queue_order,
         "total_exercises": session.total_exercises,
+        "session_created_at_ts": session.created_at.timestamp() if session.created_at else 0,
         **auth,
     })
 

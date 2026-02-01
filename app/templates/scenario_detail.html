@@ -41,11 +41,11 @@
                 style="width: {{ progress.progress_percent }}%"></div>
         </div>
         <div class="flex justify-between text-xs font-medium mb-4">
-            <span class="text-swedish-yellow bg-swedish-yellow/10 px-2 py-1 rounded-md">
-                {{ progress.in_progress }} in progress
-            </span>
             <span class="text-green-400 bg-green-400/10 px-2 py-1 rounded-md">
                 {{ progress.mastered }} mastered
+            </span>
+            <span class="text-swedish-yellow bg-swedish-yellow/10 px-2 py-1 rounded-md">
+                {{ progress.in_progress }} in progress
             </span>
             <span class="text-text-secondary bg-gray-500/10 px-2 py-1 rounded-md">
                 {{ progress.not_started }} not started
@@ -76,13 +76,12 @@
 
     <!-- Words List -->
     <div class="mb-4">
-        <h2 class="text-lg font-semibold text-text-primary mb-3">Words in this level</h2>
+        <h2 class="text-lg font-semibold text-text-primary mb-3">Next words to learn</h2>
     </div>
 
     <div class="space-y-2">
         {% for item in words %}
-        <div class="bg-card rounded-xl p-4 hover:bg-border-color/50 transition-colors cursor-pointer border border-border-color"
-            onclick="window.location.href='/vocabulary/{{ item.word.id }}'">
+        <div class="bg-card rounded-xl p-4 border border-border-color">
             <div class="flex items-center justify-between">
                 <div class="flex-1">
                     <div class="flex items-center gap-2">
@@ -186,6 +185,9 @@
                 });
         }
         function changeLimit(limit) {
+            // Save preference to cookie (valid for 1 year)
+            document.cookie = "words_per_page=" + limit + "; path=/; max-age=31536000";
+
             const url = new URL(window.location.href);
             url.searchParams.set('limit', limit);
             url.searchParams.set('page', 1); // Reset to page 1

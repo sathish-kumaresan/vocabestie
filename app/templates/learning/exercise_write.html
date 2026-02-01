@@ -1,11 +1,6 @@
 <!-- WRITE Exercise: Arrange jumbled letters -->
 <div class="exercise-content">
-    <!-- Skill badge -->
-    <div class="flex justify-center mb-4">
-        <span class="px-3 py-1 bg-dark-card rounded-full text-sm text-gray-400">
-            ✍️ Write
-        </span>
-    </div>
+
 
     <!-- Question -->
     <div class="text-center mb-6">
@@ -22,7 +17,7 @@
     <div class="flex flex-wrap justify-center gap-2 mb-6" id="letter-tiles">
         {% for letter in exercise.jumbled %}
         <button onclick="selectLetter(this, '{{ letter }}')"
-                class="letter-tile w-12 h-12 bg-dark-card hover:bg-gray-800 border-2 border-dark-border hover:border-swedish-blue text-white font-bold text-xl rounded-lg transition-all flex items-center justify-center">
+            class="letter-tile w-12 h-12 bg-dark-card hover:bg-gray-800 border-2 border-dark-border hover:border-swedish-blue text-white font-bold text-xl rounded-lg transition-all flex items-center justify-center">
             {{ letter }}
         </button>
         {% endfor %}
@@ -30,10 +25,12 @@
 
     <!-- Controls -->
     <div class="flex justify-center gap-4">
-        <button onclick="clearAnswer()" class="px-6 py-3 bg-dark-card hover:bg-gray-800 text-gray-400 rounded-xl transition-colors">
+        <button onclick="clearAnswer()"
+            class="px-6 py-3 bg-dark-card hover:bg-gray-800 text-gray-400 rounded-xl transition-colors">
             Clear
         </button>
-        <button onclick="checkWriteAnswer()" id="submit-btn" class="px-8 py-3 bg-swedish-blue hover:bg-blue-700 text-white font-bold rounded-xl transition-colors">
+        <button onclick="checkWriteAnswer()" id="submit-btn"
+            class="px-8 py-3 bg-swedish-blue hover:bg-blue-700 text-white font-bold rounded-xl transition-colors">
             Check
         </button>
     </div>

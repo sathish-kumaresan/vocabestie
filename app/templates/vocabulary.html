@@ -38,16 +38,16 @@
             All ({{ counts.all }})
         </a>
 
-        <!-- In Progress -->
-        <a href="/vocabulary?filter=in_progress&search={{ search_query }}"
-            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'in_progress' %}bg-swedish-yellow/20 text-swedish-yellow border-swedish-yellow{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
-            In Progress ({{ counts.in_progress }})
-        </a>
-
         <!-- Mastered -->
         <a href="/vocabulary?filter=mastered&search={{ search_query }}"
             class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'mastered' %}bg-green-500/20 text-green-500 border-green-500{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
             Mastered ({{ counts.mastered }})
+        </a>
+
+        <!-- In Progress -->
+        <a href="/vocabulary?filter=in_progress&search={{ search_query }}"
+            class="px-4 py-2 rounded-full text-sm whitespace-nowrap transition-colors border {% if current_filter == 'in_progress' %}bg-swedish-yellow/20 text-swedish-yellow border-swedish-yellow{% else %}bg-card text-text-secondary border-border-color hover:bg-border-color{% endif %}">
+            In Progress ({{ counts.in_progress }})
         </a>
 
         <!-- Not Started -->
@@ -169,22 +169,7 @@
 </div>
 
 <!-- Floating Practice Button -->
-{% if words %}
-<form action="/learn/custom" method="get" class="fixed bottom-6 right-6 z-50">
-    <input type="hidden" name="search" value="{{ search_query or '' }}">
-    <input type="hidden" name="filter" value="{{ current_filter or 'all' }}">
-    <button type="submit"
-        class="flex items-center gap-2 bg-swedish-yellow text-gray-900 px-6 py-3 rounded-full font-bold shadow-lg hover:bg-yellow-400 hover:scale-105 transition-all">
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        Practice Words
-    </button>
-</form>
-{% endif %}
+
 
 <script>
     function speakWord(word) {

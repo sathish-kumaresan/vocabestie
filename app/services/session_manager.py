@@ -141,40 +141,45 @@ def create_learning_session(
     db.add(session)
     db.flush()  # Get session.id
 
-    # Create exercise queue entries
-    queue_order = 0
+    # Create exercise entries list
+    exercises_to_create = []
 
-    # New word exercises (0-39): 10 words × 4 skills
+    # 1. New word exercises: 10 words × 4 skills
     for word in new_words:
         for skill in SKILL_TYPES:  # read, listen, speak, write
-            entry = ExerciseQueue(
-                session_id=session.id,
-                user_id=user_id,
-                word_id=word.id,
-                skill_type=skill,
-                queue_type='new',
-                queue_order=queue_order,
-                status='pending',
-            )
-            db.add(entry)
-            queue_order += 1
+            exercises_to_create.append({
+                'word_id': word.id,
+                'skill_type': skill,
+                'queue_type': 'new'
+            })
 
-    # Review exercises (40-49) - ONLY if gate passed
+    # 2. Review exercises: 10 words (if gate passed)
     if include_review:
         review_words = due_words[:10]
         for i, word in enumerate(review_words):
             skill = REVIEW_SKILL_CYCLE[i]
-            entry = ExerciseQueue(
-                session_id=session.id,
-                user_id=user_id,
-                word_id=word.id,
-                skill_type=skill,
-                queue_type='review',
-                queue_order=queue_order,
-                status='pending',
-            )
-            db.add(entry)
-            queue_order += 1
+            exercises_to_create.append({
+                'word_id': word.id,
+                'skill_type': skill,
+                'queue_type': 'review'
+            })
+            
+    # 3. Randomize the order
+    import random
+    random.shuffle(exercises_to_create)
+
+    # 4. Create DB entries with sequential queue_order
+    for i, data in enumerate(exercises_to_create):
+        entry = ExerciseQueue(
+            session_id=session.id,
+            user_id=user_id,
+            word_id=data['word_id'],
+            skill_type=data['skill_type'],
+            queue_type=data['queue_type'],
+            queue_order=i,
+            status='pending',
+        )
+        db.add(entry)
 
     db.commit()
     return session
