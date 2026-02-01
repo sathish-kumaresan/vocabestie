@@ -262,6 +262,7 @@ uvicorn app.main:app --reload
 | Feb 01, 2026 | **Home & UI Refinements**: Redesigned Home Page with personalized greeting and new "Skill Strength" card (replaces empty "Words Learning" state). Added Swedish flag SVG to header. Removed "Recommended Next Step" badge (Levels) and "Words in progress" (Stats) for cleaner UI. Restored "Vocabestie" logo on Home page while removing duplicate global header. Fixed stats.py syntax error. |
 | Feb 01, 2026 | **Data Cleanup**: Optimised `vocabulary.json` by removing redundant `difficulty` field (reduced file size). Updated `seed_data.py` to standardize on `difficulty_level` schema. |
 | Feb 01, 2026 | **Streak Redesign**: Replaced simple streak card with a 7-day "Weekly Meter" (Mon-Sun). Shows active practice days, current day indicator, and future days. Backend `stats.py` updated to calculate weekly activity. |
+| Feb 01, 2026 | **Greeting Refinement**: Updated Home Page greeting logic. Logged-in users see "Welcome Back [Name]", Guests see "Welcome! Bestie!". Aligned terminology with "Vocabestie" brand. |
 
 ---
 

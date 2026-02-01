@@ -24,9 +24,13 @@
 
     <!-- Personalized Greeting -->
     <div>
-        <p class="text-text-secondary text-sm font-medium uppercase tracking-wide">Welcome back</p>
+        <div class="flex items-center justify-between mb-1">
+            <p class="text-text-secondary text-sm font-medium uppercase tracking-wide">
+                {% if user and user.name %}Welcome Back{% else %}Welcome{% endif %}
+            </p>
+        </div>
         <h2 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-            {% if user and user.name %}{{ user.name.split(' ')[0] }}{% else %}Friend{% endif %}! 👋
+            {% if user and user.name %}{{ user.name.split(' ')[0] }}{% else %}Bestie{% endif %}! 👋
         </h2>
     </div>
 
