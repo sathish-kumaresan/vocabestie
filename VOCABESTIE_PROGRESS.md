@@ -260,6 +260,7 @@ uvicorn app.main:app --reload
 | Feb 01, 2026 | **UX Refinements**: Fixed Audio Autoplay issues (robust filenames, visual fallback). Refined Session Timer (reset on resume). Cleaned up Completion Page (removed distractions). |
 | Feb 01, 2026 | **Levels Page Improvements**: Disabled random clicks on word cards. Filtered word list to show only "Next words to learn" (hiding mastered/known). Added cookie-based persistence for "Words per page". Reordered status indicators (Mastered > In Progress > Not Started) across the app. |
 | Feb 01, 2026 | **Home & UI Refinements**: Redesigned Home Page with personalized greeting and new "Skill Strength" card (replaces empty "Words Learning" state). Added Swedish flag SVG to header. Removed "Recommended Next Step" badge (Levels) and "Words in progress" (Stats) for cleaner UI. Restored "Vocabestie" logo on Home page while removing duplicate global header. Fixed stats.py syntax error. |
+| Feb 01, 2026 | **Data Cleanup**: Optimised `vocabulary.json` by removing redundant `difficulty` field (reduced file size). Updated `seed_data.py` to standardize on `difficulty_level` schema. |
 
 ---
 

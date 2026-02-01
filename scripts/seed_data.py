@@ -70,7 +70,7 @@ def seed_scenarios(db: Session, data: dict) -> None:
                 grammar_hint=word_data.get("grammar_hint"),
                 example_sentence_sv=word_data.get("example_sv"),
                 example_sentence_en=word_data.get("example_en"),
-                difficulty_level=word_data.get("difficulty", "A1"),
+                difficulty_level=word_data.get("difficulty_level", "A1"),
                 display_order=i + 1,
             )
             db.add(word)
