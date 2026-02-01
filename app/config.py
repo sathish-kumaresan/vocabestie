@@ -28,6 +28,16 @@ class Settings(BaseSettings):
     session_duration_days: int = 30
     session_cookie_name: str = "vocabestie_session"
     secret_key: str = "vocabestie-secret-key-change-in-production"
+    
+    # Environment
+    environment: str = "development"
+
+    @property
+    def sqlalchemy_database_url(self) -> str:
+        """Fix Render's postgres:// scheme for SQLAlchemy."""
+        if self.database_url and self.database_url.startswith("postgres://"):
+            return self.database_url.replace("postgres://", "postgresql://", 1)
+        return self.database_url
 
     class Config:
         env_file = ".env"

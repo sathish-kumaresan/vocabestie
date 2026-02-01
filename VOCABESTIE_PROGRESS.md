@@ -263,6 +263,7 @@ uvicorn app.main:app --reload
 | Feb 01, 2026 | **Data Cleanup**: Optimised `vocabulary.json` by removing redundant `difficulty` field (reduced file size). Updated `seed_data.py` to standardize on `difficulty_level` schema. |
 | Feb 01, 2026 | **Streak Redesign**: Replaced simple streak card with a 7-day "Weekly Meter" (Mon-Sun). Shows active practice days, current day indicator, and future days. Backend `stats.py` updated to calculate weekly activity. |
 | Feb 01, 2026 | **Greeting Refinement**: Updated Home Page greeting logic. Logged-in users see "Welcome Back [Name]", Guests see "Welcome! Bestie!". Aligned terminology with "Vocabestie" brand. |
+| Feb 01, 2026 | **Deployment Prep**: Configured app for Cloud Deployment (Render). Added `gunicorn` to requirements, patched `config.py` for SQLAlchemy/Postgres compatibility, and added `DEPLOY.md` guide. |
 
 ---
 

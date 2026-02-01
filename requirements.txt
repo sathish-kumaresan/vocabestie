@@ -12,3 +12,4 @@ python-jose[cryptography]>=3.3.0
 openai-whisper
 Levenshtein
 python-multipart
+gunicorn==21.2.0
