@@ -9,8 +9,8 @@
 
 | Item | Status |
 |------|--------|
-| **Last Session** | January 31, 2026 |
-| **Next Task** | Phase 7: Launch Prep and Optimization |
+| **Last Session** | February 1, 2026 |
+| **Next Task** | Verify and Polish Daily Learning Flow (Testing edge cases for SM2 and Session Resume) |
 | **Blockers** | None |
 | **Plan File** | `~/.claude/plans/melodic-roaming-brooks.md` |
 
@@ -254,7 +254,8 @@ uvicorn app.main:app --reload
 | Jan 30, 2026 | **Bug Fix**: Fixed "Auto-play Audio" setting. Implemented Settings persistence (saving to localStorage) and updated Learning Session to trigger audio for "Read" exercises if enabled. |
 | Jan 31, 2026 | **Code Audit & Bug Fixes**: Comprehensive codebase review. Fixed: missing HTTPException import (main.py), removed debug alerts (tts.js), removed debug prints (auth.py), fixed exposed error tracebacks, removed duplicate dict key, set testing_mode=False for production adaptive learning (mastery.py), cleaned up orphaned code (stats.py). |
 | Jan 31, 2026 | **Speaking Exercise Redesign Plan**: Analyzed broken speech recognition (Web Speech API issues). Researched alternatives (Azure Speech, Whisper, Vosk). Created comprehensive plan: replace with MediaRecorder + Whisper STT, add visual feedback (score gauge, syllable breakdown, waveform comparison). Plan saved to `~/.claude/plans/melodic-roaming-brooks.md`. |
-| Jan 31, 2026 | **Speaking Exercise Implementation**: Fully implemented the redesign. Replaced Web Speech API with `MediaRecorder` + `openai-whisper`. Added server-side analysis endpoint (`/api/speech/analyze`). Created new UI with score gauge, live level meter, waveform visualization, and syllable breakdown. Fixed race conditions in SPA loading script. |
+| Jan 31, 2026 | **Speaking Exercise Redesign Implementation**: Fully implemented the redesign. Replaced Web Speech API with `MediaRecorder` + `openai-whisper`. Added server-side analysis endpoint (`/api/speech/analyze`). Created new UI with score gauge, live level meter, waveform visualization, and syllable breakdown. Fixed race conditions in SPA loading script. |
+| Feb 01, 2026 | **Daily Learning Flow Redesign**: Implemented complete overhaul of learning session logic. Database: WordReviewState (SM2), LearningSession, ExerciseQueue. Services: SM2 Algorithm, SessionManager. Frontend: New Intro page (10 words/day), Session V2 UI. Features: Intro/Practice 'Mark as Known', SM2 Spaced Repetition, Strict 40/50 exercise gate, Session Resume. |
 
 ---
 

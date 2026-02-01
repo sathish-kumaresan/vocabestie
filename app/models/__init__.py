@@ -8,6 +8,9 @@ from app.models.mastery import (
     UserStats,
     DailyPracticeLog,
 )
+from app.models.word_review_state import WordReviewState
+from app.models.learning_session import LearningSession
+from app.models.exercise_queue import ExerciseQueue
 
 __all__ = [
     "User",
@@ -18,4 +21,7 @@ __all__ = [
     "UserWordStatus",
     "UserStats",
     "DailyPracticeLog",
+    "WordReviewState",
+    "LearningSession",
+    "ExerciseQueue",
 ]

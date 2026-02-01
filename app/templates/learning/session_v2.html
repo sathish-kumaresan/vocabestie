@@ -1,0 +1,482 @@
+{% extends "base.html" %}
+
+{% block title %}Learning - {{ scenario.name }}{% endblock %}
+
+{% block content %}
+<div class="p-4 max-w-md mx-auto" id="session-container"
+    data-session-id="{{ session.id }}"
+    data-scenario-id="{{ scenario.id }}"
+    data-exercise-id="{{ current_exercise.id }}"
+    data-word-id="{{ word.id }}"
+    data-skill-type="{{ skill_type }}"
+    data-queue-order="{{ queue_order }}"
+    data-total-exercises="{{ total_exercises }}"
+    data-correct-count="{{ progress.correct_count }}">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-4">
+        <a href="/scenarios/{{ scenario.id }}" class="text-text-secondary hover:text-text-primary transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </a>
+        <div class="flex items-center gap-2">
+            <span class="text-sm text-text-secondary" id="queue-type-badge">
+                {% if current_exercise.queue_type == 'review' %}
+                <span class="px-2 py-0.5 bg-purple-500/20 text-purple-400 rounded-full text-xs">Review</span>
+                {% else %}
+                <span class="px-2 py-0.5 bg-swedish-blue/20 text-swedish-blue rounded-full text-xs">New</span>
+                {% endif %}
+            </span>
+            <span class="text-text-primary font-medium" id="progress-text">
+                {{ progress.completed + progress.skipped + 1 }} / {{ total_exercises }}
+            </span>
+        </div>
+        <button onclick="markKnownDuringPractice()" class="text-green-400 hover:text-green-300 transition-colors" title="Mark as Known">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="w-full bg-border-color rounded-full h-2 mb-6">
+        <div class="bg-swedish-yellow h-2 rounded-full transition-all duration-300" id="progress-bar"
+            style="width: {{ progress.progress_percent }}%"></div>
+    </div>
+
+    <!-- Skill type indicator -->
+    <div class="flex justify-center mb-4">
+        <span class="px-4 py-1 rounded-full text-sm font-medium
+            {% if skill_type == 'read' %}bg-blue-500/20 text-blue-400
+            {% elif skill_type == 'listen' %}bg-purple-500/20 text-purple-400
+            {% elif skill_type == 'speak' %}bg-orange-500/20 text-orange-400
+            {% elif skill_type == 'write' %}bg-green-500/20 text-green-400{% endif %}">
+            {% if skill_type == 'read' %}Read{% elif skill_type == 'listen' %}Listen{% elif skill_type == 'speak' %}Speak{% elif skill_type == 'write' %}Write{% endif %}
+        </span>
+    </div>
+
+    <!-- Exercise container -->
+    <div id="exercise-container">
+        {% if skill_type == 'read' %}
+        {% include "learning/exercise_read.html" %}
+        {% elif skill_type == 'listen' %}
+        {% include "learning/exercise_listen.html" %}
+        {% elif skill_type == 'speak' %}
+        {% include "learning/exercise_speak.html" %}
+        {% elif skill_type == 'write' %}
+        {% include "learning/exercise_write.html" %}
+        {% endif %}
+    </div>
+
+    <!-- Navigation (Prev/Next) - shown after feedback -->
+    <div id="nav-container" class="hidden mt-6 flex justify-between">
+        <button id="prev-exercise-btn" onclick="prevExercise()"
+            class="px-6 py-3 bg-card border border-border-color text-text-secondary rounded-xl disabled:opacity-50 transition-colors hover:bg-border-color">
+            Previous
+        </button>
+        <button id="next-exercise-btn" onclick="nextExercise()"
+            class="px-6 py-3 bg-swedish-blue text-white rounded-xl hover:bg-blue-700 transition-colors">
+            Next
+        </button>
+    </div>
+</div>
+
+<script>
+    // Session state
+    const sessionState = {
+        sessionId: parseInt(document.getElementById('session-container').dataset.sessionId),
+        scenarioId: parseInt(document.getElementById('session-container').dataset.scenarioId),
+        exerciseId: parseInt(document.getElementById('session-container').dataset.exerciseId),
+        wordId: parseInt(document.getElementById('session-container').dataset.wordId),
+        skillType: document.getElementById('session-container').dataset.skillType,
+        queueOrder: parseInt(document.getElementById('session-container').dataset.queueOrder),
+        totalExercises: parseInt(document.getElementById('session-container').dataset.totalExercises),
+        correctCount: parseInt(document.getElementById('session-container').dataset.correctCount),
+        answered: false,
+        startTime: Date.now(),
+    };
+
+    // Initialize exercise on load
+    document.addEventListener('DOMContentLoaded', function() {
+        initializeExercise(sessionState.skillType);
+    });
+
+    function initializeExercise(skillType) {
+        const autoPlayEnabled = localStorage.getItem('autoplay_pronunciation') !== 'false';
+
+        if (skillType === 'listen') {
+            setTimeout(() => playAudio(), 500);
+        } else if (skillType === 'read') {
+            if (autoPlayEnabled) {
+                setTimeout(() => playAudio(), 500);
+            }
+        } else if (skillType === 'write') {
+            initWriteExercise();
+        } else if (skillType === 'speak') {
+            initSpeakExercise();
+        }
+    }
+
+    function updateProgress(progressData) {
+        const percent = progressData.progress_percent;
+        document.getElementById('progress-bar').style.width = percent + '%';
+        document.getElementById('progress-text').textContent =
+            (progressData.completed + progressData.skipped + 1) + ' / ' + sessionState.totalExercises;
+    }
+
+    function submitAnswer(answer, isCorrect = null) {
+        if (sessionState.answered) return;
+        sessionState.answered = true;
+
+        // For speak exercise, isCorrect is determined before calling
+        // For others, we need to check
+        if (isCorrect === null) {
+            // Call backend to check answer
+            fetch('/learn/answer', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    word_id: sessionState.wordId,
+                    skill_type: sessionState.skillType,
+                    answer: answer
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                submitExerciseResult(data.correct, data.correct_answer, data.message);
+            });
+        } else {
+            // isCorrect already known (from speak exercise)
+            const correctAnswer = document.getElementById('expected-word')?.value ||
+                                  document.getElementById('correct-answer')?.value || '';
+            submitExerciseResult(isCorrect, correctAnswer, isCorrect ? 'Correct!' : 'Try again next time');
+        }
+    }
+
+    function submitExerciseResult(isCorrect, correctAnswer, message) {
+        // Update session state
+        if (isCorrect) {
+            sessionState.correctCount++;
+        }
+
+        // Submit to backend
+        fetch('/learn/api/exercise/' + sessionState.exerciseId + '/answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                exercise_id: sessionState.exerciseId,
+                was_correct: isCorrect
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            showFeedback(isCorrect, message, correctAnswer, data.is_complete);
+
+            if (data.progress) {
+                updateProgress(data.progress);
+            }
+        });
+    }
+
+    function showFeedback(correct, message, correctAnswer, isComplete) {
+        const container = document.getElementById('exercise-container');
+        const feedbackHtml = `
+        <div class="text-center py-8">
+            <div class="text-6xl mb-4">${correct ? '✓' : '✗'}</div>
+            <p class="text-2xl font-bold ${correct ? 'text-green-500' : 'text-red-500'} mb-2">${correct ? 'Correct!' : 'Incorrect'}</p>
+            ${!correct ? '<p class="text-text-secondary mb-4">Correct answer: <span class="text-text-primary font-medium">' + correctAnswer + '</span></p>' : ''}
+        </div>
+        `;
+        container.innerHTML = feedbackHtml;
+
+        // Show navigation
+        const navContainer = document.getElementById('nav-container');
+        navContainer.classList.remove('hidden');
+
+        // Update next button text based on completion
+        const nextBtn = document.getElementById('next-exercise-btn');
+        if (isComplete) {
+            nextBtn.textContent = 'Finish';
+            nextBtn.onclick = finishSession;
+        }
+
+        // Disable prev if at start
+        const prevBtn = document.getElementById('prev-exercise-btn');
+        prevBtn.disabled = sessionState.queueOrder === 0;
+    }
+
+    function nextExercise() {
+        // Navigate to next exercise
+        window.location.href = '/learn/session/' + sessionState.sessionId;
+    }
+
+    function prevExercise() {
+        if (sessionState.queueOrder > 0) {
+            window.location.href = '/learn/session/' + sessionState.sessionId + '?exercise_order=' + (sessionState.queueOrder - 1);
+        }
+    }
+
+    function finishSession() {
+        const elapsedSeconds = Math.round((Date.now() - sessionState.startTime) / 1000);
+        window.location.href = '/learn/complete?scenario_id=' + sessionState.scenarioId +
+            '&words_practiced=' + sessionState.totalExercises +
+            '&correct_count=' + sessionState.correctCount +
+            '&time_seconds=' + elapsedSeconds;
+    }
+
+    function markKnownDuringPractice() {
+        if (confirm('Mark this word as known? This will skip all remaining exercises for this word.')) {
+            fetch('/learn/api/word/' + sessionState.wordId + '/mark-known-practice', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionState.sessionId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showToast('Word marked as known! Skipped ' + data.skipped_count + ' exercises.', 'success');
+
+                    if (data.is_complete) {
+                        setTimeout(() => finishSession(), 1500);
+                    } else {
+                        setTimeout(() => nextExercise(), 1500);
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showToast('Error marking word as known', 'error');
+            });
+        }
+    }
+
+    function showToast(message, type) {
+        const toast = document.createElement('div');
+        toast.className = `fixed bottom-24 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg text-white font-medium z-50 ${type === 'success' ? 'bg-green-600' : 'bg-red-600'}`;
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2000);
+    }
+
+    // ============ READ & LISTEN EXERCISE FUNCTIONS ============
+    function selectOption(button, answer) {
+        if (sessionState.answered) return;
+
+        // Disable all options
+        document.querySelectorAll('.option-btn').forEach(btn => {
+            btn.disabled = true;
+            btn.classList.remove('hover:bg-gray-800', 'hover:border-swedish-blue');
+        });
+
+        // Highlight selected
+        button.classList.add('border-swedish-yellow', 'bg-gray-800');
+
+        submitAnswer(answer);
+    }
+
+    // ============ LISTEN EXERCISE FUNCTIONS ============
+    function playAudio() {
+        speakSwedishWord();
+    }
+
+    function speakSwedishWord() {
+        const swedishWord = document.getElementById('swedish-word');
+        if (swedishWord && typeof TTS !== 'undefined') {
+            TTS.speak(swedishWord.value, { lang: 'sv-SE' });
+        }
+    }
+
+    // ============ SPEAK EXERCISE FUNCTIONS ============
+    function initSpeakExercise() {
+        const micBtn = document.getElementById('mic-btn');
+        const expectedWord = document.getElementById('expected-word')?.value || '';
+        const wordId = sessionState.wordId;
+
+        if (micBtn && window.SpeakExerciseUI) {
+            SpeakExerciseUI.init(wordId, expectedWord, (isCorrect) => {
+                submitAnswer(expectedWord, isCorrect);
+            });
+        }
+    }
+
+    // Global Speech Event Listeners
+    window.addEventListener('speech_start', handleSpeechStart);
+    window.addEventListener('speech_end', handleSpeechEnd);
+    window.addEventListener('speech_no_result', handleSpeechNoResult);
+    window.addEventListener('speech_result', handleSpeechResult);
+    window.addEventListener('speech_error', handleSpeechError);
+
+    function handleSpeechStart() {
+        const micBtn = document.getElementById('mic-btn');
+        const micRipple = document.getElementById('mic-ripple');
+        const micStatus = document.getElementById('mic-status');
+
+        if (micBtn) {
+            micBtn.classList.remove('bg-swedish-blue', 'hover:bg-blue-600');
+            micBtn.classList.add('bg-red-600', 'hover:bg-red-700');
+        }
+        if (micRipple) micRipple.classList.remove('hidden');
+        if (micStatus) {
+            micStatus.textContent = "Listening...";
+            micStatus.classList.add('text-red-400');
+        }
+    }
+
+    function handleSpeechEnd() {
+        const micBtn = document.getElementById('mic-btn');
+        const micRipple = document.getElementById('mic-ripple');
+
+        if (micBtn) {
+            micBtn.classList.add('bg-swedish-blue', 'hover:bg-blue-600');
+            micBtn.classList.remove('bg-red-600', 'hover:bg-red-700');
+        }
+        if (micRipple) micRipple.classList.add('hidden');
+    }
+
+    function handleSpeechNoResult() {
+        const micStatus = document.getElementById('mic-status');
+        if (micStatus) {
+            micStatus.textContent = "Didn't hear anything. Try again?";
+            micStatus.className = "text-md font-medium text-yellow-500";
+        }
+    }
+
+    function handleSpeechError(e) {
+        const micStatus = document.getElementById('mic-status');
+        if (micStatus) {
+            micStatus.textContent = e.detail.message;
+            micStatus.classList.add('text-red-400');
+        }
+    }
+
+    function handleSpeechResult(e) {
+        if (sessionState.answered) return;
+        if (!document.getElementById('mic-btn')) return;
+
+        const transcript = e.detail.transcript;
+        const expected = document.getElementById('expected-word')?.value || '';
+        const micStatus = document.getElementById('mic-status');
+        const transcriptDisplay = document.getElementById('transcript-text');
+        const resultContainer = document.getElementById('result-container');
+
+        if (transcriptDisplay) {
+            transcriptDisplay.innerHTML = `<span class="text-text-secondary text-xs">Heard:</span> <span class="text-text-primary">"${transcript}"</span>`;
+        }
+        if (resultContainer) resultContainer.classList.remove('hidden');
+
+        // Check match
+        const normalize = (str) => str ? str.toLowerCase().replace(/[.,!?]/g, '').trim() : '';
+        const tNorm = normalize(transcript);
+        const eNorm = normalize(expected);
+
+        let isMatch = tNorm === eNorm;
+
+        // Phonetic fallback
+        const phoneticMap = {
+            'fot': ['foot', 'fought', 'fuck', 'hot', 'thought'],
+            'hjälp': ['help', 'yelp', 'help help', 'alp'],
+            'hej': ['hey', 'hay', 'hi'],
+            'ja': ['ya', 'yeah', 'yah'],
+            'nej': ['nay', 'neigh', 'no'],
+            'bra': ['bruh', 'bro', 'brah'],
+            'i': ['e', 'ee', 'in', 'it', 'eye', 'aye', 'high', 'ih', 'eh'],
+        };
+
+        if (!isMatch && phoneticMap[eNorm] && phoneticMap[eNorm].includes(tNorm)) {
+            isMatch = true;
+        }
+
+        // Levenshtein
+        if (!isMatch) {
+            const dist = levenshtein(tNorm, eNorm);
+            const allowed = eNorm.length > 5 ? 2 : (eNorm.length > 2 ? 1 : 0);
+            if (dist <= allowed) isMatch = true;
+        }
+
+        if (isMatch) {
+            if (micStatus) {
+                micStatus.textContent = "Correct!";
+                micStatus.className = "text-xl font-bold text-green-500";
+            }
+            setTimeout(() => submitAnswer(transcript, true), 1000);
+        } else {
+            if (micStatus) {
+                micStatus.textContent = "Not quite. Try again.";
+                micStatus.className = "text-md font-bold text-orange-500";
+            }
+        }
+    }
+
+    function levenshtein(a, b) {
+        if (a.length === 0) return b.length;
+        if (b.length === 0) return a.length;
+        const matrix = [];
+        for (let i = 0; i <= b.length; i++) { matrix[i] = [i]; }
+        for (let j = 0; j <= a.length; j++) { matrix[0][j] = j; }
+        for (let i = 1; i <= b.length; i++) {
+            for (let j = 1; j <= a.length; j++) {
+                if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                    matrix[i][j] = matrix[i - 1][j - 1];
+                } else {
+                    matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1));
+                }
+            }
+        }
+        return matrix[b.length][a.length];
+    }
+
+    function skipExercise() {
+        submitAnswer('', false);
+    }
+
+    // ============ WRITE EXERCISE FUNCTIONS ============
+    let selectedLetters = [];
+
+    function initWriteExercise() {
+        selectedLetters = [];
+        updateAnswerDisplay();
+    }
+
+    function selectLetter(button, letter) {
+        if (button.classList.contains('opacity-30')) return;
+
+        selectedLetters.push(letter);
+        button.classList.add('opacity-30');
+        button.disabled = true;
+
+        updateAnswerDisplay();
+    }
+
+    function updateAnswerDisplay() {
+        const display = document.getElementById('current-answer');
+        if (display) {
+            display.textContent = selectedLetters.join('');
+        }
+    }
+
+    function clearAnswer() {
+        selectedLetters = [];
+        document.querySelectorAll('.letter-tile').forEach(tile => {
+            tile.classList.remove('opacity-30');
+            tile.disabled = false;
+        });
+        updateAnswerDisplay();
+    }
+
+    function checkWriteAnswer() {
+        const answer = selectedLetters.join('');
+        submitAnswer(answer);
+    }
+
+    function showHint() {
+        const correctAnswer = document.getElementById('correct-answer');
+        if (correctAnswer) {
+            const firstTwo = correctAnswer.value.substring(0, 2);
+            alert('Hint: The word starts with "' + firstTwo + '..."');
+        }
+    }
+</script>
+{% endblock %}

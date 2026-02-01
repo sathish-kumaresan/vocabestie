@@ -1,17 +1,23 @@
 """
 Learning router for exercise flow and session management.
+
+New architecture (Feb 2026):
+- Session-based learning with 40 or 50 exercises
+- Word introduction before exercises
+- SM2 spaced repetition per-word
+- Mark as Known during intro and practice
 """
 
 import time
 from fastapi import APIRouter, Depends, HTTPException, Request, Query
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from typing import List, Optional
 
 from app.database import get_db
-from app.models import Scenario, Word
+from app.models import Scenario, Word, LearningSession, ExerciseQueue
 from app.services.session import (
     select_session_words,
     get_exercise_for_word,
@@ -19,6 +25,19 @@ from app.services.session import (
 )
 from app.services.mastery import update_mastery, get_word_mastery
 from app.services.stats import record_session_completion, get_scenario_progress
+from app.services.session_manager import (
+    get_active_session,
+    get_new_words_for_session,
+    create_learning_session,
+    get_session_progress,
+    get_next_exercise,
+    get_exercise_by_order,
+    complete_exercise,
+    mark_word_known_during_intro,
+    mark_word_known_during_practice,
+    complete_current_session,
+    get_or_resume_session,
+)
 from app.dependencies import get_user_id, get_auth_context
 
 router = APIRouter(prefix="/learn", tags=["learning"])
@@ -37,6 +56,302 @@ class AnswerResponse(BaseModel):
     new_mastery: float
     message: str
 
+
+class CreateSessionRequest(BaseModel):
+    scenario_id: int
+    intro_word_ids: List[int]
+
+
+class MarkKnownIntroRequest(BaseModel):
+    scenario_id: int
+    current_word_ids: List[int]
+
+
+class MarkKnownPracticeRequest(BaseModel):
+    session_id: int
+
+
+class ExerciseAnswerRequest(BaseModel):
+    exercise_id: int
+    was_correct: bool
+
+
+# ============ NEW SESSION-BASED LEARNING FLOW ============
+
+@router.get("/intro/{scenario_id}", response_class=HTMLResponse)
+def show_introduction(
+    scenario_id: int,
+    request: Request,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
+):
+    """Show word introduction page (10 words before exercises)."""
+    scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
+    if not scenario:
+        raise HTTPException(status_code=404, detail="Scenario not found")
+
+    # Check if there's an active session to resume
+    resume_info = get_or_resume_session(db, user_id, scenario_id)
+
+    if resume_info['action'] == 'resume':
+        # Skip intro and go directly to exercises
+        return RedirectResponse(
+            url=f"/learn/session/{resume_info['session'].id}",
+            status_code=302
+        )
+
+    # Get 10 words for introduction
+    intro_words = get_new_words_for_session(db, user_id, scenario_id, limit=10)
+
+    if not intro_words:
+        return templates.TemplateResponse("learning/no_words.html", {
+            "request": request,
+            "scenario": scenario,
+            "message": "No new words available. You've mastered all words in this level!",
+            **auth,
+        })
+
+    return templates.TemplateResponse("learning/introduction.html", {
+        "request": request,
+        "scenario": scenario,
+        "words": intro_words,
+        "word_ids": [w.id for w in intro_words],
+        **auth,
+    })
+
+
+@router.post("/api/session/create")
+def api_create_session(
+    req: CreateSessionRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Create a new learning session after intro is complete."""
+    # Verify scenario exists
+    scenario = db.query(Scenario).filter(Scenario.id == req.scenario_id).first()
+    if not scenario:
+        raise HTTPException(status_code=404, detail="Scenario not found")
+
+    # Complete any existing active session
+    complete_current_session(db, user_id)
+
+    # Create new session
+    session = create_learning_session(
+        db, user_id, req.scenario_id, req.intro_word_ids
+    )
+
+    return {
+        "success": True,
+        "session_id": session.id,
+        "total_exercises": session.total_exercises,
+        "redirect_url": f"/learn/session/{session.id}",
+    }
+
+
+@router.get("/session/{session_id}", response_class=HTMLResponse)
+def show_session_exercises(
+    session_id: int,
+    request: Request,
+    exercise_order: Optional[int] = Query(None, description="Specific exercise to show"),
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+    auth: dict = Depends(get_auth_context),
+):
+    """Show the exercise session with current exercise."""
+    session = db.query(LearningSession).filter(
+        LearningSession.id == session_id,
+        LearningSession.user_id == user_id,
+    ).first()
+
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    scenario = db.query(Scenario).filter(Scenario.id == session.scenario_id).first()
+
+    # Get progress
+    progress = get_session_progress(db, session_id)
+
+    # If session is complete, redirect to completion page
+    if session.status == 'completed' or progress['pending'] == 0:
+        elapsed_seconds = 0
+        if session.completed_at and session.created_at:
+            elapsed_seconds = int((session.completed_at - session.created_at).total_seconds())
+
+        return RedirectResponse(
+            url=f"/learn/complete?scenario_id={session.scenario_id}"
+                f"&words_practiced={progress['completed']}"
+                f"&correct_count={progress['correct_count']}"
+                f"&time_seconds={elapsed_seconds}",
+            status_code=302
+        )
+
+    # Get current exercise
+    if exercise_order is not None:
+        current_exercise = get_exercise_by_order(db, session_id, exercise_order)
+    else:
+        current_exercise = get_next_exercise(db, session_id)
+
+    if not current_exercise:
+        # No more exercises - session complete
+        return RedirectResponse(
+            url=f"/learn/complete?scenario_id={session.scenario_id}"
+                f"&words_practiced={progress['completed']}"
+                f"&correct_count={progress['correct_count']}"
+                f"&time_seconds=0",
+            status_code=302
+        )
+
+    # Get the word for this exercise
+    word = db.query(Word).filter(Word.id == current_exercise.word_id).first()
+
+    # Get exercise data
+    skill_type, exercise_data = get_exercise_for_word(db, word, user_id)
+    # Override skill_type from queue
+    skill_type = current_exercise.skill_type
+    exercise_data['skill_type'] = skill_type
+
+    return templates.TemplateResponse("learning/session_v2.html", {
+        "request": request,
+        "scenario": scenario,
+        "session": session,
+        "exercise": exercise_data,
+        "current_exercise": current_exercise,
+        "skill_type": skill_type,
+        "word": word,
+        "progress": progress,
+        "queue_order": current_exercise.queue_order,
+        "total_exercises": session.total_exercises,
+        **auth,
+    })
+
+
+@router.post("/api/exercise/{exercise_id}/answer")
+def api_submit_exercise_answer(
+    exercise_id: int,
+    req: ExerciseAnswerRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Submit answer for an exercise and update mastery/SM2."""
+    exercise = db.query(ExerciseQueue).filter(
+        ExerciseQueue.id == exercise_id,
+        ExerciseQueue.user_id == user_id,
+    ).first()
+
+    if not exercise:
+        raise HTTPException(status_code=404, detail="Exercise not found")
+
+    # Complete the exercise
+    complete_exercise(db, exercise_id, req.was_correct, user_id)
+
+    # Get updated progress
+    progress = get_session_progress(db, exercise.session_id)
+
+    # Check if session is now complete
+    is_complete = progress['pending'] == 0
+
+    return {
+        "success": True,
+        "is_complete": is_complete,
+        "progress": progress,
+        "next_url": f"/learn/session/{exercise.session_id}" if not is_complete else None,
+    }
+
+
+@router.post("/api/word/{word_id}/mark-known-intro")
+def api_mark_known_intro(
+    word_id: int,
+    req: MarkKnownIntroRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Mark a word as known during intro and get replacement."""
+    result = mark_word_known_during_intro(
+        db, user_id, word_id, req.scenario_id, req.current_word_ids
+    )
+
+    replacement_data = None
+    if result['replacement_word']:
+        w = result['replacement_word']
+        replacement_data = {
+            'id': w.id,
+            'swedish': w.swedish,
+            'english': w.english,
+            'example_sentence_sv': w.example_sentence_sv,
+            'example_sentence_en': w.example_sentence_en,
+            'grammar_hint': w.grammar_hint,
+        }
+
+    return {
+        "success": result['success'],
+        "replacement_word": replacement_data,
+        "updated_word_ids": result['updated_word_ids'],
+    }
+
+
+@router.post("/api/word/{word_id}/mark-known-practice")
+def api_mark_known_practice(
+    word_id: int,
+    req: MarkKnownPracticeRequest,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Mark a word as known during practice - skips remaining exercises for that word."""
+    skipped_count = mark_word_known_during_practice(
+        db, req.session_id, word_id, user_id
+    )
+
+    # Get updated progress
+    progress = get_session_progress(db, req.session_id)
+    is_complete = progress['pending'] == 0
+
+    return {
+        "success": True,
+        "skipped_count": skipped_count,
+        "is_complete": is_complete,
+        "progress": progress,
+    }
+
+
+@router.get("/api/session/status")
+def api_session_status(
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Get current active session status."""
+    session = get_active_session(db, user_id)
+
+    if not session:
+        return {"has_active_session": False}
+
+    progress = get_session_progress(db, session.id)
+
+    return {
+        "has_active_session": True,
+        "session_id": session.id,
+        "scenario_id": session.scenario_id,
+        "progress": progress,
+    }
+
+
+@router.post("/api/session/learn-more")
+def api_learn_more(
+    scenario_id: int,
+    db: Session = Depends(get_db),
+    user_id: int = Depends(get_user_id),
+):
+    """Complete current session and redirect to intro for new session."""
+    # Complete current session
+    complete_current_session(db, user_id)
+
+    return {
+        "success": True,
+        "redirect_url": f"/learn/intro/{scenario_id}",
+    }
+
+
+# ============ LEGACY ENDPOINTS (keep for backward compatibility) ============
 
 @router.get("/scenario/{scenario_id}", response_class=HTMLResponse)
 def start_learning_session(
