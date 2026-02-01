@@ -51,14 +51,31 @@ def home(
     total_scenarios = db.query(Scenario).count()
     stats = get_user_statistics(db, user_id)
     
-    # Determine where "Start/Continue" should go
-    active_session = get_active_session(db, user_id)
-    if active_session:
-        next_scenario_id = active_session.scenario_id
-    else:
-        # Default to Scenario 1 (Intro) for now
-        # Improvement: Could find first incomplete scenario
-        next_scenario_id = 1
+    # Determine current level (first non-mastered)
+    from app.services.stats import get_cefr_progress
+    cefr_stats = get_cefr_progress(db, user_id)
+    current_level = None
+    cefr_defs = [
+        {"id": "A1", "name": "Beginner"},
+        {"id": "A2", "name": "Elementary"},
+        {"id": "B1", "name": "Intermediate"},
+        {"id": "B2", "name": "Upper Intermediate"},
+        {"id": "C1", "name": "Advanced"},
+        {"id": "C2", "name": "Mastery"},
+    ]
+    
+    for level in cefr_defs:
+        l_stats = cefr_stats.get(level["id"], {})
+        # If not fully mastered (and not empty?), this is current
+        # Actually simplest: first one < 100% progress
+        pct = l_stats.get("progress_percent", 0)
+        if pct < 100:
+            current_level = {**level, "stats": l_stats}
+            break
+            
+    if not current_level:
+        # All done? Default to C2 or A1 if nothing started
+        current_level = {**cefr_defs[0], "stats": cefr_stats.get("A1", {})}
 
     return templates.TemplateResponse("home.html", {
         "request": request,
@@ -66,7 +83,7 @@ def home(
         "total_words": total_words,
         "total_scenarios": total_scenarios,
         "stats": stats,
-        "next_scenario_id": next_scenario_id,
+        "current_level": current_level,
         **auth,
     })
 

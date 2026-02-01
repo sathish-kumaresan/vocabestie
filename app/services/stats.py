@@ -190,7 +190,7 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
         UserWordStatus.status == 'already_known'
     ).scalar() or 0
 
-    # Total exercises completed (sum from all daily logs)
+    # Total exercises completed
     total_exercises = db.query(func.sum(DailyPracticeLog.exercises_completed)).filter(
         DailyPracticeLog.user_id == user_id
     ).scalar() or 0
@@ -199,11 +199,17 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
     total_minutes = stats.total_practice_time_seconds // 60
     hours = total_minutes // 60
     minutes = total_minutes % 60
+    time_str = f"{hours}h {minutes}m" if hours > 0 else f"{minutes} min"
 
-    if hours > 0:
-        time_str = f"{hours}h {minutes}m"
-    else:
-        time_str = f"{minutes} min"
+    # Calculate average mastery per skill (for "Skill Strengths" display)
+    skill_avgs = {}
+    for skill in SKILL_TYPES:
+        # Avg score for this skill across all words that have ANY practice
+        avg = db.query(func.avg(WordSkillMastery.mastery_score)).filter(
+            WordSkillMastery.user_id == user_id,
+            WordSkillMastery.skill_type == skill
+        ).scalar() or 0.0
+        skill_avgs[skill] = int(avg * 100)
 
     return {
         "current_streak": stats.current_streak,
@@ -219,6 +225,7 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
         "total_exercises": total_exercises,
         "practiced_today": daily_log is not None,
         "exercises_today": daily_log.exercises_completed if daily_log else 0,
+        "skill_mastery": skill_avgs,
     }
 
 

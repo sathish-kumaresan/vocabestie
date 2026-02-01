@@ -96,6 +96,7 @@
 
 <body class="min-h-screen flex flex-col">
     <!-- Top Header with Auth Status -->
+    {% block header %}
     <header class="bg-card border-b border-border-color px-4 py-2 flex justify-between items-center transition-colors">
         <span class="text-swedish-yellow font-bold text-lg">Vocabestie</span>
         {% if is_authenticated %}
@@ -112,6 +113,7 @@
         </a>
         {% endif %}
     </header>
+    {% endblock %}
 
     <!-- Main Content -->
     <main class="flex-1 pb-20">
