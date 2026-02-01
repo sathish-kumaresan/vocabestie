@@ -211,6 +211,28 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
         ).scalar() or 0.0
         skill_avgs[skill] = int(avg * 100)
 
+    # Calculate weekly activity (Mon-Sun)
+    start_of_week = today - timedelta(days=today.weekday()) # Monday
+    week_logs = db.query(DailyPracticeLog).filter(
+        DailyPracticeLog.user_id == user_id,
+        DailyPracticeLog.practice_date >= start_of_week,
+        DailyPracticeLog.practice_date <= today
+    ).all()
+    
+    practiced_dates = {log.practice_date for log in week_logs}
+    
+    weekly_activity = []
+    days = ["M", "T", "W", "T", "F", "S", "S"]
+    for i in range(7):
+        day_date = start_of_week + timedelta(days=i)
+        is_future = day_date > today
+        weekly_activity.append({
+            "label": days[i],
+            "active": day_date in practiced_dates,
+            "is_today": day_date == today,
+            "is_future": is_future
+        })
+
     return {
         "current_streak": stats.current_streak,
         "longest_streak": stats.longest_streak,
@@ -226,6 +248,7 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
         "practiced_today": daily_log is not None,
         "exercises_today": daily_log.exercises_completed if daily_log else 0,
         "skill_mastery": skill_avgs,
+        "weekly_activity": weekly_activity,
     }
 
 
