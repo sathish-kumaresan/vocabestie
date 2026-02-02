@@ -22,7 +22,7 @@ async def analyze_speech(
     """
     Analyze speech audio file.
     Tier 1: Basic energy check (client side mostly)
-    Tier 2: Server STT (Whisper)
+    Tier 2: Server STT (Vosk)
     """
     
     word = db.query(Word).filter(Word.id == word_id).first()
