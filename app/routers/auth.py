@@ -80,12 +80,13 @@ async def callback_google(request: Request, db: DbSession = Depends(get_db)):
 
     # Redirect to settings page with session cookie
     response = RedirectResponse(url="/settings", status_code=302)
+    is_production = settings.environment == "production" or settings.oauth_redirect_uri.startswith("https://")
     response.set_cookie(
         key=settings.session_cookie_name,
         value=session_token,
         httponly=True,
         samesite="lax",
-        secure=False,  # Set to True in production with HTTPS
+        secure=is_production,
         max_age=settings.session_duration_days * 24 * 60 * 60,
     )
 
