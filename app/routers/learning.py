@@ -190,7 +190,9 @@ def show_session_exercises(
 
         return RedirectResponse(
             url=f"/learn/complete?scenario_id={session.scenario_id}"
-                f"&words_practiced={progress['completed']}"
+                f"&total_questions={progress['total']}"
+                f"&questions_answered={progress['completed']}"
+                f"&questions_skipped={progress['skipped']}"
                 f"&correct_count={progress['correct_count']}"
                 f"&time_seconds={elapsed_seconds}",
             status_code=302
@@ -211,7 +213,9 @@ def show_session_exercises(
         # No more exercises - session complete
         return RedirectResponse(
             url=f"/learn/complete?scenario_id={session.scenario_id}"
-                f"&words_practiced={progress['completed']}"
+                f"&total_questions={progress['total']}"
+                f"&questions_answered={progress['completed']}"
+                f"&questions_skipped={progress['skipped']}"
                 f"&correct_count={progress['correct_count']}"
                 f"&time_seconds=0",
             status_code=302
@@ -662,9 +666,13 @@ def calculate_active_duration(db: Session, session_id: int) -> int:
 def session_complete(
     request: Request,
     scenario_id: int,
-    words_practiced: int = 0,
+    total_questions: int = 0,
+    questions_answered: int = 0,
+    questions_skipped: int = 0,
     correct_count: int = 0,
     time_seconds: int = 0,
+    # Legacy param for backwards compatibility
+    words_practiced: int = 0,
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),
@@ -675,28 +683,30 @@ def session_complete(
 
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
 
-    accuracy = (correct_count / words_practiced * 100) if words_practiced > 0 else 0
+    # Handle legacy redirects that use words_practiced
+    if questions_answered == 0 and words_practiced > 0:
+        questions_answered = words_practiced
+
+    # Score = correct / answered (not total)
+    score = (correct_count / questions_answered * 100) if questions_answered > 0 else 0
 
     # Record session completion in stats
     session_stats = record_session_completion(
         db=db,
         user_id=user_id,
-        words_practiced=words_practiced,
-        exercises_completed=words_practiced,  # One exercise per word
+        words_practiced=questions_answered,
+        exercises_completed=questions_answered,
         time_seconds=time_seconds,
     )
-
-    # Get updated scenario progress
-    scenario_progress = get_scenario_progress(db, scenario_id, user_id)
 
     return templates.TemplateResponse("learning/complete.html", {
         "request": request,
         "scenario": scenario,
-        "words_practiced": words_practiced,
+        "total_questions": total_questions,
+        "questions_answered": questions_answered,
+        "questions_skipped": questions_skipped,
         "correct_count": correct_count,
-        "accuracy": round(accuracy),
+        "score": round(score),
         "time_seconds": time_seconds,
-        "current_streak": session_stats["current_streak"],
-        "scenario_progress": scenario_progress["progress_percent"],
         **auth,
     })

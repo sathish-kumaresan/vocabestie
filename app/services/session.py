@@ -160,10 +160,11 @@ def generate_options(
 ) -> List[str]:
     """
     Generate multiple choice options including the correct answer.
+    IMPORTANT: Only uses words from the SAME scenario/level to avoid confusion.
     """
     correct_value = getattr(correct_word, field)
 
-    # Get other words from the same scenario for distractors
+    # Get other words ONLY from the same scenario for distractors
     other_words = db.query(Word).filter(
         Word.scenario_id == correct_word.scenario_id,
         Word.id != correct_word.id,
@@ -172,20 +173,16 @@ def generate_options(
     # Get values for distractors
     distractors = [getattr(w, field) for w in other_words if getattr(w, field) != correct_value]
 
-    # If not enough distractors in same scenario, get from other scenarios
-    if len(distractors) < num_options - 1:
-        more_words = db.query(Word).filter(
-            Word.id != correct_word.id,
-        ).limit(20).all()
-        more_distractors = [getattr(w, field) for w in more_words if getattr(w, field) != correct_value]
-        distractors.extend(more_distractors)
-
     # Remove duplicates
     distractors = list(set(distractors))
 
-    # Sample distractors
+    # Sample distractors - use what's available from the same level only
     num_distractors = min(num_options - 1, len(distractors))
-    selected_distractors = random.sample(distractors, num_distractors)
+
+    if num_distractors > 0:
+        selected_distractors = random.sample(distractors, num_distractors)
+    else:
+        selected_distractors = []
 
     # Combine and shuffle
     options = [correct_value] + selected_distractors
