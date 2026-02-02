@@ -7,7 +7,7 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from starlette.middleware.sessions import SessionMiddleware
 
-from app.database import get_db, ensure_guest_user
+from app.database import get_db, ensure_guest_user, seed_vocabulary_if_empty
 from app.config import settings
 from app.models import Scenario, Word
 from app.routers import scenarios_router, words_router, learning_router, auth_router, speech_router
@@ -28,6 +28,7 @@ app.add_middleware(SessionMiddleware, secret_key=settings.secret_key)
 def on_startup():
     """Initialize database with required data."""
     ensure_guest_user()
+    seed_vocabulary_if_empty()
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
