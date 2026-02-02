@@ -83,6 +83,7 @@ class ExerciseAnswerRequest(BaseModel):
 def show_introduction(
     scenario_id: int,
     request: Request,
+    new: bool = Query(False, description="Force new session, skip resume check"),
     db: Session = Depends(get_db),
     user_id: int = Depends(get_user_id),
     auth: dict = Depends(get_auth_context),
@@ -92,15 +93,19 @@ def show_introduction(
     if not scenario:
         raise HTTPException(status_code=404, detail="Scenario not found")
 
-    # Check if there's an active session to resume
-    resume_info = get_or_resume_session(db, user_id, scenario_id)
+    # If new=true, complete any existing session first
+    if new:
+        complete_current_session(db, user_id)
+    else:
+        # Check if there's an active session to resume
+        resume_info = get_or_resume_session(db, user_id, scenario_id)
 
-    if resume_info['action'] == 'resume':
-        # Skip intro and go directly to exercises
-        return RedirectResponse(
-            url=f"/learn/session/{resume_info['session'].id}",
-            status_code=302
-        )
+        if resume_info['action'] == 'resume':
+            # Skip intro and go directly to exercises
+            return RedirectResponse(
+                url=f"/learn/session/{resume_info['session'].id}",
+                status_code=302
+            )
 
     # Get 10 words for introduction
     intro_words = get_new_words_for_session(db, user_id, scenario_id, limit=10)
