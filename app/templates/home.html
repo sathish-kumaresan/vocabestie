@@ -36,16 +36,15 @@
             <div class="relative z-10">
                 <div class="flex items-center justify-between mb-3">
                     <div>
+                        {% set weekly_count = stats.weekly_activity | selectattr('active') | list | length %}
                         <div class="flex items-baseline gap-2">
-                            {% set weekly_count = stats.weekly_activity | selectattr('active') | list | length %}
                             <span class="text-4xl font-bold text-text-primary">{{ weekly_count }}</span>
                             <span class="text-lg text-text-secondary">day{% if weekly_count != 1 %}s{% endif %}</span>
                         </div>
                     </div>
                     <div
                         class="w-10 h-10 flex items-center justify-center bg-swedish-yellow/20 rounded-full border border-swedish-yellow/40 shadow-[0_0_15px_rgba(254,204,0,0.3)]">
-                        <span class="text-2xl filter drop-shadow-md">{% if stats.current_streak > 0 %}🔥{% else %}🧊{%
-                            endif
+                        <span class="text-2xl filter drop-shadow-md">{% if weekly_count > 0 %}🔥{% else %}🧊{% endif
                             %}</span>
                     </div>
                 </div>
@@ -112,19 +111,26 @@
                 </div>
 
                 <!-- Progress Bar -->
-                <div class="relative z-10 bg-primary rounded-xl p-3 border border-swedish-blue/20 shadow-inner mt-2">
-                    <div class="flex justify-between text-xs mb-2">
+                <div class="mt-4">
+                    <div class="flex justify-between text-xs mb-1">
                         <span class="text-text-secondary">Progress</span>
-                        <span class="text-swedish-yellow font-bold">{{ current_level.stats.progress_percent }}%</span>
+                        <span class="text-swedish-yellow font-medium">{{ current_level.stats.progress_percent }}%</span>
                     </div>
-                    <div class="w-full bg-border-color rounded-full h-2.5 overflow-hidden">
-                        <div class="bg-gradient-to-r from-swedish-blue to-swedish-yellow h-full rounded-full transition-all duration-1000 ease-out relative"
-                            style="width: {{ current_level.stats.progress_percent }}%">
-                            <div class="absolute inset-0 bg-white/20"></div>
+                    <div class="w-full bg-border-color rounded-full h-2">
+                        <div class="bg-swedish-yellow h-2 rounded-full transition-all"
+                            style="--progress: {{ current_level.stats.progress_percent }}%; width: var(--progress);">
                         </div>
                     </div>
-                    <div class="mt-2 text-xs text-text-secondary font-medium">
-                        {{ current_level.stats.mastered }} mastered · {{ current_level.stats.in_progress }} learning
+                    <div class="flex justify-between mt-3 text-xs font-medium">
+                        <span class="text-green-400 bg-green-400/10 px-2 py-1 rounded-md" title="Mastered">
+                            {{ current_level.stats.mastered }} mastered
+                        </span>
+                        <span class="text-swedish-yellow bg-swedish-yellow/10 px-2 py-1 rounded-md" title="In Progress">
+                            {{ current_level.stats.in_progress }} in progress
+                        </span>
+                        <span class="text-text-secondary bg-gray-500/10 px-2 py-1 rounded-md" title="Not Started">
+                            {{ current_level.stats.not_started }} not started
+                        </span>
                     </div>
                 </div>
 
@@ -158,7 +164,7 @@
                     <div class="flex justify-between items-start mb-1">
                         <div class="flex items-center gap-3">
                             <h3 class="text-4xl font-medium text-white tracking-tight">{{ item.word.swedish }}</h3>
-                            <button onclick="playReviewAudio('{{ item.word.swedish }}')"
+                            <button onclick="speakText('{{ item.word.swedish }}', this)"
                                 class="p-2 -mt-1 text-text-secondary hover:text-white transition-colors rounded-full hover:bg-white/5">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -278,18 +284,6 @@
 
             function prevReviewSlide() {
                 showReviewSlide(currentReviewIndex - 1);
-            }
-
-            function playReviewAudio(text) {
-                if ('speechSynthesis' in window) {
-                    // Cancel any ongoing speech
-                    window.speechSynthesis.cancel();
-
-                    const utterance = new SpeechSynthesisUtterance(text);
-                    utterance.lang = 'sv-SE';
-                    utterance.rate = 0.9;
-                    window.speechSynthesis.speak(utterance);
-                }
             }
         </script>
 
