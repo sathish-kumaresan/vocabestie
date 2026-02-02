@@ -105,14 +105,17 @@
 
 <script>
     // Introduction state
+    const container = document.getElementById('intro-container');
+    const rawWordIds = container.dataset.wordIds || '';
     const introState = {
-        scenarioId: parseInt(document.getElementById('intro-container').dataset.scenarioId),
-        wordIds: document.getElementById('intro-container').dataset.wordIds.split(',').map(Number),
+        scenarioId: parseInt(container.dataset.scenarioId) || 0,
+        wordIds: rawWordIds ? rawWordIds.split(',').map(Number).filter(n => !isNaN(n)) : [],
         currentIndex: 0,
         totalWords: {{ words | length }},
-    viewedAll: false,
+        viewedAll: false,
         maxViewed: 0,
     };
+    console.log('introState initialized:', introState);
 
     function updateUI() {
         // Track max viewed
@@ -264,6 +267,21 @@
     }
 
     function startLearning() {
+        console.log('startLearning called', introState);
+
+        // Validate state before making request
+        if (!introState.scenarioId || isNaN(introState.scenarioId)) {
+            console.error('Invalid scenarioId:', introState.scenarioId);
+            showToast('Error: Invalid scenario', 'error');
+            return;
+        }
+
+        if (!introState.wordIds || !introState.wordIds.length || introState.wordIds.some(isNaN)) {
+            console.error('Invalid wordIds:', introState.wordIds);
+            showToast('Error: Invalid word list', 'error');
+            return;
+        }
+
         // Create session with current word IDs
         fetch('/learn/api/session/create', {
             method: 'POST',
@@ -273,17 +291,22 @@
                 intro_word_ids: introState.wordIds
             })
         })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(data => {
                 if (data.success) {
                     window.location.href = data.redirect_url;
                 } else {
-                    showToast('Error creating session', 'error');
+                    showToast('Error creating session: ' + (data.detail || 'Unknown error'), 'error');
                 }
             })
             .catch(error => {
-                console.error('Error:', error);
-                showToast('Error creating session', 'error');
+                console.error('startLearning error:', error);
+                showToast('Error: ' + error.message, 'error');
             });
     }
 
