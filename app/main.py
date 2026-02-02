@@ -7,7 +7,7 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from starlette.middleware.sessions import SessionMiddleware
 
-from app.database import get_db
+from app.database import get_db, ensure_guest_user
 from app.config import settings
 from app.models import Scenario, Word
 from app.routers import scenarios_router, words_router, learning_router, auth_router, speech_router
@@ -22,6 +22,12 @@ app = FastAPI(
 
 # Add session middleware for OAuth state
 app.add_middleware(SessionMiddleware, secret_key=settings.secret_key)
+
+
+@app.on_event("startup")
+def on_startup():
+    """Initialize database with required data."""
+    ensure_guest_user()
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
