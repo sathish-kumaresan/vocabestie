@@ -120,8 +120,14 @@
     function updateProgress(progressData) {
         const percent = progressData.progress_percent;
         document.getElementById('progress-bar').style.width = percent + '%';
+
+        let current = progressData.completed + progressData.skipped + 1;
+        if (current > sessionState.totalExercises) {
+            current = sessionState.totalExercises;
+        }
+
         document.getElementById('progress-text').textContent =
-            (progressData.completed + progressData.skipped + 1) + ' / ' + sessionState.totalExercises;
+            current + ' / ' + sessionState.totalExercises;
     }
 
     function submitAnswer(answer, isCorrect = null) {

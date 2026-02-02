@@ -175,9 +175,13 @@ def show_session_exercises(
 
     # If session is complete, redirect to completion page
     if session.status == 'completed' or progress['pending'] == 0:
-        elapsed_seconds = 0
-        if session.completed_at and session.created_at:
-            elapsed_seconds = int((session.completed_at - session.created_at).total_seconds())
+        # Use active duration calculation to avoid counting idle time
+        elapsed_seconds = calculate_active_duration(db, session_id)
+
+        # Fallback if calculation fails or returns 0 for some reason (though it shouldn't for completed session)
+        if elapsed_seconds == 0 and session.completed_at and session.created_at:
+             # Basic diff if new calc returns 0
+             elapsed_seconds = int((session.completed_at - session.created_at).total_seconds())
 
         return RedirectResponse(
             url=f"/learn/complete?scenario_id={session.scenario_id}"
@@ -607,6 +611,46 @@ def submit_answer(
         new_mastery=new_mastery,
         message=message,
     )
+
+
+def calculate_active_duration(db: Session, session_id: int) -> int:
+    """Calculate active session time by summing exercise durations, ignoring long breaks."""
+    # Get all completed exercises sorted by time
+    exercises = db.query(ExerciseQueue).filter(
+        ExerciseQueue.session_id == session_id,
+        ExerciseQueue.status == 'completed',
+        ExerciseQueue.completed_at.isnot(None)
+    ).order_by(ExerciseQueue.completed_at).all()
+
+    if not exercises:
+        return 0
+
+    total_seconds = 0
+    # Start tracking from session creation
+    # We need to fetch the session to get created_at
+    session = db.query(LearningSession).filter(LearningSession.id == session_id).first()
+    if not session:
+        return 0
+        
+    last_time = session.created_at
+
+    for ex in exercises:
+        if last_time:
+            delta = (ex.completed_at - last_time).total_seconds()
+            # If gap > 5 mins (300s), assume user walked away. 
+            # Cap it at 45s (reasonable time for one exercise)
+            if delta > 300: 
+                total_seconds += 45 
+            elif delta < 0: # Should not happen, but safe guard
+                total_seconds += 10
+            else:
+                total_seconds += delta
+        else:
+            total_seconds += 45 
+            
+        last_time = ex.completed_at
+
+    return int(total_seconds)
 
 
 @router.get("/complete", response_class=HTMLResponse)

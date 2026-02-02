@@ -252,6 +252,62 @@ def get_user_statistics(db: Session, user_id: int = GUEST_USER_ID) -> Dict[str, 
     }
 
 
+
+def get_words_to_review(
+    db: Session,
+    user_id: int = GUEST_USER_ID,
+    limit: int = 4
+) -> List[Dict[str, Any]]:
+    """
+    Get words that are in progress and need review (lowest mastery).
+    Excludes words marked as 'already_known'.
+    """
+    # 1. Get IDs of 'already_known' words to exclude
+    known_ids = db.query(UserWordStatus.word_id).filter(
+        UserWordStatus.user_id == user_id,
+        UserWordStatus.status == 'already_known'
+    ).all()
+    known_ids_set = {k[0] for k in known_ids}
+
+    # 2. Query average mastery per word
+    # Join Word with WordSkillMastery to get words + their avg score
+    # We filter by user_id, exclude known words in Python or SQL
+    # We group by Word.id
+    # We order by avg_score ASC (lowest score first -> needs review)
+    
+    # Simple query: Get active words with mastery < 0.9
+    candidates = db.query(
+        Word,
+        func.avg(WordSkillMastery.mastery_score).label('avg_score')
+    ).join(WordSkillMastery, Word.id == WordSkillMastery.word_id)\
+     .filter(WordSkillMastery.user_id == user_id)\
+     .group_by(Word.id)\
+     .having(func.avg(WordSkillMastery.mastery_score) < 0.9)\
+     .order_by(func.avg(WordSkillMastery.mastery_score).asc())\
+     .limit(limit * 3)\
+     .all()
+
+    results = []
+    seen_ids = set()
+    
+    for word, avg_score in candidates:
+        if word.id in known_ids_set:
+            continue
+        if word.id in seen_ids:
+            continue
+            
+        seen_ids.add(word.id)
+        results.append({
+            "word": word,
+            "mastery": int(avg_score * 100)
+        })
+        
+        if len(results) >= limit:
+            break
+            
+    return results
+
+
 def get_scenario_progress(
     db: Session,
     scenario_id: int,

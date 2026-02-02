@@ -264,7 +264,10 @@ uvicorn app.main:app --reload
 | Feb 01, 2026 | **Streak Redesign**: Replaced simple streak card with a 7-day "Weekly Meter" (Mon-Sun). Shows active practice days, current day indicator, and future days. Backend `stats.py` updated to calculate weekly activity. |
 | Feb 01, 2026 | **Greeting Refinement**: Updated Home Page greeting logic. Logged-in users see "Welcome Back [Name]", Guests see "Welcome! Bestie!". Aligned terminology with "Vocabestie" brand. |
 | Feb 01, 2026 | **Deployment Prep**: Configured app for Cloud Deployment (Render). Added `gunicorn` to requirements, patched `config.py` for SQLAlchemy/Postgres compatibility, and added `DEPLOY.md` guide. |
-| Feb 01, 2026 | **UI Unification**: Standardized the application header. Applied the "Vocabestie" (Blue/Yellow) + SE Flag design to the global `base.html`, ensuring all pages match the improved Home Page aesthetic. Use center alignment (max-w-md) to match content width. |
+| Feb 01, 2026 | **UI Unification**: Standardized the application header. Applied the "Vocabestie" (Blue/Yellow) + SE Flag design to the global `base.html`, ensuring all pages match the improved Home Page aesthetic. Refined alignment: centered (max-w-md), transparent, and correctly spaced (justify-between) with `w-full`. |
+| Feb 02, 2026 | **Words to Review**: Implemented a "Words to Review" section on the Home Page, replacing old stats cards. Features a smart algorithm (lowest mastery < 90%), rich card UI (Audio, Tags, Examples), and a carousel layout for focused review. |
+| Feb 02, 2026 | **Streak Logic Update**: Refined "Weekly Streak" to strictly show the count of active days in the current week (Mon-Sun), making it clearer for users. Renamed section from "Current Streak". |
+| Feb 02, 2026 | **UI Polish & Fixes**: Linked "Current Focus" to Level Detail page. Fixed unclickable "Continue Learning" button (z-index). Fixed session timer bug (944m) and progress counter glitch (41/40). Adjusted font weights for better readability. |
 
 ---
 

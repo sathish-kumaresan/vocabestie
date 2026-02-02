@@ -21,52 +21,59 @@
     </div>
 
     <!-- Daily Streak Hero -->
-    <div
-        class="relative overflow-hidden bg-gradient-to-br from-swedish-blue to-blue-900 rounded-2xl p-6 border border-swedish-blue/50 shadow-lg">
-        <!-- Background decorative elements -->
-        <div class="absolute top-0 right-0 w-32 h-32 bg-swedish-yellow/20 rounded-full blur-3xl -mr-10 -mt-10"></div>
-        <div class="absolute bottom-0 left-0 w-24 h-24 bg-swedish-yellow/10 rounded-full blur-2xl -ml-8 -mb-8"></div>
+    <div class="space-y-3">
+        <h2 class="text-lg font-bold text-text-primary flex items-center gap-2">
+            <span class="text-swedish-yellow">Weekly Streak</span>
+            <div class="h-px bg-swedish-blue/30 flex-1 ml-2"></div>
+        </h2>
 
-        <div class="relative z-10">
-            <div class="flex items-center justify-between mb-6">
-                <div>
-                    <p class="text-swedish-yellow/80 text-sm mb-1 font-medium">Current Streak</p>
-                    <div class="flex items-baseline gap-2">
-                        <span class="text-4xl font-bold text-white">{{ stats.current_streak }}</span>
-                        <span class="text-lg text-blue-200">day{% if stats.current_streak != 1 %}s{% endif
+        <div class="relative overflow-hidden bg-card rounded-2xl p-4 border border-swedish-blue/30 shadow-sm">
+            <!-- Background decorative elements -->
+            <div class="absolute top-0 right-0 w-32 h-32 bg-swedish-yellow/10 rounded-full blur-3xl -mr-10 -mt-10">
+            </div>
+            <div class="absolute bottom-0 left-0 w-24 h-24 bg-swedish-yellow/5 rounded-full blur-2xl -ml-8 -mb-8"></div>
+
+            <div class="relative z-10">
+                <div class="flex items-center justify-between mb-3">
+                    <div>
+                        <div class="flex items-baseline gap-2">
+                            {% set weekly_count = stats.weekly_activity | selectattr('active') | list | length %}
+                            <span class="text-4xl font-bold text-text-primary">{{ weekly_count }}</span>
+                            <span class="text-lg text-text-secondary">day{% if weekly_count != 1 %}s{% endif %}</span>
+                        </div>
+                    </div>
+                    <div
+                        class="w-10 h-10 flex items-center justify-center bg-swedish-yellow/20 rounded-full border border-swedish-yellow/40 shadow-[0_0_15px_rgba(254,204,0,0.3)]">
+                        <span class="text-2xl filter drop-shadow-md">{% if stats.current_streak > 0 %}🔥{% else %}🧊{%
+                            endif
                             %}</span>
                     </div>
                 </div>
-                <div
-                    class="w-12 h-12 flex items-center justify-center bg-swedish-yellow/20 rounded-full border border-swedish-yellow/40 shadow-[0_0_15px_rgba(254,204,0,0.3)]">
-                    <span class="text-3xl filter drop-shadow-md">{% if stats.current_streak > 0 %}🔥{% else %}🧊{% endif
-                        %}</span>
-                </div>
-            </div>
 
-            <!-- Weekly Meter -->
-            <div
-                class="flex justify-between items-center bg-blue-950/50 rounded-xl p-4 backdrop-blur-sm shadow-inner transition-colors border border-swedish-blue/30">
-                {% for day in stats.weekly_activity %}
-                <div class="flex flex-col items-center gap-2 group cursor-default"
-                    title="{% if day.active %}Practiced{% elif day.is_today %}Today{% else %}{% endif %}">
-                    <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold transition-all border-2
-                        {% if day.active %}
-                            bg-gradient-to-br from-swedish-yellow to-yellow-600 border-swedish-yellow text-gray-900 shadow-md shadow-yellow-500/20 scale-105
-                        {% elif day.is_today %}
-                            border-swedish-yellow text-swedish-yellow bg-swedish-yellow/10 shadow-[0_0_10px_rgba(254,204,0,0.2)] animate-pulse
+                <!-- Weekly Meter -->
+                <div
+                    class="flex justify-between items-center bg-primary rounded-xl p-3 shadow-inner transition-colors border border-swedish-blue/20">
+                    {% for day in stats.weekly_activity %}
+                    <div class="flex flex-col items-center gap-1.5 group cursor-default"
+                        title="{% if day.active %}Practiced{% elif day.is_today %}Today{% else %}{% endif %}">
+                        <div class="w-7 h-7 rounded-full flex items-center justify-center text-[10px] font-bold transition-all border-2
+                            {% if day.active %}
+                                bg-gradient-to-br from-swedish-yellow to-yellow-600 border-swedish-yellow text-gray-900 shadow-md shadow-yellow-500/20 scale-105
+                            {% elif day.is_today %}
+                                border-swedish-yellow text-swedish-yellow bg-swedish-yellow/10 shadow-[0_0_10px_rgba(254,204,0,0.2)] animate-pulse
+                            {% else %}
+                                border-border-color text-text-secondary bg-card/50
+                            {% endif %}">
+                            {{ day.label }}
+                        </div>
+                        {% if day.is_today %}
+                        <div class="w-1 h-1 rounded-full bg-swedish-yellow"></div>
                         {% else %}
-                            border-blue-700 text-blue-400 bg-blue-900/40
-                        {% endif %}">
-                        {{ day.label }}
+                        <div class="w-1 h-1 rounded-full bg-transparent"></div>
+                        {% endif %}
                     </div>
-                    {% if day.is_today %}
-                    <div class="w-1 h-1 rounded-full bg-swedish-yellow"></div>
-                    {% else %}
-                    <div class="w-1 h-1 rounded-full bg-transparent"></div>
-                    {% endif %}
+                    {% endfor %}
                 </div>
-                {% endfor %}
             </div>
         </div>
     </div>
@@ -79,11 +86,11 @@
             <div class="h-px bg-swedish-blue/30 flex-1 ml-2"></div>
         </h2>
 
-        <a href="/levels/{{ current_level.id }}" class="block group">
+        <div class="block">
             <div
-                class="bg-gradient-to-br from-card to-swedish-blue/10 rounded-2xl p-5 border border-swedish-blue/30 hover:border-swedish-yellow/50 transition-all shadow-sm hover:shadow-lg hover:shadow-swedish-blue/10 relative overflow-hidden">
+                class="bg-card rounded-2xl p-5 border border-swedish-blue/30 transition-all shadow-sm relative overflow-hidden">
                 <div
-                    class="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-swedish-yellow/5 opacity-0 group-hover:opacity-100 transition-opacity">
+                    class="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-swedish-yellow/5 opacity-0 transition-opacity pointer-events-none">
                 </div>
 
                 <div class="flex justify-between items-start mb-4 relative z-10">
@@ -92,95 +99,206 @@
                             class="inline-block px-2.5 py-1 rounded-lg bg-swedish-yellow/20 text-swedish-yellow text-xs font-bold mb-2">
                             {{ current_level.id }}
                         </span>
-                        <h3 class="text-xl font-bold text-white">{{ current_level.name }}</h3>
-                        <p class="text-blue-200/70 text-sm mt-1">{{ current_level.desc }}</p>
+                        <h3 class="text-xl font-bold text-text-primary">{{ current_level.name }}</h3>
+                        <p class="text-text-secondary text-sm mt-1">{{ current_level.desc }}</p>
                     </div>
-                    <div
-                        class="bg-swedish-blue/20 rounded-full p-2 border border-swedish-blue/40 group-hover:border-swedish-yellow group-hover:bg-swedish-yellow/20 transition-colors">
-                        <svg class="w-5 h-5 text-swedish-blue group-hover:text-swedish-yellow transition-colors"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <a href="/levels/{{ current_level.id }}"
+                        class="bg-swedish-blue/20 rounded-full p-2 border border-swedish-blue/40 transition-colors hover:bg-swedish-blue/30 block">
+                        <svg class="w-5 h-5 text-swedish-blue transition-colors" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Progress Bar -->
-                <div class="relative z-10">
-                    <div class="flex justify-between text-xs mb-1.5">
-                        <span class="text-blue-200/70">Progress</span>
+                <div class="relative z-10 bg-primary rounded-xl p-3 border border-swedish-blue/20 shadow-inner mt-2">
+                    <div class="flex justify-between text-xs mb-2">
+                        <span class="text-text-secondary">Progress</span>
                         <span class="text-swedish-yellow font-bold">{{ current_level.stats.progress_percent }}%</span>
                     </div>
-                    <div class="w-full bg-swedish-blue/30 rounded-full h-2.5 overflow-hidden">
+                    <div class="w-full bg-border-color rounded-full h-2.5 overflow-hidden">
                         <div class="bg-gradient-to-r from-swedish-blue to-swedish-yellow h-full rounded-full transition-all duration-1000 ease-out relative"
                             style="width: {{ current_level.stats.progress_percent }}%">
                             <div class="absolute inset-0 bg-white/20"></div>
                         </div>
                     </div>
-                    <div class="mt-2 text-xs text-blue-200/60 font-medium">
+                    <div class="mt-2 text-xs text-text-secondary font-medium">
                         {{ current_level.stats.mastered }} mastered · {{ current_level.stats.in_progress }} learning
                     </div>
                 </div>
+
+                <!-- Continue Learning Button -->
+                <a href="/learn/intro/{{ current_level.scenario_id }}"
+                    class="relative z-20 block w-full mt-4 bg-swedish-blue hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl text-center transition-colors shadow-md">
+                    Continue Learning
+                </a>
             </div>
-        </a>
+        </div>
     </div>
     {% endif %}
 
-    <!-- Quick Actions Grid -->
-    <div class="grid grid-cols-2 gap-4">
-        <a href="/vocabulary?filter=mastered"
-            class="bg-card p-4 rounded-2xl border border-border-color hover:bg-border-color/50 transition-colors group">
-            <div
-                class="w-10 h-10 rounded-xl bg-green-500/20 text-green-500 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            </div>
-            <p class="font-bold text-lg text-white">{{ stats.words_mastered }}</p>
-            <p class="text-xs text-text-secondary">Words Mastered</p>
-        </a>
+    <!-- Words to Review Section (Carousel) -->
+    <div class="mt-6 mb-8">
+        <h2 class="text-lg font-bold text-text-primary mb-3 flex items-center gap-2">
+            <span class="text-swedish-yellow">Words to Review</span>
+            <div class="h-px bg-swedish-blue/30 flex-1 ml-2"></div>
+        </h2>
 
-        {% if stats.words_in_progress == 0 and stats.words_mastered > 0 %}
-        <!-- Skill Overview (Zero State for Learning) -->
-        <div class="bg-card p-4 rounded-2xl border border-border-color relative overflow-hidden">
-            <div class="flex flex-col h-full justify-between">
-                <div>
-                    <p class="font-bold text-white mb-3">Skill Strength</p>
-                    <div class="space-y-2">
-                        {% for skill, label, icon in [('read', 'Read', '👁️'), ('listen', 'Listen', '👂'), ('speak',
-                        'Speak', '🗣️'), ('write', 'Write', '✍️')] %}
-                        <div class="flex items-center justify-between text-xs">
-                            <span class="text-text-secondary flex items-center gap-1.5">
-                                <span>{{ icon }}</span> {{ label }}
-                            </span>
-                            <div class="flex gap-0.5">
-                                {% set score = stats.skill_mastery.get(skill, 0) %}
-                                {% set filled = (score / 25) | int %}
-                                {% for i in range(1, 5) %}
-                                <span
-                                    class="text-[10px] leading-none {% if i <= filled %}text-swedish-yellow{% else %}text-gray-700{% endif %}">●</span>
-                                {% endfor %}
-                            </div>
+        {% if review_words %}
+        <div class="relative max-w-lg mx-auto">
+            <!-- Carousel Container -->
+            <div id="review-carousel"
+                class="relative overflow-hidden rounded-2xl bg-card border border-swedish-blue/20 shadow-lg">
+                {% for item in review_words %}
+                <div class="review-slide p-6 transition-all duration-300 {% if not loop.first %}hidden{% endif %}"
+                    data-index="{{ loop.index0 }}">
+
+                    <!-- Top Row: Word & Mastery -->
+                    <div class="flex justify-between items-start mb-1">
+                        <div class="flex items-center gap-3">
+                            <h3 class="text-4xl font-medium text-white tracking-tight">{{ item.word.swedish }}</h3>
+                            <button onclick="playReviewAudio('{{ item.word.swedish }}')"
+                                class="p-2 -mt-1 text-text-secondary hover:text-white transition-colors rounded-full hover:bg-white/5">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+                                </svg>
+                            </button>
                         </div>
-                        {% endfor %}
+                        <span
+                            class="bg-swedish-yellow/10 text-swedish-yellow border border-swedish-yellow/20 font-bold text-sm px-2.5 py-1 rounded-lg shadow-sm">
+                            {{ item.mastery }}%
+                        </span>
+                    </div>
+
+                    <!-- Second Row: Translation & Tags -->
+                    <div class="flex flex-wrap items-center gap-2 mb-6">
+                        <span class="text-xl text-text-secondary">{{ item.word.english }}</span>
+
+                        {% if item.word.grammar_hint %}
+                        <span
+                            class="px-2 py-0.5 rounded-md bg-gray-800 text-[10px] text-gray-400 font-bold uppercase tracking-wider border border-gray-700">
+                            {{ item.word.grammar_hint }}
+                        </span>
+                        {% endif %}
+
+                        {% if item.word.difficulty_level %}
+                        <span
+                            class="px-2 py-0.5 rounded-md bg-swedish-blue/20 text-[10px] text-blue-300 font-bold border border-swedish-blue/30">
+                            {{ item.word.difficulty_level }}
+                        </span>
+                        {% endif %}
+                    </div>
+
+                    <!-- Example Sentence -->
+                    <div class="relative pl-4 mb-8">
+                        <div class="absolute left-0 top-1 bottom-1 w-1 bg-swedish-blue rounded-full"></div>
+                        {% if item.word.example_sentence_sv %}
+                        <p class="text-lg text-white font-medium italic mb-1 leading-relaxed">"{{
+                            item.word.example_sentence_sv }}"</p>
+                        <p class="text-sm text-text-secondary">"{{ item.word.example_sentence_en }}"</p>
+                        {% else %}
+                        <p class="text-sm text-text-secondary italic">No example sentence available.</p>
+                        {% endif %}
+                    </div>
+
+                    <!-- Practice Button -->
+                    <div class="flex justify-center">
+                        <a href="/learn/word/{{ item.word.id }}"
+                            class="inline-block px-12 py-3 bg-swedish-blue hover:bg-blue-600 text-white font-bold rounded-xl text-center transition-all shadow-md hover:scale-105 active:scale-95">
+                            Practice
+                        </a>
                     </div>
                 </div>
+                {% endfor %}
             </div>
+
+            <!-- Navigation Arrows (Below Card) -->
+            {% if review_words|length > 1 %}
+            <div class="flex justify-between items-center mt-4 px-4">
+                <button onclick="prevReviewSlide()"
+                    class="p-3 text-text-secondary hover:text-white hover:bg-white/10 rounded-full transition-all active:scale-90">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+
+                <!-- Dots indicator -->
+                <div class="flex gap-2" id="carousel-indicators">
+                    {% for item in review_words %}
+                    <button onclick="showReviewSlide({{ loop.index0 }})"
+                        class="w-2 h-2 rounded-full transition-all duration-300 {% if loop.first %}bg-swedish-yellow w-4{% else %}bg-gray-700 hover:bg-gray-600{% endif %}"
+                        data-index="{{ loop.index0 }}"></button>
+                    {% endfor %}
+                </div>
+
+                <button onclick="nextReviewSlide()"
+                    class="p-3 text-text-secondary hover:text-white hover:bg-white/10 rounded-full transition-all active:scale-90">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+            {% endif %}
         </div>
+
+        <script>
+            let currentReviewIndex = 0;
+            const totalReviewSlides = {{ review_words| length }};
+
+            function showReviewSlide(index) {
+                if (index < 0) index = totalReviewSlides - 1;
+                if (index >= totalReviewSlides) index = 0;
+
+                currentReviewIndex = index;
+
+                // Toggle slides
+                document.querySelectorAll('.review-slide').forEach(el => {
+                    el.classList.add('hidden');
+                });
+                const slide = document.querySelector(`.review-slide[data-index="${index}"]`);
+                if (slide) slide.classList.remove('hidden');
+
+                // Update indicators
+                document.querySelectorAll('#carousel-indicators button').forEach(el => {
+                    if (parseInt(el.dataset.index) === index) {
+                        el.classList.remove('bg-gray-700', 'hover:bg-gray-600');
+                        el.classList.add('bg-swedish-yellow', 'w-4');
+                    } else {
+                        el.classList.remove('bg-swedish-yellow', 'w-4');
+                        el.classList.add('bg-gray-700', 'hover:bg-gray-600');
+                    }
+                });
+            }
+
+            function nextReviewSlide() {
+                showReviewSlide(currentReviewIndex + 1);
+            }
+
+            function prevReviewSlide() {
+                showReviewSlide(currentReviewIndex - 1);
+            }
+
+            function playReviewAudio(text) {
+                if ('speechSynthesis' in window) {
+                    // Cancel any ongoing speech
+                    window.speechSynthesis.cancel();
+
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.lang = 'sv-SE';
+                    utterance.rate = 0.9;
+                    window.speechSynthesis.speak(utterance);
+                }
+            }
+        </script>
+
         {% else %}
-        <!-- Learning Card (Standard) -->
-        <a href="/vocabulary?filter=in_progress"
-            class="bg-card p-4 rounded-2xl border border-border-color hover:bg-border-color/50 transition-colors group">
-            <div
-                class="w-10 h-10 rounded-xl bg-swedish-yellow/20 text-swedish-yellow flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-            </div>
-            <p class="font-bold text-lg text-white">{{ stats.words_in_progress }}</p>
-            <p class="text-xs text-text-secondary">Words Learning</p>
-        </a>
+        <div class="bg-card rounded-xl p-6 text-center border border-swedish-blue/20">
+            <p class="text-text-secondary text-sm">You're all caught up! No words appearing to need urgent review.</p>
+            <a href="/vocabulary"
+                class="text-swedish-blue hover:text-blue-400 font-bold mt-2 text-sm inline-block">Explore Vocabulary</a>
+        </div>
         {% endif %}
     </div>
 

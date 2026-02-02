@@ -11,7 +11,7 @@ from app.database import get_db, ensure_guest_user, seed_vocabulary_if_empty
 from app.config import settings
 from app.models import Scenario, Word
 from app.routers import scenarios_router, words_router, learning_router, auth_router, speech_router
-from app.services.stats import get_user_statistics, get_scenario_progress, get_word_statuses_bulk
+from app.services.stats import get_user_statistics, get_scenario_progress, get_word_statuses_bulk, get_words_to_review
 from app.dependencies import get_user_id, get_auth_context
 
 app = FastAPI(
@@ -58,6 +58,9 @@ def home(
     total_scenarios = db.query(Scenario).count()
     stats = get_user_statistics(db, user_id)
     
+    # Get review suggestions
+    review_words = get_words_to_review(db, user_id)
+    
     # Determine current level (first non-mastered)
     from app.services.stats import get_cefr_progress
     cefr_stats = get_cefr_progress(db, user_id)
@@ -84,6 +87,12 @@ def home(
         # All done? Default to C2 or A1 if nothing started
         current_level = {**cefr_defs[0], "stats": cefr_stats.get("A1", {})}
 
+    # Add scenario_id to current_level for direct learning link
+    if current_level:
+        scenario = db.query(Scenario).filter(Scenario.difficulty_level == current_level["id"]).first()
+        if scenario:
+            current_level["scenario_id"] = scenario.id
+
     return templates.TemplateResponse("home.html", {
         "request": request,
         "active_tab": "home",
@@ -91,6 +100,7 @@ def home(
         "total_scenarios": total_scenarios,
         "stats": stats,
         "current_level": current_level,
+        "review_words": review_words,
         **auth,
     })
 
