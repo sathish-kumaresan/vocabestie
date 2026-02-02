@@ -1,29 +1,73 @@
 
 import os
+import json
+import wave
 import tempfile
 import asyncio
+import zipfile
+import urllib.request
+from pathlib import Path
 from fastapi import UploadFile
-import whisper
+from vosk import Model, KaldiRecognizer
 import Levenshtein
-# from app.services.speech import SpeechService
 
-# Global model instance to avoid reloading (lazy loaded)
-_whisper_model = None
+# Model configuration
+MODEL_NAME = "vosk-model-small-sv-rhasspy-0.15"
+MODEL_URL = f"https://alphacephei.com/vosk/models/{MODEL_NAME}.zip"
+MODEL_DIR = Path("models")
+MODEL_PATH = MODEL_DIR / MODEL_NAME
 
-def get_whisper_model():
-    global _whisper_model
-    if _whisper_model is None:
-        # Load the base model - good balance of speed and accuracy for Swedish
-        print("Loading Whisper model...")
-        _whisper_model = whisper.load_model("base")
-        print("Whisper model loaded.")
-    return _whisper_model
+# Global model instance (lazy loaded)
+_vosk_model = None
+
+
+def download_model():
+    """Download and extract the Swedish Vosk model if not present."""
+    if MODEL_PATH.exists():
+        return
+
+    print(f"Downloading Vosk Swedish model...")
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+
+    zip_path = MODEL_DIR / f"{MODEL_NAME}.zip"
+
+    # Download
+    urllib.request.urlretrieve(MODEL_URL, zip_path)
+
+    # Extract
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(MODEL_DIR)
+
+    # Cleanup zip
+    zip_path.unlink()
+    print(f"Vosk model downloaded to {MODEL_PATH}")
+
+
+def get_vosk_model():
+    """Get or load the Vosk model."""
+    global _vosk_model
+    if _vosk_model is None:
+        download_model()
+        print("Loading Vosk model...")
+        _vosk_model = Model(str(MODEL_PATH))
+        print("Vosk model loaded.")
+    return _vosk_model
+
+
+def convert_to_wav(input_path: str, output_path: str):
+    """Convert audio file to WAV format for Vosk (16kHz mono)."""
+    from pydub import AudioSegment
+
+    audio = AudioSegment.from_file(input_path)
+    audio = audio.set_frame_rate(16000).set_channels(1).set_sample_width(2)
+    audio.export(output_path, format="wav")
+
 
 class PronunciationService:
     @staticmethod
     async def analyze_audio(file: UploadFile, expected_text: str):
         """
-        Analyze uploaded audio against expected text using Whisper.
+        Analyze uploaded audio against expected text using Vosk.
         Returns score, transcription, and feedback.
         """
         # Save temp file
@@ -31,84 +75,94 @@ class PronunciationService:
             tmp_path = tmp.name
             content = await file.read()
             tmp.write(content)
-            
+
+        wav_path = tmp_path + ".wav"
+
         try:
-            # Transcribe with Whisper
-            result = await asyncio.to_thread(PronunciationService._transcribe, tmp_path, expected_text)
-            transcribed_text = result["text"].strip()
-            
-            # Clean up temp file
-            os.remove(tmp_path)
-            
+            # Convert to WAV format
+            await asyncio.to_thread(convert_to_wav, tmp_path, wav_path)
+
+            # Transcribe with Vosk
+            transcribed_text = await asyncio.to_thread(
+                PronunciationService._transcribe, wav_path
+            )
+
             # Compare and score
-            score, feedback = PronunciationService._calculate_score(transcribed_text, expected_text)
-            
+            score, feedback = PronunciationService._calculate_score(
+                transcribed_text, expected_text
+            )
+
             return {
                 "transcription": transcribed_text,
                 "score": score,
                 "feedback": feedback,
-                "syllables": PronunciationService._generate_dummy_syllables(expected_text, score) # Placeholder for complex syllable mapping
+                "syllables": PronunciationService._generate_dummy_syllables(
+                    expected_text, score
+                )
             }
-            
+
         except Exception as e:
-            if os.path.exists(tmp_path):
-                os.remove(tmp_path)
             print(f"Error analyzing audio: {e}")
             raise e
+        finally:
+            # Cleanup temp files
+            if os.path.exists(tmp_path):
+                os.remove(tmp_path)
+            if os.path.exists(wav_path):
+                os.remove(wav_path)
 
     @staticmethod
-    def _transcribe(file_path: str, expected_text: str = ""):
-        model = get_whisper_model()
-        
-        # improved parameters to reduce hallucinations:
-        # 1. initial_prompt: biases the model towards the expected domain/word
-        # 2. condition_on_previous_text=False: prevents context pollution
-        # 3. no_speech_threshold: stricter silence detection
-        # 4. logprob_threshold: stricter confidence requirement
-        
-        # Swedish prompt to bias context
-        prompt = f"Ordet är {expected_text}." if expected_text else "Säg ordet."
-        
-        return model.transcribe(
-            file_path, 
-            language="sv", 
-            task="transcribe",
-            initial_prompt=prompt,
-            condition_on_previous_text=False,
-            # Robustness filtering
-            no_speech_threshold=0.5, # Slightly looser to detect short words
-            logprob_threshold=-0.9, # Strict confidence
-            compression_ratio_threshold=2.4,
-            beam_size=5, # Better accuracy
-            best_of=5,
-            fp16=False # robust on cpu
-        )
+    def _transcribe(wav_path: str) -> str:
+        """Transcribe audio using Vosk."""
+        model = get_vosk_model()
+
+        wf = wave.open(wav_path, "rb")
+
+        if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getframerate() != 16000:
+            raise ValueError("Audio must be mono WAV 16kHz 16-bit")
+
+        rec = KaldiRecognizer(model, wf.getframerate())
+        rec.SetWords(True)
+
+        results = []
+        while True:
+            data = wf.readframes(4000)
+            if len(data) == 0:
+                break
+            if rec.AcceptWaveform(data):
+                part = json.loads(rec.Result())
+                results.append(part.get("text", ""))
+
+        # Get final result
+        final = json.loads(rec.FinalResult())
+        results.append(final.get("text", ""))
+
+        wf.close()
+        return " ".join(results).strip()
 
     @staticmethod
     def _calculate_score(transcribed: str, expected: str):
+        """Calculate pronunciation score using Levenshtein distance."""
         t_norm = transcribed.lower().strip(".,!?")
         e_norm = expected.lower().strip(".,!?")
-        
+
         if not t_norm:
-            return 0, "No speech detected"
-            
-        # Sanity check for hallucinations:
-        # If transcribed is way longer than expected (e.g. "fot" -> "Zus grupp"), it's likely noise/hallucination
+            return 0, "No speech detected. Try again."
+
+        # Sanity check for noise
         if len(expected) < 5 and len(t_norm) > len(e_norm) * 3:
-             return 0, "Could not understand. Try again."
-             
+            return 0, "Could not understand. Try again."
+
         # Levenshtein distance
         dist = Levenshtein.distance(t_norm, e_norm)
         max_len = max(len(t_norm), len(e_norm))
-        
+
         if max_len == 0:
             return 0, "Error"
-            
+
         similarity = (1 - (dist / max_len)) * 100
-        
-        # Adjust score curve
         score = int(similarity)
-        
+
         if score >= 100:
             return 100, "Perfect!"
         elif score >= 80:
@@ -122,25 +176,10 @@ class PronunciationService:
 
     @staticmethod
     def _generate_dummy_syllables(text: str, total_score: int):
-        # In a real implementation, we would align audio with phonemes.
-        # For now, we split the word and assign the score roughly to all parts.
-        # Basic heuristic syllable splitter for Swedish (vowel-consonant pattern)
+        """Generate syllable breakdown for UI display."""
         import re
-        parts = re.split(r'([aeiouyåäö]+)', text, flags=re.IGNORECASE)
-        syllables = []
-        current = ""
-        
-        for part in parts:
-            if not part: continue
-            current += part
-            # If we have a vowel group, it's a syllable core, append what we have
-            if re.search(r'[aeiouyåäö]', part, re.IGNORECASE):
-                # Check if next part is consonants, if so, maybe attach one to this syllable
-                pass
-            
-            # Simple split by length for visual effect if regex split is too complex
-        
-        # Fallback simple split
+
+        # Simple split for visual effect
         simple_parts = []
         l = len(text)
         if l <= 4:
@@ -148,5 +187,5 @@ class PronunciationService:
         else:
             mid = l // 2
             simple_parts = [text[:mid], text[mid:]]
-            
+
         return [{"syllable": p, "score": total_score} for p in simple_parts]

@@ -10,3 +10,4 @@ data/import/
 data/vocabulary_backup_*.json
 app/static/audio/words/*.mp3
 server.log
+models/
