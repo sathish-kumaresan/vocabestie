@@ -4,60 +4,85 @@
 
 {% block content %}
 <div class="p-4 max-w-md mx-auto text-center">
-    <!-- Success animation -->
+    <!-- Success animation with dynamic message -->
     <div class="py-8">
+        {% if accuracy >= 90 %}
+        <div class="text-8xl mb-4">🏆</div>
+        <h1 class="text-3xl font-bold text-swedish-yellow mb-2">Outstanding!</h1>
+        <p class="text-text-secondary">You're mastering Swedish like a pro!</p>
+        {% elif accuracy >= 70 %}
         <div class="text-8xl mb-4">🎉</div>
-        <h1 class="text-3xl font-bold text-text-primary mb-2">Great Job!</h1>
-        <p class="text-text-secondary">You completed a learning session</p>
+        <h1 class="text-3xl font-bold text-green-500 mb-2">Great Job!</h1>
+        <p class="text-text-secondary">Solid performance! Keep it up!</p>
+        {% elif accuracy >= 50 %}
+        <div class="text-8xl mb-4">💪</div>
+        <h1 class="text-3xl font-bold text-swedish-blue mb-2">Good Effort!</h1>
+        <p class="text-text-secondary">Practice makes perfect. You're improving!</p>
+        {% else %}
+        <div class="text-8xl mb-4">📚</div>
+        <h1 class="text-3xl font-bold text-text-primary mb-2">Keep Learning!</h1>
+        <p class="text-text-secondary">Review these words again to strengthen your memory.</p>
+        {% endif %}
     </div>
 
     <!-- Stats -->
     <div class="bg-card rounded-2xl p-6 mb-6 border border-border-color">
         <div class="grid grid-cols-2 gap-6">
             <div>
-                <p class="text-4xl font-bold text-swedish-yellow">{{ words_practiced }}</p>
-                <p class="text-text-secondary text-sm">Exercises</p>
+                <p class="text-4xl font-bold {% if accuracy >= 70 %}text-green-500{% elif accuracy >= 50 %}text-swedish-yellow{% else %}text-orange-500{% endif %}">{{ accuracy }}%</p>
+                <p class="text-text-secondary text-sm">Score</p>
             </div>
             <div>
-                <p class="text-4xl font-bold text-green-500">{{ accuracy }}%</p>
-                <p class="text-text-secondary text-sm">Accuracy</p>
+                <p class="text-4xl font-bold text-swedish-blue">{% if time_seconds and time_seconds >= 60 %}{{ (time_seconds // 60) }}:{{ '%02d' % (time_seconds % 60) }}{% elif time_seconds %}0:{{ '%02d' % time_seconds }}{% else %}0:00{% endif %}</p>
+                <p class="text-text-secondary text-sm">Time</p>
             </div>
         </div>
 
-        <div class="mt-6 pt-6 border-t border-border-color space-y-2">
+        <div class="mt-6 pt-6 border-t border-border-color space-y-3">
             <div class="flex justify-between text-sm">
-                <span class="text-text-secondary">Correct answers</span>
-                <span class="text-text-primary">{{ correct_count }} / {{ words_practiced }}</span>
+                <span class="text-text-secondary">Questions answered</span>
+                <span class="text-text-primary font-medium">{{ words_practiced }}</span>
             </div>
             <div class="flex justify-between text-sm">
-                <span class="text-text-secondary">Time spent</span>
-                <span class="text-text-primary">{% if time_seconds and time_seconds >= 60 %}{{ (time_seconds // 60) }}m
-                    {{
-                    time_seconds % 60 }}s{% elif time_seconds %}{{ time_seconds }}s{% else %}< 1s{% endif %}</span>
+                <span class="text-text-secondary">Correct answers</span>
+                <span class="text-green-500 font-medium">{{ correct_count }}</span>
             </div>
             {% if scenario_progress is defined %}
             <div class="flex justify-between text-sm">
                 <span class="text-text-secondary">Level progress</span>
-                <span class="text-text-primary">{{ scenario_progress }}%</span>
+                <div class="flex items-center gap-2">
+                    <div class="w-20 h-2 bg-border-color rounded-full overflow-hidden">
+                        <div class="h-full bg-swedish-yellow rounded-full" style="width: {{ scenario_progress }}%"></div>
+                    </div>
+                    <span class="text-text-primary font-medium">{{ scenario_progress }}%</span>
+                </div>
             </div>
             {% endif %}
         </div>
     </div>
 
 
-
-
-
     <!-- Actions -->
     <div class="space-y-3">
-        {% if scenario %}
+        {% if scenario and scenario.id %}
         <a href="/learn/intro/{{ scenario.id }}"
-            class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl transition-colors">
+            class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center">
             Learn More Words
         </a>
-
+        <a href="/scenarios/{{ scenario.id }}"
+            class="block w-full bg-card hover:bg-border-color text-text-primary font-medium py-3 px-6 rounded-xl transition-colors border border-border-color text-center">
+            Back to {{ scenario.name }}
+        </a>
+        {% else %}
+        <a href="/"
+            class="block w-full bg-swedish-blue hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center">
+            Continue Learning
+        </a>
         {% endif %}
-
+        <a href="/"
+            class="block w-full text-text-secondary hover:text-text-primary font-medium py-2 transition-colors text-center">
+            Home
+        </a>
     </div>
 </div>
 {% endblock %}
