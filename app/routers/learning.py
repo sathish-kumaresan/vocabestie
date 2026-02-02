@@ -665,6 +665,9 @@ def session_complete(
     auth: dict = Depends(get_auth_context),
 ):
     """Show session completion summary."""
+    # Mark any active session as completed to prevent resume loops
+    complete_current_session(db, user_id)
+
     scenario = db.query(Scenario).filter(Scenario.id == scenario_id).first()
 
     accuracy = (correct_count / words_practiced * 100) if words_practiced > 0 else 0
